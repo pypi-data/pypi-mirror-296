@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSU Secondary Container Label</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            font-size: 12px; 
+            margin: 0; 
+            padding: 0; 
+            width: 4in; /* Limit the width of the page to 4 inches */
+            height: 2in; /* Limit the height of the page to 2 inches */
+            display: flex; /* Flex container to align content within the body */
+            flex-direction: column; /* Arrange content vertically */
+            justify-content: space-between; /* Distribute content vertically */
+        }
+        .container_name { 
+            font-size: 16px; 
+            font-weight: bold; 
+            text-align: left; 
+            margin-bottom: 2px; /* Reduce margin for spacing */
+        }
+        .label-container {
+            display: flex; 
+            flex-direction: row; 
+            justify-content: space-between; 
+            gap: 5px; 
+            padding: 5px; 
+            flex-grow: 1; /* Make this container grow to fill available height */
+        }
+        .column_L {
+            width: 39%; 
+            box-sizing: border-box; 
+            text-align: left; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-between; /* Space out elements within each column */
+        }
+        .column_R {
+            width: 59%; 
+            box-sizing: border-box; 
+            text-align: left; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-between; /* Space out elements within each column */
+        }
+        .pictograms {
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: flex-start; 
+            margin-bottom: 2px; /* Reduce margin to fit within height */
+        }
+        img { 
+            max-width: 35px; /* Reduce image size to fit within the height */
+            max-height: 35px; 
+            margin-right: 3px; 
+            margin-bottom: 3px; 
+        }
+        .signal-word { 
+            font-weight: bold; 
+            font-size: 12px; 
+            text-align: left; 
+            margin-bottom: 2px; 
+        }
+        .hazard-statements { 
+            list-style-type: none; 
+            padding: 0; 
+            margin: 0 0 2px 0; 
+        }
+        .highlight {  
+            background-color: pink; 
+            font-size: 9px; /* Slightly smaller font to fit */
+            padding: 2px; 
+            margin-bottom: 2px; 
+            text-align: left; 
+        }
+        .text {  
+            font-size: 9px;  
+            text-align: left; 
+            margin-top: auto; /* Push this element to the bottom of the column */
+        }
+    </style>
+</head>
+<body>
+    <div class='container_name'>{{data['container_name'] | safe}}</div>
+    
+    <div class="label-container">
+        <!-- Column 1 -->
+        <div class="column_L">
+            <div class='signal-word'>{{data['signal_word']}}{% if data['PHS'] %}— PHS{% endif %}</div>
+            {% if data['pictograms'] %}
+            <div class='pictograms'>
+                {% for p in data['pictograms'] %}
+                    <img src='static/img/{{p}}.svg' alt="{{p}}">
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if data['PHS'] %}
+            <div class='highlight'>
+                {% for phs_trigger in data['PHS_types'] %}
+                    <br>{{phs_trigger}}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- Column 2 -->
+        <div class="column_R">
+           
+            {% if data['hazard_statements'] %}
+            <div>
+                <ul class='hazard-statements'>
+                    {% for hs in data['hazard_statements'] %}
+                        <li>{{hs | safe}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            <!-- Force this element to the bottom of the column -->
+            <div class="text">{{data['generator']}}, {{ data['date'] }}</div>
+        </div>
+    </div>
+</body>
+</html>
