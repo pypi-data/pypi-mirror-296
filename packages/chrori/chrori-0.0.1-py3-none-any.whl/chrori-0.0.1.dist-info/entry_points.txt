@@ -1,0 +1,4 @@
+[console_scripts]
+chrori_mkvcf = chrori.mkvcf:main
+chrori_select = chrori.selectvariants:main
+chrori_visual = chrori.visualize:main

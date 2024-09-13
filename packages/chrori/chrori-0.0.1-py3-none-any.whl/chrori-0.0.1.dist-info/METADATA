@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: chrori
+Version: 0.0.1
+Summary: A tool to visualize the origins of chromosome segments whose lines developed from multiple crosses.
+Home-page: https://github.com/KChigira/chrori/
+Author: Koki Chigira
+Author-email: kyoujin2009kutar@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+

@@ -1,0 +1,15 @@
+chrori/__init__.py,sha256=-77SCn80_5yOv1hlOF5ZKCdDpWozUDnI0nqg0c5Gi-A,245
+chrori/haplocall.py,sha256=XpBTyayCdeGSx8Y4oeG57vxhHYK0aZUwJXwEozCVKR8,8102
+chrori/mergevcf.py,sha256=srZwIu5K7nI7Tjg6LoVzAfqWmS9cU9G9o1KsvxSFsGE,2977
+chrori/mkvcf.py,sha256=n5q7rMzXZIXlpgaFXzm2eq4eYpNP9bnkN1EAvl3BeQ8,3169
+chrori/params.py,sha256=JQM93Rlv8pE9vEsfRJfgpycrLWSxjjBh0HwnYB2a1SY,12493
+chrori/refindex.py,sha256=NoLh6Dcif_WROz_o_opmjneVgd1usB8NmnvUdn64xPw,1423
+chrori/selectvariants.py,sha256=_X9eKIGmlFctb8mRryIC3MI5kEwmS7E8SdQ4LQaS5to,5657
+chrori/utils.py,sha256=N5tkl9o80uQ5tPv9dI2XqvUHBqGZISp05e5VXZwknns,911
+chrori/visualize.py,sha256=qI93hv3ZgEj9cM2XL-ISdOo_53zy2RVhvVO16ld0t2Y,9257
+chrori-0.0.1.dist-info/LICENSE,sha256=9Bk6Dn7AhEko0eqyBEgJ8Y4aJQSnsUUfU20TqM92t2g,1065
+chrori-0.0.1.dist-info/METADATA,sha256=R-NMq-15xCGoFT5QbBcYpu7XNCmZ4x84gg89koRzqHc,352
+chrori-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chrori-0.0.1.dist-info/entry_points.txt,sha256=oYaoa4v2s9-fEoqE-VBogR03tkHbMzeScmNuMfZj5cE,132
+chrori-0.0.1.dist-info/top_level.txt,sha256=q9mhjXE-EK9CvlfcOHYg2NMJEzItURw6-uLlWxPqvxc,7
+chrori-0.0.1.dist-info/RECORD,,
