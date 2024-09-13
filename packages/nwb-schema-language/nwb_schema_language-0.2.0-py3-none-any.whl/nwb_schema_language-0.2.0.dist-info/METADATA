@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: nwb-schema-language
+Version: 0.2.0
+Summary: Translation of the nwb-schema-language to LinkML
+Home-page: https://nwb-linkml.readthedocs.io
+Author-Email: Jonny Saunders <j@nny.fyi>
+License: AGPL-3.0
+Project-URL: Homepage, https://nwb-linkml.readthedocs.io
+Project-URL: Repository, https://github.com/p2p-ld/nwb-linkml/
+Project-URL: Documentation, https://nwb-linkml.readthedocs.io
+Requires-Python: <3.13,>=3.10
+Requires-Dist: linkml-runtime>=1.7.7
+Requires-Dist: pydantic>=2.3.0
+Description-Content-Type: text/markdown
+
+# nwb-schema-language
+
+Translation of the nwb-schema-language to LinkML
+
+## Website
+
+[https://p2p_ld.github.io/nwb-schema-language](https://p2p_ld.github.io/nwb-schema-language)
+
+## Repository Structure
+
+* [examples/](examples/) - example data
+* [project/](project/) - project files (do not edit these)
+* [src/](src/) - source files (edit these)
+  * [nwb_schema_language](src/nwb_schema_language)
+    * [schema](src/nwb_schema_language/schema) -- LinkML schema
+      (edit this)
+    * [datamodel](src/nwb_schema_language/datamodel) -- generated
+      Python datamodel
+* [tests/](tests/) - Python tests
+
+## Developer Documentation
+
+<details>
+Use the `make` command to generate project artefacts:
+
+* `make all`: make everything
+* `make deploy`: deploys site
+</details>
+
+## Credits
+
+This project was made with
+[linkml-project-cookiecutter](https://github.com/linkml/linkml-project-cookiecutter).

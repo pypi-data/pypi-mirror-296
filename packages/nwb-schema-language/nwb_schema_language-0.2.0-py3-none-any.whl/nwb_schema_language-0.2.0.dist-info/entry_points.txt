@@ -1,0 +1,4 @@
+[console_scripts]
+generate_pydantic = nwb_schema_language.generator:generate
+run_patches = nwb_schema_language.patches:main
+
