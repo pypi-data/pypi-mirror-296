@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+zopdf/__init__.py
+zopdf/pdf2image.py
+zopdf/pdf2text.py
+zopdf.egg-info/PKG-INFO
+zopdf.egg-info/SOURCES.txt
+zopdf.egg-info/dependency_links.txt
+zopdf.egg-info/top_level.txt
