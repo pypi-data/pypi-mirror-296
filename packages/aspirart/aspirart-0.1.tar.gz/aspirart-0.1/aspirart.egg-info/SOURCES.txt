@@ -1,0 +1,9 @@
+README.md
+setup.py
+aspirart/__init__.py
+aspirart/client.py
+aspirart.egg-info/PKG-INFO
+aspirart.egg-info/SOURCES.txt
+aspirart.egg-info/dependency_links.txt
+aspirart.egg-info/requires.txt
+aspirart.egg-info/top_level.txt
