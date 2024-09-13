@@ -1,0 +1,26 @@
+[project]
+
+name = "ynput"
+description = "Ynput namespace"
+readme = "README.md"
+
+dynamic = ["version"]
+authors = [
+    { name = "Dee Coureau", email = "dee@ynput.com" }
+]
+
+dependencies = []
+
+[project.urls]
+"Website" = "https://ynput.io"
+"Githup" = "https://github.com/ynput"
+
+[tool.setuptools.dynamic]
+version = {attr = "ynput.__version__"}
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine"
+]
+
