@@ -1,0 +1,3 @@
+[console_scripts]
+nxtheme_creator=nxtheme_creator:cli
+
