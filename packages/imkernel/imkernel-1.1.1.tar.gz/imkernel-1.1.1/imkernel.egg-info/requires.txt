@@ -1,0 +1,11 @@
+toml
+numpy
+pandas
+loguru
+jupyterlab
+treelib
+matplotlib
+pyvista
+vtk
+trame
+ipywidgets
