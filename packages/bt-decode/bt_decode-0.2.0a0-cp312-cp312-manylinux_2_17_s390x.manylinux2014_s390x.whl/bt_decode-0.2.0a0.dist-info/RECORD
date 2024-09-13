@@ -1,0 +1,8 @@
+bt_decode-0.2.0a0.dist-info/METADATA,sha256=YCshm-_xdIqP_rx43mJUhbt2Ag4ecj1oN9DfFsniydk,7811
+bt_decode-0.2.0a0.dist-info/WHEEL,sha256=twGECI-s-GwkoU9cxsYvY6J1RjgYvFm2Aa6DHXAOqUA,127
+bt_decode-0.2.0a0.dist-info/licenses/LICENSE,sha256=fsvpKMSAGfrUjrnCzKRog3tSkmO41onwlmItvfCutEo,1107
+bt_decode/__init__.py,sha256=lWQG5gWj-BQ_itAbbgMByM6ymqgEo6VwJ2AqWIkc-OU,119
+bt_decode/__init__.pyi,sha256=o6mfZNMfsjJyzqO8lgnXI8yI_rdqvn82VrMR629SjZM,8006
+bt_decode/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bt_decode/bt_decode.cpython-312-s390x-linux-gnu.so,sha256=xEBd5ymhIe-0p1q7DgPoPortv-27CzHEXYNIAnTNTfU,1594312
+bt_decode-0.2.0a0.dist-info/RECORD,,
