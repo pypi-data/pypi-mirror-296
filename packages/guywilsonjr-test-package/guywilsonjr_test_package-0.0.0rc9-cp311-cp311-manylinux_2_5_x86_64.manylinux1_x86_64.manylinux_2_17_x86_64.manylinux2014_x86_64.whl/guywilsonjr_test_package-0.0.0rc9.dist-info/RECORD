@@ -1,0 +1,8 @@
+hello_world.cpython-311-x86_64-linux-gnu.so,sha256=sfrxWIxo09AJPk8Y9dMofsSYKRIEhEBUzXZjZtrolWs,17288
+guywilsonjr_test_package-0.0.0rc9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+guywilsonjr_test_package-0.0.0rc9.dist-info/METADATA,sha256=A81xIgsK5FRwLF_p7IsqlIsTsVoDcd0bwbMPtZ2uyGs,999
+guywilsonjr_test_package-0.0.0rc9.dist-info/top_level.txt,sha256=vY8b2A8Sa2-5PUXRoDjDABQ-zMBnaxTqNarDpG9ub2s,12
+guywilsonjr_test_package-0.0.0rc9.dist-info/RECORD,,
+guywilsonjr_test_package-0.0.0rc9.dist-info/WHEEL,sha256=JRJB8-WBQa08Xk5bKm3fUC7njiF9Ou2o3gl0FZ1XneU,224
+hello_world/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hello_world/hello_world.c,sha256=simE3FrLsEDhOYZkTfugGS5Rc63aNNHSjTq8GaWfid4,173
