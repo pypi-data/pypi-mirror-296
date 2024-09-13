@@ -1,0 +1,3 @@
+[console_scripts]
+deng=vianaxabreu_de_toolkit.main:cli
+
