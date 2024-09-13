@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: tcr-boost
+Version: 0.1.0
+Summary: T-Cell Receptor Bayesian Optimization of Specificity and Tuning
+Home-page: https://github.com/yourusername/tcr-boost
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TCR BOOST Package
+
+**TCR BOOST** stands for **T-Cell Receptor Bayesian Optimization of Specificity and Tuning**.
+
+This package provides tools for optimizing T-cell receptor (TCR) alpha and beta chain sequences using Bayesian Optimization to enhance epitope specificity and tuning.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install tcr-boost
+```
+
+## Usage
+
+```python
+from tcr_boost import run_optimization
+
+run_optimization()
+```
+
+## License
+
+[MIT License](LICENSE)
+
+## About
+
+**TCR BOOST** leverages Bayesian Optimization to fine-tune TCR sequences, improving their specificity towards target epitopes. The acronym **BOOST** reflects the goal of enhancing TCR performance through Bayesian methods.
+
