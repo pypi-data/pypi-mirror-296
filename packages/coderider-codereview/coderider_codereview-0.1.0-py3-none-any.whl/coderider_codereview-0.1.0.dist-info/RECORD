@@ -1,0 +1,12 @@
+coderider_codereview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coderider_codereview/cli.py,sha256=_cE2o9BZGGPG6nHejC10EaSMp8zcIY7Ym_hebOYI-gU,844
+coderider_codereview/coderider_client.py,sha256=-u9oQefXMR4LIzNRgzYFPKjflY_4a6ymiwxltwRRieo,1643
+coderider_codereview/configs.py,sha256=VsNdR5AExGrVLIPSt9ZCBcyZ6T2oQlGYZv-HJnW3Q1s,1281
+coderider_codereview/exceptions.py,sha256=HDvqa2SjFpyGy_O5-HrJ2DQOrJS1pLsDi3gqSBL5X1U,264
+coderider_codereview/gitlab_client.py,sha256=1W4a-0eb3l414jfwA4nTNOefFxA_Nx8rv8KgnjU24T4,1635
+coderider_codereview/litellm_client.py,sha256=vdWwlUrBfHA3gy9SCF5ONOV8NYDf-tmjXi35LWhvadI,714
+coderider_codereview/prompt.py,sha256=vr0105JawwAq09mSZnt5PIYUcFZZhygkj-sVsZ4NllI,2529
+coderider_codereview-0.1.0.dist-info/METADATA,sha256=FHg5EKujYMipRMC_9wjjMDZa_kZ2l7fy11TCQGSLrpw,1356
+coderider_codereview-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+coderider_codereview-0.1.0.dist-info/entry_points.txt,sha256=oMg8HQBUV9mP2VOz6ujsD9WEdCVm7jfDHcU6_FtFWvc,54
+coderider_codereview-0.1.0.dist-info/RECORD,,
