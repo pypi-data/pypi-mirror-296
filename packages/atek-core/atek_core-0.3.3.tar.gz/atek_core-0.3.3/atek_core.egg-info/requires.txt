@@ -1,0 +1,14 @@
+torch==2.4.1
+torchvision
+torchmetrics==0.10.1
+fvcore
+fsspec
+iopath
+tqdm
+scipy
+webdataset
+trimesh
+pybind11
+toolz
+opencv-python
+projectaria-tools
