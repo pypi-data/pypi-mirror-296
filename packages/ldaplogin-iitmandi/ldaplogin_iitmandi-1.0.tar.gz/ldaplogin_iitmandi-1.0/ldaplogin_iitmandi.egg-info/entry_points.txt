@@ -1,0 +1,4 @@
+[console_scripts]
+ldap-login = ldaplogin.login:ldap_login
+ldap-logout = ldaplogin.logout:ldap_logout
+ldap-setup = ldaplogin.setup_credentials:setup_credentials
