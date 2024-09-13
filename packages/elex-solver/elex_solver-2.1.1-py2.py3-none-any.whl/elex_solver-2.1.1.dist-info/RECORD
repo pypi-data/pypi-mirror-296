@@ -1,0 +1,11 @@
+elexsolver/LinearSolver.py,sha256=eQTSFgulTJDtF1enPVZCN1H8KtoMFoppZuDmogZBcow,2359
+elexsolver/OLSRegressionSolver.py,sha256=FVYUNiKkUg5FMTyYdhJg-F8Q4SFX2rF0llObO0yHrQU,5354
+elexsolver/QuantileRegressionSolver.py,sha256=dQWnOwL83sYAJzrjnr63qjgY46o5aoXlR3jQOIq-b38,4707
+elexsolver/TransitionMatrixSolver.py,sha256=SrR5rHdP3C4vpXYnGOWi_Hpe5S711Au7ydHL1QGVqN4,3303
+elexsolver/TransitionSolver.py,sha256=VkOnMZt8SVi7z4yj7IVHvjGc96YRnTJBhv4VqcUsKnM,3854
+elexsolver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elexsolver/logging.py,sha256=NCcH1W883ubqUmq1YJchGc2mQYXvt_uu9grG-lPLFBE,920
+elex_solver-2.1.1.dist-info/METADATA,sha256=AhzQCl1BAzPxfpSB24Rsy32GatGhX-uh2xi6RTTRtcE,2136
+elex_solver-2.1.1.dist-info/WHEEL,sha256=qUzzGenXXuJTzyjFah76kDVqDvnk-YDzY00svnrl84w,109
+elex_solver-2.1.1.dist-info/top_level.txt,sha256=QHPIwNuxe9rNdjlxzaqIWoOh5VD2dfDlx1iJougP9og,11
+elex_solver-2.1.1.dist-info/RECORD,,
