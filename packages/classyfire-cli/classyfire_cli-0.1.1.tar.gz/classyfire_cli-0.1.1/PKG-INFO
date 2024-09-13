@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: classyfire-cli
+Version: 0.1.1
+Summary: classyfire commandline tool
+License: MIT
+Author: Yukai
+Author-email: wangyk22@student.ubc.ca
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: rdkit (>=2024.3.5,<2025.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Classyfire CLI
+This is a command line interface for the Classyfire API, which is based on the batch API calling. 
+It allows you to classify chemical compounds at large scale.
+
+## Installation
+```bash
+pip install classyfire-cli
+```
+
+## Usage
+Use SMILES:
+```bash
+classyfire input.txt output.json
+```
+
+Use InChI:
+```bash
+classyfire --identifier InChI input.txt output.json
+```
+
+Export to TSV:
+```bash
+classyfire input.txt output.tsv
+```
