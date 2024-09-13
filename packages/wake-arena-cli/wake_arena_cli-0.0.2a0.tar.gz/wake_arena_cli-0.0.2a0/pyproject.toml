@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "wake-arena-cli"
+version = "0.0.2a0"
+description = "Wake Arena CLI tool"
+authors = ["pavelsvagr <pavel.svagr@ackee.cz>"]
+readme = "README.md"
+packages = [
+    { include = "cli" },
+    { include = "api" },
+]
+
+[tool.poetry.scripts]
+wake-arena = "cli.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rich-click = "^1.8.3"
+requests = "^2.32.3"
+pyyaml = "^6.0.2"
+schema = "^0.7.7"
+halo = "^0.0.31"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
