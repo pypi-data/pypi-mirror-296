@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: TSVZ
+Version: 2.57
+Summary: An simple in memory wrapper around a TSV file to function as a database
+Home-page: https://github.com/yufei-pan/TSVZ
+Author: Yufei Pan
+Author-email: pan@zopyr.us
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This lib provides some helper funtions to interact with tsv ( tab seperated values ) files.
+
+TSVZ can also funtion like an in memory DB that is able to perform non-blocking read / write to TSV files.
