@@ -1,0 +1,3 @@
+[console_scripts]
+foxy-imports=foxylint.main:main
+
