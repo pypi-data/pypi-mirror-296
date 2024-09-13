@@ -1,0 +1,17 @@
+*.pyproj
+__pycache__/*
+/.ipynb_checkpoints
+/SpyGRT.egg-info/*
+/spygrt/__pycache__/*
+/Examples/.ipynb_checkpoints/*
+Examples/.ipynb_checkpoints/CalibrationExample-checkpoint.ipynb
+/dist/*
+/.idea/*
+*.pcd
+**/*.txt
+*.PNG
+
+*.ply
+build/lib/*
+/Dev_test/*
+*.log
