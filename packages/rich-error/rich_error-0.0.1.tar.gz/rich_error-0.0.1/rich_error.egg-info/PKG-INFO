@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rich-error
+Version: 0.0.1
+Summary: Implementation of rich error in Python.
+Home-page: https://github.com/alireza-fa/rich-error
+Author: Alireza Feizi
+Author-email: alirezafeyze44@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/alireza-fa/rich-error
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Rich Error
