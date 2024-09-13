@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: inichord
+Version: 0.1.3
+Summary: image series treatment tools
+License: CeCILL
+Author: Gabriel Denhez L'Hôte
+Author-email: glhote@insa-lyon.fr
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# iniCHORD
+Library containing the codes for image series treatment.
+
