@@ -1,0 +1,13 @@
+seadex/__init__.py,sha256=AkyCx93mdf2mIYXrHxb02Ah8aA_8hgOMmoAWFjUWsV8,225
+seadex/__main__.py,sha256=mnYwD39FIc_OGdPZp_EQjH6xykuKdIFVr6cw4yiof1w,518
+seadex/_backup.py,sha256=oLvsa1FhsnrRNNigxJCGXYFZ-fb6kaobZo1i9JLFjXA,6271
+seadex/_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seadex/_cli/_backup.py,sha256=8nQCrlbPMgmM60egt_4BwF0pCN1pda-fLGkUDGQ0o1s,5169
+seadex/_types.py,sha256=igOaZOfiunlcSlsv1yIL8bV5QglilP92OGIqqfNBsSE,371
+seadex/_utils.py,sha256=Vml4jcuAQn1dPtfhJSobkmOBw7077Rnj8R1Je69249A,260
+seadex/_version.py,sha256=JWCY4BUIKCttwldsbQ4sI4NRI8zBXB8eADxesjP4Dsk,285
+seadex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seadex-0.1.0.dist-info/METADATA,sha256=t_keQHcRjVg8fGJL7K6UcaK8QBtmjg13h93lbjqUKQI,3142
+seadex-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+seadex-0.1.0.dist-info/entry_points.txt,sha256=1ReGNZTfDQa7xDtakcJwkpjfHXGWW-OV9DJe9oz_16k,46
+seadex-0.1.0.dist-info/RECORD,,
