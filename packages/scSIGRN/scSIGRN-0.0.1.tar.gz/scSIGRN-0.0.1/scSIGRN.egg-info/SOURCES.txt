@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.py
+SIGRN/SIGRN.py
+SIGRN/__init__.py
+SIGRN/data.py
+SIGRN/evaluate.py
+SIGRN/logger.py
+SIGRN/models.py
+SIGRN/nearest_embed.py
+SIGRN/run.py
+SIGRN/data/__init__.py
+SIGRN/images/__init__.py
+scSIGRN.egg-info/PKG-INFO
+scSIGRN.egg-info/SOURCES.txt
+scSIGRN.egg-info/dependency_links.txt
+scSIGRN.egg-info/top_level.txt
