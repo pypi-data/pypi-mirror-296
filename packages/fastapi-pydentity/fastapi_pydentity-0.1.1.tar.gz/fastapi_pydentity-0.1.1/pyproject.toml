@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "fastapi-pydentity"
+version = "0.1.1"
+description = ""
+authors = ["udachin077 <pypi.udachin@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+exclude = [
+    "examples",
+    "tests"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+PyJWT = "2.9.0"
+fastapi = "0.114.*"
+pydenticore = "^0.1.2"
+python-multipart = "^0.0.9"
+pydentity-db-sqlalchemy = { version = "0.1.*", optional = true }
+pydentity-db-tortoise = { version = "0.1.*", optional = true }
+
+[tool.poetry.extras]
+sqlalchemy = ["pydentity-db-sqlalchemy"]
+tortoise = ["pydentity-db-tortoise"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
