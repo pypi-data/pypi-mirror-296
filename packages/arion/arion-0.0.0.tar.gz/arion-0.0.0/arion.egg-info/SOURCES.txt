@@ -1,0 +1,6 @@
+pyproject.toml
+arion/__init__.py
+arion.egg-info/PKG-INFO
+arion.egg-info/SOURCES.txt
+arion.egg-info/dependency_links.txt
+arion.egg-info/top_level.txt
