@@ -1,0 +1,20 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[tool.scikit-build]
+cmake.source-dir = "."
+cmake.build-type = "Release"
+cmake.args = ["-DCMAKE_INSTALL_PREFIX=."]
+
+[project]
+name = "pyix"
+version = "0.1.0"
+authors = [
+    { name = "Taylor Denouden", email = "taylor.denouden@hakai.org" },
+]
+description = "Image stacking module for RGB and NIR images. Python bindings to a subset of the PhaseOne ImageSDK."
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/tayden/pyix"

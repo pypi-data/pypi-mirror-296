@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pyix
+Version: 0.1.0
+Summary: Image stacking module for RGB and NIR images. Python bindings to a subset of the PhaseOne ImageSDK.
+Author-Email: Taylor Denouden <taylor.denouden@hakai.org>
+Project-URL: Homepage, https://github.com/tayden/pyix
+Requires-Python: >=3.8
