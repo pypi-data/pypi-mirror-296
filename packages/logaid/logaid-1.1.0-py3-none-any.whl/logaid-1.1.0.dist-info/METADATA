@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: logaid
+Version: 1.1.0
+Summary: A log aid for you.
+Author: quinn
+License: MIT
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# LogAid
+
+A log aid for you.
+
+## Installation
+```
+pip install logaid
+```
+
+## Usage
+```
+import logaid as log
+
+log.info("Info")
+log.debug("Debug")
+log.warning("Warning")
+log.error("Error")
+```
+### or 
+```
+from logaid import log
+log.init(level='DEBUG',save=True)
+
+log.info('hello world',{'key':'value'})
+```
