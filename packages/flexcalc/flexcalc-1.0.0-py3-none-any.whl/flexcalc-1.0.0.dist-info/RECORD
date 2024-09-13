@@ -1,0 +1,9 @@
+flexcalc/__init__.py,sha256=KQz1LBt48x17M7vp46lBz66Y6ZXXGkYQm8xaRN4xutY,90
+flexcalc/analyze.py,sha256=GIKOzKRi73ZS78uUPFtreab2hHH26LJoJPI6vj532eI,17536
+flexcalc/pipeline.py,sha256=mAzHsIK8n_eZJTiZHXHqexZ18HBbsKMzQtDFGR7S7P4,48526
+flexcalc/process.py,sha256=4zZ_lOn60GAh33yngxu1btMixN-QC6-fyONgStXJSO8,41605
+flexcalc-1.0.0.dist-info/LICENSE.md,sha256=MyIVuSG42LpY2D7BLVuFDhPx_FjuQPXXS_Jc2UnNe-U,1561
+flexcalc-1.0.0.dist-info/METADATA,sha256=kz5Pxnq1-zLvecFcVFVTctTVEueTca15w7-wAVL_62U,3176
+flexcalc-1.0.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+flexcalc-1.0.0.dist-info/top_level.txt,sha256=bgp9X21ZAid4Mg3yvNx-wedu9MQZIOE6p70J4FlEO84,9
+flexcalc-1.0.0.dist-info/RECORD,,
