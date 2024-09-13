@@ -1,0 +1,10 @@
+melodi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+melodi/api.py,sha256=2s6pr31Ma1z10eYu9dAns0xaYX21gshJ3O3LTXT68vA,18032
+melodi/data_models.py,sha256=MKrk7KyxSlspmWtjzp3y2isAcDDHyMMONca98Iz04fc,4702
+melodi/exceptions.py,sha256=ZKXpfkBifPlCEeAxQ1lwdlOXd4xvBLqU8_99tncXCEs,92
+melodi/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+melodi/utils/openai.py,sha256=ixdn9LAyd2JktSQvHSCe1PTUY3_jbbWIMIKEFCUS_WQ,1904
+melodi-0.0.49.dist-info/METADATA,sha256=XL3sl8XpG6m_5KxKfRcpWL_Zk-tB_YUWy34e3XJp9ZA,6204
+melodi-0.0.49.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+melodi-0.0.49.dist-info/top_level.txt,sha256=X1dFzlb50MpkKuj1mQPaQMxcyj9v9fDNgJ99KCCMOHM,7
+melodi-0.0.49.dist-info/RECORD,,
