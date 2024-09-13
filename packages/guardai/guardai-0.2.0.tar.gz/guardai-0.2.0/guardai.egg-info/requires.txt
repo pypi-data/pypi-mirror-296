@@ -1,0 +1,10 @@
+openai>=1.40.6
+PyGithub
+requests
+google-generativeai
+ipython
+
+[dev]
+pylint
+black
+isort
