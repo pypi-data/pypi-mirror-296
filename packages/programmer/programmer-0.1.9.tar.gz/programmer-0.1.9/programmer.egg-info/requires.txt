@@ -1,0 +1,4 @@
+weave>=0.51.1
+streamlit
+pandas
+litellm
