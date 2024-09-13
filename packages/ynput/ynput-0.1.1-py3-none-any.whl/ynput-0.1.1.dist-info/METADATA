@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ynput
+Version: 0.1.1
+Summary: Ynput namespace
+Author-email: Dee Coureau <dee@ynput.com>
+Project-URL: Website, https://ynput.io
+Project-URL: Githup, https://github.com/ynput
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# Ynput 
+This package is the namespace for https://ynput.io packages.
