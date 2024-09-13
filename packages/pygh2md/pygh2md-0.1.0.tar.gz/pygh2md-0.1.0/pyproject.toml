@@ -1,0 +1,36 @@
+[build-system]
+requires = ['setuptools', 'wheel']
+build-backend = "setuptools.build_meta"
+
+[project]
+name='pygh2md'
+dynamic = ["version"]
+description = 'Convert Git Issue to Markdown'
+readme = "README.md"
+license = {text = 'GNU AFFERO GENERAL PUBLIC LICENSE'}
+authors = [{name = 'Humberto A. Sanchez II', email = 'Humbert.A.Sanchez.II@gmail.com'}]
+maintainers = [{name = 'Humberto A. Sanchez II', email = 'Humbert.A.Sanchez.II@gmail.com'}]
+keywords = ['git', 'issue management', 'markdown', 'python',]
+
+dependencies = [
+  'PyGithub>=2.4.0',
+  'click>=8.1.7',
+  'codeallybasic>=1.4.0',
+]
+
+[project.urls]
+Repository = 'https://github.com/hasii2011/pygh2md'
+
+
+[tool.setuptools.packages.find]
+where = ['src']
+
+[tool.setuptools.package-data]
+'gh2md.resources' = ['loggingConfiguration.json']
+
+[tool.setuptools.dynamic]
+version = {attr = 'gh2md.__version__'}
+
+[project.scripts]
+
+pygh2md = "gh2md.Gh2md:commandHandler"
