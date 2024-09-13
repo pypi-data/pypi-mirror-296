@@ -1,0 +1,16 @@
+# dimensions/basketball.yaml
+length: 28.0 # Length of the court in meters (FIBA standard)
+width: 15.0 # Width of the court in meters (FIBA standard)
+line_width: 0.05 # Width of the lines in meters
+center_circle_radius: 1.80
+three_point_radius: 6.75
+free_throw_line_distance: 5.80
+free_throw_circle_radius: 1.80
+restricted_area_radius: 1.25
+backboard_width: 1.80
+backboard_distance: 1.20
+# All dimensions are in meters
+left: 0.0 # Left boundary of the pitch
+right: 105.0 # Right boundary of the pitch
+bottom: 0.0 # Bottom boundary of the pitch
+top: 68.0 # Top boundary of the pitch
