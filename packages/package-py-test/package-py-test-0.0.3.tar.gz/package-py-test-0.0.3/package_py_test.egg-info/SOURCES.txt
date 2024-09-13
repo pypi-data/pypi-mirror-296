@@ -1,0 +1,11 @@
+README.md
+setup.py
+package-py-test/__init__.py
+package-py-test/hello/__init__.py
+package-py-test/hello/helloworld_pb2.py
+package-py-test/hello/helloworld_pb2_grpc.py
+package_py_test.egg-info/PKG-INFO
+package_py_test.egg-info/SOURCES.txt
+package_py_test.egg-info/dependency_links.txt
+package_py_test.egg-info/requires.txt
+package_py_test.egg-info/top_level.txt
