@@ -1,0 +1,5 @@
+[console_scripts]
+cython-cmake = cython_cmake.__main__:main
+
+[cmake.module]
+cython_cmake = cython_cmake.cmake
