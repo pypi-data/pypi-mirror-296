@@ -1,0 +1,11 @@
+xdlake/__init__.py,sha256=O1evdiucNUh9pCWWIj9eMKqn4KP_4DTRZ2ipnk8ks5Y,17359
+xdlake/__version__.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+xdlake/dataset_utils.py,sha256=Y9MBL1GchpxDfdrFX7F0L2dj-AAHbDCTsbtLaXgpxhI,4759
+xdlake/delta_log.py,sha256=m2cZeSm2k93rqzYT0KNx3BD_LxM-eJImx2HOBdYJBTA,26108
+xdlake/storage.py,sha256=Hjxtp5HDVcZZu5TNQKn-hVybjJs-NP5krg7YNAKn_Uk,7446
+xdlake/utils.py,sha256=cvf-RIJtBL7u0soPSgZgX6rj-imbjDyLmL4W298M7DI,254
+xdlake-0.0.4.dist-info/LICENSE,sha256=S5pW2XTnUw-VQQ8ReKxmnTLazRkJnDE1sfvFTggsSg0,1073
+xdlake-0.0.4.dist-info/METADATA,sha256=6MEHhwYBpySGWM6emLEabCh05huuLmmeD16joHEXIDE,6136
+xdlake-0.0.4.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+xdlake-0.0.4.dist-info/top_level.txt,sha256=WKEAvCchNfPeJj7mXhZz72NCrfDmjpMxTg6Q-5eUs9c,7
+xdlake-0.0.4.dist-info/RECORD,,
