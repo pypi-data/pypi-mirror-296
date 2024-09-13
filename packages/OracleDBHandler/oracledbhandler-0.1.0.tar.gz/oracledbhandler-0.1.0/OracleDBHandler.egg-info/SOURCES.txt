@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+OracleDBHandler/__init__.py
+OracleDBHandler/oracle_db_handler.py
+OracleDBHandler.egg-info/PKG-INFO
+OracleDBHandler.egg-info/SOURCES.txt
+OracleDBHandler.egg-info/dependency_links.txt
+OracleDBHandler.egg-info/requires.txt
+OracleDBHandler.egg-info/top_level.txt
