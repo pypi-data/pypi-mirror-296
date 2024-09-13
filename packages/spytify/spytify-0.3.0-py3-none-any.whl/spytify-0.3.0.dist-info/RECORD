@@ -1,0 +1,9 @@
+spytify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spytify/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spytify/client/base.py,sha256=kiS4W5b7MJj6tc-nbTgMynp2Nm9qQPO05RfJC3uo-Yg,6728
+spytify/client/server_client.py,sha256=dOp0Qqd5s8-OTuzvGX5yBkmnX0xE5Ks3a7aeZYZH5Vw,1602
+spytify/client/user_client.py,sha256=EIgWe7OHKG2yFFh6GQrgFjvnCnQpgS4lCWjP1nFGOqY,5035
+spytify-0.3.0.dist-info/METADATA,sha256=NCu8Vuknql92Yod7Ajm8jWo8za8k3imWZxFcOPi6Zsw,428
+spytify-0.3.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+spytify-0.3.0.dist-info/licenses/LICENSE,sha256=lLMfP84eV7sRMShZtel0xAc79NLU3mHfWb8cFkJkptI,1072
+spytify-0.3.0.dist-info/RECORD,,
