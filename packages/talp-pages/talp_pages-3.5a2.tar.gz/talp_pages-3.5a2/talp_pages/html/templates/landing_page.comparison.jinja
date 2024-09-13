@@ -1,0 +1,42 @@
+{% extends "base.html.jinja" %}
+{% block title %}Comparison Report{% endblock %}
+
+{% block content %}
+<div class="px-4 py-5 text-center">
+  <h1 class="display-5 fw-bold text-body-emphasis">TALP Comparison report</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      Comparing {{ version_old or "version_old" }} to {{ version_new or "version_new"}}
+    </p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+    </div>
+  </div>
+</div>
+
+<div class="container px-4" id="availableSites">
+  <div class="row g-4">
+      <div class="col col-md-12">
+          {{ figure_overview }}
+      </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for path in paths%}
+      <div class="col">
+        <div class="card">
+        <!--<div class="card-img-top">TEST</div>-->
+        <div class="card-body">
+          <h5 class="card-title">{{path}}</h5>
+          <p class="card-text">
+          
+          </p>
+          <a  class="btn btn-sm btn-primary" href="{{path}}/index.html">Time evolution</a>
+          <a  class="btn btn-sm btn-primary" href="{{path}}/index.html">Scaling</a>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
