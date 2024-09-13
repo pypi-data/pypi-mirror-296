@@ -1,0 +1,12 @@
+tidysorter/__init__.py,sha256=ph5KUYV1sMYj8BmlTCxjAEDRuKFnM1c44bPAxUosr30,28
+tidysorter/constants.py,sha256=cAOQojz8jKXtZYxPAwBEHOlgMwhxzPaBXDKR78WuwXk,3437
+tidysorter/generate.py,sha256=rUC_XbIIfGzvyEt2-bOHG4B0T6qMZGNEAzDIMSYh43A,888
+tidysorter/tidysorter.py,sha256=P7VAhA9UPQoqv_Eg0RimspzNJxhRsfH806mEyk2b24I,8248
+tidysorter/utils.py,sha256=OHrih95-XjIVktD36_MwP0BqKhpCdO7c1nc-Ah1jAOQ,481
+tidysorter/zip.py,sha256=1vnB5MMnCVrg1lVU0qRcR7rAox-1t_TUkMKSIAIj5eE,957
+tidysorter-1.0.5.dist-info/LICENSE,sha256=Vq9kKH5pQU5qpWIMFXBfRRqpgY0Ay-aCo1k3YMXIz9c,1093
+tidysorter-1.0.5.dist-info/METADATA,sha256=0LJTMnNJOP6XYNLeBaUnwL4Dtzd8gsqvAeTxk9C6Xag,1704
+tidysorter-1.0.5.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+tidysorter-1.0.5.dist-info/entry_points.txt,sha256=xgxDMBz54KNj2mZIzKHI5uwJH515EszIPBw2bu0ICQ8,58
+tidysorter-1.0.5.dist-info/top_level.txt,sha256=FXA8Ad-8iFWG27hl6VtxdcOh2uPetXWG4CKYrxLOaOE,11
+tidysorter-1.0.5.dist-info/RECORD,,
