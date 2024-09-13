@@ -1,0 +1,7 @@
+trulens/providers/openai/__init__.py,sha256=US8L4LrQmj3wnBAjqc0TKlxMmDwZ8adQhmlxWuHsBcA,535
+trulens/providers/openai/endpoint.py,sha256=R9YYIM9-7e_4tmxlGu691mP0vGrDeuyLOKsV4-mP2oc,12753
+trulens/providers/openai/provider.py,sha256=B5ojTqqS7Q8uU_5CDhKWpFC8ltrrL4GVEfsWf4MJyTk,13448
+trulens/providers/openai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trulens_providers_openai-1.0.2a0.dist-info/METADATA,sha256=iQRiZqL--Bs04rZRjWd-GmAjBAjSd5BJ0i6E058hc-c,1068
+trulens_providers_openai-1.0.2a0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+trulens_providers_openai-1.0.2a0.dist-info/RECORD,,
