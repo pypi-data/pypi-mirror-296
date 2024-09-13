@@ -1,0 +1,3 @@
+[console_scripts]
+cluster_ping=cluster_ping.cluster_ping:action
+
