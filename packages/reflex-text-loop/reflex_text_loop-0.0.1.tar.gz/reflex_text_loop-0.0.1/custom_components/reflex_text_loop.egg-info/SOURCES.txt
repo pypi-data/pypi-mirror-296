@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+custom_components/reflex_text_loop/__init__.py
+custom_components/reflex_text_loop/text_loop.py
+custom_components/reflex_text_loop.egg-info/PKG-INFO
+custom_components/reflex_text_loop.egg-info/SOURCES.txt
+custom_components/reflex_text_loop.egg-info/dependency_links.txt
+custom_components/reflex_text_loop.egg-info/requires.txt
+custom_components/reflex_text_loop.egg-info/top_level.txt
