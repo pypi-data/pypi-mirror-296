@@ -1,0 +1,16 @@
+hermitage_alchemy/__init__.py,sha256=zLZil3SyWGr0_faUDdnVpW0BKwr-9phBdVkc06JWtGM,524
+hermitage_alchemy/assembling.py,sha256=QH04T9lrxWjgxNemAEvghkI-UpG2iRLVSbeaEsbgGOM,11224
+hermitage_alchemy/bootstraping.py,sha256=8FupZIugodO0IMiIqOE0Zru9TAtWWukjBgRLzg5yc0I,1208
+hermitage_alchemy/configuration.py,sha256=l2317GgYHyGlQ1fzXZ2PzBILvEU97VXb4hqE3HGyGHA,7866
+hermitage_alchemy/definition/__init__.py,sha256=gduB8XZqaQGgd3JWK_mJBIoZuaXkSWD17pUfYFDHt-U,24
+hermitage_alchemy/definition/contracts.py,sha256=N89Nr9LFiI9KSiGCRgShnJ3ySydqq8oROl5DUKSHgVA,718
+hermitage_alchemy/execution/__init__.py,sha256=1rAP0MAx_n0y3WOtBoy1Wz9xiNhM0d6pA-3gEmbjLMQ,60
+hermitage_alchemy/execution/read.py,sha256=8r01UvdgtGpZf9BTxhvcc9XEPDeQjDPFJWWSIq8WbeE,7151
+hermitage_alchemy/execution/write.py,sha256=5gkPqSPzrHDyNV6XzyOl0N26MLPA84LnaETTsnSwiog,1841
+hermitage_alchemy/types/__init__.py,sha256=nrkAm9vVZaGkDD_0fXg2U0A6R7d4e8rw8btYvGXLA1E,20
+hermitage_alchemy/types/jsonb/__init__.py,sha256=LS-eA3e2_fTAQwfoZ5CUDWBm_ORle78syKEkAJzekgM,58
+hermitage_alchemy/types/jsonb/decoding.py,sha256=pnA_WVLBbqoKc09FSrnt_R4L2mXqC0af-wLgmCqFIIk,586
+hermitage_alchemy/types/jsonb/encoding.py,sha256=MexHFo1uIWmmpZTK4ji1dC-y-pkRd-SMrt4u_bdaR60,631
+hermitage_alchemy-0.3.7.dist-info/METADATA,sha256=44XCvJPOkPsXL4_2mJAoQPkti7HFBKopu3WXYKBEy48,602
+hermitage_alchemy-0.3.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+hermitage_alchemy-0.3.7.dist-info/RECORD,,
