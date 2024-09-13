@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lgjs_crypto_v2
+Version: 0.1
+Summary: A package to search cryptocurrency data using Kraken
+Author: liamgen.js
+Author-email: liamgen.js@proton.me
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ccxt
+Requires-Dist: pandas
+
+i = CryptoSearcher()
+
+d = i.searchCrypto("BTC/USDT", interval="4h", limit=200)
+
+print(d)
