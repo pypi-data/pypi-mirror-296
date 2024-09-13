@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+asar/__init__.py
+asar/asar.py
+asar/integrity.py
+asar/limited_reader.py
+asar/metadata.py
+asar.egg-info/PKG-INFO
+asar.egg-info/SOURCES.txt
+asar.egg-info/dependency_links.txt
+asar.egg-info/top_level.txt
+tests/test_asar.py
