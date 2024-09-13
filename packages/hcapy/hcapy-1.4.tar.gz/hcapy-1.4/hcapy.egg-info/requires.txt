@@ -1,0 +1,6 @@
+ezdxf
+geopandas
+pyshp
+rasterio
+numpy
+pyproj
