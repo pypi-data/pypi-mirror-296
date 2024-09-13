@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: v8serialize
+Version: 0.0.0.dev0
+Summary: The V8 serialialization format.
+License: MIT
+Author: Hal Blackburn
+Author-email: hwtb2@cam.ac.uk
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# `v8serialize`
+
+Read & write the [V8 serialization format] with Python.
+
+[V8 serialization format]:
+  https://chromium.googlesource.com/v8/v8/+/refs/heads/main/src/objects/value-serializer.cc
+
+## Byte order/endianness
+
+V8 uses the native byte order when serialising data. This library explicitly
+uses little endian. This is because:
+
+- The vast majority of systems using V8 are little endian
+- Because the serialized byte order is native, when people use it to store
+  persistent data they are probably assuming little-endian systems will read it
+  later.
+- I don't have a big-endian system or VM to test against
+
+In principle there's no thing to stop prevent adding big endian support though.
+
