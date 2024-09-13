@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: hcapy
+Version: 1.8
+Summary: HCA private package
+Author: huochunan
+Author-email: huochunan@163.com
+License: MIT
+License-File: LICENSE
+
+# hcapy Documents
+
+hcapy是一个自用的python库。
+
+最新版本：1.8
+
+## Requirements
+
+- ezdxf
+- geopandas
+- pyshp
+- rasterio
+- numpy
+- pyproj
+
+## Install
+
+- pip install hcapy -i https://pypi.org/simple
