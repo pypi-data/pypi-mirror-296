@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ynput
+Version: 0.1.0
+Summary: Ynput namespace
+Author-email: Dee Coureau <dee@ynput.com>
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
