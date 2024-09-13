@@ -1,0 +1,12 @@
+# dimensions/tennis.yaml
+length: 23.77 # Length of the court in meters
+width: 10.97 # Width of the doubles court in meters
+singles_width: 8.23 # Width of the singles court in meters
+service_line_distance: 6.40
+net_height: 0.914 # Not used for plotting, but included for completeness
+line_width: 0.05
+# All dimensions are in meters
+left: 0.0 # Left boundary of the pitch
+right: 105.0 # Right boundary of the pitch
+bottom: 0.0 # Bottom boundary of the pitch
+top: 68.0 # Top boundary of the pitch

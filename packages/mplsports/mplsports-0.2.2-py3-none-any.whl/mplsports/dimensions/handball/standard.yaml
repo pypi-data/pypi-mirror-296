@@ -1,0 +1,10 @@
+length: 40.0 # Length of the court in meters
+width: 20.0 # Width of the court in meters
+line_width: 0.05
+goal_area_radius: 6.0
+dotted_line_distance: 9.0
+center_circle_radius: 0.0 # Handball doesn't have a center circle
+left: 0.0 # Left boundary of the pitch
+right: 105.0 # Right boundary of the pitch
+bottom: 0.0 # Bottom boundary of the pitch
+top: 68.0 # Top boundary of the pitch
