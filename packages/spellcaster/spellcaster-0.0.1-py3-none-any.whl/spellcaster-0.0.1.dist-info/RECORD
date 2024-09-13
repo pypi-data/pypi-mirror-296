@@ -1,0 +1,13 @@
+spellcaster/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spellcaster/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+spellcaster/cli.py,sha256=Dbt6yrXTUji50HJ9HtoBV9mTHJpU9UawpqJDQJjOHcc,4089
+spellcaster/config.py,sha256=K3SFOfhyaeKl4KExtW4dzp6VH90kbLqKgyXmfYtOr8o,159
+spellcaster/github.py,sha256=ULc1AwAPfuh-KbtJqJQvfkKAWMLrfV1MHRDTtgZA8RY,1083
+spellcaster/grammar.py,sha256=7TLqnSKVRAGwA-bd2YsPnPEFV2o-aqllXBGlP51bqks,11029
+spellcaster/traverse_repo.py,sha256=Uh8Z1xjL2jiMDMggIqWk68kA9RNxsVHE_q7pcXgH3Sw,1361
+spellcaster-0.0.1.dist-info/LICENSE,sha256=5lMk6mecInktHt0d3YFDRF8gwUWThF-lmQ0W8abOuzs,1069
+spellcaster-0.0.1.dist-info/METADATA,sha256=8lbZP1byKSO7-cNz6_f3g7dw-Bpr1RNezZGXcB72mlA,4458
+spellcaster-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+spellcaster-0.0.1.dist-info/entry_points.txt,sha256=2vCcD-PqxcVYF-XYJz2m74ITzTJmgKXgT-pEUC98Vu8,53
+spellcaster-0.0.1.dist-info/top_level.txt,sha256=r45c73OzjiWdcDaJCAAh_WR22wfJbeaGEWLD5TQo8zY,12
+spellcaster-0.0.1.dist-info/RECORD,,
