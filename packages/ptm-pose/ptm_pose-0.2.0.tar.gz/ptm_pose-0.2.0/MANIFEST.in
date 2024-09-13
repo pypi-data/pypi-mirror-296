@@ -1,0 +1,3 @@
+include ptm_pose/Resource_Files/modification_conversion.csv
+include ptm_pose/Resource_Files/ptm_coordinates.csv
+include ptm_pose/Resource_Files/translator.csv
