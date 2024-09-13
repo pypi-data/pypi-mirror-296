@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mgpustat/__init__.py
+mgpustat/main.py
+mgpustat.egg-info/PKG-INFO
+mgpustat.egg-info/SOURCES.txt
+mgpustat.egg-info/dependency_links.txt
+mgpustat.egg-info/entry_points.txt
+mgpustat.egg-info/requires.txt
+mgpustat.egg-info/top_level.txt
+tests/test_m1gpustat.py
