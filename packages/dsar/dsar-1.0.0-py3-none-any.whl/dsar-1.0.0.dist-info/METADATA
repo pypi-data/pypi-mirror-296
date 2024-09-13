@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: dsar
+Version: 1.0.0
+Summary: Calculating Displacement Seismic Amplitude Ratio (DSAR) Value
+Keywords: seismic,volcano,volcanology,dsar
+Author-email: Martanto <martanto@live.com>, Corentin Caudron <corentin@ulb.be>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: obspy>=1.4.0
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: magma-converter>=1.8.6
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: matplotlib>=3.9.0
+Requires-Dist: peewee>=3.17.6
+Requires-Dist: python-slugify>=8.0.0
+Requires-Dist: obspy ; extra == "base"
+Requires-Dist: openpyxl ; extra == "base"
+Requires-Dist: pandas ; extra == "base"
+Requires-Dist: numpy ; extra == "base"
+Requires-Dist: matplotlib ; extra == "base"
+Requires-Dist: peewee ; extra == "base"
+Requires-Dist: python-slugify ; extra == "base"
+Project-URL: Homepage, https://github.com/martanto/dsar
+Project-URL: Issues, https://github.com/martanto/dsar/issues
+Provides-Extra: base
+
+#  Displacement Seismic Amplitude Ratio (DSAR)
+
+## How to Use
+
+1. All the seismic data must have SDS Directory as an input. See an example in [input directory](input). Or you can check it here https://www.seiscomp.de/seiscomp3/doc/applications/slarchive/SDS.html
+2. Inside `main.py` or `main.ipynb` change those parameters:
+```python
+network = "VG"
+station = "PSAG"
+location = "00"
+channel = "EHZ"
+
+sds_directory = r"D:\Projects\dsar\input"
+output_directory = 'output'
+
+start_date = "2017-12-01"
+end_date = "2017-12-03"
+
+bands: dict[str, list[float]] = {
+    'HF' : [0.1, 8.0, 16.0],
+    'LF' : [0.1, 4.5, 8.0],
+}
+
+resample_rule: str = '10min'
+```
+3. Run the `main.py` or `main.ipynb`.
+4. The output of this code would be saved into `output` directory and will be used as an input of `dsar.py`.
+5. Run `dsar.py` to get the calculated _dsar_ CSV and plot the result.
+
+## References
+> Caudron, C., et al., 2019, Change in seismic attenuation as a long-term precursor of gas-driven
+eruptions: Geology, https://doi.org/10.1130/G46107.1  
+> 
+> Chardot, L., Jolly, A. D., Kennedy, B. M., Fournier, N., & Sherburn, S. (2015). Using volcanic tremor for eruption forecasting at White Island volcano (Whakaari), New Zealand. Journal of Volcanology and Geothermal Research, 302, 11–23. https://doi.org/10.1016/j.jvolgeores.2015.06.001
+
