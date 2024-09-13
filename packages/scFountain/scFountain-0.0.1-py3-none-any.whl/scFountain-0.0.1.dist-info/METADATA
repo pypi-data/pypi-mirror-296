@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scFountain
+Version: 0.0.1
+Summary: Rigorous integration of single-cell ATAC-seq data using regularized barycentric mapping
+Home-page: https://github.com/BioX-NKU/Fountain
+Author: BioX-NKU
+License: MIT Licence
+Keywords: scATAC-seq,batch integration,barycentric mapping,online integration,cell type-specific implication
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Requires-Dist: anndata >=0.8.0
+Requires-Dist: scanpy >=1.9.1
+Requires-Dist: torch >=1.12.1
+Requires-Dist: pandas >=1.4.2
+Requires-Dist: scikit-learn >=1.0.2
+Requires-Dist: numpy >=1.21.5
+Requires-Dist: scipy >=1.9.3
+Requires-Dist: episcanpy >=0.3.2
+Requires-Dist: tqdm >=4.28.1
+

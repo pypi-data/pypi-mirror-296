@@ -1,0 +1,10 @@
+Fountain/__init__.py,sha256=sO0e3M-Kwr8Dl2qQ2sA5ib8raRiqFxfuex9fMQcS1ec,39
+Fountain/data.py,sha256=BZlm37UcWrkST1BxxYPKB52SI6uny6mqeBvm3Kjrgh4,3752
+Fountain/fountain.py,sha256=JZpQKNI228UvjNXLOMeIe2Bu-sy4asZcJk9UDnEOw5o,8859
+Fountain/layer.py,sha256=sf4IaQ-53caHBgQEEUk8EwXGO1WjgGPK0BeSZEp0nWA,6730
+Fountain/loss.py,sha256=SQPWtKSyOtydRfsn_JuWd3CckrVhsPowWGM5C0u6lqY,4911
+Fountain/utils.py,sha256=G0QdyQ0vVr_s9idAvWjvjgLQA9stg6n5c-ao4UpA0Uo,7399
+scFountain-0.0.1.dist-info/METADATA,sha256=6WlkQF0-KgV-5T3TYFL1RNc6mnvIZflCCGOiS9DbzI8,698
+scFountain-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+scFountain-0.0.1.dist-info/top_level.txt,sha256=ZDi8gBFPU-fs61Jk9-DkUEKouN0BhvK9q0mA4t8Lc30,9
+scFountain-0.0.1.dist-info/RECORD,,
