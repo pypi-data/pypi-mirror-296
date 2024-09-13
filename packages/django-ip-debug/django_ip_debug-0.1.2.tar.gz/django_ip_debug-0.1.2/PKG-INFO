@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: django-ip-debug
+Version: 0.1.2
+Summary: Middleware para habilitar DEBUG solo para ciertas IPs en proyectos Django
+Home-page: https://github.com/oguerrero/django-ip-debug
+Download-URL: https://github.com/oguerrerog/django-ip-debug/archive/refs/tags/v0.1.2.tar.gz
+Author: Oscar Guerrero G.
+Author-email: oguerrerog@gmail.com
+License: MIT license
+Keywords: debub django
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Spanish
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=3.0
+Requires-Dist: ipaddress
+
+# Django IP Debug Middleware
+![](https://img.shields.io/github/created-at/oguerrerog/django-ip-debug) ![](https://img.shields.io/github/last-commit/oguerrerog/django-ip-debug) ![](https://img.shields.io/github/stars/oguerrerog/django-ip-debug?style=flat-square)
+
+**Middleware** para habilitar el modo **DEBUG** en Django **SOLO** para **ciertas IPs o rangos de IPs** correctamente ingresados en **settings.py**, Ãºtil para anÃ¡lisis o auditorÃ­a para despliegues de desarrollo y/o producciÃ³n, evitando tener que modificar la configuraciÃ³n del proyecto cada vez que se necesite habilitar o deshabilitar el modo DEBUG. 
+Esto permite a los desarrolladores y equipos de auditorÃ­a acceder a informaciÃ³n de depuraciÃ³n detallada y resolver problemas de forma mÃ¡s eficiente, al mismo tiempo que se mantiene la seguridad del sitio web al restringir el acceso a esta informaciÃ³n **solo a direcciones IP confiables**.
+
+## CaracterÃ­sticas
+- Habilita o deshabilita el modo DEBUG segÃºn la IP del cliente.
+- Soporta IPs individuales y rangos de IPs usando notaciÃ³n CIDR.
+- FÃ¡cil integraciÃ³n con settings de Django.
+
+## Requerimientos
+- Django 3.0 o superior
+- Python 3.0 o superior
+
+## InstalaciÃ³n
+1) Instala la librerÃ­a desde pip:
+
+```bash
+pip install django-ip-debug
+
+```
+2) Agrega el la ruta del Middleware a tu archivo **settings.py**:
+
+```python
+MIDDLEWARE = [
+    'ip_debug.middleware.IPDebugMiddleware',
+    # Otros middlewares...
+]
+```
+
+3) Define las IPs que pueden activar DEBUG a tu archivo **settings.py**:
+(Opcionalmente, agrega rangos de IP con notaciÃ³n CIDR)
+```python
+DEBUG_ALLOWED_IPS = ['127.0.0.1', '192.168.0.50', '192.168.1.0/24']
+```
+## Logging
+El middleware registra cada cambio en el estado de DEBUG, con la IP responsable del cambio.
+No es requisito para funcionar, pero no esta de mas tener un registro. Si gustas, solo   asegÃºrate de configurar tu logger en **settings.py**:
+```python
+LOGGING = {
+    'version': 1,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'ip_debug': {
+            'handlers': ['console'],
+            'level': 'INFO',
+        },
+    },
+}
+```
+
+## Versiones
+0.1.0: Primer Commit
+0.1.1: Se implementa funciÃ³n para detectar correctamente la direcciÃ³n IP.
+0.1.2: CorrecciÃ³n de Errores.
+
+
+## Agradecimientos
+Agradecimientos especiales a [MercadoPago](https://github.com/mercadopago "MercadoPago"), ese maravilloso y extraordinario servicio de pagos en lÃ­nea que me "regalo" la emocionante oportunidad de enfrentarme a la "divertida" tarea de crear un entorno de producciÃ³n/desarrollo solo para integrarme con ellos (es inevitable). AsÃ­ que, lleno de "inspiraciÃ³n" (y tal vez un poco de desesperaciÃ³n), me lancÃ© a la emocionante aventura de crear mi primer middleware para poder "debugear" mi proceso de integraciÃ³n y mantener mi cordura intacta ante la preocupaciÃ³n de tener el DEBUG disponible para todo el mundo.
+Desde hoy dormirÃ© en paz y sin despertar a medianoche, preocupado tratando de recordar si deje en el setting.py el debug en "**False**". xD

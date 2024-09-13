@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_ip_debug.egg-info/PKG-INFO
+django_ip_debug.egg-info/SOURCES.txt
+django_ip_debug.egg-info/dependency_links.txt
+django_ip_debug.egg-info/requires.txt
+django_ip_debug.egg-info/top_level.txt
+ip_debug/__init__.py
+ip_debug/middleware.py
