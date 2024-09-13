@@ -1,0 +1,7 @@
+pyproject.toml
+src/ynput/__init__.py
+src/ynput.egg-info/PKG-INFO
+src/ynput.egg-info/SOURCES.txt
+src/ynput.egg-info/dependency_links.txt
+src/ynput.egg-info/requires.txt
+src/ynput.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+[project]
+name = "ynput"
+description = "Ynput namespace"
+dynamic = ["version"]
+authors = [
+    { name = "Dee Coureau", email = "dee@ynput.com" }
+]
+
+dependencies = []
+
+[tool.setuptools.dynamic]
+version = {attr = "ynput.__version__"}
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine"
+]
+
