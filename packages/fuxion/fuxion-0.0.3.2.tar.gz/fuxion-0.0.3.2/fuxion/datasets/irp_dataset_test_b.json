@@ -1,0 +1,42 @@
+{
+  "dataset": {
+    "outputs": [
+      {
+        "generated_input": "title: Quantum Ethics: Merging Quantum Physics and Philosophy to Address Moral Dilemmas. Patel, Johnson, Lee. December 2024. Quantum Physics, Philosophy. Keywords: quantum ethics, moral dilemmas, quantum decision theory\nabstract: Abstract: This paper explores the intersection of quantum physics and philosophy to address complex moral dilemmas through the lens of quantum decision theory. By applying principles of superposition and entanglement to ethical scenarios, we propose a novel framework for understanding and resolving moral conflicts. Conclusion: Our findings suggest that quantum mechanics can offer unique insights into ethical decision-making, potentially transforming traditional philosophical approaches to morality.",
+        "normalized_output": {
+          "irp": "title: Quantum Ethics: Merging Quantum Physics and Philosophy to Address Moral Dilemmas. Patel, Johnson, Lee. December 2024. Quantum Physics, Philosophy. Keywords: quantum ethics, moral dilemmas, quantum decision theory\nabstract: Abstract: This paper explores the intersection of quantum physics and philosophy to address complex moral dilemmas through the lens of quantum decision theory. By applying principles of superposition and entanglement to ethical scenarios, we propose a novel framework for understanding and resolving moral conflicts. Conclusion: Our findings suggest that quantum mechanics can offer unique insights into ethical decision-making, potentially transforming traditional philosophical approaches to morality.",
+          "normalized": [
+            {
+              "title": "Quantum Ethics: Merging Quantum Physics and Philosophy to Address Moral Dilemmas",
+              "authors": "Patel, Johnson, Lee",
+              "publication_date": "December 2024",
+              "fields": "Quantum Physics, Philosophy",
+              "abstract": "This paper explores the intersection of quantum physics and philosophy to address complex moral dilemmas through the lens of quantum decision theory. By applying principles of superposition and entanglement to ethical scenarios, we propose a novel framework for understanding and resolving moral conflicts.",
+              "conclusion": "Our findings suggest that quantum mechanics can offer unique insights into ethical decision-making, potentially transforming traditional philosophical approaches to morality.",
+              "keywords": "quantum ethics, moral dilemmas, quantum decision theory"
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "title: Bioinformatics of Ancient Texts: Decoding Historical Manuscripts with Genetic Algorithms. Martinez, Gupta, Thompson. January 2025. Bioinformatics, History. Keywords: ancient texts, genetic algorithms, manuscript decoding\nabstract: Abstract: We present an innovative approach to decoding ancient manuscripts by applying bioinformatics techniques, specifically genetic algorithms, to historical texts. This interdisciplinary method allows for the reconstruction of fragmented documents and the identification of lost languages. Conclusion: The integration of bioinformatics and historical analysis provides a powerful tool for historians, offering new possibilities for uncovering and understanding ancient civilizations.",
+        "normalized_output": {
+          "irp": "title: Bioinformatics of Ancient Texts: Decoding Historical Manuscripts with Genetic Algorithms. Martinez, Gupta, Thompson. January 2025. Bioinformatics, History. Keywords: ancient texts, genetic algorithms, manuscript decoding\nabstract: Abstract: We present an innovative approach to decoding ancient manuscripts by applying bioinformatics techniques, specifically genetic algorithms, to historical texts. This interdisciplinary method allows for the reconstruction of fragmented documents and the identification of lost languages. Conclusion: The integration of bioinformatics and historical analysis provides a powerful tool for historians, offering new possibilities for uncovering and understanding ancient civilizations.",
+          "normalized": [
+            {
+              "title": "Bioinformatics of Ancient Texts: Decoding Historical Manuscripts with Genetic Algorithms",
+              "authors": "Martinez, Gupta, Thompson",
+              "publication_date": "January 2025",
+              "fields": "Bioinformatics, History",
+              "abstract": "We present an innovative approach to decoding ancient manuscripts by applying bioinformatics techniques, specifically genetic algorithms, to historical texts. This interdisciplinary method allows for the reconstruction of fragmented documents and the identification of lost languages.",
+              "conclusion": "The integration of bioinformatics and historical analysis provides a powerful tool for historians, offering new possibilities for uncovering and understanding ancient civilizations.",
+              "keywords": "ancient texts, genetic algorithms, manuscript decoding"
+            }
+          ]
+        }
+      }
+    ],
+    "generator_prompt": "Your task is to generate an abstract for a fictional research paper that bridges two distinct academic disciplines, combining their methodologies, theories, and insights to explore a novel research question or hypothesis.\nEach abstract should clearly state the interdisciplinary fields involved, the research question or hypothesis, the methods used for investigation, key findings, potential implications of the research, and a consice conclusion.\nBe imaginative in linking the disciplines and ensure the research topic is innovative and thought-provoking.\nDo not return python code\nGuidelines:\n\nStart with a concise title that reflects the interdisciplinary nature of the paper.\nClearly mention the two (or more) fields being combined.\nDescribe the research question or hypothesis.\nOutline the methodology or approach taken.\nSummarize the key findings or results.\nDiscuss the implications or potential impact of the research.\nDo not confuse the conclusion for the abstract\nDo not repeat titles that have been generated, ALWAYS generate a new title every time\nNEVER return a nonetype abstract, and to ensure this, you need to be very creative about how you generate paper titles such that you can always provide an abstract\n\n\n{{few_shot}}\n\n\nList:\n",
+    "normalizer_prompt": "Format the following address as a list of python dictionaries of the form:\n[\n    { \n        \"title\": str,\n        \"authors\": str, \n        \"publication_date\": str,\n        \"fields\": str,\n        \"abstract\": str, \n        \"conclusion\": str,\n        \"keywords\": str\n\n    }\n]. \n\nBe sure to handle multiple authors, keywords and fields correctly\n\nInput:\n\"{{irp}}\"\n\nOutput:\n[{"
+  }
+}
