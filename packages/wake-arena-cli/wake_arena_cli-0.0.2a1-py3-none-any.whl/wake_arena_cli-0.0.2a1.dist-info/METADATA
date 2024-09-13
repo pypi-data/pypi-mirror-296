@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wake-arena-cli
+Version: 0.0.2a1
+Summary: Wake Arena CLI tool
+Author: pavelsvagr
+Author-email: pavel.svagr@ackee.cz
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: halo (>=0.0.31,<0.0.32)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich-click (>=1.8.3,<2.0.0)
+Requires-Dist: schema (>=0.7.7,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Wake Arena CLI
+
