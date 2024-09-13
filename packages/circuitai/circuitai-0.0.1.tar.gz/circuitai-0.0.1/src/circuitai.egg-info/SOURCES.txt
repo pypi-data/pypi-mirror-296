@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/__init__.py
+src/circuitai.egg-info/PKG-INFO
+src/circuitai.egg-info/SOURCES.txt
+src/circuitai.egg-info/dependency_links.txt
+src/circuitai.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: circuitai
+Version: 0.0.1
+Author-email: Fábio Souza <fabio@blull.com.br>
+License: MIT
+Project-URL: Homepage, https://github.com/Blull-AI/circuitai
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# circuitai
+
+Something cool
+
+## Installation
+
+```bash
+pip install circuitai
