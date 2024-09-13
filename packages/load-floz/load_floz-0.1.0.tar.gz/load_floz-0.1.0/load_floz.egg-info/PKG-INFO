@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: load_floz
+Version: 0.1.0
+Summary: Load .floz files saved by Fast Lock On (FLO) tracking
+Author-email: Andrew Straw <strawman@astraw.com>
+Project-URL: Homepage, https://github.com/strawlab/flo-data-analysis
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: PyYAML
+Requires-Dist: pytz
+
+# load_floz
+
+Python package to load `.floz` files saved by [FLO](https://github.com/strawlab/flo).
+
+## Installation
+
+```bash
+pip install load_floz
+```
+
+## Developers: building and publishing a release
+
+Build a release:
+
+```bash
+python3 -m pip install build
+python3 -m build
+```
+
+Publish release:
