@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indala-decoder"
+version = "1.0.8"
+description = "A Python library for decoding 32-bit Indala26 codes into facility code and card numbers, and vice versa"
+authors = [{ name="Logan Nommensen", email="logan.nommensen@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Topic :: Security"
+]
+keywords = ["Indala", "Indala26", "RFID", "Indala keycard"]
+
+[project.urls]
+Homepage = "https://github.com/muzak23/indala26-decoder"
+Issues = "https://github.com/muzak23/indala26-decoder/issues"
