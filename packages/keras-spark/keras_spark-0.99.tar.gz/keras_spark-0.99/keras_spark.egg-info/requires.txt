@@ -1,0 +1,5 @@
+pandas==2.1.1
+pyarrow==7.0.0
+tensorflow<=2.12.0
+petastorm
+s3fs
