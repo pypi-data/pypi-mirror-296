@@ -1,0 +1,7 @@
+paper_hive/__init__.py,sha256=9pM5FNIDP3CkT-I5i8vg2Dr3UFjFwVuf6wUaE7wE1zY,249
+paper_hive/agent.py,sha256=YoGzW51tpnqBJFa9cKVg1jwmfMoV66BixPhx3zNDTU8,3442
+paper_hive/paper_fetcher.py,sha256=YFEtqCHJHy1xlnLj3bN4QseLdqCiL5g2Qhn96xZlyQQ,5171
+paper_hive-0.0.1.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+paper_hive-0.0.1.dist-info/METADATA,sha256=PXhi5qXRr7fc8pe7lVoGptfj5gLrtGYoOt8kmkol8_4,4312
+paper_hive-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+paper_hive-0.0.1.dist-info/RECORD,,
