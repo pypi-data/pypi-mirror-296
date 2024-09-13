@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: aspirart
+Version: 0.1.1
+Summary: A simple Python wrapper for the Aspirart API
+Author: Liam Attwood
+Author-email: liam@liamattwood.com
+Requires-Dist: requests
+
