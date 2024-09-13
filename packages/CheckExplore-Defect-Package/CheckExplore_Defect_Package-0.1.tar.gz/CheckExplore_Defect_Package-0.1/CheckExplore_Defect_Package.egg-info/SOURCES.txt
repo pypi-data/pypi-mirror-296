@@ -1,0 +1,9 @@
+setup.py
+CheckExplore_Defect_Package/__init__.py
+CheckExplore_Defect_Package/find_defect_inside_file.py
+CheckExplore_Defect_Package/find_defect_outside_file.py
+CheckExplore_Defect_Package/sample.py
+CheckExplore_Defect_Package.egg-info/PKG-INFO
+CheckExplore_Defect_Package.egg-info/SOURCES.txt
+CheckExplore_Defect_Package.egg-info/dependency_links.txt
+CheckExplore_Defect_Package.egg-info/top_level.txt
