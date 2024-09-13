@@ -1,0 +1,11 @@
+very_based_interface/__about__.py,sha256=mGNcdkzDQOdLJ-7HIf5I9mbjRoEOpV4NsUt5owsedFU,101
+very_based_interface/__init__.py,sha256=DCXVZv4FuoATS1G-6KHtch7I9tlMTL9Kw_g9SJEZp8M,78
+very_based_interface/cli.py,sha256=VOgfzRDm6DHIIfhVEGrxBs2OjPWB8-9i2dTTO1agUnU,1317
+very_based_interface/memory_manager.py,sha256=o9V3OjjGrs76TnOWSa5Ibvdq2B3sO-9FewjQZ5tDxHs,4177
+very_based_interface/types.py,sha256=rJBMeDTDx5Pp-0KVilKmWdp0yWFH4uae2yErsntDLSE,22219
+very_based_interface/vbi_file.py,sha256=n2-bI62eoophnK35vZPrVBYQgFtqJgG7qWki4IvhXjU,16276
+very_based_interface-0.1.1.dist-info/METADATA,sha256=3sNmDBl5XzTvdMvG7xvKQjCa3h6MzPXzRJGc8Na4GUA,1686
+very_based_interface-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+very_based_interface-0.1.1.dist-info/entry_points.txt,sha256=yoUm5-5Ct6Ow9uU5G4XhxNjJiuF_Ir_Yc5RbEZ6aLjc,58
+very_based_interface-0.1.1.dist-info/licenses/LICENSE.txt,sha256=JXfjBALM_ErypbycSt1-1xSDW3ewMGcaCXpGIcrnA74,1071
+very_based_interface-0.1.1.dist-info/RECORD,,
