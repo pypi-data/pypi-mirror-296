@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: alltheutils
+Version: 1.0.1
+Summary: None
+License: MIT
+Keywords: utility
+Author: whinee
+Maintainer: whinee
+Requires-Python: >=3.10,<4
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Description-Content-Type: text/markdown
+
+<h1 align="center" style="font-weight: bold">
+    <pre>AllTheUtils.py</pre>
+</h1>
+
+Haii! Here lies all the utility functions I have created and collected over the years working in python.
+
+## Getting Started
+
+```sh
+poetry add git+https://github.com/whinee/AllTheUtils.git
+```
