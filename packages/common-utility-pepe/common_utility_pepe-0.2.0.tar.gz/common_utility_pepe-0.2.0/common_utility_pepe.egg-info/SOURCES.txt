@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+common-utility-pepe/__init__.py
+common_utility_pepe.egg-info/PKG-INFO
+common_utility_pepe.egg-info/SOURCES.txt
+common_utility_pepe.egg-info/dependency_links.txt
+common_utility_pepe.egg-info/requires.txt
+common_utility_pepe.egg-info/top_level.txt
