@@ -1,0 +1,30 @@
+name: Workflows
+
+on:
+  push:
+    tags:
+      - v*.*.*
+env:
+  ACTIONS_RUNNER_DEBUG: true
+  ACTIONS_STEP_DEBUG: true
+jobs:
+  test-ci:
+    name: Test CI
+    uses: ./.github/workflows/ci.yml
+    permissions:
+      id-token: write
+      contents: read
+    with:
+      ref_name: ${{ github.ref_name }}
+      python-versions: '["3.10","3.11","3.12"]'
+  release:
+    name: Release
+    needs: [ test-ci ]
+    runs-on: [ ubuntu-latest ]
+    if: github.ref_type == 'tag'
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: guywilsonjr/actions/actions/release@main
+

@@ -1,0 +1,32 @@
+name: Test
+description: Run Tox Testing
+
+inputs:
+  filename:
+    description: 'The filename of the wheel or source tar.gz to test'
+    required: false
+    default: ''
+  working-directory:
+    description: 'The directory to run mypy in'
+    required: false
+    default: '.'
+runs:
+  using: composite
+  steps:
+    - uses: actions/download-artifact@v4
+      with:
+        pattern: build-*
+        path: dist/
+        merge-multiple: true
+    - name: Install tox
+      run: pip install tox-gh tox-uv
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+    - name: Tox
+      if: ${{ inputs.filename }} == ''
+      run: tox -e py -vvv --workdir ${{ inputs.working-directory }}
+      shell: bash
+    - name: Tox with wheel
+      if: ${{ inputs.filename }} != ''
+      run: tox -e py -vvv --installpkg ${{ inputs.filename }} --workdir ${{ inputs.working-directory }}
+      shell: bash
