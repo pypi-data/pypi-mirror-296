@@ -1,0 +1,16 @@
+iris/__init__.py,sha256=dHBGrvnWKmggKrOo92eHEgQTOELqKG4f8eSk4p4Cj-8,210
+iris/data.py,sha256=d8JRJMad6XC_v07WNIkD8NvKrHruLf42Gu1j2pFNBtU,8346
+iris/planning.py,sha256=V8iqjjbjQ4G8QJlXStlvYm_ho2KLlDJjBqSPViozuxM,1582
+iris/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iris/_tests/test_data.py,sha256=azfmhfNTWjACl-VWJfzoWMnSIMdEqreiH0aD4hyZoHU,3099
+iris/_tests/test_planning.py,sha256=SgELk1R2b_t3t-zAJgMOSa87QfWL2tIWAzIYdk5VsfY,949
+iris/sg/__init__.py,sha256=PILhlXFp6FPLjTVrfrTshPLjEyGkjR6azaXs53e_zm4,216
+iris/sg/_spectrograph.py,sha256=rGR-CGzZ3tGI59UkEikZxc9fFx80Rmo1R2j2pPeLXNc,15244
+iris/sg/_spectrograph_test.py,sha256=3bgQhu1w17NHrTT0MUs5edCC6eOL0g0VY6mRgLDvOpo,858
+iris/sg/background/__init__.py,sha256=fUaEtgH9KwrOPS8u5hbEUwZAYBnlCzt1RmgZNtIMNcY,429
+iris/sg/background/_background.py,sha256=ERsE0TkW8YkQ_m1WIRyh4_fufKeIuG_ATNPAQdDsyGg,24120
+iris/sg/background/_background_test.py,sha256=9GVR6pAtUn7oBTk5eu8kNCzmPUxksJe3Hz8ZqlaXMx8,1056
+interface_region_imaging_spectrograph-0.2.0.dist-info/METADATA,sha256=III8lB2dxF5_QmBmSvaF1VYv6dnwRRlsDexBt4edZIQ,3132
+interface_region_imaging_spectrograph-0.2.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+interface_region_imaging_spectrograph-0.2.0.dist-info/top_level.txt,sha256=v3iL68K7jvu0_EcJMk9MMahcEbXtfFjHEzSsOSM5yJQ,5
+interface_region_imaging_spectrograph-0.2.0.dist-info/RECORD,,
