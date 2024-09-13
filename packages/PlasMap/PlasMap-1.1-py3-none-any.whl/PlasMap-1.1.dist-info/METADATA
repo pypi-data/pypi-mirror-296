@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: PlasMap
+Version: 1.1
+Requires-Dist: gdown >=5.2.0
+Requires-Dist: pycirclize ==0.0.1
+Requires-Dist: bio >=1.7.1
+
