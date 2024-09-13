@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: grafte
+Version: 0.0.1
+Summary: simple charting stuff
+Home-page: https://github.com/dannguyen/grafte
+Author: Dan Nguyen
+License: Apache License, Version 2.0
+Project-URL: Issues, https://github.dannguyen/dannguyen/grafte/issues
+Project-URL: CI, https://github.com/dannguyen/grafte/actions
+Project-URL: Changelog, https://github.com/dannguyen/grafte/releases
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.1
+Requires-Dist: rich-click
+Requires-Dist: click-default-group>=1.2.3
+Requires-Dist: setuptools
+Requires-Dist: pip
+Requires-Dist: pyreadline3; sys_platform == "win32"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-mock; extra == "test"
+Requires-Dist: black>=24.2.0; extra == "test"
+Requires-Dist: types-click; extra == "test"
+
+# My own easy charting library wrapping around matplotlib
+
+
+"I want to create a grouped bar chart, using `region` as the series, `animal` as the x val, `amount` as the y val"
+
+
+```py
+Bar(data=(df, x='animal', y='amount', c='region')
+    canvas={'width': 600, 'height': 300})
+```
+
+```sh
+$ tought bar ./tests/fixtures/ezbar.csv -o /tmp/mychart.png
+```
+
+## TODOS
+
+### 2024-09-12
+- write tests for CLI
+- handle multi-series charts
+    - grouped bar chart
+
+- create default stylesheets
+

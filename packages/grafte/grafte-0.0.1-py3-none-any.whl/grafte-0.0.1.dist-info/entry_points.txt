@@ -1,0 +1,2 @@
+[console_scripts]
+grafte = grafte.cli:cli
