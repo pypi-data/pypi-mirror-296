@@ -1,0 +1,13 @@
+from _typeshed import Incomplete
+from django.http import HttpRequest as HttpRequest, HttpResponse as HttpResponse
+from typing import Any, Self
+
+class Transporter:
+    request: Incomplete
+    key: Incomplete
+    value: Incomplete
+    def __init__(self, request: HttpRequest) -> None: ...
+    def set(self, key: str, value: Any) -> Self: ...
+    def redirect(self, route: str) -> HttpResponse: ...
+
+def transporter(route): ...

@@ -1,0 +1,3 @@
+from djing.core.application import Application as Application
+
+def handle_init(command, *args, **options) -> None: ...
