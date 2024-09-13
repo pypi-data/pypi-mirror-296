@@ -1,0 +1,44 @@
+schema: https://main-fmu-schemas-dev.radix.equinor.com/schemas/0.8.0/fmu_results.json
+source: fmu
+version: 0.8.0
+class: case
+tracklog:
+  - datetime: "2021-05-05T09:20:40.475110"
+    event: created
+    user:
+      id: peesv
+fmu:
+  case:
+    name: somecasename
+    uuid: a40b05e8-e47f-47b1-8fee-f52a5116bd37
+    user:
+      id: peesv
+    description:
+      - My case / ERT run description
+    restart_from: x40b09e8-d47f-49b1-8fxx-g52a5119bd37_iter-3
+  model:
+    description:
+      - Tutorials & stuff
+      - Testing new things
+    name: ff
+    revision: 21.0.0.dev
+masterdata:
+  smda:
+    coordinate_system:
+      identifier: ST_WGS84_UTM37N_P32637
+      uuid: c5d1511a-98f5-4343-9335-613e1842fa15
+    country:
+      - identifier: Norway
+        uuid: 2951acd3-28da-4d87-a067-f760a5802ee5
+    discovery:
+      - short_identifier: DROGON
+        uuid: 2951acd3-28da-4d87-a067-f760a5802ee5
+    field:
+      - identifier: DROGON
+        uuid: 2951acd3-28da-4d87-a067-f760a5802ee5
+    stratigraphic_column:
+      identifier: DROGON_2020
+      uuid: 2951acd3-28da-4d87-a067-f760a5802ee5
+access:
+  asset:
+    name: Drogon # adding level to make room for unique ID in the future
