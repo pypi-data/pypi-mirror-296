@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: foam_rodeo
+Version: 0.0.1
+Summary: Parties with Aptos
+License: Mix: GPL-3.0-only + frontend module licenses
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Emergency (>=2.0.0,<3.0.0)
+Requires-Dist: PyNaCl (>=1.5.0,<2.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: ecdsa (==0.18.0)
+Requires-Dist: h2 (>=4.1.0,<5.0.0)
+Requires-Dist: httpx (>=0.24.0,<0.25.0)
+Requires-Dist: pydash (>=8.0.1,<9.0.0)
+Requires-Dist: ships (>=1.3.8,<2.0.0)
+Requires-Dist: somatic (>=3.0.3,<4.0.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: typing-extensions (>=4.4.0,<5.0.0)
+Requires-Dist: ventures (>=1.6.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+
+---
+
+# foam_rodeo
+
+---
+
+## Preface
+foam_rodeo is a dapp for interacting with Aptos.  
+
+---
+
+## Rules (License) 
+This is a mix.  
+
+Essentially these bits can be used for any 
+purpose "party", "friendly", "business", etc.  
+Play, modulation, and circulation are mostly likely fully promoted.
+
+### Originals
+Original "foam_rodeo" bits are subject to the terms of the
+gpl-3.0-standalone License.
+
+### Frontend Features
+The licenses for these are in the module at foam_rodeo/frontend_licenses.csv  
+
+---
+
+## Obtain
+```
+pip install foam_rodeo
+```
+
+## Open
+```
+foam_rodeo build
+foam_rodeo ventures on
+```
+
+This opens a dapp locally at: 
+[http://localhost:22000](http://localhost:22000)
+
+
+******
+
+## Offline Installation with Docker Image
+The installation steps for offline installation are included in the site at:
+[http://localhost:22000](http://localhost:22000)   
+
+Or they can be found here:
+[https://github.com/basalt-plateau/foam-docker-images](https://github.com/basalt-plateau/foam-docker-images)  
+
+
+******
+
+## Links
+Graceful.Bryonics@Proton.me
+
+
