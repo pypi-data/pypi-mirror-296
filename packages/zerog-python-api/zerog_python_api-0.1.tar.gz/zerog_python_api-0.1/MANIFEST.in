@@ -1,0 +1,6 @@
+include zerog_python_api/cli_tool
+include zerog_python_api/downloader.py
+include zerog_python_api/uploader.py
+include go.mod
+include go.sum
+include main.go

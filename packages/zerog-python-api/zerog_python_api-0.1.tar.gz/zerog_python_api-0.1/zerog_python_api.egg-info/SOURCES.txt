@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+go.mod
+go.sum
+main.go
+setup.py
+zerog_python_api/__init__.py
+zerog_python_api/downloader.py
+zerog_python_api/uploader.py
+zerog_python_api.egg-info/PKG-INFO
+zerog_python_api.egg-info/SOURCES.txt
+zerog_python_api.egg-info/dependency_links.txt
+zerog_python_api.egg-info/requires.txt
+zerog_python_api.egg-info/top_level.txt
