@@ -1,0 +1,51 @@
+name: Test Actions
+
+on:
+  push:
+    tags:
+      - v*.*.*
+env:
+  ACTIONS_RUNNER_DEBUG: true
+  ACTIONS_STEP_DEBUG: true
+jobs:
+  test-sa:
+    runs-on: [ ubuntu-latest ]
+    name: Test Checkout Static Analysis
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@main
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Test Debug
+        uses: ./actions/debug
+
+  test-build:
+    runs-on: [ ubuntu-latest]
+    name: Test Build
+    strategy:
+      matrix:
+        python-version: ['3.12']
+        build-type: ['sdist', 'wheel']
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@main
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Test Build ${{ matrix.build-type }}
+        uses: ./actions/build
+        with:
+          python-version: ${{ matrix.python-version }}
+          build-type: ${{ matrix.build-type }}
+  test-release:
+    runs-on: [ ubuntu-latest ]
+    name: Test Release
+    needs: [ test-build, test-sa ]
+    permissions:
+      id-token: write
+      contents: read
+    if: github.ref_type == 'tag'
+    steps:
+      - uses: guywilsonjr/actions/actions/release@main
+      
+
+
