@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: py-random-dot-org
+Version: 1.0.2
+Summary: Random.org Api Wrapped in Python
+Author-email: Nick Seinsche <nick.seinsche@gmail.com>
+License: Copyright (c) 2012-2024 Scott Chacon and others
+        
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+        
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: Repository, https://github.com/Nick-Seinsche/py_random_dot_org
+Project-URL: Documentation, https://nick-seinsche.github.io/py_random_dot_org/
+Keywords: random,api,wrapper
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+Random.org API Wrapper
+======================
+
+This Python module provides a wrapper for the `Random.org API`_ to generate various types of random data such as integers,
+sequences, decimal fractions, Gaussian numbers, strings, UUIDs, and random blobs.
+
+Features
+--------
+
+- Generate random integers, integer sequences, decimal fractions, and Gaussian-distributed numbers.
+- Generate random strings, UUIDs, and blobs.
+- Retrieve API usage statistics, including remaining bits and requests.
+
+Installation
+------------
+
+
+
+Usage
+-----
+
+1. Import the ``BasicApi`` class and initialize it with your Random.org API key:
+   ::
+
+       from basic_api import BasicApi
+
+       api = BasicApi(api_key="your_api_key")
+
+2. Call the available methods to generate random data. For example, to generate random integers:
+   ::
+
+       random_integers = api.generate_integers(num=5, minimum=1, maximum=100)
+       print(random_integers)
+
+3. You can also check your API usage:
+   ::
+
+       usage_stats = api.get_usage()
+       print(usage_stats)
+
+Running Tests
+-------------
+
+The project includes tests written using ``pytest``. To run the tests:
+
+1. Install ``pytest``:
+   ::
+
+       pip install pytest
+
+2. Run the tests:
+   ::
+
+       pytest
+
+License
+-------
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+.. _Random.org API: https://api.random.org/
