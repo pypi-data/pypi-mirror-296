@@ -1,0 +1,6 @@
+[console_scripts]
+render_item=athenaeum.scripts:render_item
+render_model=athenaeum.scripts:render_model
+render_project=athenaeum.scripts:render_project
+render_spider=athenaeum.scripts:render_spider
+
