@@ -1,0 +1,54 @@
+# az_storage_tools
+
+This package is developed for wrapping various Azure Storage operations.
+
+### Getting Started
+
+You can either provide your Azure storage account details via the following `env` variables. Namely
+
+```bash
+AZ_STORAGE_ACCOUNT_NAME
+AZ_STORAGE_KEY
+```
+
+or
+
+```bash
+AZ_CONNECTION_URL
+```
+
+#### Initialization via Connection String
+
+You can initialize the `AZStorageTools` with a connection string via the constructor:
+
+```python
+AZStorageTools(container_name=<container_name>,conn_str=<connection_string>)
+```
+
+#### Initialization via Account Name and Key
+
+You can initialize the `AZStorageTools` with an account name and key via the constructor:
+
+```python
+AZStorageTools(container_name=<container_name>,account_name=<account_name>, <account_key>=account_key)
+```
+
+#### Container Name
+
+If `AZStorageTools` is not initialized with a container name, then following `env` variable must be set:
+```
+AZ_STORAGE_CONTAINER_NAME
+```
+
+### Uploading a file to Azure Storage
+
+If you want to upload a file (e.g. `hello.txt`) to a container (e.g. `test-container`) in your Storage Account, you can use the following code snippet:
+
+```python
+fom az_storage_tools import AZStorageTools
+
+az_storage = AZStorageTools(container_name="test-container", conn_str="connection_string")
+
+with open("hello.txt", "rb") as f:
+    az_storage.upload_blob('hello_txt', f.read())
+```
