@@ -1,0 +1,7 @@
+setup.py
+roinject/__init__.py
+roinject/roinject.py
+roinject.egg-info/PKG-INFO
+roinject.egg-info/SOURCES.txt
+roinject.egg-info/dependency_links.txt
+roinject.egg-info/top_level.txt
