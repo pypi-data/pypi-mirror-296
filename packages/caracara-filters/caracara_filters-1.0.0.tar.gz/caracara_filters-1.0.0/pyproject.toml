@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "caracara-filters"
+version = "1.0.0"
+description = "FQL generation engine for Caracara"
+authors = ["Chris Hammond <chris.hammond@crowdstrike.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "caracara_filters"}]
+repository = "https://github.com/CrowdStrike/caracara-filters"
+keywords = [
+    "api",
+    "crowdstrike",
+    "falcon-platform",
+    "fql",
+    "query-language",
+    "sdk",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Text Processing :: Filters",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.2"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.6"
+flake8 = "^7.1.0"
+pydocstyle = "^6.3.0"
+pylint = "^3.2.7"
+pytest = "^8.3.3"
+isort = "^5.13.2"
+black = "^24.8.0"
+time-machine = "^2.15.0"
+backports-zoneinfo = {version = "0.2.1", python = "~3.8"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
