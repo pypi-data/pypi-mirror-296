@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: xarray-treeview
+Version: 2024.9.1
+Summary: PyQt/PySide model/view for tree of Xarray datasets.
+Keywords: PyQt,PySide,xarray,tree
+Home-page: https://github.com/marcel-goldschen-ohm/xarray-treeview
+Author-Email: Marcel Goldschen-Ohm <goldschen-ohm@utexas.edu>
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Project-URL: Homepage, https://github.com/marcel-goldschen-ohm/xarray-treeview
+Project-URL: Repository, https://github.com/marcel-goldschen-ohm/xarray-treeview
+Project-URL: Issues, https://github.com/marcel-goldschen-ohm/xarray-treeview/issues
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.26.2
+Requires-Dist: xarray>=2023.12.0
+Requires-Dist: xarray-datatree>=0.0.14
+Requires-Dist: qtpy>=2.4.1
+Requires-Dist: qtawesome>=1.3.0
+Requires-Dist: pyqt-ext>=2024.9.3
+Description-Content-Type: text/markdown
+
+# xarray-treeview
+PyQt/PySide model/view for tree of Xarray datasets.
+
+![GitHub Tag](https://img.shields.io/github/v/tag/marcel-goldschen-ohm/xarray-treeview?cacheSeconds=1)
+![build-test](https://github.com/marcel-goldschen-ohm/xarray-treeview/actions/workflows/build-test.yml/badge.svg)
+
+![GitHub Release](https://img.shields.io/github/v/release/marcel-goldschen-ohm/xarray-treeview?include_prereleases&cacheSeconds=1)
+![publish](https://github.com/marcel-goldschen-ohm/xarray-treeview/actions/workflows/publish.yml/badge.svg)
+
+- [Install](#install)
+- [Documentation](#documentation)
+
+## Install
+Requires a PyQt package. Should work with PySide6, PyQt6, or PyQt5.
+```shell
+pip install PySide6
+```
+<!-- Install latest release version:
+```shell
+pip install xarray-treeview
+```
+Or install latest development version: -->
+*Currently you must install direclty from the repo due to a dependency on another repo. Hopefully in the future you will be able to install from PyPI.*
+
+Install latest development version:
+```shell
+pip install xarray-treeview@git+https://github.com/marcel-goldschen-ohm/xarray-treeview
+```
+
+## Documentation
+:construction:
