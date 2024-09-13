@@ -1,0 +1,15 @@
+[project]
+name = "ALM2"
+version = "0.0.1"
+authors = [
+  { name = "Sherenaz Al-Haj Baddar", email = "s.baddar@ju.edu.jo" },
+]
+description = "Python C-wrapped implementation of the LM technqiue for computing the log-likelihood function of the Dirichlet Mutlinomial Distribution with comparision to Python math and scipy implementations of the same function"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+]
+
