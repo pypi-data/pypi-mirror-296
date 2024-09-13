@@ -1,0 +1,2 @@
+[console_scripts]
+pygh2md = gh2md.Gh2md:commandHandler
