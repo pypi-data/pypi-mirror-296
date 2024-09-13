@@ -1,0 +1,13 @@
+imagesmacker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagesmacker/draw.py,sha256=xqYbozNzJEgNy_r_acLI7vtQCMEBo4Ya07xlRiJIVj0,13464
+imagesmacker/fields.py,sha256=sp10s_YGmQLPkKhmqtGjtT6Pwp91FNy2WP8DAhJ8vMc,2089
+imagesmacker/fonts.py,sha256=cNaXsgEYPio0Phi2eRIMo1Bsxp60wpEFJ5B8vzAAOFE,1347
+imagesmacker/image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagesmacker/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagesmacker/models/coordinates.py,sha256=f56J32U2WmjbcndAuGspYgzH8mGg4mQYv9IcwNCocag,3147
+imagesmacker/models/draw.py,sha256=HDDZuDnqDkAR-BIUnvwcolCWYbBBXGR4zuXu5p8JTOI,1595
+imagesmacker/models/fields.py,sha256=TdR0pqWDxbSeSH5a_pm7e1jpRtXQSIZsi7TAqHYBh1k,982
+imagesmacker/utils.py,sha256=6BvyGEkSwV1q28V4P51PV-JoxUp4fHjp48o0kHaeD2M,1284
+imagesmacker-2.1.5.dist-info/METADATA,sha256=f4-oMvUmaJwV3QelQyTNBbWjvxlVadmyCMAqmedoKxU,730
+imagesmacker-2.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+imagesmacker-2.1.5.dist-info/RECORD,,
