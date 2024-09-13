@@ -1,0 +1,8 @@
+spygrt/__init__.py,sha256=GeU5O2RWlUKRR4-3uyZggpuz6CAhqgURHHPBOcPB2ig,229
+spygrt/calibration.py,sha256=xXx0fvD8nzPZNsbavnm-AdyhjFJV7_otMriRAnDNCHk,24943
+spygrt/stream.py,sha256=FTqtTz5w99Agw2sDTz6lVrh2i-vF5SItOOaf7MTsYf0,66247
+spygrt/tracker.py,sha256=oP-BZShCg7xAf0ff_cMgAc7eQEPtAWKj469-Wi7tbsg,10493
+spygrt-1.0.0.dist-info/METADATA,sha256=kdVBwp6xIZ7aiTop1k6R7TZ6MdkvrS-0MrjrjSJyUeo,5647
+spygrt-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+spygrt-1.0.0.dist-info/licenses/LICENSE,sha256=h9Gv1jSnZQa8cCThTNFyb_7YrUzxDTUcN41k6Hb08f8,1134
+spygrt-1.0.0.dist-info/RECORD,,
