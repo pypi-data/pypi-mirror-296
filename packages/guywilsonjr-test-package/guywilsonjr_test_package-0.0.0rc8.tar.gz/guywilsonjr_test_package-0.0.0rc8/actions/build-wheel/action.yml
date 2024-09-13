@@ -1,0 +1,46 @@
+name: Build wheels
+
+
+inputs:
+  python-version:
+    required: true
+    type: string
+  working-directory:
+    description: 'The directory to run the build on'
+    required: false
+    default: '.'
+outputs:
+  artifact-name:
+    description: "The artifact name"
+    value: cibw-wheel-${{ inputs.python-version }}
+  filename:
+    description: "The filename of the wheel"
+    value: ${{ steps.set-filename.outputs.filename }}
+runs:
+  using: composite
+  steps:
+    - name: Build wheels
+      uses: pypa/cibuildwheel@v2.20.0
+      with:
+        only: "cp3${{fromJson('{ \"3.10\":\"10\",\"3.11\":\"11\",\"3.12\":\"12\"}')[inputs.python-version]}}-manylinux_x86_64"
+        package-dir: ${{inputs.working-directory}}
+      env:
+        SETUPTOOLS_SCM_DEBUG: true
+        CIBW_DEBUG_TRACEBACK: True
+    - uses: actions/upload-artifact@v4
+      with:
+        name: build-wheel-${{ inputs.python-version }}
+        path: ./wheelhouse/*.whl
+    - name: Set Filename
+      id: set-filename
+      shell: bash
+      run: |
+        echo "filename=$(cd wheelhouse && ls *.whl)" >> $GITHUB_OUTPUT
+    - name: Validate Filename
+      id: validate-filename
+      shell: bash
+      env:
+        chosenfilename: ${{ steps.set-filename.outputs.filename }}
+      run: echo "Filename is $chosenfilename"
+
+        
