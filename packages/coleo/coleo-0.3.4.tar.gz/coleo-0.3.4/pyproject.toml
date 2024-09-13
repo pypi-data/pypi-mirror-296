@@ -1,0 +1,42 @@
+[project]
+name = "coleo"
+version = "0.3.4"
+description = "The nicest way to develop a command-line interface"
+authors = [
+    { name = "Olivier Breuleux", email = "breuleux@gmail.com" }
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "ptera~=1.4.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/breuleux/coleo"
+Repository = "https://github.com/breuleux/coleo"
+
+[project.optional-dependencies]
+toml = [
+    "toml>=0.10.2",
+]
+yaml = [
+    "pyyaml>=6.0.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+    "pytest-cov>=5.0.0",
+]
+
+[tool.ruff]
+line-length = 90
+
+[tool.ruff.lint]
+extend-select = ["I"]
+ignore = ["F821", "F842"]
