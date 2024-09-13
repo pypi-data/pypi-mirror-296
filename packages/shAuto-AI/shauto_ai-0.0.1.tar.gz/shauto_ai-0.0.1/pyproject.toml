@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "shAuto-AI"
+version = "0.0.1"
+description = "A small sample package"
+authors = ["Abhishek kandari <abhishekkandari96@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "shauto_ai", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+scikit-learn = "^1.5.2"
+pandas = "^2.2.2"
+selenium = "^4.24.0"
+beautifulsoup4 = "^4.12.3"
+
+
+[tool.poetry.urls]
+homepage = "https://github.com/Abhishekkandari96/shAuto-AI"
+repository = "https://github.com/Abhishekkandari96/shAuto-AI"
+documentation = "https://github.com/Abhishekkandari96/shAuto-AI"
+issues = "https://github.com/Abhishekkandari96/shAuto-AI/issues"
