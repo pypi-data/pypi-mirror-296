@@ -1,0 +1,12 @@
+numpy>=1.17.1
+xarray>=2024.02.0
+cubed>=0.14.2
+
+[test]
+cubed[diagnostics]
+dill
+pre-commit
+ruff
+pytest-mypy
+pytest-cov
+pytest

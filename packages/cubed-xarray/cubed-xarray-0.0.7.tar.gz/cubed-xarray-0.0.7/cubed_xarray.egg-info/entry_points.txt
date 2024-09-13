@@ -1,0 +1,2 @@
+[xarray.chunkmanagers]
+cubed = cubed_xarray.cubedmanager:CubedManager
