@@ -1,0 +1,32 @@
+<p class="mkapi-object" id="{{ node_id }}" markdown="1">
+<span class="mkapi-object-link">[{{ namespace }}][__mkapi__.__{{ namespace }}__.{{ obj_id }}]</span>
+{%- if obj.kind not in ("function") -%}
+<span class="mkapi-object-kind">{{ obj.kind }}</span>
+{%- endif %}
+<span class="mkapi-object-name" title="{{ obj_id }}">
+{%- if obj.kind in ("module", "package") -%}
+{%- for name, kind in names -%}
+<span class="mkapi-{{ kind }}">{{ name }}</span>
+{%- if not loop.last %}<span class="mkapi-dot">.</span>{% endif -%}
+{%- endfor -%}
+{% else %}
+{%- for name, kind in names[-1:] -%}
+<span class="mkapi-{{ kind }}">[{{ name }}][__mkapi__.{{ obj_id }}]</span>
+{%- endfor -%}
+{%- endif -%}
+</span>
+{%- if signature -%}
+<span class="mkapi-signature">
+{%- for name, kind in signature -%}
+<span class="mkapi-{{ kind }}">{{ name|safe }}</span>
+{%- endfor -%}
+</span>
+{%- endif %}
+</p>
+{%- if bases -%}
+<p class="mkapi-object-bases" markdown="1">Bases :
+{% for base in bases %}<span class="mkapi-object-base">{{ base|safe }}</span>
+{%- if not loop.last %}<span class="mkapi-comma">, </span>{% endif -%}
+{%- endfor -%}
+</p>
+{%- endif %}
