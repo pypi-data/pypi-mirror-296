@@ -1,0 +1,9 @@
+tma_authenticator/__init__.py,sha256=ppNpYCQfNIu2pFeSq6Rrdds1BdR3gWvp4lkzaU6ZpZ0,251
+tma_authenticator/storage_provider.py,sha256=lNDeVblWNeaq-ZiKFSDqQo_7Az2-V910KUNqzp0YH_k,394
+tma_authenticator/tma_authentication_router.py,sha256=FhPDvbIvDQ3ZoUvwRvDlEkzr0oHHxTuBBJPl6_jCBDI,2542
+tma_authenticator/tma_authenticator.py,sha256=QkW30x25R7nt61kn2pPl9rRgQHZYWUaWMY36qmaxFTg,6866
+tma_authenticator/token.py,sha256=75C0wJbWuq3peXgM72vIU889FQY26QYyCu0pTxGs4qI,150
+tma_authenticator/users.py,sha256=Cz67odCnQtKFaIUoHv28hQ47BxuVD8ujybaixlDqCPc,635
+tma_authenticator-1.1.0.dist-info/METADATA,sha256=B8NT4lh2-JuR4HeCWNmWi9Di0q4wBXhWc8sCTOJNhmI,524
+tma_authenticator-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tma_authenticator-1.1.0.dist-info/RECORD,,
