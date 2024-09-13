@@ -1,0 +1,4 @@
+[console_scripts]
+talp=talp_cli:main
+talp_download_artifacts_gitlab=download_artifacts_gitlab:main
+
