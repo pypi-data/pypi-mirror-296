@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+src/pyeqx_ceda.egg-info/PKG-INFO
+src/pyeqx_ceda.egg-info/SOURCES.txt
+src/pyeqx_ceda.egg-info/dependency_links.txt
+src/pyeqx_ceda.egg-info/top_level.txt
