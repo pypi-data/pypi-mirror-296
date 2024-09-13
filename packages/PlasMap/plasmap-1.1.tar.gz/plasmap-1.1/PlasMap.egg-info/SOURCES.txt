@@ -1,0 +1,12 @@
+README.md
+setup.py
+PlasAnn/__init__.py
+PlasAnn/annotate_plasmid.py
+PlasAnn/draw_plasmid.py
+PlasAnn/essential_annotation.py
+PlasMap.egg-info/PKG-INFO
+PlasMap.egg-info/SOURCES.txt
+PlasMap.egg-info/dependency_links.txt
+PlasMap.egg-info/entry_points.txt
+PlasMap.egg-info/requires.txt
+PlasMap.egg-info/top_level.txt
