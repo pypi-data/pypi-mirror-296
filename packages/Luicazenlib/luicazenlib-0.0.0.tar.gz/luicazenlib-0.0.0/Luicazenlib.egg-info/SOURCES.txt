@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+Luicazenlib/__mod.py
+Luicazenlib/_init__.py
+Luicazenlib.egg-info/PKG-INFO
+Luicazenlib.egg-info/SOURCES.txt
+Luicazenlib.egg-info/dependency_links.txt
+Luicazenlib.egg-info/top_level.txt
