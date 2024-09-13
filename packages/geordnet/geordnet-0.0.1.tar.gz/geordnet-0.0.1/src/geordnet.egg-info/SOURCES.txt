@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/geordnet/__init__.py
+src/geordnet/__main__.py
+src/geordnet.egg-info/PKG-INFO
+src/geordnet.egg-info/SOURCES.txt
+src/geordnet.egg-info/dependency_links.txt
+src/geordnet.egg-info/top_level.txt
