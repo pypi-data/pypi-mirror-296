@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hcapy
+Version: 1.4
+Summary: HCA private package
+Author: huochunan
+Author-email: huochunan@163.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: ezdxf
+Requires-Dist: geopandas
+Requires-Dist: pyshp
+Requires-Dist: rasterio
+Requires-Dist: numpy
+Requires-Dist: pyproj
+
