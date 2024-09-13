@@ -1,0 +1,25 @@
+[project]
+name = "ayon"
+description = "Ynput's AYON namespace"
+readme = "README.md"
+
+dynamic = ["version"]
+authors = [
+    { name = "Dee Coureau", email = "dee@ynput.com" }
+]
+
+dependencies = []
+
+[project.urls]
+"Website" = "https://ynput.io/ayon"
+"Github" = "https://github.com/ynput"
+
+[tool.setuptools.dynamic]
+version = {attr = "ayon.__version__"}
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine"
+]
+

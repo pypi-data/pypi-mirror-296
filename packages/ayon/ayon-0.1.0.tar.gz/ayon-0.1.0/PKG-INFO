@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ayon
+Version: 0.1.0
+Summary: Ynput's AYON namespace
+Author-email: Dee Coureau <dee@ynput.com>
+Project-URL: Website, https://ynput.io/ayon
+Project-URL: Github, https://github.com/ynput
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+# ayon 
+This package is the namespace for https://ynput.io/ayon packages.
