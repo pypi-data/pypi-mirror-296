@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: bi_toolbox
+Version: 0.1.0a1
+Summary: An efficient and simple to use wrapper for streamlining BI workflows, integrating seamlessly with cloud services, databases, and reporting tools.
+Home-page: https://bi-toolbox.amrsherif.live/
+License: Apache-2.0
+Keywords: BI,reporting,S3,Slack,Google Sheets,database,Redshift,Postgres
+Author: Amr Sherif
+Author-email: amr.achraff@gmail.com
+Maintainer: Amr Sherif
+Maintainer-email: amr.achraff@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: SQLAlchemy (>=2.0.0,<3.0.0)
+Requires-Dist: boto3 (>=1.17.0,<2.0.0)
+Requires-Dist: dask (>=2024.8.0,<2025.0.0)
+Requires-Dist: google-auth (>=2.34.0,<3.0.0)
+Requires-Dist: google-auth-oauthlib (>=1.2.1,<2.0.0)
+Requires-Dist: gspread (>=6.1.2,<7.0.0)
+Requires-Dist: gspread-dataframe (>=4.0.0,<5.0.0)
+Requires-Dist: pandas (>=2.2.0,<3.0.0)
+Requires-Dist: pydantic (>=2.9.0,<3.0.0)
+Requires-Dist: pydrive (>=1.3.1,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: slack-sdk (>=3.32.0,<4.0.0)
+Project-URL: Documentation, https://bi-toolbox.amrsherif.live/en/latest/reference.html
+Project-URL: Repository, https://github.com/amr-sheriff/BI-Toolbox/tree/main
+Description-Content-Type: text/markdown
+
+# BI Toolbox
+An efficient and simple to use wrapper for streamlining BI workflows, integrating seamlessly with cloud services, databases, and reporting tools.
+
+[![Release Notes](https://img.shields.io/github/release/amr-sheriff/BI-Toolbox?style=flat-square)](https://github.com/amr-sheriff/BI-Toolbox/releases)
+
+## 🧱 Overview
+
+BI Toolbox is a comprehensive package designed to streamline business intelligence workflows. It serves as a thin wrapper around a variety of powerful tools and services, enabling automated report generation, data retrieval, and integrations with cloud storage, communication platforms, and productivity tools.   
+The package is focused on BI and reporting, providing a flexible framework for data processing and integration with various external services.  
+
+> **Note**: This package is in its **alpha** stage, meaning several features and improvements are still in progress. Expect potential changes and enhancements in future releases.
+
+## ✨ Key Features 
+
+- **Automated Reporting**: Streamline report generation and data export.
+- **Cloud Integrations**: Retrieve and store data with AWS S3, Redshift, and Google Drive.
+- **Google Sheets Support**: Export data to Google Sheets with easy configuration.
+- **Slack Notifications**: Send real-time notifications of processing statuses to Slack channels.
+- **Data Processing**: Seamlessly apply custom processing functions to DataFrames.
+- **Dask Integration**: Optionally leverage Dask for parallelized data processing.
+- **Extensible Framework**: Easily extend the package with custom modules and functions.
+
+[//]: # (- **Flexible Configuration**: Configure and customize workflows with YAML files. -WIP)
+
+## 🚀 Quick Install 
+
+To install `BI Toolbox`, use pip:
+
+```bash
+pip install bi_toolbox
+```
+
+## 📖 Documentation
+
+[Codebase Reference](https://bi-toolbox.amrsherif.live/en/latest/reference.html): documentation of classes and method.  
+Tutorials (WIP): step-by-step tutorials, perfect place to get started with the package.  
+How-to guides (WIP): detailed guides on how to use the package to complete a specific tasks.  
+
+## 🤝 Contributing
+Contributions are welcome! Please submit issues and pull requests. For details, please refer to the [Contributing Guide](CONTRIBUTING.md).

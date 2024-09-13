@@ -1,0 +1,68 @@
+[tool.poetry]
+name = "bi_toolbox"
+version = "0.1.0a1"
+description = "An efficient and simple to use wrapper for streamlining BI workflows, integrating seamlessly with cloud services, databases, and reporting tools."
+authors = ["Amr Sherif <amr.achraff@gmail.com>"]
+license = "Apache-2.0"
+maintainers = ["Amr Sherif <amr.achraff@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "bi_toolbox", from = "src" }
+]
+homepage = "https://bi-toolbox.amrsherif.live/"
+repository = "https://github.com/amr-sheriff/BI-Toolbox/tree/main"
+documentation = "https://bi-toolbox.amrsherif.live/en/latest/reference.html"
+keywords = ["BI", "reporting", "S3", "Slack", "Google Sheets", "database", "Redshift", "Postgres"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Visualization"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.0"
+boto3 = "^1.17.0"
+slack-sdk = "^3.32.0"
+gspread = "^6.1.2"
+pydrive = "^1.3.1"
+SQLAlchemy = "^2.0.0"
+pydantic = "^2.9.0"
+google-auth = "^2.34.0"
+google-auth-oauthlib = "^1.2.1"
+python-dotenv = "^1.0.0"
+dask = "^2024.8.0"
+gspread-dataframe = "^4.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.5"
+notebook = "^7.2.2"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.0.0"
+sphinx-autodoc-typehints = "2.3.0"
+sphinx-rtd-theme = "^2.0.0"
+pydata-sphinx-theme = "^0.15.4"
+autodoc-pydantic = "^2.2.0"
+myst-parser = "3.0.1"
+sphinx-design = "^0.6.1"
+sphinx-copybutton = "^0.5.2"
+toml = "^0.10.2"
+sphinx-autobuild = "^2024.9.3"
+beautifulsoup4 = "^4.12.3"
+ipython = "8.18.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
