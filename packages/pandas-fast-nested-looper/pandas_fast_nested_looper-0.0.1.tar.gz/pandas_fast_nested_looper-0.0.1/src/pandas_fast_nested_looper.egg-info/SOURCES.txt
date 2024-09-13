@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pandas-fast-nested-looper/__init__.py
+src/pandas-fast-nested-looper/mongol_register_parser.py
+src/pandas-fast-nested-looper/pandas-fast-nested-looper.py
+src/pandas_fast_nested_looper.egg-info/PKG-INFO
+src/pandas_fast_nested_looper.egg-info/SOURCES.txt
+src/pandas_fast_nested_looper.egg-info/dependency_links.txt
+src/pandas_fast_nested_looper.egg-info/top_level.txt
