@@ -1,0 +1,8 @@
+vbgpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vbgpt/__main__.py,sha256=k1NnHeAerYN6LvW-oCRPDS0oeiu6Yn7S2mnwDeCTPkY,47
+vbgpt/choice_option.py,sha256=0M4rnlTqZBvJPd9KNZ9bwp_b5PCKjLt5be-CMREiP2s,1236
+vbgpt/main.py,sha256=GuzFtSz5qFG7KmMlqBPCeYXFBc95HzAyrm_hoXB6h0A,8918
+vbgpt-0.1.4.dist-info/METADATA,sha256=RjxvfcZ8qFPd4b712Xdb0-m-WqmVBKqagqhXuy2X7ok,327
+vbgpt-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vbgpt-0.1.4.dist-info/entry_points.txt,sha256=35eNphRKnM33Y1pzADyVpnBa-nA9n6QQy1xvdgemxR0,41
+vbgpt-0.1.4.dist-info/RECORD,,
