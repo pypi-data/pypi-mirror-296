@@ -1,0 +1,5 @@
+modelgauge/suts/huggingface_client.py,sha256=aLPl-7-xll1f8m6nlddZUbRTHQlEUgdEwSj-wYxxsWY,12903
+modelgauge/suts/huggingface_inference.py,sha256=QuIY-iAcTg2r2incCdngFqoteUUZf7WJ2y5ZYe6mdN0,4116
+modelgauge_huggingface-0.6.3.dist-info/METADATA,sha256=ZhtwO0nqzAEehyxVpSDcL5kkNojD_53CECLQYmxsBZ8,551
+modelgauge_huggingface-0.6.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+modelgauge_huggingface-0.6.3.dist-info/RECORD,,
