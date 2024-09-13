@@ -1,0 +1,12 @@
+remotivelabs-broker
+typer
+requests
+types-requests
+rich
+pycom
+network
+#cryptography
+zeroconf
+plotext
+python-socketio
+websocket-client
