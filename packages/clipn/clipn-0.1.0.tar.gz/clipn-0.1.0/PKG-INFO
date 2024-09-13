@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: clipn
+Version: 0.1.0
+Summary: Contrastive integration of multiple phenotypic screen datasets
+Home-page: https://github.com/yourusername/mypackage
+Author: Feng Bao
+Author-email: fbao0110@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+CLIP<sup>n</sup> is a Python package for integrating phenotypic screening data generated from diverse experimental setups. It provides tools for data
+integration for reference compound profiles and predictions for uncharacterized compounds.

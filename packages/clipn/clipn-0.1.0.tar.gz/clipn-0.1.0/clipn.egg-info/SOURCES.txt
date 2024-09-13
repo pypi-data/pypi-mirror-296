@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+clipn/__init__.py
+clipn/model.py
+clipn.egg-info/PKG-INFO
+clipn.egg-info/SOURCES.txt
+clipn.egg-info/dependency_links.txt
+clipn.egg-info/requires.txt
+clipn.egg-info/top_level.txt
