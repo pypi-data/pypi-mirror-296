@@ -1,0 +1,5 @@
+setup.py
+jupytergis.egg-info/PKG-INFO
+jupytergis.egg-info/SOURCES.txt
+jupytergis.egg-info/dependency_links.txt
+jupytergis.egg-info/top_level.txt
