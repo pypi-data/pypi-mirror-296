@@ -1,0 +1,9 @@
+simplemath/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplemath/operations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplemath/operations/basic_operations.py,sha256=sw6PR-L2Q8cNMiaqsQN7vz9CboKYG1WmcoTYWD-EzOw,237
+simplemath/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplemath/utils/helpers.py,sha256=-ueGByxPY-xfJRmOun4SprKoJiAIBsPW6zbU8DZg9Gk,115
+simplemath_luca-0.1.0.dist-info/METADATA,sha256=YL4t4IAY1F5VX4c4MA3ZEeIL8_gLCxQtL8gE1kCHpWU,441
+simplemath_luca-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+simplemath_luca-0.1.0.dist-info/top_level.txt,sha256=Gw3PtofkMhOhwGrvAw27Y-LKWYehwWIlTaev0pIDQNg,11
+simplemath_luca-0.1.0.dist-info/RECORD,,
