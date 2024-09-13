@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "task-assembly-bots"
+version = "0.1.0"
+description = "Library for building Bots for Task Assembly"
+authors = ["Dave Schultz <dave@daveschultzconsulting.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "task_assembly_bots"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
