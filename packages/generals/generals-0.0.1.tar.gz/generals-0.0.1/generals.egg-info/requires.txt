@@ -1,0 +1,6 @@
+numpy
+pettingzoo
+pydantic
+pydantic_core
+pygame
+scipy
