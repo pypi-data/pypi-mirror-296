@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+kskimtestspark.egg-info/PKG-INFO
+kskimtestspark.egg-info/SOURCES.txt
+kskimtestspark.egg-info/dependency_links.txt
+kskimtestspark.egg-info/top_level.txt
