@@ -1,0 +1,256 @@
+version: 2
+jobs:
+  tests:
+    docker:
+      - image: cimg/python:3.11
+        auth:
+          username: $DOCKER_USER
+          password: $DOCKER_PAT
+    working_directory: /tmp/tests
+    environment:
+      - OSF_MIRROR_PATH: /tmp/data/templateflow
+    steps:
+      - checkout:
+          path: /tmp/src/templateflow
+
+      - run:
+          name: Generate requirements.txt
+          command: |
+            python /tmp/src/templateflow/.maint/update_requirements.py
+
+      - restore_cache:
+          keys:
+            - deps-v11-{{ checksum "/tmp/src/templateflow/dev-requirements.txt"}}-{{ epoch }}
+            - deps-v11-{{ checksum "/tmp/src/templateflow/dev-requirements.txt"}}-
+            - deps-v11-
+      - run:
+          name: Prepare environment
+          command: |
+            python -m venv /tmp/venv
+            source /tmp/venv/bin/activate
+            python -m pip install -U pip
+            python -m pip install -r /tmp/src/templateflow/dev-requirements.txt
+            python -m pip install -U "datalad ~= 0.19.0"
+            python -m pip install -U build hatch twine pkginfo codecov
+
+      - run:
+          name: Install git and git-annex
+          command: |
+            if [[ ! -e "/tmp/cache/git-annex-standalone.tar.gz" ]]; then
+              wget -O- http://neuro.debian.net/lists/focal.us-ca.full | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
+              sudo apt-key add /tmp/src/templateflow/.neurodebian/neurodebian.gpg
+              sudo apt-key adv --recv-keys --keyserver hkps://keys.openpgp.org 0xA5D32F012649A5A9 || true
+              sudo apt update && sudo apt-get install -y --no-install-recommends git-annex-standalone
+              mkdir -p /tmp/cache
+              tar czvf /tmp/cache/git-annex-standalone.tar.gz /usr/bin/git-annex /usr/bin/git-annex-shell /usr/lib/git-annex.linux
+            else
+              sudo tar xzfv /tmp/cache/git-annex-standalone.tar.gz -C /
+            fi
+            git config --global user.name "First Last"
+            git config --global user.email "email@domain.com"
+
+      - save_cache:
+          key: deps-v11-{{ checksum "/tmp/src/templateflow/dev-requirements.txt"}}-{{ epoch }}
+          paths:
+            - "/tmp/cache"
+            - "/tmp/venv"
+
+      - run:
+          name: Test packaging
+          command: |
+            source /tmp/venv/bin/activate
+            cd /tmp/src/templateflow
+            python -m build
+            python -m twine check dist/*
+
+      - run:
+          name: Run tests (w/ DataLad)
+          command: |
+            source /tmp/venv/bin/activate
+            export TEMPLATEFLOW_USE_DATALAD=on
+            pytest --junit-xml=/tmp/tests/datalad.xml --cov templateflow --cov-report xml:/tmp/cov_api_dl.xml \
+                   --doctest-modules /tmp/src/templateflow/templateflow
+
+      - run:
+          name: Submit api test coverage
+          command: |
+            source /tmp/venv/bin/activate
+            codecov --file /tmp/cov_api_dl.xml --root /tmp/src/templateflow \
+                --flags api,datalad -e CIRCLE_JOB
+
+      - run:
+          name: Run tests (pulling from S3)
+          command: |
+            source /tmp/venv/bin/activate
+            export TEMPLATEFLOW_USE_DATALAD=off
+            export TEMPLATEFLOW_HOME=$HOME/templateflow-s3
+            pytest --junit-xml=/tmp/tests/s3.xml --cov templateflow --cov-report xml:/tmp/cov_api_s3.xml \
+                   --doctest-modules /tmp/src/templateflow/templateflow/api.py
+
+      - run:
+          name: Submit api test coverage
+          command: |
+            source /tmp/venv/bin/activate
+            codecov --file /tmp/cov_api_s3.xml --root /tmp/src/templateflow \
+                --flags api,s3 -e CIRCLE_JOB
+
+      - run:
+          name: Run tests (w/ DataLad, bypassed via S3)
+          command: |
+            source /tmp/venv/bin/activate
+            export TEMPLATEFLOW_USE_DATALAD=off
+            export TEMPLATEFLOW_HOME=$HOME/templateflow-clean
+            datalad install -r -s https://github.com/templateflow/templateflow $TEMPLATEFLOW_HOME
+            pytest --junit-xml=/tmp/tests/dl+s3.xml --cov templateflow --cov-report xml:/tmp/cov_api_dl_s3.xml \
+                   --doctest-modules /tmp/src/templateflow/templateflow/api.py
+
+      - run:
+          name: Submit api test coverage
+          command: |
+            source /tmp/venv/bin/activate
+            codecov --file /tmp/cov_api_dl_s3.xml --root /tmp/src/templateflow \
+                --flags api,dls3 -e CIRCLE_JOB
+
+      - run:
+          name: Run tests (config, parameterized TEMPLATEFLOW_USE_DATALAD)
+          command: |
+            source /tmp/venv/bin/activate
+            pytest --junit-xml=/tmp/tests/conftests.xml --cov templateflow --cov-report xml:/tmp/cov_config.xml \
+                   /tmp/src/templateflow/templateflow/conf/tests/test_conf.py
+
+      - run:
+          name: Submit config test coverage
+          command: |
+            source /tmp/venv/bin/activate
+            codecov --file /tmp/cov_config.xml --root /tmp/src/templateflow \
+                --flags config -e CIRCLE_JOB
+
+      - store_test_results:
+          path: /tmp/tests
+
+  build_docs:
+    machine:
+      # https://discuss.circleci.com/t/linux-machine-executor-images-2021-april-q2-update/39928
+      # upgrade Docker version
+      image: default
+    environment:
+      - FSLOUTPUTTYPE: NIFTI
+      - SUBJECTS_DIR: /tmp/subjects
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - env-v7-{{ .Branch }}
+            - env-v7-master
+            - env-v7-
+      - run:
+          name: Install base packages
+          command: |
+            export PATH="$HOME/.conda/bin:$PATH"
+            if ! [ -x "$(command -v curl)" ]; then
+              sudo apt-get update
+              sudo apt-get install -y --no-install-recommends curl
+            fi
+
+            if ! [ -x "$(command -v conda)" ]; then
+              curl -sSLO https://repo.anaconda.com/miniconda/Miniconda3-py39_4.11.0-Linux-x86_64.sh
+              bash Miniconda3-py39_4.11.0-Linux-x86_64.sh -b -p $HOME/.conda
+            fi
+            $HOME/.conda/bin/conda env update -f docs/environment.yml --prune
+
+      - save_cache:
+          key: env-v7-{{ .Branch }}
+          paths:
+            - ~/.conda
+
+      - run:
+          name: Check out git submodules
+          command: git submodule update --init
+      - run:
+          name: Create subjects folder
+          command: mkdir -p $SUBJECTS_DIR
+      - run:
+          name: Build only this commit
+          command: |
+            export PATH="$HOME/.conda/bin:$PATH"
+            python -m pip install -U build hatch hatchling
+            python -m hatch version
+            make -C docs SPHINXOPTS="-W" BUILDDIR="$HOME/html" CURBRANCH="${CIRCLE_TAG}" html
+      - store_artifacts:
+          path: ~/html
+
+  deploy_pypi:
+    docker:
+      - image: cimg/python:3.9
+    working_directory: /tmp/src/templateflow
+    steps:
+      - attach_workspace:
+          at: /tmp
+
+      - checkout:
+          path: /tmp/src/templateflow
+
+      - run:
+          name: Generate requirements.txt
+          command: |
+            python /tmp/src/templateflow/.maint/update_requirements.py
+
+      - restore_cache:
+          keys:
+            - deps-v11-{{ checksum "/tmp/src/templateflow/dev-requirements.txt"}}-{{ epoch }}
+            - deps-v11-{{ checksum "/tmp/src/templateflow/dev-requirements.txt"}}-
+            - deps-v11-
+
+      - run:
+          name: Deploy to PyPi
+          command: |
+            source /tmp/venv/bin/activate
+            python -m pip install build -U twine pkginfo
+            python -m build
+            python -m twine check dist/*
+            python -m twine upload dist/*
+
+workflows:
+  version: 2
+  build_test_deploy:
+    jobs:
+      - tests:
+          context:
+            - nipreps-common
+          filters:
+            branches:
+              ignore:
+                - /docs?\/.*/
+            tags:
+              only: /.*/
+      - deploy_pypi:
+          context:
+            - nipreps-common
+          requires:
+            - build_docs
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /.*/
+
+      - build_docs:
+          filters:
+            branches:
+              ignore:
+                - /tests?\/.*/
+            tags:
+              only: /.*/
+
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 10 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - tests:
+          context:
+            - nipreps-common
