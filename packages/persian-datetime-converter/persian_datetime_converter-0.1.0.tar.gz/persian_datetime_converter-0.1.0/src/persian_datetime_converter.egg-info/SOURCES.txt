@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/persian_datetime_converter/__init__.py
+src/persian_datetime_converter/converter.py
+src/persian_datetime_converter.egg-info/PKG-INFO
+src/persian_datetime_converter.egg-info/SOURCES.txt
+src/persian_datetime_converter.egg-info/dependency_links.txt
+src/persian_datetime_converter.egg-info/top_level.txt
