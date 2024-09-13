@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ibanlib
+Version: 0.0.3
+Summary: Library that supports developing applications that integrate the International Bank Account Number (IBAN).
+Author: Hermann Himmelbauer
+Author-email: hermann@himmelbauer-it.at
+License: LGPL
+License-File: LICENSE.txt
