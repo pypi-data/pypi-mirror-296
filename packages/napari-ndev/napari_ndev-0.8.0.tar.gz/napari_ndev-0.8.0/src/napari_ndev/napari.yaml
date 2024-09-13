@@ -1,0 +1,32 @@
+name: napari-ndev
+display_name: neuralDev
+visibility: public
+contributions:
+  commands:
+    - id: napari-ndev.make_utilities_container
+      python_name: napari_ndev._utilities_container:UtilitiesContainer
+      title: Make Image Utilities
+    - id: napari-ndev.make_workflow_container
+      python_name: napari_ndev._workflow_container:WorkflowContainer
+      title: Make Batch Workflow
+    - id: napari-ndev.make_apoc_container
+      python_name: napari_ndev._apoc_container:ApocContainer
+      title: Make Batch APOC
+    - id: napari-ndev.make_custom_apoc
+      python_name: napari_ndev._apoc_feature_stack:ApocFeatureStack
+      title: Make Custom APOC Feature Set
+    - id: napari-ndev.make_measure_container
+      python_name: napari_ndev._measure_container:MeasureContainer
+      title: Make Measure Container
+
+  widgets:
+    - command: napari-ndev.make_utilities_container
+      display_name: Image Utilities
+    - command: napari-ndev.make_workflow_container
+      display_name: Workflow Widget
+    - command: napari-ndev.make_apoc_container
+      display_name: APOC Widget
+    - command: napari-ndev.make_custom_apoc
+      display_name: Custom APOC Feature Set
+    - command: napari-ndev.make_measure_container
+      display_name: Measure Widget
