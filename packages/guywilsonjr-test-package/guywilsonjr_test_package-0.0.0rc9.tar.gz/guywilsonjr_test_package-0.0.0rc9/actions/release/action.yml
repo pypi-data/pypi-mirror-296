@@ -1,0 +1,27 @@
+name: Publish to Pypi
+inputs:
+  download-pattern:
+    description: 'The pattern to download the artifact default "cibw-*"'
+    required: false
+    default: 'build-*'
+  download-path:
+    description: 'The path to download the artifact to default "dist"'
+    required: false
+    default: 'dist'
+  merge-multiple:
+    description: 'Merge multiple artifacts on the download-artifact step default "true"'
+    required: false
+    default: true
+runs:
+  using: composite
+  steps:
+    - uses: actions/download-artifact@v4
+      with:
+        pattern: ${{ inputs.download-pattern }}
+        path: ${{ inputs.download-path }}
+        merge-multiple: ${{ inputs.merge-multiple }}
+    - uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        verbose: true
+
+        

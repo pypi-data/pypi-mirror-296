@@ -1,0 +1,19 @@
+name: 'OptimizedCheckout'
+description: 'Check out Depth 1 with tags if needed'
+
+inputs:
+  ref:
+    description: 'The ref to check out. This can be a branch, tag, or SHA'
+    required: true
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        echo "Checking out ${{ inputs.ref }}"
+        echo "fetch-tags: $${{ startsWith(inputs.ref, 'v') }} || $${{ startsWith(inputs.ref, 'refs/tags/v') }}"
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ inputs.tag_name }}
+        fetch-depth: 1
+        fetch-tags: $${{ startsWith(inputs.ref, 'v') }} || $${{ startsWith(inputs.ref, 'refs/tags/v') }}
