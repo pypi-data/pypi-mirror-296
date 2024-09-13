@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: openvlm
+Version: 0.0.1
+Summary: Self-hosting VLMs made easy
+Home-page: https://github.com/bentoml/OpenVLM
+Author: Sean Sheng
+Author-email: ssheng@bentoml.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OpenVLM
