@@ -1,0 +1,14 @@
+pymemuc/__init__.py,sha256=zUDy4PnGZKoCJhjWOtjg6pwkFqmjoVFa8mWk0tgdz1c,415
+pymemuc/_command.py,sha256=fsJ-sL-14iTX3kEoqb3Y9yb4QdXdibHLwt5617Q8idk,24657
+pymemuc/_constants.py,sha256=EuyXFGWFvt4wAw7rewuXf3vkUO50AzsO4bYcccsV1eA,607
+pymemuc/_control.py,sha256=CSbHh4Uib8gvbjMAQ3zuvw15WA2zufWp2Psj9YPL8P4,5168
+pymemuc/_decorators.py,sha256=Wu6Qaa43VUQ9fgt1Jy0KsAzeJIHyx8Cgl_jPVJ4Jbdw,1520
+pymemuc/_manage.py,sha256=dsRkENvAGacEQg_ETe00FGyLxm3pZ32mO5bMAfxcfPU,14903
+pymemuc/_memuc.py,sha256=rWc3Tq-khkoJCq5CcCg7mcSwKCGTboicHQ4PsMsslqk,5590
+pymemuc/exceptions.py,sha256=DPTtLRfumc1A6SgopdvfkkLrN27gcuDWabQPSF_pm3M,934
+pymemuc/pymemuc.py,sha256=RkgOKphvCZELKyxEePfGl9ztNIjFnUa8cPf7p1x7saE,3149
+pymemuc/types.py,sha256=aYMVgUHzurTd6VCGrMSxOIKzP9p6hoEB_wjhdGRVGeM,1215
+pymemuc-0.6.0.dist-info/LICENSE,sha256=waVcallPfzNHcWnaJ61cK4Wtv2Q1ao2LV3PSBO-1b8U,1057
+pymemuc-0.6.0.dist-info/METADATA,sha256=VMp5pwFZ-8OL8s3DZYceZGGFLKCP16A1LXfgURLbJKA,2558
+pymemuc-0.6.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pymemuc-0.6.0.dist-info/RECORD,,
