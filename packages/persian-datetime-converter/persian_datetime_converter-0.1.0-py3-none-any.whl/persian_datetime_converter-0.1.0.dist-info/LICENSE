@@ -1,0 +1,13 @@
+
+### 6. `LICENSE` File
+Include a license file, such as the MIT license.
+
+### 7. `pyproject.toml` File
+This file is a modern way to define build systems and dependencies.
+
+```toml
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
