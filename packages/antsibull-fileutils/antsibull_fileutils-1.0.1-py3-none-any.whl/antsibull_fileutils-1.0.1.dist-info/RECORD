@@ -1,0 +1,11 @@
+antsibull_fileutils/__init__.py,sha256=n7qbuj1xUDpbqxeKFIgAHapyBHZtPdCJhBAnUgUXYOU,369
+antsibull_fileutils/copier.py,sha256=kd01bCd45sR9-0S_Y0awN1T30nJuD7-mvEmmFHFUcpU,4716
+antsibull_fileutils/hashing.py,sha256=HqPTlVbL1q19dwZ8MhS2Gh15u1tSxuuVy8s6f4DXQIM,2718
+antsibull_fileutils/io.py,sha256=TcDtN05GYrmUUo0iplf-mrfFcpKri3pGmk2T6Hlm_E8,4305
+antsibull_fileutils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antsibull_fileutils/vcs.py,sha256=coUXZ1AquGZ2F3s63NaePfUYHQsW2i6YKINSVI1a5Gk,3061
+antsibull_fileutils/yaml.py,sha256=fJytHGxksnUTABCdW87gf_BJpUIVqkA7s39QShE1zj0,2105
+antsibull_fileutils-1.0.1.dist-info/METADATA,sha256=jfcumg3nrQ6QUrRsjcABIx3opLHLnVsx12IDV7VPkw8,6520
+antsibull_fileutils-1.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+antsibull_fileutils-1.0.1.dist-info/licenses/LICENSES/GPL-3.0-or-later.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+antsibull_fileutils-1.0.1.dist-info/RECORD,,
