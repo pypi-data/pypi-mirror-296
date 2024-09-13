@@ -1,0 +1,113 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools>=70,<71",
+  "setuptools-scm>=8,<9",
+]
+
+[project]
+name = "btrfs2s3"
+description = "Snapshot btrfs volumes and back them up to s3"
+readme = "README.md"
+authors = [
+  { name = "Steven Brudenell", email = "steven.brudenell@gmail.com" },
+]
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dynamic = [
+  "version",
+]
+dependencies = [
+  "arrow>=1,<2",
+  "backports-zoneinfo; python_version<'3.9'",
+  "boto3[crt]>=1,<2",
+  "cfgv>=3,<4",
+  "pyyaml>=6,<7",
+  "rich>=13,<14",
+  "typing-extensions>=4.4,<5",
+  "tzdata",
+]
+urls.homepage = "https://github.com/sbrudenell/btrfs2s3"
+scripts.btrfs2s3 = "btrfs2s3._internal.main:main"
+
+[tool.setuptools_scm]
+
+[tool.ruff]
+format.skip-magic-trailing-comma = true
+lint.select = [
+  "ALL",
+]
+lint.ignore = [
+  "ANN101",
+  "ANN102",
+  "COM812",
+  "ISC001",
+]
+lint.per-file-ignores."src/btrfs2s3/_internal/*" = [
+  "PLR",
+]
+lint.per-file-ignores."src/btrfs2s3/assessor.py" = [
+  "D",
+]
+lint.per-file-ignores."src/btrfs2s3/commands/*" = [
+  "T",
+]
+lint.per-file-ignores."src/btrfs2s3/resolver.py" = [
+  "D",
+]
+lint.per-file-ignores."tests/*" = [
+  "D",
+  "PLR",
+  "S",
+  "SLF",
+]
+lint.per-file-ignores."typeshed/*" = [
+  "A",
+]
+lint.isort.force-single-line = true
+lint.isort.force-sort-within-sections = true
+lint.isort.order-by-type = false
+lint.pydocstyle.convention = "google"
+
+[tool.coverage.run]
+plugins = [
+  "covdefaults",
+]
+source = [
+  "btrfs2s3",
+  "tests",
+]
+
+[tool.tox]
+legacy_tox_ini = """
+  [tox]
+  requires =
+      tox>=4.2
+      tox<5
+  env_list =
+      py
+
+  [testenv]
+  system_site_packages = true
+  deps =
+      -r test-requirements.txt
+  commands =
+      coverage erase
+      coverage run -m pytest {posargs}
+      coverage report
+"""
+
+[tool.mypy]
+mypy_path = "typeshed"
+strict = true
+
+[[tool.mypy.overrides]]
+module = "cfgv"
+ignore_missing_imports = true
