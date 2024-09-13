@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ai_agent_cli/__init__.py
+ai_agent_cli/ai_agent.py
+ai_agent_cli/cli.py
+ai_agent_cli.egg-info/PKG-INFO
+ai_agent_cli.egg-info/SOURCES.txt
+ai_agent_cli.egg-info/dependency_links.txt
+ai_agent_cli.egg-info/entry_points.txt
+ai_agent_cli.egg-info/requires.txt
+ai_agent_cli.egg-info/top_level.txt
