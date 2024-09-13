@@ -1,0 +1,50 @@
+# Note that this complex local development docker compose still can't answer most
+# questions we might want to ask about the UDP broadcast setup. The reason is that
+# if we isolate the p4p containers from each other so their UDP broadcast messages 
+# must route throuhg the SnowSignal servers then they can't use direct UDP or TCP 
+# to create connections. On the other hand if they can see each other then the 
+# SnowSignal infrastructure is irrelevant.
+
+services:
+    server1:
+        hostname: server1
+        container_name: server1
+        build:
+            context: ./snowsignal
+        command: "sleep infinity"
+        volumes:
+            - .:/snowsignal/
+        networks:
+            - udptest1
+            - udptest2
+
+    server2:
+        hostname: server2
+        container_name: server2
+        build:
+            context: ./snowsignal
+        command: "sleep infinity"
+        volumes:
+            - .:/snowsignal/
+        networks:
+            - udptest2
+
+    probe1:
+        hostname: probe1
+        container_name: probe1
+        build:
+            context: ./tests
+        networks:
+            - udptest1
+
+    probe2:
+        hostname: probe2
+        container_name: probe2
+        build:
+            context: ./tests
+        networks:
+            - udptest2
+
+networks:
+    udptest1:
+    udptest2:

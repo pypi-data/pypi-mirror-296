@@ -1,0 +1,75 @@
+[project]
+name = "SnowSignal"
+dynamic = ["version"]
+dependencies = [
+    "configargparse>=1.7",
+    "psutil>=5.9",
+]
+requires-python = ">=3.11"
+authors = [
+  {name = "Ivan Finch", email = "ivan.finch@stfc.ac.uk"},
+]
+maintainers = [
+  {name = "Ivan Finch", email = "ivan.finch@stfc.ac.uk"},
+]
+description = "UDP Broadcast Relay"
+readme = "README.md"
+#license = {file = "LICENSE"}
+keywords = ["UDP", "UDP broadcast", "docker swarm", "epics", "pvaccess",]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python",
+  "Topic :: System :: Networking",
+  "Typing :: Typed"
+]
+
+[project.urls]
+Repository = "https://github.com/ISISNeutronMuon/SnowSignal"
+
+[project.optional-dependencies]
+test = [
+  "scapy~=2.0",
+  "ruff>0.6",
+  "coverage>=7.6"
+]
+dist = [
+  "build>=1.2",
+  "twine>=5.1",
+]
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.coverage.run]
+source = ["."]
+omit = ["./tests/locust/"]
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["snowsignal/"]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.ruff]
+# Allow lines to be as long as 120.
+line-length = 120
+
+[tool.ruff.lint]
+extend-select = [
+  "UP",  # pyupgrade
+  "I", # isort
+]
