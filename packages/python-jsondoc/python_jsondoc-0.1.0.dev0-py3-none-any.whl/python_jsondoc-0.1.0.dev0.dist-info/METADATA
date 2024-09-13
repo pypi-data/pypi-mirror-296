@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: python-jsondoc
+Version: 0.1.0.dev0
+Summary: 
+Author: TextCortex Team
+Author-email: dev@textcortex.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bs4 (>=0.0.2,<0.0.3)
+Requires-Dist: ipdb (>=0.13.13,<0.14.0)
+Requires-Dist: jsonschema (>=4.23.0,<5.0.0)
+Requires-Dist: pillow (>=10.3.0,<11.0.0)
+Requires-Dist: pydantic (>=2.7.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.2,<3.0.0)
+Requires-Dist: thefuzz (>=0.22.1,<0.23.0)
+Description-Content-Type: text/markdown
+
+# JSON-DOC
+
+TBD
