@@ -1,0 +1,10 @@
+pandas>=2.1.1
+autopep8
+betamax
+betamax-serializers
+pylint
+tox
+black
+isort
+pre-commit
+pytest
