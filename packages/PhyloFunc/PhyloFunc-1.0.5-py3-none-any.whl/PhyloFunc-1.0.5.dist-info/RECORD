@@ -1,0 +1,11 @@
+PhyloFunc/PhyloFunc.py,sha256=CMrhQqIPU1gjo33hWucmwjkbgOim9qiFUq8uZT9G8cA,13593
+PhyloFunc/PhyloFunc_Package_Tutorial.ipynb,sha256=rjxsEzWwlPFXn9aVhK1eBWdtxhsg71PECPntK5ynotY,24961
+PhyloFunc/__init__.py,sha256=_E1N6VUTO_INrwRHrBFuFi0NhJ78vJWc9FNwMry78lY,115
+PhyloFunc/data/Genome-COG-distance.csv,sha256=F7cDIcV7BD4zYGxHk13Z3DhYx-L0-Pt8ute67v87u7o,847839
+PhyloFunc/data/Genome-COG-matrix.csv,sha256=Y6j4tLq2NecF8SjR_PLCqz6eL9a2QJ7P4DMo5aK6Gng,2404061
+PhyloFunc/data/bac120_iqtree_v2.0.1.nwk,sha256=YTRw9FipNFeS5KANn1qGLZ2zW4qZTUuFP0nmTzHYbk4,198030
+PhyloFunc-1.0.5.dist-info/LICENSE.txt,sha256=X2Md9q9917ZdSv-jY3DObwzS7a7VX5V03cj8GTeTYrg,1077
+PhyloFunc-1.0.5.dist-info/METADATA,sha256=0819NLwrt4tmxoq0FWUUsTJ3zsZIugfH0yqtmJhKWTY,4070
+PhyloFunc-1.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PhyloFunc-1.0.5.dist-info/top_level.txt,sha256=C5PBc0OeMHqVbfu8x2ki7qw4BJDsPu6gsDnfnwr04u8,10
+PhyloFunc-1.0.5.dist-info/RECORD,,
