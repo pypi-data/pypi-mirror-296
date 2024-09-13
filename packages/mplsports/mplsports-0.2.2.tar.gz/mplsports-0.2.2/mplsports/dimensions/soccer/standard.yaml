@@ -1,0 +1,13 @@
+length: 105.0 # Length of the pitch in meters
+width: 68.0 # Width of the pitch in meters
+line_width: 0.12 # Width of the lines in meters
+penalty_area_length: 16.5
+penalty_area_width: 40.32
+goal_area_length: 5.5
+goal_area_width: 18.32
+center_circle_radius: 9.15
+corner_arc_radius: 1.0
+left: 0.0 # Left boundary of the pitch
+right: 105.0 # Right boundary of the pitch
+bottom: 0.0 # Bottom boundary of the pitch
+top: 68.0 # Top boundary of the pitch

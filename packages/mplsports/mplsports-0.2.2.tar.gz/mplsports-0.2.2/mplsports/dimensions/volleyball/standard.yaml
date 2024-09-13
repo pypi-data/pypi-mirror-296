@@ -1,0 +1,9 @@
+length: 18.0 # Length of the court in meters
+width: 9.0 # Width of the court in meters
+line_width: 0.05
+attack_line_distance: 3.0
+center_line_width: 0.05
+left: 0.0 # Left boundary of the pitch
+right: 105.0 # Right boundary of the pitch
+bottom: 0.0 # Bottom boundary of the pitch
+top: 68.0 # Top boundary of the pitch

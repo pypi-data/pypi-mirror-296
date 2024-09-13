@@ -1,0 +1,26 @@
+[project]
+name = "mplsports"
+version = "0.2.2"
+description = "A library to plot various sports fields using Matplotlib"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.7.5",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]  # configuration specific to the `setuptools` build backend.
+packages = { find = { where = ["."], include = ["mplsports", "mplsports.*"] } }
+package-data = { "mplsports" = ["**/*.yaml"] }
+
+[tool.uv]
+dev-dependencies = [
+    "build>=1.2.2",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "pip>=24.2",
+    "twine>=5.1.1",
+]
