@@ -1,0 +1,20 @@
+numpy
+pandas
+netCDF4
+pyproj
+pykdtree
+scipy
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[docs]
+ipykernel
+nbconvert
+matplotlib
+nbsphinx
+sphinx_rtd_theme
+
+[testing]
+pytest
+pytest-cov
