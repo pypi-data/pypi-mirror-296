@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: recaptcha-bypass
+Version: 0.1
+Summary: A tool to bypass reCAPTCHA Enterprise v2 for educational purposes
+Home-page: https://github.com/sociproviders/recaptcha-bypass
+Author: Azrail
+Author-email: info@sociproviders.com
+Requires-Dist: requests
+
