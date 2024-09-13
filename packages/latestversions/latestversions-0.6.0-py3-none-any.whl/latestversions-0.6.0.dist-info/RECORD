@@ -1,0 +1,11 @@
+packageversions/PackageVersions.py,sha256=_Vc2E1tyvp5u6MpWmTvAJogtJo9Wa_leqZw8aK7o5bA,5423
+packageversions/__init__.py,sha256=ELzZLcgkJ4VHoDsFY59_MMopC82yPPBcsZtC33ftVig,49
+packageversions/_version.py,sha256=wpTMRfLpry2Ww-dUWKtVOpTfy643tz5RrBoRfXTiSlQ,27
+packageversions/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packageversions/resources/loggingConfiguration.json,sha256=fKJaX7L4h9K7Z8U4q0WwV4z9ZukqznPv7LCzAs7ZjKA,857
+latestversions-0.6.0.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+latestversions-0.6.0.dist-info/METADATA,sha256=8nN5_RuIQaihgaWi-WCXTXxR5QpBOOMcZXyFgQriXwk,1995
+latestversions-0.6.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+latestversions-0.6.0.dist-info/entry_points.txt,sha256=PNZivF13JzCWhPz2FN3ZXtk9nxl_-kHdnJwDpkKuCrQ,82
+latestversions-0.6.0.dist-info/top_level.txt,sha256=uRMAcrV0rsjluhpAMdh0kHFoBz3qWRBqrVKroAT2-rc,16
+latestversions-0.6.0.dist-info/RECORD,,
