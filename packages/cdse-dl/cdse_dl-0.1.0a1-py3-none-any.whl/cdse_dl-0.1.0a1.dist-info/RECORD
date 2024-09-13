@@ -1,0 +1,17 @@
+cdse_dl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdse_dl/auth.py,sha256=5jbE2WlPAVScIGHd0DdfEFdUrUGoKRPHKJolO83vuik,9408
+cdse_dl/download.py,sha256=eqG8hCKQYKR0DDimaRpB74cTi_u-NEcneC3l7IDfU4k,8896
+cdse_dl/subscriptions.py,sha256=QHvNoF791pxuG1EfrbhanSBIk2R-z0k3hxIorNO04Fw,4725
+cdse_dl/types.py,sha256=qlg8VpXJLImocmG83ENq3Ca8OdYN7KCNA1IM11pjQKU,392
+cdse_dl/utils.py,sha256=QPNsMT0dessaI-s2SsXcaP6qm95V1UuLT08NIMfzg6A,1568
+cdse_dl/odata/__init__.py,sha256=YU32MWtxqw_bkirKu3dx8_6VHDje9ZuNSk2-UeFJWBE,169
+cdse_dl/odata/attributes.py,sha256=5SrcfIm6cjsqS4Po1oWzY4kaFdrq4vSgBLwDYGeSbfI,1544
+cdse_dl/odata/filter.py,sha256=IPRGJ8_gyaK5h6EemPb1R0XUsPZW1kxXHptz8YReFZY,7931
+cdse_dl/odata/search.py,sha256=NLO0TGgSDhVwvcjBtLRSOuIY2XeLPEHHWLETlVnvgXw,15693
+cdse_dl/odata/utils.py,sha256=fnMQEY2tdxaYhkRpy76gYSFcBafIlXjunow8QPduCyM,637
+cdse_dl/opensearch/search.py,sha256=lQ5hIzLnkd7MN_nR8dr66zeWjjUhVpRMkn8Yowlmsjk,11098
+cdse_dl-0.1.0a1.dist-info/LICENSE,sha256=kXfxb8_jy9bYIs5sy1_Ytk6Iv_zpkSnuFn90wytqXk8,581
+cdse_dl-0.1.0a1.dist-info/METADATA,sha256=KhyJ1uf2dAMs_CCBQJdqdRO6jkxe-eP9qCEXvwyvoAI,8502
+cdse_dl-0.1.0a1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+cdse_dl-0.1.0a1.dist-info/top_level.txt,sha256=j_NyGr7sQ_QPzYPiNy4rHXCQ019hYfPS5RcdX76B5FY,8
+cdse_dl-0.1.0a1.dist-info/RECORD,,
