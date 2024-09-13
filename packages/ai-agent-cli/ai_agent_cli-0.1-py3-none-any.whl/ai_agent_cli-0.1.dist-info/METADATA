@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ai_agent_cli
+Version: 0.1
+Summary: AI agent for automatic backend server creation
+Author: Anand Ranjan
+Author-email: annadranjan789@gmail.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: argparse
+Requires-Dist: openai
+

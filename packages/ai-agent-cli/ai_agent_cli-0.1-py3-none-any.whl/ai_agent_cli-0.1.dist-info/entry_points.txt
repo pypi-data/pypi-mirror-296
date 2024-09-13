@@ -1,0 +1,2 @@
+[console_scripts]
+create-backend = ai_agent_cli.cli:main
