@@ -1,0 +1,32 @@
+
+
+source      : ./docs/source
+destination: ./_site
+
+url: https://nordicec.github.io
+
+# Site settings
+title: EC4py Package
+author:
+  name: Gustav Wiberg
+  email: info@nordicec.com
+description: "Great site about Jekyll on GH-Pages."
+
+# Build settings
+#remote_theme: jekyll/minima
+#remote_theme: pages-themes/minimal@v0.2.0
+# theme: jekyll-theme-minima
+remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+
+#  - docs/index.rst
+
+enable_copy_code_button: true
+
+aux_links:
+  EC4py on GitHub:
+    - https://github.com/nordicec/ec4py
