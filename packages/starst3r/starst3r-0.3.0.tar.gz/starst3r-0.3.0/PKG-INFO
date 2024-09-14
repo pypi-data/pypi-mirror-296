@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: starst3r
+Version: 0.3.0
+Summary: Ultra fast 3D reconstruction and novel view synthesis.
+Home-page: https://github.com/phuang1024/Starst3r
+Author: Patrick Huang
+Author-email: phuang1024@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: gsplat
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: torch
+Requires-Dist: torchmetrics
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: roma
+Requires-Dist: gradio
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: opencv-python
+Requires-Dist: scipy
+Requires-Dist: einops
+Requires-Dist: trimesh
+Requires-Dist: tensorboard
+Requires-Dist: pyglet<2
+Requires-Dist: huggingface-hub[torch]>=0.22
+
+# Starst3r
+
+Ultra fast 3D reconstruction and novel view synthesis.
+
+![](docs/images/demo.gif)
+
+Starst3r combines the Mast3r 3D reconstruction paper and the
+gsplat novel view synthesis project into a simple Python package.
+
+Docs: https://starst3r.readthedocs.io/en/latest/
