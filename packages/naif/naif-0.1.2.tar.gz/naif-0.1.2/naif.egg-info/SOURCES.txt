@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+naif/__init__.py
+naif/_base_funcs.py
+naif/spec.py
+naif.egg-info/PKG-INFO
+naif.egg-info/SOURCES.txt
+naif.egg-info/dependency_links.txt
+naif.egg-info/requires.txt
+naif.egg-info/top_level.txt
