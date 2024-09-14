@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Sonic-Screwdriver
+Version: 1.0.2
+Summary: Astrophysics outreach tool
+Author-email: Harry Addison <ha00871@surrey.ac.uk>
+Project-URL: Homepage, https://github.com/HarryAddison/Sonic-Screwdriver
+Project-URL: Issues, https://github.com/HarryAddison/Sonic-Screwdriver/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
