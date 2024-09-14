@@ -1,0 +1,6 @@
+requests
+pandas
+openai
+ragchecker
+spacy
+scikit-learn-intelex

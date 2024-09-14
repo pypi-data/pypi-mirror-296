@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Ragzhongshui7
+Version: 0.1.0
+Summary: A simple example Python package
+Home-page: https://github.com/yourusername/mypackage
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: openai
+Requires-Dist: ragchecker
+Requires-Dist: spacy
+Requires-Dist: scikit-learn-intelex
+
+# mypackage
+ 
+A simple example Python package.
+ 
+## Installation
+ 
+```sh
+pip install mypackage
