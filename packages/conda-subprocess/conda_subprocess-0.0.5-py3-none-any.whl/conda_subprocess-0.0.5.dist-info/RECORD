@@ -1,0 +1,10 @@
+conda_subprocess/__init__.py,sha256=l8HiZcX6l_YKEBt4zhLSZRBkoFkStrRB4aunLxAlEjQ,270
+conda_subprocess/_version.py,sha256=vX629Uhvl5p0bn0RQIBzxRggPAdRk4qiQ6SM389Bd04,24639
+conda_subprocess/decorator.py,sha256=mc7HVkJo_rQBb-_3T7GxpTpoV0AZVVRagxFjhR6czzU,1740
+conda_subprocess/interface.py,sha256=aQBPm9QGlC37fEpUmXb7VqOr0tZIjEUCfFz-BBPQCZc,7043
+conda_subprocess/process.py,sha256=lrQJFV9THUFMhs2h5swm7wIg4VvylVknDojw51nheKk,4606
+conda_subprocess-0.0.5.dist-info/LICENSE,sha256=Wn4J1aBo8rRlVrpXJ3Xv4j8IicRrpeTi3ERWTXfNTv4,1505
+conda_subprocess-0.0.5.dist-info/METADATA,sha256=op7spfVNDpxd5XdTnj2n4E6oiRUV_x590tEF6Mbolng,5416
+conda_subprocess-0.0.5.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+conda_subprocess-0.0.5.dist-info/top_level.txt,sha256=7JKUw0WIHd_x7A_fSUgtIDxHPGo2CNKCWe3Sd27SiDk,17
+conda_subprocess-0.0.5.dist-info/RECORD,,
