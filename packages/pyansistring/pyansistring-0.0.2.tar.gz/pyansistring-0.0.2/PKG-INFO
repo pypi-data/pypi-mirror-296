@@ -1,0 +1,106 @@
+Metadata-Version: 2.3
+Name: pyansistring
+Version: 0.0.2
+Summary: A small library for fast color styling of the string using ANSI escape sequences.
+Project-URL: Repository, https://github.com/l1asis/pyansistring.git
+Project-URL: Issues, https://github.com/l1asis/pyansistring/issues
+Author: Volodymyr Horshenin
+License: MIT License
+        
+        Copyright (c) 2024 Volodymyr Horshenin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: ANSI escape sequences,colored string,colored text,colors,terminal
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# pyansistring
+
+![pyansistring Banner](./images/banner.png)
+
+[***`pyansistring`***](https://github.com/l1asis/pyansistring) is a small library for fast **color styling** of the string using **ANSI escape sequences**. The base class inherits from Python's `str`. You can split, join, slice the string while preserving the styling. 
+
+Inspired by [***`rich`***](https://github.com/Textualize/rich) Python library.
+
+## **Features**
+- Preservation of the `str` methods.
+- RGB foreground and background coloring.
+- Per-word coloring.
+- Align left, right and center without the problems caused by the length of the string.
+
+#### For a more comprehensive list of what's been done so far, see the [***TODO***](./TODO.md) section.
+
+## **Install**
+Since the library is published on [PyPI](https://pypi.org/), it can be installed using pip:
+```
+pip install pyansistring
+```
+Or locally, by cloning the project:
+```
+git clone https://github.com/l1asis/pyansistring
+cd ./pyansistring/
+pip install .
+```
+
+## **Contributing**
+Any ideas (vectors) for improvements, actual help with implementations, bug fixes 
+and anything else is highly appreciated. You can also contribute by adding your 
+own art to the `arts.py` file in the `.\src\pyansistring` directory if you like.
+
+## **Usage**
+```python
+from pyansistring import ANSIString
+from pyansistring.constants import SGR, Foreground, Background
+
+# Does what it should: prints all text in bold, with magenta foreground and white background.
+print(ANSIString("Hello, World!").fg_4b(Foreground.MAGENTA).bg_4b(Background.WHITE).fm(SGR.BOLD))
+
+# But you can do the same on a specific slice:
+print(ANSIString("Hello, World!").fg_4b(Foreground.MAGENTA, (0, 4)).bg_4b(Background.WHITE, (2, 4)).fm(SGR.BOLD, (4, 6)))
+
+# Or if you want to apply styles to a specific word
+print(ANSIString("Hello, World!").fg_4b_w(Foreground.MAGENTA, "Hello", "World").bg_4b_w(Background.WHITE, "World").fm_w(SGR.BOLD, ","))
+
+# You may find predefined colors boring, let's do it with RGB:
+print(ANSIString("Hello, World!").fg_24b(255, 0, 255).bg_24b(255, 255, 255))
+
+# And of course you can do the same tricks with words:
+print(ANSIString("Hello, World!").fg_24b_w(255, 0, 255, "Hello").bg_24b_w(255, 255, 255, "World"))
+
+# By the way...
+print(len(ANSIString("Hello, World!").fg_4b(Foreground.MAGENTA)) == len("Hello, World!"))
+# -> True
+
+# Why? Because I wanted it to behave this way. But at the same time:
+print(len(ANSIString("Hello, World!").fg_4b(Foreground.MAGENTA).styled) == len("Hello, World!"))
+# -> False
+print(ANSIString("Hello, World!").fg_4b(Foreground.MAGENTA).actual_length == len("Hello, World!"))
+# -> False
+
+# If you need the original string:
+print(ANSIString("Hello, World!").fg_4b(Foreground.MAGENTA).plain)
+```
