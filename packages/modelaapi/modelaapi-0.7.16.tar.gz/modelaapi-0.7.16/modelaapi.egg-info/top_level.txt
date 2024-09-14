@@ -1,0 +1,5 @@
+github
+google
+k8s
+modelaapi
+protoc_gen_swagger
