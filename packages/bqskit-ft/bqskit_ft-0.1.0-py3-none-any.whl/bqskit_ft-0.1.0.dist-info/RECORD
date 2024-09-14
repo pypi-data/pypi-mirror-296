@@ -1,0 +1,14 @@
+bqskit/ft/__init__.py,sha256=XEHhelFKUvKU9X17sW1rpQ5dVThW-chyfadH-vp5Jfo,290
+bqskit/ft/ftmodel.py,sha256=QbK-eFxFpqzfkYH-nT-FA-bOb6Kqph055Cyme__5kSo,1131
+bqskit/ft/cliffordt/cliffordtgates.py,sha256=gFxsApcMQjAl382ddQo6Si_KJIi-Oa7bvAYYEA_3vWE,874
+bqskit/ft/cliffordt/cliffordtmodel.py,sha256=tOehJn3mGSPoUMpXCr5tnmjXqFQ51dMvvNBcvUXPpLA,2975
+bqskit/ft/cliffordt/defaultworkflow.py,sha256=VePwwmethUKW38XRpEwgYNJgRasHsWIn6ngY4UF93ME,8818
+bqskit/ft/cliffordt/rounding.py,sha256=T5j7w3TSpv5SLtoAH9stxYOb3rkdBqmCdg-oVnXGtnQ,2302
+bqskit/ft/rules/replacement.py,sha256=z6aZR3Xjq-a8VYUfTMU5bgQyM4_9AnfAVXkIQgVTyOM,2119
+tests/ft/test_compile.py,sha256=J3jBBdbn0pT1NWgaqOLb5pRZc10_xgVXHWwYl6wyJJ4,1236
+tests/ft/test_replacement.py,sha256=a0NECx0Xf5i740CG0mb6RJ59V6-ao5S7ezlnpdVhlDQ,2175
+bqskit_ft-0.1.0.dist-info/LICENSE,sha256=2W_xCF4zpk3hS4Utf3fSNJ7MHpxyc-sMXFskx9GoRLY,2527
+bqskit_ft-0.1.0.dist-info/METADATA,sha256=NbhzPkUvYUqhs7oOF1UZxzeJIhGXRbj0d4SP7Nt5MUQ,297
+bqskit_ft-0.1.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+bqskit_ft-0.1.0.dist-info/top_level.txt,sha256=V4X1a93vT0l7K7qOmM_Oih42sVQrPBQsEGWe9F_j7B8,13
+bqskit_ft-0.1.0.dist-info/RECORD,,
