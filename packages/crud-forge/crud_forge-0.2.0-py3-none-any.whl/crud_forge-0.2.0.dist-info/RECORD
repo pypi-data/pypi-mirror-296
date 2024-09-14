@@ -1,0 +1,12 @@
+forge/__init__.py,sha256=Y8cPOCZpmbPw62E_kyk7pKXRwQ559ctcXUaC2NBoUF4,9810
+forge/db.py,sha256=_JMjhpUAowfVI1B56xWePXA5sqn3Iw3VTJygNE2Sz8s,7256
+forge/gen/crud.py,sha256=f5ALaA22QBA4NEjsYs0QARUTPW-z9lmJ3HhizgFvhmE,6974
+forge/gen/metadata.py,sha256=9NrNJDutWouXihxSxznvMF0_cGzWER5xkxPghuQAQt0,3149
+forge/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forge/utils/helpers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forge/utils/sql_types.py,sha256=4JsHX1MuCMtI4KaO7COmEM88aHWvHgcG4nL182MhRhc,4131
+crud_forge-0.2.0.dist-info/LICENSE,sha256=wLum5sIywmDNXSzTgpV2XGuy7AVwZTJumRbFD039vlg,1089
+crud_forge-0.2.0.dist-info/METADATA,sha256=5lCcxgejaLhd_tiBq2UojnGZ0gi_DA5r5JWshcC8pes,6280
+crud_forge-0.2.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+crud_forge-0.2.0.dist-info/top_level.txt,sha256=sDbe4KjRUBYyB4IABQOjHzoomNKH_4KwOv5fPPrv4ME,6
+crud_forge-0.2.0.dist-info/RECORD,,
