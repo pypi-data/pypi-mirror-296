@@ -1,0 +1,3 @@
+[console_scripts]
+xylo=xylo.cli:cli_entrypoint
+
