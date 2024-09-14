@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nonebot-plugin-brecreport"
+version = "0.1.1"
+description = "该插件提供了一个位于 /brec_report 的路由，并和录播姬适配，实现实现几乎实时的开播提醒 (需要安装录播姬)"
+authors = ["Anec <a-nemon-e@outlook.com>"]
+license = "AGPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/A-nemon-e/nonebot-plugin-brecreport"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = {extras = ["fastapi"], version = "^2.0.1"}
+pydantic = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
