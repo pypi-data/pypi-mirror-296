@@ -1,0 +1,11 @@
+visier_api_core/__init__.py,sha256=7TMqo3xI2UHoJwQHo6V2c_i2bcGWW8hwLyCZbhXW4EY,855
+visier_api_core/api_client.py,sha256=aDcug2QJuxytPB576_GE39NCpH7A6ycIeNdqalHi_uM,27927
+visier_api_core/api_response.py,sha256=eMxw1mpmJcoGZ3gs9z6jM4oYoZ10Gjk333s9sKxGv7s,652
+visier_api_core/configuration.py,sha256=YsMOhJw39pW6c3hqyUHm3Ia7xnPfsDJmCBNMUuJFXgU,25822
+visier_api_core/exceptions.py,sha256=VIA7HncBkQidE-dum3gwe8wPZCQ3faT4ZUtBKkL_aRY,6060
+visier_api_core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+visier_api_core/rest.py,sha256=rQcIVL5OJhWt-ChvLrmjX18yk8p5HcgX3dS2ZR6UiIw,9497
+visier_api_core-22222222.99201.1481.dist-info/METADATA,sha256=RYMXSlB9jd7plQS8zOKUfYuPbydUxWvi0WopLVSTprc,677
+visier_api_core-22222222.99201.1481.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+visier_api_core-22222222.99201.1481.dist-info/top_level.txt,sha256=HOb36Vd0NKObquT4msOL_ET5SROYCWp8KN-yPS_z5FM,16
+visier_api_core-22222222.99201.1481.dist-info/RECORD,,
