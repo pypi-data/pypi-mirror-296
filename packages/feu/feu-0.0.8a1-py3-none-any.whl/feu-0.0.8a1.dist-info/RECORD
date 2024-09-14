@@ -1,0 +1,10 @@
+feu/__init__.py,sha256=p7NQWk5qxaF1inSC7pUkQacw-sD5ARHm_Gne1bBgBF4,379
+feu/imports.py,sha256=zL0G-xPvWroNpu2jCl3GOgn0liBByrkW7r-6xWID3Gc,2472
+feu/install.py,sha256=L0GpXUHv7CIdiKCFVNp0DPTYzxTDylMXncwG6e4Grc4,8132
+feu/package.py,sha256=oCY1oJjJnJuNsmjFSAFyPHbTN0V6-GJspcOyqpajQ2c,10662
+feu/testing.py,sha256=ao92zja5yrAYWQUvFyxHbxcy3n-BcLfuFUt263Ar2Ew,260
+feu/version.py,sha256=0oF8jd580IaqZD87k2uUfqBKBwj4ohhfojQKaHZDdAI,1455
+feu-0.0.8a1.dist-info/LICENSE,sha256=7wnC4cmbLW29-edCxt2DQq9uo1vLirgRpscnqfg-7ZQ,1501
+feu-0.0.8a1.dist-info/METADATA,sha256=ir2MVAPBnnu5y6u5Ox0p4rBpVVMUWTJiJw1l7WbH8bQ,6360
+feu-0.0.8a1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+feu-0.0.8a1.dist-info/RECORD,,
