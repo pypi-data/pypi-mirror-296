@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "FlutterwaveDjango"
+version = "1.1.8"
+description = "description.md"
+authors = ["Oladejo Sodiq Opeyemi <devsurdma@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/surdma/FlutterWaveDjango"
+repository = "https://github.com/surdma/FlutterWaveDjango" 
+keywords = ["django", "flutterwave", "payment", "integration"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Framework :: Django",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/surdma/FlutterWaveDjango/issues"
+"Source" = "https://github.com/surdma/FlutterWaveDjango" 
+"Documentation" = "https://github.com/surdma/FlutterWaveDjango"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rave-python = "^1.4.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
