@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: mary-elizabeth-utils
+Version: 0.1.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: polars
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: pandas
+Requires-Dist: numpy
+License-File: LICENSE
+Summary: My utilities for the different projects
+Author-email: Tobias Kragholm <tkragholm@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# mary-elizabeth-utils
+
+My utilities for the different projects
+
