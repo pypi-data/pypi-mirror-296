@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling>=1.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "auth0-lambda-server"
+version = "0.1.1"
+authors = [
+    { name="Daniel Repik", email="danrepik@icloud.com" },
+]
+description = "Provides a simple Auth0 server deployed as an AWS Lambda function, intended to support development with Localstack"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pulumi",
+    "pulumi-aws",
+]
+
+[project.urls]
+"Documentation" = "https://github.com/DanRepik/blueprints"
+"Source" = "https://github.com/DanRepik/blueprints"
+
+[tool.hatch.build.targets.sdist]
+include = ["auth0_lambda_server"]
+
+[tool.hatch.build.targets.wheel]
+include = ["auth0_lambda_server"]
+
+[tool.pytest.ini_options]
+markers = [
+    "unit: marks tests as unit tests that do not require a database",
+    "integration: marks tests that operate on a real database",
+]
