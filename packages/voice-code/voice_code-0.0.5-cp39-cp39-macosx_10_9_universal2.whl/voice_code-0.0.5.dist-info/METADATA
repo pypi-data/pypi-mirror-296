@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: voice-code
+Version: 0.0.5
+Summary: voice_code project
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography (>=42.0.5)
+Requires-Dist: pyaudio (>=0.2.14)
+Requires-Dist: openai (>=1.36.1)
+Requires-Dist: vosk (>=0.3.44)
+Requires-Dist: numpy (>=1.15.4)
+Requires-Dist: scipy (>=1.13.1)
+Requires-Dist: send2trash (>=1.8.2)
+Requires-Dist: jsonpickle (>=1.4.1)
+Requires-Dist: python-docx (>=0.8.10)
+Requires-Dist: sounddevice (>=0.4.1)
+Requires-Dist: pyqt6 (>=6.5.2)
+Requires-Dist: setuptools (>=58.1.0)
+Requires-Dist: fastdtw (>=0.3.4)
+Requires-Dist: python-speech-features (>=0.6)
+Requires-Dist: pygments (>=2.17.2)
+Requires-Dist: beautifulsoup4 (>=4.12.3)
+Requires-Dist: metaphone (>=0.6)
+Requires-Dist: qtmodern (>=0.2.0)
+Requires-Dist: Levenshtein (>=0.25.1)
+
+# voice_code Project
+
+voice_code is now only for Python and Mac.
+## Key Advantages:
+If the first input content is a letter, it will automatically enter the letter input state until silence is recognized.So entering letters and entering words are switched through automatic recognition.
+Reading keywords will output the corresponding structure at the same time.
+Use 'switch' command to switch the main operating area. Reused commands have different effects in different operating areas.
+You can conveniently enter the string behind the cursor through the 'import' command.'import' is one of the reuse commands.
+Target selection and cursor movement and word completion by reading numbers updated in real time. You can also use your mouse.
+
+## Supported Platforms Now
+
+- **Operating Systems**
+  - macOS
+
+- **Python Versions**
+  - Python 3.9
+
+
+## Installation
+
+```sh
+pip3 install voice_code
+```
+
+## Usage
+
+run 'voice_code' in terminal
+
+## Commands
+'delete'
+'copy'
+'click' shows right-click menu
+'revert' undo
+'setp'   redo
+'reset'  clears all content in the small widget
+'head'   moves to the beginning
+'cursor' records the current cursor position
+'finish' completes the editing.
+'indent' adjusts the indentation.
+'again'  repeats the last command.
+'switch' returns to the canvas.
+'left'   moves to the left.
+'left'+[1-9] moves to the left.
+'and' for multiple selections.
+'upper' moves up.
+'lower'  moves down or creates new line in the small widget.
+'zoom' changes size of the canvas, use 'switch' after 'zoom' to switch between bigger state and smaller state.
+'ask' asks AI questions in the small widget.
+
+Punctuation and numbers
+
+    comma: ','
+    dot: '.'
+    question: '?'
+    unequal: '!='
+    semicolon: ';'
+    separator: ':'
+    quote: '"'
+    parent: '()'
+    bracket: '[]'
+    brace: '{}'
+    slash: '/'
+    underscore: '_'
+    at: '@'
+    note: '#'
+    percent: '%'
+    star: '*'
+    plus: '+'
+    plumb: '+'
+    minus: '-'
+    equal: '='
+    less: '<'
+    greater: '>'
+    pipe: '|'
+    zero: '0'
+    one: '1'
+    two: '2'
+    three: '3'
+    four: '4'
+    five: '5'
+    phi: '5'
+    six: '6'
+    seven: '7'
+    eight: '8'
+    nine: '9'
+
+
+## Features
+
+
+## License
+
+
+
+
+
