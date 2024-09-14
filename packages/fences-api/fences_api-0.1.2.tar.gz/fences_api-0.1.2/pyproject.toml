@@ -1,0 +1,114 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "fences-api"
+dynamic = []
+description = "Fences is an LLM augmented OpenAPI interpreter with a visual interface to easily make requests"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Leonardo Menezes", email = "leonardotmenezes@gmail.com" },
+]
+classifiers = [
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: FastAPI",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = [
+    "annotated-types>=0.7.0",
+    "anthropic>=0.29.0",
+    "anyio>=4.4.0",
+    "blinker>=1.8.2",
+    "cachetools>=5.3.3",
+    "certifi>=2024.6.2",
+    "charset-normalizer>=3.3.2",
+    "click>=8.1.7",
+    "colorama>=0.4.6",
+    "distro>=1.9.0",
+    "filelock>=3.15.4",
+    "Flask>=3.0.3",
+    "Flask-Cors>=5.0.0",
+    "fsspec>=2024.6.0",
+    "google-auth>=2.30.0",
+    "h11>=0.14.0",
+    "httpcore>=1.0.5",
+    "httpx>=0.27.0",
+    "huggingface-hub>=0.23.4",
+    "idna>=3.7",
+    "itsdangerous>=2.2.0",
+    "Jinja2>=3.1.4",
+    "jiter>=0.4.2",
+    "markdown-it-py>=3.0.0",
+    "MarkupSafe>=2.1.5",
+    "mdurl>=0.1.2",
+    "packaging>=24.1",
+    "pyasn1>=0.6.0",
+    "pyasn1_modules>=0.4.0",
+    "pydantic>=2.7.4",
+    "pydantic_core>=2.18.4",
+    "Pygments>=2.18.0",
+    "PyYAML>=6.0.1",
+    "requests>=2.32.3",
+    "rich>=13.8.1",
+    "rsa>=4.9",
+    "sniffio>=1.3.1",
+    "tokenizers>=0.19.1",
+    "tqdm>=4.66.4",
+    "typing_extensions>=4.12.2",
+    "urllib3>=2.2.2",
+    "Werkzeug>=3.0.4",
+]
+version = "0.1.2"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/LTMenezes/fences"
+
+[project.scripts]
+fences = "fences.cli:main"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "file"
+path = "fences/__init__.py"
+
+[tool.pdm.dependencies]
+file = [
+    "requirements.txt",
+]
+
+[tool.pdm.build]
+source-includes = [
+    "requirements*.txt",
+]
+
+[tool.inline-snapshot]
