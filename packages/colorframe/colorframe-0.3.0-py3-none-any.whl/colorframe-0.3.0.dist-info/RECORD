@@ -1,0 +1,9 @@
+colorframe/__init__.py,sha256=KfSefwQ4wyYy7KmzcdYFfn2IvfVWx5iAGgmePoJY7y0,382
+colorframe/__main__.py,sha256=V80d1qBj9aKODlWO3MmJTSQFNS_Qh2CMGMuWX1d4wV4,1523
+colorframe/api.py,sha256=QZuyCcZbOszEC8q0JVrh_3js4VFe10rABENh69EVOMs,1932
+colorframe/border.py,sha256=9smQIl9QrIaRPuOMiYsmuJP4REt4DvYuOwrNmt55NXE,4256
+colorframe/utils.py,sha256=k9vwLgPB9zrXaJ_dFx-nTg6Y4DiBLJGAe6M195ent6A,1902
+colorframe-0.3.0.dist-info/METADATA,sha256=vZ8YwNT81_HrmVDSPgVwrPJdSi-HDhTsDhSJQzHzIUo,5848
+colorframe-0.3.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+colorframe-0.3.0.dist-info/licenses/LICENSE,sha256=Y3ZEeMbcz2Hhfb6bsdXAvuDIQg7l_hXnz-L1QGGVB_I,1070
+colorframe-0.3.0.dist-info/RECORD,,
