@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fw-gear-freesurfer-recon-all
+Version: 2.0.1
+Summary: Gear that runs Freesurfer
+Home-page: https://gitlab.com/flywheel-io/flywheel-apps/freesurfer-recon-all
+License: BSD-3-Clause
+Keywords: Flywheel,Gears
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: flywheel-gear-toolkit (==0.6.18)
+Requires-Dist: flywheel-sdk (>=16.8.0,<17.0.0)
+Requires-Dist: pandas (==1.5.1)
+Project-URL: Repository, https://gitlab.com/flywheel-io/flywheel-apps/freesurfer-recon-all
+Description-Content-Type: text/markdown
+
+# Freesurfer Recon-All
+
+freesurfer-recon-all is a Flywheel Gear that runs the full Freesurfer
+`recon-all` pipeline plus a number of Freesurfer-provided post-processing
+scripts.
+
+## Documentation
+
+The documentation of the gear can be found
+[here](https://flywheel-io.gitlab.io/scientific-solutions/gears/freesurfer-recon-all/index.html).
+
+## Contributing
+
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for information on how to
+contribute to the gear.
+
