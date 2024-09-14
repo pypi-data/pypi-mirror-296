@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django-flex-widget/__init__.py
+django-flex-widget/fields.py
+django-flex-widget/widgets.py
+django_flex_widget.egg-info/PKG-INFO
+django_flex_widget.egg-info/SOURCES.txt
+django_flex_widget.egg-info/dependency_links.txt
+django_flex_widget.egg-info/requires.txt
+django_flex_widget.egg-info/top_level.txt
