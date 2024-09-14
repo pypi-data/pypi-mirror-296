@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ergo-angle
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: numpy ==1.26.3
+Requires-Dist: torch ==2.2.0
+Requires-Dist: ultralytics ==8.2.8
+
