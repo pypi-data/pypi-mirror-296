@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: gated-slot-attention
+Version: 0.0.1
+Summary: Gated Slot Attention - Pytorch
+Home-page: https://github.com/kyegomez/Gated-Slot-Attention
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizers,Prompt Engineering
+Author: Kye Gomez
+Author-email: kye@apac.ai
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: loguru
+Requires-Dist: torch
+Requires-Dist: torchtyping
+Requires-Dist: zetascale
+Project-URL: Documentation, https://github.com/kyegomez/Gated-Slot-Attention
+Project-URL: Repository, https://github.com/kyegomez/Gated-Slot-Attention
+Description-Content-Type: text/markdown
+
+
+
+# Gated Slot Attention
+
+[![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
+
+
+
+
+
+## Usage
+
+```python
+import torch
+from gated_slot_attention.model import GSATransformer
+
+model = GSATransformer(
+    dim=512,
+    heads=8,
+    m=64,
+    tau=0.1,
+    depth=1,
+    vocab_size=10000,
+    max_seq_len=1024,
+)
+
+x = torch.randint(0, 10000, (1, 1024))
+out = model(x)
+print(out.shape)
+
+```
+
+# License
+MIT
+
