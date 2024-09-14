@@ -1,0 +1,8 @@
+README.md
+setup.py
+reds_simple_logger/__init__.py
+reds_simple_logger.egg-info/PKG-INFO
+reds_simple_logger.egg-info/SOURCES.txt
+reds_simple_logger.egg-info/dependency_links.txt
+reds_simple_logger.egg-info/requires.txt
+reds_simple_logger.egg-info/top_level.txt

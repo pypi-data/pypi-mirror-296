@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: reds_simple_logger
+Version: 2.4
+Summary: Allows you to make console logging more simple.
+Author: Red_Wolf2467
+Author-email: support@pyropixle.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: termcolor
+Requires-Dist: datetime
+
+# Baxi API
+
+This is the "simple logger" package, developed by "Red_Wolf2467".
+
+
