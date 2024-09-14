@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sysu-health-indices
+Version: 0.1.0
+Summary: a unified collection of health indices and indicators eg bmi,bai,etc
+Home-page: https://github.com/Curallin/sysu-health-indices
+License: MIT
+Keywords: heath-indices,health-indicators,bmi
+Author: Curallin
+Author-email: JungleSYSU2020@163.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/Curallin/sysu-health-indices
+Description-Content-Type: text/markdown
+
+
