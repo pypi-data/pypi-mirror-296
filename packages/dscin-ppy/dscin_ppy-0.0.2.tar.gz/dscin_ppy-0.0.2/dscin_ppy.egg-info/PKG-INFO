@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dscin_ppy
+Version: 0.0.2
+Summary: Collection of utility functions
+Author: Andrea Chiappo
+Author-email: chiappo.andrea@gmail.com
+Requires-Dist: boto3==1.24.59
+Requires-Dist: pandas==2.0.1
+Requires-Dist: numpy==1.23.5
+Requires-Dist: hdbcli==2.17.22
