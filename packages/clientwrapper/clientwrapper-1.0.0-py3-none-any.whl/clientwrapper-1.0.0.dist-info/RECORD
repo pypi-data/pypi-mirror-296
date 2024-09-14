@@ -1,0 +1,13 @@
+clientwrapper/__init__.py,sha256=afzYATE8KNUuJHgJg0-HDECgDv89_5VGGv8ySTzfnNA,221
+clientwrapper/basicmapping.py,sha256=39GZHKtKniSN2fcvEmjoWLxkrWgIIV0bLs-0Yv14Xzs,1026
+clientwrapper/clientwrapper.py,sha256=XWi5J0PIPWsVCHhV5Ukmya2WRzs0YnJtXlzpm4YkIOI,2938
+clientwrapper/responsemapping.py,sha256=FVyFKX9RN-afTomTQpUNnElVwSnd5HFzUeA0HvgBJms,820
+clientwrapper/utils.py,sha256=_PXmtPP_YGTmwS5uhsmlllkbmEBAchqyGnp_CZpEhoM,3581
+test_clientwrapper/__init__.py,sha256=pSsA-RqXCJLY6OijirrHdS_E-zcI1Cmg5AjRKnGT0ZU,135
+test_clientwrapper/test_basicmapping.py,sha256=DvF6cOi1jadJmfgMak5QG9k-l20FUaL_XIMyzYGa9m0,772
+test_clientwrapper/test_clientwrapper.py,sha256=jJdci29ScsSujQDbQuwLRHXhiBiZo8n1cQKGCzayWyI,2699
+clientwrapper-1.0.0.dist-info/LICENSE,sha256=WZt3Rfx-nuHstzMvY6xFTyXaaodoz0UwfVVXEXw8_ig,10764
+clientwrapper-1.0.0.dist-info/METADATA,sha256=Oy6Q_nFEHurpOTFPpXu_bqr7y8tXbPzMrAB_dAfKDHQ,3346
+clientwrapper-1.0.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+clientwrapper-1.0.0.dist-info/top_level.txt,sha256=krEHWCWS8fTjI5k_2oxa_i7ipQYhw7egMjGfO52Vvec,33
+clientwrapper-1.0.0.dist-info/RECORD,,
