@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+./conda_vendor/__init__.py
+./conda_vendor/__main__.py
+./conda_vendor/conda_lock_wrapper.py
+./conda_vendor/conda_vendor.py
+./conda_vendor/iron_bank_generator.py
+./conda_vendor/version.py
+conda_vendor.egg-info/PKG-INFO
+conda_vendor.egg-info/SOURCES.txt
+conda_vendor.egg-info/dependency_links.txt
+conda_vendor.egg-info/entry_points.txt
+conda_vendor.egg-info/requires.txt
+conda_vendor.egg-info/top_level.txt
