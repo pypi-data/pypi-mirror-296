@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: win_all_env
+Version: 1.1.0
+Summary: sample packages by legacy-setup.py
+Author: ookatuk
+Author-email: okatuhumi@gmail.com
+Requires-Python: >=3.12.3
+License-File: LICENSE
+
