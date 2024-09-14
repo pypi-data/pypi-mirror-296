@@ -1,0 +1,14 @@
+apytypes/_apytypes.cpython-310-x86_64-linux-gnu.so,sha256=Pfd1gretO7oZNEKqMS1Z5twS5R-kv-c5Dg113_aKavo,1614457
+apytypes/__init__.pyi,sha256=YGxt6PfTj01MY8KURQETuLpNXxcLcAN_nNPbUTrm8I8,2137
+apytypes/_typing.py,sha256=ccyYe2tSvCJKVp1I1nDpTZCv12fvHZhvqur2aRfGSvQ,351
+apytypes/_apytypes.pyi,sha256=jWOYIzeJZv4ddYW5S4BRYfqMXpqxM0JkAvnsrTzBYD8,103899
+apytypes/_array_functions.pyi,sha256=oLo2LVSPaFTovjh3Ub170CBsOaC6K31IkPO0PpO4dJU,19742
+apytypes/_version.py,sha256=XQVhijSHeIVMVzY2S4fY9BKxV2XHSTr9VVHsYltGPvQ,18
+apytypes/__init__.py,sha256=SU7OH5Ft-Eliz6aVuE5VvRAsOkAT5BVERR22EvMPstc,9885
+apytypes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apytypes/_array_functions.py,sha256=x1cKzQQZEfCdYurulZrxnjDRTJ5QP_HfyAQ45mUgW10,31376
+apytypes-0.2.0.dist-info/METADATA,sha256=DV6xZGmj7Rxd8ArrNTuCwwbuZ7SwV4AtnH-6stHea80,4150
+apytypes-0.2.0.dist-info/RECORD,,
+apytypes-0.2.0.dist-info/WHEEL,sha256=h-JL8VJgd88ES6I5tOqMdI_jctpjX0lhAxzGw3Tg36Q,98
+apytypes.libs/libgcc_s-a3a07607.so.1,sha256=5ptIUeAzZweNZrFehN0_Bb5B0FcJgux7NbAFoU8vwwo,148041
+apytypes.libs/libstdc++-496613c0.so.6.0.32,sha256=AwZhL5WFT99I2Q6vIxXOhW7qddfuOZ1xecxiP9QTVY4,3494361
