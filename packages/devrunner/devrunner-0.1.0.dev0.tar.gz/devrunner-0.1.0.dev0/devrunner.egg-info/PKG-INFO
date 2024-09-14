@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: devrunner
+Version: 0.1.0.dev0
+Summary: A CLI for peer container deployment with devrunner
+Author-email: Tim Huntley <admin@devrunner.io>
+License: MIT
+Project-URL: homepage, https://github.com/devrunner-io/devrunner
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: requests
+Requires-Dist: fastapi==0.114.1
+Requires-Dist: uvicorn
+Requires-Dist: psutil==6.0.0
+Requires-Dist: docker
+
+# devrunner [coming soon]
+A CLI for peer container deployment with devrunner

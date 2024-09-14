@@ -1,0 +1,6 @@
+setuptools
+requests
+fastapi==0.114.1
+uvicorn
+psutil==6.0.0
+docker
