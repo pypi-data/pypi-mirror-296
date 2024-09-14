@@ -1,0 +1,40 @@
+[project]
+name = "ALM2"
+version = "0.0.4"
+authors = [
+	{name = "Alessandro Languasco", email = "alessandro.languasco@unipd.it" },
+	{name = "Sherenaz Al-Haj Baddar", email = "s.baddar@ju.edu.jo" },
+	{name = "Mauro Migliardi ", email = "mauro.migliardi@unipd.it"},
+]
+description = "Python C-wrapped implementation of the LM technqiue for computing the log-likelihood function of the Dirichlet Mutlinomial Distribution with comparision to Python math and scipy implementations of the same function"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+]
+[tool.poetry.files]
+include = ["LM_time_lib.c",
+"makefile",
+"constants_hor_shift.h",
+"init_hor_shift.h",
+"LM_hor_shift.h",
+"all_fix_counts.csv",
+"auto.csv",
+"cane.csv",
+"cavallo.csv",
+"f_vs_m.csv",
+"IoT.csv",
+"mideast.csv",
+"space.csv",
+"TCP.csv",
+"test_fix_counts.csv",
+"TIP.csv",
+"LM_time_lib.so",
+"bernreal-100.txt",
+"bernreal-norm-100.txt",
+"bernreal-norm-100-digamma.txt",
+"err_coeff-100.txt",
+"err_coeff-100_digamma.txt",
+"err_coeff-100_trigamma.txt"]
