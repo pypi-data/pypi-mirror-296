@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: JPyDB
+Version: 0.0.0
+Summary: Python library to create and manage databases in Json
+Project-URL: GitHub, https://github.com/Manu-Sanchez/JsonDB/tree/JsonDB-0.0.2
+Author-email: Manuel Sánchez Mascarell <manusanchezmascarell@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## JPyDB
+
+### Introduction
+JPyDB is a python library developed by Manuel Sánchez Mascarell.
+The main purpose of this library is to create and manage NoSQL databases in you local machine. This database uses JSON files for store the data.
+
+#### COMING SOON ####
