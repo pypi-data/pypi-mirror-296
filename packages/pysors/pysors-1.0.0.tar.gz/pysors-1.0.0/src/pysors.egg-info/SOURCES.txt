@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/pysors/__init__.py
+src/pysors/_minimize.py
+src/pysors/ahds.py
+src/pysors/bds.py
+src/pysors/rs.py
+src/pysors/rspi.py
+src/pysors/stp.py
+src/pysors/utils.py
+src/pysors.egg-info/PKG-INFO
+src/pysors.egg-info/SOURCES.txt
+src/pysors.egg-info/dependency_links.txt
+src/pysors.egg-info/requires.txt
+src/pysors.egg-info/top_level.txt
