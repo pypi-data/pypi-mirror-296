@@ -1,0 +1,4 @@
+zc.recipe.egg
+
+[test]
+zc.buildout>=2.9

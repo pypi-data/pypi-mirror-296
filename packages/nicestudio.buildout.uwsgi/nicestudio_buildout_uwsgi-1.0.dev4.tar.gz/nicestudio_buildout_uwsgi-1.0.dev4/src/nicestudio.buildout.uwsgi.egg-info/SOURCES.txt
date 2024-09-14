@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+src/nicestudio/__init__.py
+src/nicestudio.buildout.uwsgi.egg-info/PKG-INFO
+src/nicestudio.buildout.uwsgi.egg-info/SOURCES.txt
+src/nicestudio.buildout.uwsgi.egg-info/dependency_links.txt
+src/nicestudio.buildout.uwsgi.egg-info/entry_points.txt
+src/nicestudio.buildout.uwsgi.egg-info/not-zip-safe
+src/nicestudio.buildout.uwsgi.egg-info/requires.txt
+src/nicestudio.buildout.uwsgi.egg-info/top_level.txt
+src/nicestudio/buildout/__init__.py
+src/nicestudio/buildout/uwsgi/__init__.py

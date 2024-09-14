@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nicestudio.buildout.uwsgi
+Version: 1.0.dev4
+Summary: Buildout recipe downloading, compiling and configuring uWSGI.
+Home-page: https://github.com/niceStudio/nicestudio.buildout.uwsgi
+Author: niceStudio, Inc
+Author-email: service@niceStudio.com.tw
+License: BSD
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Buildout
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+License-File: LICENSE
+Requires-Dist: zc.recipe.egg
+Provides-Extra: test
+Requires-Dist: zc.buildout>=2.9; extra == "test"
+
+# nicestudio.buildout.uwsgi
+
+This project is fork from infrae.uwsgi (https://github.com/infrae/infrae.uwsgi) for:
+
+- Add the ```executable``` options for assign existed ```uwsgi``` executable file path.
+- Support multiple values of the same key.
