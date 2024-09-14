@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/dabarqus/__init__.py
+src/dabarqus/client.py
+src/dabarqus.egg-info/PKG-INFO
+src/dabarqus.egg-info/SOURCES.txt
+src/dabarqus.egg-info/dependency_links.txt
+src/dabarqus.egg-info/requires.txt
+src/dabarqus.egg-info/top_level.txt
