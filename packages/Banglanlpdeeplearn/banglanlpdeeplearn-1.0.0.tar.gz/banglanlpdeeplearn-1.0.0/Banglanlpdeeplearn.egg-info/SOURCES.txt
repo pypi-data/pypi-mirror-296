@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+Banglanlpdeeplearn/__init__.py
+Banglanlpdeeplearn/model.py
+Banglanlpdeeplearn/predict.py
+Banglanlpdeeplearn/text_process.py
+Banglanlpdeeplearn.egg-info/PKG-INFO
+Banglanlpdeeplearn.egg-info/SOURCES.txt
+Banglanlpdeeplearn.egg-info/dependency_links.txt
+Banglanlpdeeplearn.egg-info/requires.txt
+Banglanlpdeeplearn.egg-info/top_level.txt
