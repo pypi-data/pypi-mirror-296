@@ -1,0 +1,40 @@
+[build-system]
+requires = ["maturin>=0.14,<0.15"]
+build-backend = "maturin"
+
+[project]
+name = "trywebscraping"
+version = "0.1.29"
+description = "A fast web scraping library with Rust backend"
+authors = [
+    {name = "Luke Lucas", email = "luke.lucas@trywebscraping.com"}
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.maturin]
+python-source = "python"
+module-name = "trywebscraping"
+include = ["trywebscraping.pyi"]
+features = ["pyo3/extension-module"]
+
+[tool.poetry]
+name = "trywebscraping"
+version = "0.1.29"
+description = "A fast web scraping library with Rust backend"
+authors = ["Luke Lucas <luke.lucas@trywebscraping.com>"]
+readme = "README.md"
+repository = "https://github.com/yourusername/trywebscraping"
+homepage = "https://trywebscraping.com"
+keywords = ["web-scraping", "rust", "python"]
+
+[tool.poetry.dependencies]
+python = "^3.7"

@@ -1,0 +1,49 @@
+name: Gradual Build Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          profile: minimal
+          override: true
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install cibuildwheel==2.12.1 twine
+
+      - name: Display environment information
+        run: |
+          python --version
+          pip --version
+          rustc --version
+          cargo --version
+
+      - name: Attempt simple build
+        run: |
+          python setup.py sdist bdist_wheel
+          ls -R dist
+
+      - name: Store artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: packages
+          path: dist/*
