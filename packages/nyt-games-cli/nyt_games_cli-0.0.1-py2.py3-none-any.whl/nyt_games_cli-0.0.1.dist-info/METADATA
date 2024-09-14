@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nyt-games-cli
+Version: 0.0.1
+Summary: Python package for playing NYT games on the command line
+Author-email: Charlie Dudzik <dudzikc@outlook.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pycurses<1.0.0
+Requires-Dist: playwright>=1.47,<4.0.0
+
+# NYT Games Cli
+
+Press [1-6] to switch games
+
