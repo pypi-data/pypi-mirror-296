@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "autogen-readme"
+version = "0.0.1.post2.dev0"
+description = ""
+authors = ["wmpons.pro <wmpons.pro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+langchain = "^0.2.16"
+langchain-openai = "^0.1.24"
+langchain-core = "^0.2.39"
+typer = "^0.12.5"
+
+[tool.poetry.scripts] 
+auto-readme = "autogen_readme.cli:main"
+
+[tool.poetry-dynamic-versioning]
+enable = false 
+metadata = false
+
+[tool.poetry-dynamic-versioning.substitution]
+files = ["*/__init__.py"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
