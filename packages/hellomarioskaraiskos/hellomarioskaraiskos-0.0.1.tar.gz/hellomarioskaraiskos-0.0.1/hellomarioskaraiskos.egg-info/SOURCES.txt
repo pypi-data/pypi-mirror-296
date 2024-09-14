@@ -1,0 +1,8 @@
+README.md
+setup.py
+hellomarioskaraiskos.egg-info/PKG-INFO
+hellomarioskaraiskos.egg-info/SOURCES.txt
+hellomarioskaraiskos.egg-info/dependency_links.txt
+hellomarioskaraiskos.egg-info/top_level.txt
+mypackage/__init__.py
+mypackage/hello.py
