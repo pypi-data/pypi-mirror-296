@@ -1,0 +1,11 @@
+APIs/APIRequest.py,sha256=NT-wcGGQPOO4ZiVbcENy0eUPVdHO28z69nojC_7KZ5c,9699
+APIs/__init__.py,sha256=1a9PvPDCnVJ_7U8IIF71ADLt62pVUnA_0mlctZQ_-RY,24
+Forecast/Forecast.py,sha256=b7xyWwOFhpMP7GwuegpZnFemjbw9uWJMBSRAWDygxL0,62279
+Forecast/__init__.py,sha256=fpSms2R-8W7eLDxrVW5Muz_pPhkG1M2GAO3ME8NDZc4,29
+Tables/Delta.py,sha256=4mAMLFHQolsx0rtQowqUbhuaREwcmAKT415yun2V6sI,12308
+Tables/Landing.py,sha256=naphgKeyKiAKiawzgS63q6CqECsScepRFSxfTamtHKg,13651
+Tables/__init__.py,sha256=ub8b-f76hhdKJIlMNvYzz8XrdpbCJM-CXy9Vp1Abmu4,54
+GDMO-0.1.1.dist-info/METADATA,sha256=Kw6Af6fUHrbie2g1GfBZirX5Dai0FAPMI8TMgi-qoRY,1616
+GDMO-0.1.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+GDMO-0.1.1.dist-info/top_level.txt,sha256=MZOlyl6pcKntZCEke6W-rZYfGPZNblRixMWljO8GYgY,21
+GDMO-0.1.1.dist-info/RECORD,,
