@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: calisum
+Version: 0.1.2
+Summary: A scrapper and summarizer for caliap
+Project-URL: Homepage, https://github.com/lpi-code/calisum
+Project-URL: Issues, https://github.com/lpi-code/calisum/issues
+Author-email: Loïc Piernas <lpi-code@piernas.fr>
+License-File: LICENSE.md
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# calisum - A caliap activity scrapper and summarizer
+
+This is a simple Python script that scraps Caliap and allow to you tu summarize your activity using the LLM of your choice.
+
+## Installation
+
+```bash
+pip install calisum
+```
+
+## Usage
+
+
+
+## License
+[GPL-3.0](LICENSE.md)
+```
