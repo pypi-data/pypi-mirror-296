@@ -1,0 +1,13 @@
+autogen_readme/__init__.py,sha256=j4jPgm4BFMTSyqPj9XPEkZkljkWeevTdxXfbxh0LfM4,381
+autogen_readme/__main__.py,sha256=BFsFOSlPFrZ_3E5I-irWVmEV3JiPhP7o3kk1j40d8RQ,63
+autogen_readme/chat_models.py,sha256=YaEUsMshhzZwMxYQa7JQ4wcwHN8Us9kSj-Xh3snpy6U,1270
+autogen_readme/cli.py,sha256=WtNHPK1PEn-98Y1pPJJMdO7xTN91MeE0qJR7JVmC6d4,2529
+autogen_readme/custom_arg_types.py,sha256=dDmPLCeQXMYIrSuN5nmUwRPvS-mnoKabaKExGlWfaNM,494
+autogen_readme/files.py,sha256=5f_GJpgH8ec2O-ITd5ajF7I4zH3obregR3xGCQb27Kw,1439
+autogen_readme/generator.py,sha256=7WmMgu0KlwaXxO5Oak7DDa3f4YOpiGEwTWlhbrXN1co,3759
+autogen_readme/prompts.py,sha256=E_ULZkq1uIlGK7st2LiqI4ROp_lFnsXg35I_3ZIELWA,622
+autogen_readme/README.md,sha256=k_XVg-ckCm5BeG9u6RgrJerOQWBpdk6ZUWZsl76XpLg,4002
+autogen_readme-0.0.1.post2.dev0.dist-info/entry_points.txt,sha256=uCKho0lFDrCr8EGpVDLzGcllL3g9sHbmK6S9oeHRczo,55
+autogen_readme-0.0.1.post2.dev0.dist-info/METADATA,sha256=DOu-6IQIfvLtEhzIP71spHtLbAgWNpnYmXFAGaF1R_U,639
+autogen_readme-0.0.1.post2.dev0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+autogen_readme-0.0.1.post2.dev0.dist-info/RECORD,,
