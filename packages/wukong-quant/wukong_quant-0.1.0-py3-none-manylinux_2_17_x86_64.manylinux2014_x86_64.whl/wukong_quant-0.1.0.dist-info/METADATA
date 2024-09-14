@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: wukong-quant
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: 悟空量化
+Author: <Husky> <husky.robot.dog@gmail.com>
+Author-email: <Husky> <husky.robot.dog@gmail.com>
+Requires-Python: >=3.8
