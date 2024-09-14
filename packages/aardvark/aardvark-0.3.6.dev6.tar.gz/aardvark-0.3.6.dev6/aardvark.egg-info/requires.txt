@@ -1,0 +1,14 @@
+blinker
+boto3
+botocore
+bunch
+cloudaux>=1.8.0
+Flask
+Flask-RESTful
+Flask-Script
+Flask-SQLAlchemy>=2.5
+SQLAlchemy
+swag-client
+
+[tests]
+pexpect>=4.2.1
