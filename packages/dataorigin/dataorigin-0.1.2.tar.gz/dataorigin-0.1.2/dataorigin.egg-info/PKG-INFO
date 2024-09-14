@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: dataorigin
+Version: 0.1.2
+Summary: Librería para la integración de DataOrigin
+Home-page: https://github.com/DataOrigin/dataorigin
+Author: DataOrigin
+Author-email: info@dataorigin.es
+License: GNU General Public License v3 (GPLv3)
+Project-URL: Homepage, https://github.com/DataOrigin/dataorigin
+Project-URL: Website, http://dataorigin.es/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# DataOrigin
+
+DataOrigin core
+
+DataOrigin utilities in a single library.
+
+
+## Instalación
+To install this library in your Python environment:
+
+```bash
+pip install dataorigin
+```
+
+
+## Documentation
+This library has built functionalities for the following topics:
+
+Databases: crud functions.
+Drive: functions to upload, delete or authenticate to Google Drive.
+FTP: functions to upload, delete or authenticate to an FTP, SFTP or FTPS server.
+Selenium: Selenium functions.

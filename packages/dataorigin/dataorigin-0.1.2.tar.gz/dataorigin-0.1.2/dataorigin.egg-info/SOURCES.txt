@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+dataorigin/__init__.py
+dataorigin/core.py
+dataorigin.egg-info/PKG-INFO
+dataorigin.egg-info/SOURCES.txt
+dataorigin.egg-info/dependency_links.txt
+dataorigin.egg-info/top_level.txt
+test/test_core.py
