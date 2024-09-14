@@ -1,0 +1,29 @@
+name: Static Analysis
+description: Run mypy on the codebase
+
+inputs:
+  working-directory:
+    description: 'The directory to run mypy in'
+    required: false
+    default: '.'
+  ref:
+    description: 'The ref to check out. This can be a branch, tag, or SHA'
+    required: true
+  deps:
+    description: 'The dependencies to install'
+    required: false
+    default: 'mypy'
+  command:
+    description: 'The command to run'
+    required: false
+    default: 'mypy -vvv'
+runs:
+  using: composite
+  steps:
+    - name: Install Mypy
+      run: pip install ${{ inputs.deps }}
+      shell: bash
+    - name: MyPy
+      working-directory: ${{ inputs.working-directory }}
+      run: ${{ inputs.command }}
+      shell: bash

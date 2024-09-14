@@ -1,0 +1,42 @@
+name: Build wheels
+
+
+inputs:
+  python-version:
+    required: true
+    type: string
+  build-type:
+    required: true
+    type: choice
+    choices: ['sdist', 'wheel']
+  working-directory:
+    description: 'The directory to run the build on'
+    required: false
+    default: '.'
+outputs:
+  artifact-name:
+    description: "The artifact name"
+    value: cibw-wheel-${{ inputs.python-version }}
+  filename:
+    description: "The filename of the wheel"
+    value: ${{ steps.build-sdist.outputs.filename && steps.build-sdist.outputs.filename || steps.build-wheel.outputs.filename }}
+runs:
+  using: composite
+
+  steps:
+    - name: Build sdist
+      id: build-sdist
+      uses: guywilsonjr/actions/actions/build-sdist@main
+      if: ${{ inputs.build-type == 'sdist' }}
+      with:
+        python-version: ${{ inputs.python-version }}
+        working-directory: ${{ inputs.working-directory }}
+    - name: Build wheel
+      id: build-wheel
+      uses: guywilsonjr/actions/actions/build-wheel@main
+      if: ${{ inputs.build-type == 'wheel' }}
+      with:
+        python-version: ${{ inputs.python-version }}
+        working-directory: ${{ inputs.working-directory }}
+
+        
