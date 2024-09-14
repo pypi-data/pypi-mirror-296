@@ -1,0 +1,2 @@
+[console_scripts]
+hackgap = hackgap.hackgap.hackgap_main:main

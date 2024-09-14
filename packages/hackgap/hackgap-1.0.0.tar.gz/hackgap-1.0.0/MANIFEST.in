@@ -1,0 +1,4 @@
+include hackgap/hackgap/*
+include hackgap/io/*
+include hackgap/lowlevel/*
+include hackgap/values/*

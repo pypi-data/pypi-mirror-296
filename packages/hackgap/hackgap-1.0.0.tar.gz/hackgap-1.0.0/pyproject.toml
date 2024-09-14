@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hackgap"
+version = "1.0.0"
+license = {file = "LICENSE"}
+authors = [
+  { name="Jens Zentgraf", email="zentgraf@cs.uni-saarland.de" },
+  { name="Sven Rahmann", email="rahmann@cs.uni-saarland.de" }
+]
+description = "hash-based counting of k-mers with gaps using a fast jit-compiled k-mer counter"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=2",
+  "numba>=0.60",
+  "pytest",
+  "pip",
+]
+scripts = {hackgap = "hackgap.hackgap.hackgap_main:main"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Topic :: Scientific/Engineering :: Bio-Informatics"
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/rahmannlab/hackgap"
+"Bug Tracker" = "https://gitlab.com/rahmannlab/hackgap/issues"
+
+[tool.setuptools]
+packages=["hackgap"]
