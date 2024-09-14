@@ -1,0 +1,12 @@
+numpy<2
+transformers
+faiss-cpu
+torch
+pytest
+pytest-cov
+scikit-learn
+thefuzz[speedup]
+FlagEmbedding
+onnx
+onnxruntime
+onnxruntime-extensions
