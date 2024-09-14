@@ -1,0 +1,10 @@
+django_admin_tui/__about__.py,sha256=8ZZIfMHfQRNPwiFmEA4i1FxTSbuCS8ZUHnEdkfRZ0dI,182
+django_admin_tui/__init__.py,sha256=z1cR04HpFVPlecmGAYNm5bNa5ahv52vuauEyX4H-x1c,118
+django_admin_tui/tui.py,sha256=QdKyKSC2MrJwZKXTtJaWHzb-ERiNo6eMIReLxQTZbqM,6233
+django_admin_tui/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_tui/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_tui/management/commands/admin_tui.py,sha256=AHWdEwhr6FUS6nEwWJEJn3cHKJWmbe4RAc0qOFag9Fs,493
+django_admin_tui-0.0.1.dist-info/METADATA,sha256=crxoirw26wGsSkVg7RXYHz-G5ru_Qr--Aox-iv3Exz0,1614
+django_admin_tui-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+django_admin_tui-0.0.1.dist-info/licenses/LICENSE.txt,sha256=RIKrabjPAf9PaD3INmSk6SGUJRipnysyGLC8N9KgM4Y,1110
+django_admin_tui-0.0.1.dist-info/RECORD,,

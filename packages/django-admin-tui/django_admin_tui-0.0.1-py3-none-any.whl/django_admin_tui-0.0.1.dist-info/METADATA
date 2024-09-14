@@ -1,0 +1,48 @@
+Metadata-Version: 2.3
+Name: django-admin-tui
+Version: 0.0.1
+Summary: Django Admin in the terminal.
+Project-URL: Documentation, https://github.com/valberg/django-admin-tui#readme
+Project-URL: Issues, https://github.com/valberg/django-admin-tui/issues
+Project-URL: Source, https://github.com/valberg/django-admin-tui
+Author-email: Víðir Valberg Guðmundsson <valberg@orn.li>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Requires-Dist: django>=4.2
+Requires-Dist: textual>=0.79
+Description-Content-Type: text/markdown
+
+# django-admin-tui
+
+[![PyPI - Version](https://img.shields.io/pypi/v/django-admin-tui.svg)](https://pypi.org/project/django-admin-tui)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-admin-tui.svg)](https://pypi.org/project/django-admin-tui)
+
+-----
+
+**Table of Contents**
+
+- [About](#about)
+- [Installation](#installation)
+- [License](#license)
+
+## About
+
+`django-admin-tui` is a project aiming to render the Django admin in a text-based user interface (TUI)
+using [Textual](https://textual.textualize.io/), bringing one of Djangos killer features to a terminal near you.
+
+## Installation
+
+```console
+pip install django-admin-tui
+```
+
+## License
+
+`django-admin-tui` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
