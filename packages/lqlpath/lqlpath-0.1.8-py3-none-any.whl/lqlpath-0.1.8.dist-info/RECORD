@@ -1,0 +1,11 @@
+lqlpath/__init__.py,sha256=u6J57n6rL2d8PpxgDcAOwj2rdhiWlwKBwLKT1PAfix4,155
+lqlpath/bq_res_name_value.py,sha256=pbb68F01-scjbKm7lyIClz_uohLBMAzS6Gy_t_P8AgI,6080
+lqlpath/functions.py,sha256=xTfmgPMrVK3-oakAersGDlae6rbc8m9XQeO1z5YuI8U,3862
+lqlpath/data/bigquery_dataset.txt,sha256=Kz1fEtDZWVmIfoqeJ5dA4oElfcoICSwIhYCCPHErw3Q,608
+lqlpath/data/bigquery_project.txt,sha256=9g5yMvFP2wP93wheawb2LJ5JyaMC6IoAyaKMVl9fIB4,1697
+lqlpath/data/bigquery_resource.txt,sha256=n01yJoJxvFFT7oG-J_YavsKxlo7BD6YTICC5pG0IeEA,2927
+lqlpath/data/bigquery_table.txt,sha256=eDc4w3UIvDsiyYw1JvKtHJaZ8HpBTPN-LwDsMvXzLKU,737
+lqlpath-0.1.8.dist-info/METADATA,sha256=Xd1t4gE3ZXpi49eYNH5JSKDKgpJMJuMoGj10QZYrSvM,1428
+lqlpath-0.1.8.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+lqlpath-0.1.8.dist-info/top_level.txt,sha256=zS8_Y4SvCA13rp6J3-C10x-PRF6VihUPG81FnmEIAt0,8
+lqlpath-0.1.8.dist-info/RECORD,,
