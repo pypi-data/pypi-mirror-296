@@ -1,0 +1,2 @@
+[console_scripts]
+bluelights = manager.main:main
