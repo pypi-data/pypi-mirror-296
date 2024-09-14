@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  workflow_call:
+    inputs:
+      python-versions:
+        description: 'Python versions to test as stringified array'
+        required: true
+        type: string
+      ref_name:
+        required: true
+        type: string
+      working-directory:
+        type: string
+        description: 'The directory to run the ci on'
+        required: false
+        default: '.'
+      static-analysis-deps:
+        type: string
+        description: 'The dependencies to install for static analysis'
+        required: false
+        default: 'mypy'
+env:
+  CIBW_BUILD_VERBOSITY: 1
+  CIBW_PLATFORM: linux
+  CIBW_DEBUG_TRACEBACK: True
+jobs:
+  static-analysis:
+    runs-on: [ ubuntu-latest]
+    name: Static Analysis
+    strategy:
+      fail-fast: true
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@v0.0.0-rc13
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Test Static Analysis
+        uses: guywilsonjr/actions/actions/static-analysis@v0.0.0-rc13
+        with:
+          ref: ${{ github.ref_name }}
+          working-directory: ${{ inputs.working-directory }}
+          deps: ${{ inputs.static-analysis-deps }}
+  build:
+    runs-on: [ ubuntu-latest]
+    name: Build and Test
+    strategy:
+      fail-fast: true
+      matrix:
+        build-type: ['sdist', 'wheel']
+        python-version: ${{fromJson(inputs.python-versions)}}
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@v0.0.0-rc13
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Build
+        id: build
+        uses: guywilsonjr/actions/actions/build@v0.0.0-rc13
+        with:
+          python-version: ${{ matrix.python-version }}
+          working-directory: ${{ inputs.working-directory }}
+          build-type: ${{ matrix.build-type }}
+      - name: Test ${{ matrix.build-type }}
+        uses: guywilsonjr/actions/actions/test-tox@v0.0.0-rc13
+        with:
+          filename: dist/${{ steps.build.outputs.filename }}
+

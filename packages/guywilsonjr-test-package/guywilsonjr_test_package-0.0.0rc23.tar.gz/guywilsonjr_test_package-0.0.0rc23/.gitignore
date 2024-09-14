@@ -1,0 +1,5 @@
+.idea/
+**/.venv
+dist/
+wheelhouse/
+**/*.egg-info/
