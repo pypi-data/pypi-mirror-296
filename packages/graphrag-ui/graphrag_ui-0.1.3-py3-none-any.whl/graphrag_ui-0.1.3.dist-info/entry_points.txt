@@ -1,0 +1,4 @@
+[console_scripts]
+graphrag-ui = graphrag_ui.app:main
+graphrag-ui-pure = graphrag_ui.index_app:main
+graphrag-ui-server = graphrag_ui.api:main
