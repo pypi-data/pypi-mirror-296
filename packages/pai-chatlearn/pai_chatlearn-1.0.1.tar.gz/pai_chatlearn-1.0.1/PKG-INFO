@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pai-chatlearn
+Version: 1.0.1
+Author: Alibaba Group
+License: Apache 2.0
+Requires-Python: >3.6.0
+License-File: LICENSE
+
+PAI ChatLearn
