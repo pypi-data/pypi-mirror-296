@@ -1,0 +1,15 @@
+debugmate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+debugmate/utils.py,sha256=Jo81B2JE4GFRpBg_du2HTi-nr8sGh2j_gLBkj0FmmPg,3984
+debugmate/context/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+debugmate/context/environment_context.py,sha256=HbL28ezf6KPMqmFCpjAJidD-OjfplmqLEitFSeuJdew,1837
+debugmate/context/request_context.py,sha256=i1k1pig4fwdAT_4LRZXSjJhr6wQgOcL0e4RFPkCzbgU,3008
+debugmate/context/stack_trace_context.py,sha256=3a4UceSpUZ6Zb7DUj10sEbgVajXrOiu91oHSWXGVddI,1750
+debugmate/django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+debugmate/django/middleware.py,sha256=-msoBzOomSd4ojtsMlj5tjqyuzFhOEIYkQ5UKvSeeh0,407
+debugmate/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+debugmate/handlers/debugmate_handler.py,sha256=hHVw0BVQQ_P9D-IeQa4o9XGCRnzoKZN_dtPbp04h15s,440
+debugmate-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+debugmate-0.0.1.dist-info/METADATA,sha256=YAr_701NPSmivG2TvjFxSehaqVs5U1cN6BmQrP6v7tY,1943
+debugmate-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+debugmate-0.0.1.dist-info/top_level.txt,sha256=cRpzRCmcMH47wGenrdX70zQQT6NP4ePqXI9l1scBO3s,10
+debugmate-0.0.1.dist-info/RECORD,,
