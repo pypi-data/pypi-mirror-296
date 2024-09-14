@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: my_js_parser
+Version: 0.4
+Description-Content-Type: text/markdown
+Requires-Dist: lxml
+Requires-Dist: quickjs
+
+# my_js_parser
+
+my_js_parser ������������������������ JavaScript ��������������������������� JSON ��������� Python ��������������������������������������������������������������������� JSON ������������������������������������ JSON ���������
+
+# ������
+
+������������������������������������������
+```
+pip install my_js_parser
+```
+
+# ���������������
+```
+lxml==5.2.2
+quickjs==1.19.4
+```
+# ������������
+## ��� JavaScript ������������������������ JSON ������
+my_js_parser ��������� extract_all_json ��������� parse_html ��������������������������������� JavaScript ������������������������������������ JSON ������
+
+
+## ������������
+### ������������
+��������� my_js_parser.parser ��������� parse_html ���������
+```
+from my_js_parser.parser import parse_html
+```
+������������
+```
+parse_html(data: str) -> dict
+```
+- ������:
+  - data (str): ���������������html������������������������ JSON ������������js���������
+- ���������:
+  - ��������������������������������������� JSON ��������������������������������������� JSON ������������������������������
+
+������
+```
+from my_js_parser.parser import parse_html
+
+# ������html
+js_code = """
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  window.INITIAL_STATE={'user': 'JohnDoe', 'age': 30};
+window.DATA={'products': ['apple', 'banana', 'orange'], 'prices': [1.2, 0.5, 0.75]};
+(function(){ var script = document.currentScript; script.parentNode.removeChild(script); })();
+
+</script>
+</body>
+</html>
+
+"""
+
+# ������������ JSON ������
+json_data = parse_html(js_code)
+print(f'parse result : {json_data}')
+
+ 
+```
+������������
+```
+parse result : {'INITIAL_STATE': {'user': 'JohnDoe', 'age': 30}, 'DATA': {'products': ['apple', 'banana', 'orange'], 'prices': [1.2, 0.5, 0.75]}, 'user': 'JohnDoe', 'age': 30, 'products': ['apple', 'banana', 'orange'], 'prices': [1.2, 0.5, 0.75]}
+```
+
+
+## ������������
+### ������������
+��������� my_js_parser.parser ��������� extract_all_json ���������
+```
+from my_js_parser.parser import extract_all_json
+```
+������������
+```
+extract_all_json(data: str) -> list[dict]
+```
+- ������:
+  - data (str): ���������������script������������������������ JSON ������������js������������������������������html������������������������������������������������������������������������������������������������������������������
+- ���������:
+  - ��������������������������������������� JSON ��� LIST ��������������������� JSON ������������������������������
+
+������
+```
+from my_js_parser.parser import extract_all_json
+
+# ������������������������������ JSON ��������� JavaScript ������
+js_code = """
+window.INITIAL_STATE={'user': 'JohnDoe', 'age': 30};
+window.DATA={'products': ['apple', 'banana', 'orange'], 'prices': [1.2, 0.5, 0.75]};
+(function(){ var script = document.currentScript; script.parentNode.removeChild(script); })();
+"""
+
+# ������������ JSON ������
+json_parts = extract_all_json(js_code)
+
+# ������������������ JSON ������
+for i, json_part in enumerate(json_parts):
+    print(f"JSON {i + 1}: {json_part}")
+
+ 
+ 
+```
+������������
+```
+JSON 1: {'user': 'JohnDoe', 'age': 30}
+JSON 2: {'products': ['apple', 'banana', 'orange'], 'prices': [1.2, 0.5, 0.75]}
+```
+
+# ������ 
+- ���������������������������������������quickjs ���������js��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������� from lxml import etree ������������������script���������������������������������������������������list������������������������������������������������������������������������������������������
+
+# ������
+������������������������������������������
+������������������������������
+  ![img.png](img.png)
+
