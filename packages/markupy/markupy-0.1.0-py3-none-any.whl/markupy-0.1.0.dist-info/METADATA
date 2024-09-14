@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: markupy
+Version: 0.1.0
+Summary: HTML in Python
+Author-email: witiz <markupy@witiz.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Dist: markupsafe>=2.0.0
+Project-URL: Home, https://github.com/markupy/markupy
+
+
