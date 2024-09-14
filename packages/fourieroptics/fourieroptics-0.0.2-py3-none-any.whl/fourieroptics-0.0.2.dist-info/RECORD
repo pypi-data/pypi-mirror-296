@@ -1,0 +1,10 @@
+fourieroptics/__init__.py,sha256=adz42UGoCuTRazcRXkaG_6ChF6JGZCKLdmeccc7WEmc,75
+fourieroptics/apertures.py,sha256=p_SMjairuo1xRGHspgh5EqScUcrPvh9HtLRm_U3VhvA,1671
+fourieroptics/fourieroptics.py,sha256=l-mFXu2g3xWPEUuvhaLLHOJIq7FqJabI7IdiMD2-P_Y,9034
+fourieroptics/helpers.py,sha256=P9AhORX8xZF6_jpYdsc2cN5Xj51rkiH4PBabqYb9ZBM,2876
+fourieroptics/propagators.py,sha256=T7bLCpr9PuE2_H_ZWcNkq6xORp5YfrgKS0R7UfXOz3c,7382
+fourieroptics-0.0.2.dist-info/LICENSE,sha256=2WbW-gS1lOGTIpQchkC47VEidnjW6p7n4b13uuCfqZ4,1077
+fourieroptics-0.0.2.dist-info/METADATA,sha256=fBiYUg2_eh81nInakUOu70dlB9-y-XiK2RxAG4sV-EM,675
+fourieroptics-0.0.2.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+fourieroptics-0.0.2.dist-info/top_level.txt,sha256=h4NyCZoKOY_79AqmLj-SpkKzpV8NqTkXLYniHXF-Ia0,14
+fourieroptics-0.0.2.dist-info/RECORD,,
