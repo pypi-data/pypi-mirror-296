@@ -1,0 +1,8 @@
+[theme]
+inherit="furo"
+
+[options]
+light_css_variables= { color-brand-primary= '#aa2b5c',  color-brand-content= '#aa2b5c',  color-background-secondary= '#FAF8F9',  color-sidebar-brand-text= '#aa2b5c'}
+dark_css_variables= { color-brand-primary= '#da8ba9',  color-brand-content= '#da8ba9',  color-sidebar-brand-text= '#da8ba9' }
+dark_logo= "ods_logo.png"
+light_logo="ods_logo.png"
