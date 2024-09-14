@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+signified.py
+signified.egg-info/PKG-INFO
+signified.egg-info/SOURCES.txt
+signified.egg-info/dependency_links.txt
+signified.egg-info/requires.txt
+signified.egg-info/top_level.txt
+tests/test_computed.py
+tests/test_signals.py
