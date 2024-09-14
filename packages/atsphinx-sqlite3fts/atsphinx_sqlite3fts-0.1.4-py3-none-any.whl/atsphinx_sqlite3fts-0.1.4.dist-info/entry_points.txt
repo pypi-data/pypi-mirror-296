@@ -1,0 +1,3 @@
+[console_scripts]
+atsphinx-sqlite3fts=atsphinx.sqlite3fts.cli:main
+
