@@ -1,0 +1,207 @@
+setup.py
+toolmateai/README.md
+toolmateai/__init__.py
+toolmateai/autoassist.py
+toolmateai/autobuilder.py
+toolmateai/autoretriever.py
+toolmateai/chatgpt.py
+toolmateai/codey.py
+toolmateai/commandprompt.py
+toolmateai/config.py
+toolmateai/eTextEdit.py
+toolmateai/geminipro.py
+toolmateai/geminiprovision.py
+toolmateai/groqchat.py
+toolmateai/llamacpp.py
+toolmateai/llamacppserver.py
+toolmateai/main.py
+toolmateai/ollamachat.py
+toolmateai/package_name.txt
+toolmateai/palm2.py
+toolmateai/qt.py
+toolmateai/rag.py
+toolmateai/requirements.txt
+toolmateai/servers.py
+toolmateai/systemtray.py
+toolmateai.egg-info/PKG-INFO
+toolmateai.egg-info/SOURCES.txt
+toolmateai.egg-info/dependency_links.txt
+toolmateai.egg-info/entry_points.txt
+toolmateai.egg-info/requires.txt
+toolmateai.egg-info/top_level.txt
+toolmateai/audio/notification1.mp3
+toolmateai/audio/notification1_mild.mp3
+toolmateai/audio/notification2.mp3
+toolmateai/audio/notification2_mild.mp3
+toolmateai/docs/000_Home.md
+toolmateai/docs/Action Menu.md
+toolmateai/docs/Beyond LetMeDoItAI.md
+toolmateai/docs/CLI Options.md
+toolmateai/docs/Change AI Backends and Models.md
+toolmateai/docs/Configure Ollama Server.md
+toolmateai/docs/Customise Assistant Name.md
+toolmateai/docs/Download LLM in GGUF Format.md
+toolmateai/docs/Edit Config Manually.md
+toolmateai/docs/Examples.md
+toolmateai/docs/Fabric Integration.md
+toolmateai/docs/First launch.md
+toolmateai/docs/Function Call Approach with Any LLMs.md
+toolmateai/docs/GPU Acceleration with Llama_cpp server.md
+toolmateai/docs/GPU Acceleration.md
+toolmateai/docs/Google Cloud Service Credential Setup.md
+toolmateai/docs/Groq API Setup.md
+toolmateai/docs/Install FreeGenius.md
+toolmateai/docs/Install Python.md
+toolmateai/docs/Install ffmpeg.md
+toolmateai/docs/LetMeDoIt Mode.md
+toolmateai/docs/Miscellaneous.md
+toolmateai/docs/Offline TTS - Linux.md
+toolmateai/docs/Offline TTS - Windows.md
+toolmateai/docs/Offline TTS - macOS.md
+toolmateai/docs/OpenAI API Setup.md
+toolmateai/docs/Perplexica Integration.md
+toolmateai/docs/Plugins - Add Aliases.md
+toolmateai/docs/Plugins - Function Calling.md
+toolmateai/docs/Plugins - How to Write a Custom Plugin.md
+toolmateai/docs/Plugins - Input Suggestions.md
+toolmateai/docs/Plugins - Install Additional Packages.md
+toolmateai/docs/Plugins - Integrate Shared Utilities.md
+toolmateai/docs/Plugins - Integrate Speech Features.md
+toolmateai/docs/Plugins - Overview.md
+toolmateai/docs/Plugins - Predefined Contexts.md
+toolmateai/docs/Plugins - Transform Text Output.md
+toolmateai/docs/Plugins - Use Specific Packages.md
+toolmateai/docs/Plugins - Work with Configurations.md
+toolmateai/docs/Plugins - Work with Non-conversational Models.md
+toolmateai/docs/Predefined Contexts.md
+toolmateai/docs/Quick Guide.md
+toolmateai/docs/Risk Management Agent.md
+toolmateai/docs/Running Multiple Tools in One Go.md
+toolmateai/docs/Speech Settings.md
+toolmateai/docs/Supported Backends and Models.md
+toolmateai/docs/System Command Integration.md
+toolmateai/docs/Termux Setup.md
+toolmateai/docs/Tool Selection Configurations.md
+toolmateai/files/Readme.md
+toolmateai/gui/chatgui.py
+toolmateai/gui/worker.py
+toolmateai/history/Readme.md
+toolmateai/icons/FreeGenius.ico
+toolmateai/icons/FreeGenius.png
+toolmateai/icons/FreeGenius_original.png
+toolmateai/icons/ai.png
+toolmateai/icons/ai_original.png
+toolmateai/macOS_service/ToolMate_Download_workflow/Contents/Info.plist
+toolmateai/macOS_service/ToolMate_Download_workflow/Contents/document.wflow
+toolmateai/macOS_service/ToolMate_Download_workflow/Contents/QuickLook/Thumbnail.png
+toolmateai/macOS_service/ToolMate_Explanation_workflow/Contents/Info.plist
+toolmateai/macOS_service/ToolMate_Explanation_workflow/Contents/document.wflow
+toolmateai/macOS_service/ToolMate_Explanation_workflow/Contents/QuickLook/Thumbnail.png
+toolmateai/macOS_service/ToolMate_Files_workflow/Contents/Info.plist
+toolmateai/macOS_service/ToolMate_Files_workflow/Contents/document.wflow
+toolmateai/macOS_service/ToolMate_Files_workflow/Contents/QuickLook/Thumbnail.png
+toolmateai/macOS_service/ToolMate_Pronounce_workflow/Contents/Info.plist
+toolmateai/macOS_service/ToolMate_Pronounce_workflow/Contents/document.wflow
+toolmateai/macOS_service/ToolMate_Pronounce_workflow/Contents/QuickLook/Thumbnail.png
+toolmateai/macOS_service/ToolMate_Summary_workflow/Contents/Info.plist
+toolmateai/macOS_service/ToolMate_Summary_workflow/Contents/document.wflow
+toolmateai/macOS_service/ToolMate_Summary_workflow/Contents/QuickLook/Thumbnail.png
+toolmateai/macOS_service/ToolMate_Text_workflow/Contents/Info.plist
+toolmateai/macOS_service/ToolMate_Text_workflow/Contents/document.wflow
+toolmateai/macOS_service/ToolMate_Text_workflow/Contents/QuickLook/Thumbnail.png
+toolmateai/macOS_service/ToolMate_Translation_workflow/Contents/Info.plist
+toolmateai/macOS_service/ToolMate_Translation_workflow/Contents/document.wflow
+toolmateai/macOS_service/ToolMate_Translation_workflow/Contents/QuickLook/Thumbnail.png
+toolmateai/macOS_service/ToolMate_YoutubeMP3_workflow/Contents/Info.plist
+toolmateai/macOS_service/ToolMate_YoutubeMP3_workflow/Contents/document.wflow
+toolmateai/macOS_service/ToolMate_YoutubeMP3_workflow/Contents/QuickLook/Thumbnail.png
+toolmateai/plugins/000_check_ffmpeg.py
+toolmateai/plugins/000_check_pyaudio.py
+toolmateai/plugins/000_check_vlc.py
+toolmateai/plugins/Readme.md
+toolmateai/plugins/add google calendar event.py
+toolmateai/plugins/add outlook calendar event.py
+toolmateai/plugins/aliases.py
+toolmateai/plugins/analyze audio.py
+toolmateai/plugins/analyze files.py
+toolmateai/plugins/analyze images.py
+toolmateai/plugins/analyze web content.py
+toolmateai/plugins/ask chatgpt.py
+toolmateai/plugins/ask codey.py
+toolmateai/plugins/ask gemini.py
+toolmateai/plugins/ask groq.py
+toolmateai/plugins/ask llama3_1.py
+toolmateai/plugins/ask llamacpp.py
+toolmateai/plugins/ask llamacppserver.py
+toolmateai/plugins/ask ollama.py
+toolmateai/plugins/ask palm2.py
+toolmateai/plugins/auto correct python code.py
+toolmateai/plugins/awesome prompts.py
+toolmateai/plugins/character analysis.py
+toolmateai/plugins/chat.py
+toolmateai/plugins/contexts.py
+toolmateai/plugins/counselling.py
+toolmateai/plugins/create ai assistants.py
+toolmateai/plugins/create images.py
+toolmateai/plugins/create maps.py
+toolmateai/plugins/create qrcode.py
+toolmateai/plugins/create statistical graphics.py
+toolmateai/plugins/dates and times.py
+toolmateai/plugins/download web content.py
+toolmateai/plugins/download youtube audio.py
+toolmateai/plugins/download youtube video.py
+toolmateai/plugins/edit text.py
+toolmateai/plugins/execute computing tasks.py
+toolmateai/plugins/execute termux command.py
+toolmateai/plugins/fabric.py
+toolmateai/plugins/global finance.py
+toolmateai/plugins/improve British English.py
+toolmateai/plugins/input suggestions.py
+toolmateai/plugins/install python package.py
+toolmateai/plugins/integrate google searches.py
+toolmateai/plugins/memory.py
+toolmateai/plugins/modify images.py
+toolmateai/plugins/open web browser.py
+toolmateai/plugins/pronounce words.py
+toolmateai/plugins/remove image background.py
+toolmateai/plugins/search chat records.py
+toolmateai/plugins/search financial data.py
+toolmateai/plugins/search latest news.py
+toolmateai/plugins/search sqlite.py
+toolmateai/plugins/search weather info.py
+toolmateai/plugins/send gmail.py
+toolmateai/plugins/send outlook.py
+toolmateai/plugins/send tweet.py
+toolmateai/plugins/send whatsapp messages.py
+toolmateai/plugins/simplified Chinese to traditional Chinese.py
+toolmateai/temp/Readme.md
+toolmateai/utils/assistant.py
+toolmateai/utils/call_chatgpt.py
+toolmateai/utils/call_gemini.py
+toolmateai/utils/call_groq.py
+toolmateai/utils/call_llamacpp.py
+toolmateai/utils/call_llamacppserver.py
+toolmateai/utils/call_llm.py
+toolmateai/utils/call_ollama.py
+toolmateai/utils/config_essential.py
+toolmateai/utils/config_tools.py
+toolmateai/utils/download.py
+toolmateai/utils/get_path_prompt.py
+toolmateai/utils/ollama_models.py
+toolmateai/utils/promptValidator.py
+toolmateai/utils/prompt_multiline_shared_key_bindings.py
+toolmateai/utils/prompt_shared_key_bindings.py
+toolmateai/utils/prompts.py
+toolmateai/utils/python_utils.py
+toolmateai/utils/shared_utils.py
+toolmateai/utils/shortcuts.py
+toolmateai/utils/single_prompt.py
+toolmateai/utils/streaming_word_wrapper.py
+toolmateai/utils/sttLanguages.py
+toolmateai/utils/terminal_mode_dialogs.py
+toolmateai/utils/terminal_system_command_prompt.py
+toolmateai/utils/text_utils.py
+toolmateai/utils/tool_plugins.py
+toolmateai/utils/ttsLanguages.py
+toolmateai/utils/tts_utils.py
+toolmateai/utils/vlc_utils.py
