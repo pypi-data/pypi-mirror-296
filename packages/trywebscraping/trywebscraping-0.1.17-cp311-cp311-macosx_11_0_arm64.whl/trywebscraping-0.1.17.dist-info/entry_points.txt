@@ -1,0 +1,2 @@
+[console_scripts]
+install-node-deps=trywebscraping.install_node_deps:main
