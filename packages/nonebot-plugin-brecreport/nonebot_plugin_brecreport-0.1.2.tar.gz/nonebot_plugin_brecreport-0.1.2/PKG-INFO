@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-brecreport
+Version: 0.1.2
+Summary: 该插件提供了一个位于 /brec_report 的路由，并和录播姬适配，实现实现几乎实时的开播提醒 (需要安装录播姬)
+Home-page: https://github.com/A-nemon-e/nonebot-plugin-brecreport
+License: AGPL-3.0
+Author: Anec
+Author-email: a-nemon-e@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: nonebot2[fastapi] (>=2.0.1,<3.0.0)
+Requires-Dist: pydantic (>=1.10.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+
+ - 这是我的第一个github项目，从[nonebot-plugin-report](https://github.com/syrinka/nonebot-plugin-report)改动而来，请务必多多指教！
+
+
+
+# nonebot-plugin-brecreport
+
+
+
+## 功能
+
+该插件提供了一个位于 `/brec_report` 的路由，并和[录播姬](https://github.com/BililiveRecorder)适配，实现实现几乎实时的开播提醒 (需要安装[录播姬](https://rec.danmuji.org/))
+
+## 使用
+
+### nonebot2 .env配置
+
+Field | Type | Desc | Default | Note
+-- | -- | -- | -- | --
+`brec_report_from` | `Optional[ID]` | 推送消息的机器人 ID | | 若不设置，任意获取一个可用的机器人
+`brec_report_route` |  `str` | 路由 | `/brec_report` | 若与其它路由冲突可以更换该值
+`brec_report_template` | `str` | 消息模板 | `主播{Name}开播了！标题：{Title}\n直播分区：{AreaNameParent}-{AreaNameChild}\nhttps://live.bilibili.com/{RoomId}` | 支持 `{Name}`（主播名）， `{Title}`（直播标题）， `{AreaNameParent}`（主分区）， `{AreaNameChild}`（二级分区）， `{RoomId}`（长房间号） 5个字段
+`brec_report_roomids` | `Optional[List[str]]` | 要报告的B站直播间号 | | 长或短号都支持，若不设置，谁开播都不会报告
+`brec_report_send_to_group` | `Optional[List[str]]` | 报告的群号 | | 
+
+### 录播姬配置
+
+在[录播姬](https://github.com/BililiveRecorder)的Web界面中设置Webhook V2地址为 `http://127.0.0.1:8080/brec_report` ，如果更改过nonebot2相关设置请对应更改地址。
+
+## 原理
+
+录播姬在监控开播情况时可以发起Webhook（详见https://rec.danmuji.org/reference/webhook/ ），取 `"EventType": "StreamStarted"` 作为直播提醒。
+
+**Note:** 
+录播姬中，对某直播房间关闭自动录制后，录播姬仍可发起 `StreamStarted`， `StreamEnded` 两种Webhook。
+
+
+## Todo
+
+- [ ] 开播封面发送
+- [ ] (?)推送给好友
+- [ ] (?)支持更多`EventType`
+
+## 致谢
+- [nonebot-plugin-report](https://github.com/syrinka/nonebot-plugin-report)~~（从这个抄来的）~~
+- nonebot2项目
+- ChatGPT
+
