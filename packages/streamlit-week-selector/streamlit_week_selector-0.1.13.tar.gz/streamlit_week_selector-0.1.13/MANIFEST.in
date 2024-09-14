@@ -1,0 +1,3 @@
+recursive-include src/streamlit_week_selector/frontend *
+include README.md
+include LICENSE

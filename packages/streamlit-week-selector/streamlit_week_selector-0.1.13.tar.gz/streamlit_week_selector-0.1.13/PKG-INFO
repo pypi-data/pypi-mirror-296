@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: streamlit-week-selector
+Version: 0.1.13
+Summary: this component offers you to input and choose single week from year
+Author: Dmitry Usman
+Author-email: dimausman@inbox.ru
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.2
+Requires-Dist: jinja2
+
+# streamlit-week-selector
+
+this component offers you to input and choose single week from year
+
+## Installation instructions 
+
+```sh
+pip install streamlit-week-selector
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from streamlit_week_selector import streamlit_week_selector
+
+value = streamlit_week_selector()
+
+st.write(value)
