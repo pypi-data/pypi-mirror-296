@@ -1,0 +1,2 @@
+import{d as s,c as r,i as a,j as c,o as n,k as e,l as t,aT as _,aU as f}from"./index-DvnrCt9z.js";import{u as l}from"./usePageTitle-DqH6sU46.js";const h=s({__name:"Artifacts",setup(p){return l("Artifacts"),(u,i)=>{const o=c("p-layout-default");return n(),r(o,{class:"artifacts"},{header:a(()=>[e(t(_))]),default:a(()=>[e(t(f))]),_:1})}}});export{h as default};
+//# sourceMappingURL=Artifacts-D7c9l6zn.js.map
