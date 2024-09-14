@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: mmeutils
+Version: 0.1.0
+Summary: Some simple personal utility functions.
+Home-page: https://github.com/prof79/py-mmeutils
+Author: Markus M. Egger
+License: MIT
+Project-URL: Documentation, https://mmeutils.readthedocs.io
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: File Formats
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Classifier: Topic :: Text Processing :: General
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: m3u8
+Requires-Dist: pyffmpeg
+Requires-Dist: requests
+Requires-Dist: rich
+
+# mmeutils
+
+A simple collection of personal Python utility functions required in multiple hobbyist projects.
+
+Documentation: https://mmeutils.readthedocs.io
+
+## Installation
+
+```shell
+$ py -m pip install mmeutils
+```
+
+## Version History
+
+### 0.1.0
+
+Beta of initial functionality set.
+
+### 0.0.1-0.0.10
+
+Alpha in-progress
