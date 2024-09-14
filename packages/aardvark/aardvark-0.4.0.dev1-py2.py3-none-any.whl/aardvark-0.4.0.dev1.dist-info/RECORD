@@ -1,0 +1,15 @@
+aardvark/__about__.py,sha256=KLHAQc8WmScV6Y_dprcCxWyUe4ObCl2WVOQPdlXKQYo,516
+aardvark/__init__.py,sha256=rUQMY8ilIhXh4ec1eTtB3nzyjgT09RIR_nLvx-zW4bQ,2146
+aardvark/_config.py,sha256=CHeOlrsXM8rTnZhsBuequNKfRudWAteIciu3D5r99DY,282
+aardvark/manage.py,sha256=D8s03k_ANygXbrpmB3KyeF-Rgl3CcARHNsaMqubVJJo,15326
+aardvark/model.py,sha256=le_C2pQNEWhMiPeRXWDhXqCx3q3hydu9pUJdZbOa79E,5948
+aardvark/view.py,sha256=2tmWV_8IbiUumJpj9yh9QXZh5U05raMVhhdxVEc-7KQ,6806
+aardvark/updater/__init__.py,sha256=sKo0zhF0mv5J0zq4TuRENDZtPoRRi6XgsME_TvJuP_4,9141
+aardvark/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aardvark/utils/sqla_regex.py,sha256=6Suoip2hcAd14-pzsL8X2Rw6YA4qKi6uv33CjoHyzqM,3610
+aardvark-0.4.0.dev1.dist-info/LICENSE,sha256=xazLvYVG6Uw0rtJK_miaYXYn0Y7tWmxIJ35I21fCOFE,11356
+aardvark-0.4.0.dev1.dist-info/METADATA,sha256=Z5AfqoptXUYV0LkUM-1r4l2svLPvGW0T6ZwEarLueNU,9838
+aardvark-0.4.0.dev1.dist-info/WHEEL,sha256=qUzzGenXXuJTzyjFah76kDVqDvnk-YDzY00svnrl84w,109
+aardvark-0.4.0.dev1.dist-info/entry_points.txt,sha256=C5nX2abkTVUEKn0eDUPjIl0GY6CTg_zlLVnzhyDbfDI,50
+aardvark-0.4.0.dev1.dist-info/top_level.txt,sha256=qrvFybfsjvL6zQ2-5bP3-INrU1RFg8IYlNJcpM-YoYg,9
+aardvark-0.4.0.dev1.dist-info/RECORD,,
