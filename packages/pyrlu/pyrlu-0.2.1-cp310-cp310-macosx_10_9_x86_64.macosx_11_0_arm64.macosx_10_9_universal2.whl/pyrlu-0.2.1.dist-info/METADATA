@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyrlu
+Version: 0.2.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# pyrlu
+
+Python module for sparse LU decomposition based on [RLU](https://crates.io/crates/rlu).
+
+## License
+
+This source code is distributed under the BSD 3-clause license
+([LICENSE](LICENSE) or https://opensource.org/licenses/BSD-3-Clause).
+
