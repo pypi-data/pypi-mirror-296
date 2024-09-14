@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: talking-equipment-sdk
+Version: 0.1.2
+Summary: Talking Equipment Standard Development Kit
+Home-page: UNKNOWN
+Author: Nathan Johnson
+Author-email: nathanj@stratusadv.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Talking Equipment SDK
+
