@@ -1,0 +1,3 @@
+tests/
+.venv/
+.ruff_cache/
