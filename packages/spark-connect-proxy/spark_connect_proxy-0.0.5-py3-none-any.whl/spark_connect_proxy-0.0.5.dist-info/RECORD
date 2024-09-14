@@ -1,0 +1,13 @@
+spark_connect_proxy/__init__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+spark_connect_proxy/config.py,sha256=TFNfUzbGhFxZ_kNJsd4F-eTWxu94LznT9ZXy2OhZuTk,508
+spark_connect_proxy/logger.py,sha256=30Mv3FLrJVK1w53hySueGRzO_xOfjOXbeGV7FBJGhGE,351
+spark_connect_proxy/security.py,sha256=oM-GLoLui4sNonx1UuOFZEWBV-hfRBIZ5C1-zaXLECM,2485
+spark_connect_proxy/server.py,sha256=OoSHxG8fhl7G4pP13beQWbV_nS_FqmYbI_cn1ZUPGao,7359
+spark_connect_proxy/client_examples/ibis_client_example.py,sha256=zcLzXoLUL26I_1B0hFwylD-zKF3lfqU7z6qWZLXe41g,3407
+spark_connect_proxy/utilities/create_jwt.py,sha256=E3QZgEkn4Ob_20nCDGPhCQPaTtREs_MpfLEUN8La7gY,2304
+spark_connect_proxy/utilities/tls_utilities.py,sha256=Tt8peOQ-CC_LB1UuKYw4pcjrJcw0adGbupFx083mf6M,4342
+spark_connect_proxy-0.0.5.dist-info/METADATA,sha256=ESMtTuYezCC8JR0vPt2y28XaDq1yE8Hx33hrjE9-fmk,3283
+spark_connect_proxy-0.0.5.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+spark_connect_proxy-0.0.5.dist-info/entry_points.txt,sha256=CY0wg-1hGIUqTbsZXAcSoaOj6UPz_XZhNqYwaiJQDSA,410
+spark_connect_proxy-0.0.5.dist-info/top_level.txt,sha256=9kbk1j5Fd2piAohhmqMJwxVHABCb341HFghnZfFtonI,20
+spark_connect_proxy-0.0.5.dist-info/RECORD,,
