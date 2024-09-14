@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: umndet
+Version: 0.1.1
+Summary: # Flight and ground code for the IMPRESS/EXACT/IMPISH small-payload missions
+Requires-Python: >=3.11
+License-File: LICENSE
+Provides-Extra: all
+Requires-Dist: numpy; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
