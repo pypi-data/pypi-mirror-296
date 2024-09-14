@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my_js_parser
+Version: 0.3
+Requires-Dist: lxml
+Requires-Dist: quickjs
+
+README.md
