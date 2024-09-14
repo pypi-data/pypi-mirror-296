@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+setup.py
+torch_thinning/__init__.py
+torch_thinning/zhang_suen_thinning_kernel.cu
+torch_thinning.egg-info/PKG-INFO
+torch_thinning.egg-info/SOURCES.txt
+torch_thinning.egg-info/dependency_links.txt
+torch_thinning.egg-info/requires.txt
+torch_thinning.egg-info/top_level.txt

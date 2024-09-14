@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: torch_thinning
+Version: 1.0.0
+Summary: Implementation of Zhang-Suen thinning in Torch
+Author: Andranik Sargsyan
+Author-email: and.sargsyan@yahoo.com
+License-File: LICENSE
+Requires-Dist: torch

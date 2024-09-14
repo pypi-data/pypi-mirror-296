@@ -1,0 +1,2 @@
+include LICENSE
+include src/zhang_suen_thinning_kernel.cu
