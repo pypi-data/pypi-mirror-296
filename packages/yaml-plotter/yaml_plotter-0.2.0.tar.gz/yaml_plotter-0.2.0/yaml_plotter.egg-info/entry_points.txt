@@ -1,0 +1,2 @@
+[console_scripts]
+yml_plot = yaml_plotter.copy_example:copy_example_yml

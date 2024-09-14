@@ -1,0 +1,83 @@
+# this example file shows all the features of this package
+
+# This title will appear on the top of the plot
+plot_title: "Example Plot"
+double_axis: false
+
+# Font information
+# automatically applied to the title
+font:
+    title_font:
+        family: "Arial"
+        size: 16
+        weight: "normal"
+        style: "normal"
+
+    # automatically applied to the x and y axis labels
+    label_font:
+        family: "Arial"
+        size: 16
+        weight: "normal"
+        style: "normal"
+
+    # automatically applied to the legend
+    legend_font:
+        family: "Arial"
+        size: 16
+        weight: "normal"
+        style: "normal"
+
+    # automatically applied to the x and y axis ticks
+    tick_font:
+        family: "Arial"
+        size: 12
+        weight: "normal"
+        style: "normal"
+
+
+# Mass options
+grid:
+    enabled: true
+    line_width: 0.2
+
+# Range options
+range:
+    x_min: "auto"             # or a number
+    x_max: "auto"             # or a number
+    axis_1_min: "auto"        # or a number
+    axis_1_max: "auto"        # or a number
+    axis_2_min: "auto"        # or a number
+    axis_2_max: "auto"        # or a number
+
+# legend options
+legend:
+    enabled: true
+    location: "best"
+
+# label options
+label:
+    x_label: "X-axis"
+    axis_1_label: "Axis 1"
+    axis_2_label: "Axis 2"
+
+# Plot information
+plot:
+    - type: "line"
+      axis: "axis_1"          # or "axis_2"
+      x: [1, 3, 5, 7, 9]
+      y: [1, 4, 9, 16, 25]
+      color: "purple"
+      line_width: 4
+      marker: "^"
+      marker_size: 8
+      label: "Line 1"
+
+    - type: "line"
+      axis: "axis_1"          # or "axis_2"
+      x: [1, 3, 5, 7, 9]
+      y: [1, 8, 53, 42, 23]
+      color: "orange"
+      line_width: 4
+      marker: "X"
+      marker_size: 8
+      label: "Line 2"
