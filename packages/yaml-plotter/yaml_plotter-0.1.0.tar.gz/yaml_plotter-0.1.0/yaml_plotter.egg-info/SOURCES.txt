@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+yaml_plotter/__init__.py
+yaml_plotter/chart_2D.py
+yaml_plotter/copy_example.py
+yaml_plotter/example.yml
+yaml_plotter/integrity_check.py
+yaml_plotter.egg-info/PKG-INFO
+yaml_plotter.egg-info/SOURCES.txt
+yaml_plotter.egg-info/dependency_links.txt
+yaml_plotter.egg-info/entry_points.txt
+yaml_plotter.egg-info/requires.txt
+yaml_plotter.egg-info/top_level.txt
