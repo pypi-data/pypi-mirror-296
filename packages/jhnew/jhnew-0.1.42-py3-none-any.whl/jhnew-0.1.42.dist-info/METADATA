@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jhnew
+Version: 0.1.42
+Summary: 
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# My python lib
+
+Python lib with utils to help me in day by day tasks
