@@ -1,0 +1,164 @@
+Metadata-Version: 2.1
+Name: batchframe
+Version: 0.0.1a2
+Summary: Batteries-included framework for running repeatable tasks.
+Home-page: https://gitlab.com/Dzeri96/batchframe
+Author: Dzeri96
+Author-email: dzeri96@proton.me
+License: GPL-3.0-or-later
+Project-URL: Source, https://gitlab.com/Dzeri96/batchframe
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE.txt
+Requires-Dist: importlib-metadata; python_version < "3.8"
+Requires-Dist: ipython
+Requires-Dist: kink
+Requires-Dist: nest_asyncio
+Requires-Dist: aiorwlock
+Requires-Dist: rich
+Provides-Extra: testing
+Requires-Dist: setuptools; extra == "testing"
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Requires-Dist: tox; extra == "testing"
+
+<!-- These are examples of badges you might want to add to your README:
+     please update the URLs accordingly
+
+[![Built Status](https://api.cirrus-ci.com/github/<USER>/batchframe.svg?branch=main)](https://cirrus-ci.com/github/<USER>/batchframe)
+[![ReadTheDocs](https://readthedocs.org/projects/batchframe/badge/?version=latest)](https://batchframe.readthedocs.io/en/stable/)
+[![Coveralls](https://img.shields.io/coveralls/github/<USER>/batchframe/main.svg)](https://coveralls.io/r/<USER>/batchframe)
+[![PyPI-Server](https://img.shields.io/pypi/v/batchframe.svg)](https://pypi.org/project/batchframe/)
+[![Conda-Forge](https://img.shields.io/conda/vn/conda-forge/batchframe.svg)](https://anaconda.org/conda-forge/batchframe)
+[![Monthly Downloads](https://pepy.tech/badge/batchframe/month)](https://pepy.tech/project/batchframe)
+[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter)](https://twitter.com/batchframe)
+-->
+
+[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
+
+# ![logo](./assets/Batchframe_Logo_Small.png) Batchframe
+
+> A framework for small, repeated tasks.
+
+This CLI tool/framework aims to provide out-of-the-box functionality for many common tasks one might have when building python scripts that do a simple task repeatedly.
+Features include:
+- Automatic capture of logs to files.
+- Type-safe capture of CLI parameters.
+- Ability to pause execution and inspect objects in the python shell.
+- Colorful visualization of progress and similar statistics.
+- Retry logic with backoff.
+- Dependency injection.
+- Pseudo-parallelism with AsyncIO.
+- Fully-typed, class-based configuration.
+- Saving of failed inputs for future re-execution.
+
+## Planned features/improvements
+- Import entire directories without \_\_init__.py
+- Support iterables for BatchframeParam
+- Extract parameter descriptions from pydoc.
+- Auto-generate UI.
+
+## Features in Depth
+
+### Automatic Capture of Logs to Files
+Batchframe will save the logs of the current run under `OUTPUT_DIR/current_datetime/`,
+where `OUTPUT_DIR` defaults to `batchframe_outputs`, but can be changed with the `-d` flag.
+
+### Type-safe Capture of CLI Parameters
+Usually any non-trivial python program requires some user input, for example, a path to a file that should be read.
+Argv alone works for very simple cases, but very quickly one needs to start using [argparse](https://docs.python.org/3/library/argparse.html) to handle the complexity of user input.
+The tool is as versatile as it gets, but is often too verbose for workloads batchframe is intended for.
+
+We abstract this complexity away by providing a generic type called `BatchframeParam[T]`, where `T` is the type variable.
+All one needs to do is to annotate the desired input with this type inside any constructor, and Batchframe will automatically ask for it when running.
+When the required parameters are provided, they will be cast and injected automatically, as long as the class itself has an `@inject` annotation.
+
+For example, let's say you want a `str` and an optional `datetime` parameter in your service.
+You'd write the constructor like so:
+```python
+from batchframe import BatchframeParam, Service, inject
+from datetime import datetime
+
+@inject
+class MyService(Service):
+     def __init__(self, file_path: BatchframeParam[str], search_from: BatchframeParam[datetime] = datetime.now()):
+          # Do some stuff here
+```
+You would then provide these values like so: `... -p file_path=./here.txt -p search_from 2024-01-03`.
+
+This is also useful for overriding values in the `Configuration` class.
+
+Currently, the list of supported injectable types is limited, but we're constantly adding more!
+
+### Ability to Pause Execution and Inspect Objects in the Python Shell
+Batchframe features a "pause shell" that allows the user to interrupt execution (Ctrl-C) and access all parts of running system through a fully-featured ipython shell.
+This shell is also activated when a fatal error occurs, giving the user a chance to save the execution progress.
+
+Execution can be completely stopped, while saving all failed/unprocessed work items by calling `self.stop()` inside the pause shell.
+
+### Dependency Injection
+**Keep in mind that this API is currently experimental and subject to change.**
+
+Batchframe uses [kink](https://github.com/kodemore/kink) under the hood to automatically resolve dependencies between classes and inject configuration parameters.
+In order for your class to be included in the DI system, decorate it with the `@inject` decorator like this:
+```python
+from batchframe import inject
+from batchframe.models.service import Service
+
+@inject()
+class MyService(Service):
+     pass
+```
+Batchframe automatically "aliases" all parent classes with the decorated class if they are not already set.
+This means that `MyService` will be injected where ever `Service` is requested.
+
+This is the same as using the decorator like so: `@inject(alias=Service)` and is sometimes required to be done manually.
+
+### Fully-typed, Class-based Configuration
+**Keep in mind that this API is currently experimental and subject to change.**
+
+Instead of plain text files, Batchframe uses typed python dataclasses for configuration.
+In theory, this makes configuration easier to work with, avoids duplication and improves flexibility.
+
+Since there are still some kinks to work out with the API,
+please refer to the `package_module` directory under `examples` for the latest working implementation of this system.
+
+## Usage
+
+### CLI
+Run `batchframe exec PATH_TO_MODULE --params param1=value1...`
+where `PATH_TO_MODULE` is one of the following:
+- A single python file containing all the necessary classes.
+- A single python file in a directory-style project that imports all the necessary classes (usually your service file does this naturally).
+- A directory containing an `__init__.py` file that imports all the necessary classes.
+
+If you are using a directory-style project, supply the name of the desired configuration file with the `-c` flag.
+This will automatically alias the built-in Batchframe `Configuration` class.
+You should not include configuration files in `__init__.py` or the file you're pointing batchframe to. 
+
+See the `examples` directory for inspiration.
+
+<!-- pyscaffold-notes -->
+
+## Development
+This project uses [pipenv](https://pipenv.pypa.io/en/latest/) to make the management of dependencies in dev environments easier.
+To create a virtual environment with all of the required dependencies, run `pipenv sync -d`.
+When adding new runtime dependencies to `setup.cfg`, run `pipenv install && pipenv lock`.
+When adding new dev dependencies to `setup.cfg`, you have to also add them to pipenv by running `pipenv install --dev DEPENDENCY`
+Activate the virtual environment in your terminal with `pipenv shell`.
+
+### Debugging
+You can find some debugging examples in the `.vscode/launch.json` file.
+As the name suggests, these work out-of-the-box with Visual Studio Code.
+
+### Known Bugs
+- Updating the number of failed items doesn't always work. Looks like a race condition or a bug with the rich library.
+
+## Note
+
+This project has been set up using PyScaffold 4.5. For details and usage
+information on PyScaffold see https://pyscaffold.org/.

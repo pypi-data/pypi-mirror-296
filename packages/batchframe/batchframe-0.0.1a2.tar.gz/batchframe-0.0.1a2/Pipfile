@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+batchframe = {editable = true, path = "."}
+
+[dev-packages]
+setuptools = "*"
+pytest = "*"
+pytest-cov = "*"
+tox = "*"
+setuptools-scm = "*"
+
+[requires]
+python_version = "3.10"

@@ -1,0 +1,9 @@
+
+pytest-job:
+  image: 31z4/tox
+  stage: test
+  rules:
+   - if: $CI_COMMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_COMMMIT_BRANCH == 'development'
+   - if: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
+  script:
+    - tox
