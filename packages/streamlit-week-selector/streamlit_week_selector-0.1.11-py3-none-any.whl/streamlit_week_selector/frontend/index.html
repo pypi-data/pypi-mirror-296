@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>streamlit-week-selector</title>
+    <script src="./streamlit-component-lib.js"></script>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root">
+      <style>
+        label {
+          font-family:  'Source Sans Pro', sans-serif;
+          font-size: 14px;
+          color: rgb(49, 51, 63);
+          font-weight: 400;
+          margin-bottom: 10px;
+        }
+      </style>
+      <label for="selector-week" id="label" >Choose a week in May or June:</label>
+      <div class="input"></div>
+        <input type="week" name="selector-week" id="selector_box" min="2024-W11" max="2026-W1" required />
+      </div>
+    </div>
+  </body>
+</html>
