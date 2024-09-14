@@ -1,0 +1,7 @@
+setup.py
+antibyfron/__init__.py
+antibyfron/antibyfron.py
+antibyfron.egg-info/PKG-INFO
+antibyfron.egg-info/SOURCES.txt
+antibyfron.egg-info/dependency_links.txt
+antibyfron.egg-info/top_level.txt
