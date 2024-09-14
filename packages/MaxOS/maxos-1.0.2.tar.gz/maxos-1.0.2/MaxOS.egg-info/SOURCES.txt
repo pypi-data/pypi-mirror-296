@@ -1,0 +1,7 @@
+setup.py
+MaxOS/__init__.py
+MaxOS/module.py
+MaxOS.egg-info/PKG-INFO
+MaxOS.egg-info/SOURCES.txt
+MaxOS.egg-info/dependency_links.txt
+MaxOS.egg-info/top_level.txt
