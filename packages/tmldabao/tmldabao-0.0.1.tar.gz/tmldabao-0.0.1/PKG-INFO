@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tmldabao
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/tmldabao/tmldabao
+Author: tml
+Author-email: qq@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.0.3
+
+处理dataframe
+agedel 过滤比指定年龄小的数据
+addgroup对年龄进行一个的分组

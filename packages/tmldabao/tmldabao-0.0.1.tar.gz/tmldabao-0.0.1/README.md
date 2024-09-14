@@ -1,0 +1,3 @@
+处理dataframe
+agedel 过滤比指定年龄小的数据
+addgroup对年龄进行一个的分组
