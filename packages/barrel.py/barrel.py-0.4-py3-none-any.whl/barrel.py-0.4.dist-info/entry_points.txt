@@ -1,0 +1,2 @@
+[console_scripts]
+barrel = barrels.main:main
