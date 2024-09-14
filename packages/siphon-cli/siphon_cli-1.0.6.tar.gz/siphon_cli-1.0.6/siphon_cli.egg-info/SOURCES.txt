@@ -1,0 +1,9 @@
+README.md
+setup.py
+siphon.py
+siphon_cli.egg-info/PKG-INFO
+siphon_cli.egg-info/SOURCES.txt
+siphon_cli.egg-info/dependency_links.txt
+siphon_cli.egg-info/entry_points.txt
+siphon_cli.egg-info/requires.txt
+siphon_cli.egg-info/top_level.txt
