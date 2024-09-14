@@ -1,0 +1,9 @@
+acora-2.5.dist-info/METADATA,sha256=8Jhx67nYSY3dgDxPu5SfhxvQ46TaVsHpOJzZ3g8Pj2Q,8616
+acora-2.5.dist-info/top_level.txt,sha256=5uc4luidqN1fYE31XJZ2yVEeI0asbA8OPGvKJyQ9__o,6
+acora-2.5.dist-info/RECORD,,
+acora-2.5.dist-info/WHEEL,sha256=NB2KvBbvsPaQImdTp4FseW0rjHrfyUeA-JFabsAJNkI,188
+acora-2.5.dist-info/LICENSE.txt,sha256=1rX5ELM87-7pjPvV6aHU-_4pyXR5z5rpbDBsaGVG76s,1506
+acora/_acora.cpython-39-aarch64-linux-gnu.so,sha256=zoU41I_0i5_IStUDF722llYF4Pb7jrSuJnw9I1DJXqM,167368
+acora/_acora.py,sha256=W-LUYHPx-SlNdp3B7TVuheOS4vSoa4L8x8-YGW4WNgM,10076
+acora/__init__.py,sha256=15IIXzdS29ccmjsjmXAfcxrYqeZ6BSWQAO61tJCz_6g,10505
+acora/_cacora.cpython-39-aarch64-linux-gnu.so,sha256=4mjBpHSShN_oj7I3MVdhwCcdv4tT-UdmbdVJbJtgUNg,205232
