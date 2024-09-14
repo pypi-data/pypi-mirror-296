@@ -1,0 +1,42 @@
+name: Build Docs
+
+on:
+  push:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  pages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '>=3.11'
+      - name: Build
+        run: |
+          sudo apt-get update
+          sudo apt-get install git -y
+          sudo apt-get install doxygen -y
+          python -m pip install sphinx breathe pydata-sphinx-theme
+          python -m pip install .
+          git fetch --tags
+          source docs/build_all_docs.sh
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './pages'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
