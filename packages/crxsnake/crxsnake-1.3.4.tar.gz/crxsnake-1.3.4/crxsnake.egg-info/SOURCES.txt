@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+crxsnake/__init__.py
+crxsnake/cogs.py
+crxsnake/files.py
+crxsnake/logger.py
+crxsnake/misc.py
+crxsnake/tortoise.py
+crxsnake.egg-info/PKG-INFO
+crxsnake.egg-info/SOURCES.txt
+crxsnake.egg-info/dependency_links.txt
+crxsnake.egg-info/requires.txt
+crxsnake.egg-info/top_level.txt
+crxsnake/issues/__init__.py
+crxsnake/issues/crx.py
+crxsnake/issues/hotline.py
