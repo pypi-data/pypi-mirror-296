@@ -1,0 +1,9 @@
+dabarqus/__init__.py,sha256=sc-L5IIHZzurximNvmPnUsmyhdv8PsH1wBax3ERO8L0,97
+dabarqus/client.py,sha256=bmjc0u3HSaGj1HhPVp_IurLHP_0XapM_VcdwaBu71kU,8300
+dabarqus_sdk/__init__.py,sha256=EUX5FtoAxtUYhRPUAdtmR5yH0reQleYAy56oc_6SCWA,111
+dabarqus_sdk/client.py,sha256=iKbnzedn1OE1Tpb6Ybp4PrMdXKhhw7ciniHcmS1uJKQ,7599
+dabarqus-0.1.2.dist-info/LICENSE,sha256=vr2z7CGkEu3goM9HsVRa83WLPuh25ma2YdDmNBN0cno,1087
+dabarqus-0.1.2.dist-info/METADATA,sha256=lFLMM45D7jJVssTC2rDnZEwBJE18VMiVsW2C0z8rvg8,8096
+dabarqus-0.1.2.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+dabarqus-0.1.2.dist-info/top_level.txt,sha256=iBzgATGzFtozhQC7EMocNkJuKddBqmbIoKLG-EgidOg,9
+dabarqus-0.1.2.dist-info/RECORD,,
