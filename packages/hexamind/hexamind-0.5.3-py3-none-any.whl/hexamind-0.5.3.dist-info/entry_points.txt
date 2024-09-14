@@ -1,0 +1,2 @@
+[console_scripts]
+hexamind-env = hexamind.cli:main
