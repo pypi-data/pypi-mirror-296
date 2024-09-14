@@ -1,0 +1,11 @@
+meu_primeiro_pacote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meu_primeiro_pacote/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meu_primeiro_pacote/processing/combination.py,sha256=y2jcVO6rFRaRx2UutnmMOBjbxTvFG0z6ZsL0dgVrhTA,797
+meu_primeiro_pacote/processing/transformation.py,sha256=sxr01snA7jlzs9r9aaFUsbtyd0Ga-8VGWHGxTckvo38,351
+meu_primeiro_pacote/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meu_primeiro_pacote/utils/io.py,sha256=xIZDQ_rqSswiJi2tuLWuuAJUe1hhwwkjCiyV-YuhnhQ,200
+meu_primeiro_pacote/utils/plot.py,sha256=y2hh6zYQJTb-JzuE-p6KpIriF4BovUI2SlwPCgK3PJI,1006
+meu_primeiro_pacote.1-0.0.2.dist-info/METADATA,sha256=-Kqk9eRqkc0Rc3P1-vYvRxxqQkjjmrsWlvEbxyJVNuI,813
+meu_primeiro_pacote.1-0.0.2.dist-info/WHEEL,sha256=ixB2d4u7mugx_bCBycvM9OzZ5yD7NmPXFRtKlORZS2Y,91
+meu_primeiro_pacote.1-0.0.2.dist-info/top_level.txt,sha256=orY4ZtHIlbN2rQFP-xBQN0NoskAtFgxrduvG6BxplXM,20
+meu_primeiro_pacote.1-0.0.2.dist-info/RECORD,,
