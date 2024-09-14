@@ -1,0 +1,29 @@
+[project]
+name = "data_migration_tool"
+version = "0.1"
+description = "A data migration tool (GCP, BigQuery)"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT License" }
+authors = [
+    { name = "Jean-Baptiste Braun", email = "jbaptiste.braun@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+homepage = "https://github.com/jbbqqf/data_migration_tool"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+dmt = "dmt.core:main"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"

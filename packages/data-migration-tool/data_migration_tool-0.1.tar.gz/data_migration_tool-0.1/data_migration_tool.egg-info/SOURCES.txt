@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+requirements.txt
+data_migration_tool.egg-info/PKG-INFO
+data_migration_tool.egg-info/SOURCES.txt
+data_migration_tool.egg-info/dependency_links.txt
+data_migration_tool.egg-info/entry_points.txt
+data_migration_tool.egg-info/requires.txt
+data_migration_tool.egg-info/top_level.txt
+dmt/core.py
