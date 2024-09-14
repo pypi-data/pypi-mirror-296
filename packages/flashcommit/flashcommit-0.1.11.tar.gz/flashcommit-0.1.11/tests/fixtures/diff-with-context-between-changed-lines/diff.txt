@@ -1,0 +1,14 @@
+diff --git a/flashcommit/gitclient.py b/flashcommit/gitclient.py
+index 8c34593..d4d4d4e 100644
+--- a/flashcommit/gitclient.py
++++ b/flashcommit/gitclient.py
+@@ -92,9 +91,9 @@ class GitClient(object):
+         logger.info(f"Saving debug info to {tempdir}")
+         with open(os.path.join(tempdir, "diff"), "w") as file:
+             file.write(diff)
+-        with open(os.path.join(tempdir, os.path.basename(filename)), "w") as file:
++        with open(os.path.join(tempdir, os.path.basename(file)), "w") as file:
+             file.write(file_content)
+-        with open(os.path.join(tempdir, "diff.fixed"), "w") as file:
++        with open(os.path.join(tempdir, "diff.parsed"), "w") as file:
+             file.write(fixed_diff)

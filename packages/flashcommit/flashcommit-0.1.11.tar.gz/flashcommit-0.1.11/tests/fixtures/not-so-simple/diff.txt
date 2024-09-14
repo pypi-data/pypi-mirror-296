@@ -1,0 +1,18 @@
+diff --git a/files/diff_parser.py b/files/diff_parser.py
+--- a/files/diff_parser.py
++++ b/files/diff_parser.py
+@@ -53,5 +53,5 @@
+
+
+ def count_non_minus_lines(text: str) -> int:
+-    return sum(1 for line in text.split('\n')
++    return sum(1 for line in text.splitlines()
+                if not line.startswith('-') and not line.startswith('@@'))
+
+@@ -104,5 +104,5 @@
+
+
+-    i = 0
++    j = 0
+     for hunk in hunks:
+         hunks[i] = fix_hunk(header, hunk)
