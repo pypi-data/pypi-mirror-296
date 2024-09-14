@@ -1,0 +1,5 @@
+sagemaker[local]==2.182
+pydantic
+pydantic-settings
+typing_extensions
+click

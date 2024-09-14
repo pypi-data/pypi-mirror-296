@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=45"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sagemaker-local"
+version = "0.1.0"
+description = "Some dependencies for running sagemaker local."
+
+dependencies = [
+  "sagemaker[local]==2.182",
+  "pydantic",
+  "pydantic-settings",
+  "typing_extensions",
+  "click"
+]
