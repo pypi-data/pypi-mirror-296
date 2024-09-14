@@ -1,0 +1,15 @@
+aardvark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aardvark/_config.py,sha256=CHeOlrsXM8rTnZhsBuequNKfRudWAteIciu3D5r99DY,282
+aardvark/app.py,sha256=-S4IEKKihYLNp02AkERJ0jVlBacxoybx7WIWzGceqVU,2070
+aardvark/manage.py,sha256=g-8KiEAITPlg_GDFpSW_LGOlGvmtMEcTO7MgukEyQsg,14901
+aardvark/model.py,sha256=L2TBpmX8golbuiiv5su1ObCSnKIitoKq0fLpU0ak7C8,5876
+aardvark/view.py,sha256=XUD--mYwCzTHLpftiS4guRENfk_xo1bwyLWLsB2imX4,6685
+aardvark/updater/__init__.py,sha256=ah3mlZMmcgQVcipNG0smCJ7IvN6CVzbsVP9ahegJc1s,9595
+aardvark/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aardvark/utils/sqla_regex.py,sha256=vtNqkVBKKp3ZrBgy3TshYVgImjD0A6PnZYDfXGOOV9Y,3533
+aardvark-0.3.6.dev6.dist-info/LICENSE,sha256=xazLvYVG6Uw0rtJK_miaYXYn0Y7tWmxIJ35I21fCOFE,11356
+aardvark-0.3.6.dev6.dist-info/METADATA,sha256=7mV0LT_OPPUZsp7NlCedGb7KkeFb1yq3UcyFVjVOHJk,9601
+aardvark-0.3.6.dev6.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+aardvark-0.3.6.dev6.dist-info/entry_points.txt,sha256=C5nX2abkTVUEKn0eDUPjIl0GY6CTg_zlLVnzhyDbfDI,50
+aardvark-0.3.6.dev6.dist-info/top_level.txt,sha256=qrvFybfsjvL6zQ2-5bP3-INrU1RFg8IYlNJcpM-YoYg,9
+aardvark-0.3.6.dev6.dist-info/RECORD,,

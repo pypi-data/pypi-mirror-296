@@ -1,0 +1,2 @@
+[console_scripts]
+aardvark = aardvark.manage:main
