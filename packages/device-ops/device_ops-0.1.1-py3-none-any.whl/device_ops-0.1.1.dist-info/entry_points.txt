@@ -1,0 +1,3 @@
+[console_scripts]
+dops=device_ops.cli:dops
+

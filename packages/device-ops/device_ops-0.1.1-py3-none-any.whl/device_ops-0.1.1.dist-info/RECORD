@@ -1,0 +1,6 @@
+device_ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+device_ops/cli.py,sha256=47mqwskzf4xzKEINOgNAzD3qtCFtb3D_itNc05w7gNw,5820
+device_ops-0.1.1.dist-info/METADATA,sha256=0VYgiFvwQLOpUa25KhQ7SGKTQPOy1UGrPQHYF6Eyz98,1350
+device_ops-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+device_ops-0.1.1.dist-info/entry_points.txt,sha256=OF9pGId02uDb0Y8KFEr0E1L-jF0HWw7aMY4Uz1ULTOk,44
+device_ops-0.1.1.dist-info/RECORD,,
