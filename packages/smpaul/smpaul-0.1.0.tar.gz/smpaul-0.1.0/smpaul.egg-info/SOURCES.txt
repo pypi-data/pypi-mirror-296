@@ -1,0 +1,8 @@
+setup.py
+smpaul/__init__.py
+smpaul/main.py
+smpaul.egg-info/PKG-INFO
+smpaul.egg-info/SOURCES.txt
+smpaul.egg-info/dependency_links.txt
+smpaul.egg-info/requires.txt
+smpaul.egg-info/top_level.txt
