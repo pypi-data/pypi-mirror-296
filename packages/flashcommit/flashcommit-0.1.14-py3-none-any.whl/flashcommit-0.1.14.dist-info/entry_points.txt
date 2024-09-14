@@ -1,0 +1,3 @@
+[console_scripts]
+fcommit = flashcommit.main:main
+
