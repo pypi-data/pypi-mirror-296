@@ -1,0 +1,3 @@
+[console_scripts]
+deskmaid=deskmaid.cli:entrypoint
+
