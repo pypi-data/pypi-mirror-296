@@ -1,0 +1,26 @@
+
+[tool.poetry]
+name = "spio"
+version = "0.0.0"
+description = "Magical Marvin SharePoint Library"
+authors = ["Roeland Maes <roeland.maes@vito.be>", "Thomas Danckaert <thomas.danckaert@vito.be>"]
+packages = [
+    { include = "src/marvin" }
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+msal_extensions = "^0.3"
+Office365-REST-Python-Client = "^2.3"
+
+[tool.poetry.extras]
+pandas = ["pandas"]
+pandas_xlsx = ["pandas", "xlsxwriter"]
+pandas_parquet = ["pandas", "pyarrow"]
+full = ["numpy", "pyproj", "gdal", "cfgrib", "dynaconf", "pandas", "netcdf4", "h5netcdf", "pyarrow", "geopandas", "fiona", "rasterio", "matplotlib", "openpyxl", "xlsxwriter", "pyexcelerate"]
+
+[tool.poetry-git-version-plugin]
+make_alpha_version = true
+
+
