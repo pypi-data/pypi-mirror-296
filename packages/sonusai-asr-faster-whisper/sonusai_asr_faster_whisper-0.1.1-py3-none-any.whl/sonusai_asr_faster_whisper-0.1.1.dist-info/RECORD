@@ -1,0 +1,6 @@
+sonusai_asr_faster_whisper/__init__.py,sha256=N91AWk_y2CCxd-X9B2mlluk0yPk-fFw_i4FkSBPAWlY,132
+sonusai_asr_faster_whisper/asr_functions/__init__.py,sha256=lLmko3WuPRScWL2Xq5zBKQFQh6c9J00YNQ4p3-TVhR0,43
+sonusai_asr_faster_whisper/asr_functions/faster_whisper.py,sha256=brSofX7kZY8p22XK9pBSWpRk1dYbO-C-cwZGKzHub8M,2744
+sonusai_asr_faster_whisper-0.1.1.dist-info/METADATA,sha256=ZDKtKzIe0vFpznoalQhujPv6XaEpurbm7xjiRPwMFP4,817
+sonusai_asr_faster_whisper-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sonusai_asr_faster_whisper-0.1.1.dist-info/RECORD,,
