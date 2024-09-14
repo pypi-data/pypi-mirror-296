@@ -1,0 +1,3 @@
+[console_scripts]
+mircato = mircato:mircato
+mircato_copy_models = mircato:copy_models
