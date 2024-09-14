@@ -1,0 +1,11 @@
+epycs/__init__.py,sha256=siLt8WJ3WhVyxvXOD5kZSnXgfG9sy6sKTxeBq3A8c-E,46
+epycs/config.py,sha256=sR89teYLDLLWuuzYmKVTvI2RR0ptiixFcrLumBGHVyw,2183
+epycs/path.py,sha256=NPef4A0EqpSkrr_aS74nryWdXYKd_5f6pLwkMPSQoes,270
+epycs/subprocess.py,sha256=rLqojv-jPLBWNVRkce0XPlkso521Kp5bNMYKDB5aTVA,12914
+epycs/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epycs/tests/test_subprocess.py,sha256=deZCLw0vR8KaLNH_sA50478ap3zn7RIXwfUVnkF3MVU,5073
+epycs-1.4.0.dist-info/LICENSE,sha256=T9lz2jkHHgxpk3qS1xr705yRixJl1q2RJKu80fSvcoA,1520
+epycs-1.4.0.dist-info/METADATA,sha256=ZidwgPq5KTISe3WYkMqNRep1LMScjxfP9OcEEcfiIUY,1075
+epycs-1.4.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+epycs-1.4.0.dist-info/top_level.txt,sha256=Jm3ybOQbRxhdTHxK_vyUDpAGRm1l0pGg8Z675yb3aZQ,6
+epycs-1.4.0.dist-info/RECORD,,
