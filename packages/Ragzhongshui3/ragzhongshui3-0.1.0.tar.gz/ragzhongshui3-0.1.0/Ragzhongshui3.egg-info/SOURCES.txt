@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Ragzhongshui3.egg-info/PKG-INFO
+Ragzhongshui3.egg-info/SOURCES.txt
+Ragzhongshui3.egg-info/dependency_links.txt
+Ragzhongshui3.egg-info/requires.txt
+Ragzhongshui3.egg-info/top_level.txt
+mypackage/__init__.py
+mypackage/module1.py
+tests/__init__.py
