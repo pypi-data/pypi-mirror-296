@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyprithvi
+Version: 0.0.2
+Summary: PyPrithvi - The Python API for Prithvi
+Home-page: https://deepforestsci.com/
+Author: Deep Forest Sciences
+Maintainer: Deep Forest Sciences
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: pandas
+
