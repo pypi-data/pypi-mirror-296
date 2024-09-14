@@ -1,0 +1,2 @@
+[console_scripts]
+bjled-cli = bj_led.main:main
