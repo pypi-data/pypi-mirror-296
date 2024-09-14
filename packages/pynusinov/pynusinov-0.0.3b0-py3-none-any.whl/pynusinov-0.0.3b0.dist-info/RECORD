@@ -1,0 +1,13 @@
+pynusinov/__init__.py,sha256=F4H5Y424XAOdope4Muo-VP1NkzrMR39uYRXCU2Xt58o,136
+pynusinov/_misc.py,sha256=p7SBaqOz9B7apFo95DcXuP3blCA0qLw3eFz9zzr0T-0,563
+pynusinov/_nusinov_euv.py,sha256=68_jCiQuOaYuvFdLIi_PKUlv7YAoCOOLCDY3hrLrYSQ,4246
+pynusinov/_nusinov_fuv.py,sha256=vvk_7-jLpRyYoEyRIT0QN1RXwd-squTFf9DkqKAZCGs,2254
+pynusinov/_coeffs/euvt_spectral_bands.nc,sha256=zzZuc4yzl63CFLb3j4KRT9tLEJeS965inH1rcuFNXa4,10834
+pynusinov/_coeffs/euvt_spectral_lines.nc,sha256=s8xl857NE2NSqlS3AeN8U_3JLY-zOTuppJnE-LfO-3I,9628
+pynusinov/_coeffs/nusinov_euv.nc,sha256=nEk2GIURDjifOcEHwhpcObrUDBWozRujpiU7Budng_g,11122
+pynusinov/_coeffs/nusinov_fuv.nc,sha256=hGTV7xNZARui0cyIOnJIZZMkwpCu2YlfdHc_eul4Phc,24972
+pynusinov-0.0.3b0.dist-info/LICENSE.txt,sha256=rB8bI6ARSyo04Ip-yjayWH46lSmrK10haiWxmW31ztA,608
+pynusinov-0.0.3b0.dist-info/METADATA,sha256=KZOJ8bR7973S5peNpOY2_UnloanpXvg7rElTc9zXhec,9995
+pynusinov-0.0.3b0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+pynusinov-0.0.3b0.dist-info/top_level.txt,sha256=CaXrGLk3VoOMbL1yKf8Xp4FO6EBuWnqO7EDZ48DhJMw,10
+pynusinov-0.0.3b0.dist-info/RECORD,,
