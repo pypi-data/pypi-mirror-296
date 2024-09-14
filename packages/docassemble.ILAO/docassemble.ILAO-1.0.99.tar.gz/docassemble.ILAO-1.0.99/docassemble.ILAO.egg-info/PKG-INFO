@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: docassemble.ILAO
+Version: 1.0.99
+Summary: A docassemble extension.
+Home-page: https://docassemble.org
+Author: Matt Newsted
+Author-email: mnewsted@illinoislegalaid.org
+License: The MIT License (MIT)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# docassemble.ILAO
+
+A docassemble extension.
+
+## Author
+
+Matt Newsted, mnewsted@illinoislegalaid.org
+Vivian McNaughton, vmcnaughton@illinoislegalaid.org
+
