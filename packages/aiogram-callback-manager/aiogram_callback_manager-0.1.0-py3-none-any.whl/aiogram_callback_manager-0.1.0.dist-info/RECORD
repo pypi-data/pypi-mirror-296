@@ -1,0 +1,8 @@
+aiogram_callback_manager/__init__.py,sha256=DasXJ-lkxKFajw0QiJki81FSwJdJMTs1E4x7vOnxexM,100
+aiogram_callback_manager/async_callback_manager.py,sha256=9CMMOxBIcYvHR4NkrAN2-lDTej2vRyazHc8D8Psxveo,9638
+aiogram_callback_manager/base_db_storage.py,sha256=i2o04xWYGl1eqNOUBl-ROOJrsAzbXcfxi4X4RcFy4Po,2276
+aiogram_callback_manager-0.1.0.dist-info/LICENSE,sha256=rq0ric2R7qYMkxExrCj6sXBI2xoSvY1ajW3L-0BKQrE,1073
+aiogram_callback_manager-0.1.0.dist-info/METADATA,sha256=obmIFHwfjSS5NfgDvC51woTY2-QJysrCCS9UfBUXBMY,698
+aiogram_callback_manager-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aiogram_callback_manager-0.1.0.dist-info/top_level.txt,sha256=Yf_WTyXIVeE08_1YVRtCOPjPFaPTKwGVy2MtqPTRsUM,25
+aiogram_callback_manager-0.1.0.dist-info/RECORD,,
