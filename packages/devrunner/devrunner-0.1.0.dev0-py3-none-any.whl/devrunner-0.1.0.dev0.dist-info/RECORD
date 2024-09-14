@@ -1,0 +1,11 @@
+devrunner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devrunner/cli.py,sha256=0AevkTzcTz6A2rb0cyDwfkz7KU3V04zhDNyH2HdTxzQ,5744
+devrunner/id_gen.py,sha256=7-rkzkL5-BFvqw7xNkC1vfBYBx1-5eiC8YNXhJV3BOA,401
+devrunner/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devrunner/server/server.py,sha256=45X0bbKb10qwKP_lE9kgChwYYf88Kqy5fmiWo7VL6do,2797
+devrunner-0.1.0.dev0.dist-info/LICENSE,sha256=3E4SQASauB25bbN-iqe-gmL_sK20M5xVKECO9z8SHu8,1069
+devrunner-0.1.0.dev0.dist-info/METADATA,sha256=55HgODds6gcM9NTG_rFEpKpQefiKk9xefvrZ1jdppk0,562
+devrunner-0.1.0.dev0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+devrunner-0.1.0.dev0.dist-info/entry_points.txt,sha256=2ewWDxMf1JAfJtqttt68JUSqG26SUl17b0qBuHB9OIw,49
+devrunner-0.1.0.dev0.dist-info/top_level.txt,sha256=ivBfGYXp6LjQCuZnmFTFI6lKfF5P7ik2yCmQ8GcnX1U,10
+devrunner-0.1.0.dev0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+devrunner = devrunner.cli:main
