@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+barrel.py.egg-info/PKG-INFO
+barrel.py.egg-info/SOURCES.txt
+barrel.py.egg-info/dependency_links.txt
+barrel.py.egg-info/entry_points.txt
+barrel.py.egg-info/requires.txt
+barrel.py.egg-info/top_level.txt
