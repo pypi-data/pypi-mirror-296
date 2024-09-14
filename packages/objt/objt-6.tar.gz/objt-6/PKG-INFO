@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: objt
+Version: 6
+Summary: objects broker
+Author-email: Bart Thate <rssbotd@gmail.com>
+License: Public Domain
+Project-URL: home, https://pypi.org/project/objt
+Project-URL: bugs, https://github.com/rssbotd/objt/issues
+Project-URL: source, https://github.com/rssbotd/objt
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Public Domain
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+
+README
+######
+
+NAME
+
+::
+
+    OBJT - objects broker
+
+
+SYNOPSIS
+
+::
+
+    >>> from objt import Broker
+    >>> Broker.register(obj)
+
+
+INSTALL
+
+::
+
+    $ pip install objt
+
+
+DESCRIPTION
+
+::
+
+    OBJT is a package that provides a object broker.
+
+
+COPYRIGHT
+
+::
+
+    OBJT is Public Domain.
