@@ -1,0 +1,50 @@
+Metadata-Version: 2.3
+Name: first-passage-percolation-sim
+Version: 0.1.4
+Summary: Simulations of the first passage percolation on the square lattice
+Project-URL: Documentation, https://github.com/arnaud-ma/first-passage-percolation#readme
+Project-URL: Issues, https://github.com/arnaud-ma/first-passage-percolation/issues
+Project-URL: Source, https://github.com/arnaud-ma/first-passage-percolation
+Author-email: arnaud-ma <arnaudma.code@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: first-passage-percolation,graph-theory,percolation,probability,simulation,square-lattice
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.12
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: numpy>=1.26
+Requires-Dist: rustworkx>=0.14
+Description-Content-Type: text/markdown
+
+# first passage percolation
+
+This package provides simulation tools for first passage percolation on the square lattice. See the [`example.ipynb`](example.ipynb) file for the usage of the package.
+
+## Simple example
+
+```python
+import first_passage_percolation_sim as fpp
+from scipy.stats import geom
+
+(fpp.FirstPassagePercolation(size=201, dist=geom(0.5))
+    .compute_lengths()
+    .plot_heatmap(cmap="inferno")
+)
+```
+
+<p align="center">
+<img src="doc/assets/heatmap_geom_0_5.png" alt="drawing" width="400"/>
+</p>
+
+## Installation
+
+```console
+pip install first-passage-percolation-sim
+```
+
+## TODO's
+
+- [ ] Testings
