@@ -1,0 +1,11 @@
+include README.md
+include setup.py
+recursive-include sparkproxy *.py
+recursive-include examples *.py
+exclude tests/*
+exclude examples/config_prd.py
+exclude examples/spark2c.key
+exclude examples/custom_*.py
+exclude examples/renew_proxy_for_account.py
+exclude examples/www_*.py
+exclude .gitignore
