@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: farsi-wordcloud
+Version: 0.1.0
+Summary: A package to generate Farsi word clouds with proper text rendering.
+Home-page: https://github.com/parvvaresh/word_cloud_fa
+Author: Alireza Parvaresh
+Author-email: parvvaresh@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: arabic-reshaper>=2.1.0
+Requires-Dist: matplotlib>=3.4.0
+Requires-Dist: python-bidi>=0.4.2
+Requires-Dist: wordcloud>=1.8.1
+
+# FarsiWordCloud README
+
+## Overview
+
+The `FarsiWordCloud` class is a specialized extension of the `Fonts` class designed to generate word clouds in Farsi (Persian) text. It handles text reshaping and bidirectional text rendering to ensure that Farsi text is correctly displayed in the word cloud.
+
+## Installation
+
+To use the `FarsiWordCloud` class, you need to have the following libraries installed:
+
+- `matplotlib`
+- `wordcloud`
+- `arabic_reshaper`
+- `bidi`
+
+You can install these libraries using pip:
+
+```bash
+pip install matplotlib wordcloud arabic-reshaper python-bidi
+```
+
+## Usage
+
+Here is an example of how to use the `FarsiWordCloud` class:
+
+```python
+from FarsiWordCloud import FarsiWordCloud
+
+# Sample text in Farsi
+text = "سلام  این یک تست برای ایجاد واژه‌ابری است."
+
+# Create an instance of FarsiWordCloud
+wordcloud = FarsiWordCloud(
+    text=text,
+    font_name="BYekan",  # Specify the font name from the available fonts
+    width=800,
+    height=400,
+    background_color='white',
+    max_font_size=250,
+    min_font_size=10
+)
+
+# Generate the word cloud
+wordcloud.generate_wordcloud()
+
+# Display the word cloud
+wordcloud.show_wordcloud()
+
+# Save the word cloud to a file
+wordcloud.save_wordcloud(filename='farsi_wordcloud.png')
+```
+
+## Methods
+
+
+
+- **text**: The Farsi text to be used for generating the word cloud.
+- **font_name**: The name of the font to be used. This should be one of the fonts listed in the `info.json` file.
+- **width**: The width of the word cloud image (in pixels).
+- **height**: The height of the word cloud image (in pixels).
+- **background_color**: The background color of the word cloud.
+- **max_font_size**: The maximum font size for the words in the word cloud.
+- **min_font_size**: The minimum font size for the words in the word cloud.
+
+### `reshape_text(self)`
+
+Reshapes and reorders the Farsi text to ensure correct display. This method uses the `arabic_reshaper` library to reshape the text and the `bidi` library to handle bidirectional text.
+
+### `generate_wordcloud(self)`
+
+Generates the word cloud from the reshaped text. This method creates a `WordCloud` object with the specified parameters and generates the word cloud image.
+
+### `show_wordcloud(self)`
+
+Displays the generated word cloud using `matplotlib`. If the word cloud has not been generated yet, this method will call `generate_wordcloud()` first.
+
+### `save_wordcloud(self, filename='wordcloud.png')`
+
+Saves the generated word cloud to a file. The default filename is `wordcloud.png`, but you can specify a different filename if desired.
+
+## Fonts
+
+The `FarsiWordCloud` class relies on a set of fonts specified in the `fonts/info.json` file. Ensure that the font files listed in this file are available in the `fonts/files/` directory.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
