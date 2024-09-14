@@ -1,0 +1,7 @@
+src/marvin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/marvin/tools/default_config.ini,sha256=9uNt8Vz7Si2-Gf3mLRBGigT09eAtezbySikb-3OJgbE,320
+src/marvin/tools/spio.py,sha256=r8yiidpaSpfbxVub76V_V666qzpRzG_YRC5xQNUAqHs,49159
+spio-0.0.7.dist-info/LICENSE.md,sha256=GEfg4GmBQu1DR8FEGp-oHI-93USx2LvNXjZH-ZF1nX8,1035
+spio-0.0.7.dist-info/METADATA,sha256=4tyFehpzOKZjL7Xww9uN6TGMb2JHez_eouqmR9xO8U8,8087
+spio-0.0.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+spio-0.0.7.dist-info/RECORD,,
