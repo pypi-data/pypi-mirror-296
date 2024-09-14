@@ -1,0 +1,8 @@
+README.md
+setup.py
+textgame/__init__.py
+textgame/lib.py
+textgame_gma.egg-info/PKG-INFO
+textgame_gma.egg-info/SOURCES.txt
+textgame_gma.egg-info/dependency_links.txt
+textgame_gma.egg-info/top_level.txt
