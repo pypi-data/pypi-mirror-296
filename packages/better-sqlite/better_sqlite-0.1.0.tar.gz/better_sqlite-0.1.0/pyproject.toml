@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "better-sqlite"
+version = "0.1.0"
+description = "A simple and intuitive SQLite wrapper library that provides an easy-to-use interface for interacting with SQLite databases, enabling basic CRUD operations without writing raw SQL."
+authors = ["ayrun <ayrun3412@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+jedi = "^0.19.1"
+pylint = "^3.2.7"
+ruff = "^0.6.4"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
