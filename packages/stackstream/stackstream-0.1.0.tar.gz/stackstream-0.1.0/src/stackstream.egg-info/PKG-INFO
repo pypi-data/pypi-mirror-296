@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: stackstream
+Version: 0.1.0
+Summary: Enhanced Git workflow tools
+Home-page: https://github.com/findjashua/stackstream
+Author: Jashua Gupta
+Author-email: findjashua@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# StackStream: Streamline your Stacked git workflow
+
+StackStream simplifies your Git workflow for stacked branches, inspired by Facebook's Phabricator. With just four intuitive commands, effortlessly create, manage, and update interdependent branches.
+
+## Quick Start
+
+Install StackStream:
+
+```bash
+pip install stackstream
+```
+
+## Four Powerful Commands
+
+StackStream uses `ss` as its base command, embodying the smooth stream of your stacked branches:
+
+1. **Create a branch**
+   ```
+   ss create <branch_name> [parent_branch]
+   ```
+   Creates a new branch with an empty commit, perfectly set up for stacking.
+
+2. **Hoist a branch onto the trunk**
+   ```
+   ss hoist
+   ```
+   Seamlessly rebase onto the trunk, side-stepping conflicts caused by squash-and-merge.
+
+3. **Propagate changes**
+   ```
+   ss propagate [--push]
+   ```
+   Propagates changes through your entire branch stack, maintaining consistency.
+
+4. **Create a pull request**
+   ```
+   ss pr [title]
+   ```
+   Creates a pull request using the parent branch as base and links to the parent PR.
+
+## Git Command Passthrough
+
+StackStream supports Git command passthrough. Any Git command not recognized as a StackStream command will be passed directly to Git. For example:
+
+```bash
+ss add --all
+ss commit -m "Your commit message"
+ss push origin your-branch
+```
+
+This allows you to use StackStream seamlessly alongside your regular Git workflow.
+
+## Why StackStream?
+
+- **Stacked Workflow**: Optimized for managing interdependent feature branches.
+- **Effortless Updates**: Easily keep your entire branch stack up-to-date with the trunk.
+- **Consistent History**: Maintain a clean, linear history across your stacked branches.
+- **Simplified Collaboration**: Streamline code reviews with well-organized, incremental changes.
+- **Conflict Avoidance**: Smartly side-steps conflicts arising from squash-and-merge operations.
+- **Intelligent PRs**: Automatically sets correct PR base and maintains PR relationships.
+- **Idempotent Operations**: All commands are idempotent, allowing for easy recovery from errors.
+
+## Perfect For
+
+- Feature decomposition and incremental development
+- Managing long-running feature branches
+- Collaborative development on complex features
+- Maintaining a clean, reviewable commit history
+- Teams using squash-and-merge for pull requests
+
+## Key Concepts
+
+### Side-stepping Squash-and-Merge Conflicts
+
+When using a squash-and-merge strategy for pull requests, conflicts typically arise in stacked branches. StackStream's `hoist` command cleverly side-steps these conflicts, allowing your stacked branches to update smoothly without manual conflict resolution.
+
+### Intelligent Pull Requests
+
+StackStream's `pr` command automatically sets the parent branch as the base for your pull request. It also adds a link to the parent PR in the description, maintaining the relationship between stacked branches in your PR chain.
+
+### Idempotent Operations
+
+All StackStream operations are designed to be idempotent. This means that in case of an error due to any issue (merge conflict, internet issue, etc.), you can simply resolve the issue and rerun the command. StackStream will pick up where it left off, ensuring a smooth workflow even in the face of unexpected problems.
+
+## Requirements
+
+- Python 3.6+
+- Git 2.38+
+- GitHub CLI (for pull requests)
+
+## License
+
+StackStream is open source software licensed under the MIT License. See the LICENSE file for more details.
+
+This project is not affiliated with or endorsed by GitHub or any Git project. Git is a trademark of Software Freedom Conservancy.
