@@ -1,0 +1,12 @@
+ptufile-2024.9.14.dist-info/RECORD,,
+ptufile-2024.9.14.dist-info/LICENSE,sha256=ptTmXa0WvMAPfRe-sPSgxj-V0koa5J7sUbMs33b0LMI,1529
+ptufile-2024.9.14.dist-info/WHEEL,sha256=TJ6fmgMRIEyFVG0JeAHI9t5mmwcChgBZb-5jD5kEMbw,111
+ptufile-2024.9.14.dist-info/entry_points.txt,sha256=4wS6wopOiQgiUCV04LzBA8Q0mQcqD3hQWtUyj0IqQIU,50
+ptufile-2024.9.14.dist-info/top_level.txt,sha256=ZdLRc_-lNRPZNv0TCQbCOCaX1UWnsSyLOdj8IISpc-c,8
+ptufile-2024.9.14.dist-info/METADATA,sha256=GqeSIvjVOkEsTR76thZEgMUYlI0PiJfyfcnj0me-Y2c,7736
+ptufile/numcodecs.py,sha256=MH0QoIdqfIqPObRbFiT0IL5uK9a25_QmtY8p_MvIg9U,3652
+ptufile/__init__.py,sha256=gQgAXYrpNlQA9vknpgPHiBPnMevrde689jWOw0cjgIU,370
+ptufile/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptufile/ptufile.py,sha256=qpLKXEU0sr7TveFGvfyQ0TGx7Y9driG4UIlV6_RM2Go,77088
+ptufile/__main__.py,sha256=c0lSGYSqNCl0XapgNapburnpFVsY3qSDO_kI6LaWR40,123
+ptufile/_ptufile.cpython-312-darwin.so,sha256=p-ixqKLSzc-ZWzPQj4WH3RsHmJfIDJ24eS1Ceoug0Jw,596576
