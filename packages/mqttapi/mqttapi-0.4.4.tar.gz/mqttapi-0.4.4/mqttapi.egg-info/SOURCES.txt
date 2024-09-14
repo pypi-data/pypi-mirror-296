@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mqttapi/MysqlBD.py
+mqttapi/__init__.py
+mqttapi/__version__.py
+mqttapi/json_manipulator.py
+mqttapi/mqtt_communicator.py
+mqttapi.egg-info/PKG-INFO
+mqttapi.egg-info/SOURCES.txt
+mqttapi.egg-info/dependency_links.txt
+mqttapi.egg-info/requires.txt
+mqttapi.egg-info/top_level.txt
