@@ -1,0 +1,7 @@
+flask_viewsets/__init__.py,sha256=Bk7xXV8p3AV-FqoW4DIDLRy_W0X9_jmh6K7gx-WZBo0,41
+flask_viewsets/typing.py,sha256=26WK6XBlxdHu1uWkllYrkBjdkfjeoqI4VRFCtGeOGaM,69
+flask_viewsets/viewsets.py,sha256=OmhioU6VPLngITpuZk3UcWDjkqiPakth5znJMI7N3dQ,1539
+flask_viewsets-0.1.0.dist-info/LICENSE.md,sha256=l6zlXjJjPyND1hhdj4P01XRBHfioba5Kyr1ccoYhuiA,34120
+flask_viewsets-0.1.0.dist-info/METADATA,sha256=TVxMMGCRBzxlykwb_BL2Gw8gPvHYPFnLEE1kChTKUys,2252
+flask_viewsets-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+flask_viewsets-0.1.0.dist-info/RECORD,,
