@@ -1,0 +1,11 @@
+cryptography
+ipaddress
+
+[dev]
+pytest
+flask
+build
+requests
+pre-commit
+ruff
+bump-my-version
