@@ -1,0 +1,2 @@
+[console_scripts]
+copier_ProjectScaffolding_Sample_PythonPackage = copier_ProjectScaffolding_Sample_PythonPackage:EntryPoint.app
