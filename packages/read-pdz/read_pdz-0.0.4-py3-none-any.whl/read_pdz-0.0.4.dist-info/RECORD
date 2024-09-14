@@ -1,0 +1,11 @@
+read_pdz/__init__.py,sha256=x0bpptfP2e3QRRmWiPwt6scPXkuondyHT_1Svwnnjtg,98
+read_pdz/_modidx.py,sha256=hxB4GPmNoXAWLClPURwkOXKp-J9emSjGae7tkZLQfiY,2090
+read_pdz/jpg_extractor.py,sha256=MjUWKeQvA5UGvdyYGc3xzneoZN3RwfsfOUnkUQhSnWE,1963
+read_pdz/legacy.py,sha256=J83uGKFZKBRY-Uo2S6e-7QbfM5C_gyyvbCHyc-Ko1sY,1999
+read_pdz/reader.py,sha256=wwwtlPMNvj_dbqyciKjmrRkXT_njaEgTgWCEIPxetIY,10188
+read_pdz-0.0.4.dist-info/LICENSE,sha256=-8jCMooJTBLZjkpvCiblyx20C01zGowxBGOC-FPx57w,1062
+read_pdz-0.0.4.dist-info/METADATA,sha256=KsF8iybwNhB-be2ExXXoUZboCBoipNLcXk9xdLqKbZY,2400
+read_pdz-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+read_pdz-0.0.4.dist-info/entry_points.txt,sha256=LZfvhpeGmlyCr7DGq8bThgXwx2DQmxxLhlZWxYp1TvE,38
+read_pdz-0.0.4.dist-info/top_level.txt,sha256=N_NzVZjeloHrj5ebdWdxVmhlY0AK2xrVhlFMeApGpQM,9
+read_pdz-0.0.4.dist-info/RECORD,,
