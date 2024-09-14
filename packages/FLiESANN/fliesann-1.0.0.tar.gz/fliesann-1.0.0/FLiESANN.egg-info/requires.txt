@@ -1,0 +1,9 @@
+geos5fp
+keras==2.15
+koppengeiger
+numpy<2
+pandas
+rasters
+solar-apparent-time
+sun-angles
+tensorflow==2.15
