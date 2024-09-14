@@ -1,0 +1,14 @@
+flashcommit-0.1.12.dist-info/METADATA,sha256=iuZWuJWeiXcBlU_koSace04G7GP1jBfe6uWU1k2IMb8,972
+flashcommit-0.1.12.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+flashcommit-0.1.12.dist-info/entry_points.txt,sha256=rbU72Hl-avKcd2Zv6ZpX8Fcta-h_TOCpioNCuh_2_As,51
+flashcommit/__init__.py,sha256=bsaJUqddG_lca1qWOYBnR5bfbyBCFtTUSqbZd7kfatw,2216
+flashcommit/diff_parser.py,sha256=ewepP5gNCh7_psrm4wNSlLfegLh-5YJEy8To105JMog,3288
+flashcommit/gitclient.py,sha256=RagAPut_F8F0ROdH9oScP0uNs_6oN-OTVoz5oqcIVBY,3444
+flashcommit/gitdiff/__init__.py,sha256=0IVE6_iGJS56AcSXA2IL8Z55QgHP1oSW1Hkc7ifQsz0,9513
+flashcommit/logging.yaml,sha256=_5mHqagk5oDjo8y3oj1G-6iiMv8o37nCVBzOJgCtAyU,504
+flashcommit/main.py,sha256=-yb70sAtM8GMVMFpjptXFH7dszxfIqtZWbXDf-nyNiE,11510
+flashcommit/prompt_generator.py,sha256=0jXrXRPuA3P8C7-A4miADenANRMtG2ttwhL-JqXXVjo,4126
+flashcommit/version.py,sha256=ShUD7bGTiGulVyIY2-RqKQ08k9_gK4-pCTMeqAHbdjs,19
+flashcommit/wsclient.py,sha256=S1mhlMFxye5j0W-Yo-Qif_QUOlBkbT3Oeu3nIi2jHC0,2700
+venv/lib/python3.12/site-packages/markdown_it/port.yaml,sha256=F6WvtDFxjuZ5o0NtmJO0P8SkG6OfONCj_ggKgx4iYWU,2446
+flashcommit-0.1.12.dist-info/RECORD,,
