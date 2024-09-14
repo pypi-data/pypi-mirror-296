@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+README.md
+poetry.lock
+pyproject.toml
+.github/workflows/pypi-project.yml
+src/stacked_quantile/__init__.py
+src/stacked_quantile/main.py
+src/stacked_quantile/py.typed
+src/stacked_quantile/typed_np_functions.py
+src/stacked_quantile.egg-info/PKG-INFO
+src/stacked_quantile.egg-info/SOURCES.txt
+src/stacked_quantile.egg-info/dependency_links.txt
+src/stacked_quantile.egg-info/requires.txt
+src/stacked_quantile.egg-info/top_level.txt
+tests/__init__.py
+tests/test_stacked_quantile.py
