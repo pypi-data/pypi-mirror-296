@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+src/api42lib/IntraAPIClient.py
+src/api42lib/Token.py
+src/api42lib/__init__.py
+src/api42lib/utils.py
+src/api42lib.egg-info/PKG-INFO
+src/api42lib.egg-info/SOURCES.txt
+src/api42lib.egg-info/dependency_links.txt
+src/api42lib.egg-info/requires.txt
+src/api42lib.egg-info/top_level.txt
+tests/test_base.py
+tests/test_v2.py
+tests/test_v3.py

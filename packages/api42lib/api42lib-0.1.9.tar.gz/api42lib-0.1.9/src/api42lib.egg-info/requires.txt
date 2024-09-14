@@ -1,0 +1,6 @@
+PyYAML<7.0,>=6.0
+requests<3.0,>=2.25
+Pygments<3.0,>=2.9
+tqdm<5.0,>=4.56
+urllib3<2.0,>=1.26
+colorlog<7.0,>=6.8.2
