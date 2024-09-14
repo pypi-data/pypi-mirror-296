@@ -1,0 +1,9 @@
+uwastro465isos/__init__.py,sha256=PQB0l7DV1eaAapY7M2hLj9biIM9UdAXC_zMZdxNTpyA,71
+uwastro465isos/isochrones.py,sha256=Q6zRMWTRfxtCtBtm-e5gAgym-FpRHjvmmR7QRfkqBo0,1509
+uwastro465isos/data/__init__.py,sha256=HSMci48sMRL5o0iDAA-y1vER17IubAQHbAhr0OvdTC8,167
+uwastro465isos/data/isochrones_ubvrijhk.dat,sha256=kq7mE_bhMCt4iwa6dpu9C3ah8lPEo7C_20hRun55-Cc,36250258
+uwastro465isos/data/isochrones_ugriz.dat,sha256=o06C2uapZg0DEpa_sfa1Md2vZPUseekxvTju1VT2LJc,33780300
+uwastro465isos-0.1.0.dist-info/METADATA,sha256=I2b5tu_77bfHunh73CyWYqN9GixwypZgZfXgOV88Hmc,1218
+uwastro465isos-0.1.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+uwastro465isos-0.1.0.dist-info/top_level.txt,sha256=BgBFLxulAVpLK3tGfMLvHx8r-g2RXyGhqCDZboXE0DU,15
+uwastro465isos-0.1.0.dist-info/RECORD,,

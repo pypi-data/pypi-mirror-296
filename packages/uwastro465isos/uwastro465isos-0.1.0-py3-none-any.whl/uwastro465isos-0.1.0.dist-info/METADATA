@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: uwastro465isos
+Version: 0.1.0
+Summary: small isochrone class for Astro465 course at U. Wisconsin-Madison
+Author-email: Ralf Kotulla <ralf.kotulla@gmail.com>
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/rkotulla/uwastro465isos
+Project-URL: Bug Tracker, https://github.com/rkotulla/uwastro465isos/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: astropy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+# Isochrone fitting
+
+more coming soon
+
+# Installation and dependencies
+
+This package requires the following standalone python packages to run, most of which are likely already installed
+on any common astronomy system:
+
+* astropy
+* matplotlib
+* numpy
+* scipy
+* pandas 
+
+## installation via pip (recommended)
+
+The recommended way of installing this package is available via pip. To install, simply run
+
+```
+pip install uwastro465isos
+```
+
+new pip releases are handled automatically via GitHub, so this provides access to the latest stable version.
