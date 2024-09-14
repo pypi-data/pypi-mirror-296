@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyStixel_lib.egg-info/PKG-INFO
+pyStixel_lib.egg-info/SOURCES.txt
+pyStixel_lib.egg-info/dependency_links.txt
+pyStixel_lib.egg-info/top_level.txt
+stixel/__init__.py
+stixel/stixel_world_pb2.py
+stixel/stixel_world_pb2.pyi
+stixel/protos/__init__.py
+stixel/protos/stixel_world.proto
+stixel/utils/__init__.py
+stixel/utils/packing.py
+stixel/utils/transformation.py
+stixel/utils/visualization.py
