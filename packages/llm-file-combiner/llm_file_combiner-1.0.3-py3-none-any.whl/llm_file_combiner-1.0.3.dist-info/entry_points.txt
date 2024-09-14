@@ -1,0 +1,4 @@
+[console_scripts]
+file-combiner = file_combiner.cli:file_combiner_main
+file-list = file_combiner.cli:file_list_main
+folder-tree = file_combiner.cli:folder_tree_main
