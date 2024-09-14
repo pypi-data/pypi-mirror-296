@@ -1,0 +1,13 @@
+websockethost/__init__.py,sha256=z9VcLLNjfMuPFqoGSPLJo6efmh6T_kYCGb1dMhYs-aw,262
+websockethost/basicCGIserver.py,sha256=EDLsvuI4PhC6A2lrS-3r4zNg0YC_Al_QKa2Befnxs7I,407
+websockethost/basicserverhttp.py,sha256=g8j-nqnanvuKo7gB-1Ga3m2BlDhxPzgMRqAqS3FhKZg,437
+websockethost/socketServerClient/SqlSys.py,sha256=rFj3rniWAiHqwzMXkrux7OzSj-t76MvbRsBz-nTmDg4,1058
+websockethost/socketServerClient/__init__.py,sha256=oumEahYpdsKAwFOZJ4tDyhnSV-rx-l9kO1CMn-8pVa8,144
+websockethost/socketServerClient/client.py,sha256=uljOUiDQ0KO8iEAoNuqshGAzrU21PDZZX5tfChsXXfY,994
+websockethost/socketServerClient/server.py,sha256=kW2RUv7NKhhgjXBMARKre0HGwa4_DQR9VjpCgWOrVsY,612
+websockethost/socketServerClient/ThreadScripts/ThreadForClient.py,sha256=wiZmG7hwGmF_oEOlU8FCqHz4qNmSmmkooNgpj0Q2_t8,1061
+websockethost/socketServerClient/ThreadScripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+websockethost-0.1.10.dist-info/METADATA,sha256=AwSx0_13h1AdOQ1raUr6OtvVIW3YRVh_RY7LjQBycO8,619
+websockethost-0.1.10.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+websockethost-0.1.10.dist-info/top_level.txt,sha256=9cdXxMH_MgPVoKaMBnKwbGxxHYpuPdnlu5Hue6PmP9Q,14
+websockethost-0.1.10.dist-info/RECORD,,
