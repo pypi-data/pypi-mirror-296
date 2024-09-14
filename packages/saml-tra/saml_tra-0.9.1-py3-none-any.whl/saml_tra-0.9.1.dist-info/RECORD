@@ -1,0 +1,16 @@
+saml/__init__.py,sha256=LHofx-hPM15nq6UDmiFK0ipn_skeE45SHu_deFnxdK4,526
+saml/_version.py,sha256=_sgv835hxJiDyA9xcxg16WSoiAex2RCd5Ox3Rq7YXco,104
+saml/client.py,sha256=IxR7wKmhcLBH2YCeo1Cchiq8lm9GMGUXcAllAEIa_Jo,2501
+saml/signature.py,sha256=F8sVGOIVsjgKMJbs8JTz6fGsOeKbPfaoVmmceWMKrFg,5586
+saml/schema/__init__.py,sha256=3b0IDwrb9vkJHrTXYwtZEyuNgVE-rCxcKSI919mohrQ,741
+saml/schema/base.py,sha256=6PFMkCCCnCcpBy6YJl7141csX2x3MsU6QUWn7pvB7NE,13962
+saml/schema/meta.py,sha256=HruRQsUShmF9yRr2tRNlmNMYBrA-44UhkDAYCP4G7fY,40
+saml/schema/saml.py,sha256=5sM3BCW58tXyLChLEV5jWWVQueUSi-Xy2OnczRhgjN0,14282
+saml/schema/samlp.py,sha256=OAPWpMMgarDdtIDCyUVD7GDtHTXsxM6MX4KfZj2OOE4,19623
+saml/schema/types.py,sha256=d-PRQZboxLfdMxHzYsxkzekUvfc8hOjw0Cg3qfF6NhM,1220
+saml/schema/utils.py,sha256=gjZ8DtqUMma8OfBNsNiTqI7EkYtkj_K-l5PeFrBduZI,527
+saml_tra-0.9.1.dist-info/LICENSE,sha256=_eNcEIGvBjL7VmVveYuF0QJNrUqHKhwMRC7087p5Sgc,1078
+saml_tra-0.9.1.dist-info/METADATA,sha256=gY4AkeZiKABGzbgp47NYV9U75L5_pw2p0uoZ_jjd3DA,1032
+saml_tra-0.9.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+saml_tra-0.9.1.dist-info/top_level.txt,sha256=GZqcspToUOsqlSqIro-TaSuF8kRuTA7WhoV3Yafo4VQ,5
+saml_tra-0.9.1.dist-info/RECORD,,
