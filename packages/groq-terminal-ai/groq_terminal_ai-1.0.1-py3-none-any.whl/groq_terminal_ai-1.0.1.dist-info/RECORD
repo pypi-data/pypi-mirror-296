@@ -1,0 +1,11 @@
+groq_terminal_ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+groq_terminal_ai/cli.py,sha256=w6JO_6pwwVNRGYpN31aHookt_3q5vKbhIgoVI8KrqpI,1545
+groq_terminal_ai/command_generator.py,sha256=o9p7JGGht8RMFgV0tMKDYTa0mdLPKX0MkrAFHaEjPB0,2548
+groq_terminal_ai/config.py,sha256=oJjMXbKKVsCSulRcsEdjswMWfB_tRpP2HpJn3gLWtoM,2391
+groq_terminal_ai/models.py,sha256=rp6XN9vo5_Fp77b2ZL_jZopIybcaGjy3lpcLkUID3tc,401
+groq_terminal_ai/utils.py,sha256=r0DTp4_nYfypLVfYaqa1xz3-XgAAzvCugJgzdS4imwM,1090
+groq_terminal_ai-1.0.1.dist-info/METADATA,sha256=-n_J4kabDxsMr50qtzKzmzG71H0_rSB5Gv6R4i6WBlA,1897
+groq_terminal_ai-1.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+groq_terminal_ai-1.0.1.dist-info/entry_points.txt,sha256=ZG3wmBuf_6YdIRPy209w9eGUIxZlWpCUMGBA_KWoUx8,49
+groq_terminal_ai-1.0.1.dist-info/top_level.txt,sha256=llWJFQsMEBaxSTsv0ALqpLWPkn6H5_8jIJUSzlzoFcA,17
+groq_terminal_ai-1.0.1.dist-info/RECORD,,
