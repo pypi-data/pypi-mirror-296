@@ -1,0 +1,2 @@
+[console_scripts]
+imgmaker = imgmaker.cli:imgmaker_cli

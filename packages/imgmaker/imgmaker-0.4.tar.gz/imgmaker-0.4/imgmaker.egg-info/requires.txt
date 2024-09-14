@@ -1,0 +1,9 @@
+selenium
+jinja2
+Pillow
+requests
+fire>=0.3.0
+markdown
+psutil
+pyyaml
+pngquant
