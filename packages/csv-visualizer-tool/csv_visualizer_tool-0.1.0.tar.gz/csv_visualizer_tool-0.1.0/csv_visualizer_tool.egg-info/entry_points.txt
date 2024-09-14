@@ -1,0 +1,2 @@
+[console_scripts]
+csv_viz = csv_viz.main_window:run_app
