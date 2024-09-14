@@ -1,0 +1,1 @@
+from .game import best_move
