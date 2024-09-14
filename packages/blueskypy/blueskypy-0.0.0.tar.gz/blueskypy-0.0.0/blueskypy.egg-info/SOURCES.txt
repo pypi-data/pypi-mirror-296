@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+blueskypy.egg-info/PKG-INFO
+blueskypy.egg-info/SOURCES.txt
+blueskypy.egg-info/dependency_links.txt
+blueskypy.egg-info/top_level.txt
