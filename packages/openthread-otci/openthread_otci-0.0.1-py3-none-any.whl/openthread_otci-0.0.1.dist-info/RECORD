@@ -1,0 +1,13 @@
+otci/__init__.py,sha256=IwFiNg9B3N42mj8Uuxx2Yt2qTJ95XckB5iXkphPakKk,2388
+otci/command_handlers.py,sha256=r2eHJn839sxG2ss6KPNk2LVPaMTOmc-fMJjBElk6E-Y,12973
+otci/connectors.py,sha256=IlN-RG4pIvC3ZurzSMY5MN7l5JasdOFwVmG9PlesEpU,6220
+otci/constants.py,sha256=mnCPvm-P3KZRlI0WCB3wcO-MBnsD3JeVV5M6RbjlTOQ,1669
+otci/errors.py,sha256=1dVmgJxE38rYJxWOK15I30ka0tRku6ZDHOr8G84WxZQ,2598
+otci/otci.py,sha256=GqQYy_-tOwxivYd9G87qRLWDnOgMJ-YHB9-t7hqlCiQ,115086
+otci/types.py,sha256=qCl_-9u6Z5_nq4k8EqC8OwMnldE8FxCDIsrzqQ4YnFc,4243
+otci/utils.py,sha256=o6e3Ul_tjoomwiiJB06L9-lOPN0fHuEmceSxBauIgTI,2661
+openthread_otci-0.0.1.dist-info/LICENSE,sha256=0puPXBxmZpjf53F8U-EPgpgeCImgb4o-vAk9nczDWqQ,1506
+openthread_otci-0.0.1.dist-info/METADATA,sha256=iCHazuBz5r_5cjfm3UmwvJpufqpe4q6ub9AQdhbvQ6w,2046
+openthread_otci-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+openthread_otci-0.0.1.dist-info/top_level.txt,sha256=zvhIi6JHJ8j-6z0JsszEHpXudSUlJIeCOmTIkTPvX60,5
+openthread_otci-0.0.1.dist-info/RECORD,,
