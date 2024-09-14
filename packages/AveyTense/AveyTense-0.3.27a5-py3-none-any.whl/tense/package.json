@@ -1,0 +1,11 @@
+{
+    "tense": {
+        "directories": [
+            "C://Program Files (x86)/Aveyzan/tense"
+        ],
+        "version": "0.3.27a5",
+        "full_version": [
+            0, 3, 27, "alpha", 5
+        ]
+    }
+}
