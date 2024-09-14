@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+clean_h1b/__init__.py
+clean_h1b/data_clean.py
+h1b_processor.egg-info/PKG-INFO
+h1b_processor.egg-info/SOURCES.txt
+h1b_processor.egg-info/dependency_links.txt
+h1b_processor.egg-info/requires.txt
+h1b_processor.egg-info/top_level.txt
