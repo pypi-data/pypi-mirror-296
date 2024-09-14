@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="agresta_project" model="ir.ui.view">
+        <field name="name">Agresta Project Task updates</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project" />
+        <field name="arch" type="xml">
+            <data>
+                <field  name="privacy_visibility" position="after">
+                    <field name="execution_weight" widget="radio"/>
+                </field>
+            </data>
+        </field>
+    </record>
+</odoo>
