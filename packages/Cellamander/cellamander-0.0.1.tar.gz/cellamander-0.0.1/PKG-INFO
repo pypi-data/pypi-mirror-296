@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: Cellamander
+Version: 0.0.1
+Summary: A package for combining Cellpose gradients for cell phenotyping
+Project-URL: Homepage, https://github.com/luciandipeso/cellamander
+Author-email: Lucian DiPeso <ldipeso@gmail.com>
+License-File: AUTHORS
+License-File: LICENSE
+Keywords: U-Net,cellpose,phenotyping,segmentation
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: cellpose
+Requires-Dist: jupyter
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python
+Requires-Dist: pandas
+Requires-Dist: roifile
+Requires-Dist: scikit-image
+Requires-Dist: tifffile
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+# Cellamander
+<img src="logo.png" alt="Image of Salamander with Cellpose color gradient" width="200" style="float: left">
+Cracking and packing cellpose gradients to segment and phenotype complex tissues
