@@ -1,0 +1,30 @@
+name: Main Workflow
+
+on:
+  push:
+    #branches:
+     #- main
+    tags:
+      - v*.*.*
+      - v*.*.*-rc*
+jobs:
+  ci:
+    name: CI
+    uses: guywilsonjr/actions/.github/workflows/ci.yml@v0.0.0
+    permissions:
+      contents: read
+      id-token: write
+    with:
+      ref_name: ${{ github.ref_name }}
+      python-versions: '["3.10","3.11","3.12"]'
+      static-analysis-deps: '-r requirements-sa.txt'
+  release:
+    name: Release
+    needs: [ci]
+    runs-on: [ubuntu-latest]
+    permissions:
+      id-token: write
+    steps:
+      - uses: guywilsonjr/actions/actions/publish@v0.0.0
+
+
