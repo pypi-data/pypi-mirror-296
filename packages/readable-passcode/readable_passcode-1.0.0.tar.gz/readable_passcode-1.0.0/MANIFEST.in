@@ -1,0 +1,23 @@
+# Include all *.in files (this will include MANIFEST.in)
+include *.in
+
+# Include the README file and license
+include README.md
+include LICENSE
+
+# Include .editorconfig if needed
+include .editorconfig
+
+# Include everything inside the "src" folder
+graft src
+
+# Exclude unnecessary files from the source distribution
+prune tests
+exclude tox.ini
+
+# Exclude unnecessary files like __pycache__ and *.pyc files
+global-exclude __pycache__
+global-exclude *.py[cod]
+
+include *.yml
+include .coveragerc

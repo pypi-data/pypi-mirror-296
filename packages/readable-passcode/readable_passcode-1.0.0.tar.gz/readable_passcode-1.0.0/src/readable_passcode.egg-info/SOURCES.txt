@@ -1,0 +1,17 @@
+.coveragerc
+.editorconfig
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/readable_passcode/__init__.py
+src/readable_passcode/readable_passcode.py
+src/readable_passcode/words.txt
+src/readable_passcode.egg-info/PKG-INFO
+src/readable_passcode.egg-info/SOURCES.txt
+src/readable_passcode.egg-info/dependency_links.txt
+src/readable_passcode.egg-info/entry_points.txt
+src/readable_passcode.egg-info/requires.txt
+src/readable_passcode.egg-info/top_level.txt
