@@ -1,0 +1,2 @@
+[console_scripts]
+pymsaviz = pymsaviz.scripts.cli:main
