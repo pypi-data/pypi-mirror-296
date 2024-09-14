@@ -1,0 +1,11 @@
+chemcell/__init__.py,sha256=IjA-YCLFgdBRt7JPB6rGP325WiRn3C7PjK2fJpCqnKs,303
+chemcell/chemcell.py,sha256=v1KsG3S1Mm94x0ySUdIoq7Rq4tq004gS-DAXDdd28MY,1868
+chemcell/defval.py,sha256=IMz_QlkLHNEAQynNEOVDMA7lORm8B_mAlunYwYMH2eg,815
+chemcell/process.py,sha256=lYO85AKr1a55Xv1rmhvv2QshZ-GAlv0cbYGOAKS9sec,718
+chemcell/scrape.py,sha256=vyMVqWDAfdL57bv1nc97waybQ853Gu2bYU5-sb2mNT4,17461
+chemcell/utlity.py,sha256=l3NWC1PDmqNCGmt7N_h3HneFwm2X8A69Bcz3EeQ8oJY,1022
+chemcell-0.2.dist-info/LICENSE,sha256=73HjvnWff09hppLnhTtn9FbaXpKlaiurVbnfE4bv5lU,1063
+chemcell-0.2.dist-info/METADATA,sha256=NRFVBn93yjwfquvlFJZigX7jOU_yuKEpbf4TDKPmLig,1405
+chemcell-0.2.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+chemcell-0.2.dist-info/top_level.txt,sha256=60jvW-CnS2AStdmvY2JxF335hwGAS9j_w68GotjPlQ4,9
+chemcell-0.2.dist-info/RECORD,,
