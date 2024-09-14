@@ -1,0 +1,8 @@
+setup.py
+zpocr/__init__.py
+zpocr/zpocr.py
+zpocr.egg-info/PKG-INFO
+zpocr.egg-info/SOURCES.txt
+zpocr.egg-info/dependency_links.txt
+zpocr.egg-info/requires.txt
+zpocr.egg-info/top_level.txt
