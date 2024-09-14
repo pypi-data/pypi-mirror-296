@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+kskimtestmodule/__init__.py
+kskimtestmodule/circle.py
+kskimtestmodule/rectangle.py
+kskimtestmodule/testspark.py
+kskimtestmodule.egg-info/PKG-INFO
+kskimtestmodule.egg-info/SOURCES.txt
+kskimtestmodule.egg-info/dependency_links.txt
+kskimtestmodule.egg-info/top_level.txt
