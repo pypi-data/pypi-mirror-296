@@ -1,0 +1,13 @@
+polarsgeoutils-0.34.6.dist-info/METADATA,sha256=kglVLE3s5zyWqrmFHAgEwga1_CPv4iZZH6fYEfoduBw,1062
+polarsgeoutils-0.34.6.dist-info/WHEEL,sha256=r61ARzGSofTtT0NgHxuHuJUVCZJcaSZNxo-eIEITzps,129
+polarsgeoutils/_internal.pyi,sha256=tamVWOG4TE5RF4aAU_Uoxh3pVdT7xUAyNCR_CIstnbY,16
+polarsgeoutils/__pycache__/namespace.cpython-312.pyc,sha256=KY5Tfw_V65zMyLQprEb1-ELZbBByUDAxIVAhwbN0rZ8,1784
+polarsgeoutils/__pycache__/utils.cpython-312.pyc,sha256=7j2r2k6t3mAYxZxTD39YX2zAQQr9_IYrkP_633iooUI,1780
+polarsgeoutils/__pycache__/__init__.cpython-312.pyc,sha256=6tH-I7EotFlni4OjoBHcr7iPYdBlzYf-sadMBYmbUC0,387
+polarsgeoutils/__pycache__/functions.cpython-312.pyc,sha256=zJtmKuZxetebtNxr6qYFin5DIoMMSEBHiOyB0JWI6Co,6804
+polarsgeoutils/__init__.py,sha256=DtlmU87pBNAu6e5j5K_kIycSiUiVpF-S_nRCD7WSq58,467
+polarsgeoutils/functions.py,sha256=Nvcqhsv_ex5qfw6Ewg0qdBF5r066DVikezpTgfqoU2o,9456
+polarsgeoutils/utils.py,sha256=7WvnxkiABfztfY5bo_M4LNpwT9K1uCtwWFTN6SSFXg0,1224
+polarsgeoutils/namespace.py,sha256=9-F6vjUMnfd6723heh_6KqPWK3JlOPTqsdmuj3FIORY,583
+polarsgeoutils/polarsgeoutils.cpython-39-aarch64-linux-gnu.so,sha256=n3m66CRdvJBIeYv4kcjVKvZ977Zr8UzsS4Tj1F_S5Xg,32110848
+polarsgeoutils-0.34.6.dist-info/RECORD,,
