@@ -1,0 +1,3 @@
+[console_scripts]
+recipyzer = recipyzer.compile_metadata:main
+
