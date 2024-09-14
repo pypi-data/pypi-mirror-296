@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Ragzs.egg-info/PKG-INFO
+Ragzs.egg-info/SOURCES.txt
+Ragzs.egg-info/dependency_links.txt
+Ragzs.egg-info/requires.txt
+Ragzs.egg-info/top_level.txt
+mypackage/__init__.py
+mypackage/module1.py
+tests/__init__.py
