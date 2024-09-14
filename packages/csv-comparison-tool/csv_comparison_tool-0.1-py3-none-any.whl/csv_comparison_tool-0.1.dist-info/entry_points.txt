@@ -1,0 +1,2 @@
+[console_scripts]
+csvcompare = csv_comparison_tool.compare:main
