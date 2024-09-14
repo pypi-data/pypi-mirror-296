@@ -1,0 +1,10 @@
+nonebot_plugin_color-0.4.1.dist-info/METADATA,sha256=C-D1Bd-drP6RBsbBBU5VoiABoohXD19RcKXT9kCKEuM,7245
+nonebot_plugin_color-0.4.1.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+nonebot_plugin_color-0.4.1.dist-info/licenses/LICENSE,sha256=01VbZn1pLC7SHHdreCOc89mIEO8txSbEb5AE5kpebH4,1067
+nonebot_plugin_color/__init__.py,sha256=9HWrQTdLcNB2fzTfGmMEPn5m2_vpGHlqZa4YRAgevxE,1598
+nonebot_plugin_color/__main__.py,sha256=jLrB0eN0Ifei-VbGoOBjtpoWkWGVvzV5-HtmRQdsrVA,2600
+nonebot_plugin_color/config.py,sha256=LORtGwKXnATsBce0OhHDpvF38Z2q6-eRCGPBIAQ1Ujc,398
+nonebot_plugin_color/const.py,sha256=9zFGOwiSYy_DCcoUC2ws4eY05HP-EIFMD35CtJs_Uvg,4477
+nonebot_plugin_color/data_source.py,sha256=c17aNkyVG8BUm5KRSwf8ozyfvJXzKWEG2vbTpVNVdTY,7499
+nonebot_plugin_color/res/HarmonyOS_Sans_Bold.ttf,sha256=f5c4YsQjU8nMNy3CrokdEsnqX-KgG0Sa2vHq3ptGm0c,145860
+nonebot_plugin_color-0.4.1.dist-info/RECORD,,
