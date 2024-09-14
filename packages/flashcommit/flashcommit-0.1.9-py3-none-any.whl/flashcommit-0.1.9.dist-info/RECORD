@@ -1,0 +1,13 @@
+flashcommit/__init__.py,sha256=bsaJUqddG_lca1qWOYBnR5bfbyBCFtTUSqbZd7kfatw,2216
+flashcommit/diff_parser.py,sha256=ewepP5gNCh7_psrm4wNSlLfegLh-5YJEy8To105JMog,3288
+flashcommit/gitclient.py,sha256=RagAPut_F8F0ROdH9oScP0uNs_6oN-OTVoz5oqcIVBY,3444
+flashcommit/main.py,sha256=_3OaTm9jkUZ-7vPXfrXt-rZfT3Yv0hK2GKJIurIfrIM,11500
+flashcommit/prompt_generator.py,sha256=0jXrXRPuA3P8C7-A4miADenANRMtG2ttwhL-JqXXVjo,4126
+flashcommit/version.py,sha256=tWn0zSLTavGy_E1jwsaryKLH_LsQmzIxXZyf_LOm1yY,18
+flashcommit/wsclient.py,sha256=S1mhlMFxye5j0W-Yo-Qif_QUOlBkbT3Oeu3nIi2jHC0,2700
+flashcommit/gitdiff/__init__.py,sha256=0IVE6_iGJS56AcSXA2IL8Z55QgHP1oSW1Hkc7ifQsz0,9513
+flashcommit-0.1.9.dist-info/METADATA,sha256=VBalbeL3w3-tvrh2mVTCza0nUQu5fsR36bh66v7f1cc,348
+flashcommit-0.1.9.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+flashcommit-0.1.9.dist-info/entry_points.txt,sha256=_K2zMKYJQ4eIDwBSe8oMpCigZHQ8G6gDusl6T6HMRzQ,50
+flashcommit-0.1.9.dist-info/top_level.txt,sha256=-4rZdQtCygu1lt7gJDg6SY0GtumhMKFfSk3ETcFgtvs,12
+flashcommit-0.1.9.dist-info/RECORD,,
