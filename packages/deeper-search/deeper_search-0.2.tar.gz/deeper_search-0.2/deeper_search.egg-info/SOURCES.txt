@@ -1,0 +1,8 @@
+setup.py
+deeper_search/__init__.py
+deeper_search/search.py
+deeper_search.egg-info/PKG-INFO
+deeper_search.egg-info/SOURCES.txt
+deeper_search.egg-info/dependency_links.txt
+deeper_search.egg-info/requires.txt
+deeper_search.egg-info/top_level.txt
