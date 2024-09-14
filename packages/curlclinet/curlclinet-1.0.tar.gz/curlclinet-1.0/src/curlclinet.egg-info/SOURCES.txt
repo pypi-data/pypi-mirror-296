@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/curlclinet/__init__.py
+src/curlclinet/curlclinet.py
+src/curlclinet.egg-info/PKG-INFO
+src/curlclinet.egg-info/SOURCES.txt
+src/curlclinet.egg-info/dependency_links.txt
+src/curlclinet.egg-info/top_level.txt
+test/test.py
