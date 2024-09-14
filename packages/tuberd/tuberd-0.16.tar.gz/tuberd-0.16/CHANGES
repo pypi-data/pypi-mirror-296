@@ -1,0 +1,133 @@
+Version 0.15
+============
+
+- Fix enum class serialization. The str_enum helper now produces enum.Enum()
+  classes in Python that are also str() subclasses. For all 3 serializers we
+  use (json, orjson, cbor2) this is enough to correctly serialize enum classes.
+
+Version 0.14
+============
+
+- CI/CD improvements: builds wheels for manylinux and OS X
+
+Version 0.13
+============
+
+- A "simple" (non-asyncio) client now lives alongside the asyncio client. The
+  points of entry for these are "resolve" and "resolve_simple". They are
+  approximately API-compatible, but the non-asyncio version entirely avoids
+  async code style (async def / await / ...).
+
+- Multiple calls (using a Context or SimpleContext) can now optionally continue
+  after errors, using the continue_on_error flag. When this is True, all calls
+  in a Context/SimpleContext run to completion even if some of them fail.
+  The default behaviour remains the same - when continue_on_error is False,
+  server-side execution proceeds in sequence and halts at the first call that
+  encounters an error.
+
+Version 0.12
+============
+
+- Headers are now properly included in binary builds (.whl files)
+- Corrected PYTHONPATH for "make test"; broken in 0.11.
+
+Version 0.11
+============
+
+- resolve now required (20)
+- tuber package rearranged to tuber.server / tuber.client; registry moved to server (#19)
+- linter (black) added to CI/CD flow (#17)
+- client-side Python packages (aiohttpd) no longer required in server environment (#18)
+- setuptools now builds client and server (#14)
+
+Version 0.10
+============
+
+- Adds support for CBOR as a transport mechanism.
+
+Version 0.9
+===========
+
+- Removes dependency on boost::program_options in favour of getoptA
+- Compatibility fixes for libfmt, libhttpserver, OS X, Clang
+
+Version 0.8
+===========
+
+- Compatibility fix for libfmt
+
+Version 0.7
+===========
+
+Released 2023-12-11
+
+* New features:
+
+  - Added support for warnings.warn calls in server-side code - these are
+    propagated through a "warnings" field in the result object and bubbled up
+    as client-side warnings.
+
+Version 0.6
+===========
+
+Released 2023-02-24
+
+* Fixes:
+
+  - Acquire GIL earlier in response scope, outside "try" block.  Otherwise, the
+    exception path occurs outside the GIL block, and it's not valid to use
+    json_dumps to emit error messages. Fixes a segfault when invalid JSON is
+    supplied.
+
+Version 0.5
+===========
+
+Released 2022-05-24
+
+* Fixes:
+
+  - Correct preamble install path.
+
+Version 0.4
+===========
+
+Released 2022-04-14
+
+* Features:
+
+  - Adds --orjson-with-numpy extension to enable orjson fast-path. This
+    serializer offers significant performance gains, especially when using
+    numpy objects.
+
+Version 0.3
+===========
+
+Released 2022-04-07
+
+* Features:
+
+  - Adds option for use of user-specified JSON module.
+
+Version 0.2
+===========
+
+Released 2022-04-06
+
+* Features:
+
+  - Removes dependency on nlohmann::json. The JSON dependency is intended to
+    speed up serialization. The Python-native JSON serializer is implemented in
+    C under the hood, and should be better able to avoid casual
+    copy-conversions of arguments and results.
+
+  - Adds Python test framework. The test framework is a starting point (it does not exercise unhappy
+    paths or argument variations right now.)
+
+Version 0.1
+===========
+
+Released 2022-04-03
+
+* Features:
+
+   - Initial release.
