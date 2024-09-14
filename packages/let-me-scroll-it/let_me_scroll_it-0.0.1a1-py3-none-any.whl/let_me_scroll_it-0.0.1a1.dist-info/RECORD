@@ -1,0 +1,13 @@
+example/example.py,sha256=1JE9qeihD4z-PO1PwCfMmxpOWVE9No2vNmnOc5zOkf0,673
+lmsi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lmsi/cli.py,sha256=a58Xmo9hJh_jh8sB6bJyu1dq6k4Td9_X-ug2G2nrsaE,771
+lmsi/container.py,sha256=uuYOlQXT5TdVyvmyU7EL-kJTDE5fop4lWiQNk6xpSPM,2775
+lmsi/core.py,sha256=ZCfzPPP9qYo_PSkr1Qm1A_3CDm3LbDxI1GJdISchFDk,759
+lmsi/webpage/__init__.py,sha256=ZG31CKPJelwayMEdb0B9yL1kFcmGJ0rvRqfO03QM0lc,88
+lmsi/webpage/html.py,sha256=tcKDDaaZtNACWbBXOlfULKInmkkl1EmrdXE6EKdaAvE,4354
+let_me_scroll_it-0.0.1a1.dist-info/LICENSE,sha256=0NjpPiICU_Wf0SS2ri79HlsVV3ssdW-dyZb2RkS9uLo,1067
+let_me_scroll_it-0.0.1a1.dist-info/METADATA,sha256=Rvf5bz860jPJMkLXDadSRjlCjy-bA5a5N7Xhq5jQMHY,1371
+let_me_scroll_it-0.0.1a1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+let_me_scroll_it-0.0.1a1.dist-info/entry_points.txt,sha256=X3maINu2K4F9chKIDgDtwDmbcowDD8fgVDUZbox4-QA,39
+let_me_scroll_it-0.0.1a1.dist-info/top_level.txt,sha256=v5g3blM_gT791vB6D2QSKArt4rzQqK1uKtH0yqpDhno,13
+let_me_scroll_it-0.0.1a1.dist-info/RECORD,,
