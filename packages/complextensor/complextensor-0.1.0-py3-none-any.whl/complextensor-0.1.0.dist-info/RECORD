@@ -1,0 +1,10 @@
+complextensor/__init__.py,sha256=2GOBQDQy9PGKOBqgHANilWUB6tSz8VwCHxIycPD52NU,42
+complextensor/complex_tensor.py,sha256=MpiVhtitNTQciFHxuNkenzuBfTEO3EzjRzJsiT_4YXo,32705
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_complex_tensor.py,sha256=mJ8JcBg7RY0rU7dwWuOMHk30MJ97jfAODUs9dZ36F20,8894
+complextensor-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+complextensor-0.1.0.dist-info/METADATA,sha256=zQ2urBnPZ1ieIGZoH3Hyhzv_jyBIHTOVTL5YrJsG16o,24643
+complextensor-0.1.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+complextensor-0.1.0.dist-info/entry_points.txt,sha256=gFYOPXlDFn1GzcMfFsI5VmNNGjubM-IdeOjoGbxWuNY,61
+complextensor-0.1.0.dist-info/top_level.txt,sha256=g0ICDdmemtAAff2nFIHtgqZQrCxOMBSQsGjSwqiGAi0,20
+complextensor-0.1.0.dist-info/RECORD,,
