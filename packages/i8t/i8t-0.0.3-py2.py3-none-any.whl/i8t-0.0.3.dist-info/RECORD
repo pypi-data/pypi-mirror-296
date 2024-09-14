@@ -1,0 +1,16 @@
+i8t/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i8t/cli.py,sha256=oGk96ekHzn1UJ2xbgBdRm-glrgEXKd5MkZeNHCVXzO0,52
+i8t/client.py,sha256=-bkaaFfvU6LKRXFQ0BqBZxtkBaRm3uZ2Vi94xAON-SI,2318
+i8t/collect.py,sha256=GFRX2MnKk5wET9VlBPFu0r8Y9b4eD8kRbZ_3tkCC5lA,2133
+i8t/test_client.py,sha256=oBABtdHYa8OCNFjvhEtg8hRTbCuPYuXbFnHEkwTKJn8,3960
+i8t/instrument/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i8t/instrument/flask_introspect.py,sha256=zwKm-tsIVBWFs-QsKDPpPAJBPltrojUds2JqWbvbkdk,1287
+i8t/instrument/requests_introspect.py,sha256=cE74EugI5c62GjQVGSaZF_xfHyudjmGNxVJe0bPgbws,1966
+i8t/instrument/test_flask_introspect.py,sha256=o2HzxQrdoQ8LqGfFvMPShthwbu95s_Pu4xM5cFdj-xo,3393
+i8t/instrument/test_requests_introspect.py,sha256=RAoa9aWmXe60fwh3G63QUiC6o49I7LDSYAAyoCxVpxw,3161
+i8t-0.0.3.dist-info/LICENSE,sha256=2z8CRrH5J48VhFuZ_sR4uLUG63ZIeZNyL4xuJUKF-vg,1050
+i8t-0.0.3.dist-info/METADATA,sha256=-M7jFl0DETxkXHQ6lbM4S1YsoeP9qe0h3BvYw1CPTyU,3086
+i8t-0.0.3.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+i8t-0.0.3.dist-info/entry_points.txt,sha256=HEj2zLCP6hgEZyD4Tr2QXl84T2vCPVoxzVnBWqynVVs,36
+i8t-0.0.3.dist-info/top_level.txt,sha256=hlz5KDsQiVbZPi-abVdPx__giXyJWD5GBhUig0B1rNc,4
+i8t-0.0.3.dist-info/RECORD,,
