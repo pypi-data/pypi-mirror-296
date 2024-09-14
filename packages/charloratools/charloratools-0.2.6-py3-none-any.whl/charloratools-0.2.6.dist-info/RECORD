@@ -1,0 +1,11 @@
+charloratools/FilterAI.py,sha256=6rni8GqrZTIl7DqfrAaxuxuOTipJyigmNT4ImF9i-H0,15811
+charloratools/Scrapers.py,sha256=PD2m0jc7O38G2TGmTcyo2aNRJGjUcG9NJtbfnMRTf3A,20395
+charloratools/SysFileManager.py,sha256=JX6jPAT7jdRi95z8F-4Ko0VW9FsmbMDEb51JvNDoKBs,28941
+charloratools/__init__.py,sha256=llSM3cspBFH6G46-tko6U30g2KxiKP6LvOQ8ASphWTU,121
+charloratools/errors.py,sha256=e9Z2CQ9DoqBXqyZche3Xy1ComK8W61d7p2vjJWF_8dE,1580
+charloratools/utils.py,sha256=SeW8sT4t91PcEX1ZmFvad_FMDcFjaBHlo7VQ044c27Q,15628
+charloratools-0.2.6.dist-info/LICENSE,sha256=Qb3EtIzCfvo6kjNWnBbupTSPOwkMjsyp8YLAjQmlXVQ,1083
+charloratools-0.2.6.dist-info/METADATA,sha256=ywERftxPrHgYi2v0hSTs4PQw0X3sHgK3Csjmktbg4cg,8641
+charloratools-0.2.6.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+charloratools-0.2.6.dist-info/top_level.txt,sha256=Lh85FWG4GanLr_7M_4Knc6XObAeEBYgrRTdhVdpNseQ,14
+charloratools-0.2.6.dist-info/RECORD,,
