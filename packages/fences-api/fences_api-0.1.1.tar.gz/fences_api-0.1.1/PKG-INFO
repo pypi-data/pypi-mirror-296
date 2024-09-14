@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: fences-api
+Version: 0.1.1
+Summary: Fences is an LLM augmented OpenAPI interpreter with a visual interface to easily make requests
+Author-Email: Leonardo Menezes <leonardotmenezes@gmail.com>
+License: MIT
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP
+Project-URL: Homepage, https://github.com/LTMenezes/fences
+Requires-Python: >=3.8
+Requires-Dist: annotated-types>=0.7.0
+Requires-Dist: anthropic>=0.34.1
+Requires-Dist: anyio>=4.4.0
+Requires-Dist: asttokens>=2.4.1
+Requires-Dist: blinker>=1.8.2
+Requires-Dist: certifi>=2024.8.30
+Requires-Dist: charset-normalizer>=3.3.2
+Requires-Dist: click>=8.1.7
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: decorator>=5.1.1
+Requires-Dist: distro>=1.9.0
+Requires-Dist: exceptiongroup>=1.2.2
+Requires-Dist: executing>=2.0.1
+Requires-Dist: filelock>=3.15.4
+Requires-Dist: Flask>=3.0.3
+Requires-Dist: fsspec>=2024.6.1
+Requires-Dist: h11>=0.14.0
+Requires-Dist: httpcore>=1.0.5
+Requires-Dist: httpx>=0.27.2
+Requires-Dist: huggingface-hub>=0.24.6
+Requires-Dist: idna>=3.8
+Requires-Dist: importlib_metadata>=8.4.0
+Requires-Dist: ipdb>=0.13.13
+Requires-Dist: ipython>=8.18.1
+Requires-Dist: itsdangerous>=2.2.0
+Requires-Dist: jedi>=0.19.1
+Requires-Dist: Jinja2>=3.1.4
+Requires-Dist: jiter>=0.5.0
+Requires-Dist: markdown-it-py>=3.0.0
+Requires-Dist: MarkupSafe>=2.1.5
+Requires-Dist: matplotlib-inline>=0.1.7
+Requires-Dist: mdurl>=0.1.2
+Requires-Dist: mermaid-py>=0.6.0
+Requires-Dist: packaging>=24.1
+Requires-Dist: parso>=0.8.4
+Requires-Dist: prompt_toolkit>=3.0.47
+Requires-Dist: pure_eval>=0.2.3
+Requires-Dist: pydantic>=2.8.2
+Requires-Dist: pydantic_core>=2.20.1
+Requires-Dist: Pygments>=2.18.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: PyYAML>=6.0.2
+Requires-Dist: requests>=2.32.3
+Requires-Dist: rich>=13.8.0
+Requires-Dist: six>=1.16.0
+Requires-Dist: sniffio>=1.3.1
+Requires-Dist: stack-data>=0.6.3
+Requires-Dist: tokenizers>=0.20.0
+Requires-Dist: tomli>=2.0.1
+Requires-Dist: tqdm>=4.66.5
+Requires-Dist: traitlets>=5.14.3
+Requires-Dist: typing_extensions>=4.12.2
+Requires-Dist: urllib3>=2.2.2
+Requires-Dist: wcwidth>=0.2.13
+Requires-Dist: Werkzeug>=3.0.4
+Requires-Dist: zipp>=3.20.1
+Description-Content-Type: text/markdown
+
+# Fences
+
+An LLM augmented OpenAPI specification interpreter that provides a human-readable interactive representation of APIs, automatically generate requests and stores both requests and responses on your browser to improve AI-generated requests in future queries.
+
+Fences operates similarly to SwaggerUI, but with a more human-friendly interface. It uses AI to create a visual diagram and categorize endpoints. After the initial parse Fences uses the OpenAPI specification to automatically generate request bodys for you, filling with it with sample data. It stores every single request and response data in your browser to better generate future requests. Data is only stored locally, the only third-party server it uses is Anthropic's API to access LLMs.
+
+![alt text](documentation/home.png)
+
+# Work in progress
+Fences is still under construction and may break for some edge cases.
+Please submit an issue with a reproducible example if you encounter any problems.
+
+# Usage
+```sh
+pip install fences # Installation command
+fences LINK_TO_THE_OPENAPI_SPEC
+```
+
+You will be prompted to enter your anthropic key so that fences can make requests to an LLM model to parse the OpenAPI specification.
+
+# How to contribute
+PR's are welcome!
+
+Please create an issue before opening a PR so that we can discuss the changes you want to make.
+
+# How to setup your dev enviroment
+
+```sh
+pip install -r requirements.txt
+cd ui && npm install && npm run build && cd..
+python fences/fences.py
+```
