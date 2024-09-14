@@ -1,0 +1,3 @@
+[console_scripts]
+fences = fences.cli:main
+

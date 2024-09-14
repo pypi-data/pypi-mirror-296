@@ -1,0 +1,9 @@
+fences/__init__.py,sha256=HbN0Wivru_aA8otouX43-S3RyUjnYbT9GZ2RVyVONuc,159
+fences/__main__.py,sha256=HNlw-6w8B1fQtdreF5BH6f_Pr2jGEcfUhX9WDlQJ69U,35
+fences/agent.py,sha256=oRaXX0ZWxZhYZ98ucyQlLHQHwtGTOS0DwL3DJjHbZ-M,4214
+fences/cli.py,sha256=5_3GFULBWsugaJ0HwlJhpFFvU7TNn-PzehHeEIGbH3M,1931
+fences_api-0.1.2.dist-info/METADATA,sha256=R0z5PY9ZxUUQAkfJEqEFLixjRl_MNDol9-_e9Jfpl3w,4346
+fences_api-0.1.2.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+fences_api-0.1.2.dist-info/entry_points.txt,sha256=VOi0aky8xY-3CAb5AgHBJihO0bmtLe527oEUPA8-yKA,44
+fences_api-0.1.2.dist-info/licenses/LICENSE,sha256=FmvHToopTyOXI8-XlPDKFp2q0IxCN6saQR_ROazQbo4,1082
+fences_api-0.1.2.dist-info/RECORD,,
