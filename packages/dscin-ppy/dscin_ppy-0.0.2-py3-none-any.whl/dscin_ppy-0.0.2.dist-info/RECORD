@@ -1,0 +1,14 @@
+dscin_ppy/__init__.py,sha256=3MhGaijOQ3YrZXfdQeRrkoSTot5IHvKN1qZKdq4S31s,264
+dscin_ppy/aws_utils.py,sha256=z2ccDe6jaYBOavXYGhHrnoMlhXH8nAWmAjmsXjHVgyU,2702
+dscin_ppy/constants.py,sha256=4oKb9k5jofM_2Co3s3FLhJi-auWsxMMgzlz-aj4hq_c,282
+dscin_ppy/data_extracts.py,sha256=f6vNxjGG0ASEquyOnjJ_f9LLea5DhOsgD9Ma5ku0NCY,7693
+dscin_ppy/db_utils.py,sha256=5vF7EAg3gKZB4yM-bWMSK5wpICabcBykDzGRM_8ZrRY,318
+dscin_ppy/errors.py,sha256=ifvhlxVWqvNDv8EGYdTGuvYwVV-s0K_mbbwL7vBZiHk,43
+dscin_ppy/etl_job.py,sha256=7JjT1jh2aBv2n5-FrzvivOZuwMuAWzERu5gu0I_vzjg,450
+dscin_ppy/exposing_reports.py,sha256=c_aEgqLJPIMw0I6-FgyFx9Rp6TlZRgp4QGLawz7L_vg,2446
+dscin_ppy/functions.py,sha256=KeUIQmnFqBnJfbyIyh-1S6XKoeVflawkwh4q1k-UDgY,6438
+dscin_ppy/job_parameters.py,sha256=5TbKUT8aATlBeBwO0sAatM15dxjwHwIvmFwtRtg9K7g,7727
+dscin_ppy-0.0.2.dist-info/METADATA,sha256=dvoLOrJ19Dai1qxjKoeneycjYurH3s_Wu2OqrZlDtjE,276
+dscin_ppy-0.0.2.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+dscin_ppy-0.0.2.dist-info/top_level.txt,sha256=U5nVn6PbgUVPZd7DfDvF3faKDyWl-IvT51nMdUtRXAw,10
+dscin_ppy-0.0.2.dist-info/RECORD,,
