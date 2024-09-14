@@ -1,0 +1,10 @@
+gepwc/__init__.py,sha256=6nNEOXyiFWBaGq84ZX_DMfTT-ADqQh9whxseOgR7vNc,108
+gepwc/__version.py,sha256=2Pf394guA1ubP7kRcxeed8j5a9SUH0zuUmJBH9CJNIQ,172
+gepwc/core.py,sha256=X5GMYLZNozfeHOhJ3eXIE0MJMyM5uLvz1NYa9u37-iA,2646
+tst/test.py,sha256=MRfVdeQo-Hc7ZEWP0xz9OvihkGcPEzgvvfUOWuFZnQs,1328
+gepwc-0.0.10853172811.dist-info/LICENSE,sha256=HJi7xQu2bPGV8fzj86OQzzbvhWbp4RpaN7EhIEINZNo,1067
+gepwc-0.0.10853172811.dist-info/METADATA,sha256=S2TFiU9tNy2rNdIHZ7w1ap5rM3bLmTpnLx9o7Iy-6RQ,1996
+gepwc-0.0.10853172811.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+gepwc-0.0.10853172811.dist-info/entry_points.txt,sha256=_Js5YhNWQuuuiqvG0obOKifcvJErnh1uq3eATPHcECs,77
+gepwc-0.0.10853172811.dist-info/top_level.txt,sha256=ROfIpaqOy_ybpgGz5FewahHw34bDZaQl3WRTFYenHUk,10
+gepwc-0.0.10853172811.dist-info/RECORD,,
