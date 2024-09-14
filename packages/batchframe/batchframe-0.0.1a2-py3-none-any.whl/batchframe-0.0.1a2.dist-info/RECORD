@@ -1,0 +1,16 @@
+batchframe/__init__.py,sha256=jiPochAHadcK09BjIpMCD_p7PLcymFODgSKdcQyzpmY,861
+batchframe/cli.py,sha256=xG3OPWQWVb0PMnH1lNDxaEs9cfmQQHQ34SBXWWdUp7Q,9523
+batchframe/executor.py,sha256=wi1j5GPtwSqwz3ZhK1g1evLyzNvm9jMY1uouoJbp94Q,11097
+batchframe/helpers.py,sha256=CAEHCfkPZlNrwE4pPXJQAJ9bG2nwR8QBOzF3VaIzrL0,339
+batchframe/visuals.py,sha256=qSxjq_W8BzJg0QTQjG-X1ddOdw7W_jmI9kdHmAaASEA,1833
+batchframe/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+batchframe/models/batchframe_param.py,sha256=c5tQY_cMTcybfOVkgaOd5QuhMagfXq_UmX6h37DBMX4,3629
+batchframe/models/configuration.py,sha256=6BXGNuTzmvZRoauOLoaoYjUD2iOEISevO1wXd-HDCwI,1171
+batchframe/models/service.py,sha256=qTuIToe10JMYVwTjUJUn9jkmekoitgRQY1Q5uejW_SE,1271
+batchframe/models/source.py,sha256=7XeUGmjogWrLnSXm_opuj_XbawsqYYMg7KfAvlszLm8,461
+batchframe-0.0.1a2.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+batchframe-0.0.1a2.dist-info/METADATA,sha256=5f--UgbdQxk2BH9jMY9MuhGNCAOiTacohG0uNsqaCYw,8297
+batchframe-0.0.1a2.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+batchframe-0.0.1a2.dist-info/entry_points.txt,sha256=uS6BbyChqcDSofyH2uZ_TH-2Cj27p_fD-h4GKV29UJU,50
+batchframe-0.0.1a2.dist-info/top_level.txt,sha256=JQnNzwgglxdslIqutS3DcRyI-miACvGJoMu4sFzdSvo,11
+batchframe-0.0.1a2.dist-info/RECORD,,
