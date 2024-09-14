@@ -1,0 +1,9 @@
+datamule/__init__.py,sha256=8jofs0w3NQHN8j_G3rtHLaC74_INj_ngRxvg8HNjtc0,702
+datamule/global_vars.py,sha256=xfSzi40gSr98qaEFJ4WFXb6xMBlYfwvUeCdevvTLgjM,824
+datamule/helper.py,sha256=7L2DwWG3sKk91gW8-lET54Fty-qKBdQxWKQFr0Ox9_Y,861
+datamule/sec_downloader.py,sha256=8xN0CPIW2IwfJJlK5o-lSdPQ3uTcjhnkUgIK2-UdN70,11609
+datamule/sec_indexer.py,sha256=W7ISwPUVhWtNrFvHmo6usOWhtT4txYr_19hq58fnMso,6958
+datamule-0.20.dist-info/METADATA,sha256=3xfN71286IaUKQqle5zqBkD_AjWPzkYW_9aPUDKMV5Q,3302
+datamule-0.20.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+datamule-0.20.dist-info/top_level.txt,sha256=iOfgmtSMFVyr7JGl_bYSTDry79JbmsG4p8zKq89ktKk,9
+datamule-0.20.dist-info/RECORD,,
