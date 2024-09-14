@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tkwidgets/__init__.py
+tkwidgets/tkwidgets.py
+tkwidgets.egg-info/PKG-INFO
+tkwidgets.egg-info/SOURCES.txt
+tkwidgets.egg-info/dependency_links.txt
+tkwidgets.egg-info/requires.txt
+tkwidgets.egg-info/top_level.txt
