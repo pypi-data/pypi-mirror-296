@@ -1,0 +1,3 @@
+[console_scripts]
+bromate=bromate.scripts:main
+
