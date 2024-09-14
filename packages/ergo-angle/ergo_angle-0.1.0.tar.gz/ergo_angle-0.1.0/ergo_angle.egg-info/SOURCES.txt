@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ergo_angle/ErgoEval.py
+ergo_angle/ErgoUtils.py
+ergo_angle/__init__.py
+ergo_angle/config.py
+ergo_angle.egg-info/PKG-INFO
+ergo_angle.egg-info/SOURCES.txt
+ergo_angle.egg-info/dependency_links.txt
+ergo_angle.egg-info/requires.txt
+ergo_angle.egg-info/top_level.txt
