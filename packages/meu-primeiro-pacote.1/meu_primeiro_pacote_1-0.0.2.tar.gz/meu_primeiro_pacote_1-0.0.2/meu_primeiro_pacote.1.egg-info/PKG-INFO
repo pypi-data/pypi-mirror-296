@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: meu_primeiro_pacote.1
+Version: 0.0.2
+Summary: Pacote de testes da aula de criação de pacote de imagens com Python.
+Home-page: https://github.com/devjeffers
+Author: Jefferson
+Author-email: devsfull.jefferson@gmail.com
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+
+# meu_primeiro_pacote
+
+Description. 
+The package meu_primeiro_pacote is used to:
+	- Histogram matching
+	- Structural similarity
+	- Resize image
+Utils:
+	- Read image
+	- Save image
+	- Plot image
+	- Plot result
+	- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install meu_primeiro_pacote
+
+```bash
+pip install meu_primeiro_pacote
+
+```
+
+## Author
+Jefferson
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

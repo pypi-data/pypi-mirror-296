@@ -1,0 +1,13 @@
+README.md
+setup.py
+meu_primeiro_pacote/__init__.py
+meu_primeiro_pacote.1.egg-info/PKG-INFO
+meu_primeiro_pacote.1.egg-info/SOURCES.txt
+meu_primeiro_pacote.1.egg-info/dependency_links.txt
+meu_primeiro_pacote.1.egg-info/top_level.txt
+meu_primeiro_pacote/processing/__init__.py
+meu_primeiro_pacote/processing/combination.py
+meu_primeiro_pacote/processing/transformation.py
+meu_primeiro_pacote/utils/__init__.py
+meu_primeiro_pacote/utils/io.py
+meu_primeiro_pacote/utils/plot.py
