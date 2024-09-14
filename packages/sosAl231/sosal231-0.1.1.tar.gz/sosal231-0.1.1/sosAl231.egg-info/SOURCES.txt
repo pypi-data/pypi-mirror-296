@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+sosAl231.egg-info/PKG-INFO
+sosAl231.egg-info/SOURCES.txt
+sosAl231.egg-info/dependency_links.txt
+sosAl231.egg-info/top_level.txt
