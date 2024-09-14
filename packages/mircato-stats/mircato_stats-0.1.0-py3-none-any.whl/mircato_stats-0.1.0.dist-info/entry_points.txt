@@ -1,0 +1,3 @@
+[console_scripts]
+mircato_stats = mircato_stats:mircato
+mircato_stats_copy_models = mircato_stats:copy_models
