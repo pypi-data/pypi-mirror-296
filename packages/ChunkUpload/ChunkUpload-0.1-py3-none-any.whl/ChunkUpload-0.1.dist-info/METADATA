@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ChunkUpload
+Version: 0.1
+Summary: A django app for uploading videos chunk by chunk and completing uploaded chunk after all chunks have been uploaded.
+Home-page: https://github.com/mohammadGhasempour75
+Author-email: mamad.agha750202@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: django>=3.0
+
+# to making this page to graphic design, we should using 'typora'
+
+    **Chunked Upload**
+
+    This simple django app enables users to upload large files to Django Rest Framework in multiple chunks, 
+    with the ability to automatically delete uncomplete uploads if the upload is not completed.
+
+
+    1 - insatll with pip:
+    
+    pip install something = should writing something - 1
+
+
+    2 - for using automatically delete uncomplete uploads:
+
+    INSTALLED_APPS = (
+    # ...
+    'django_cron',
+    ) - 2
+
+
+    3 - Typical usage
+    
+    First, a request is sent to the server, which includes the length of the file. 
+    Then the server returns a response including the chunk size and an upload ID to the client.
+    In the next request, the client sends the file with a predetermined chunk size to the server.
+
+
+    hint = In this code, the chunk number equal to 10 ,  you can change it if you need.
+
+
+    
