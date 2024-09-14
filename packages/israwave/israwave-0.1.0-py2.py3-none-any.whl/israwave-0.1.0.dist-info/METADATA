@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: israwave
+Version: 0.1.0
+Summary: Hebrew text to speech on the edge
+Author: thewh1teagle
+Description-Content-Type: text/markdown
+Requires-Dist: onnxruntime>=1.19.2
+Requires-Dist: numpy>=2.1.1
+Requires-Dist: soundfile>=0.12.1
+Requires-Dist: sounddevice>=0.5.0
+Requires-Dist: nakdimon-ort>=0.1.5
+Requires-Dist: piper-phonemize-fork>=1.2.0 ; platform_system != "Linux"
+Requires-Dist: piper-phonemize-cross>=1.2.1 ; platform_system == "Linux"
+Requires-Dist: twine ; extra == "build"
+Requires-Dist: build ; extra == "build"
+Requires-Dist: tox ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: bump2version ; extra == "dev"
+Requires-Dist: pytest ; extra == "test"
+Project-URL: home, https://github.com/thewh1teagle/israwave
+Provides-Extra: build
+Provides-Extra: dev
+Provides-Extra: test
+
+# israwave
+
+Mission to create a Hebrew TTS model as powerful and user-friendly as WaveNet
+
+## Features
+
+- Generate sentence in less than 1ms on CPU
+- Powerful text processor by espeak-ng
+- Support for SSML (soon)
+
+## Samples
+
+See example audio [here](https://github.com/thewh1teagle/israwave/releases/download/v0.1.0/israwave.wav)
+
+## Examples
+
+See [examples](examples)
