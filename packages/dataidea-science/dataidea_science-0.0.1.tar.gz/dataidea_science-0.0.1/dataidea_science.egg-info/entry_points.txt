@@ -1,0 +1,2 @@
+[nbdev]
+dataidea_science = dataidea_science._modidx:d
