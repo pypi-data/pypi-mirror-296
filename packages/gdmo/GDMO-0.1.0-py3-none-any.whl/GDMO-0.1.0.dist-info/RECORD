@@ -1,0 +1,15 @@
+APIs/APIRequest.py,sha256=NT-wcGGQPOO4ZiVbcENy0eUPVdHO28z69nojC_7KZ5c,9699
+APIs/IRestAPI.py,sha256=mWYs1oaha7dInkuOGXBoZOtas77s_LHUrOIBer1ESUc,9116
+APIs/Request.py,sha256=_b31DNuag1C0pC_FEfpxHBUgRzCvA64Pq9uIe8i3HrM,9696
+APIs/__init__.py,sha256=1a9PvPDCnVJ_7U8IIF71ADLt62pVUnA_0mlctZQ_-RY,24
+Forecast/Forecast.py,sha256=b7xyWwOFhpMP7GwuegpZnFemjbw9uWJMBSRAWDygxL0,62279
+Forecast/__init__.py,sha256=fpSms2R-8W7eLDxrVW5Muz_pPhkG1M2GAO3ME8NDZc4,29
+ITables/IDeltaTable.py,sha256=g-LCwPXYgq1Hpx3RAGMd2X2JG6UCN7WytV7EL_DMWIk,21347
+ITables/__init__.py,sha256=ZY_N6nB7W7Gmrwm__9F0x_Ddyq7BCmMWRBwZqqV1N24,31
+Tables/Delta.py,sha256=4mAMLFHQolsx0rtQowqUbhuaREwcmAKT415yun2V6sI,12308
+Tables/Landing.py,sha256=naphgKeyKiAKiawzgS63q6CqECsScepRFSxfTamtHKg,13651
+Tables/__init__.py,sha256=ub8b-f76hhdKJIlMNvYzz8XrdpbCJM-CXy9Vp1Abmu4,54
+GDMO-0.1.0.dist-info/METADATA,sha256=yroYcX6eE35Yrgylq5dBWghK_p27qf4zr8LLl1g_G1Q,1616
+GDMO-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+GDMO-0.1.0.dist-info/top_level.txt,sha256=MZOlyl6pcKntZCEke6W-rZYfGPZNblRixMWljO8GYgY,21
+GDMO-0.1.0.dist-info/RECORD,,
