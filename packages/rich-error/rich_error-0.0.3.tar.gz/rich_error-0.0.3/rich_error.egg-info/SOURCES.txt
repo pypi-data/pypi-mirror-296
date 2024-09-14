@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+rich_error/__init__.py
+rich_error/constant.py
+rich_error/error.py
+rich_error.egg-info/PKG-INFO
+rich_error.egg-info/SOURCES.txt
+rich_error.egg-info/dependency_links.txt
+rich_error.egg-info/not-zip-safe
+rich_error.egg-info/top_level.txt
+rich_error/utils/__init__.py
+rich_error/utils/http/__init__.py
+rich_error/utils/http/response.py
+tests/tests.py
