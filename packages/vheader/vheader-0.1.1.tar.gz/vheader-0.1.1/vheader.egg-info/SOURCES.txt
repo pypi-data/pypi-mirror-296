@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+vheader/__init__.py
+vheader.egg-info/PKG-INFO
+vheader.egg-info/SOURCES.txt
+vheader.egg-info/dependency_links.txt
+vheader.egg-info/entry_points.txt
+vheader.egg-info/requires.txt
+vheader.egg-info/top_level.txt
