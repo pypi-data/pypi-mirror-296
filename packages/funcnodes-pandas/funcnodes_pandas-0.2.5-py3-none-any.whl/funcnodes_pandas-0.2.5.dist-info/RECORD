@@ -1,0 +1,15 @@
+funcnodes_pandas/__init__.py,sha256=k-9PTuCmFJ6x9vyHUXEjEQ4NYLVP5bfZvRxOM4Y2XUM,5019
+funcnodes_pandas/dataframe/__init__.py,sha256=21-x9s8t9zDWNrss4EnzzU1mBrJ4XbJZXrBs6cIAKwE,1261
+funcnodes_pandas/dataframe/_convert.py,sha256=AzAiaLKIvwRSEW-7sBINHmfKNeLwxfsAm1yGR8QLz9U,6486
+funcnodes_pandas/dataframe/_manipulation.py,sha256=GkGgs2UNlSez33Wunv32iNhHn9qIxUw4gyqGBxcOnPM,11615
+funcnodes_pandas/dataframe/_masking.py,sha256=LgMBeOpToCT2lpgajJKvY5K25-lha_czHcJfqgGvROg,795
+funcnodes_pandas/dataframe/_math.py,sha256=7LDtzCE-3UpUHT1sH2kG8r0HHjPFGxuh88YliZGbWvI,4956
+funcnodes_pandas/dataframe/_rows_cols.py,sha256=atttb2Gd4dhkQdG-XjWpIAGxggjJn7X57rtCgaYIr5I,3705
+funcnodes_pandas/dataframe/_types.py,sha256=eokxPcSxZAzz0bcbYxR7osHDQxIY9WVuzfuHdcSP7lM,703
+funcnodes_pandas/dataseries/__init__.py,sha256=UTCBLflSsfbi8CN9uxeiaYPuwTWHdjlQsUqEWXPsstI,3014
+funcnodes_pandas/dataseries/_str.py,sha256=g_DKioWWNqtP0ZhySPx1H-Ci204QWvhqMq-TKoa3fec,7667
+funcnodes_pandas/grouping.py,sha256=hiR-YcFMALooRy_uTd_Nvv2eHMb5CIj_qiUquMYFQ0c,4430
+funcnodes_pandas-0.2.5.dist-info/METADATA,sha256=1Z74UlTAjk43LapRL_ord8MLYre2KBXNBEj4NFiE1KU,547
+funcnodes_pandas-0.2.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+funcnodes_pandas-0.2.5.dist-info/entry_points.txt,sha256=51ZBtSCHSOPUP7yZveva3uv7FGt3nhqqrG0wSi0RWxw,78
+funcnodes_pandas-0.2.5.dist-info/RECORD,,
