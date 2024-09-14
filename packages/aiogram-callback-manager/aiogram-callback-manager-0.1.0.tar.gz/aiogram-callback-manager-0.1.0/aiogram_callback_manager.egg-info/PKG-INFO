@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aiogram-callback-manager
+Version: 0.1.0
+Summary: Асинхронный менеджер callback для aiogram.
+Home-page: https://github.com/megamen932/aiogram-callback-manager
+Author: EvilMathHippy
+Author-email: careviolan@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiogram>=3.0.0b5
+Requires-Dist: aiosqlite>=0.17.0
+
+# aiogram-callback-manager
+
+Асинхронный менеджер callback для aiogram.
+
+## Установка
+
+```bash
+pip install aiogram-callback-manager

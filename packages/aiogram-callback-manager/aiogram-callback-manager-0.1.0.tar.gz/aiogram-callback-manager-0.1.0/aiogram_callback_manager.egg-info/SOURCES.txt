@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+aiogram_callback_manager/__init__.py
+aiogram_callback_manager/async_callback_manager.py
+aiogram_callback_manager/base_db_storage.py
+aiogram_callback_manager.egg-info/PKG-INFO
+aiogram_callback_manager.egg-info/SOURCES.txt
+aiogram_callback_manager.egg-info/dependency_links.txt
+aiogram_callback_manager.egg-info/requires.txt
+aiogram_callback_manager.egg-info/top_level.txt
