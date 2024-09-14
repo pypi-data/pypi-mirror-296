@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+rgc/__init__.py
+rgc/foo.py
+rgc.egg-info/PKG-INFO
+rgc.egg-info/SOURCES.txt
+rgc.egg-info/dependency_links.txt
+rgc.egg-info/top_level.txt
+tests/test_foo.py
