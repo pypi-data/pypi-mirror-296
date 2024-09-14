@@ -1,0 +1,6 @@
+fastapi
+pydantic-settings
+uvicorn
+python-jose
+opencensus-ext-azure
+setuptools
