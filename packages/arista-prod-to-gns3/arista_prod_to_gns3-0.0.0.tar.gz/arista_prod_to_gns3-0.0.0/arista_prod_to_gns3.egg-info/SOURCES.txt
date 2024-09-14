@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+arista_prod_to_gns3.egg-info/PKG-INFO
+arista_prod_to_gns3.egg-info/SOURCES.txt
+arista_prod_to_gns3.egg-info/dependency_links.txt
+arista_prod_to_gns3.egg-info/top_level.txt
