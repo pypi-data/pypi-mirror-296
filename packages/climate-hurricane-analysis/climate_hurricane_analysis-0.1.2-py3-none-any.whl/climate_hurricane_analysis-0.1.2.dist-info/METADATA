@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: climate-hurricane-analysis
+Version: 0.1.2
+Summary: A package for hurricane analysis using SST data.
+Home-page: https://github.com/ClimateAI/cyclone_package
+Author: Rohan Marangoly
+Author-email: rohan@climate.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: xarray
+Requires-Dist: netCDF4
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+
+# Introduction
+
+This Python extension provides tools to analyze the impact of sea surface temperatures on hurricane intensity using Accumulated Cyclone Energy (ACE) as a metric. It includes optimization algorithms to improve prediction accuracy by tuning parameters such as the number of Principal Components (PCs), lag months, and analog years.
+
+The extension is designed for researchers, students, and weather enthusiasts interested in understanding the relationship between climate factors and hurricane development.
+
+# Features
+
+- Reads in ACE and Explained Variance Ratio values
+- Creates a vector for each year of their PCs and corresponding lag months
+
+# Requirements/Installation
+Download sst.mon.mean.nc from NOAA: https://downloads.psl.noaa.gov/Datasets/noaa.oisst.v2.highres/
+
+
+# Usage
+```
+from hurricane_analysis.pca_calculator import load_sst_data, extract_sst_for_region, process_monthly_sst_data, calculate_pcs_and_evr
+from hurricane_analysis import calculate_start_date, optimize_pc_analog_and_lag_configuration, read_ace_data
+
+import pandas as pd
+```
+Functions:
+
+calculate_pcs_and_evr(file_path, lat_min, lat_max, lon_min, lon_max)  
+- Parameters define the region you want to analyze and calculates PCs and EVR values for it.  
+- Outputs SST and EVR directory with csv files necessary for analysis
+
+read_ace_data(ace_file_path)  
+- Returns a pandas DataFrame that contains ace data from a given CSV
+
+optimize_pc_analog_and_lag_configuration(data_directory, evr_directory, ace_data, target_year, target_month)  
+- Parameters define which data you want to use and which month and year you want to analyze  
+- Returns best_num_pcs, best_num_analogs, best_lag_months, highest_skil, best_ace_fcst, best_top_analogs
