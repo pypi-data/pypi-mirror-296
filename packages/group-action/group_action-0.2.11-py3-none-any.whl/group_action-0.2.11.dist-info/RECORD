@@ -1,0 +1,11 @@
+group_action/__init__.py,sha256=yztjwvAa2FmOiAT7y7o87kalZ8XdDLW9WQLpbAKUQsU,167
+group_action/burnside.py,sha256=Tu4bHy7rfeQMBWFZ6o0-Jl7ou4SJXpbgWACns0IPRPA,3110
+group_action/conjugacy_classes.py,sha256=udU3bWrz6jUdTVIC3ummSOPnXAec5lGvYqX8LZWMBK0,3228
+group_action/library.py,sha256=e_0E-HMES70kxW31ag528Yqz6INubAgX8uU6frmrtyI,8468
+group_action/orbits.py,sha256=dKHg8qxPI8ijNqN18bWWTciRSPz4VZUARkgxDhXWu50,2897
+group_action-0.2.11.dist-info/LICENSE,sha256=UQJ3NxjpHc4IQUn3HWzacJ_cj1JZghAKt3SAbRn8NCw,1088
+group_action-0.2.11.dist-info/METADATA,sha256=Zl2zv2yQXuHIEAAyq6PKuW2fHMj7uscqy32tZjq1T3Y,6151
+group_action-0.2.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+group_action-0.2.11.dist-info/entry_points.txt,sha256=8HQrwJB46BHSyuXb5YDYVtvjIqRAir1E6oxYl9heccQ,146
+group_action-0.2.11.dist-info/top_level.txt,sha256=GC-BMK6-cqHyE-qFVGxDuT6JcCjPeVZkMT-a2YoTUpc,13
+group_action-0.2.11.dist-info/RECORD,,
