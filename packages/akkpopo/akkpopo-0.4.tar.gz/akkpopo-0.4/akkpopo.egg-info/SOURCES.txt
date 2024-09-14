@@ -1,0 +1,7 @@
+README.txt
+setup.py
+akkpopo.egg-info/PKG-INFO
+akkpopo.egg-info/SOURCES.txt
+akkpopo.egg-info/dependency_links.txt
+akkpopo.egg-info/top_level.txt
+tests/test_popup.py
