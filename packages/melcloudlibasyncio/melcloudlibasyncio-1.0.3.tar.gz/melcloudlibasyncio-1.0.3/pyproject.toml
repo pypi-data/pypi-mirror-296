@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "melcloudlibasyncio"
+version = "1.0.3"
+description = "A async client for interacting with the MELCloud API"
+authors = ["Simen Andrè Skogum <v0nNemize@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+packages = [
+    { include = "lib" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8 "
+aiohttp = "^3.10.5"
+mkdocs = "^1.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
