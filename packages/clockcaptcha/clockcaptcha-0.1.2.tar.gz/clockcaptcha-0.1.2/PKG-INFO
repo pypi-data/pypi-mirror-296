@@ -1,0 +1,94 @@
+Metadata-Version: 2.3
+Name: clockcaptcha
+Version: 0.1.2
+Summary: Digital clock captcha
+Project-URL: Homepage, https://github.com/stefs304/clockcaptcha
+Project-URL: Issues, https://github.com/stefs304/clockcaptcha/issues
+Author-email: Stefan Stojanovic <stefs304@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Stefan Stojanovic
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: captcha,clock,digital,python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: pillow
+Description-Content-Type: text/markdown
+
+# clockcaptcha
+Digital clock captcha
+
+![captcha](./color-captcha.png)
+
+> Supports:
+> * `rgb` and `grayscale` color mode
+> * 12-hour and 24-hour clock mode
+> * custom colors
+
+### Installation
+
+```shell
+pip install clockcaptcha
+```
+
+### Usage
+
+```python
+from clockcaptcha import ClockCaptcha
+
+captcha = ClockCaptcha()
+print(captcha.values)
+
+captcha.verify('0645') # True/False
+captcha.save_image('image.png')
+
+```
+Choose between `color_mode='rgb'` ([color-captcha.png](color-captcha.png)) 
+or `'grayscale'` ([grayscale-captcha.png](grayscale-captcha.png)). 
+
+Pick between a 12-hour or a 24-hour `clock_mode`.
+```python
+from clockcaptcha import ClockCaptcha
+
+captcha = ClockCaptcha(clock_mode=12)
+```
+
+Image size can be changed with relative `size` parameter. Here are corresponding pixel values. 
+
+| size  | width   | height  |
+|-------|---------|---------|
+| 1     | 190     | 65      |
+| 2     | 380     | 130     |
+| **3** | **570** | **195** |
+| 4 | 760 | 260 |
+| ... | ... | ... | 
+
+Change colors globally:
+```python
+from clockcaptcha import ClockCaptcha
+ClockCaptcha.set_colors([
+    '#fff',
+    '#000'
+])
+```
+
