@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyrfuniverse
+Version: 0.30.2
+Summary: RFUniverse python interface
+Home-page: https://github.com/robotflow-initiative/pyrfuniverse
+Author: RobotFlow AI Team
+Author-email: robotflow@163.com
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy>=1.14.1
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+Requires-Dist: opencv-contrib-python
+Requires-Dist: requests
