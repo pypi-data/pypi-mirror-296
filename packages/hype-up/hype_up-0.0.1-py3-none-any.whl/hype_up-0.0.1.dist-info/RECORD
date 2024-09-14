@@ -1,0 +1,10 @@
+hype/__init__.py,sha256=X2T7hjM2B3FTfzljN5zm2VdU00KtJ9LkTwuvExjZZus,304
+hype/function.py,sha256=WtcMyjKiCAcYmvkY15Md8J1BsyBb_ibuMM6O2uFk-B8,4357
+hype/tools/__init__.py,sha256=wvZRnwTHN1D-gCtr2PnchdHHM7M7aOR50N39BCBttfo,2979
+hype/tools/anthropic.py,sha256=TnGTQnb2wpKd-dp4aZNN_orgKRP068yaObDKF78f_UU,2707
+hype/tools/ollama.py,sha256=oGbKIXLkJUe-oliJNuPtpEtQyXPMXbhhVmimfGzLa1I,2096
+hype/tools/openai.py,sha256=-x2FS15MUgyjyKMJW0czjuFSF6-h6xUWjHlMKtroQec,2286
+hype_up-0.0.1.dist-info/METADATA,sha256=q_XXKTMnVYIO6-LvUyT5aMmPuUyA2QAs9Vkd1l7_jwU,9073
+hype_up-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+hype_up-0.0.1.dist-info/licenses/LICENSE.md,sha256=abjXH5z8pOs9p93bxlI8MyoGDA0OFq1yIHi45JFI2LQ,1070
+hype_up-0.0.1.dist-info/RECORD,,
