@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/uwastro465isos/__init__.py
+src/uwastro465isos/isochrones.py
+src/uwastro465isos.egg-info/PKG-INFO
+src/uwastro465isos.egg-info/SOURCES.txt
+src/uwastro465isos.egg-info/dependency_links.txt
+src/uwastro465isos.egg-info/requires.txt
+src/uwastro465isos.egg-info/top_level.txt
+src/uwastro465isos/data/__init__.py
+src/uwastro465isos/data/isochrones_ubvrijhk.dat
+src/uwastro465isos/data/isochrones_ugriz.dat

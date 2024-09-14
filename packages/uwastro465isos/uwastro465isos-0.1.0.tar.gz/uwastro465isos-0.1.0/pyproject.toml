@@ -1,0 +1,45 @@
+[build-system]
+requires = [
+    "setuptools>=64.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uwastro465isos"
+version = "0.1.0"
+
+authors = [
+  { name="Ralf Kotulla", email="ralf.kotulla@gmail.com" },
+]
+description = "small isochrone class for Astro465 course at U. Wisconsin-Madison"
+readme = "README.md"
+license = { text = "BSD-3-Clause" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "astropy",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rkotulla/uwastro465isos"
+"Bug Tracker" = "https://github.com/rkotulla/uwastro465isos/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ['src']
+
+[tool.setuptools.package-data]
+"uwastro465isos.data" = ["*.dat"]
+
+
