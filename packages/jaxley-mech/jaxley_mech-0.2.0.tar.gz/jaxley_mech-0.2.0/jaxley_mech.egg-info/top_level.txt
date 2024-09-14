@@ -1,0 +1,4 @@
+dist
+jaxley_mech
+notebooks
+tests

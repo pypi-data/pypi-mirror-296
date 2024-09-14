@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: jaxley-mech
+Version: 0.2.0
+Summary: A Jaxley-based library of ion channels and syanpses for biophysical neuron models.
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jax[cpu]
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: jaxley>=0.2.0
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Requires-Dist: mkdocs; extra == "dev"
+Requires-Dist: mkdocs-material; extra == "dev"
+Requires-Dist: markdown-include; extra == "dev"
+Requires-Dist: mkdocs-redirects; extra == "dev"
+Requires-Dist: mkdocstrings[python]>=0.18; extra == "dev"
+Requires-Dist: neuron; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pyright; extra == "dev"
+
+# jaxley-mech
+
+A [Jaxley](https://github.com/mackelab/jaxley)-based library of ion channels and synapses for biophysical neuron models.
+
+## Installation
+
+`jaxley-mech` is available on [PyPI](https://pypi.org/project/jaxley-mech/):
+
+```bash
+pip install jaxley-mech
+```
+
+or you can clone the repository and install it via `pip`'s "editable" mode:
+
+```bash
+git clone git@github.com:jaxleyverse/jaxley-mech.git
+pip install -e jaxley-mech
+```
+
+## Usage
+
+See the [notebooks](notebooks) folder for usage examples.
