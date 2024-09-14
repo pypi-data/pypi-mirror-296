@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urff"
+version = "1.0"
+description = "A typo package to prevent typos."
+readme = "README.md"
+authors = [
+    { name = "Sinan Islekdemir", email = "sinan@islekdemir.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.6"
+dependencies = []
