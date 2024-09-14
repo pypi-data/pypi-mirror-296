@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+ChompAI/__init__.py
+ChompAI/game.py
+ChompAI.egg-info/PKG-INFO
+ChompAI.egg-info/SOURCES.txt
+ChompAI.egg-info/dependency_links.txt
+ChompAI.egg-info/requires.txt
+ChompAI.egg-info/top_level.txt

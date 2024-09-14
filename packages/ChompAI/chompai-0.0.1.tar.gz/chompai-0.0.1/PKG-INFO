@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ChompAI
+Version: 0.0.1
+Summary: Chomp computer
+Author: purple-ish
+Keywords: chomp
+License-File: LICENSE.md
+Requires-Dist: numpy
