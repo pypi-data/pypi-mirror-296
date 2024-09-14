@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_extra_model_fields.egg-info/PKG-INFO
+django_extra_model_fields.egg-info/SOURCES.txt
+django_extra_model_fields.egg-info/dependency_links.txt
+django_extra_model_fields.egg-info/requires.txt
+django_extra_model_fields.egg-info/top_level.txt
+extra_field/__init__.py
+extra_field/admin.py
+extra_field/apps.py
+extra_field/models.py
+extra_field/migrations/0001_initial.py
+extra_field/migrations/__init__.py
