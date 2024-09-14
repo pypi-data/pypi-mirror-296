@@ -1,0 +1,10 @@
+LICENSE,sha256=nbuml9jjr0JoSjSmzkPuFD8a7I6IcPo-C3FXH_dI2jA,1072
+great_scott/__init__.py,sha256=X3b2l5Qes6JGNb55uDS4ycVJufJlGWK3sr20RkZmOQM,918
+great_scott/__main__.py,sha256=FkGR5RsuVMK26cXCacfwIC6RxUyCk5Dz8ReNqOa3kxY,1131
+great_scott/migrations.py,sha256=cVekk6KAsWT1BzbREMOAILjwF0wq-AbsdKmYSrUX0Kg,3649
+great_scott/setup.py,sha256=FHeU6MYuF0f0ajR-gK7VphdLukU_2lLJEs2SdWwtfn8,4121
+great_scott-0.1.1.dist-info/LICENSE,sha256=nbuml9jjr0JoSjSmzkPuFD8a7I6IcPo-C3FXH_dI2jA,1072
+great_scott-0.1.1.dist-info/METADATA,sha256=nZ2g87t9935I6XGhzhVRK66Fu0cA-V0COtnSvXlx7YU,2831
+great_scott-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+great_scott-0.1.1.dist-info/entry_points.txt,sha256=5X2ei4R5hapg186pgpsq6qMUvmodzue23CixJReoXnw,57
+great_scott-0.1.1.dist-info/RECORD,,
