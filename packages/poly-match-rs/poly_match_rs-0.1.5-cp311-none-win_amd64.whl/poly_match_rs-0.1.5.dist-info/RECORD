@@ -1,0 +1,11 @@
+poly_match_rs-0.1.5.dist-info/METADATA,sha256=z_mzTdlEiSpIn9PeDRI1WabKNtUIKNPTBQBiShTCOYs,895
+poly_match_rs-0.1.5.dist-info/WHEEL,sha256=nR-iCKVzqslZ_ctUCwVzfmnK67PzA6bYt7Kz0L0Paj0,95
+poly_match_rs-0.1.5.dist-info/entry_points.txt,sha256=EPDr1WU9IgqC7VfnCs4ipRlYv8_hVl25VPspgPjJGpo,57
+poly_match_rs/baseline.py,sha256=Te5lozmWJiAHSnNor4H_qABUKqdRcR-0wFmggqtI4-4,2671
+poly_match_rs/v0.py,sha256=CyDwRrjLc-DHlyVdy1qjoqUYR4tPXqeKgTNyc8iDOJw,730
+poly_match_rs/v1.py,sha256=jKI4swpjXiLRfFyLdys0Yy1Fu1oQOQJ2ydbttESd1EI,2138
+poly_match_rs/v2.py,sha256=8MMnyU1aUwwhIeglfCul0bBnpJmw8Jrwxphc_2QV-A4,1968
+poly_match_rs/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+poly_match_rs/__main__.py,sha256=pyVxDEn9N-3IcYdU-rSjYsvylgJ-cP_vvIlwWUuMjPc,1191
+poly_match_rs/core.cp311-win_amd64.pyd,sha256=4cfWAvbyf-H-A4TcFqqyJe608lDQ3VSCmWr31Jc2tHU,365568
+poly_match_rs-0.1.5.dist-info/RECORD,,
