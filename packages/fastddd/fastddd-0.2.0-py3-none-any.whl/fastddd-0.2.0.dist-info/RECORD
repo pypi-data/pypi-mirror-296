@@ -1,0 +1,8 @@
+fastddd/__init__.py,sha256=m-nN-2nc_lX9gaaMTGgYOGsoP5iC1qmRnoNHh6yr6vk,40
+fastddd/add.py,sha256=3q3DkmDAPKqRZ-l_f3HXuvORqqgwkKG0gCwrDrOZX1c,48
+fastddd/resources/__init__.py,sha256=4iul2zCI-qMa2F6VVO8DWOiX93Fb9EUqUWB_yPV8kog,56
+fastddd/resources/entity.py,sha256=qu-q4D0_7Iqdzg9BKyez7T5a2DAu6wGQbqV6yL7Etko,975
+fastddd-0.2.0.dist-info/LICENSE,sha256=SrmuoB4f_w2-y-ZGixgbKbBt9R6AiVvyMr9J7Wye9J8,1063
+fastddd-0.2.0.dist-info/METADATA,sha256=kBkp0yDvDm52xKcFWufZP1L7ZrZP0ttSDjF1DrsSnRI,758
+fastddd-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fastddd-0.2.0.dist-info/RECORD,,
