@@ -1,0 +1,16 @@
+ayoomoney/__init__.py,sha256=mX6jO9JCkM6pv8_lrzKIdHFnXehXst5RMvt8ieCIz0w,56
+ayoomoney/wallet.py,sha256=v2ha72-wfri7WI-3QEebpmjHpBe9_4zY9XahIqCB2gw,6256
+ayoomoney/auth/__init__.py,sha256=kN6J-Hw1eBX2xwFVK3YQ8X_LcJKBEp3PHY8g9o_clL0,28
+ayoomoney/auth/__main__.py,sha256=iA5JIsXrxLmHuJ0mGRbgL_6ZHwGH4dNff3if7qltybE,658
+ayoomoney/auth/auto.py,sha256=0YpDeDeniOgMPOoIuKRtrfJ1KenX_0vHIiYjD5f1MFA,3713
+ayoomoney/auth/simple.py,sha256=jZguR4TOvrGSHQImQjNzg3wLffxt53c3yFS7fv9B-40,1523
+ayoomoney/types/__init__.py,sha256=UWAA0O19728oDjk-m9W0EYEXKoN33bqOP0VFNpG_9rw,285
+ayoomoney/types/account_info.py,sha256=6wjTapMdBJVI_EQPEHPzt7Up1aS4BuY_ppI66KAc9sA,1020
+ayoomoney/types/enums.py,sha256=433mCmhJ4AECOG1OUX9gDKlvLq2taA29Zu0xffosHWw,603
+ayoomoney/types/operation_details.py,sha256=QQLpgNZSd9ZwYK538qZYO7a3G53DGt-dmSEqD82jn5A,1222
+ayoomoney/types/operation_history.py,sha256=z3ZOXGA4c9sFLLshzvPToiMU-hSSTdd_Ocx4bcQ-V40,968
+ayoomoney/types/payment.py,sha256=FMoz8OJAKM1RwM9cbIkR19-q87TpnFi1Dr7ggWDZ45g,148
+ayoomoney-1.0.0.dist-info/METADATA,sha256=T-RpIas24Tn7IcxRCzCwun_tBbFgX0_TWKzGTNC6EMM,4500
+ayoomoney-1.0.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+ayoomoney-1.0.0.dist-info/top_level.txt,sha256=k1bgcxqYTpYmXcoAAJ3_JKfOy-STecg5p4zE02HbVVY,10
+ayoomoney-1.0.0.dist-info/RECORD,,
