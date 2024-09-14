@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: flutterwavedjango
+Version: 1.1.7
+Summary: A Django Integration Library for Flutterwave Payment"
+Home-page: https://github.com/surdma/FlutterWaveDjango
+License: MIT
+Keywords: django,flutterwave,payment,integration
+Author: Oladejo Sodiq Opeyemi
+Author-email: devsurdma@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: rave-python (>=1.4.1,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/surdma/FlutterWaveDjango/issues
+Project-URL: Documentation, https://github.com/surdma/FlutterWaveDjango
+Project-URL: Repository, https://github.com/surdma/FlutterWaveDjango.git
+Project-URL: Source, https://github.com/surdma/FlutterWaveDjango.git
+Description-Content-Type: text/markdown
+
+# FlutterwaveDjango - A Django Integration Library for Flutterwave Payments
+
+This library simplifies integrating Flutterwave, a popular African payment gateway, with your Django project. It provides functionalities for:
+
+## Usuage
+    - if the project is in development mode use your test keys else use your live keys
+        *payment = FlutterWaveDjango(public='your-public-key',secret='your-secret-key',inProduction=False)*
+* **Card Payments:**
+    * Initiate card charges with validation.
+    * Handle 3D Secure authentication (3DS) for added security.
+    * Verify card payments and validate OTPs.
+* **Payouts:**
+    * Initiate payouts to user accounts.
+    * Fetch details of specific payouts and retrieve a list of all successful payouts.
+    * Access your Flutterwave account balance.
+
+**Benefits:**
+
+* Simplifies integration with the Flutterwave API.
+* Handles common payment scenarios like card charges and 3DS authentication.
+* Provides methods for managing payouts and account balance.
+* Potentially improves the security of your Django application by leveraging Flutterwave's payment processing features.
+
+**Target Audience:**
+
+This library is ideal for developers building Django applications that require integration with Flutterwave for secure and efficient payment processing.
+
