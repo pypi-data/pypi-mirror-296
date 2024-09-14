@@ -1,0 +1,17 @@
+anansi/__init__.py,sha256=_-m22PIX8QXUgdE6c7Mdu1pz4JLvHxCVPqtJsvtOdNk,89
+anansi/escape_char.py,sha256=mxqThmx3bFE-Mm_0qzSg9IenUh5Edleq9Wmxq3OKhpc,61
+anansi/font/__init__.py,sha256=D7dCwYapIE70hy0iJVzGWIHemke_ljbb17RH8g_ykGU,108
+anansi/font/esc.py,sha256=WuNHahVzdVPqPWQYnaJmqpDUHrbOABwENlEDiXjLrnE,215
+anansi/font/colors/__init__.py,sha256=FnESYYoM7M4OekbQxn_I-4VBPJqQerAp8C5RWyWhwK4,132
+anansi/font/colors/_color_id.py,sha256=WACK7L13D1wkDlxKZTKk1ItJGSZCEmUlmZHCRBInIPY,970
+anansi/font/colors/background/__init__.py,sha256=SpXVvShK5VP0k7CuKwEZ4c-AxpUw4C3GKgXTDOg0zOo,423
+anansi/font/colors/background/_background.py,sha256=K19A3nmM_O3i-iVCvtd7a45Jv65I_AaRelUUxCN892U,991
+anansi/font/colors/foreground/__init__.py,sha256=0k-rFf7AJM0xE0spg6kqTqIxpyuOdn0NDn46M2sRq6g,423
+anansi/font/colors/foreground/_foreground.py,sha256=wWC2PZegnLWlVvDWF8QRiLgAaLDM3bpmvu1uBfr0ntc,990
+anansi/font/effects/__init__.py,sha256=Uw2tw1ljMUrGfDhkoLF1js7IKf_4dDOFJ8Sz0RYcXWM,964
+anansi/font/effects/_effects.py,sha256=CxgbkRG5Odmq9dHWOxwz9vPH9tEJSle9wIK_FCzqGSs,1322
+anansi/font/ideograms/__init__.py,sha256=j-1p0mmStAs6O3gFE_R24ex9Scss3hHLJrxLbS-H_4g,211
+anansi/font/ideograms/_ideograms.py,sha256=rXnBQMyBWX36d1AKAHwgov7scQmuiGTzSlMlZ1w2Ozw,239
+py_anansi-0.0.0.0.dist-info/METADATA,sha256=5rfYhavMFU56jd_tkpIR-Z8loaTKCR2BNqJSteLSfuw,1115
+py_anansi-0.0.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+py_anansi-0.0.0.0.dist-info/RECORD,,
