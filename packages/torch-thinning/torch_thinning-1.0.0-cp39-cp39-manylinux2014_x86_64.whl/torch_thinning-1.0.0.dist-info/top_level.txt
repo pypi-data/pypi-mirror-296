@@ -1,0 +1,2 @@
+torch_thinning
+zhang_suen_thinning
