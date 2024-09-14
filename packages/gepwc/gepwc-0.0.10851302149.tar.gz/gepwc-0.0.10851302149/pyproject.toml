@@ -1,0 +1,32 @@
+[project]
+name = "gepwc"
+dynamic = ["version"]
+dependencies = [
+  "click",
+]
+authors = [
+  {name = "Mouaad kadi", email = "kadi.mouaad@gmail.com"},
+]
+maintainers = [
+  {name = "Mouaad kadi", email = "kadi.mouaad@gmail.com"}
+]
+description = "This is a python version of wc, it perform serval common wc tasks"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["wc", "counting", "words", "chracters"]
+
+[project.urls]
+Repository = "https://github.com/kadimouaad/gepwc"
+
+[project.scripts]
+spam-cli = "spam:main_cli"
+
+[tool.setuptools.packages.find]
+where = [""]
+include = ["*"]  # ["*"] by default
+exclude = []  # empty by default
+namespaces = true  # true by default
+
+[project.gui-scripts]
+gepwc = "gepwc:pywc"
+

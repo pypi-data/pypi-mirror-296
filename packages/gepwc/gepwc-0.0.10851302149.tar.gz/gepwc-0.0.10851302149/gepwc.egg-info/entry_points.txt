@@ -1,0 +1,5 @@
+[console_scripts]
+spam-cli = spam:main_cli
+
+[gui_scripts]
+gepwc = gepwc:pywc
