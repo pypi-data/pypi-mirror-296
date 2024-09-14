@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: backend-dev-utils
+Version: 1.0.0
+Summary: Utility functions for python backend developers.
+Home-page: https://backend-dev-utils.melikbugraozcelik.com
+License: MIT
+Author: melikbugra
+Author-email: melik@melikbugraozcelik.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi[standard] (>=0.112.2,<0.113.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: sqlmodel (>=0.0.21,<0.0.22)
+Project-URL: Author, https://melikbugraozcelik.com
+Project-URL: Issues, https://github.com/melikbugra/backend-dev-utils/issues
+Description-Content-Type: text/markdown
+
+[![PyPI Release🐍](https://github.com/melikbugra/backend-dev-utils/actions/workflows/python-publish.yml/badge.svg?branch=main)](https://github.com/melikbugra/backend-dev-utils/actions/workflows/python-publish.yml)
+![Coverage](https://backend-dev-utils.melikbugraozcelik.com/coverage.svg)
+
+# Backend Development Utilities
+
+Utility functions for Python backend developers.
+
+## Description
+
+This project provides a collection of utility functions to assist backend developers in their daily tasks. It aims to simplify common operations and improve productivity.
+
+
+## Installation
+
+To install the package, use the following command:
+
+```bash
+pip install backend-dev-utils
+```
+
+## Usage
+
+Please see the [Documentation](https://backend-dev-utils.melikbugraozcelik.com/) for the usage and tutorials.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
