@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record model="ir.ui.view" id="wizard_project_recalculate_form">
+        <field name="name">project.recalculate.execution.wizard.form</field>
+        <field name="model">project.recalculate.execution.wizard</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Recalculate project execution">
+                <group>
+                    <p>This Projects will be recalculated according this date:</p>
+                    <group>
+                        <field name="date"/>
+                    </group>
+                    <p>Are you sure?</p>
+                </group>
+                <footer>
+                    <button name="confirm_button" string="Continue" type="object" />
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- record id="action_project_recalculate_execution_2" model="ir.actions.act_window">
+        <field name="name">Recalculate Execution</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">project.recalculate.execution.wizard</field>
+        <field name="view_mode">form</field>
+        < field name="view_id" ref="view_project_gtd_fill" / >
+        <field name="context">{'record_id' : active_id}</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="project.model_project_project" />
+        <field name="binding_view_types">list,form</field>
+    </record -->
+
+    <!--record id="action_project_recalculate_execution_3" model="ir.actions.act_window">
+        <field name="name">Recalculate Execution</field>
+        <field name="res_model">project.recalculate.execution.wizard</field>
+        <field name="binding_model_id" ref="model_project_project"/>
+        <field name="view_mode">form</field>
+        <field name="context">{'dialog_size': 'medium'}</field>
+        <field name="target">new</field>
+    </record -->
+
+
+
+    <!-- act_window id="action_project_recalculate_execution_4"
+        name="Recalculate Execution"
+        multi="True"
+        res_model="project.recalculate.execution.wizard"
+        src_model="project.project"
+        view_mode="form"
+        view_type="form"
+        target="new"/ -->
+
+
+</odoo>
