@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: lqlpath
+Version: 0.2.0
+Summary: A package for searching log query language path 
+Author: Harish Lohiya
+Author-email: harishlohiya@gmail.com
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+#lqlpath
+lqlpath is a Python package designed to retrieve field paths in Google BigQuery logs based on either keys or values, making it particularly useful for working with BigQuery Log Query Language (LQL). Whether you're searching for specific keys or values in your JSON-formatted BigQuery logs, lqlpath helps you quickly locate the relevant fields.
+
+#Features
+Search by Key: Retrieve a list of field paths in a JSON file where a specific key is found, particularly for BigQuery logs.
+Search by Value: Retrieve a list of field paths in a JSON file where a specific value is found.
+BigQuery-Specific Searches: Specialized functions to search within BigQuery log structures, helping you extract key information from logs such as project, dataset, and table identifiers.
+
+#Installation
+
+To install the package, simply run:
+
+pip install lqlpath
+
+#Usage
+The following examples show how to search for key paths or value paths in BigQuery logs.
+
+Example: Search Field Paths by Key
+
+from lqlpath import get_byKey
+
+# Search for the key 'reservation' in the BigQuery JSON log file 'bq.json'
+
+print(get_byKey('bq.json', 'reservation'))
+
+Output:
+
+['protoPayload.serviceData.jobInsertResponse.resource.jobStatistics.reservation']
+
+Example: Search Field Paths by Value
+
+from lqlpath import get_byValue
+
+# Search for the value 'us-central1' in the BigQuery JSON log file 'bq.json'
+
+print(get_byValue('bq.json', 'us-central1'))
+
+
+Output:
+
+['protoPayload.serviceData.jobInsertResponse.resource.jobName.location']
+
+#Specialized BigQuery Log Search by Key
+
+The bq_get_byKey function allows you to search specifically within the structure of BigQuery logs. You can specify the type of BigQuery resource (e.g., table, dataset) and the key you're looking for.
+
+Supported BigQuery resource types:
+
+-BIGQUERY_RESOURCE
+-BIGQUERY_PROJECT
+-BIGQUERY_DATASET
+-BIGQUERY_TABLE
+
+#Example
+from lqlpath import bq_get_byKey
+
+# Search for the key 'table_id' within BigQuery table resources
+
+print(bq_get_byKey('BIGQUERY_TABLE', 'table_id'))
+
+Output:
+
+['resource.labels.table_id']
+
+#Example Use Cases
+Log Query Language (LQL) Exploration: Use lqlpath to extract paths for keys or values from complex BigQuery logs, making it easier to write queries.
+BigQuery Log Analysis: Quickly find the relevant fields in your BigQuery log files when troubleshooting or monitoring BigQuery operations.
+
+#License
+This project is licensed under the MIT License. See the LICENSE file for more details.
