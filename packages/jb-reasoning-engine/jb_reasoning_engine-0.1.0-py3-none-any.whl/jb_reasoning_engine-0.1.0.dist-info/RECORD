@@ -1,0 +1,5 @@
+jb_reasoning_engine/__init__.py,sha256=Qp_c4HYyecHeluATyt2i2fnjJnq180-Z1jp-OH1XxQA,83
+jb_reasoning_engine/reasoning_engine_plugin.py,sha256=WT_jyJP_RvpOhDkSVxMZ9O0nGz8POqzIll9n3LVzRcU,2579
+jb_reasoning_engine-0.1.0.dist-info/METADATA,sha256=J5k7TwPCVvhWg2_ICHIknYYasr8JMSk4H3OCCMZDJqY,434
+jb_reasoning_engine-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jb_reasoning_engine-0.1.0.dist-info/RECORD,,
