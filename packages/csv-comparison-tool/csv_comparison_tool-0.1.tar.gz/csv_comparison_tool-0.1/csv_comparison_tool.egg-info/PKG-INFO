@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: csv_comparison_tool
+Version: 0.1
+Summary: A simple tool to compare CSV/XLSX files using pandas and tkinter.
+Author: Dee Cuaresma
+Author-email: dustin.cuaresma@lattice.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas
