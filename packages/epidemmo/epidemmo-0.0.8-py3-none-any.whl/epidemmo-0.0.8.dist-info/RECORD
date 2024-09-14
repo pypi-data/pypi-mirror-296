@@ -1,0 +1,12 @@
+epidemmo/__init__.py,sha256=S8cW2D9r5oWiuGDh6VeFLDztkNd3CyFYa_ooZ9mTV5Q,98
+epidemmo/builder.py,sha256=QFAg5oyPMVx0jHRJuS6HPGalaKgjiqGEmiglyHAIAm0,8521
+epidemmo/factor.py,sha256=RT80cAmfOvQkrA3C015TfPSE8LiJKyU8knx9lsa55Bw,4524
+epidemmo/flow.py,sha256=zcn-ftBlLf1LjANNQz4acNsKygmepHAGb-ecCalK_90,5988
+epidemmo/model.py,sha256=xn99baEXQd4CoLhJcYM3PLjm1cq3DI3IvLIMdSAN-Wg,8530
+epidemmo/model_io.py,sha256=c1_d5QzT5AGXOKWIsmFvt6b07HKrseV4aF2BmlRuKiw,3634
+epidemmo/stage.py,sha256=J21SKqHn6Udo5blnwqGuvTvPI7ZP8Qu2C7eV9wtVsl0,3476
+epidemmo/template.py,sha256=p21xrPVW-7t5ZXSTTs3vZclEh7TYVI-CxXUCTcppnSQ,1366
+epidemmo-0.0.8.dist-info/METADATA,sha256=WbGzOedC2qKzXb0dngVdkqDy4F2ndvv9Am2XWRHrXkI,3335
+epidemmo-0.0.8.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+epidemmo-0.0.8.dist-info/licenses/LICENSE,sha256=sxpCTO5z0upc4zJ-z_DqQZfvuaCgFvJ17VkEloMG7Lc,1093
+epidemmo-0.0.8.dist-info/RECORD,,
