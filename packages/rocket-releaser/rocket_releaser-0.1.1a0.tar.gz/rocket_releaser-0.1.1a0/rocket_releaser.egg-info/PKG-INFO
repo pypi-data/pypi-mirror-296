@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rocket_releaser
+Version: 0.1.1a0
+Summary: Script for release notes and labeling upon deploys
+Home-page: https://github.com/15five/rocket_releaser
+Author: 15Five
+Author-email: devops@15five.com
+License: MIT
+Keywords: release-notes release-automation
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: gitdb2>=4
+Requires-Dist: github3.py>=4
+Requires-Dist: jira>=3
+Requires-Dist: slacker
+
+See repo for README.md
