@@ -1,0 +1,75 @@
+{
+    "name": "SIRS",
+    "stages": [
+        {
+            "name": "S",
+            "num": 100.0
+        },
+        {
+            "name": "I",
+            "num": 1.0
+        },
+        {
+            "name": "R",
+            "num": 0.0
+        }
+    ],
+    "factors": [
+        {
+            "name": "beta",
+            "value": 0.5
+        },
+        {
+            "name": "end[I]-F(S>I)",
+            "value": 1.0
+        },
+        {
+            "name": "gamma",
+            "value": 0.2
+        },
+        {
+            "name": "ind[I]-F(S>I)",
+            "value": 1.0
+        },
+        {
+            "name": "delta",
+            "value": 0.01
+        },
+        {
+            "name": "end[R]-F(I>R)",
+            "value": 1.0
+        },
+        {
+            "name": "end[S]-F(R>S)",
+            "value": 1.0
+        }
+    ],
+    "flows": [
+        {
+            "start": "S",
+            "factor": "beta",
+            "end": {
+                "I": "end[I]-F(S>I)"
+            },
+            "inducing": {
+                "I": "ind[I]-F(S>I)"
+            }
+        },
+        {
+            "start": "I",
+            "factor": "gamma",
+            "end": {
+                "R": "end[R]-F(I>R)"
+            },
+            "inducing": {}
+        },
+        {
+            "start": "R",
+            "factor": "delta",
+            "end": {
+                "S": "end[S]-F(R>S)"
+            },
+            "inducing": {}
+        }
+    ]
+}
