@@ -1,0 +1,10 @@
+ldaplogin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ldaplogin/login.py,sha256=jj4dWEQw8mlzuKs8b-YHykWR36SvH7fAkt2IwBGvS9A,1507
+ldaplogin/logout.py,sha256=pO2hTy7nnuOLBhSGDEI2GK4Es6nmXsiaLQ0aAnwkS9E,896
+ldaplogin/setup_credentials.py,sha256=rTBMOVQvNRjhbHY2iB0hkbxyXjVR5vJOpBfBCMQOkRk,387
+ldap_iitmandi-1.0.dist-info/LICENSE,sha256=idPBegzfBBenNyFFoYJM1_X5ZXMMDJaDg-Vhw33z-4Y,1073
+ldap_iitmandi-1.0.dist-info/METADATA,sha256=GTbmp-o5Ttp6bK7UlSvp79IU8FVOSCRO60B-hRUMl6I,1958
+ldap_iitmandi-1.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+ldap_iitmandi-1.0.dist-info/entry_points.txt,sha256=F80iSCDstw7SH_L0gqZj-syNY5RnngJsQBxYDdu6GRI,160
+ldap_iitmandi-1.0.dist-info/top_level.txt,sha256=Six1Xj9dAmshKCGfC4GRENGY2NZx2NOflV2LmVJFMwQ,10
+ldap_iitmandi-1.0.dist-info/RECORD,,
