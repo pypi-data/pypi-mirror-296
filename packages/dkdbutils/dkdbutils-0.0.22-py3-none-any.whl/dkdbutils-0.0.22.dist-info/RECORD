@@ -1,0 +1,11 @@
+dkdbutils/__init__.py,sha256=jm3DtWh67jHGndudbAPoUHe_3HKFBWN3B5blfPj6v9g,23
+dkdbutils/esclient.py,sha256=3wFZdPa5rgNv-3SNTKTkaH1hkAbpuqdyA-WuAxkbG9c,16108
+dkdbutils/main.py,sha256=End8u8wO5P84DwBZFUN64LZHkZnBCCteXGkO8FBJ_R0,140
+dkdbutils/migrations.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dkdbutils/root.py,sha256=av9lVc-hIrnrIy6cCVoQo-Np1euwiKZqvrLkYugo0f8,951
+dkdbutils-0.0.22.dist-info/METADATA,sha256=O5Gny4TR2m3ZQIvdZsDgicKOjhsVhnCkJffyz0KviJE,793
+dkdbutils-0.0.22.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+dkdbutils-0.0.22.dist-info/entry_points.txt,sha256=gPYgjQB_3K84CxxJ2f2BmfFAbO-Bn1o5mgs9DBi00CM,47
+dkdbutils-0.0.22.dist-info/top_level.txt,sha256=mJlTj9UnTKSu6zwZprHYpCX7-J-FfX57iuWAWvxNYWo,10
+dkdbutils-0.0.22.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dkdbutils-0.0.22.dist-info/RECORD,,
