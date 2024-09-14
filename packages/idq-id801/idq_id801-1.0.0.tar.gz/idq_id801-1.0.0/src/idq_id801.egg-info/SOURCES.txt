@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/id801/__init__.py
+src/id801/id801.py
+src/idq_id801.egg-info/PKG-INFO
+src/idq_id801.egg-info/SOURCES.txt
+src/idq_id801.egg-info/dependency_links.txt
+src/idq_id801.egg-info/requires.txt
+src/idq_id801.egg-info/top_level.txt
