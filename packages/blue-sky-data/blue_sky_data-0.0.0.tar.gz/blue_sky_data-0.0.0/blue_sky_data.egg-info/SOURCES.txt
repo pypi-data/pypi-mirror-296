@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+blue_sky_data.egg-info/PKG-INFO
+blue_sky_data.egg-info/SOURCES.txt
+blue_sky_data.egg-info/dependency_links.txt
+blue_sky_data.egg-info/top_level.txt
