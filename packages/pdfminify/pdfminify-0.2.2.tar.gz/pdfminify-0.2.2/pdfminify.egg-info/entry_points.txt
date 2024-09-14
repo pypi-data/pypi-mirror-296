@@ -1,0 +1,2 @@
+[console_scripts]
+pdfminify = pdfminify.__main__:main
