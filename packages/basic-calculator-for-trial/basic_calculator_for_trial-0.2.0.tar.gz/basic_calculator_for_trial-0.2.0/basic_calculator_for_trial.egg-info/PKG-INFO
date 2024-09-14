@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: basic-calculator-for-trial
+Version: 0.2.0
+Summary: A simple Python calculator
+Home-page: https://github.com/pallavihoge1/basic_calculator_for_trial
+Author: Pallavi Hoge
+Author-email: pallavihoge47@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Basic Calculator for Trial
+
+A simple Python calculator.
+
