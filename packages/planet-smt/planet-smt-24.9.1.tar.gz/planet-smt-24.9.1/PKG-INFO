@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: planet-smt
+Version: 24.9.1
+Summary: SDK of Signals and Markers Toolkit
+Author: Planet Labs
+Requires-Python: >=3.11
+License-File: LICENSE
+
+The `planet-smt` package is a Python-based SDK for Planet's `Signals & Markers Toolkit` (SMT). You can find the full documentation, data specification, and a user guide at the [SMT Community GitLab repository](https://gitext.sinergise.com/area-monitoring/community). If you need to contact us, please refer to the [Contact Us](#contact-us) section.
