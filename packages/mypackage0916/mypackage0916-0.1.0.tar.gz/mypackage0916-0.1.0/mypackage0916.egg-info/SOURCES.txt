@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mypackage/__init__.py
+mypackage/module1.py
+mypackage/module2.py
+mypackage0916.egg-info/PKG-INFO
+mypackage0916.egg-info/SOURCES.txt
+mypackage0916.egg-info/dependency_links.txt
+mypackage0916.egg-info/top_level.txt
+tests/__init__.py
+tests/test_module1.py
