@@ -1,0 +1,107 @@
+[project]
+name = "ansible-lint-custom-strict-naming"
+description = "Add your description here"
+authors = [{ name = "pollenjp", email = "polleninjp@gmail.com" }]
+dependencies = ["ansible-lint>=6.24.0"]
+readme = "README.md"
+requires-python = ">= 3.12"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/pollenjp/ansible-lint-custom-strict-naming"
+"Repository" = "https://github.com/pollenjp/ansible-lint-custom-strict-naming"
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [
+    "ansible_lint_custom_strict_naming",
+    "ansiblelint.rules.custom.ansible_lint_custom_strict_naming",
+]
+
+[tool.uv]
+# https://github.com/astral-sh/uv/issues/6127#issuecomment-2298975659
+environments = ["platform_system != 'Windows'"]
+dev-dependencies = ["pyright>=1.1.378", "ruff>=0.6.3"]
+
+[tool.setuptools.package-dir]
+"ansible_lint_custom_strict_naming" = "src/ansible_lint_custom_strict_naming"
+"ansiblelint.rules.custom.ansible_lint_custom_strict_naming" = "src/rules"
+
+[tool.setuptools.dynamic]
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#dynamic-metadata
+version = { attr = "ansible_lint_custom_strict_naming.__about__.__version__" }
+
+
+[tool.ruff]
+target-version = "py312"
+line-length = 160
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = 80
+
+[tool.ruff.lint]
+select = [
+    "A",
+    "ARG",
+    "B",
+    "C",
+    "DTZ",
+    "E",
+    "EM",
+    "F",
+    "FBT",
+    "I",
+    "ICN",
+    "ISC",
+    "N",
+    "PLC",
+    "PLE",
+    "PLR",
+    "PLW",
+    "Q",
+    "RUF",
+    "S",
+    "T",
+    "TID",
+    "UP",
+    "W",
+    "YTT",
+]
+ignore = ["ISC001"]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests can use magic values, assertions, and relative imports
+"tests/**/*" = ["PLR2004", "S101", "TID252"]
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.isort]
+known-first-party = ["pollenjp_infra_ansible"]
+force-single-line = true
+
+[tool.pyright]
+pythonVersion = "3.12"
+typeCheckingMode = "strict"
+# https://github.com/microsoft/pyright/blob/main/docs/configuration.md#diagnostic-settings-defaults
+deprecateTypingAliases = true
+reportCallInDefaultInitializer = "error"
+reportImplicitOverride = "error"
+reportImplicitStringConcatenation = "error"
+reportImportCycles = "error"
+reportMissingSuperCall = "error"
+reportPropertyTypeMismatch = "error"
+reportShadowedImports = "error"
+reportUninitializedInstanceVariable = "error"
+reportUnnecessaryTypeIgnoreComment = "error"
+reportUnusedCallResult = "error"
