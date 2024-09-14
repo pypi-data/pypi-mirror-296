@@ -1,0 +1,12 @@
+dataidea_science/__init__.py,sha256=JdGudWBfJp2A1k-TgmqDDUlgPZowey34tEql_XWP85A,96
+dataidea_science/_modidx.py,sha256=uQ-QPMqeQWXDDVMAJK2sSWobfGe0CWTDbFrvDb7GEXs,507
+dataidea_science/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+dataidea_science/datasets.py,sha256=7jRT_VQudskLscL9R33kpPPZyXReJwHWFudn013GGs0,815
+dataidea_science/plots.py,sha256=pTNj3pvkm2G-JRRvoXcbzvIIpCLl0hfZ64wwz4MkYKM,2695
+dataidea_science/preprocessing.py,sha256=fYNNAcadxcJuD4fcV4_TXZ1PqrJETxuZTIE68uuIrA4,1090
+dataidea_science-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+dataidea_science-0.0.1.dist-info/METADATA,sha256=5TeNlXkfmaugSjMtPrXRHUxOmSF--pAW79N5nZQQVHA,6732
+dataidea_science-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dataidea_science-0.0.1.dist-info/entry_points.txt,sha256=ZIUnkUf68FYNhdzHfZ1grMM8gSx60TjcCiXvKqLaOHM,54
+dataidea_science-0.0.1.dist-info/top_level.txt,sha256=3ZNeO1MwUhoLgzEaG36cfMTiFkNyfH3syI7a_1zCHp8,17
+dataidea_science-0.0.1.dist-info/RECORD,,
