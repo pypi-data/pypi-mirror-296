@@ -1,0 +1,9 @@
+README.md
+setup.py
+otel_sdk_kfc/__init__.py
+otel_sdk_kfc/main.py
+otel_sdk_kfc.egg-info/PKG-INFO
+otel_sdk_kfc.egg-info/SOURCES.txt
+otel_sdk_kfc.egg-info/dependency_links.txt
+otel_sdk_kfc.egg-info/not-zip-safe
+otel_sdk_kfc.egg-info/top_level.txt
