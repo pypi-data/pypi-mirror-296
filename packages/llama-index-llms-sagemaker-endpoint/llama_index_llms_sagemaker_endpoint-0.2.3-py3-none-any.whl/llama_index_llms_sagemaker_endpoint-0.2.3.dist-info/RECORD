@@ -1,0 +1,6 @@
+llama_index/llms/sagemaker_endpoint/__init__.py,sha256=rrY6E92q-k1Yi1j_Ju5iTRdcojd8Vtkvce-0hVjn7K0,94
+llama_index/llms/sagemaker_endpoint/base.py,sha256=noBpYAdVWBeoAEyy4IVFmaBG-Cr_7RCxeriUIblJ_MM,11157
+llama_index/llms/sagemaker_endpoint/utils.py,sha256=2it1lyGo_BeoA60L2QJAj_0-TOuLLtxIkV-XhDZtLKk,2546
+llama_index_llms_sagemaker_endpoint-0.2.3.dist-info/METADATA,sha256=sj_rTqjNn5PzJU8md3ZdmhsbA6d2z-gV52Pvo9V2_d0,731
+llama_index_llms_sagemaker_endpoint-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_llms_sagemaker_endpoint-0.2.3.dist-info/RECORD,,
