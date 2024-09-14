@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyscan_tlk
+Version: 0.0.0
+Summary: Thorlabs Kinesis python wrappers
+Author-email: Andy Mounce <ammounce@gmail.com>
+Keywords: thorlabs,kinesis,instrument control,science
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: comtypes
+
+# pyscan-tlk
+Python wrappers for Thorlabs Kinesis dlls. 
+
+# Installation
+Don't yet!

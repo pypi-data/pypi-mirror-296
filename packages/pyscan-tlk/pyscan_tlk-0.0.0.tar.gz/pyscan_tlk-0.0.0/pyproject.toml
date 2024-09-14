@@ -1,0 +1,19 @@
+[build-system]
+requires = [ "setuptools", "wheel" ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyscan_tlk"
+dynamic=["version"]
+requires-python = ">= 3.7"
+description = "Thorlabs Kinesis python wrappers"
+keywords = [ "thorlabs", "kinesis", "instrument control", "science" ]
+dependencies = [ "comtypes" ]
+readme = "README.md"
+
+  [[project.authors]]
+  name = "Andy Mounce"
+  email = "ammounce@gmail.com"
+
+[tool.setuptools.dynamic]
+version = {file = "pyscan_tlk.version.py"}
