@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mass-mailer"
+version = "0.1.0"
+description = ""
+authors = ["AnuprabhSingh <127375629+AnuprabhSingh@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
