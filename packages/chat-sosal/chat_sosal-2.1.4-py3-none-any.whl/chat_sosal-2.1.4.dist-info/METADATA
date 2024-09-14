@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: chat-sosal
+Version: 2.1.4
+Summary: This is the simplest module for quick work with files.
+Home-page: https://github.com/yourusername/yourrepository
+Author: feeland
+Author-email: prokuronov.valera@mail.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: aiohttp
+Requires-Dist: pytz
+Requires-Dist: grapheme
+Requires-Dist: emoji
+
+222
