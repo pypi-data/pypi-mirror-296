@@ -1,0 +1,26 @@
+Metadata-Version: 2.3
+Name: amalie
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Mathmatical library written for rust and python
+Keywords: math,algebra
+Author: GlacierSG <iamglaciersg@gmail.com>
+Author-email: GlacierSG <iamglaciersg@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/GlacierSG/amalie
+
+# Amalie
+Amalie is a mathmatical library written in rust.
+
+## Run
+### Rust
+`cargo add amalie`
+
+### Python
+`pip install amalie`
+
