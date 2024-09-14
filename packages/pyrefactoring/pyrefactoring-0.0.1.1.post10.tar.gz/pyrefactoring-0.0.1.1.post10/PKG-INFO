@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyrefactoring
+Version: 0.0.1.1.post10
+Summary: Restructuring existing Python source code from a mess into clean and flexible design.
+Home-page: https://github.com/hieupth/pyrefactor
+Author: Hieu Pham
+Author-email: 64821726+hieupth@users.noreply.github.com
+License: GNU AGPL v3.0
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Refactoring
+Reconstructing existing Python source code from a mess into clean and flexible design.
+```bash
+pip install pyrefactoring
+```
+## License
+[GNU AGPL v3.0.](LICENSE)<br>
+Copyright &copy; 2024 [Hieu Pham](https://github.com/hieupth). All rights reserved.
