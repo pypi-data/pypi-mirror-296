@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+meupacote_renato/__init__.py
+meupacote_renato/modulo.py
+meupacote_renato.egg-info/PKG-INFO
+meupacote_renato.egg-info/SOURCES.txt
+meupacote_renato.egg-info/dependency_links.txt
+meupacote_renato.egg-info/requires.txt
+meupacote_renato.egg-info/top_level.txt
