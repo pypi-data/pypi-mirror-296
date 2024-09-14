@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: LoIpGen
+Version: 0.0.1
+Summary: Simple Lorem Ipsum Generator
+Home-page: https://github.com/NoemyT/projeto_lorem_ipsum/
+Author: NoemyT
+Author-email: hatafa123@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# LoIpGen
+
+This is a simple package to generate Lorem Ipsum text with as many characters as you want
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install LoIpGen
+
+```bash
+pip install LoIpGen
+```
+
+## Usage
+
+```python
+from LoIpGen.LoIpGen import generate_lorem
+print(generate_lorem(100))
+```
+
+## Author
+NoemyT
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
