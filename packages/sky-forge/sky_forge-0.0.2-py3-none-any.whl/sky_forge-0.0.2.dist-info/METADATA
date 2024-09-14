@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: sky-forge
+Version: 0.0.2
+Summary: sky-forge is a curated set of cloud components that can be used to assemble cloud based applications.
+Project-URL: Documentation, https://github.com/DanRepik/sky-forge
+Project-URL: Source, https://github.com/DanRepik/sky-forge
+Author-email: Daniel Repik <danrepik@icloud.com>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Requires-Dist: pulumi
+Requires-Dist: pulumi-aws
