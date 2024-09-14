@@ -1,0 +1,7 @@
+README.txt
+setup.py
+hh_test_pp.egg-info/PKG-INFO
+hh_test_pp.egg-info/SOURCES.txt
+hh_test_pp.egg-info/dependency_links.txt
+hh_test_pp.egg-info/top_level.txt
+tests/test_popup.py
