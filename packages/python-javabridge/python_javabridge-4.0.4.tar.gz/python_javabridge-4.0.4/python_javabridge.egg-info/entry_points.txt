@@ -1,0 +1,2 @@
+[nose.plugins.0.10]
+javabridge = javabridge.noseplugin:JavabridgePlugin
