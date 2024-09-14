@@ -1,0 +1,12 @@
+sskb/__init__.py,sha256=d-GzxkyRScQG00RTwX0Y3bKIPxGUrXu8Q0FhFTfL5Ew,27
+sskb/data_model.py,sha256=dT_JSJf7C9R2Vl6AiQoeoSuygoSTmVLvRTNIpxONp1c,733
+sskb/skb.py,sha256=z_RCRZzJRSo1j-Ck_KMiyZBrruwKRq8rUscacKUVsRg,1826
+sskb/data_access/__init__.py,sha256=nXdnHvlnX-H1sPpapsZFJFt23sX0c5gKQ5sVidJAUXw,521
+sskb/data_access/esnli.py,sha256=Yu8kFJNolVa5Rp7LKAF0oi2N4FbaA1kWrxznp1bFE9w,4452
+sskb/data_access/nli4ct.py,sha256=_f1EilHinG-3ZCc4php9suVXLiThAVd4UrH0bPCPZKY,5158
+sskb/data_access/proofwiki.py,sha256=O55gy_FAoAEIkyGFrCkIolZGre2ex7vp7c770_xHcuY,5338
+sskb/data_access/worldtree.py,sha256=C0dsVvaO2LnN_ny5f8n01wfWyyopv-fGg8lQLEzV9zs,5861
+sskb-0.1.5.dist-info/METADATA,sha256=NSI7gdzuw_Z5gg7EXWTtfQ3ZzUxOaHMiB6bcli93les,5266
+sskb-0.1.5.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+sskb-0.1.5.dist-info/top_level.txt,sha256=X36gKQf9Rt82zMs2-6Jup76rkmmgBpfwz3En-HeXNlk,5
+sskb-0.1.5.dist-info/RECORD,,
