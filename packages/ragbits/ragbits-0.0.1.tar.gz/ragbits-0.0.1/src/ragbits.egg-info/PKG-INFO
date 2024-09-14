@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ragbits
+Version: 0.0.1
+Summary: "common utilities for the ragbits framework"
+Author: deepsense.ai
+Author-email: ragbits@deepsense.ai
+License: Other/Proprietary License
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
