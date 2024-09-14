@@ -1,0 +1,7 @@
+VAssureAPIPreRequisites
+VAssureCommonResources
+VAssureCustomKeywords
+VAssureDatabase
+VAssureHubConfig
+VAssureVaultUtilities
+WonderPharmaResources
