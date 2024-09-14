@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gepwc/__init__.py
+gepwc/__version.py
+gepwc/core.py
+gepwc.egg-info/PKG-INFO
+gepwc.egg-info/SOURCES.txt
+gepwc.egg-info/dependency_links.txt
+gepwc.egg-info/entry_points.txt
+gepwc.egg-info/requires.txt
+gepwc.egg-info/top_level.txt
+tst/test.py
