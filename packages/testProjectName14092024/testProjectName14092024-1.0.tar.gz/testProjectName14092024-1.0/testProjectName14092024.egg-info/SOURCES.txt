@@ -1,0 +1,16 @@
+MANIFEST.in
+README.txt
+setup.py
+Doc/documentation.txt
+examples/__init__.py
+examples/helloworld.py
+projectname/__init__.py
+projectname/bar.py
+projectname/foo.py
+projectname/utils/__init__.py
+projectname/utils/grok.py
+projectname/utils/spam.py
+testProjectName14092024.egg-info/PKG-INFO
+testProjectName14092024.egg-info/SOURCES.txt
+testProjectName14092024.egg-info/dependency_links.txt
+testProjectName14092024.egg-info/top_level.txt
