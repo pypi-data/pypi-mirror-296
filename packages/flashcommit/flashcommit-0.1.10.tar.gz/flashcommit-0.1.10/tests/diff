@@ -1,0 +1,13 @@
+diff --git a/fixtures/diff-with-context-between-changed-lines/gitclient.py b/fixtures/diff-with-context-between-changed-lines/gitclient.py
+--- a/fixtures/diff-with-context-between-changed-lines/gitclient.py
++++ b/fixtures/diff-with-context-between-changed-lines/gitclient.py
+@@ -91,4 +91,4 @@
+         logger.info(f"Saving debug info to {tempdir}")
+         with open(os.path.join(tempdir, "diff"), "w") as file:
+             file.write(diff)
+-        with open(os.path.join(tempdir, os.path.basename(filename)), "w") as file:
++        with open(os.path.join(tempdir, os.path.basename(file)), "w") as file:
+             file.write(file_content)
+-        with open(os.path.join(tempdir, "diff.fixed"), "w") as file:
++        with open(os.path.join(tempdir, "diff.parsed"), "w") as file:
+             file.write(fixed_diff)

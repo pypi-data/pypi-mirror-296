@@ -1,0 +1,12 @@
+diff --git a/flashcommit/diff_parser.py b/flashcommit/diff_parser.py
+index a752c65..8b0836e 100644
+--- a/flashcommit/diff_parser.py
++++ b/flashcommit/diff_parser.py
+@@ -1,7 +1,7 @@ def lowest_nr_of_lines(s: str) -> int:
+
+
+ def count_non_minus_lines(text: str) -> int:
+-    return sum(1 for line in text.split('\n')
++    return sum(1 for line in text.splitlines()
+                if not line.startswith('-') and not line.startswith('@@'))
+
