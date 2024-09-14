@@ -1,0 +1,8 @@
+stacked_quantile/__init__.py,sha256=2i6y_-QHaypoJePdXCgA3ppdL__DW-sogsFrBxsHtCw,375
+stacked_quantile/main.py,sha256=hqLeXndtztegI_sp10jWTllANp74YOgHFLWJRl0FapE,6211
+stacked_quantile/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stacked_quantile/typed_np_functions.py,sha256=xxG-PzYyes3CLahkKoBbFCyY2kZUZCHcKOKc4jvB6MQ,885
+stacked_quantile-0.4.0.dist-info/METADATA,sha256=bG1NqSk5bdLCAw-f8PVrDcP0SqyF9MUgtfOmqqMHO_Q,4753
+stacked_quantile-0.4.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+stacked_quantile-0.4.0.dist-info/top_level.txt,sha256=xQNY9WIbaZEryCXFWFm4NQ48pGa0vvlMDtmI0JBsNr4,17
+stacked_quantile-0.4.0.dist-info/RECORD,,
