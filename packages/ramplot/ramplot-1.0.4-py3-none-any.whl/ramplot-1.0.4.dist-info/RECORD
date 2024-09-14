@@ -1,0 +1,16 @@
+ramplot/__init__.py,sha256=T0IV3DrCK_ZX1LuUbdbbaJDVrL6X0gYNMov5occmTGg,410
+ramplot/cli.py,sha256=01kl9K2E54y4ZhgIk1tYoOdW5ZM8LQCIHnoBmyay7GI,6698
+ramplot/ramplot.py,sha256=kQSKjJV1SekM-z5q6X6iYWW6HFC5OS9_s_RnpD0tpb4,89357
+ramplot/RamBoundry/MolprovityAllRegionGeneral.csv,sha256=6JcttqzJj1oPicQz0T-gFl9tB9w7dq6gFZYKgCqJ5WQ,1719352
+ramplot/RamBoundry/MolprovityAllRegionGeneral3DBeta.csv,sha256=pTf5ZnI7R3pbJGu7z5tldgHjHamFvndvAQ-FNcRbhsI,2175886
+ramplot/RamBoundry/MolprovityAllRegionGly.csv,sha256=R6htiTxrZd-pSCowrf1uMX4FWZh_p9mt1v8h-wRn1C4,1643101
+ramplot/RamBoundry/MolprovityAllRegionVal_Ile.csv,sha256=0mG834dNrN48Cg-q1whKZgfI_3UfGRJEAqVgyGSyA9o,1745587
+ramplot/RamBoundry/MolprovityAllRegioncisPro.csv,sha256=AWcYiqgur3WMrRoY2MaFQIJtp_7g8Wir_YvQ6dMy_gI,1763065
+ramplot/RamBoundry/MolprovityAllRegionprePro.csv,sha256=BPuPpzCiIACe13tRl6m5FWs-OwZJIiIspE9zFSdzQ7c,1746136
+ramplot/RamBoundry/MolprovityAllRegiontransPro.csv,sha256=NQ_ieWsO4kTBHanJA-TfQczohm9fdFstPMBR2DQYvzs,1767703
+ramplot-1.0.4.dist-info/LICENSE,sha256=KJv5mrky2dyUQdPshVbEMcK2ZO7_gPtlczUPQQOkcL4,1109
+ramplot-1.0.4.dist-info/METADATA,sha256=vVDpqx-x2n0MgednvSHNudbqRCiSx1Y5GNkNcmekO6Q,10343
+ramplot-1.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ramplot-1.0.4.dist-info/entry_points.txt,sha256=UPCKCVcBcuTq6GPNe9DYYFyRIPNhOVF1_ZsWTQ5Uw_U,46
+ramplot-1.0.4.dist-info/top_level.txt,sha256=ZzXhWBVxrgyqiQ0C0eMlhS60mneI-ONQgMBUwsURyE8,8
+ramplot-1.0.4.dist-info/RECORD,,
