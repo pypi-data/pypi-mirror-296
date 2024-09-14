@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjupyterlab_nbqueue=self.webpackChunkjupyterlab_nbqueue||[]).push([[285],{5285:(e,n,u)=>{function r(){return r=Object.assign?Object.assign.bind():function(e){for(var n=1;n<arguments.length;n++){var u=arguments[n];for(var r in u)({}).hasOwnProperty.call(u,r)&&(e[r]=u[r])}return e},r.apply(null,arguments)}u.d(n,{A:()=>r})}}]);
