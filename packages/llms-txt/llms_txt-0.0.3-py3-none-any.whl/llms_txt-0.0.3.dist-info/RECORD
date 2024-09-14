@@ -1,0 +1,10 @@
+llms_txt/__init__.py,sha256=DyjzzgRJvp3QnEDlrwpSgOvDRy9Thxh14LVq-rV7GgI,42
+llms_txt/_modidx.py,sha256=i25qNVxk2tviuFr7suUuL8glUn_pJsgBxd7ZYryPGHE,1871
+llms_txt/core.py,sha256=hyK3G65xPXj0rt0FszO3NCm0-OfXVaEdcJW39Y23Nds,4910
+llms_txt/miniparse.py,sha256=X_KZ1Oz60lvGc6lma7oCKZEGszXSxqTDvJAK1BvIDWU,798
+llms_txt-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+llms_txt-0.0.3.dist-info/METADATA,sha256=UFjN94Bolg1pXcqL8fNuQJWxDq7vazp_QLuOjUU9nJ0,11944
+llms_txt-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+llms_txt-0.0.3.dist-info/entry_points.txt,sha256=G6xFaFjyJh--wj1opBqeBEnQZSQDt4eGO-r6UwTIOB8,99
+llms_txt-0.0.3.dist-info/top_level.txt,sha256=lkpRh9pOvmt8bhvp-RU1LXAztNQwtEe4qX1fu3xpKF0,9
+llms_txt-0.0.3.dist-info/RECORD,,
