@@ -1,0 +1,6 @@
+bleak
+qasync
+PyQt6
+python-dotenv
+nest_asyncio
+asyncio
