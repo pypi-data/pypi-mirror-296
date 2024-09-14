@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+Recipyzer/__init__.py
+Recipyzer/compile_metadata.py
+recipyzer.egg-info/PKG-INFO
+recipyzer.egg-info/SOURCES.txt
+recipyzer.egg-info/dependency_links.txt
+recipyzer.egg-info/entry_points.txt
+recipyzer.egg-info/requires.txt
+recipyzer.egg-info/top_level.txt
