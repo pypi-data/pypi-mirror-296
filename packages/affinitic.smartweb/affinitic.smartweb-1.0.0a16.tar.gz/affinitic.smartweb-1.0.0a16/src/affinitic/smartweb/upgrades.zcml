@@ -1,0 +1,110 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+<!-- Default -->
+
+  <genericsetup:upgradeStep
+    source="1000"
+    destination="1001"
+    title="Modfiy Smartweb type behavior"
+    description=""
+    profile="affinitic.smartweb:default"
+    handler=".upgrades.update_types"
+    />
+
+  <genericsetup:upgradeStep
+    source="1001"
+    destination="1002"
+    title="Update type to add SectionExternalContent"
+    description=""
+    profile="affinitic.smartweb:default"
+    handler=".upgrades.update_types"
+    />
+
+  <genericsetup:upgradeStep
+    source="1002"
+    destination="1003"
+    title="Add css bundles"
+    description=""
+    profile="affinitic.smartweb:default"
+    handler=".upgrades.update_registry"
+    />
+
+  <genericsetup:upgradeStep
+    source="1003"
+    destination="1004"
+    title="Add js compilation in bundles"
+    description=""
+    profile="affinitic.smartweb:default"
+    handler=".upgrades.update_registry"
+    />
+
+  <genericsetup:upgradeStep
+    source="1004"
+    destination="1005"
+    title="Add behavior in type"
+    description=""
+    profile="affinitic.smartweb:default"
+    handler=".upgrades.update_types"
+    />
+
+<!-- Event and News Types  -->
+
+  <genericsetup:upgradeStep
+    source="1000"
+    destination="1001"
+    title="Add ownership to event and news type"
+    description=""
+    profile="affinitic.smartweb:Event and News Types"
+    handler=".upgrades.update_types_event_news"
+    />
+
+  <genericsetup:upgradeStep
+    source="1001"
+    destination="1002"
+    title="Update type"
+    description=""
+    profile="affinitic.smartweb:Event and News Types"
+    handler=".upgrades.update_types_event_news"
+    />
+
+  <genericsetup:upgradeStep
+    source="1002"
+    destination="1003"
+    title="Add new view to section collection, news and event"
+    description=""
+    profile="affinitic.smartweb:Event and News Types"
+    handler=".upgrades.update_types_event_news"
+    />
+
+  <genericsetup:upgradeStep
+    source="1003"
+    destination="1004"
+    title="Remove behavior from event and news"
+    description=""
+    profile="affinitic.smartweb:Event and News Types"
+    handler=".upgrades.update_types_event_news"
+    />
+  
+  <genericsetup:upgradeStep
+    source="1004"
+    destination="1005"
+    title="Update event and news folder icon"
+    description=""
+    profile="affinitic.smartweb:Event and News Types"
+    handler=".upgrades.update_types_event_news"
+    />
+
+<!-- Portlet -->
+
+  <genericsetup:upgradeStep
+    source="1000"
+    destination="1001"
+    title="Add new portlet"
+    description=""
+    profile="affinitic.smartweb:Add Portlet"
+    handler=".upgrades.update_portlet"
+    />
+
+</configure>
