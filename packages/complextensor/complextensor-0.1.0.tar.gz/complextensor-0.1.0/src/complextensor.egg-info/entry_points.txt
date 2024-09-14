@@ -1,0 +1,2 @@
+[console_scripts]
+complextensor-cli = complextensor.cli:main

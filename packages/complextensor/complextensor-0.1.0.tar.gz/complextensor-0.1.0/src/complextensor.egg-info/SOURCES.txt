@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+examples/example_usage.py
+src/complextensor/__init__.py
+src/complextensor/complex_tensor.py
+src/complextensor.egg-info/PKG-INFO
+src/complextensor.egg-info/SOURCES.txt
+src/complextensor.egg-info/dependency_links.txt
+src/complextensor.egg-info/entry_points.txt
+src/complextensor.egg-info/requires.txt
+src/complextensor.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_complex_tensor.py
