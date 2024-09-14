@@ -1,0 +1,90 @@
+{
+    "version": 1,
+    "formatters": {
+        "default": {
+            "format": "[%(levelname)s %(name)s %(asctime)s] %(message)s",
+            "datefmt": "%Y-%m-%dT%H:%M:%S%z"
+        },
+        "short": {
+            "format": "[%(levelname)-.1s %(asctime)s] %(message)s",
+            "datefmt": "%Y-%m-%dT%H:%M:%S%z"
+        },
+        "color": {
+            "()": "tealogger.formatter.ColorFormatter",
+            "record_format": "[%(levelname)s %(name)s %(asctime)s] %(message)s",
+            "date_format": "%Y-%m-%dT%H:%M:%S%z"
+        }
+    },
+    "filters": {
+        "stdout": {
+            "()" : "tealogger.filter.StandardOutFilter"
+        }
+    },
+    "handlers": {
+        "default": {
+            "class": "logging.StreamHandler",
+            "formatter": "default",
+            "filters": [],
+            "stream": "ext://sys.stdout"
+        },
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "color",
+            "filters": [],
+            "stream": "ext://sys.stdout"
+        },
+        "stdout": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG",
+            "formatter": "color",
+            "filters": [
+                "stdout"
+            ],
+            "stream": "ext://sys.stdout"
+        },
+        "stderr": {
+            "class": "logging.StreamHandler",
+            "level": "ERROR",
+            "formatter": "color",
+            "filters": [],
+            "stream": "ext://sys.stderr"
+        }
+    },
+    "loggers": {
+        "base": {
+            "level": "WARNING",
+            "propagate": false,
+            "filters": [],
+            "handlers": [
+                "stderr",
+                "stdout"
+            ]
+        },
+        "tealogger": {
+            "level": "WARNING",
+            "propagate": false,
+            "filters": [],
+            "handlers": [
+                "console"
+            ]
+        },
+        "tealogger.test.conftest": {
+            "level": "DEBUG",
+            "propagate": false,
+            "filters": [],
+            "handlers": [
+                "stderr",
+                "stdout"
+            ]
+        }
+    },
+    "root": {
+        "level": "WARNING",
+        "filters": [],
+        "handlers": [
+            "default"
+        ]
+    },
+    "incremental": false,
+    "disable_existing_loggers": false
+}
