@@ -1,0 +1,9 @@
+ml_goodput_measurement/__init__.py,sha256=DbMNldhRP70C-OCWYSadC8D0jrd8bJSMQj2kQ9qUy_c,742
+ml_goodput_measurement/src/checkpoint_badput_calculator.py,sha256=9KLpDc7L-k5YlqyCE5N605sqqdTAfx5pE60OgaNBXLc,2642
+ml_goodput_measurement/src/goodput.py,sha256=Q_Bwr9GQHNFjrl4ne8II6PNWy1iHc0CT0tJw2kM2qVA,29670
+ml_goodput_measurement/src/monitoring.py,sha256=-5IO3gbzh9GVOxp5de-Qy4H0I_3X3YsDhIfdRMB4iPI,5786
+ml_goodput_measurement/tests/checkpoint_badput_calculator_test.py,sha256=XKZW9ifo23x82af5KBo7zJFthbKBy6-T9QUFQuucNP4,4249
+ml_goodput_measurement/tests/goodput_test.py,sha256=j2B6kKnouD2tk9EgrN4LFYPYa5vJ6AKddxMupjggAEc,41812
+ml_goodput_measurement-0.0.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ml_goodput_measurement-0.0.4.dist-info/METADATA,sha256=OSKK7RebH4WsHwejUxhERrZK5MLs5GvmOUGPXwyGYLM,12729
+ml_goodput_measurement-0.0.4.dist-info/RECORD,,
