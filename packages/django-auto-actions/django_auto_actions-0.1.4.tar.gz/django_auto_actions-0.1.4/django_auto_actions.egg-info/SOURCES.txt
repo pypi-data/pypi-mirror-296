@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+django_auto_actions/__init__.py
+django_auto_actions/main.py
+django_auto_actions.egg-info/PKG-INFO
+django_auto_actions.egg-info/SOURCES.txt
+django_auto_actions.egg-info/dependency_links.txt
+django_auto_actions.egg-info/requires.txt
+django_auto_actions.egg-info/top_level.txt
