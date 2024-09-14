@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/fastapi-mongo-base/__init__.py
+src/fastapi-mongo-base/handlers.py
+src/fastapi-mongo-base/models.py
+src/fastapi-mongo-base/routes.py
+src/fastapi-mongo-base/schemas.py
+src/fastapi-mongo-base/tasks.py
+src/fastapi_mongo_base.egg-info/PKG-INFO
+src/fastapi_mongo_base.egg-info/SOURCES.txt
+src/fastapi_mongo_base.egg-info/dependency_links.txt
+src/fastapi_mongo_base.egg-info/requires.txt
+src/fastapi_mongo_base.egg-info/top_level.txt
+tests/test_api.py
+tests/test_core.py
+tests/test_simple.py
