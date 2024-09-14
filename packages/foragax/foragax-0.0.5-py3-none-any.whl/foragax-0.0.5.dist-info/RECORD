@@ -1,0 +1,13 @@
+foragax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foragax/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foragax/base/agent_classes.py,sha256=m8AGFTqj7HUCMwLOmMFdfWjZvonQCgANpPWBIlaLnKk,2192
+foragax/base/agent_methods.py,sha256=onPUz8MqCuL0XHPgbh0VarCvVbtDzYsYXHjIo1-qtlg,3959
+foragax/base/space_classes.py,sha256=o7mEIEsbVbYNVQHllIo6jZxjEDNdIVJK_xVwrS6noHQ,1152
+foragax/base/space_methods.py,sha256=IAWZn0JxMFMorWhbpI7yCXItzo5VV0y6zruHpltoevo,7450
+foragax/policy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foragax/policy/random_policy.py,sha256=HLcZHVeS1Hx05_-qrW9RLZaCG0jMlnjZQJ45uD2eMI0,999
+foragax/policy/wilson_cowan.py,sha256=hEBu-ojMfD2ZATBAmWkuienCt4nEHL0oMHvHhGhsl9Y,3167
+foragax-0.0.5.dist-info/METADATA,sha256=xchPxoAtx3TrOznCKpkGXC99ZfBCmUiwjP-o03skrJE,15144
+foragax-0.0.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+foragax-0.0.5.dist-info/licenses/LICENSE.md,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+foragax-0.0.5.dist-info/RECORD,,
