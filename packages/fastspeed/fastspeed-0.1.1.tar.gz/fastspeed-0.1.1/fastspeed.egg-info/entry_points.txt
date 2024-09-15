@@ -1,0 +1,2 @@
+[console_scripts]
+fastspeed = fastspeed.main:main

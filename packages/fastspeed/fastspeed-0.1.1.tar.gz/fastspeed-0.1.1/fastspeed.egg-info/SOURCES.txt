@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fastspeed/__init__.py
+fastspeed/main.py
+fastspeed.egg-info/PKG-INFO
+fastspeed.egg-info/SOURCES.txt
+fastspeed.egg-info/dependency_links.txt
+fastspeed.egg-info/entry_points.txt
+fastspeed.egg-info/not-zip-safe
+fastspeed.egg-info/requires.txt
+fastspeed.egg-info/top_level.txt

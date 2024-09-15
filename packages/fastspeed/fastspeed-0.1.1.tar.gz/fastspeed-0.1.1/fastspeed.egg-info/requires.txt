@@ -1,0 +1,13 @@
+fastapi[all]
+uvicorn[standard]
+python-multipart
+httpx
+requests
+torch
+torchaudio
+torchvision
+huggingface
+uvicorn
+modelscope
+transformers
+sse-starlette
