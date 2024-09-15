@@ -1,0 +1,11 @@
+wxpython>=4.2.1
+matplotlib>=3.8.1
+numpy
+click
+PyOpenGL
+PyOpenGL_accelerate
+pandas
+propgrid>=0.1.4
+mplpanel>=0.1.8
+aui2>=0.1.5
+bsmutility>=0.1.8
