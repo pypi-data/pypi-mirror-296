@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/yadict/__init__.py
+src/yadict/client.py
+src/yadict.egg-info/PKG-INFO
+src/yadict.egg-info/SOURCES.txt
+src/yadict.egg-info/dependency_links.txt
+src/yadict.egg-info/requires.txt
+src/yadict.egg-info/top_level.txt

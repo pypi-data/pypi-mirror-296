@@ -1,0 +1,24 @@
+[project]
+name = "yadict"
+version = "0.1.0"
+description = "Client for Yandex Dictionary API"
+authors = [
+    {name = "Ivan Slepovichev", email = "gurgutan@yandex.ru"},
+]
+dependencies = [
+    "requests",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pdm]
+distribution = true
+
+[pypi]
+username = "__token__"
+password = "pypi-AgEIcHlwaS5vcmcCJDQ5MDM5MjQxLWFmMDItNDRkNy05YTgyLWE4ZGYwNGQzNjExNwACKlszLCJiZTcxMDRhMS1mYjQ1LTQ0YTktOWI4OS1mNGI1MTk5MjI4NjIiXQAABiDKQYkgP4bdl6rE7wHwDuAyVzli7-QA1tMktABPOT1wPg"
