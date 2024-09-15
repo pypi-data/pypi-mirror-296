@@ -1,0 +1,16 @@
+colorty/__init__.py,sha256=eI_53IALc7_YXiabw-T6OHSzc_KODd7ip3BbfPo1SJg,382
+colorty/core.py,sha256=6nSPH2LBLP431ArPpZgDqa7antBQxtk9GkLKe9rBoek,2459
+colorty/unix.py,sha256=7TAq4Xm_GqP7Pik_qvmGAbmsFx4LUAsByagbh9hszuU,297
+colorty/util.py,sha256=qgZHwRVLK_U2yLqNbRTLvLITDR4oXydiHxbX_cpEwYg,441
+colorty/windows.py,sha256=IdDrC2JyF_YecErqZr-uNGn3MAXBwFgjdW3GTcZqiEQ,911
+colorty/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorty/tests/test_core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorty/tests/test_unix.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorty/tests/test_util.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorty/tests/test_windows.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorty-0.1.6.dist-info/LICENSE,sha256=ExakfvoK4Kdsx9lXAoqWZMG6WiXqz_4peuRPUDtIMBM,1083
+colorty-0.1.6.dist-info/METADATA,sha256=0X7pLXRZ0fdVMvzm-2B3T13Zniwb_u20uraVwt0IhzY,1992
+colorty-0.1.6.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+colorty-0.1.6.dist-info/entry_points.txt,sha256=gWAScQsVwtGTUxZZM_yB85BTA3DiD0uXK3h2IgCDTCE,45
+colorty-0.1.6.dist-info/top_level.txt,sha256=YFCNFrjQe3JLrl0lNhYXAUAuiqlcMP1XNboX5mpKEn0,8
+colorty-0.1.6.dist-info/RECORD,,
