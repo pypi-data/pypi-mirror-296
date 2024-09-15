@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: frontend-ui5
+Version: 0.1.26
+License: Apache License 2.0
+Requires-Python: >=3.10
+License-File: LICENSES-info.txt
+License-File: LICENSES.txt
+Requires-Dist: Django >=5.1
+
