@@ -1,0 +1,10 @@
+ovos-plugin-manager<1.0.0,>=0.0.23
+ovos-utils<1.0.0,>=0.0.27
+ovos-config<1.0.0,>=0.0.5
+ovos-PHAL-plugin-oauth<1.0.0,>=0.0.3
+ovos-bus-client<1.0.0,>=0.0.8
+youtube-search~=2.1
+pytube~=12.1
+websockets<13.0,>=0.54.0
+nested-lookup~=0.2
+webcolors~=1.13
