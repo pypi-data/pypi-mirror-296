@@ -1,0 +1,15 @@
+defectdojo_cli2/Announcements.py,sha256=nX9vKkLbaY152CrbfessiC1LUkwQ5P2Ff77De-p4quI,9903
+defectdojo_cli2/ApiToken.py,sha256=pl-CodV_MA99HszE9l1_Or1oruPn6QfP9vzHbieCjLY,3451
+defectdojo_cli2/EnvDefaults.py,sha256=v97YONo5m399nkX8tMm3KJas1BV5-RGRYwmaK71ujqM,504
+defectdojo_cli2/__init__.py,sha256=QSA4r0CCQSdfiGltD5bOZYVrexWdfBMsVAdzIyhZzyk,304
+defectdojo_cli2/__main__.py,sha256=pfgdCPADTYXk7wt8k30RuXmuZYTNOiUkB3ht64cBK6c,2283
+defectdojo_cli2/engagements.py,sha256=iH0XAmgq4HOtxFrXZEmxfVe6j90fgocuHPtnyCzBlhg,19716
+defectdojo_cli2/findings.py,sha256=ifMArTtOXhus7lwvJMsXg6-ngZrGV1AM1_mRdWdzass,35444
+defectdojo_cli2/tests.py,sha256=00caF4yN_lL8sddx9LNejlt5OkpEQGUL5r2wrN6Ssds,16961
+defectdojo_cli2/util.py,sha256=iTpeEgqmFE0Jh5d4tCFny1NVahJiH0uKFRad7HYPlgc,1781
+defectdojo_cli2-0.1.5.dist-info/AUTHORS,sha256=vPqoSrFcRj2rbJaMoEw3CPsbXsfI-OaYssLKwYBBhz4,82
+defectdojo_cli2-0.1.5.dist-info/LICENSE,sha256=0C0p47gxd5AvvurK7eWHMISKVc4M2IVP0dLx2hBS63w,1079
+defectdojo_cli2-0.1.5.dist-info/METADATA,sha256=qK_sOnqGhq0imR5JsopkbKBOHHuH7aVRD031zk5Dkgw,1778
+defectdojo_cli2-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+defectdojo_cli2-0.1.5.dist-info/entry_points.txt,sha256=tFLgJhWOSghQaYzCzbqeLAnCUvLIFRn9MFcXEiscy9E,60
+defectdojo_cli2-0.1.5.dist-info/RECORD,,
