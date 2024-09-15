@@ -1,0 +1,3 @@
+[console_scripts]
+pyinfuse=pyinfuse.__main__:main
+
