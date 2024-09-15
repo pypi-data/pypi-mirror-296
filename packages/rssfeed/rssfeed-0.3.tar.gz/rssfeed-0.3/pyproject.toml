@@ -1,0 +1,41 @@
+[build-system]
+requires = []
+build-backend = "pdm.backend"
+
+[project]
+name = "rssfeed"
+dynamic = []
+description = "A simple rss/atom feed parser"
+readme = "README.md"
+authors = [
+    { name = "p7e4" },
+]
+requires-python = ">= 3.12"
+dependencies = [
+    "python-dateutil >= 2.9",
+]
+keywords = [
+    "rssfeed",
+    "rss",
+    "feed",
+    "atom",
+    "feedparser",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Topic :: Text Processing :: Markup :: XML",
+]
+version = "0.3"
+
+[project.license]
+text = "GPLv3"
+
+[project.urls]
+Repository = "https://github.com/p7e4/rssfeed"
+Issues = "https://github.com/p7e4/rssfeed/issues"
+
+[tool.pdm.version]
+source = "file"
+path = "rssfeed/lib.py"
