@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: analemma
+Version: 0.0.6
+Summary: Calculate sundial geometry and the equation of time, and plot the analemma
+Author-email: Russell Goyder <russell.goyder@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://russellgoyder.github.io/sundial-latex/
+Project-URL: Documentation, https://analemma.readthedocs.io/en/stable/
+Project-URL: Repository, https://github.com/russellgoyder/sundial
+Project-URL: Issue Tracker, https://github.com/russellgoyder/sundial/issues
+Keywords: sundial,analemma,gnomon,equation of time,orbit
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 2 - Pre-Alpha
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+
+The analemma is the beautiful double-loop path traced by the shadow on a sundial (or the sun in the sky) when observed at the same time each day throughout one year. This package calculates and plots the analemma for all types of sundial anywhere on earth, or any planet.
+
+ * Homepage: https://russellgoyder.github.io/sundial-latex/
+ * Documentation | https://analemma.readthedocs.io/en/stable/
+ * Repository | https://github.com/russellgoyder/sundial
+ * Issue Tracker | https://github.com/russellgoyder/sundial/issues

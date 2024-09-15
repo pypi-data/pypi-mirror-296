@@ -1,0 +1,31 @@
+site_name: The Analemma Package
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+nav:
+ - Home: 'index.md'
+ - Analemma Plots: 'sundial_plots.md'
+ - The Equation of Time: 'equation_of_time.md'
+ - Sundial Calculations: 'sundial.md'
+ - API Reference: 'api_reference.md'
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+plugins:
+- search
+- mkdocstrings
