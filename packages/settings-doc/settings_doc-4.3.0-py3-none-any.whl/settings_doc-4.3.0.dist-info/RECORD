@@ -1,0 +1,12 @@
+settings_doc/__init__.py,sha256=TM8oFxGfCqm4ru6dVnt64u-crqUkBOyoScpssl2jKZQ,89
+settings_doc/importing.py,sha256=qFWGEpzdcq-60yIuK4NWdvhRWVyndMnv6HKGZ8Fdako,3080
+settings_doc/main.py,sha256=73Bb2x3UXZ57DAb5rdRLjscmNyrVAgvry3_-7_vKAp0,8432
+settings_doc/template_functions.py,sha256=j3Ynu9eIbFUtxHW9Ul-zT2zrRbaJdItma2VoJG-NFus,1846
+settings_doc/templates/debug.jinja,sha256=c0hnZrjbvCcCcIv-gMY6oin-3CTTDdGgpcJ2FCdzRjY,737
+settings_doc/templates/dotenv.jinja,sha256=EW1TyU_nVAzMTXMC-D66IAdMOJEe270EdcSaJwXUtBU,2002
+settings_doc/templates/markdown.jinja,sha256=JDV5udmLRuSDuIkLeoPooUdRoXFvk91pZdhfdfQCgIE,3604
+settings_doc-4.3.0.dist-info/LICENSE,sha256=31nzlThsGPz-WZlpJfUbH2SH5s8veARQzJSuj0fmtxE,1067
+settings_doc-4.3.0.dist-info/METADATA,sha256=CRjKSFxL3QjoX3J6xtd4q3XxIaRj019KtKFEJtJ149w,13810
+settings_doc-4.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+settings_doc-4.3.0.dist-info/entry_points.txt,sha256=DdXn-1CqY6XFEvT6DMiDqnav-QQWSnnAEVFYTGvqgFI,54
+settings_doc-4.3.0.dist-info/RECORD,,
