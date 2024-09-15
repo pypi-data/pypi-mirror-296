@@ -1,0 +1,2 @@
+[console_scripts]
+colorty = colorty.cli:main
