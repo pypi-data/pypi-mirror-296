@@ -1,0 +1,15 @@
+datasafe/__init__.py,sha256=zIP3h34T6C0IAWcBGDScyzSjXNPXAu1aRjhiPzj2Nb8,39
+datasafe/checksum.py,sha256=eu0HK2IthP6Vllvid6hn7C2S-ojp38wSfRevOeJO_ok,5819
+datasafe/client.py,sha256=l1LBmkk4EaKUmSfXq3PLEfpSq4jAtk0yMPiWsfbToaI,21805
+datasafe/configuration.py,sha256=vmbEBuhhDbBq6QU50__RzDQ4_V-iWS_7kRMf89tI4og,210
+datasafe/exceptions.py,sha256=uSbxCZfOx1qZNEJBWUUC1_1pX-4zBTEVpWRa585uIp8,2679
+datasafe/loi.py,sha256=nIJPCELXPHhikGoM6aKO27ejwNyh9kJG0aqtwXern1c,16462
+datasafe/manifest.py,sha256=QTcZx5jF0DkKdghtSYgMNV7HlglmK9slihKfolzTIjY,26735
+datasafe/server.py,sha256=N1w8qMLMZoqbIy513CevTl_TitKYQ6cIjYt7TvqjM0g,29565
+datasafe/utils.py,sha256=pE38pein38MDIWDI8YtruWBFWo437IfIyocECFm0hIM,2113
+labinform_datasafe-0.1.0b1.dist-info/LICENSE,sha256=YqMCB3ByHeKTGHWf-Gi5hb43F9mkIgWjzvbeZKLgg5s,1292
+labinform_datasafe-0.1.0b1.dist-info/METADATA,sha256=0feYuj8rfcwS3j_Z0ztOi0cq1u5jHlYO1Nb97pV9tNo,3691
+labinform_datasafe-0.1.0b1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+labinform_datasafe-0.1.0b1.dist-info/entry_points.txt,sha256=BSJXqXg1q4vE-Q74HSPrWicv3ptCfN9CFGPCqU-Ac3w,66
+labinform_datasafe-0.1.0b1.dist-info/top_level.txt,sha256=mf-nCl2mxaZRQ1LnsvbwRzGhoGcAiKdJZUpU640lVkE,9
+labinform_datasafe-0.1.0b1.dist-info/RECORD,,
