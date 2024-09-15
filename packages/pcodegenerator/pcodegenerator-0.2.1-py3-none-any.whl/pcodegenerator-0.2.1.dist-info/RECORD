@@ -1,0 +1,9 @@
+pcodegenerator/__init__.py,sha256=sirbpVDWiJUuc9WJZ6Fupogj1pfZ6Y5z4vpkF5GSPxM,95
+pcodegenerator/__version__.py,sha256=s73r0fSlByr5p_IerGh1Lfjme8uCjfP87kvryt7SFzk,19
+pcodegenerator/generator.py,sha256=RQ32JppAJdX6nwUBoPRu7isUHVcfRPVUGr9dNY9LO7c,3626
+pcodegenerator/prepare.py,sha256=3q22J2MW_g4e1iIUQV5acE6sVdcgY4BGKFxgeHTFHF4,3106
+pcodegenerator-0.2.1.dist-info/entry_points.txt,sha256=fDKwrVaH8cibkDLf1D86oDk4m7dCCzmwJBNV9BCBfU4,94
+pcodegenerator-0.2.1.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+pcodegenerator-0.2.1.dist-info/METADATA,sha256=oFlmUFsyCHhXdcibJLIVbYpiNuHGaaEm_uHNv-hm_Ro,2775
+pcodegenerator-0.2.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pcodegenerator-0.2.1.dist-info/RECORD,,
