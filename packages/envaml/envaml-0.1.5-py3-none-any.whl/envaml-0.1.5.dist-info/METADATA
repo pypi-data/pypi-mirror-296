@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: envaml
+Version: 0.1.5
+Summary: Generate .env file from yaml with shell commands expantion!
+Project-URL: Homepage, https://github.com/oleksandr-holan/envaml
+Project-URL: Issues, https://github.com/oleksandr-holan/envaml/issues
+Author-email: Oleksandr Holan <game.play.for.alex@gmail.com>
+License-File: LICENSE.txt
+Keywords: .env,dotenv,env,env generator,generator,yaml
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: click>=8.1.7
+Requires-Dist: paprika>=1.3.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: pyyaml>=6.0.2
+Description-Content-Type: text/markdown
+
+# ENVAML
+
+Generate .env file from yaml with shell commands expantion!
