@@ -1,0 +1,2 @@
+"use strict";sap.ui.define([],function(){"use strict";class e{constructor(e){this.seed=e>=0?e%2147483647:0;if(this.seed===0){this.seed=1}}random(){this.seed=this.seed*16807%2147483647;return(this.seed-1)/2147483646}randIntBetween(e,t){return Math.floor(this.random()*(t-e+1)+e)}randomChoice(e){return e[this.randIntBetween(0,e.length-1)]}}return e});
+//# sourceMappingURL=Random.js.map

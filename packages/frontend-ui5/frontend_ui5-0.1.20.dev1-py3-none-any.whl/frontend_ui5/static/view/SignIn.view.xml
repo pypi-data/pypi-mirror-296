@@ -1,0 +1,4 @@
+<mvc:View
+  controllerName="demo.spa.controller.SignIn"
+  xmlns:mvc="sap.ui.core.mvc"
+/>

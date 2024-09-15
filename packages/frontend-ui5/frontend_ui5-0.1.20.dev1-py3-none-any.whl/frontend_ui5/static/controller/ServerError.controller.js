@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["./BaseController"],function(e){"use strict";function t(e){return e&&e.__esModule&&typeof e.default!=="undefined"?e.default:e}const r=t(e);const n=r.extend("demo.spa.controller.ServerError",{});return n});
+//# sourceMappingURL=ServerError.controller.js.map

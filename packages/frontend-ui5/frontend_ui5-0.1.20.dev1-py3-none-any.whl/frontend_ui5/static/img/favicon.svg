@@ -1,0 +1,20 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.0"
+  class="dark-background"
+  viewBox="0 0 88 88">
+  <style>
+    svg .fill001{fill:#a2a6a8;}
+    svg .fill002{fill:#e37070;}
+    svg .fill003{fill:#99d351;}
+  </style>
+  <path
+    class="fill001"
+    d="M25 6H9v22h32V6H25zm38 53H47v22h32V59H63z"/>
+  <path
+    class="fill002"
+    d="M63 6H47v22h32V6H63zm0 27H47v21h32V33H63z"/>
+  <path
+    class="fill003"
+    d="M25 33H9v21h32V33H25zm0 26H9v22h32V59H25z"/>
+</svg>

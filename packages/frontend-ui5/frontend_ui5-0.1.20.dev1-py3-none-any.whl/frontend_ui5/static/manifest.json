@@ -1,0 +1,212 @@
+{
+  "_version": "1.21.0",
+  "sap.app": {
+    "id": "demo.spa",
+    "type": "application",
+    "i18n": {
+      "bundleUrl": "i18n/i18n.properties",
+      "fallbackLocale": "en",
+      "supportedLocales": ["en", "de"]
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "applicationVersion": {
+      "version": "1.0.0"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "rootView": {
+      "viewName": "demo.spa.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "idToolPage"
+    },
+    "dependencies": {
+      "minUI5Version": "1.108",
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {},
+        "sap.tnt": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleUrl": "i18n/i18n.properties",
+          "async": true,
+          "fallbackLocale": "en",
+          "supportedLocales": ["en", "de"],
+          "terminologies": {},
+          "enhanceWith": []
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlId": "idMainContents",
+        "viewType": "XML",
+        "controlAggregation": "pages",
+        "async": true,
+        "viewPath": "demo.spa.view",
+        "bypassed": {
+          "target": "notFound"
+        }
+      },
+      "routes": [
+        {
+          "pattern": "",
+          "name": "HOME",
+          "target": "home"
+        },
+        {
+          "pattern": "sign-in",
+          "name": "SIGN IN FULLSCREEN",
+          "target": "signIn"
+        },
+        {
+          "pattern": "sign-up",
+          "name": "SIGN UP FULLSCREEN",
+          "target": "signUp"
+        },
+        {
+          "pattern": "settings",
+          "name": "SETTINGS",
+          "target": "settings"
+        },
+        {
+          "pattern": "legal",
+          "name": "LEGAL",
+          "target": "legal"
+        },
+        {
+          "pattern": "error-5{code}",
+          "name": "SERVER_ERROR",
+          "target": "serverError"
+        },
+        {
+          "pattern": "welcome",
+          "name": "WELCOME FULLSCREEN",
+          "target": "welcome"
+        },
+        {
+          "pattern": "team",
+          "name": "TEAM",
+          "target": "team"
+        },
+        {
+          "pattern": "appointments",
+          "name": "APPOINTMENTS",
+          "target": "appointments"
+        },
+        {
+          "pattern": "appointments/{personId}",
+          "name": "APPOINTMENTS INDIVIDUAL",
+          "target": "appointmentsIndividual"
+        },
+        {
+          "pattern": "choices/appointments",
+          "name": "APPOINTMENTS CHOICES",
+          "target": "appointmentsChoices"
+        },
+        {
+          "pattern": "availability/{personId}",
+          "name": "AVAILABILITY INDIVIDUAL",
+          "target": "availabilityIndividual"
+        },
+        {
+          "pattern": "choices/availability",
+          "name": "AVAILABILITY CHOICES",
+          "target": "availabilityChoices"
+        },
+        {
+          "pattern": "access/{userKey}",
+          "name": "ACCESS FULLSCREEN",
+          "target": "access"
+        }
+      ],
+      "targets": {
+        "home": {
+          "viewId": "home",
+          "viewName": "Home"
+        },
+        "legal": {
+          "viewId": "legal",
+          "viewName": "Legal"
+        },
+        "settings": {
+          "viewId": "settings",
+          "viewName": "Settings"
+        },
+        "notFound": {
+          "viewId": "notFound",
+          "viewName": "NotFound"
+        },
+        "serverError": {
+          "viewId": "serverError",
+          "viewName": "ServerError"
+        },
+        "signIn": {
+          "viewId": "signIn",
+          "viewName": "SignIn"
+        },
+        "signUp": {
+          "viewId": "signUp",
+          "viewName": "SignUp"
+        },
+        "welcome": {
+          "viewId": "welcome",
+          "viewName": "Welcome"
+        },
+        "team": {
+          "viewId": "team",
+          "viewName": "Team"
+        },
+        "appointments": {
+          "viewId": "appointments",
+          "viewName": "Appointments"
+        },
+        "appointmentsIndividual": {
+          "viewId": "appointments",
+          "viewName": "Appointments"
+        },
+        "appointmentsChoices": {
+          "viewId": "appointmentsChoices",
+          "viewName": "AppointmentsChoices"
+        },
+        "availabilityIndividual": {
+          "viewId": "availability",
+          "viewName": "Availability"
+        },
+        "availabilityChoices": {
+          "viewId": "availabilityChoices",
+          "viewName": "AvailabilityChoices"
+        },
+        "access": {
+          "viewId": "access",
+          "viewName": "Access"
+        }
+      }
+    }
+  }
+}
