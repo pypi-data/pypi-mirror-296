@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: wkmigrate
+Version: 0.1.0
+Summary: Migrates data pipelines between various frameworks
+License: Apache License
+Author: Greg Hansen
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (>=6.0.2,<7.0.0)
+Requires-Dist: azure-common (>=1.1.28,<2.0.0)
+Requires-Dist: azure-core (>=1.30.2,<2.0.0)
+Requires-Dist: azure-identity (>=1.16.1,<2.0.0)
+Requires-Dist: azure-mgmt-core (>=1.4.0,<2.0.0)
+Requires-Dist: azure-mgmt-datafactory (>=8.0.0,<9.0.0)
+Requires-Dist: databricks-sdk (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+# ignite
