@@ -1,0 +1,12 @@
+crazylibs/__init__.py,sha256=vpdj9UyZV91WGBqOoYaarKeqQnY2-LiM_hvpoD3ZaNs,43
+crazylibs/__main__.py,sha256=jpg07oGojm4k2dM2ZhtR2xZnVrAQN0--WR88Gfl6CJs,104
+crazylibs/cli.py,sha256=UEPdUtHmdisbmCe8YuDd_MsAKySjj_LmRHCZ_fLdjNE,751
+crazylibs/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+crazylibs/stories/__init__.py,sha256=glGqTlBUeB82iQBbvqgWuMs0SEOA8WsVFHp9OhGN7Yg,97
+crazylibs/stories/_story.py,sha256=ciPGcEhHdpwfocrq01ArRHeRygpxR2mQ30_5WQ1Moc0,161
+crazylibs/stories/a_day_at_the_zoo.py,sha256=zaxpPYKnEzkShRyvhWAJLoRc9lnrUGn-fIiOaZ5L52Q,1195
+crazylibs-0.1.2.dist-info/LICENSE,sha256=KFPbLfnbmPRctkvGpyO-UGE_7a1GVbRWDuTcOg_RDmM,1074
+crazylibs-0.1.2.dist-info/METADATA,sha256=lpxiq1gUEvScHoDX6lGaUv3LVDSZGJg3BLaThIDa3f0,900
+crazylibs-0.1.2.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+crazylibs-0.1.2.dist-info/top_level.txt,sha256=HV3ltBZ_FJDfkK6QUAP5IpzO3oGQHJsNgP4h9Xg-IRw,10
+crazylibs-0.1.2.dist-info/RECORD,,
