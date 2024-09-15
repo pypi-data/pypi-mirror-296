@@ -1,0 +1,11 @@
+setup.py
+hosterNetPython/__init__.py
+hosterNetPython/httpServer.py
+hosterNetPython.egg-info/PKG-INFO
+hosterNetPython.egg-info/SOURCES.txt
+hosterNetPython.egg-info/dependency_links.txt
+hosterNetPython.egg-info/requires.txt
+hosterNetPython.egg-info/top_level.txt
+hosterNetPython/socketServer/__init__.py
+hosterNetPython/socketServer/chat.py
+hosterNetPython/socketServer/chatC.py
