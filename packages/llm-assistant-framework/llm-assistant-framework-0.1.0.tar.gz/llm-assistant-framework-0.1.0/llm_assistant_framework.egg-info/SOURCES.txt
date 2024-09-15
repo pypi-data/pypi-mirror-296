@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+core/__init__.py
+core/assistant_manager.py
+core/run_manager.py
+core/thread_manager.py
+llm_assistant_framework.egg-info/PKG-INFO
+llm_assistant_framework.egg-info/SOURCES.txt
+llm_assistant_framework.egg-info/dependency_links.txt
+llm_assistant_framework.egg-info/requires.txt
+llm_assistant_framework.egg-info/top_level.txt
