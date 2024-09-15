@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+sarthakai.egg-info/PKG-INFO
+sarthakai.egg-info/SOURCES.txt
+sarthakai.egg-info/dependency_links.txt
+sarthakai.egg-info/requires.txt
+sarthakai.egg-info/top_level.txt
