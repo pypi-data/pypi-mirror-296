@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/pyodps_lab_extension.egg-info/PKG-INFO
+src/pyodps_lab_extension.egg-info/SOURCES.txt
+src/pyodps_lab_extension.egg-info/dependency_links.txt
+src/pyodps_lab_extension.egg-info/entry_points.txt
+src/pyodps_lab_extension.egg-info/requires.txt
+src/pyodps_lab_extension.egg-info/top_level.txt
+tests/test_simple.py
