@@ -1,0 +1,4 @@
+ovos-plugin-manager<1.0.0,>=0.0.1
+ovos-config<1.0.0,>=0.0.10
+ovos-backend-client<2.0.0,>=0.1.2
+requests
