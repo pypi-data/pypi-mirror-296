@@ -1,0 +1,5 @@
+[console_scripts]
+nixt = nixt.__main__:wrapped
+nixtc = nixt.console:wraps
+nixtd = nixt.daemon:wrapping
+nixts = nixt.service:wrapper
