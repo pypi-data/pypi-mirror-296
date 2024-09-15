@@ -1,0 +1,3 @@
+[console_scripts]
+oabc = orpheuspypractice:jgabcli_main
+say_hello_orpheuspypractice = orpheuspypractice:say_hello
