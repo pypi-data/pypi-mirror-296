@@ -1,0 +1,1 @@
+a=open('a','r').read()
