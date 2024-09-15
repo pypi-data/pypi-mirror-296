@@ -1,0 +1,2 @@
+[sopel.plugins]
+npm = sopel_npm.plugin
