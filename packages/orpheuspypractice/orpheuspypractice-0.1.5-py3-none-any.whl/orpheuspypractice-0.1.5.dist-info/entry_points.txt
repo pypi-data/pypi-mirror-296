@@ -1,0 +1,2 @@
+[console_scripts]
+jgabcli2 = orpheuspypractice.jgabcli:main
