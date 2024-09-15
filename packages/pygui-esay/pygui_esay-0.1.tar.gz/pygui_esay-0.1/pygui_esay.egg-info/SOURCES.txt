@@ -1,0 +1,6 @@
+README.md
+setup.py
+pygui_esay.egg-info/PKG-INFO
+pygui_esay.egg-info/SOURCES.txt
+pygui_esay.egg-info/dependency_links.txt
+pygui_esay.egg-info/top_level.txt

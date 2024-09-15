@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pygui-esay
+Version: 0.1
+Summary: Uma biblioteca de interface gráfica simples.
+Home-page: https://github.com/seuusuario/interface_lib
+Author: Seu Nome
+Author-email: seuemail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# leia eu!
+esa biblioteca serve para criar interface.
