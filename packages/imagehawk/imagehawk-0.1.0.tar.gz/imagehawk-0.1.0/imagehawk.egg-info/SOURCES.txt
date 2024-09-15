@@ -1,0 +1,11 @@
+README.md
+setup.py
+Core/__init__.py
+Core/Engines/__init__.py
+Core/Engines/image_embeddings.py
+Core/Engines/text_embeddings.py
+imagehawk.egg-info/PKG-INFO
+imagehawk.egg-info/SOURCES.txt
+imagehawk.egg-info/dependency_links.txt
+imagehawk.egg-info/requires.txt
+imagehawk.egg-info/top_level.txt
