@@ -1,0 +1,8 @@
+fsman/__init__.py,sha256=bvHf5rD1dZ36eJPag2HDejO-98tWxuxEC0xuoAuf5W4,245
+fsman/_cmdline.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsman/cmd.py,sha256=PRAkLIU_Ude6vPhmLMzKPbnTkc8n1zqVmneNeeujo9M,17
+fsman/keymap.py,sha256=pFebDz6gz3gtSSnIMysAzwHWBnqkG5kinL79JeShpHc,2453
+fsman/manager.py,sha256=PJFdd_z-izmYBekPdnsWWVwQxYsvPuKwp3VM4-lgyZs,5697
+fsspec_manager-0.1.0.dist-info/METADATA,sha256=_6MFzDrcOCtsEP9EsHCthpn5Fnco9jiuB4kPRR6YQ6A,1355
+fsspec_manager-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fsspec_manager-0.1.0.dist-info/RECORD,,
