@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: patroni-cli
+Version: 0.1.0
+Summary: A CLI tool to manage Patroni cluster, elect new leaders, and perform switchover.
+Author-email: Brian Hartford <bh419@protonmail.com>
+License: MIT
+Keywords: patroni,cluster,failover,switchover
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.28.1
+
+# Patroni CLI
+
+Patroni CLI is a command-line tool that allows you to manage a Patroni PostgreSQL cluster. You can use it to view cluster status, elect new leaders, and perform switchovers between nodes.
+
+## Features
+
+- **View Cluster Status**: List all cluster members and their roles.
+- **Elect New Leader**: Trigger a failover and elect a new leader for the cluster.
+- **Switchover**: Perform a switchover to a specified node or any healthy node.
+
+## Installation
+
+You can install the Patroni CLI via pip after packaging:
+
+```bash
+pip install patroni-cli
+```
+
+### Usage
+Here are the available commands:
+
+#### Check Cluster Status
+```bash
+patroni-cli --url http://localhost:8008 --username admin --password admin status
+```
+
+#### Elect a New Leader
+```bash
+patroni-cli --url http://localhost:8008 --username admin --password admin elect new_leader_name
+```
+#### Perform a Switchover
+```bash
+patroni-cli --url http://localhost:8008 --username admin --password admin switchover target_leader_name
+```
+If you want to perform a switchover without specifying a target leader, use:
+
+```bash
+patroni-cli --url http://localhost:8008 --username admin --password admin switchover
+```
