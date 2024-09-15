@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+the_number/the_number.egg-info/PKG-INFO
+the_number/the_number.egg-info/SOURCES.txt
+the_number/the_number.egg-info/dependency_links.txt
+the_number/the_number.egg-info/top_level.txt
