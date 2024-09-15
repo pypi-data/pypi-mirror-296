@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+hid-stubs/hid.pyi
+hidapi_stubs.egg-info/PKG-INFO
+hidapi_stubs.egg-info/SOURCES.txt
+hidapi_stubs.egg-info/dependency_links.txt
+hidapi_stubs.egg-info/requires.txt
+hidapi_stubs.egg-info/top_level.txt
