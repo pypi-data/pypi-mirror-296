@@ -1,0 +1,2 @@
+[console_scripts]
+akanksha = resume.display_resume:show_resume
