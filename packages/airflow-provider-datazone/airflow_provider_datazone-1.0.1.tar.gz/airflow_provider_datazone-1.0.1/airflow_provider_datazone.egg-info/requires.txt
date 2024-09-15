@@ -1,0 +1,2 @@
+apache-airflow>=2.4
+retry==0.9.2
