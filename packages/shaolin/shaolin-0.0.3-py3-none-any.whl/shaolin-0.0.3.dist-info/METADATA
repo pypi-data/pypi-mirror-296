@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: shaolin
+Version: 0.0.3
+Summary: Interactive visualization with holoviews and panel
+Author-email: guillemdb <guillem@fragile.tech>
+Requires-Python: >=3.8
+Requires-Dist: einops
+Requires-Dist: fastparquet
+Requires-Dist: holoviews
+Requires-Dist: hvplot
+Requires-Dist: ipywidgets
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: panel
+Requires-Dist: pyarrow
+Requires-Dist: pygraphviz; sys_platform == 'linux'
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Provides-Extra: jupyter
+Requires-Dist: holoviews; extra == 'jupyter'
+Requires-Dist: hvplot; extra == 'jupyter'
+Requires-Dist: ipython; (python_version > '3.9') and extra == 'jupyter'
+Requires-Dist: ipywidgets; extra == 'jupyter'
+Requires-Dist: jupyter; (python_version < '3.11') and extra == 'jupyter'
+Requires-Dist: jupyterlab<3.6.0; (python_version < '3.11') and extra == 'jupyter'
+Requires-Dist: notebook; (python_version < '3.11') and extra == 'jupyter'
+Requires-Dist: panel; extra == 'jupyter'
+Requires-Dist: pyparsing; extra == 'jupyter'
+Provides-Extra: test
+Requires-Dist: hypothesis>=6.24.6; extra == 'test'
+Requires-Dist: psutil>=5.8.0; extra == 'test'
+Requires-Dist: pytest-cov>=3.0.0; extra == 'test'
+Requires-Dist: pytest-rerunfailures>=10.2; extra == 'test'
+Requires-Dist: pytest-xdist>=2.4.0; extra == 'test'
+Requires-Dist: pytest>=6.2.5; extra == 'test'
+Requires-Dist: pyvirtualdisplay>=1.3.2; extra == 'test'
+Requires-Dist: tomli>=1.2.3; extra == 'test'
+Description-Content-Type: text/markdown
+
+# shaolin
+
+Describe your project here.
