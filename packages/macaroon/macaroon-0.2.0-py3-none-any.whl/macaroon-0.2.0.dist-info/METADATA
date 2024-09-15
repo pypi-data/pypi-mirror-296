@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: macaroon
+Version: 0.2.0
+Summary: A sweet, delicious, fork of moccasin.
+Requires-Python: <3.13,>=3.11
+Requires-Dist: moccasin>=0.2.0
+Description-Content-Type: text/markdown
+
+# Macaroon
+
+A fun skin for [moccasin](https://pypi.org/project/moccasin/). Head there for docs.
+
+# Installation
+
+The same as moccasin, except you run:
+
+```bash
+uv tool install macaroon
+```
+
+And get the executables:
+
+```
+roon
+macaroon
+```
+
+Have fun!
+
+# Background
+
+Truffle, Brownie, Ganache, Drizzle... What happened to the sweetness of web3?
