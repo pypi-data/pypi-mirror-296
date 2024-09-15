@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+emilylib/__init__.py
+emilylib/mod.py
+emilylib.egg-info/PKG-INFO
+emilylib.egg-info/SOURCES.txt
+emilylib.egg-info/dependency_links.txt
+emilylib.egg-info/top_level.txt
