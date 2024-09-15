@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: nlp-date-normalization-snd
+Version: 0.1.1
+Summary: This library is part of the NLP project which analyzes the Persian text given to it and extracts all Jalalian and Gregorian dates and converts them into a standard format in Gregorian date.
+Home-page: https://github.com/7cloner/NLP-Date-Normalization-SND-
+Author: Nasser Khaledi
+Author-email: foray00227@gmail.com
+License: UNKNOWN
+Description: # کتابخانه نرمال سازی تاریخ در زمان فارسی
+        
+        این کتابخانه بخشی از پروژه NLP است که متنی فارسی که به آن داده می‌شود را آنالیز می‌کند و تمامی تاریخ‌های شمسی و میلادی را استخراج کرده و تبدیل به یک فرمت استاندارد در تاریخ میلادی می‌کند.
+        
+        ## نصب
+        
+        برای استفاده از این کتابخانه، نیاز است که آن را نصب کنید. به‌طور پیش‌فرض، نصب کتابخانه نیاز به تنظیمات خاصی ندارد و می‌توانید از آن مستقیماً در پروژه‌های خود استفاده کنید.
+         
+        ## نحوه پیاده‌سازی
+        
+        برای استفاده از کتابخانه، می‌توانید از کد نمونه زیر استفاده کنید:
+        
+        ```python
+        # -*- coding: utf-8 -*-
+        from date_normalization.datenormalization import DateNormalization
+        
+        def checking():
+            text = 'در تاریخ ۲۸ اسفند ۱۳۹۸، جلسه‌ای مهم برای بررسی پیشرفت‌های سالانه برگزار شد. سپس، در تاریخ ۵ فوریه ۲۰۲۰، گزارشی درباره پروژه‌های در حال انجام منتشر شد. در تاریخ ۱۵ مارس ۲۰۲۱، تیم تحقیقاتی نتایج جدیدی را اعلام کرد. همچنین، در تاریخ ۱۷ اردیبهشت ۱۴۰۰، سمیناری درباره فناوری‌های نوین برگزار شد که شامل سخنرانی‌های مفصلی بود. برای برنامه‌ریزی جلسات آینده، به تاریخ‌های زیر توجه کنید: ۳۰ مرداد ۱۴۰۱، ۲۰ سپتامبر ۲۰۲۲ و ۱۰ دسامبر ۲۰۲۲. در تاریخ ۱۲ ژانویه ۲۰۲۳، تحلیل‌های جدیدی درباره روندهای جاری ارائه شد. همچنین، در تاریخ ۲۵ تیر ۱۴۰۲، گزارشی نهایی در مورد پیشرفت پروژه‌ها منتشر شد که به طور مفصل به بررسی جزئیات پرداخت.'
+            dn = DateNormalization()
+            print(dn.normalization_text(text))
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
