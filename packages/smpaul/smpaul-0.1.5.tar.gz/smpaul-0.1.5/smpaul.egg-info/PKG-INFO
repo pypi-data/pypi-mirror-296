@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: smpaul
+Version: 0.1.5
+Summary:  The description of the package   
+Home-page: https://github.com/omi-paulalmerino/smpaul
+Author: Paul Almerino
+Author-email: paul.almerino@smsupermalls.com
+License: BSD 2-clause
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Sample Package 0.1.5
+
+## Tech
+
+- Python 3.9.15
