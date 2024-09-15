@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: XmlFraction
+Version: 2024.14.9a1
+Summary: Best Fractional Library!!!
+Description-Content-Type: text/markdown
+
+<h1 align="center">PyFraction</h1>
+<i>So this is a library that is used for fractions,<br>It can be used in 5 ways;<br>importing,<br>python -m PyFraction --gui<br>python -m PyFraction -g<br>python -m PyFraction -xf {File path}<br>python -m PyFraction --xmlfile {File path}<br>Replace "{File path}" with a xml file containing frac tags with numerator tags and dominator tags</i>
+<hr>
+
+# CHANGELOG
+> 0.0.1.a1
+
+Initial Release, Supports Pylance
