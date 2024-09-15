@@ -1,0 +1,6 @@
+Click>=7.0
+Rich
+pandas
+pydantic
+PyYAML
+xlrd>=2.0.1
