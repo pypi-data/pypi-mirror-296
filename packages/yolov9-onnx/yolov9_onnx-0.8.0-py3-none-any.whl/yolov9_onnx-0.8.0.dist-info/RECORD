@@ -1,0 +1,8 @@
+yolov9/__init__.py,sha256=ZPcI45sMitgtBNTxFJUhHBsPJsVj1rH7JH6WlGfN2js,62
+yolov9/utils.py,sha256=2HP4K7posGuBTt8PzZDEMvo_EJDiQKJ2Fc6NBGVhe2o,4589
+yolov9/yolov9.py,sha256=B-qU2TM2hgtuFyDs2kwIqiSq6V4hMFARngmB3UEUMPI,3722
+yolov9_onnx-0.8.0.dist-info/LICENSE,sha256=Pupw6xOMGx1u92hjEs2CtVDjUwr8lWpwMr_F4kPRwSM,1089
+yolov9_onnx-0.8.0.dist-info/METADATA,sha256=nwXg798N151Ag52BfBAtm9ZGgRJ-GzORSEQ8zf_CzjE,3509
+yolov9_onnx-0.8.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+yolov9_onnx-0.8.0.dist-info/top_level.txt,sha256=GKdNdB4Cl1igPiBw4GJeHfkRU5D7wvDBCZMdV36IbpA,7
+yolov9_onnx-0.8.0.dist-info/RECORD,,
