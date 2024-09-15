@@ -1,0 +1,9 @@
+winkicord/__init__.py,sha256=irRV7UYG4PR8CeNOB8bmdbR7L8xCMqyfKQWfY9zu59A,122
+winkicord/music.py,sha256=TA2ZZXBI2dJaSyulhQfsygcRAjAjiw5KRn9eyX-SWTM,2587
+winkicord/nodepool.py,sha256=AZBEvf9upu3ZdcJyk0LRWacxmlWJSIdvgTjVFmPV6Ag,2073
+winkicord/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winkicord-1.0.0.dist-info/LICENSE,sha256=qqBSVfMXN0uhpm5M5tLRvqk6hzS94rQlkaD0m9D5SHw,1073
+winkicord-1.0.0.dist-info/METADATA,sha256=KTcp9oPLllmeDyRMsUIos3KVyLU899JplRhO6eW3xL4,3514
+winkicord-1.0.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+winkicord-1.0.0.dist-info/top_level.txt,sha256=Qkd3fB4nxUYWyfVLXcFBxIKp8cFgQtg6Zj_Eg7IW7L0,10
+winkicord-1.0.0.dist-info/RECORD,,
