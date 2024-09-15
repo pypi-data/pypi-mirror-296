@@ -1,0 +1,22 @@
+# Ludden Logging Changelog
+
+## v0.1.3 Fixed pyproject.toml
+
+### Fixed
+
+- Fixed `pyproject.toml` to include correct dependencies
+- Corrected the version
+
+---
+
+## v0.1.2 Added Type Hinting
+
+### Added
+
+- Type hinting to all functions and classes
+- Mypy task
+- `py.typed` file to package
+
+### Changed
+
+- Incremented package version to `0.1.2`
