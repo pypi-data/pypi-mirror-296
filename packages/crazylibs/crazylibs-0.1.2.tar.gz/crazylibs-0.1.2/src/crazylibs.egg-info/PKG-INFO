@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: crazylibs
+Version: 0.1.2
+Summary: crazylibs
+Author-email: Bradley Reynolds <bradley.reynolds@darbia.dev>
+License: MIT
+Project-URL: repository, https://github.com/letsbuilda/crazylibs
+Project-URL: documentation, https://docs.letsbuilda.dev/crazylibs/
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer
+Provides-Extra: dev
+Requires-Dist: nox; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: sphinx-autoapi; extra == "docs"
+Requires-Dist: releases; extra == "docs"
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-randomly; extra == "tests"
+
+# crazylibs
+
+A variation of the "Mad Libs" games

@@ -1,0 +1,17 @@
+typer
+
+[dev]
+nox
+pre-commit
+ruff
+mypy
+
+[docs]
+sphinx
+furo
+sphinx-autoapi
+releases
+
+[tests]
+pytest
+pytest-randomly

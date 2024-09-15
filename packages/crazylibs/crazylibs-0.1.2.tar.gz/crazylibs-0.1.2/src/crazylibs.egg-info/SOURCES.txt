@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/crazylibs/__init__.py
+src/crazylibs/__main__.py
+src/crazylibs/cli.py
+src/crazylibs/py.typed
+src/crazylibs.egg-info/PKG-INFO
+src/crazylibs.egg-info/SOURCES.txt
+src/crazylibs.egg-info/dependency_links.txt
+src/crazylibs.egg-info/requires.txt
+src/crazylibs.egg-info/top_level.txt
+src/crazylibs/stories/__init__.py
+src/crazylibs/stories/_story.py
+src/crazylibs/stories/a_day_at_the_zoo.py
+tests/test_app.py
