@@ -1,0 +1,39 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install and setup uv
+        uses: hynek/setup-cached-uv@v2
+
+      - name: Build
+        run: uv build
+
+      - name: Check
+        run: uvx twine check dist/*
+
+      - name: Publish
+        run: |
+          uvx twine upload dist/*
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+
+      - name: Build documentation
+        run: uvx --with mkdocs-material mkdocs build
+
+      - name: Publish documentation
+        run: uvx --with mkdocs-material mkdocs gh-deploy --force
