@@ -1,0 +1,11 @@
+tree_sitter_fluentbit/__init__.py,sha256=bauJIsl5ZScP2lzatrZL0jhUOcNEnUANtjPgZA0h8ac,92
+tree_sitter_fluentbit/__init__.pyi,sha256=8xf7bY1szgDY9HRJ7FJ326So4SFgMiSRfCB4LADkTpU,27
+tree_sitter_fluentbit/_binding.pyd,sha256=gIF6e17OUCmtlylCQhse1Fxio6rU8Gd0DXZe8BGfdxM,16384
+tree_sitter_fluentbit/binding.c,sha256=Hl07P9xdDjun4zxRNCKrrTvX0Np95VGa0j7K3cD019Q,689
+tree_sitter_fluentbit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_fluentbit/queries/highlights.scm,sha256=6mcHhUfni_gGStZRlpUg424CreYa8Wto-3nVr00IDYg,339
+tree_sitter_fluentbit-0.1.0.dist-info/LICENSE,sha256=FLi3GBW63ZjsmuZds5rByh9Zy2RCoUikzAN5g8tz3HY,1071
+tree_sitter_fluentbit-0.1.0.dist-info/METADATA,sha256=6idD5QGklVVJ7Q4OVmisz8f5KcKYA7xnRkqOu0FeqKs,1915
+tree_sitter_fluentbit-0.1.0.dist-info/WHEEL,sha256=5nHCeh84H1Y7Xe2qsvzJe4PdPUPjiFKJvyXZzUjQXSY,100
+tree_sitter_fluentbit-0.1.0.dist-info/top_level.txt,sha256=Re9WsyCLhFab7n46E1eiriPxV9LMVPUA_Sn5SmyhLeo,31
+tree_sitter_fluentbit-0.1.0.dist-info/RECORD,,
