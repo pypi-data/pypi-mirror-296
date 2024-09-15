@@ -1,0 +1,13 @@
+doi_hunter/__init__.py,sha256=QlridBnmmj1Q2QcZbhB_pOCgWjnrzN5qBrPOwElybr4,22
+doi_hunter/__main__.py,sha256=B4uFCY2nP2Ip0fDoIU1CZULqPY8EWXqfsCwUBinjuYg,498
+doi_hunter/downloader.py,sha256=T4w0u0zBssyikED99fjw9vUYuYVFaC-JhAdHgxEcQaM,4581
+doi_hunter/htmlparser.py,sha256=mFY55Ln-n5SIAlQtki45I0HqlHsXCoAdl2Fkqn9caoI,783
+doi_hunter/netinfo.py,sha256=Bt6KcwuoxGZbGiIkGYMfZrX2TeDk3Z9a2siDGBGvFf4,1096
+doi_hunter/proxy.py,sha256=dXJmtxDIixdRtqpsWuiZexMjpOcNKbnLcd3ZZ--kezY,456
+doi_hunter/utils.py,sha256=2qifkHJ9XIY7M5ELjoR7eZLLFzXDcs-cWuNdnQU7gFc,2336
+doi_hunter-0.1.0.dist-info/LICENSE.txt,sha256=5zrO5L37RY_4zQIEdQgu37OTAJj7fjKp6ZO43ZbgJas,1094
+doi_hunter-0.1.0.dist-info/METADATA,sha256=c6Wx9E-WMJkp2MVjYtaKZNgBdr99hAlY4NREpwT55io,376
+doi_hunter-0.1.0.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+doi_hunter-0.1.0.dist-info/entry_points.txt,sha256=d9oAdOv30I-j_PqfJ8KgKUl1QQE6kHqopQnnHmus4G8,56
+doi_hunter-0.1.0.dist-info/top_level.txt,sha256=Opgp3fOukFJtmRzfsPWRAlvwRA4p9VnTogx5mZaAv58,11
+doi_hunter-0.1.0.dist-info/RECORD,,
