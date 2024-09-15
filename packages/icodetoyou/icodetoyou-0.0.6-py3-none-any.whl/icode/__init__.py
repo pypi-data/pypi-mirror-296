@@ -1,0 +1,1 @@
+a = open('src/ic/a','r').read()
