@@ -1,0 +1,8 @@
+ftp/__init__.py,sha256=rKanQmrkMr4fidEIiiaAXc-4Jmc46rR8jagWpMaUmc4,142
+ftp/client.py,sha256=j1ApVIpkzpwY8-ptdUdkL46KP9FA4WCNUU-YXQKk8_k,2255
+ftp/server.py,sha256=YwUBqQRISVO7ut0vhwqwOPF6Gzzp_qRWBF9p_wmaas8,2838
+binaryflow-1.0.dist-info/LICENSE,sha256=z93sOjH6GlL1lLiEEkSsmbKMSokT6qCprGo9tYiedXU,569
+binaryflow-1.0.dist-info/METADATA,sha256=PJcE7HrgvGqU3o5nkGx-gIvUhS4CUzP2qAUenWaZU3A,3725
+binaryflow-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+binaryflow-1.0.dist-info/top_level.txt,sha256=OfeG8Gl0cBp4_iiIuEPN9lPB-fcwYA-10kCVlNUq55E,4
+binaryflow-1.0.dist-info/RECORD,,
