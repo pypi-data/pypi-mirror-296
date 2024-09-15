@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: defectdojo-cli2
+Version: 0.1.6
+Summary: CLI Wrapper for DefectDojo using APIv2
+License: MIT
+Author: Mikke Schirén
+Author-email: mikke.schiren@digitalist.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich-argparse (>=1.5.2,<2.0.0)
+Requires-Dist: setuptools (>=71.1.0,<72.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# DefectDojo CLI
+
+[![License](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
+
+A CLI wrapper for [DefectDojo](https://github.com/DefectDojo/django-DefectDojo)
+
+## Fork
+
+This started as a fork of <https://github.com/adiffpirate/defectdojo-cli>.
+
+## Installation
+
+Simply run:
+
+```sh
+python3 -m pip install defectdojo-cli2
+```
+
+## Usage
+
+```sh
+defectdojo --help
+```
+
+## Development
+
+```sh
+poetry env use /usr/local/bin/python3 # = your full path to the Python executable.
+poetry install
+poetry run python3 defectdojo_cli2
+
+
+```
+
+## WIP: DefectDojo for CI
+
+The goal of this cli is not only to be used as a cli tool for accessing DefectDojo API, but also to be able to run automated jobs in a CI environment, like importing scans to DefectDojo.
+
+We will publish a docker container when all needed basics are in place, to run DefectDojo CLI for this.
+
+To use Defectdojo CLI in a CI context, there is DEFECTDOJO prefixed environment variables you could set. This, so you don't need to provide the arguments.
+
+```sh
+DEFECTDOJO_URL
+DEFECTDOJO_API_KEY
+DEFECTDOJO_PRODUCT_ID
+DEFECTDOJO_ENGAGEMENT_ID
+DEFECTDOJO_TEST_TYPE
+DEFECTDOJO_USER_NAME
+DEFECTDOJO_PASSWORD
+DEFECTDOJO_PRODUCT
+DEFECTDOJO_LANGUAGES_FILE
+```
+
