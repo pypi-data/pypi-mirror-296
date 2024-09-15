@@ -1,0 +1,5 @@
+setup.py
+MLscannerHEP.egg-info/PKG-INFO
+MLscannerHEP.egg-info/SOURCES.txt
+MLscannerHEP.egg-info/dependency_links.txt
+MLscannerHEP.egg-info/top_level.txt
