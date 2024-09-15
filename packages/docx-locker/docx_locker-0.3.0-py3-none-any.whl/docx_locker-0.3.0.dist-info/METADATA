@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: docx-locker
+Version: 0.3.0
+Summary: Python module for enabling document protection on docx files
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml >=5.3.0
+
+# docx-locker
+Python module for enabling document protection on docx files.
