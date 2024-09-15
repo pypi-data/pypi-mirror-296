@@ -1,0 +1,216 @@
+<mvc:View
+  controllerName="demo.spa.controller.Welcome"
+  xmlns:core="sap.ui.core"
+  xmlns="sap.m"
+  xmlns:l="sap.ui.layout"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:form="sap.ui.layout.form"
+>
+  <NavContainer id="idWelcomeNavContainer">
+    <Page
+      id="idWelcomePage"
+      class="customBackground customBackgroundImage"
+      showHeader="false"
+    >
+      <l:BlockLayout background="Light">
+        <!-- LayoutRow to be shown on larger screens -->
+        <l:BlockLayoutRow
+          class="customBackgroundColor0 customStickyElement"
+          visible="{= ${device>/resize/width} &gt;= 632}"
+        >
+          <l:BlockLayoutCell>
+            <HBox justifyContent="Center">
+              <Button
+                icon="sap-icon://world"
+                type="Transparent"
+                tooltip="{i18n>app.btnChooseLanguage}"
+                press=".createLanguageActionSheet"
+              />
+            </HBox>
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell>
+            <Image
+              width="100%"
+              height="3rem"
+              src="{frontend>/resourceRoot}/img/logo-dark.svg"
+            />
+            <HBox justifyContent="Center">
+              <Text text="Smarte Terminplanung" />
+            </HBox>
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell>
+            <HBox justifyContent="Center">
+              <Button
+                icon="sap-icon://arrow-right"
+                type="Transparent"
+              />
+            </HBox>
+          </l:BlockLayoutCell>
+        </l:BlockLayoutRow>
+
+        <!-- LayoutRow to be shown on smaller screens -->
+        <l:BlockLayoutRow
+          class="customBackgroundColor0 customStickyElement"
+          visible="{= ${device>/resize/width} &lt; 632}"
+        >
+          <l:BlockLayoutCell>
+            <Image
+              width="100%"
+              height="3rem"
+              src="{frontend>/resourceRoot}/img/logo-dark.svg"
+            />
+            <HBox justifyContent="Center">
+              <Text text="Smarte Terminplanung" />
+            </HBox>
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell>
+            <HBox justifyContent="Center">
+              <Button
+                icon="sap-icon://world"
+                class="sapUiLargeMarginBeginEnd"
+                type="Transparent"
+                press=".createLanguageActionSheet"
+                tooltip="{i18n>app.btnChooseLanguage}"
+              />
+              <Button
+                class="sapUiLargeMarginBeginEnd"
+                icon="sap-icon://arrow-right"
+                type="Transparent"
+                tooltip="Go to next page"
+              />
+            </HBox>
+          </l:BlockLayoutCell>
+        </l:BlockLayoutRow>
+
+        <!-- Rows to be shown on all screens -->
+        <l:BlockLayoutRow>
+          <l:BlockLayoutCell
+            title="Einfach"
+            titleAlignment="Center"
+            class="fade-in-0"
+          >
+            <Text
+              text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            />
+            <core:Icon
+              src="sap-icon://status-positive"
+              size="3rem"
+              class="customCenteredTileContent"
+            />
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell
+            title="Kooperativ"
+            titleAlignment="Center"
+            class="fade-in-1"
+          >
+            <Text
+              text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            />
+            <core:Icon
+              src="sap-icon://company-view"
+              size="3rem"
+              class="customCenteredTileContent"
+            />
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell
+            title="Produktiv"
+            titleAlignment="Center"
+            class="fade-in-2"
+          >
+            <Text
+              text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            />
+            <core:Icon
+              src="sap-icon://trend-up"
+              size="3rem"
+              class="customCenteredTileContent"
+            />
+          </l:BlockLayoutCell>
+        </l:BlockLayoutRow>
+        <l:BlockLayoutRow>
+          <l:BlockLayoutCell
+            title="Sicher"
+            titleAlignment="Center"
+            class="fade-in-4"
+          >
+            <Text
+              text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            />
+            <core:Icon
+              src="sap-icon://locked"
+              size="3rem"
+              class="customCenteredTileContent"
+            />
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell
+            title="Genau"
+            titleAlignment="Center"
+            class="fade-in-6"
+          >
+            <Text
+              text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            />
+            <core:Icon
+              src="sap-icon://target-group"
+              size="3rem"
+              class="customCenteredTileContent"
+            />
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell
+            title="Schnell"
+            titleAlignment="Center"
+            class="fade-in-8"
+          >
+            <Text
+              text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            />
+            <core:Icon
+              src="sap-icon://date-time"
+              size="3rem"
+              class="customCenteredTileContent"
+            />
+          </l:BlockLayoutCell>
+        </l:BlockLayoutRow>
+        <!-- LayoutRow for Links -->
+        <l:BlockLayoutRow>
+          <l:BlockLayoutCell
+            class="fade-in-7 customBackgroundColor1"
+            titleAlignment="Center"
+          >
+            <l:titleLink>
+              <Link
+                class="customTileLink customSmallerFontSize"
+                text="Kontakt"
+                href="#/legal"
+              />
+            </l:titleLink>
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell
+            class="fade-in-9 customBackgroundColor0"
+            titleAlignment="Center"
+          >
+            <l:titleLink>
+              <Link
+                class="customTileLink customSmallerFontSize"
+                text="Loslegen"
+                href="#/sign-in"
+              />
+            </l:titleLink>
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell
+            class="fade-in-11 customBackgroundColor1"
+            titleAlignment="Center"
+          >
+            <l:titleLink>
+              <Link
+                class="customTileLink customSmallerFontSize"
+                text="Datenschutz"
+                href="#/settings"
+              />
+            </l:titleLink>
+          </l:BlockLayoutCell>
+        </l:BlockLayoutRow>
+      </l:BlockLayout>
+    </Page>
+  </NavContainer>
+</mvc:View>

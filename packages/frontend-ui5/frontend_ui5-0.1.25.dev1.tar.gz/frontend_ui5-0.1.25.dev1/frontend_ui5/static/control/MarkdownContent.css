@@ -1,0 +1,15 @@
+.customMarkdownContent * {
+  color: inherit;
+}
+
+.customMarkdownContent table ,
+.customMarkdownContent table td,
+.customMarkdownContent table th,
+.customMarkdownContent table tr,
+.customMarkdownContent pre
+{
+  border-collapse: collapse;
+  border: 2px solid #88888816;
+  background-color: #88888804;
+  padding: 0.5rem;
+}

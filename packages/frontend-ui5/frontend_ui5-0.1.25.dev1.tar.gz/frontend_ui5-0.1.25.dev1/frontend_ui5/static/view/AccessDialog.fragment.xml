@@ -1,0 +1,67 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.ui.layout.form"
+>
+  <Dialog
+    busyIndicatorDelay="100"
+    showHeader="false"
+    contentWidth="{= ${device>/system/phone}? '18rem' : '30rem'}"
+  >
+    <VBox class="sapUiSmallMarginBegin sapUiSmallMarginEnd">
+      <f:Form
+        editable="true"
+        class="sapUiMediumMarginBottom"
+      >
+        <f:layout>
+          <f:ResponsiveGridLayout />
+        </f:layout>
+        <f:formContainers>
+          <f:FormContainer>
+            <f:formElements>
+              <f:FormElement>
+                <Image
+                  class="sapUiSmallMarginTop sapUiMediumMarginBottom customCenteredImage"
+                  height="3rem"
+                  width="100%"
+                  src="{frontend>/svgLogoPath}"
+                />
+                <!-- todo i18n -->
+                <Text
+                  text="Du wirst um Mitwirkung gebeten. Gib deinen Namen an, um sicherzustellen, dass dieser Link für dich bestimmt ist:"
+                  textAlign="Center"
+                />
+              </f:FormElement>
+              <f:FormElement>
+                <f:fields>
+                  <!-- todo i18n -->
+                  <Input
+                    id="idNameInput"
+                    showClearIcon="true"
+                    placeholder="{i18n>yourName}"
+                  />
+                </f:fields>
+              </f:FormElement>
+            </f:formElements>
+          </f:FormContainer>
+        </f:formContainers>
+      </f:Form>
+    </VBox>
+    <buttons>
+      <!-- todo i18n -->
+      <Button
+        id="idContinueButton"
+        class="sapUiSmallMarginBegin"
+        press=".onContinuePress"
+        text="{i18n>continue}"
+        type="Emphasized"
+      />
+      <Button
+        class="sapUiSmallMarginEnd"
+        press=".onCancelPress"
+        text="{i18n>cancel}"
+        type="Ghost"
+      />
+    </buttons>
+  </Dialog>
+</core:FragmentDefinition>
