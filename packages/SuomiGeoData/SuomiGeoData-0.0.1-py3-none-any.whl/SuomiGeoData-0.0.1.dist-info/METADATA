@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: SuomiGeoData
+Version: 0.0.1
+Summary: Downloading and extracting geospatial data from Suomi, that is Finland.
+Author-email: Debasish Pal <bestdebasish@gmail.com>
+Project-URL: Homepage, https://github.com/debpal/SuomiGeoData
+Keywords: Paituli,Topography,Data download
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: geopandas >=1.0.1
+
+# SuomiGeoData
+
+## What is SuomiGeoData?
+SuomiGeoData is a Python package designed to simplify the process of downloading and extracting geospatial data from Suomi, that is Finland. The features of the package include:
+
+- **[Paituli](https://paituli.csc.fi/download.html)** 
+  - Accessing the topographic database index map.
+
+
+## Easy Installation
+
+To install, use pip:
+
+```bash
+pip install SuomiGeoData
+```
+
+## Quickstart
+A brief example of how to start:
+
+```python
+>>> import SuomiGeoData
+>>> paituli = SuomiGeoData.Paituli()
+
+# get the topographic database index map
+>>> im_tb = paituli.indexmap_tdb
+>>> im_tb.shape
+(3132, 3)
+```
+
+## Documentation
+
+
+## Toolkit
+
