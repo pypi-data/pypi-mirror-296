@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+seqpat/__init__.py
+seqpat/patterns.py
+seqpat/utility_functions.py
+seqpat.egg-info/PKG-INFO
+seqpat.egg-info/SOURCES.txt
+seqpat.egg-info/dependency_links.txt
+seqpat.egg-info/top_level.txt
+tests/test_patterns.py
+tests/test_utility_functions.py
