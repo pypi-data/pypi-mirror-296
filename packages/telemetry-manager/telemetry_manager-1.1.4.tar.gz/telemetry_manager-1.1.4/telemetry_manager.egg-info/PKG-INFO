@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: telemetry-manager
+Version: 1.1.4
+Summary: A straighthrough manager for python opentelemetry exporter
+Home-page: https://github.com/smbrine/telemetry-manager
+Author: Nick Smirnov
+Author-email: smbrine@yandex.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# telemetry-manager
