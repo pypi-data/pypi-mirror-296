@@ -1,0 +1,11 @@
+reproducible_figures/__init__.py,sha256=CNzRHyvSuRiTdw2qIzomy3JfrxIihE2txUEyUSbNfso,87
+reproducible_figures/plotting.py,sha256=AEYJnjES96G6TqdQonHaeDhhtUidSI4dkt0Tm8e0QF4,1583
+reproducible_figures/utility.py,sha256=MopzrcFS1KTuCT5kE0hM36IBECoFGDqrQFEt05-Apes,13008
+reproducible_figures/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reproducible_figures/test/test_save_figure.py,sha256=gjzhvUFgpSOhnM7xdKydAU8HemFyWhjRx98ezKT0xZk,7743
+reproducible_figures/test/test_utils.py,sha256=eJ9ce4WwNMdRGmUztBUVHPO6b2esPDNdbd0NNNPb8Gs,384
+reproducible_figures-1.2.2.dist-info/LICENSE,sha256=Qadfw1dPtUgszfyAkEpnaBBOofhZNFEdeax5_CR53cg,1066
+reproducible_figures-1.2.2.dist-info/METADATA,sha256=nJEugt4h2UXgFOdt0A1JwNsBUD3e2B8f4ny5bOsPAK8,7788
+reproducible_figures-1.2.2.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+reproducible_figures-1.2.2.dist-info/top_level.txt,sha256=I4p9iAWjIUjjBePcScZDVFWiOLpeejQy_f4cMnZhbYI,21
+reproducible_figures-1.2.2.dist-info/RECORD,,
