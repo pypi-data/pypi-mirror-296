@@ -1,0 +1,2 @@
+include ./src/striebel/bib/meta.sh
+include ./src/striebel/bib/data/hello.txt
