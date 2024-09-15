@@ -1,0 +1,3 @@
+[console_scripts]
+git-tracker=git_tracker.__main__:app
+
