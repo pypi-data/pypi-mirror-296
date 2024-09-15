@@ -1,0 +1,12 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  xmlns:custom="demo.spa.control"
+>
+  <Page showHeader="false">
+    <custom:MarkdownContent
+      class="sapUiSmallMarginBegin sapUiSmallMarginEnd"
+      src="legal"
+    />
+  </Page>
+</mvc:View>
