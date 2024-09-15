@@ -1,0 +1,18 @@
+{
+  "files.eol": "\n", // LF
+  "editor.wordWrap": "on",
+  "notebook.output.wordWrap": "on",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit",
+      // "source.organizeImports.ruff": "never",
+    }
+  },
+  // "ruff.organizeImports": false,
+  "ruff.format.args": [
+    "--config=pyproject.toml",
+  ]
+}
