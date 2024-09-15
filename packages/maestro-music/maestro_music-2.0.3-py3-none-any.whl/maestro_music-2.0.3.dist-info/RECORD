@@ -1,0 +1,15 @@
+maestro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maestro/__main__.py,sha256=SiigG6ZgHlLZ_X4yRbmsElHK37BSHOlX1rpdjoTOPdo,292
+maestro/__version__.py,sha256=B3WZCpCZe9ACDb5Kz1260efT1srTsSgC5RF7GDrw9VE,17
+maestro/config.py,sha256=1i6PnNjqdXIgbY9HW7Tu_3sG0d0mbgB21IEZFwvrx9A,6191
+maestro/helpers.py,sha256=ipniwqvINbxNydZPXbq7NMfO8jkgMVNuzOWB3PWIRps,86359
+maestro/icon.py,sha256=De4j-TkeTuNmOyRn5Xt7Me2LEH5POAYUkZcQuWRtnRU,146639
+maestro/jit_funcs.py,sha256=xFH2fQuXPZOtZhWjq4DlXdUOvJ4D9qp2zLzVD2me5N8,3314
+maestro/mac_presence.py,sha256=eO3_CoxLWDJ5EVk4M48bd0ZxMVYGjL1J49dKOIN9V18,9369
+maestro/main.py,sha256=afLQsqzJ-XhRz8ZLGocmhje-rt_zUX_nCvAQWEWCHmo,127465
+maestro_music-2.0.3.dist-info/LICENSE,sha256=gTgom52vQTNUQH-1mRp4Cyb1RqtN00oCwiDGIuU6MxY,1067
+maestro_music-2.0.3.dist-info/METADATA,sha256=aG2WgTQ3WIWkxdbOMyit0mqZBbbpTh5ezrO3Ldq2Itk,12105
+maestro_music-2.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+maestro_music-2.0.3.dist-info/entry_points.txt,sha256=yxYKWBGS4KI8WrtweXXQIJe5EaJWHEove6VVy5fPiz4,45
+maestro_music-2.0.3.dist-info/top_level.txt,sha256=HB6GWoGU1KaHEJZyIflD7m5yUQKwOU4itaj46Uf-lvs,8
+maestro_music-2.0.3.dist-info/RECORD,,
