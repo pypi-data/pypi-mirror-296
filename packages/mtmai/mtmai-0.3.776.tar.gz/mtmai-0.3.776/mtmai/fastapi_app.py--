@@ -1,0 +1,19 @@
+import chainlit as cl
+from chainlit.context import init_http_context
+from chainlit.utils import mount_chainlit
+from fastapi import FastAPI
+
+# # 启动 命令 uvicorn fastapi_app:app --reload
+
+
+app = FastAPI()
+
+
+@app.get("/app")
+async def read_main():
+    init_http_context()
+    await cl.Message(content="Hello, I am a chatbot!").send()
+    return {"message": "Hello World from main app"}
+
+
+mount_chainlit(app=app, target="chainit_app.py", path="/chainlit")
