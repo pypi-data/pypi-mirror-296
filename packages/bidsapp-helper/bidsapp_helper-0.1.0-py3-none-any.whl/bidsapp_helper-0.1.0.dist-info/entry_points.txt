@@ -1,0 +1,2 @@
+[console_scripts]
+nhp_dwiproc = nhp_dwiproc.run:main
