@@ -1,0 +1,9 @@
+README.md
+setup.py
+tests/test_documentos.py
+validador_docs.egg-info/PKG-INFO
+validador_docs.egg-info/SOURCES.txt
+validador_docs.egg-info/dependency_links.txt
+validador_docs.egg-info/top_level.txt
+validator_docs/__init__.py
+validator_docs/validador.py
