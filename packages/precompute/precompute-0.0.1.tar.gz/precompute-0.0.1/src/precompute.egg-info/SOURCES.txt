@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/precompute/__init__.py
+src/precompute/offload.py
+src/precompute.egg-info/PKG-INFO
+src/precompute.egg-info/SOURCES.txt
+src/precompute.egg-info/dependency_links.txt
+src/precompute.egg-info/requires.txt
+src/precompute.egg-info/top_level.txt
+tests/test_offload.py
