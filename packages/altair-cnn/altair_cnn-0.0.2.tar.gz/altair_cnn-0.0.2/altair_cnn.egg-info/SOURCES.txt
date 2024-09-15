@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+altair_cnn/__init__.py
+altair_cnn/altair_cnn.py
+altair_cnn.egg-info/PKG-INFO
+altair_cnn.egg-info/SOURCES.txt
+altair_cnn.egg-info/dependency_links.txt
+altair_cnn.egg-info/requires.txt
+altair_cnn.egg-info/top_level.txt

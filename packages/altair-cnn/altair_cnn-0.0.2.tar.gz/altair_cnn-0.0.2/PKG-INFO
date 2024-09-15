@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: altair_cnn
+Version: 0.0.2
+Summary: A theme for Python's Altair statistical visualization library
+Home-page: http://www.github.com/turnercode/altair-cnn
+Author: Matt Stiles
+Author-email: matt.stiles@cnn.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: altair>=5.4.0
+
+A theme for Python's Altair statistical visualization library
