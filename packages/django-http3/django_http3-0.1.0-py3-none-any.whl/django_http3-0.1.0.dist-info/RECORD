@@ -1,0 +1,10 @@
+management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+management/commands/runhttp3.py,sha256=6MteyZ-gmAvFVIBrge2n-eS4LF7iMq5qE87gMvMnw0c,468
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/asgi_utils.py,sha256=g2yKWSHCBfMx8zNBUyScmG6BdRLE6NTEgzvBF-JEtj4,352
+utils/ssl_utils.py,sha256=gnnHKEV6IqVoOvT8h7VeRd7DUM7oKBs0vdZt6XTTtiI,509
+django_http3-0.1.0.dist-info/METADATA,sha256=TC4URSC2EsIXNReB0N6WtYV3f40J0pGmuM4LsNBy9XQ,4137
+django_http3-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+django_http3-0.1.0.dist-info/top_level.txt,sha256=uglcZsTGQdv3AI2LJy0gaBg3z6vFaMmHLUy95CPxnH0,17
+django_http3-0.1.0.dist-info/RECORD,,
