@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyLOTlib.egg-info/PKG-INFO
+pyLOTlib.egg-info/SOURCES.txt
+pyLOTlib.egg-info/dependency_links.txt
+pyLOTlib.egg-info/requires.txt
+pyLOTlib.egg-info/top_level.txt
