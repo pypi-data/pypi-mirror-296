@@ -1,0 +1,16 @@
+bibmancli/__init__.py,sha256=t1ML-kK3qLu12Ze4kBuBV5Ir2Yr01NXrgWMzrv7lqms,56
+bibmancli/__main__.py,sha256=yGPP94FeSRLKkbxMqQbfuq44k3-Kkg741AlLksDU4CI,56
+bibmancli/bibtex.py,sha256=L-nrTC40t-PykE4HHG3mH7oL4qYZpAEKWPHVRfIcT8U,3091
+bibmancli/cli.py,sha256=xOmAJ8OE4UnmfxQlQwOVgjDhlfmDRQoUDNiHkRKamvM,23892
+bibmancli/config_file.py,sha256=ILEtCDz0s68AWf-G65xU4FUTBviSYLZfLYMWZqf0d5Y,2256
+bibmancli/pdf_utils.py,sha256=qxa_BXNaXdndaZE7RJd7AENff9ILVDpCHgCuJirMYYE,1897
+bibmancli/resolve.py,sha256=dD_xg4YEC8k90BiMd5K3yei-XWyp2YqqftNxhBPiE4s,2128
+bibmancli/tui.py,sha256=dwm7opORXg8n7sC6iEp5FcEw5zURtFh-jFdUoBuY4ew,4156
+bibmancli/utils.py,sha256=km3L-q7SHhmIcFSS_3GSZ8WcaEikAJridJrUaauHOOg,17189
+bibmancli/subcommands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bibmancli/subcommands/check.py,sha256=b_tlYN6CACaXagELQlWqW0MlDwjYwbmHdRF3ivqvSpY,6604
+bibmancli/subcommands/pdf.py,sha256=E5k081q1g7yq7HmNdqUhVvaZ9TVBqvUV0CHuDIB5yXA,6074
+bibmancli-0.1.0.dist-info/METADATA,sha256=yB0rjNXCObwOtXJLIQCbhYrlHpmu5YHjOiJ3rmqbumo,659
+bibmancli-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+bibmancli-0.1.0.dist-info/entry_points.txt,sha256=XJO5_YYnBjyydI7RKJ0lmDWs1SRWNeiuISwCuNGXh6M,42
+bibmancli-0.1.0.dist-info/RECORD,,

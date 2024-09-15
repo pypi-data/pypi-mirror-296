@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: bibmancli
+Version: 0.1.0
+Summary: Simple CLI tool to manage BibTeX files.
+Author-email: Pedro Juan Royo <pedro.juan.royo@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: bibtexparser>=2.0.0b7
+Requires-Dist: bs4>=0.0.2
+Requires-Dist: habanero>=1.2.6
+Requires-Dist: pyfzf-iter>=0.0.1
+Requires-Dist: pylatexenc>=2.10
+Requires-Dist: requests>=2.32.3
+Requires-Dist: textual>=0.79.0
+Requires-Dist: typer[all]>=0.12.4
+Description-Content-Type: text/markdown
+
+# bibman
+
+A CLI utility to manage references in BibTeX format. See the [documentation](https://parzival1918.github.io/bibman/) for more information.
+
+![Main GIF](./tapes/main.gif)
