@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+codebase_to_text/__init__.py
+codebase_to_text/codebase_to_text.py
+codebase_to_text/utils.py
+codebase_to_text.egg-info/PKG-INFO
+codebase_to_text.egg-info/SOURCES.txt
+codebase_to_text.egg-info/dependency_links.txt
+codebase_to_text.egg-info/entry_points.txt
+codebase_to_text.egg-info/requires.txt
+codebase_to_text.egg-info/top_level.txt
+tests/__init__.py
+tests/test_codebase_to_text.py
