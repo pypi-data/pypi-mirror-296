@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mic-toolkit
+Version: 0.2.0
+Summary: Internal toolkit for Microsoft Innovations Club VITC.
+License: MIT
+Author: Ameen Shaikh
+Author-email: mohammedameen9011@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: distilabel[openai] (>=1.3.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# mic-toolkit
+
+Internal utility library for micvitc.
+
+## Docs
+
+https://micvitc.github.io/mic-toolkit/
+
+## Installation
+
+``` py
+pip install mic-toolkit
+```
