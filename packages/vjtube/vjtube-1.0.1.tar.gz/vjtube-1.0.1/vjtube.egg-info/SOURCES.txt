@@ -1,0 +1,9 @@
+setup.py
+vjtube/__init__.py
+vjtube/scraper.py
+vjtube/utils.py
+vjtube.egg-info/PKG-INFO
+vjtube.egg-info/SOURCES.txt
+vjtube.egg-info/dependency_links.txt
+vjtube.egg-info/requires.txt
+vjtube.egg-info/top_level.txt
