@@ -1,0 +1,4 @@
+[console_scripts]
+ci=cli.main:run
+cli=cli.main:cli
+
