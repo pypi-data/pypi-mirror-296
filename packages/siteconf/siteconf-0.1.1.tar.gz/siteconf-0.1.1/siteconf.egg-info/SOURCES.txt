@@ -1,0 +1,8 @@
+README.md
+setup.py
+sitecustomize.py
+siteconf.egg-info/PKG-INFO
+siteconf.egg-info/SOURCES.txt
+siteconf.egg-info/dependency_links.txt
+siteconf.egg-info/not-zip-safe
+siteconf.egg-info/top_level.txt
