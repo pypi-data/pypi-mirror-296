@@ -1,0 +1,11 @@
+date_normalization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+date_normalization/datenormalization.py,sha256=o_SpS2fAFUDke7BETi57S5OqrC7GxSpqNOkhtMTrod0,1609
+date_normalization/datestandard.py,sha256=51g07s77QhFqQm0aTILdY14CJG52XUuTPbf8XT7VrUE,9603
+date_normalization/gregoriandatenormalization.py,sha256=q534r2EzyiAz74CSd-j-KheZkGPlciIkJPg9CoksDko,9029
+date_normalization/jalaliandatenormalization.py,sha256=noPQeqsIU2D58M6qNlg_YQvHGQ-vFOwM9oj-DdCQJrs,7928
+date_normalization/publicnormalization.py,sha256=YgY_y2Iya-WN18xIPjqAIndP4ch5UVWTyK-jCQiK3Ek,3140
+NLP_Date_Normalization_SND-0.1.1.dist-info/LICENSE,sha256=4wAfuze_gZFeedKKZXZ7_seyiUaMDj_qN-Z_u-2Wzfc,1110
+NLP_Date_Normalization_SND-0.1.1.dist-info/METADATA,sha256=uJTW7mcI_-QElFq49GxZpkrUiSo7qDmkQ_MZ30HZyS0,2920
+NLP_Date_Normalization_SND-0.1.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+NLP_Date_Normalization_SND-0.1.1.dist-info/top_level.txt,sha256=L-sgAxxpJBP6CJ59Rim3qiBPXMXt_xFxgEGLW8ctP2I,19
+NLP_Date_Normalization_SND-0.1.1.dist-info/RECORD,,
