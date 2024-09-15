@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-repl
+Version: 0.1.0
+Summary: REPL for SQLAlchemy
+License: GPL-3.0.only
+Author: Vladislav Wohlrath
+Author-email: vladislav@wohlrath.cz
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: SQLAlchemy (>=2,<3)
+Requires-Dist: prompt-toolkit (>=3,<4)
+Requires-Dist: pygments (>=2,<3)
+Requires-Dist: tabulate (>=0.9,<0.10)
+Description-Content-Type: text/markdown
+
+sqlalchemy-repl
+===============
+
+REPL for SQLAlchemy and Python REPL.
+
+Basic usage
+-----------
+```
+import sqlalchemy as sa
+from sqlrepl import sqlrepl
+
+engine = sa.create_engine('sqlite://')
+repl = sqlrepl(engine)
+```
+
