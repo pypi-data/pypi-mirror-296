@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+tg_bot_sender/__init__.py
+tg_bot_sender/conf.py
+tg_bot_sender/index.py
+tg_bot_sender/saveFile.py
+tg_bot_sender/sendMessage.py
+tg_bot_sender.egg-info/PKG-INFO
+tg_bot_sender.egg-info/SOURCES.txt
+tg_bot_sender.egg-info/dependency_links.txt
+tg_bot_sender.egg-info/not-zip-safe
+tg_bot_sender.egg-info/top_level.txt
