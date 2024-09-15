@@ -1,0 +1,148 @@
+:root {
+  --fade-in-time: 1s;
+  --fade-in-delay: 0.1s;
+}
+/* the following will make the date text disappear in the calendar: */
+/* .sapMSinglePCGrid > * .sapUiCalItemText{
+  display: none !important;
+} */
+.customBackgroundColor0 * {
+  background-color: #1d2f3d !important;
+  color: #e3e4e9 !important;
+}
+.customBackgroundColor1 * {
+  background-color: #2d3f4e !important;
+  color: #e3e4e9 !important;
+}
+.customBackground {
+  background-color: #2f63946e !important;
+}
+.customPositiveBackground {
+  background-color: var(--sapSuccessBackground);
+}
+.customWarningBackground {
+  background-color: var(--sapWarningBackground);
+}
+.customNegativeBackground {
+  background-color: var(--sapErrorBackground);
+}
+.customNeutralBackground {
+  background-color: var(--sapAssistant_Background);
+}
+.customNeutralBackground1 {
+  background-color: var(--sapInformationBackground);
+}
+.customNeutralBackground2 {
+  background-color: var(--sapNeutralBackground);
+}
+.customBackgroundImage {
+  background-image: url('../img/squares.svg');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+.customCenteredHeader .sapMListHdr {
+  width: 100%;
+  text-align: center;
+}
+.customCenteredImage {
+  display: block;
+  margin: auto;
+}
+.customCenteredTileContent {
+  width: 100%;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.customMarginTop {
+  margin-top: 1.2rem;
+}
+.customSettingListItem {
+  width: 230px;
+  padding: 0.5rem;
+}
+.customSmallerFontSize {
+  font-size: 70% !important;
+}
+.customStickyElement {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  opacity: 0.95;
+}
+.customTileLink {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #bbe6ff !important;
+}
+.fade-in-0 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 0);
+}
+.fade-in-1 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 1);
+}
+.fade-in-10 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 10);
+}
+.fade-in-11 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 11);
+}
+.fade-in-12 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 12);
+}
+.fade-in-2 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 2);
+}
+.fade-in-3 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 3);
+}
+.fade-in-4 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 4);
+}
+.fade-in-5 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 5);
+}
+.fade-in-6 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 6);
+}
+.fade-in-7 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 7);
+}
+.fade-in-8 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 8);
+}
+.fade-in-9 {
+  opacity: 0;
+  animation: fadeIn var(--fade-in-time) ease-in-out forwards calc(var(--fade-in-delay) * 9);
+}
+.sapMDialog {
+  max-width: 920px !important;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["sap/ui/model/json/JSONModel"],function(e){"use strict";const s={supported:[{name:"Deutsch",code:"de"},{name:"English",code:"en"}],files:["home","legal"]};const n=new e(s);var o={__esModule:true};o.languageModel=n;return o});
+//# sourceMappingURL=Lang.js.map

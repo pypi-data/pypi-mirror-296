@@ -1,0 +1,186 @@
+<mvc:View
+  height="100%"
+  controllerName="demo.spa.controller.App"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:tnt="sap.tnt"
+>
+  <tnt:ToolPage id="idToolPage">
+    <tnt:header>
+      <tnt:ToolHeader visible="{= !${frontend>/fullScreenMode}}">
+        <Button
+          id="idSideNavigationToggleButton"
+          icon="sap-icon://menu2"
+          press=".onMenuButtonPress"
+          tooltip="{i18n>app.btnCollapseMenu}"
+        >
+          <layoutData>
+            <OverflowToolbarLayoutData priority="NeverOverflow" />
+          </layoutData>
+        </Button>
+        <ToolbarSpacer />
+        <Image
+          width="60%"
+          src="{frontend>/svgLogoPath}"
+        />
+        <ToolbarSpacer />
+        <Button
+          icon="sap-icon://world"
+          press=".createLanguageActionSheet"
+          text="{path: 'i18n>app.btnChooseLanguage', formatter: '.formatBtnTxtForSmallScreen'}"
+          tooltip="{i18n>app.btnChooseLanguage}"
+        />
+        <Button
+          icon="sap-icon://ui-notifications"
+          press=".onNotificationPress"
+          text="{path: 'i18n>app.btnDisplayNotifications', formatter: '.formatBtnTxtForSmallScreen'}"
+          tooltip="{i18n>app.btnDisplayNotifications}"
+          visible="{= ${userData>/notification_list}.length === 0 ? false : true }"
+        >
+          <layoutData>
+            <OverflowToolbarLayoutData closeOverflowOnInteraction="false" />
+          </layoutData>
+          <customData>
+            <BadgeCustomData value="{= ${userData>/notification_list}.length}" />
+          </customData>
+        </Button>
+        <Button
+          id="idUserButton"
+          icon="sap-icon://customer"
+          press=".onUserBtnPress"
+          text="{ parts:[ {path: 'frontend>/currentUser/username'}, {value: '20'}, {path: 'i18n>app.guest'} ], formatter: '.shortenString' }"
+          visible="{= !${device>/system/phone} }"
+          tooltip="{frontend>/currentUser/username}"
+        >
+          <layoutData>
+            <OverflowToolbarLayoutData closeOverflowOnInteraction="false" />
+          </layoutData>
+          <dependents>
+            <ActionSheet
+              id="idUserActionSheet"
+              title="{i18n>app.menuTitle}"
+            >
+              <Button
+                text="{i18n>logout}"
+                icon="sap-icon://log"
+                press=".onLogoutPress"
+                visible="{= ${frontend>/currentUser/username}? true : false }"
+              />
+              <Button
+                text="{i18n>login}"
+                icon="sap-icon://customer"
+                press=".onOpenSignInDialogPress"
+                visible="{= ${frontend>/currentUser/username}? false: true }"
+              />
+              <Button
+                text="{i18n>login.newAccount}"
+                icon="sap-icon://add-employee"
+                press=".onOpenSignUpDialogPress"
+                visible="{= ${frontend>/currentUser/username}? false: true }"
+              />
+            </ActionSheet>
+          </dependents>
+        </Button>
+        <Button
+          text="{i18n>logout}  ({frontend>/currentUser/username})"
+          icon="sap-icon://log"
+          press=".onLogoutPress"
+          visible="{= ${device>/system/phone} &amp;&amp; ${frontend>/currentUser/username} !== ''}"
+        />
+        <Button
+          text="{i18n>login}"
+          icon="sap-icon://customer"
+          press=".onOpenSignInDialogPress"
+          visible="{= ${device>/system/phone} &amp;&amp; ${frontend>/currentUser/username} === ''}"
+        />
+        <Button
+          text="{i18n>login.newAccount}"
+          icon="sap-icon://add-employee"
+          press=".onOpenSignUpDialogPress"
+          visible="{= ${device>/system/phone} &amp;&amp; ${frontend>/currentUser/username} === ''}"
+        />
+      </tnt:ToolHeader>
+    </tnt:header>
+    <tnt:sideContent>
+      <tnt:SideNavigation
+        id="idSideNavigation"
+        expanded="true"
+        visible="{= !${frontend>/fullScreenMode}}"
+      >
+        <tnt:NavigationList id="idNavList">
+          <tnt:NavigationListItem
+            id="idHomeNavListItem"
+            text="{i18n>app.sideNavigationLink}"
+            icon="sap-icon://home"
+            href="#/"
+          />
+          <tnt:NavigationListItem
+            text="{i18n>team.title}"
+            icon="sap-icon://company-view"
+            href="#/team"
+            enabled="{= ${frontend>/currentUser/username} !== ''}"
+          />
+          <!-- todo i18n -->
+          <tnt:NavigationListItem
+            enabled="{= ${userData>/person_list}.length &gt; 1}"
+            text="Übersicht"
+            icon="sap-icon://appointment-2"
+            href="#/appointments"
+          />
+          <tnt:NavigationListItem
+            enabled="{= ${userData>/person_list}.length &gt; 0}"
+            expanded="{frontend>/expandAppointmentNavListItem}"
+            href="#/choices/appointments"
+            icon="sap-icon://calendar"
+            id="idAppointmentNavListItem"
+            items="{path: 'userData>/person_list', sorter:{ path: '', comparator: '.comparePersons'}}"
+            text="{i18n>calendar.appointments}"
+          >
+            <tnt:items>
+              <tnt:NavigationListItem
+                href="#/appointments/{userData>id}"
+                text="{parts: ['userData>related_user','frontend>/currentUser/user_id', 'userData>first_name', 'userData>last_name'], formatter: '.formatPersonNameInNavList'}"
+              />
+            </tnt:items>
+          </tnt:NavigationListItem>
+          <tnt:NavigationListItem
+            enabled="{= ${userData>/person_list}.length &gt; 0}"
+            expanded="{frontend>/expandAvailabilityNavListItem}"
+            href="#/choices/availability"
+            icon="sap-icon://check-availability"
+            id="idAvailabilityNavListItem"
+            items="{path: 'userData>/person_list',
+                    sorter:{ path: '', comparator: '.comparePersons'}}"
+            text="{i18n>calendar.availability}"
+          >
+            <tnt:items>
+              <tnt:NavigationListItem
+                href="#/availability/{userData>id}"
+                text="{parts: ['userData>related_user','frontend>/currentUser/user_id', 'userData>first_name', 'userData>last_name'], formatter: '.formatPersonNameInNavList'}"
+              />
+            </tnt:items>
+          </tnt:NavigationListItem>
+        </tnt:NavigationList>
+        <tnt:fixedItem>
+          <tnt:NavigationList id="idNavListFixed">
+            <tnt:NavigationListItem
+              id="idSettingsNavListItem"
+              text="{i18n>settings.link}"
+              icon="sap-icon://action-settings"
+              href="#/settings"
+            />
+            <tnt:NavigationListItem
+              id="idLegalNavListItem"
+              text="{i18n>legal.link}"
+              icon="sap-icon://compare"
+              href="#/legal"
+            />
+          </tnt:NavigationList>
+        </tnt:fixedItem>
+      </tnt:SideNavigation>
+    </tnt:sideContent>
+    <tnt:mainContents>
+      <App id="idMainContents" />
+    </tnt:mainContents>
+  </tnt:ToolPage>
+</mvc:View>

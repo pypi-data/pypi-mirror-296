@@ -1,0 +1,2 @@
+"use strict";sap.ui.define([],function(){"use strict";function e(e,a){if(e.last_name===""&&a.last_name!==""){return 1}else if(e.last_name!==""&&a.last_name===""){return-1}else if(e.last_name===a.last_name){return e.first_name.localeCompare(a.first_name)}else{return e.last_name.localeCompare(a.last_name)}}var a={__esModule:true};a.comparePersons=e;return a});
+//# sourceMappingURL=Comparators.js.map
