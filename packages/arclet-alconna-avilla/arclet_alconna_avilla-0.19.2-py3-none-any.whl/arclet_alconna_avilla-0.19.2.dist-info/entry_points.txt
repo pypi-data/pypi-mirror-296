@@ -1,0 +1,3 @@
+[creart.creators]
+alconna_avilla_behavior = arclet.alconna.avilla.create:AlconnaBehaviorCreator
+
