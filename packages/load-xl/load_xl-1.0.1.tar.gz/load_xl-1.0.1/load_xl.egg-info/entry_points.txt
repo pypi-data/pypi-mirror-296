@@ -1,0 +1,2 @@
+[console_scripts]
+load_xl = load_xl:cli
