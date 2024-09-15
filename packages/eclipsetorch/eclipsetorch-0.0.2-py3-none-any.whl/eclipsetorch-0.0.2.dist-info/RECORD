@@ -1,0 +1,9 @@
+eclipsetorch/__init__.py,sha256=v6sKW2FbzbBlj4w1Ibi_ULOBAKw05rRCFFOA4ajWP1w,64
+eclipsetorch/model.py,sha256=cv0av-dyiaCavVqLEDF1jXWFSAZDewvMSCiMHQ9cfJI,4970
+eclipsetorch/training.py,sha256=f_f8yHRUNcZ15KPwN3OHyfuIM02U0gWCkRjlmBQcRxs,6392
+eclipsetorch/utils.py,sha256=VpJ3LfO0djy55u9zOU8DNm3app-AzMpCD5fA1jJKDzM,6594
+eclipsetorch-0.0.2.dist-info/LICENSE,sha256=Ieq174Inu5VEMUCohJubnmYs-xo_BmjArbx7HozDw7w,1093
+eclipsetorch-0.0.2.dist-info/METADATA,sha256=cOBFC7FiIvPqBbHRXLQ9qyRrtavG5XJHdbOH7WNYeIc,1196
+eclipsetorch-0.0.2.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+eclipsetorch-0.0.2.dist-info/top_level.txt,sha256=uhLhD32gY9k86K2rAidKDnT0fgbz-h74pf-BZdIRVW0,13
+eclipsetorch-0.0.2.dist-info/RECORD,,
