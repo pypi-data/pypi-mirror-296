@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ip_fetcher
+Version: 0.2
+Summary: A Python library to fetch public and private IP addresses.
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# IP Fetcher
+
+`ip_fetcher` is a Python library for retrieving public and private IP addresses.
+
+## Features
+
+- Fetches the public IP address of the user.
+- Retrieves the private IP address of the user.
+
+## Installation
+
+To install the package, use:
+
+```bash
+pip install ip_fetcher
