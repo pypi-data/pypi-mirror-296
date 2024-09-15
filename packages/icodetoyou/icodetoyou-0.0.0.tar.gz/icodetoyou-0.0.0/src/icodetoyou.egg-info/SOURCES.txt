@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/ic/__init__.py
+src/icodetoyou.egg-info/PKG-INFO
+src/icodetoyou.egg-info/SOURCES.txt
+src/icodetoyou.egg-info/dependency_links.txt
+src/icodetoyou.egg-info/top_level.txt
+src/icolor/__init__.py
