@@ -1,0 +1,2 @@
+[console_scripts]
+docker-recreate = docker_recreate.cli:main
