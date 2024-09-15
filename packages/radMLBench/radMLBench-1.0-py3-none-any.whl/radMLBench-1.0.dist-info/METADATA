@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: radMLBench
+Version: 1.0
+Summary: A Python wrapper for the radMLBench data repository.
+Home-page: https://github.com/aydindemircioglu/radMLBench
+Author: Aydin Demircioglu
+Author-email: aydin.demircioglu@uk-essen.de
+License: MIT
+Keywords: radiomics,data mining,benchmark,machine learning,data analysis,data sets,data science,wrapper
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas (>=1.2.0)
+Requires-Dist: requests (>=2.18.0)
+Requires-Dist: pyyaml (>=5.2)
+Requires-Dist: joblib (>=0.12.0)
+Requires-Dist: numpy (>=1.18.0)
+Requires-Dist: scikit-learn (>=0.20.0)
+
+
+A Python wrapper for the radMLBench data repository.
+
+Contact
+=============
+If you have any questions or comments about radMLBench,
+please feel free to contact us via e-mail: aydin.demircioglu@uk-essen.de
+
+This project is hosted at https://github.com/aydindemircioglu/radMLBench
