@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: hateless
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/ywijesu/hateless#readme
+Project-URL: Issues, https://github.com/ywijesu/hateless/issues
+Project-URL: Source, https://github.com/ywijesu/hateless
+Author-email: Yasas Senarath <12231659+ysenarath@users.noreply.github.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# multilingual-hate-speech-detection
+Multilingual Hate Speech Detection
