@@ -1,0 +1,13 @@
+table_data_process_lib/__init__.py,sha256=slfxnZ91if_JYizPGDfOI2TvMmhyH3IPT8kSTEmPNXc,1331
+table_data_process_lib/example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+table_data_process_lib/example/example.py,sha256=jtVufMNE6PHQ60MvWTUyS8utHiF0LxwZAnapRDls5SY,1835
+table_data_process_lib/example/example_mlp.py,sha256=i_y4fzYUPWfxCNJrDQteOkFxKNLhTCsZt9aMesUJQJw,999
+table_data_process_lib/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+table_data_process_lib/src/classification.py,sha256=Vojov2dKyWMY2ZOgy0ENm4v_denLl1AJbBZDBIRec98,6970
+table_data_process_lib/src/clasterization.py,sha256=lzqOIO-VCOvdIQGA4fUm1Ck60YwuomqCvKCw8KhxJzU,3862
+table_data_process_lib/src/preprocessing.py,sha256=aqG3IZQW7vcWMa0TM8eiYAxipECk-6XIpTre3FeQSIE,5923
+table_data_process_lib/src/regression.py,sha256=MCvcL0O6Yzn_LV5c59kRnHqDl-5wVNVO3cB-dv-AU48,5091
+table_data_process_lib-0.1.5.dist-info/METADATA,sha256=6rWqxStfWfJWlGoHwAjUmr0ELH1Xs1m9KtrdTzGqB08,701
+table_data_process_lib-0.1.5.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+table_data_process_lib-0.1.5.dist-info/top_level.txt,sha256=Ti3e24egVaa8JhW7IIKhO1R75zY12U_Z-vcO37JhfVQ,23
+table_data_process_lib-0.1.5.dist-info/RECORD,,
