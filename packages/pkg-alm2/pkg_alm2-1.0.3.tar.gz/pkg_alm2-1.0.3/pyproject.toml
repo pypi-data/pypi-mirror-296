@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pkg-alm2"
+version = "1.0.3"
+description = "Python C-wrapped implementation of the LM technique for computing the log-likelihood function of the Dirichlet Mutlinomial Distribution with comparison to Python math and scipy implementations of the same function"
+authors = ["Sherenaz Al-Haj Baddar(s.baddar AT ju.edu.jo),Alessandro Languasco(alessandro.languasco AT unipd.it),Mauro Migliardi(mauro.migliardi AT unipd.it) <s.baddar@ju.edu.jo>",
+            "Alessandro Languasco <alessandro.languasco@unipd.it>",
+			 "Mauro Migliardi <mauro.migliardi@unipd.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
