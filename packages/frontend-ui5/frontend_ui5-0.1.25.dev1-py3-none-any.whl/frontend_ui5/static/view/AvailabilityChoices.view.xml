@@ -1,0 +1,81 @@
+<mvc:View
+  xmlns:core="sap.ui.core"
+  controllerName="demo.spa.controller.CalendarChoices"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:unified="sap.ui.unified"
+  xmlns:l="sap.ui.layout"
+  height="99%"
+>
+  <Page
+    showHeader="false"
+    visible="{= ${frontend>/currentUser/username} !== ''}"
+  >
+    <l:BlockLayout background="Default">
+      <l:BlockLayoutRow>
+        <!-- todo i18n -->
+        <l:BlockLayoutCell class="customNeutralBackground1">
+          <Text
+            textAlign="Center"
+            text="Wähle eine Person aus, um ihre Verfügbarkeit anzuzeigen oder zu bearbeiten."
+            class="customCenteredTileContent"
+          />
+          <core:Icon
+            src="sap-icon://check-availability"
+            size="3rem"
+            class="customCenteredTileContent"
+          />
+        </l:BlockLayoutCell>
+        <l:BlockLayoutCell class="customPositiveBackground">
+          <Text
+            textAlign="Center"
+            text="Termine werden in die Zeiträume gelegt, die als bevorzugt markiert sind, wenn das möglich ist."
+            class="customCenteredTileContent"
+          />
+          <core:Icon
+            src="sap-icon://thumb-up"
+            size="3rem"
+            class="customCenteredTileContent"
+          />
+        </l:BlockLayoutCell>
+        <l:BlockLayoutCell class="customNeutralBackground2">
+          <Text
+            textAlign="Center"
+            text="Du kannst Ausweichzeiträume markieren. Wenn es keine andere Möglichkeit gibt, werden Termine dorthin gelegt."
+            class="customCenteredTileContent"
+          />
+          <core:Icon
+            src="sap-icon://thumb-down"
+            size="3rem"
+            class="customCenteredTileContent"
+          />
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+    </l:BlockLayout>
+    <List
+      class="sapUiMediumMarginTop"
+      items="{path: 'userData>/person_list',
+                sorter:{ path: '', comparator: '.comparePersons'}}"
+      mode="None"
+    >
+      <StandardListItem
+        icon="sap-icon://check-availability"
+        iconInset="false"
+        press=".onPersonItemPress"
+        title="{userData>first_name} {userData>last_name}"
+        type="Active"
+      >
+        <customData>
+          <core:CustomData
+            key="person"
+            value="{userData>id}"
+          />
+        </customData>
+      </StandardListItem>
+    </List>
+  </Page>
+  <core:Fragment
+    fragmentName="demo.spa.view.LoginRequiredPage"
+    type="XML"
+  />
+</mvc:View>

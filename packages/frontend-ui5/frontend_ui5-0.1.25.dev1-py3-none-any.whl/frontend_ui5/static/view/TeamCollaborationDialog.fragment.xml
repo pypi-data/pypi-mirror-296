@@ -1,0 +1,39 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.ui.layout.form"
+>
+  <Dialog
+    id="idTeamCollaborationDialog"
+    busyIndicatorDelay="100"
+    showHeader="false"
+  >
+    <Toolbar>
+      <Title
+        class="sapUiTinyMargin"
+        text="{i18n>teamDialog.title}"
+      />
+      <ToolbarSpacer />
+      <Button
+        class="sapUiTinyMargin"
+        icon="sap-icon://decline"
+        press=".onDialogClose"
+        tooltip="{i18n>close}"
+        type="Transparent"
+      />
+    </Toolbar>
+    <f:SimpleForm
+      layout="ResponsiveGridLayout"
+      singleContainerFullSize="false"
+    >
+      <VBox>
+        <Text text="{frontend>/personForm/first_name} {frontend>/personForm/last_name}" />
+
+        <Link
+          href="{path: 'frontend>/personForm', formatter: '.getAccessLink'}"
+          text="{path: 'frontend>/personForm', formatter: '.getAccessLink'}"
+        />
+      </VBox>
+    </f:SimpleForm>
+  </Dialog>
+</core:FragmentDefinition>
