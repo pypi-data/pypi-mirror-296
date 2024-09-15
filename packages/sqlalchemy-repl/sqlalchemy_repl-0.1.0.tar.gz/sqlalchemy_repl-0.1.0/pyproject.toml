@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sqlalchemy-repl"
+version = "0.1.0"
+description = "REPL for SQLAlchemy"
+authors = ["Vladislav Wohlrath <vladislav@wohlrath.cz>"]
+license = "GPL-3.0.only"
+readme = "README.md"
+packages = [ { include = "sqlrepl" } ]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+SQLAlchemy = "^2"
+prompt-toolkit = "^3"
+pygments = "^2"
+tabulate = "^0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
