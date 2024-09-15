@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+eclipsetorch/__init__.py
+eclipsetorch/model.py
+eclipsetorch/training.py
+eclipsetorch/utils.py
+eclipsetorch.egg-info/PKG-INFO
+eclipsetorch.egg-info/SOURCES.txt
+eclipsetorch.egg-info/dependency_links.txt
+eclipsetorch.egg-info/requires.txt
+eclipsetorch.egg-info/top_level.txt
