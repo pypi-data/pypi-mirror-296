@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: vjtube
+Version: 1.0.0
+Summary: Uma biblioteca para realizar scraping de vídeos do YouTube procurando usos indevidos de sua música.
+Home-page: https://github.com/Fioruci/vjtube
+Author: Felipe Fioruci
+Author-email: felipe.fioruci@vjbots.com.br
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: playwright
+
+# vjtube
+
+Esta biblioteca permite realizar scraping de vídeos do YouTube, salvando as informações de cada vídeo, como título, visualizações, canal e data de publicação, além de capturar screenshots dos vídeos.
+
+
+## Instalação
+
+Você pode instalar esta biblioteca diretamente do PyPI (depois de publicada) com o pip:
+
+```bash
+pip install vjtube
+```
+
+
+## Uso
+```python
+from vjtube import YouTubeScraper
+
+scraper = YouTubeScraper(termo_pesquisa="Gino & Geno")
+videos = scraper.buscar_videos()
+
+for video in videos:
+    print(f"Título: {video['titulo']}")
+    print(f"Canal: {video['canal']}")
+    print(f"Link: {video['link']}")
+    print(f"Views: {video['views']}")
+    print(f"Publicado em: {video['publicado_em']}")
+```
+
+## Funcionalidade
+- Busca vídeos no YouTube para termos específicos para buscar usos indevidos de sua música.
+- Extrai e salva screenshots dos vídeos.
+- Organiza as capturas em pastas por termo de pesquisa, tipo de vídeo e filtro.
+- Retorna uma lista com informações detalhadas dos vídeos.
+
+## Licença
+MIT License
