@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+AutoGGUF.egg-info/PKG-INFO
+AutoGGUF.egg-info/SOURCES.txt
+AutoGGUF.egg-info/dependency_links.txt
+AutoGGUF.egg-info/entry_points.txt
+AutoGGUF.egg-info/requires.txt
+AutoGGUF.egg-info/top_level.txt
