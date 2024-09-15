@@ -1,0 +1,12 @@
+pydentity_db_sqlalchemy/__init__.py,sha256=lC3fvx3vRoTX1sJIFnBbo3rPBKBC9W6hUEWOR1WRWXU,886
+pydentity_db_sqlalchemy/fields.py,sha256=O6sS96o6nwkZJUuBxoJL6U4VTLwvtHlpZbwGESeYee4,795
+pydentity_db_sqlalchemy/models/__init__.py,sha256=8-P18iNGUyhe_lEAIyE7hfGjg0DZ5aM_KaSDxG0JRAE,4497
+pydentity_db_sqlalchemy/models/abstract.py,sha256=YrwQVwn3ip7IoYovVFp9ERLC_nMW5Z1X7c0ESCk2qyA,6447
+pydentity_db_sqlalchemy/models/base.py,sha256=htxdLstsDc-kai5IUAwh5vSm7X8XvCbfcTsfb9fwcn8,172
+pydentity_db_sqlalchemy/stores/__init__.py,sha256=flZovIcUX76kpXpsQpG4uY-Gdm4gTI7Ej9UFv8vxwoc,130
+pydentity_db_sqlalchemy/stores/role_store.py,sha256=QNubKvVxynUrcim32AHqz_jhPzi2E1uncQ9dl3qYrNg,5350
+pydentity_db_sqlalchemy/stores/user_store.py,sha256=STMbyb3Y0nsspJh_h_x1_H6tK_MibzH0u4aySbFyDbk,23317
+pydentity_db_sqlalchemy-0.1.3.dist-info/LICENSE,sha256=queT1zdtOBRwPVCHYsXCk7Fpn37T2yGntngx9LZr38o,1086
+pydentity_db_sqlalchemy-0.1.3.dist-info/METADATA,sha256=8eBXY4sUTnUNcQY1ou4XSXwvYX7lDS-6q5LXw1aOnk0,551
+pydentity_db_sqlalchemy-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pydentity_db_sqlalchemy-0.1.3.dist-info/RECORD,,
