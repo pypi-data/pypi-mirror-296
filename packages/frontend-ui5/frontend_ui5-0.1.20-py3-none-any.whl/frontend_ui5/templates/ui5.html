@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="{% static '/img/favicon.svg' %}" />
+    <title>demo.spa</title>
+    <script
+      id="sap-ui-bootstrap"
+      src="{% static '/resources/sap-ui-custom.js' %}"
+      data-sap-ui-theme="sap_horizon"
+      data-sap-ui-resourceroots='{"demo.spa": "{% static '/' %}"}'
+      data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+      data-sap-ui-compatVersion="edge"
+      data-sap-ui-bindingSyntax="complex"
+      data-sap-ui-async="true"
+    >
+    </script>
+  </head>
+
+  <body class="sapUiBody">
+    <!-- only set token if cookie consent is given: -->
+    {% if request.COOKIES.COOKIE_CONSENT %}
+    {% csrf_token %}
+    {% endif %}
+    <script>
+      window.django = {
+        username: '{{username}}',
+        user_id: '{{user_id}}'
+      }
+    </script>
+    <div data-sap-ui-component data-name="demo.spa" data-id="container" data-settings='{"id" : "demo.spa"}'></div>
+  </body>
+</html>
