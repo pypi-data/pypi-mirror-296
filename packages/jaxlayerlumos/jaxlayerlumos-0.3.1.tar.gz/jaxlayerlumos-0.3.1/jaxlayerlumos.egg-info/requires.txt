@@ -1,0 +1,11 @@
+jax
+jaxlib
+
+[dev]
+matplotlib
+pytest
+wheel
+build
+twine
+sphinx
+black
