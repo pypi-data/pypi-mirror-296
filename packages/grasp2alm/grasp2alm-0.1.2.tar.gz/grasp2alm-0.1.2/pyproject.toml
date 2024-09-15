@@ -1,0 +1,48 @@
+
+[tool.poetry]
+name = "grasp2alm"
+version = "0.1.2"
+description = "Package supporting conversion from GRASP beam format to spherical harmonic coefficients for CMB experiments, conversion to expansion coefficients for spherical harmonics, etc."
+authors = [
+    "Yusuke Takase <takase_y@s.okayama-u.ac.jp>",
+    "Matteo Baratto <matteo.baratto@unimi.it>",
+    "Maurizio Tomasi <maurizio.tomasi@unimi.it>",
+    "Yuya Nagano <nagano_y@s.okayama-u.ac.jp>",
+    ]
+license = "GPL3"
+readme = "README.md"
+documentation = "https://yusuke-takase.github.io/grasp2alm/"
+
+repository = "https://github.com/yusuke-takase/grasp2alm"
+keywords = [
+    "GRASP",
+    "CMB",
+    "Beam",
+    "Spherical harmonics",
+    "alm"
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.23"
+healpy = "^1.15.0"
+matplotlib = "^3.1"
+scipy = "^1.13.0"
+pytest = "^8.1.1"
+nbsphinx = "^0.9.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
