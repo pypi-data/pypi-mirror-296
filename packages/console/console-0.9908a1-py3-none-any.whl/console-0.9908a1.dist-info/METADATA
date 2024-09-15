@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: console
+Version: 0.9908a1
+Summary: Comprehensive, composable utility library for ANSI terminals. Better, stronger, faster.  Tch-tch-tch-tch…
+Home-page: https://github.com/mixmastamyk/console
+Author: Mike Miller
+Author-email: mixmastamyk@github.com
+License: LGPL 3
+Project-URL: Repository, https://github.com/mixmastamyk/console
+Project-URL: Issues, https://github.com/mixmastamyk/console/issues
+Project-URL: Documentation, https://mixmastamyk.bitbucket.io/console/
+Keywords: ansi terminal emulator console color detection escape sequence cursor style screen shell xterm
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Terminals
+Requires-Python: >=3.4
+License-File: LICENSE
+Requires-Dist: ezenv >=0.92
+Requires-Dist: jinxed ; os_name == "nt"
+Requires-Dist: colorama ; os_name == "nt" and platform_version < "10.0.10586"
+Provides-Extra: all
+Requires-Dist: pyfiglet ; extra == 'all'
+Requires-Dist: webcolors ; extra == 'all'
+Provides-Extra: figlet
+Requires-Dist: pyfiglet ; extra == 'figlet'
+Provides-Extra: webcolors
+Requires-Dist: webcolors ; extra == 'webcolors'
+
