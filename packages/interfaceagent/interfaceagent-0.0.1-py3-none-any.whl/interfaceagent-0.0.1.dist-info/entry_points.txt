@@ -1,0 +1,2 @@
+[console_scripts]
+interfaceagent = interfaceagent.cli:run

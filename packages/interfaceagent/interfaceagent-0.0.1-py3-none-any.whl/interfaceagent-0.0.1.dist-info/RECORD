@@ -1,0 +1,17 @@
+interfaceagent/__init__.py,sha256=8Uu4VasJnm4PYVk4-B9e4di5kPUmk6puS_YhkTdd8Ws,25
+interfaceagent/cli.py,sha256=9HJGchr6iUpTnvMdfdf6QDhqwITLnZw6VoLd_hH0rzM,858
+interfaceagent/datamodel.py,sha256=2FniD5k8i0WheJhNy1rQUP0U1N0Acqv_RrscAuRF68Q,525
+interfaceagent/utils.py,sha256=QKA7SAUq7YllQV38WZ3yq4Ms5sLIPFONeri1_X3byQ8,941
+interfaceagent/version.py,sha256=Q8raD6k02z4DoYniAz3iui5d6EdM1el95SMTLXJbeCA,18
+interfaceagent/interface/__init__.py,sha256=Iiv_upZHw_9cdjr-BnOjpQotLVJd_ILe00AP7nU61Cs,100
+interfaceagent/interface/browsermanager.py,sha256=2x2hjh9ErdjpP_hnEA4VC7stEuUrTzWPg1U6qzlcJKg,4547
+interfaceagent/interface/model.py,sha256=24eiyk4HjyDhwg1ep9ktHwt_afab-rbNvMwDPS1D64I,954
+interfaceagent/interface/planner.py,sha256=jPkEcaO1FHBhGkcyBBFA1lTXh1bF3WNbypFDsfGJNdU,10742
+interfaceagent/interface/webbrowser.py,sha256=-NULjMfZ3zXIznN6_XUvE_ygVB1fw1UojPY2pVh_6Wo,13073
+interfaceagent/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+interfaceagent/web/app.py,sha256=RD3g0Ms8WEV-a9BmaVA5m84irMbqOOLDhy8ydJENYbA,4557
+interfaceagent-0.0.1.dist-info/METADATA,sha256=KEtNSZcMbtg2Wykj9AcONGhx_wg9xj4BTQhGL9GdkQY,2736
+interfaceagent-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+interfaceagent-0.0.1.dist-info/entry_points.txt,sha256=2kzHvw6gTEdDRq-5kF8_XWm15qJ4JtgkMz1BhEIy_S4,58
+interfaceagent-0.0.1.dist-info/top_level.txt,sha256=hLmd7_vDyBZyZwwKQDbgnNNMcizC7Np4BzfDtzxrkro,15
+interfaceagent-0.0.1.dist-info/RECORD,,
