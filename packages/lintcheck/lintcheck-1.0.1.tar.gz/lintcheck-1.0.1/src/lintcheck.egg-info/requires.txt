@@ -1,0 +1,4 @@
+pylint>=3.2.7
+
+[user]
+idleuserextend~=0.0.1
