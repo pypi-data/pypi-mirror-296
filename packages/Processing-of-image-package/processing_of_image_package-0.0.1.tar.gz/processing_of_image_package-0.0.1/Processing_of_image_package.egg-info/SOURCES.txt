@@ -1,0 +1,14 @@
+README.md
+setup.py
+Processing_of_image_package.egg-info/PKG-INFO
+Processing_of_image_package.egg-info/SOURCES.txt
+Processing_of_image_package.egg-info/dependency_links.txt
+Processing_of_image_package.egg-info/requires.txt
+Processing_of_image_package.egg-info/top_level.txt
+package_name/__init__.py
+package_name/module1_name/__init__.py
+package_name/module1_name/file1_name.py
+package_name/module1_name/file2_name.py
+package_name/module2_name/__init__.py
+package_name/module2_name/file1_name.py
+package_name/module2_name/file2_name.py
