@@ -1,0 +1,2 @@
+[console_scripts]
+jghfinference = jghfmanager.jgthfcli:main
