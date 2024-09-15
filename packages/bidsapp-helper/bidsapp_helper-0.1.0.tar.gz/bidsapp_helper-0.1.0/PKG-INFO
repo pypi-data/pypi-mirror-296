@@ -1,0 +1,64 @@
+Metadata-Version: 2.3
+Name: bidsapp-helper
+Version: 0.1.0
+Summary: Python helper package to simplify creation of BIDS apps
+Project-URL: Repository, https://github.com/kaitj/bidsapp-helper
+Author-email: Jason Kai <jason.kai@childmind.org>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: argparse,bids,neuroimaging
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.11
+Requires-Dist: pyyaml>=6.0.2
+Description-Content-Type: text/markdown
+
+# BIDS-app helper
+
+Helper package to simplify creation of BIDS apps.
+
+## Installation
+
+<!--
+Install this package via :
+
+```sh
+pip install bidsapp_cli
+``` -->
+
+<!-- Or get the newest development version via: -->
+
+Get the newest development version:
+
+```sh
+pip install git+https://github.com/kaitj/bidsapp-helper
+```
+
+## Quick start
+
+Short tutorial, maybe with a
+
+```Python
+from bidsapp_helper.parser import BidsAppArgumentParser
+
+parser = BidsAppArgumentParser(
+    app_name="app",
+    description="Short description of application"
+)
+args = parser.parse_args()
+```
+
+# Features
+
+- CLI initialization
+- Pipeline descriptor
+
+## Links or References
+
+- [BIDS apps](https://bids-apps.neuroimaging.io/about/)
