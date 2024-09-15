@@ -1,0 +1,8 @@
+Core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Core/Engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Core/Engines/image_embeddings.py,sha256=NLYbrMKyT9NgBvvvrfto4oLWYHJqF45LsR-hIxZLPwo,839
+Core/Engines/text_embeddings.py,sha256=Tw5nLCKNRbe95d7noMT9UywX2BWBuAMTPoujpyzcRgE,528
+imagehawk-0.1.0.dist-info/METADATA,sha256=9Xy3PRPTuChEbtTG59ljMeQPnMXMpajircI1zZgFAzU,513
+imagehawk-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+imagehawk-0.1.0.dist-info/top_level.txt,sha256=Rg6clN9kHXQZebLs4-Kn2iif1iFgSEaSxEDPv9heoYQ,5
+imagehawk-0.1.0.dist-info/RECORD,,
