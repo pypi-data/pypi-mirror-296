@@ -1,0 +1,2 @@
+[console_scripts]
+varphi = Varphi.frontend.varphi:main
