@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+foreach_file.egg-info/PKG-INFO
+foreach_file.egg-info/SOURCES.txt
+foreach_file.egg-info/dependency_links.txt
+foreach_file.egg-info/entry_points.txt
+foreach_file.egg-info/requires.txt
+foreach_file.egg-info/top_level.txt
