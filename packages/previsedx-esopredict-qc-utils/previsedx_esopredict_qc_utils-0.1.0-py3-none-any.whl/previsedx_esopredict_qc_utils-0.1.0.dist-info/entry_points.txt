@@ -1,0 +1,2 @@
+[console_scripts]
+run-esopredict-qc-checks = esopredict_qc_utils.run_esopredict_qc_checks:main
