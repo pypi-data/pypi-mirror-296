@@ -1,0 +1,15 @@
+## Changelog
+
+### 0.1.0
+
+First release of `sopel-npm` with:
+
+* `npmjs.com` package link handling, with and without a version number
+* `.npm` command for text search of packages in the registry
+
+Known issues:
+
+* Packages' publication times are not displayed, because the NPM registry's
+  package-version endpoint inexplicably does not provide a release timestamp.
+* While all of the error-handling code paths _should_ work, in theory, some
+  haven't been verified in real-life testing yet.

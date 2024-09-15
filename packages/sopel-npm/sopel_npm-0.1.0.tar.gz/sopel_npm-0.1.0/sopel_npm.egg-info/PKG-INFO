@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: sopel-npm
+Version: 0.1.0
+Summary: Sopel plugin to handle NPM links/searches
+Author-email: dgw <dgw@technobabbl.es>
+License: EFL-2.0
+Project-URL: Homepage, https://github.com/dgw/sopel-npm
+Project-URL: Bug Tracker, https://github.com/dgw/sopel-npm/issues
+Keywords: sopel,plugin,bot,irc
+Platform: Linux x86, x86-64
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Eiffel Forum License (EFL)
+Classifier: License :: OSI Approved :: Eiffel Forum License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Communications :: Chat :: Internet Relay Chat
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: sopel>=8.0
+Requires-Dist: requests
+
+# sopel-npm
+
+Sopel plugin to handle NPM links/searches
+
+## Installing
+
+Releases are hosted on PyPI, so after installing Sopel, all you need is `pip`:
+
+```shell
+$ pip install sopel-npm
+```
+
+## Using
+
+`sopel-npm` offers two main features: link handling, and a search command.
+
+### Link handling
+
+If someone posts a link to a package on npmjs.com, `sopel-npm` should emit an
+overview of that package's latest version:
+
+```
+<dgw> https://www.npmjs.com/package/plyr
+<Sopel> [npm] plyr@3.7.8 | Published by sam_potts | MIT license | Unpacked
+        size: 5.1 MiB in 124 files | A simple, accessible and customizable
+        HTML5, YouTube and Vimeo media player
+```
+
+Links directly to a specific package version will show information for that
+release instead:
+
+```
+<dgw> https://www.npmjs.com/package/plyr/v/2.0.18
+<Sopel> [npm] plyr@2.0.18 | Published by sampotts | MIT license | A simple,
+        accessible and customizable HTML5, YouTube and Vimeo media player
+```
+
+### `.npm` search command
+
+Use `.npm keywords here` and `sopel-npm` will show details for the best match
+as returned by the NPM registry's search engine:
+
+```
+<dgw> .npm best vue plugin
+<Sopel> [npm] eslint-plugin-pinia@0.4.1 | Published by lisilinhart | MIT
+        license | Unpacked size: 47.4 KiB in 8 files | ESLint plugin for Pinia
+        best practices | https://www.npmjs.com/package/eslint-plugin-pinia
+```
+
+This feature will always show details for the latest version of the matching
+package, if any.
+
+### Robustness
+
+NPM metadata has evolved over time, and the registry doesn't normalize metadata
+for old releases. `sopel-npm` does its best to cope with missing data fields and
+return _something_ useful, even if it's not complete.
+
+[Bug reports][issue-tracker] or [pull requests][pull-requests] are welcome if
+you run into a situation that this plugin can't handle gracefully!
+
+[issue-tracker]: https://github.com/dgw/sopel-npm/issues
+[pull-requests]: https://github.com/dgw/sopel-npm/pulls
+
+## Changelog
+
+### 0.1.0
+
+First release of `sopel-npm` with:
+
+* `npmjs.com` package link handling, with and without a version number
+* `.npm` command for text search of packages in the registry
+
+Known issues:
+
+* Packages' publication times are not displayed, because the NPM registry's
+  package-version endpoint inexplicably does not provide a release timestamp.
+* While all of the error-handling code paths _should_ work, in theory, some
+  haven't been verified in real-life testing yet.

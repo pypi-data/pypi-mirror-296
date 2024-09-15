@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=63.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+platforms = ["Linux x86, x86-64"]
+
+[tool.setuptools.packages.find]
+include = ["sopel_npm", "sopel_npm.*"]
+namespaces = false
+
+[tool.setuptools.dynamic]
+readme = { file=["README.md", "NEWS"], content-type="text/markdown" }
+
+[project]
+name = "sopel-npm"
+version = "0.1.0"
+description = "Sopel plugin to handle NPM links/searches"
+
+authors = [
+  { name="dgw", email="dgw@technobabbl.es" },
+]
+
+license = { text="EFL-2.0" }
+dynamic = ["readme"]
+
+classifiers = [
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "License :: Eiffel Forum License (EFL)",
+  "License :: OSI Approved :: Eiffel Forum License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Communications :: Chat :: Internet Relay Chat",
+]
+keywords = [
+  "sopel",
+  "plugin",
+  "bot",
+  "irc",
+]
+
+requires-python = ">=3.8, <4"
+dependencies = [
+  "sopel>=8.0",
+  "requests",  # let Sopel specify what version it needs
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dgw/sopel-npm"
+"Bug Tracker" = "https://github.com/dgw/sopel-npm/issues"
+
+[project.entry-points."sopel.plugins"]
+"npm" = "sopel_npm.plugin"

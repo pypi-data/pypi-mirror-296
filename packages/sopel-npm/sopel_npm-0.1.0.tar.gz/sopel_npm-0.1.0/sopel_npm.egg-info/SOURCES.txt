@@ -1,0 +1,16 @@
+COPYING
+MANIFEST.in
+NEWS
+README.md
+pyproject.toml
+sopel_npm/__init__.py
+sopel_npm/api.py
+sopel_npm/errors.py
+sopel_npm/plugin.py
+sopel_npm/util.py
+sopel_npm.egg-info/PKG-INFO
+sopel_npm.egg-info/SOURCES.txt
+sopel_npm.egg-info/dependency_links.txt
+sopel_npm.egg-info/entry_points.txt
+sopel_npm.egg-info/requires.txt
+sopel_npm.egg-info/top_level.txt
