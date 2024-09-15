@@ -1,0 +1,5 @@
+guessing_game_proton-0.1.1.dist-info/METADATA,sha256=TY4N4pEBHyBmkSaLO7VZxIBcb0uS_OxesTZZ9XKEEIo,207
+guessing_game_proton-0.1.1.dist-info/WHEEL,sha256=bT7pZZ8UBHcelciICa34gglu_Y397wOFAPRXkIvoOlo,123
+guessing_game/__init__.py,sha256=JhOkE77kBE4vHZ5WPlFuOvsqjavWOpnuichNPNngFhk,135
+guessing_game/guessing_game.abi3.so,sha256=rt5Vcft9JLaI8vRC2Dob2T6d-cWzXS7cUBqg2yEX2DQ,506744
+guessing_game_proton-0.1.1.dist-info/RECORD,,
