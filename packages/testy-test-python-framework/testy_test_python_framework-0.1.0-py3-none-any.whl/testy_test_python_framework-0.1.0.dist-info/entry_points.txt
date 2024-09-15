@@ -1,0 +1,2 @@
+[console_scripts]
+testy = testy.cli:run_cli
