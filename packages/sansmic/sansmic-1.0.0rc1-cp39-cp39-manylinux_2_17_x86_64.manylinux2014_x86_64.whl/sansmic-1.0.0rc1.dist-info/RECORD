@@ -1,0 +1,13 @@
+sansmic/model.py,sha256=A2hAInM7Pf5TBo-a8xm-iGO8uPdaNvZEzJKYe6kLjtg,64189
+sansmic/__init__.py,sha256=n1dhcLKGPHr6AxRUAhTH2-Ay6Hcj8b2rcZXXSqJ6yrI,2071
+sansmic/libsansmic.cpython-39-x86_64-linux-gnu.so,sha256=kOy0cD0qzkwkXdXaaSTgjZ4R8TvmGeMjMvHdNxo00Yo,882456
+sansmic/io.py,sha256=UV0C_BnasM-PZHzoNLYoeMvOeSrmD9pnFzXHg2WchK4,29848
+sansmic/app.py,sha256=5hqaI-yKYdFOf6Il0zsGUsTQ3pdZIku1jNgvqQui9sI,13896
+sansmic/empirical.py,sha256=BTbwn6PB_FIt1IluPI0MrEjClwMLAbcQrkxTc46tP9E,5980
+sansmic-1.0.0rc1.dist-info/LICENSE,sha256=A_xmF-aF8sN3Ew0O9xAG_-vULdWJoR8w5-fiTWfAOXY,1668
+sansmic-1.0.0rc1.dist-info/METADATA,sha256=Kf0-35GG-5eDblPSMLUK-dPRc0165U70hAzf5ZAkKRQ,5418
+sansmic-1.0.0rc1.dist-info/top_level.txt,sha256=WAdoQRZtojFvBFLvuS_0RjWSVhVEwkmbqEglLdBTorI,8
+sansmic-1.0.0rc1.dist-info/RECORD,,
+sansmic-1.0.0rc1.dist-info/WHEEL,sha256=zNY72uTV9YS4UPdmWsaducgmcJ11f8yOHnnx4Cxcj8w,147
+sansmic-1.0.0rc1.dist-info/entry_points.txt,sha256=-rT61Gkw3QpMe7LCCcYhVNrif7_k2a3gWkRUeuKwCUA,83
+sansmic-1.0.0rc1.dist-info/AUTHORS.md,sha256=S5P1Ek46i3trIvBmOj_sGRZxXDaGJOluA85r6JSqfvo,71
