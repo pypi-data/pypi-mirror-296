@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: curious-varvara
+Version: 0.0.1
+Summary: Tiny package to check availability of a website
+Author-email: Nikolai Vishniakov <nick@nobazar.ru>
+Project-URL: homepage, https://github.com/cherryoff/curious-varvara
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+## Curious Varvara
+
+Tiny package to check website availability
+
+### Installation
+
+```bash
+pip install curious-varvara
+```
+
+### Usage
+
+```python
+from curious_varvara as cv
+
+url = 'https://www.google.com'
+
+cv.is_live(url) # returns True if website is available, False otherwise
+
+cv.body_md5(url) # returns md5 hash of website body
+```

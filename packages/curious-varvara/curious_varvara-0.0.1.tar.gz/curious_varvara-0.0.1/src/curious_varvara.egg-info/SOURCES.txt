@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/curious_varvara/__init__.py
+src/curious_varvara/module.py
+src/curious_varvara.egg-info/PKG-INFO
+src/curious_varvara.egg-info/SOURCES.txt
+src/curious_varvara.egg-info/dependency_links.txt
+src/curious_varvara.egg-info/requires.txt
+src/curious_varvara.egg-info/top_level.txt
+tests/test_module.py
