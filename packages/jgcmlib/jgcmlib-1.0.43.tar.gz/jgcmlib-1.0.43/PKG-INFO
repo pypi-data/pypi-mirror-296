@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: jgcmlib
+Version: 1.0.43
+Summary: A Python module jgcmlib
+Home-page: https://github.com/jgwill/jgcmlib
+Author: J.Guillaume D-Isabelle
+License-File: LICENSE
+Requires-Dist: tlid
+Requires-Dist: requests
+Requires-Dist: music21
+Requires-Dist: ipython
