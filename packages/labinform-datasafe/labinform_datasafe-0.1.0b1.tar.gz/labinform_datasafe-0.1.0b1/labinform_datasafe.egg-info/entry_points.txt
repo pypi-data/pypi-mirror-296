@@ -1,0 +1,2 @@
+[labinform_fileformats]
+epr = datasafe.manifest:EPRFormatDetector

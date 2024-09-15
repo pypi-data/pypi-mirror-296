@@ -1,0 +1,17 @@
+flask
+oyaml
+
+[deployment]
+build
+twine
+
+[dev]
+prospector
+bandit
+pyroma
+black
+flask-unittest
+
+[docs]
+sphinx
+sphinx-rtd-theme
