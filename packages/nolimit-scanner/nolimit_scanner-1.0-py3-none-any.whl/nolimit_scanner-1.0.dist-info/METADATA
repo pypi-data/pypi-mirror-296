@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nolimit-scanner
+Version: 1.0
+Summary: Inspired by Masscan, NoLimit is a python based asynchronous port scanner and service enumeraton.
+Home-page: https://github.com/jivy26/nolimit-scanner
+Author: jivy26
+Author-email: jivy26@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: aiofiles ==0.8.0
+Requires-Dist: colorama ==0.4.4
+Requires-Dist: rich ==10.16.2
+Requires-Dist: scapy ==2.4.5
+Requires-Dist: tqdm ==4.62.3
+
