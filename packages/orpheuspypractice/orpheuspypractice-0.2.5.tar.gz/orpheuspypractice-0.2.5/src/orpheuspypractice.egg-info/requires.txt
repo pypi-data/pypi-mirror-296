@@ -1,0 +1,6 @@
+tlid
+requests
+music21
+ipython
+jgcmlib>=1.0.57
+jghfmanager>=0.1.2
