@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mic-toolkit
+Version: 0.1.0
+Summary: Internal toolkit for Microsoft Innovations Club VITC.
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: distilabel[openai] (>=1.3.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# sad-utils
