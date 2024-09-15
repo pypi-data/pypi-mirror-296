@@ -1,0 +1,2 @@
+[console_scripts]
+sand_atlas_process = sand_atlas.pipeline:script
