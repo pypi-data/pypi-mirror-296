@@ -1,0 +1,12 @@
+nbconvert==7.16.4
+stdlib-list
+numpy==1.26.0
+pip_audit==2.7.3
+nbformat
+nbconvert
+pandas==2.1.1
+click==8.1.7
+requests
+attrs>=22.2.0
+mkdocs==1.6.0
+pyyaml
