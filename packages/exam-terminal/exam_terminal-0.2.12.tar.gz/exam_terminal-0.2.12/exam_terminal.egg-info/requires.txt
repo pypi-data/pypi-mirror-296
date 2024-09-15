@@ -1,0 +1,8 @@
+wheel==0.42
+click==8.1
+PyYAML==6.0
+fpdf2==2.7
+requests==2.31
+
+[:platform_system == "Windows"]
+windows-curses
