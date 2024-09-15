@@ -1,0 +1,10 @@
+torch
+tqdm
+datasets
+tokenizers
+tensorboard
+pathlib
+pillow
+numpy
+transformers
+pytorch_lightning
