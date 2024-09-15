@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: changpan
+Version: 0.0.1
+Summary: 为了方便使用python,将一些常用的操作封装成了类,放到changpan模块里
+Home-page: https://github.com/
+Author: changpan
+Author-email: 2240438628@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+为了方便使用python,将一些常用的操作封装成了类,放到changpan模块里
+
