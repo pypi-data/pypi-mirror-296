@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/similarix/__init__.py
+src/similarix/client.py
+src/similarix.egg-info/PKG-INFO
+src/similarix.egg-info/SOURCES.txt
+src/similarix.egg-info/dependency_links.txt
+src/similarix.egg-info/top_level.txt

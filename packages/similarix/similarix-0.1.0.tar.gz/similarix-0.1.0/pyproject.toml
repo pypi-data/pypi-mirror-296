@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "similarix"
+version = "0.1.0"
+description = "Python client for Similarix API: Semantic and multimodal search engine for images and text"
+authors = [{name = "Simeon Emanuilov", email = "simeon.emanuilov@gmail.com"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = [
+    "semantic search",
+    "multimodal search",
+    "image search",
+    "text search",
+    "ai search",
+    "similarity search",
+    "search engine",
+    "semantic search api",
+    "content-based search",
+    "visual search",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Text Processing :: Indexing",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/s-emanuilov/similarix-client"
+"Bug Tracker" = "https://github.com/s-emanuilov/similarix-client/issues"
+"Documentation" = "https://github.com/s-emanuilov/similarix-client#readme"
+"Source Code" = "https://github.com/s-emanuilov/similarix-client"
+
+[tool.setuptools.package-data]
+similarix = ["py.typed"]
