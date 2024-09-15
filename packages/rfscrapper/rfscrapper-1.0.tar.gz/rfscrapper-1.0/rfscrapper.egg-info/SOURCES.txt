@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rfscrapper/__init__.py
+rfscrapper/main.py
+rfscrapper/rf_scrapper.py
+rfscrapper.egg-info/PKG-INFO
+rfscrapper.egg-info/SOURCES.txt
+rfscrapper.egg-info/dependency_links.txt
+rfscrapper.egg-info/entry_points.txt
+rfscrapper.egg-info/top_level.txt
