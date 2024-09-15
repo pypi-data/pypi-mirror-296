@@ -1,0 +1,18 @@
+betty.test\_utils.ancestry package
+==================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 999
+
+   betty.test_utils.ancestry.event_type
+
+Module contents
+---------------
+
+.. automodule:: betty.test_utils.ancestry
+   :members:
+   :undoc-members:
+   :show-inheritance:
