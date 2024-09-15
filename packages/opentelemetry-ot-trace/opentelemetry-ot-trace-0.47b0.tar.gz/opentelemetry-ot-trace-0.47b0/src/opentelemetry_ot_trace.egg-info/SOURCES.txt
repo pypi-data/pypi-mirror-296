@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/opentelemetry_ot_trace.egg-info/PKG-INFO
+src/opentelemetry_ot_trace.egg-info/SOURCES.txt
+src/opentelemetry_ot_trace.egg-info/dependency_links.txt
+src/opentelemetry_ot_trace.egg-info/entry_points.txt
+src/opentelemetry_ot_trace.egg-info/requires.txt
+src/opentelemetry_ot_trace.egg-info/top_level.txt
+tests/test_simple.py
