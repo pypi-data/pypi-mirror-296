@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: iyg_tools
+Version: 1.0.2
+Home-page: https://github.com/ilkeryolundagerek/iyg_tools
+Author: İlker Turan
+Author-email: ilkerturan@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# iyg_tools
+
+`iyg_tools` is a Python package for validating and generating Turkish Citizen Numbers (TCKN). The TCKN is a unique identification number used in Turkey, consisting of 11 digits. This package provides two main features:
+
+- **Validate TCKN:** Check if a given TCKN is valid based on the Turkish government algorithm.
+- **Generate TCKN:** Produce a random but valid TCKN.
+
+## Installation
+
+You can install `iyg_tools` from PyPI using pip:
+
+```bash
+pip install iyg_tools
+```
+
+## Usage
+
+Once installed, you can use `iyg_tools` to validate and generate TCKNs.
+
+### Validate TCKN
+
+To validate a TCKN, use the `verify` function. It takes a TCKN as input and returns a dictionary indicating whether the TCKN is valid.
+
+Example:
+
+```python
+from tckn_app import verify
+
+result = verify('12345678901')
+print(result)
+```
+
+Output:
+
+```python
+{'status': True, 'message': "'12345678901' verified!"}
+```
+
+If the TCKN is invalid, the dictionary will contain an error message:
+
+```python
+{'status': False, 'error': "'12345678901' not verified!"}
+```
+
+### Generate TCKN
+
+To generate a valid TCKN, use the `generate` function. It returns a valid TCKN as an integer.
+
+Example:
+
+```python
+from tckn_app import generate
+
+tckn = generate()
+print(tckn)
+```
+
+Output:
+
+```python
+12345678901
+```
+
+## Functions
+
+### `verify(tckn)`
+
+Validates the provided TCKN.
+
+**Parameters:**
+
+- `tckn` (str or int): The TCKN to validate.
+
+**Returns:**
+
+- `dict`: A dictionary with the validation status and message. If valid, `status` is `True` with a success message. If invalid, `status` is `False` with an error message.
+
+### `generate()`
+
+Generates a valid TCKN.
+
+**Returns:**
+
+- `int`: A valid TCKN.
+
+## Example
+
+Here's a complete example demonstrating both functionalities:
+
+```python
+from tckn_app import verify, generate
+
+# Generate a valid TCKN
+valid_tckn = generate()
+print(f"Generated TCKN: {valid_tckn}")
+
+# Validate the generated TCKN
+validation_result = verify(valid_tckn)
+print(validation_result)
+```
+
+## License
+
+This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! If you find a bug or have suggestions for improvements, please submit a pull request or open an issue.
+
+## Author
+
+This package is maintained by [Your Name](https://github.com/yourusername).
+
+## Project Links
+
+- GitHub Repository: [https://github.com/yourusername/iyg_tools](https://github.com/yourusername/iyg_tools)
+- PyPI Page: [https://pypi.org/project/iyg_tools/](https://pypi.org/project/iyg_tools/)
