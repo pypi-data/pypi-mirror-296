@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+patroni_cli/__init__.py
+patroni_cli/patroni_cli.py
+patroni_cli.egg-info/PKG-INFO
+patroni_cli.egg-info/SOURCES.txt
+patroni_cli.egg-info/dependency_links.txt
+patroni_cli.egg-info/entry_points.txt
+patroni_cli.egg-info/requires.txt
+patroni_cli.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+patroni-cli = patroni_cli.main:main
