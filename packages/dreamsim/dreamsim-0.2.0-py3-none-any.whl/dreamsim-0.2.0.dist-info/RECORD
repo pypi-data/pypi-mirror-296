@@ -1,0 +1,15 @@
+dreamsim/__init__.py,sha256=IxaU3ZaLkC38_-_xQWaampsGXDPKqnq1Eld7YEFZmE8,45
+dreamsim/config.py,sha256=EAXFb4m6BFSBllmOv9Wr3wHOiJDMVGTNge706H1oTzM,1469
+dreamsim/constants.py,sha256=Hz1zeX2c9WxXpP54f99AARD4Apo8-GTW-tNmSNvOczY,308
+dreamsim/model.py,sha256=IFJp2ygI_4957F8JOvn0RuS2G49BK_A_A726BUNP9fo,12481
+dreamsim/feature_extraction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dreamsim/feature_extraction/extractor.py,sha256=Ix7Cgi05QmNO1llWQW6vD5ZXciY0BuWtiOnsLvCuzwQ,11627
+dreamsim/feature_extraction/load_clip_as_dino.py,sha256=UXSLoHtoJ8kWpZwA8FJ-cG9flW_1U62AhHCg8jd_Q4c,1044
+dreamsim/feature_extraction/load_mae_as_vit.py,sha256=SiCj1XIOtaqoTCDzOYziW_mrIXyKclBNvznyCxLZN0E,3448
+dreamsim/feature_extraction/load_open_clip_as_dino.py,sha256=lOahn0Pa5YRh3P3MhbhJgZdx2Aum4loI2c4ZXRJpkdQ,2764
+dreamsim/feature_extraction/vision_transformer.py,sha256=XFsjvVcIXXy7_mdbqlA0AWybUQJKi5z3EEHEpVcPABU,11874
+dreamsim-0.2.0.dist-info/LICENSE,sha256=jUeFFhTHx9xNfmQvRT63zLw-jD3DWEYMMOLXiF_O_5c,1118
+dreamsim-0.2.0.dist-info/METADATA,sha256=MjJHM_IA0dyOQgmyRj-PVU3laGw2W28fnh1yWIsSPb0,8994
+dreamsim-0.2.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+dreamsim-0.2.0.dist-info/top_level.txt,sha256=pSmdukXZMHlP-yI0xq0CJId2fsjP-CPVpzkIPsg-3Gw,37
+dreamsim-0.2.0.dist-info/RECORD,,
