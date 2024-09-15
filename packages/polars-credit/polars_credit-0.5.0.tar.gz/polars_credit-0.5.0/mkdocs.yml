@@ -1,0 +1,44 @@
+site_name: polars-credit
+repo_name: markxwang/polars-credit
+
+theme:
+  name: "material"
+  palette:
+    primary: black
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - navigation.expand
+
+
+plugins:
+  - search:
+      lang: en
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [python]
+          options:
+            docstring_style: numpy
+            show_source: false
+            show_bases: false
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Quick Start: index.md
+  - API Reference:
+      - WOE: api-reference/woe.md
+      - Imputation: api-reference/impute.md
