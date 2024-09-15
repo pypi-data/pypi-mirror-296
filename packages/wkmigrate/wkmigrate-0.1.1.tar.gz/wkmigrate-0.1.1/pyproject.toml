@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "wkmigrate"
+version = "0.1.1"
+description = "Migrates data pipelines between various frameworks"
+authors = ["Greg Hansen"]
+license = "Apache License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+PyYAML = "^6.0.2"
+azure-common = "^1.1.28"
+azure-core = "^1.30.2"
+azure-identity = "^1.16.1"
+azure-mgmt-core = "^1.4.0"
+azure-mgmt-datafactory = "^8.0.0"
+databricks-sdk = "^0.20.0"
+
+[tool.poetry.group.dev.dependencies]
+PyYAML = "^6.0.2"
+azure-common = "^1.1.28"
+azure-core = "^1.30.2"
+azure-identity = "^1.16.1"
+azure-mgmt-core = "^1.4.0"
+azure-mgmt-datafactory = "^8.0.0"
+databricks-sdk = "^0.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
