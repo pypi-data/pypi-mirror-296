@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: KLAY
+Version: 0.6.1
+Summary: A Python package for generating ML layers for MLIPs
+Home-page: https://github.com/ipcamit/KLAY
+Author: Amit Gupta
+Author-email: gupta839@umn.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torch-runstats
+Requires-Dist: e3nn
+
+![](./KlayLogo.png)
+# KLay - KLIFF Layers, trainable and pre-trained layers for MLIPs
+[![Documentation Status](https://readthedocs.org/projects/klay/badge/?version=latest)](https://klay.readthedocs.io/en/latest/?badge=latest)
+ 
+KLIFF compatible ML layers you can mould to your needs. Usable for general neural network architectures as well. Works out of the box with KLIFF.
+
+
