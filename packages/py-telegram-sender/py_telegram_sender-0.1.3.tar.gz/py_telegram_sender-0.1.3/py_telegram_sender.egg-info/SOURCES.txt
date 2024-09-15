@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+py_telegram_sender/__init__.py
+py_telegram_sender/core.py
+py_telegram_sender.egg-info/PKG-INFO
+py_telegram_sender.egg-info/SOURCES.txt
+py_telegram_sender.egg-info/dependency_links.txt
+py_telegram_sender.egg-info/requires.txt
+py_telegram_sender.egg-info/top_level.txt
