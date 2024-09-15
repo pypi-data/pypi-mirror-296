@@ -1,0 +1,10 @@
+hackrf/__init__.py,sha256=iuoqwc3Pd4TLchf_X2hqKxYu-k7pps8Fd-TojqNKnN8,43
+hackrf/cinterface.py,sha256=LEl-XGzSb6eTqjd0Fv9hdKbst1Hih6cdPc_ORmBMH1Y,9472
+hackrf/core.py,sha256=MRSFv0JKz92bOJ6vCbhsyMCcAIDq9s_5XyKtRPUfPvM,53113
+hackrf/scan.py,sha256=i7WfsDFla3_ODhMHrjzybT5LL5En5KsxBzHi3fEWjWc,4901
+hackrf/utils.py,sha256=mADbzVzLApyODE8C_rXkH-KvGyPBOHq03t0bU3trHCo,2062
+libhackrf-0.1a4.dist-info/LICENSE.md,sha256=MD437R5RH826AGXlwpZ9CLyamUMk6iWJNIbC7bN9lUk,1319
+libhackrf-0.1a4.dist-info/METADATA,sha256=Lca0luQBsABioM6R3gioB3wB-RCAtzcaliDsXbmFnKk,2935
+libhackrf-0.1a4.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+libhackrf-0.1a4.dist-info/top_level.txt,sha256=uUCzKqa30G05qpRiOaUSH0tenVRl7gv7jcQnhjrYSqs,7
+libhackrf-0.1a4.dist-info/RECORD,,
