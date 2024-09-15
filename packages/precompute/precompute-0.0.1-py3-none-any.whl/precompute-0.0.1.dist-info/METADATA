@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: precompute
+Version: 0.0.1
+Summary: Real time sequence modeling research.
+Project-URL: Homepage, https://github.com/austinsilveria/precompute
+Project-URL: Bug Tracker, https://github.com/austinsilveria/precompute/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch >=2.0
+Requires-Dist: transformers >=4.35
+
