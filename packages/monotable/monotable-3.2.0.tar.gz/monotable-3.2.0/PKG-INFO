@@ -1,0 +1,704 @@
+Metadata-Version: 2.1
+Name: monotable
+Version: 3.2.0
+Summary: ASCII table with per column format specs and more.
+Home-page: https://monotable.readthedocs.io/en/latest/
+Author: Mark Taylor
+Author-email: mark66547ta2@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/tmarktaylor/monotable/issues
+Project-URL: Source, https://github.com/tmarktaylor/monotable/
+Keywords: ascii,table,pretty
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# monotable
+
+ASCII table with per column format specs, multi-line content,
+formatting directives, column width control.
+
+Dataclass to ASCII table printer.
+
+## default branch status
+
+[![](https://img.shields.io/pypi/l/monotable.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![](https://img.shields.io/pypi/v/monotable.svg)](https://pypi.python.org/pypi/monotable)
+[![](https://img.shields.io/pypi/pyversions/monotable.svg)](https://pypi.python.org/pypi/monotable)
+
+[![CI Test](https://github.com/tmarktaylor/monotable/actions/workflows/ci.yml/badge.svg)](https://github.com/tmarktaylor/monotable/actions/workflows/ci.yml)
+[![readthedocs](https://readthedocs.org/projects/monotable/badge/?version=latest)](https://monotable.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/tmarktaylor/monotable/branch/master/graph/badge.svg?token=qanSaWfGAQ)](https://codecov.io/gh/tmarktaylor/monotable)
+
+[Docs](https://monotable.readthedocs.io/en/latest/) |
+[Repos](https://github.com/tmarktaylor/monotable) |
+[Codecov](https://codecov.io/gh/tmarktaylor/monotable?branch=master) |
+[License](https://github.com/tmarktaylor/monotable/blob/master/LICENSE)
+
+## Sample usage
+
+```python
+from monotable import mono
+
+headings = ["purchased\nparrot\nheart rate", "life\nstate"]
+
+# > is needed to right align None cell since it auto-aligns to left.
+# monotable uses empty string to format the second column.
+formats = [">(none=rest).0f"]
+cells = [
+    [0, "demised"],
+    [0.0, "passed on"],
+    [None, "is no more"],
+    [-1],
+    [0, "ceased to be"],
+]
+
+print(
+    mono(
+        headings,
+        formats,
+        cells,
+        title="Complaint\n(registered)",
+        # top guideline is equals, heading is period, bottom is omitted.
+        guideline_chars="=. ",
+    )
+)
+```
+
+sample output:
+
+```expected-output
+       Complaint
+      (registered)
+========================
+ purchased
+    parrot  life
+heart rate  state
+........................
+         0  demised
+         0  passed on
+      rest  is no more
+        -1
+         0  ceased to be
+```
+
+## Dataclass to ASCII Table printer
+
+```python
+from dataclasses import dataclass, field
+from enum import auto, Enum
+from monotable import dataclass_print
+from monotable import dataclass_format
+from monotable import stow
+```
+
+### Print a dataclass instance
+
+Print a dataclass as an ASCII table. The field names are left
+justified in the left column. The values are right justified
+in the right column.
+
+```python
+@dataclass
+class CurrentConditions:
+    temperature: float
+    humidity: float
+    heat_index: int
+
+weather_data = CurrentConditions(80.0, 0.71, 83)
+dataclass_print(weather_data)
+```
+
+```expected-output
+CurrentConditions
+-----------------
+temperature  80.0
+humidity     0.71
+heat_index     83
+-----------------
+```
+
+### Title
+
+The table title defaults to the class name. The string passed
+to the "title" keyword is prepended to the class name.
+
+```python
+dataclass_print(weather_data, title="Airport")
+```
+
+```expected-output
+Airport : CurrentConditions
+-----------------
+temperature  80.0
+humidity     0.71
+heat_index     83
+-----------------
+```
+
+### Format and print later
+
+Call dataclass_format() to print or log later.
+
+```python
+text = dataclass_format(weather_data, title="Airport")
+print(text)
+```
+
+```expected-output
+Airport : CurrentConditions
+-----------------
+temperature  80.0
+humidity     0.71
+heat_index     83
+-----------------
+```
+
+### Add a format spec to a dataclass field
+
+Specify formatting for a data class field as shown for
+the field() call in place of the default value for the
+humidity field below.
+
+The function stow() assigns the dict {"spec": ".0%"} to
+the field's metadata dict as the value for the key
+"monotable".
+The code internally applies this f-string: f"{value:{spec}}"
+to format the value.
+
+```python
+@dataclass
+class SpecCurrentConditions:
+    temperature: float
+    humidity: float = field(metadata=stow(spec=".0%"))
+    heat_index: int
+
+weather_data = SpecCurrentConditions(80.0, 0.71, 83)
+dataclass_print(weather_data)
+```
+
+```expected-output
+SpecCurrentConditions
+-----------------
+temperature  80.0
+humidity      71%
+heat_index     83
+-----------------
+```
+
+### Add a format function to a dataclass field
+
+Specify a format function to do the formatting for a field.
+
+Set the 'spec' key to a callable.
+The function takes the field value as the parameter and returns a string.
+The string is printed in the table. Note that just the enumeration
+name "E" is printed instead of "Direction.E".
+
+```python
+class Direction(Enum):
+    N = auto()
+    E = auto()
+    S = auto()
+    W = auto()
+
+
+@dataclass
+class Wind:
+    speed: int
+    direction: Direction = field(metadata=stow(spec=lambda x: x.name))
+
+wind_data = Wind(speed=11,direction=Direction.E)
+dataclass_print(wind_data)
+```
+
+```expected-output
+     Wind
+-------------
+speed      11
+direction   E
+-------------
+```
+
+### Add text to embellish a field name
+
+Set the 'help' key to add text immediately after the field name.
+This is printed in the table left column:
+- dataclass field name
+- 2 spaces
+- 'help' key value.
+
+```python
+@dataclass
+class MoreConditions:
+    visibility: float = field(metadata=stow(help="(mi)",spec=".2f"))
+    dewpoint: int = field(metadata=stow(help="(degF)"))
+
+more_data = MoreConditions(visibility=10.00,dewpoint=71)
+dataclass_print(more_data)
+```
+
+```expected-output
+     MoreConditions
+-----------------------
+visibility  (mi)  10.00
+dewpoint  (degF)     71
+-----------------------
+```
+
+### When a dataclass field value is also dataclass
+
+An additional ASCII table is printed for each nested dataclass.
+The table is below and indented two spaces for each level of nesting.
+
+```python
+@dataclass
+class MoreCurrentConditions:
+    temperature: float
+    humidity: float
+    heat_index: int
+    wind: Wind = field(metadata=stow(help="(2pm)"))
+
+more_weather_data = MoreCurrentConditions(
+    80.0, 0.71, 83, Wind(11, Direction.E)
+    )
+dataclass_print(more_weather_data)
+```
+
+The class name is printed in place of the value. The value of
+the wind field is printed in a second table below the first
+and indented two spaces.
+
+```expected-output
+MoreCurrentConditions
+-----------------
+temperature  80.0
+humidity     0.71
+heat_index     83
+wind  (2pm)  Wind
+-----------------
+
+  MoreCurrentConditions.wind  (2pm) : Wind
+  -------------
+  speed      11
+  direction   E
+  -------------
+```
+
+#### Omit printing a nested dataclass
+
+To prevent levels of nested dataclasses from printing pass
+keyword parameter max_depth. 1 means just print the top
+level of dataclass. Note that only the classname of
+the wind field value is printed.
+
+```python
+dataclass_print(more_weather_data, max_depth=1)
+```
+
+```expected-output
+MoreCurrentConditions
+-----------------
+temperature  80.0
+humidity     0.71
+heat_index     83
+wind  (2pm)  Wind
+-----------------
+```
+
+
+#### Print a bordered ASCII table
+
+dataclass_print() passes extra keyword arguments to monotable.mono().
+See monotable.mono()'s documentation. Some examples are below.
+
+```python
+dataclass_print(more_weather_data, max_depth=1, bordered=True)
+```
+
+```expected-output
+MoreCurrentConditions
++-------------+------+
+| temperature | 80.0 |
++-------------+------+
+| humidity    | 0.71 |
++-------------+------+
+| heat_index  |   83 |
++-------------+------+
+| wind  (2pm) | Wind |
++-------------+------+
+```
+
+#### Print ASCII table with indent
+
+```python
+dataclass_print(more_weather_data, max_depth=1, indent="....")
+```
+
+```expected-output
+....MoreCurrentConditions
+....-----------------
+....temperature  80.0
+....humidity     0.71
+....heat_index     83
+....wind  (2pm)  Wind
+....-----------------
+```
+
+#### Change the column alignment
+
+```python
+dataclass_print(more_weather_data, max_depth=1, formats=(">", "<"))
+```
+
+```expected-output
+MoreCurrentConditions
+-----------------
+temperature  80.0
+   humidity  0.71
+ heat_index  83
+wind  (2pm)  Wind
+-----------------
+```
+
+#### Print a nested dataclass that has a callable spec
+
+For a dataclass field value, set the monotable field metadata
+"spec" key to a function so that the value is printed in the top
+level table rather than below as a separate table.
+
+Note- This example is coded in Python REPL style so it can be tested
+by the PYPI project phmutest using --replmode.
+
+```python
+>>> from dataclasses import dataclass, field
+>>> from enum import auto, Enum
+>>>
+>>> from monotable import dataclass_print
+>>> from monotable import stow
+>>>
+>>> class Direction(Enum):
+...     N = auto()
+...     E = auto()
+...     S = auto()
+...     W = auto()
+>>>
+>>> @dataclass
+... class Wind:
+...     speed: int
+...     direction: Direction = field(metadata=stow(spec=lambda x: x.name))
+>>>
+>>> @dataclass
+... class WindInline:
+...     temperature: float
+...     humidity: float
+...     heat_index: int
+...     wind: Wind = field(metadata=stow(spec=str))
+
+>>> wind = Wind(11, Direction.E)
+>>> wind_inline = WindInline(80.0, 0.71, 83, wind)
+>>> dataclass_print(wind_inline)
+                       WindInline
+-------------------------------------------------------
+temperature                                        80.0
+humidity                                           0.71
+heat_index                                           83
+wind         Wind(speed=11, direction=<Direction.E: 2>)
+-------------------------------------------------------
+```
+
+#### Left align the title
+
+Note "<" at the start of title= specifies left alignment.
+monotable detects alignment from the first character of the title.
+
+```python
+>>> dataclass_print(wind_inline, title="<Left Aligned Title")
+Left Aligned Title : WindInline
+-------------------------------------------------------
+temperature                                        80.0
+humidity                                           0.71
+heat_index                                           83
+wind         Wind(speed=11, direction=<Direction.E: 2>)
+-------------------------------------------------------
+```
+
+#### Recipe to do dataclass_print as a mixin class.
+
+```python
+from typing import Any, Tuple
+
+class DCPrint:
+    """Mixin class for dataclass to add member function dcprint()."""
+
+    # This should be the same signature as dataclass_print()
+    # where dataclass_instance is replaced by self.
+    def dcprint(
+        self,
+        *,
+        # note- These 2 keyword args are monotable positional args.
+        formats: Tuple[str, str] = ("", ">"),
+        title: str = "",  # monotable title prefix
+        **monotable_kwargs: Any,  # keyword args passed to monotable.mono().
+    ) -> None:
+
+        dataclass_print(
+            self,
+            formats=formats,
+            title=title,
+            **monotable_kwargs,
+        )
+```
+
+Add DCPrint as a base class to the dataclass definition.
+
+```python
+@dataclass
+class Temperatures(DCPrint):
+    high: int
+    low: int
+
+temps = Temperatures(high=77, low=60)
+temps.dcprint(title="High/Low Temperature")
+```
+
+```expected-output
+High/Low Temperature : Temperatures
+--------
+high  77
+low   60
+--------
+```
+
+#### Copy of 2 earlier examples in REPL for testing on Python 3.7
+
+```python
+>>> @dataclass
+... class MoreConditions:
+...     visibility: float = field(metadata=stow(help="(mi)",spec=".2f"))
+...     dewpoint: int = field(metadata=stow(help="(degF)"))
+>>>
+>>> more_data = MoreConditions(visibility=10.00,dewpoint=71)
+>>> dataclass_print(more_data)
+     MoreConditions
+-----------------------
+visibility  (mi)  10.00
+dewpoint  (degF)     71
+-----------------------
+>>>
+>>> @dataclass
+... class MoreCurrentConditions:
+...     temperature: float
+...     humidity: float
+...     heat_index: int
+...     wind: Wind = field(metadata=stow(help="(2pm)"))
+>>>
+>>> more_weather_data = MoreCurrentConditions(
+...     80.0, 0.71, 83, Wind(11, Direction.E)
+...     )
+>>> dataclass_print(more_weather_data)
+MoreCurrentConditions
+-----------------
+temperature  80.0
+humidity     0.71
+heat_index     83
+wind  (2pm)  Wind
+-----------------
+<BLANKLINE>
+  MoreCurrentConditions.wind  (2pm) : Wind
+  -------------
+  speed      11
+  direction   E
+  -------------
+```
+
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
