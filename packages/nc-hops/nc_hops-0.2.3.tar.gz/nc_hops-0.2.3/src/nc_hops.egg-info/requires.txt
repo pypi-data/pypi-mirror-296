@@ -1,0 +1,8 @@
+Pillow~=10.0.1
+numpy~=1.26.0
+setuptools~=70.0.0
+smbprotocol~=1.13.0
+
+[dev]
+pytest
+black
