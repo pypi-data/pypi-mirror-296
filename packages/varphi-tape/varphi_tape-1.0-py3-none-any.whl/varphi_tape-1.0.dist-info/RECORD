@@ -1,0 +1,15 @@
+VarphiTape/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+VarphiTape/antlr/VarphiTapeEvaluator.py,sha256=qseRl3HLRcU1spgxhkmJBZATZvmi8GQUXgZLdnkA81o,1377
+VarphiTape/antlr/VarphiTapeLexer.py,sha256=gRu3dc5sntKfSZVlcshUh2x4xJvoyulam15oxLBmbOI,1388
+VarphiTape/antlr/VarphiTapeListener.py,sha256=kg4SQWz2coKR9B84w9lF_IW5pP7tCMXE5XN0rk-Fjo8,636
+VarphiTape/antlr/VarphiTapeParser.py,sha256=-1JS44vE1Da_QBYOGibvvwBKckPe6s7_Fi2D5Z-yvtE,3562
+VarphiTape/antlr/__init__.py,sha256=UQP_xpIBa5g4mZ1QOMfFmaGv7Z7EW3UYgH6L6tHZKwc,198
+VarphiTape/frontend/__init__.py,sha256=4-IyaCXPqOj194pGeZ4Hh2jyN93AIvPlYt5y1iUE2-Y,32
+VarphiTape/frontend/frontend.py,sha256=T0NVXxH8noOoy_1Jn-IOjUpyGDB57dCiQeUx51-9WFY,1287
+VarphiTape/model/Tape.py,sha256=HIQ6YP75fv1QGF1XFkMrrb4Ab2_q-27qwAvs03xc60I,3300
+VarphiTape/model/__init__.py,sha256=txR4g2dJREenUVPC0x2lw7TthfgqBNMkxLCBuAoNAV4,37
+varphi_tape-1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+varphi_tape-1.0.dist-info/METADATA,sha256=94qmkficNnnJHzEiTWjoMBfcvFCuGC3VGwRxsv-KQW4,120
+varphi_tape-1.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+varphi_tape-1.0.dist-info/top_level.txt,sha256=gC4WeikmQtFeXvF17uh9upTrYaRd5wq8BPELHyBPvNU,11
+varphi_tape-1.0.dist-info/RECORD,,
