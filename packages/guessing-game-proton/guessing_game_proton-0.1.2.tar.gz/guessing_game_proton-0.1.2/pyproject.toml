@@ -1,0 +1,15 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+# "extension-module" tells pyo3 we want to build an extension module (skips linking against libpython.so)
+features = ["pyo3/extension-module"]
+# Control the platform tag on linux
+compatibility = "manylinux2014"
+# auditwheel mode, possible values are repair, check and skip
+auditwheel = "repair"
+# Don't check for manylinux compliance, deprecated in favor of auditwheel = "audit"
+skip-auditwheel = false
+# supports cargo (default) and git.
+sdist-generator = "cargo"
