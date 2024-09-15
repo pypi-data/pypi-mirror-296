@@ -1,0 +1,5 @@
+tlid
+requests
+music21
+ipython
+jgcmlib>=1.0.57
