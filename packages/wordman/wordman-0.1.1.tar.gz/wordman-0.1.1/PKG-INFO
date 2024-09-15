@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: wordman
+Version: 0.1.1
+Summary: A command-line word list manager for crossword constructors
+Project-URL: Homepage, https://github.com/benhancock/wordman
+Project-URL: Bug Tracker, https://github.com/benhancock/wordman/issues
+Author-email: Ben Hancock <me@benhancock.dev>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+A command-line wordlist manager for crossword constructors built with Python and SQLite.

@@ -1,0 +1,1 @@
+A command-line wordlist manager for crossword constructors built with Python and SQLite.
