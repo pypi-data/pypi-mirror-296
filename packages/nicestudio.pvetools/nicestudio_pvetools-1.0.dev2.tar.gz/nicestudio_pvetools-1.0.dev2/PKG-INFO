@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: nicestudio.pvetools
+Version: 1.0.dev2
+Summary: Python script for PVE.
+Home-page: https://github.com/niceStudio/nicestudio.pvetools
+Author: niceStudio, Inc
+Author-email: service@niceStudio.com.tw
+License: BSD
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Buildout
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: paramiko
+Requires-Dist: openssh_wrapper
+Requires-Dist: ipython
+Requires-Dist: proxmoxer
+Requires-Dist: pandas
+Requires-Dist: humanfriendly
+Requires-Dist: Jinja2
+Requires-Dist: hypothesis
+Requires-Dist: pytest
+
+PVETools
+===================
+
+This project provides some tools for Proxmox VE, includes:
+
+- ```pvetools```
+
+
+pvetools
+--------
+
+```pvetools``` has the following sub-commands:
+
+- ``vm``
