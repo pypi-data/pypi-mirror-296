@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+google-cloud
+asyncio
+azure-eventhub
+azure-identity
+aiohttp
+bs4
