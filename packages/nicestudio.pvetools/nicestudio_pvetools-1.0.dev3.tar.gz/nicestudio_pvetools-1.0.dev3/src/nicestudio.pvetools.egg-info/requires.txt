@@ -1,0 +1,10 @@
+requests
+paramiko
+openssh_wrapper
+ipython
+proxmoxer
+pandas
+humanfriendly
+Jinja2
+hypothesis
+pytest
