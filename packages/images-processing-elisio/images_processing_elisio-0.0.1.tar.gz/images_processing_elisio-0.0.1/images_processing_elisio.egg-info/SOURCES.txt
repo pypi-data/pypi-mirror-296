@@ -1,0 +1,9 @@
+README.md
+setup.py
+images-processing-elisio/__init__.py
+images-processing-elisio/file1_name.py
+images-processing-elisio/file2_name.py
+images_processing_elisio.egg-info/PKG-INFO
+images_processing_elisio.egg-info/SOURCES.txt
+images_processing_elisio.egg-info/dependency_links.txt
+images_processing_elisio.egg-info/top_level.txt

@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: images-processing-elisio
+Version: 0.0.1
+Summary: Image Processing Package using Skimage
+Home-page: https://github.com/ElisioMou/Images-Processing-Package.git
+Author: Elisio Moura
+Author-email: elisiomou@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# images-processing-elisio
+
+## Description. 
+The package images-processing-elisio is used to:
+
+	   - Processing:
+	   1. Histogram matching
+	   2. Structural similarity
+	   3. Resize images
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install images-processing-elisio
+
+```bash
+pip install images-processing-elisio
+```
+
+## Usage
+
+```python
+from images-processing-elisio import file1_name
+file1_name.my_function()
+```
+
+## Author
+Elisio Moura
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
