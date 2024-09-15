@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+binaryflow.egg-info/PKG-INFO
+binaryflow.egg-info/SOURCES.txt
+binaryflow.egg-info/dependency_links.txt
+binaryflow.egg-info/top_level.txt
+ftp/__init__.py
+ftp/client.py
+ftp/server.py
