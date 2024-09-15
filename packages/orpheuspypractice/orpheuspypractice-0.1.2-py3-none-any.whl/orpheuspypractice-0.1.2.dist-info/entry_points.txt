@@ -1,0 +1,2 @@
+[console_scripts]
+jgabcli2 = src.jgcmlib.jgabcli:main
