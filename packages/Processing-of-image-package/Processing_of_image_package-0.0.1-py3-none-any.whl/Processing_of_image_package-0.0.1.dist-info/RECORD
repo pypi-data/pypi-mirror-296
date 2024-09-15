@@ -1,0 +1,11 @@
+package_name/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+package_name/module1_name/__init__.py,sha256=Cd9K-4lho3cSmtwYMSQtSKDBLXcXZDdEG4zPKNr5-Ao,47
+package_name/module1_name/file1_name.py,sha256=qT-ZxZjp1C60iBZwmHRZonraCWmo-6CpyPIiCU95VT4,323
+package_name/module1_name/file2_name.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+package_name/module2_name/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+package_name/module2_name/file1_name.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+package_name/module2_name/file2_name.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+Processing_of_image_package-0.0.1.dist-info/METADATA,sha256=hhcd3JTSZFSsEcMJ257O0cdLU4m0MJjL-tkIWVmwsYc,1065
+Processing_of_image_package-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+Processing_of_image_package-0.0.1.dist-info/top_level.txt,sha256=dgB8touNYCul6yLybWD6ZCv0BmvOQyDK2A9FlmKDzMs,13
+Processing_of_image_package-0.0.1.dist-info/RECORD,,
