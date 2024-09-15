@@ -1,0 +1,8 @@
+README.md
+setup.py
+novanet.egg-info/PKG-INFO
+novanet.egg-info/SOURCES.txt
+novanet.egg-info/dependency_links.txt
+novanet.egg-info/entry_points.txt
+novanet.egg-info/requires.txt
+novanet.egg-info/top_level.txt

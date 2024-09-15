@@ -1,0 +1,2 @@
+[console_scripts]
+train_model = my_package.main:main
