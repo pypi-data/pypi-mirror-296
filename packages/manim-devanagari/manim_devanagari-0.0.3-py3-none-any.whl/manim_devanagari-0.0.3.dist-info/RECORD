@@ -1,0 +1,10 @@
+manim_devanagari/__init__.py,sha256=bHiwbOq2yMdn_TqJNXj0IsBQl-Lmuwh-UAviezPhD0A,8648
+manim_devanagari/__main__.py,sha256=xw0F4XOJxVUW7xHCWxeSybxf8jolPDaf1FDJQVUAz10,104
+manim_devanagari/devanagari.tex,sha256=XLtx37GNfLEnaQZzjenfy59g7p3MB05XC8EzoXtQEHM,240
+manim_devanagari/helper.py,sha256=t6ketUmcPErIwX9hN0W6vWcsoHjJDMMUsW_5628PQDI,1043
+manim_devanagari/notebook.py,sha256=-a076vpqD0rrZ9Vx2mXOZLc2LKv5JzcEdolHDVOwupE,6716
+manim_devanagari-0.0.3.dist-info/LICENSE,sha256=Axg8I-w58bYeDgpAR-W1DscxR882394-f-3rWF-F0og,1065
+manim_devanagari-0.0.3.dist-info/METADATA,sha256=aGz1FUrKzgn5OaVIfZ_WtU8C5dLE-tlHXHtWgx6I2xY,6116
+manim_devanagari-0.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+manim_devanagari-0.0.3.dist-info/entry_points.txt,sha256=Kg14GeGuDRYe3N7DxQLw0mXc21hRGpKkqH76QzsaS4c,51
+manim_devanagari-0.0.3.dist-info/RECORD,,
