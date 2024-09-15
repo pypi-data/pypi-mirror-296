@@ -1,0 +1,14 @@
+VoPho/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+VoPho/engine.py,sha256=jssftRq7AlOAZnuUUMiNmkaY_qrgTV7Zp5fwYqe6Uf4,7471
+VoPho/langtokenizers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+VoPho/langtokenizers/multicoded.py,sha256=E_4nFQtRlS6Mm9-2P8eiD9jIX-dzQ_-ngIvYEpo6vxg,11309
+VoPho/phonemizers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+VoPho/phonemizers/english.py,sha256=iTTYx2TOPtAeySBdLx1D2i_qFU3FewekNgxVNS3sUXE,1809
+VoPho/phonemizers/japanese.py,sha256=njrOo9pnrfEXanDLdSi3Aem1yPGA4kFUR7EfvXWvQOU,27883
+VoPho/phonemizers/mandarin.py,sha256=Kcgsgr3baG3mArK7ffizvOpEB_VupN1y5P5ief34Ns8,7840
+VoPho/phonemizers/russian.py,sha256=RicnVidOUcyu32A_X-dVggDFPsjVmShgR8xZzJZKWK0,677
+VoPho-0.0.1.dist-info/LICENSE,sha256=lCxjC-l98Xq1HjenjANV-aeenm7yGY6zMa17puM-_mA,1068
+VoPho-0.0.1.dist-info/METADATA,sha256=5TEB1kuIHEOkMiUgDOWbbV9oEcGEh57_5ABnSsV-txI,2353
+VoPho-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+VoPho-0.0.1.dist-info/top_level.txt,sha256=GcxhXrLGBKkQQ2XsXopOMZ40FfmZ7V8oba_EXEFWf2U,6
+VoPho-0.0.1.dist-info/RECORD,,
