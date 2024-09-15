@@ -1,0 +1,117 @@
+<mvc:View
+  controllerName="demo.spa.controller.Calendar"
+  xmlns:core="sap.ui.core"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:unified="sap.ui.unified"
+  height="99%"
+>
+  <Page
+    showHeader="false"
+    visible="{= ${frontend>/currentUser/username} !== ''}"
+  >
+    <SinglePlanningCalendar
+      appointmentCreate="onCalendarItemCreate"
+      appointmentDrop="onCalendarItemChange"
+      appointmentResize="onCalendarItemChange"
+      appointments="{path: 'frontend>/filteredAppointments', length: 1000}"
+      appointmentSelect="onCalendarItemSelect"
+      cellPress="onCellPress"
+      enableAppointmentsCreate="true"
+      enableAppointmentsDragAndDrop="true"
+      enableAppointmentsResize="true"
+      endHour="20"
+      fullDay="{frontend>/show24hCalendar}"
+      id="idCalendar"
+      startHour="8"
+      stickyMode="NavBarAndColHeaders"
+      title="{i18n>calendar.appointments} {path: 'frontend>/lastChosenPerson', formatter: '.idsToPersonNames'}"
+    >
+      <views>
+        <SinglePlanningCalendarWeekView
+          id="idWeekView"
+          key="WeekView"
+          title="{i18n>calendar.week}"
+        />
+        <SinglePlanningCalendarWorkWeekView
+          id="idWorkWeekView"
+          key="WorkWeekView"
+          title="{i18n>calendar.workweek}"
+        />
+        <SinglePlanningCalendarDayView
+          id="idDayView"
+          key="DayView"
+          title="{i18n>calendar.day}"
+        />
+      </views>
+      <appointments>
+        <unified:CalendarAppointment
+          title="{frontend>title}"
+          startDate="{frontend>start_date}"
+          endDate="{frontend>end_date}"
+          type="{parts: ['frontend>', 'userData>/slot_list', 'userData>/appointment_list'], formatter:'.formatAppointmentType'}"
+          text="{parts: ['frontend>start_date', 'frontend>end_date', 'frontend>participants'], formatter:'.formatAppointmentText'}"
+          key="{frontend>id}"
+        />
+      </appointments>
+    </SinglePlanningCalendar>
+    <footer>
+      <OverflowToolbar>
+        <Button
+          icon="sap-icon://add-calendar"
+          press="onCalendarItemCreateButtonPress"
+          text="{i18n>create}"
+          tooltip="{i18n>calendar.addAppointment}"
+          type="Accept"
+        />
+        <!-- todo i18n  -->
+        <ToggleButton
+          icon="sap-icon://activate"
+          press="onAppointmentImprovePress"
+          pressed="{frontend>/improveAppointmentPressed}"
+          text="Verbessern"
+          tooltip="todo i18n"
+          type="{= ${frontend>/improveAppointmentPressed} ? 'Accept' : 'Ghost'}"
+        />
+        <ToolbarSpacer />
+        <SegmentedButton
+          selectedKey="{frontend>/selectedCalendarType}"
+          visible="{= Boolean(${frontend>/lastChosenPerson})}"
+        >
+          <items>
+            <SegmentedButtonItem
+              icon="sap-icon://calendar"
+              text="{i18n>calendar.appointments}"
+              key="appointments"
+              press="onSwitchToAppointmentsPress"
+            />
+            <SegmentedButtonItem
+              icon="sap-icon://check-availability"
+              text="{i18n>calendar.availability}"
+              key="availability"
+              press="onSwitchToAvailabilityPress"
+            />
+          </items>
+        </SegmentedButton>
+        <ToolbarSpacer />
+        <ToggleButton
+          icon="{= ${frontend>/show24hCalendar} ? 'sap-icon://collapse' : 'sap-icon://expand'}"
+          press=".onFullDayToggleBtnPress"
+          pressed="{frontend>/show24hCalendar}"
+          text="{= ${frontend>/show24hCalendar} ? '08:00 - 20:00' : '00:00 - 24:00'}"
+          type="Ghost"
+        />
+        <Button
+          icon="sap-icon://synchronize"
+          press="onRefreshPress"
+          text="{i18n>synchronize}"
+          type="Ghost"
+        />
+      </OverflowToolbar>
+    </footer>
+  </Page>
+  <core:Fragment
+    fragmentName="demo.spa.view.LoginRequiredPage"
+    type="XML"
+  />
+</mvc:View>

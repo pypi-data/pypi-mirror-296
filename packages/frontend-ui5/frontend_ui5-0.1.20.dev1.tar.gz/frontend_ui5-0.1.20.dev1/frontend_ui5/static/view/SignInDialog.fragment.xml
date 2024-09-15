@@ -1,0 +1,83 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.ui.layout.form"
+>
+  <Dialog
+    id="idSignInDialog"
+    busyIndicatorDelay="100"
+    showHeader="false"
+    contentWidth="{= ${device>/system/phone}? '18rem' : '30rem'}"
+  >
+    <VBox class="sapUiSmallMarginBegin sapUiSmallMarginEnd">
+      <f:Form
+        id="idLoginForm"
+        editable="true"
+        class="sapUiMediumMarginBottom"
+      >
+        <f:layout>
+          <f:ResponsiveGridLayout />
+        </f:layout>
+        <f:formContainers>
+          <f:FormContainer>
+            <f:formElements>
+              <f:FormElement>
+                <Image
+                  class="sapUiSmallMarginTop sapUiMediumMarginBottom customCenteredImage"
+                  height="3rem"
+                  width="100%"
+                  src="{frontend>/svgLogoPath}"
+                />
+              </f:FormElement>
+              <f:FormElement label="{i18n>username}">
+                <f:fields>
+                  <Input
+                    id="idSignInUsernameInput"
+                    required="true"
+                    value="{
+                      path: 'frontend>/loginForm/username',
+                      type : 'sap.ui.model.type.String'
+                    }"
+                    valueLiveUpdate="true"
+                    showClearIcon="true"
+                  />
+                </f:fields>
+              </f:FormElement>
+              <f:FormElement label="{i18n>password}">
+                <f:fields>
+                  <Input
+                    id="idSignInPasswordInput"
+                    required="true"
+                    value="{
+                      path: 'frontend>/loginForm/password',
+                      type : 'sap.ui.model.type.String'
+                    }"
+                    showClearIcon="true"
+                    valueLiveUpdate="true"
+                    type="Password"
+                  />
+                </f:fields>
+              </f:FormElement>
+            </f:formElements>
+          </f:FormContainer>
+        </f:formContainers>
+      </f:Form>
+    </VBox>
+    <buttons>
+      <Button
+        id="idSignInButton"
+        class="sapUiSmallMarginBegin"
+        enabled="{= ${frontend>/loginForm/username} !== '' &amp;&amp; ${frontend>/loginForm/password} !== ''}"
+        press=".onSignInPress"
+        text="{i18n>login}"
+        type="Emphasized"
+      />
+      <Button
+        class="sapUiSmallMarginEnd"
+        press=".onCloseSignInDialog"
+        text="{i18n>cancel}"
+        type="Ghost"
+      />
+    </buttons>
+  </Dialog>
+</core:FragmentDefinition>
