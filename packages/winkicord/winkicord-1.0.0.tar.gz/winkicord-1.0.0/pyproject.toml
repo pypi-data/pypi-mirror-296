@@ -1,0 +1,27 @@
+[project]
+name = "winkicord"
+version = "1.0.0"
+authors = [
+  { name="Ujjwal Srivastava", email="ujjwal.winklebot@proton.me" },
+]
+description = "Effortlessly create a fully functional Discord music bot with just one line of Python code."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "discord.py==2.4.0",
+    "wavelink"
+]
+
+[project.urls]
+Homepage = "https://github.com/UjjwalxD/winkicord"
+Issues = "https://github.com/UjjwalxD/winkicord/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

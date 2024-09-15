@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+winkicord/__init__.py
+winkicord/music.py
+winkicord/nodepool.py
+winkicord/py.typed
+winkicord.egg-info/PKG-INFO
+winkicord.egg-info/SOURCES.txt
+winkicord.egg-info/dependency_links.txt
+winkicord.egg-info/requires.txt
+winkicord.egg-info/top_level.txt
