@@ -1,0 +1,13 @@
+pterodactyl/TransformToObject.py,sha256=0BfFFbF1kgDGF2_Y-oCMAOSi4VpXHHkPASLvT6RKTBg,1444
+pterodactyl/__init__.py,sha256=7nLo4ZYBJZL_ggvUR1ZQ1zZL5j_5urqm-ri1wgPVT8c,26
+pterodactyl/API/Application.py,sha256=s42fe5liPbtmF0-qL-DJLCcYBhnmh1wZ0VLINNEplxI,6704
+pterodactyl/API/Client.py,sha256=Z-olmOBu4P9TfbAKjvtO1h7Xkuw33fSM_p5g571axzM,828
+pterodactyl/API/__init__.py,sha256=gutVU3B9DLX8v1hqzfShPB7-37bQ9ZJbjCREuOADnds,64
+pterodactyl/Objects/Errors.py,sha256=NTy7YFf34ngB0EFC5VdtNwqA-qUuya2Jta0zP1Naaqs,431
+pterodactyl/Objects/User.py,sha256=rBkmKHE4IhOORZv_VQTIkG0ekY6D-16LKW1AapkmN7w,3218
+pterodactyl/Objects/__init__.py,sha256=LbDhuqG9anJ718WpoywW5nGcx0mQ9ztsu8Rvjvhnv6g,22
+pterodactyl-0.0.1.dist-info/LICENSE,sha256=iS4WnVBudFcBYlDAnPrDS038NlTTXZOJ09Pfu99d2Ys,1522
+pterodactyl-0.0.1.dist-info/METADATA,sha256=fy5EtjQwRGNaxNOKyxGYgX_0SXW-_ey4hyBPDjO7U40,510
+pterodactyl-0.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+pterodactyl-0.0.1.dist-info/top_level.txt,sha256=UNBi1Hbel_XadTXLyQDmI4MA7ZZ557abTN2oz7ji1oY,12
+pterodactyl-0.0.1.dist-info/RECORD,,
