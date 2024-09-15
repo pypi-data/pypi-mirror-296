@@ -1,0 +1,12 @@
+pydantic
+loguru
+uvicorn
+typer
+fastapi
+python-multipart
+playwright
+openai
+
+[web]
+fastapi
+uvicorn

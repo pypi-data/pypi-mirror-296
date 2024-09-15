@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: interfaceagent
+Version: 0.0.1
+Summary: Interface Agent: Addressing Tasks by Controlling Interfaces
+Author-email: Victor Dibia <victor.dibia@gmail.com>
+Project-URL: Homepage, https://github.com/yourusername/interfaceagent
+Project-URL: Bug Tracker, https://github.com/yourusername/interfaceagent/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: loguru
+Requires-Dist: uvicorn
+Requires-Dist: typer
+Requires-Dist: fastapi
+Requires-Dist: python-multipart
+Requires-Dist: playwright
+Requires-Dist: openai
+Provides-Extra: web
+Requires-Dist: fastapi; extra == "web"
+Requires-Dist: uvicorn; extra == "web"
+
+# Interface Agent: Addressing Tasks by Controlling Interfaces
+
+<!-- [![PyPI version](https://badge.fury.io/py/interfaceagent.svg)](https://badge.fury.io/py/interfaceagent)
+[![arXiv](https://img.shields.io/badge/arXiv-2303.02927-<COLOR>.svg)](https://arxiv.org/abs/2303.02927)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/interfaceagent?label=pypi%20downloads)
+
+<a target="_blank" href="https://colab.research.google.com/github/microsoft/interfaceagent/blob/main/notebooks/tutorial.ipynb">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a> -->
+
+<!-- <img src="docs/images/interfaceagentscreen.png" width="100%" /> -->
+
+Written as part of the book "Multi-Agent Systems with AutoGen" by Victor Dibia.
+
+Interface Agent package demonstrates how to build an agent that can accomplish tasks by driving interfaces (web browser). It combines the capabilities of large language models with web browsing to accomplish complex tasks autonomously.
+
+## Installation
+
+```bash
+pip install interfaceagent
+```
+
+Or install the latest version from the source code:
+
+```bash
+cd interfaceagent
+pip install -e .
+```
+
+## Components
+
+1. **WebBrowser**: A wrapper around Playwright for browser control
+2. **WebBrowserManager**: Manages multiple browser sessions
+3. **Planner**: Uses OpenAI models to plan and execute tasks
+4. **Web Api**: Provides a RESTful API to interact with the agent based on FastAPI
+
+## Usage
+
+```python
+
+from interfaceagent import WebBrowser, Planner , OpenAIPlannerModel
+
+browser = WebBrowser(start_url="http://google.com/",headless=False)
+model = OpenAIPlannerModel(model="gpt-4o-mini-2024-07-18")
+task = "What is the website for the Manning Book - Multi-Agent Systems with AutoGen. Navigate to the book website and find the author of the book."
+planner = Planner(model=model, web_browser=browser, task=task)
+result = await planner.run(task=task)
+
+```
