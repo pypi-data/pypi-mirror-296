@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: nox-cli
+Version: 0.1.0
+Summary: A powerful CLI tool for various automation tasks.
+Home-page: https://github.com/Adi3g/nox-cli
+Author: Adib Grouz
+Author-email: contact@adib-grouz.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: PyJWT
+Requires-Dist: cryptography
+Requires-Dist: boto3
+Requires-Dist: SQLAlchemy
+Requires-Dist: rsa
+Requires-Dist: requests
+Requires-Dist: python-whois
+Requires-Dist: types-requests
+Requires-Dist: speedtest-cli
+Requires-Dist: docker
+Requires-Dist: python-dotenv
+Requires-Dist: pytz
+Requires-Dist: types-pytz
+Requires-Dist: confluent-kafka
