@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+strategizer/__init__.py
+strategizer/strategies.py
+strategizer.egg-info/PKG-INFO
+strategizer.egg-info/SOURCES.txt
+strategizer.egg-info/dependency_links.txt
+strategizer.egg-info/top_level.txt
