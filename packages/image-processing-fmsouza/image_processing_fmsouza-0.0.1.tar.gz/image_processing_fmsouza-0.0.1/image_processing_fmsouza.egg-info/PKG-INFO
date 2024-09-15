@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: image-processing-fmsouza
+Version: 0.0.1
+Summary: Image processing Package using SKimage
+Home-page: https://github.com/felipefilp/image-processing-fmsouza
+Author: Felipe
+Author-email: felipe_m_souza@yahoo.com.br
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image>=0.16.1
+
+# image-processing-fmsouza
+
+Description. 
+The package image-processing-fmsouza is used to:
+	Processing:
+		- Histrogram matching
+		- Structural similarity
+		- Resize image
+	Utils:
+		- Read image
+		- Save image
+		- Plot image
+		- Plot result
+		- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image-processing-fmsouza
+
+```bash
+pip install image-processing-fmsouza
+```
+
+## Author
+Felipe
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
