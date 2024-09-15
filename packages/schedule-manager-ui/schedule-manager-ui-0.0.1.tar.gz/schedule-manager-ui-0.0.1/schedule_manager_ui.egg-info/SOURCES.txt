@@ -1,0 +1,7 @@
+setup.py
+schedule-manager-ui/__init__.py
+schedule-manager-ui/hello.py
+schedule_manager_ui.egg-info/PKG-INFO
+schedule_manager_ui.egg-info/SOURCES.txt
+schedule_manager_ui.egg-info/dependency_links.txt
+schedule_manager_ui.egg-info/top_level.txt
