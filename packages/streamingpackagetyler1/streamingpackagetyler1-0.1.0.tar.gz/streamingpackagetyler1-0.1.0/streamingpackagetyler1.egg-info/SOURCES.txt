@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/__init__.py
+src/main.py
+src/shopify.py
+src/shopify_copy.py
+src/weather.py
+src/weather_copy.py
+streamingpackagetyler1.egg-info/PKG-INFO
+streamingpackagetyler1.egg-info/SOURCES.txt
+streamingpackagetyler1.egg-info/dependency_links.txt
+streamingpackagetyler1.egg-info/entry_points.txt
+streamingpackagetyler1.egg-info/requires.txt
+streamingpackagetyler1.egg-info/top_level.txt
