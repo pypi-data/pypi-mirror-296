@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: RustyMonad
+Version: 0.0.3
+Summary: Rust-style Monad utils for Python
+Author: AkiSun
+License: MIT License
+Project-URL: Homepage, https://github.com/AkiSun/rustymonad
+Project-URL: Issues, https://github.com/AkiSun/rustymonad/issues
+Keywords: monad,functional
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rustymonad
+Rust-style Monad utils for Python
