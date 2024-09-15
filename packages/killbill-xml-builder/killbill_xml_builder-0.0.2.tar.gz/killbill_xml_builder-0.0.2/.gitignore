@@ -1,0 +1,4 @@
+__pycache__
+src/test_*.py
+test.py
+.venv
