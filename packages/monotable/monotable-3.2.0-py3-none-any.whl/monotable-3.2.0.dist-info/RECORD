@@ -1,0 +1,15 @@
+monotable/__init__.py,sha256=PTMmBMhN6dqVzXVY1Z3liaUmrkPPKaqAmpaGT_NRb9o,1272
+monotable/alignment.py,sha256=aSGWjYPyXtrpZEii9Ic-pEV67n8qZz6mGVpaEE39gPw,4174
+monotable/cellerror.py,sha256=2bNg5hOw_jls6tZMqZVsKpBSWnBtWeTCZTcsFDbFiJg,1992
+monotable/datacls.py,sha256=FZ27gxapNkAMbjzY0MAfmZ8doxFeYBh8VGwnM0LQ9Ek,11169
+monotable/mono.py,sha256=PZMzngkgeqrqzexrFuRHrsE6Xr8fDDrwqtLKrg5Bh0U,7422
+monotable/monoblock.py,sha256=ICmNYnxDmFlXUgM0vJ6Pc0A1HUwrzlM08xkOzmL_73s,11924
+monotable/plugin.py,sha256=A5pA_ZzbuWx7Xkgps0Dj-4JukageRvEw6Z7XcnyEThA,8871
+monotable/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monotable/scanner.py,sha256=5yJ4YQwoZ2eyOrPPxhhiXD_WSd3lRX2UzdVHUaE4Fyk,16094
+monotable/table.py,sha256=ilTvhXaFM9Q0h8ABnmU5O7GMkQzQnXKPafmTWanwkgE,61406
+monotable-3.2.0.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+monotable-3.2.0.dist-info/METADATA,sha256=2apwqF4G5orEDzS1MWzEEr0jegDC7egNg-BEFkUka9E,23438
+monotable-3.2.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+monotable-3.2.0.dist-info/top_level.txt,sha256=AZ_pQwCArQmh15wfpRGOl_M2-KSIJQdbhpuhRrW1ndU,10
+monotable-3.2.0.dist-info/RECORD,,
