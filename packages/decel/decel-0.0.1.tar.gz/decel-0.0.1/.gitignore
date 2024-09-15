@@ -1,0 +1,8 @@
+/dist
+**/__pycache__/**
+*.swp
+.envrc
+
+*.egg-info
+
+src/pycurses/output.txt

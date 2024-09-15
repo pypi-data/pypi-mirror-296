@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: decel
+Version: 0.0.1
+Summary: A Terminal Based Spreadshee Editor 
+Author-email: Charlie Dudzik <dudzikc@outlook.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# decel
+Terminal based spreadsheet software
+
