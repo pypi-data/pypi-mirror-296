@@ -1,0 +1,3 @@
+[console_scripts]
+smmvk=smm_vk.cli.main:main
+
