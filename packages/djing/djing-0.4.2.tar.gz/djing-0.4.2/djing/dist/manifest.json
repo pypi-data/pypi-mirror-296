@@ -1,0 +1,47 @@
+{
+  "../node_modules/primeicons/fonts/primeicons.eot": {
+    "file": "djing/eot/primeicons-987f23ea.eot",
+    "src": "../node_modules/primeicons/fonts/primeicons.eot"
+  },
+  "../node_modules/primeicons/fonts/primeicons.svg": {
+    "file": "djing/svg/primeicons-36c54cec.svg",
+    "src": "../node_modules/primeicons/fonts/primeicons.svg"
+  },
+  "../node_modules/primeicons/fonts/primeicons.ttf": {
+    "file": "djing/ttf/primeicons-dc895fee.ttf",
+    "src": "../node_modules/primeicons/fonts/primeicons.ttf"
+  },
+  "../node_modules/primeicons/fonts/primeicons.woff": {
+    "file": "djing/woff/primeicons-f5d1d219.woff",
+    "src": "../node_modules/primeicons/fonts/primeicons.woff"
+  },
+  "../node_modules/primeicons/fonts/primeicons.woff2": {
+    "file": "djing/woff2/primeicons-9eea6e0b.woff2",
+    "src": "../node_modules/primeicons/fonts/primeicons.woff2"
+  },
+  "_vue-f6fe6eb6.js": {
+    "file": "djing/js/vue-f6fe6eb6.js"
+  },
+  "main.css": {
+    "file": "djing/css/main-299fd80e.css",
+    "src": "main.css"
+  },
+  "main.jsx": {
+    "assets": [
+      "djing/eot/primeicons-987f23ea.eot",
+      "djing/woff2/primeicons-9eea6e0b.woff2",
+      "djing/woff/primeicons-f5d1d219.woff",
+      "djing/ttf/primeicons-dc895fee.ttf",
+      "djing/svg/primeicons-36c54cec.svg"
+    ],
+    "css": [
+      "djing/css/main-299fd80e.css"
+    ],
+    "file": "djing/js/main-7ced7999.js",
+    "imports": [
+      "_vue-f6fe6eb6.js"
+    ],
+    "isEntry": true,
+    "src": "main.jsx"
+  }
+}
