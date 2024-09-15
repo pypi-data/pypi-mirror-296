@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mopidy-homeassistant-mixer
+Version: 0.1.0
+Summary: Mopidy mixer for Home Assistant media player control
+Home-page: https://github.com/gorzelak/mopidy-homeassistant-mixer
+Author: Krzysztof Gorzelak
+Author-email: gorzelak@users.noreply.github.com
+Requires-Dist: mopidy>=3.0
+Requires-Dist: requests
+Requires-Dist: websockets
+
