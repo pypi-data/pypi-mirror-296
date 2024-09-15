@@ -1,0 +1,8 @@
+threadspipepy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+threadspipepy/cli.py,sha256=F8RcBFmWh97cJmKADYjMZYqUBx5VyhwLfTHTAGke4Nc,10184
+threadspipepy/threadspipe.py,sha256=GO_Kxfvc1r2p-mOSw20NhMI4NchPBf4pxE-SyFOOijI,69765
+threadspipepy-0.0.1.dist-info/METADATA,sha256=lMWzh9NawdveFP3Ddc8I9Nc12EydM8TiQL8gSHKW7mE,47702
+threadspipepy-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+threadspipepy-0.0.1.dist-info/entry_points.txt,sha256=C-snG_QFC0wbEDMPBeScYl565Q37AOnStNmvMhCeN84,101
+threadspipepy-0.0.1.dist-info/licenses/LICENSE,sha256=jY84oyMIgrIpn2tC6C3zFOGgSv5eNmKFz_RJiqIfDzM,1070
+threadspipepy-0.0.1.dist-info/RECORD,,

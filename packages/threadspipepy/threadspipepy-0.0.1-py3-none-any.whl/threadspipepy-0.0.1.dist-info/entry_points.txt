@@ -1,0 +1,5 @@
+[console_scripts]
+threadspipepy = threadspipepy:cli
+
+[gui_scripts]
+threadspipepy = threadspipepy:cli
