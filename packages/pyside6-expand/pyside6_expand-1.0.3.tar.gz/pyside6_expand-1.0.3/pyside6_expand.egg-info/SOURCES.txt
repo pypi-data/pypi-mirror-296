@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyside6_expand/__init__.py
+pyside6_expand/expand_signal.py
+pyside6_expand.egg-info/PKG-INFO
+pyside6_expand.egg-info/SOURCES.txt
+pyside6_expand.egg-info/dependency_links.txt
+pyside6_expand.egg-info/requires.txt
+pyside6_expand.egg-info/top_level.txt
