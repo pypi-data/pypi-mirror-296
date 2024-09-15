@@ -1,0 +1,2 @@
+[console_scripts]
+wordman = wordman.cli.main:main
