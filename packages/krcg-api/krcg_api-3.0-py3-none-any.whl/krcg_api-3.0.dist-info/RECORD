@@ -1,0 +1,12 @@
+krcg_api/__init__.py,sha256=wAvQGrUJHaeZkkhXnSTX95mXrLD2loo-A2ETJ37T23I,86
+krcg_api/api.py,sha256=WBZ9OeA1_YA4WAFLDaV0FhLuDlNzCR0Okojzq5PXYpE,11471
+krcg_api/config.py,sha256=ardKUFCP2LIsdvJCGRbxsVsrfECFvKfO7rWAUBWOeBU,127
+krcg_api/wsgi.py,sha256=b_wV9r3yCSEpjQUJgt8FKoXV4CMJ4wrtUSzrX0pemWg,96
+krcg_api/templates/index.html,sha256=Eo_JwafMSJWX2T5zfBTWpbc-PvbDj948MkU0k8sDfgw,529
+krcg_api/templates/openapi.yaml,sha256=9h6OCVne7HY2rJTBqI73ND8aYIyLidx9M0_1O1bQwjE,85453
+krcg_api-3.0.dist-info/LICENSE,sha256=_FcHsYbByuk4vQ-SvrI-pRvSA0pSEu62jUw1lU9VZCg,1073
+krcg_api-3.0.dist-info/METADATA,sha256=AYWu8mEL-lMYPLLbwpTaH_UwobQ_6KgF7saPzIRSLdk,7742
+krcg_api-3.0.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+krcg_api-3.0.dist-info/entry_points.txt,sha256=d44Gr-mSVDhh-ETuYG91Hlv5ptopJrL54gfZ_KQMDVE,47
+krcg_api-3.0.dist-info/top_level.txt,sha256=7njMt62hDm9ypnonTtqsY3ETMIBd8xV9wkfRmX0ugVY,9
+krcg_api-3.0.dist-info/RECORD,,
