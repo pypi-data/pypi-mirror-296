@@ -1,0 +1,9 @@
+hosterNetPython/__init__.py,sha256=e1PR5LNfMoOQfq_J1CBX6m7ntG3F6ycmvHmEMBJUNVM,107
+hosterNetPython/httpServer.py,sha256=avYalVoq1fZMA6MnIDip0MiJEy1CSlLOrWPGUoxDMQQ,825
+hosterNetPython/socketServer/__init__.py,sha256=9ZUuxFeLj2l8KKB5nJ7i8e1iMnjKomBXdZ_f14P-AtE,56
+hosterNetPython/socketServer/chat.py,sha256=Ex5FApHUtE_XAtJQaDK4dlcw5pZuUckOHD2y6NCze0w,609
+hosterNetPython/socketServer/chatC.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hosterNetPython-0.1.0.dist-info/METADATA,sha256=s8LWZ1vUy8XKD-jrpHqR1Sxim6RlbKygzwbIuK-_Txg,1430
+hosterNetPython-0.1.0.dist-info/WHEEL,sha256=Rp8gFpivVLXx-k3U95ozHnQw8yDcPxmhOpn_Gx8d5nc,91
+hosterNetPython-0.1.0.dist-info/top_level.txt,sha256=h_aJhZRtjJqyIBRdd1KRsgzm89twdTOgbRy1UJJ85cs,16
+hosterNetPython-0.1.0.dist-info/RECORD,,
