@@ -1,0 +1,2 @@
+[console_scripts]
+rai-checklist = rai_checklist_cli.cli:main
