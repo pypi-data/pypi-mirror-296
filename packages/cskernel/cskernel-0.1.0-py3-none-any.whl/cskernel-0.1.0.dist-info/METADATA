@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cskernel
+Version: 0.1.0
+Summary: Placeholder for internal package
+Author: Paul Müller
+Author-email: dev@craban.de
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+## CSKernel
+
+reserved for internal use
+
