@@ -1,0 +1,42 @@
+[project]
+name = "catframes"
+version = "2024.8.2"
+
+description = "Video glue for image folders."
+keywords = ["concat", "images", "video", "webm", "mp4", "slideshow", "timelapse", "stop motion"]
+
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+
+requires-python = ">=3.7"
+
+authors = [
+  {name = "Georgy Ustinov", email = "inbox@itustinov.ru" },
+  {name = "Bogdan Syrovatsky", email = "bogdansir1807@gmail.com" },
+  {name = "Evgeny Ockatiev", email = "evgeny.ockatiev@gmail.com" }
+]
+
+classifiers = [
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "Topic :: Multimedia :: Video",
+  "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+  "License :: OSI Approved :: zlib/libpng License"
+]
+
+dependencies = [
+  "Pillow>=9.2.0"
+]
+
+[project.urls]
+Homepage = "https://itustinov.ru/"
+"Source code" = "https://github.com/georgy7/catframes"
+Changelog = "https://github.com/georgy7/catframes/blob/main/CHANGELOG.md"
+
+[project.scripts]
+catframes = "catframes.catframes:main"
+catmanager = "catframes.catmanager:main"
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
