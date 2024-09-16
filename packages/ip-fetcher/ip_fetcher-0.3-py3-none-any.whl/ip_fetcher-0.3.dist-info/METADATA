@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: ip_fetcher
+Version: 0.3
+Summary: A Python library to fetch public and private IP addresses.
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: license.txt
+Requires-Dist: requests
+Requires-Dist: socket
+Requires-Dist: ipaddress
+Requires-Dist: pkg-resources
+
+# IP Fetcher
+
+`ip_fetcher` is a Python library for retrieving public and private IP addresses.
+
+## Features
+
+- **Fetches Public IP Address**: Retrieves the public IP address of the user.
+- **Retrieves Private IP Address**: Retrieves the private IP address of the user.
+- **Checks IP Type**: Determines if a given IP address is IPv4 or IPv6.
+- **Detects Proxy or VPN**: Checks if a given IP address is associated with a known proxy or VPN.
+
+## Installation
+
+To install the package, use:
+
+```bash
+pip install ip_fetcher
+```
+
+## Usage
+
+Here are some examples of how to use the `ip_fetcher` library:
+
+### Fetching the Public IP
+
+To get your public IP address:
+
+```python
+from ip_fetcher import get_public_ip
+
+public_ip = get_public_ip()
+print(f"Public IP: {public_ip}")
+```
+
+### Fetching the Private IP
+
+To get your private IP address:
+
+```python
+from ip_fetcher import get_private_ip
+
+private_ip = get_private_ip()
+print(f"Private IP: {private_ip}")
+```
+
+### Checking IP Type
+
+To check if an IP address is IPv4 or IPv6:
+
+```python
+from ip_fetcher import is_ipv4, is_ipv6
+
+ip_address = "192.168.1.1"
+
+if is_ipv4(ip_address):
+    print(f"{ip_address} is an IPv4 address.")
+elif is_ipv6(ip_address):
+    print(f"{ip_address} is an IPv6 address.")
+else:
+    print(f"{ip_address} is not a valid IP address.")
+```
+
+### Checking for Proxy or VPN
+
+To check if an IP address is associated with a proxy or VPN:
+
+```python
+from ip_fetcher import check_ip_proxy_vpn
+
+ip_address = "8.8.8.8"
+
+if check_ip_proxy_vpn(ip_address):
+    print(f"{ip_address} is associated with a proxy or VPN.")
+else:
+    print(f"{ip_address} is not associated with a proxy or VPN.")
