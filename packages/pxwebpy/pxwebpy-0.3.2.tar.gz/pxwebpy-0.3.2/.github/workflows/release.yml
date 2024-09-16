@@ -1,0 +1,31 @@
+name: release
+
+env:
+  UV_VERSION: "0.4.9"
+  UV_LINK_MODE: copy
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build-release:
+
+    runs-on: ubuntu-latest
+    environment: release
+    permissions:
+      id-token: write
+    strategy:
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up uv ${{ env.UV_VERSION }}
+        run: curl -LsSf https://astral.sh/uv/${{ env.UV_VERSION }}/install.sh | sh
+
+      - name: Build for distribution
+        run: uv build
+
+      - name: Publish to PyPI      
+        uses: pypa/gh-action-pypi-publish@release/v1
