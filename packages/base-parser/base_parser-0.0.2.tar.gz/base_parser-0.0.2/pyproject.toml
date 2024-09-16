@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "base-parser"
+version = "0.0.2"
+description = "Base library for Bi.Zone parsers"
+authors = ["Константин Зубченко <k.zubchenko@bi.zone>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: base-parser
+Version: 0.0.2
+Summary: Base library for Bi.Zone parsers
+Author: Константин Зубченко
+Author-email: k.zubchenko@bi.zone
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+Запуск:
+
+```main.py -c <путь до конфигурационного файла> <путь до конфигурационного файла> ...```
+
+example:
+
+```main.py -c "config_parser/configs/test_config.yaml"```
+
+!! ВАЖНО !!
+На данный момент рабочей версией является единственный конфигурационный файл:
+
+"config_parser/configs/test_config.yaml"
+
