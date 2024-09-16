@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+littlelog/__init__.py
+littlelog/littlelog.py
+littlelog.egg-info/PKG-INFO
+littlelog.egg-info/SOURCES.txt
+littlelog.egg-info/dependency_links.txt
+littlelog.egg-info/top_level.txt
