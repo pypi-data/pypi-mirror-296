@@ -1,0 +1,9 @@
+pyflowery/__init__.py,sha256=LycKBam4YllohKBAoFLLzMHhuhIF3HoYt30TQ9aWRPc,267
+pyflowery/models.py,sha256=SSF5UuLnOlpd7fsRE45CvL4GmokkeVcrOgWCGt-17n8,1630
+pyflowery/pyflowery.py,sha256=mn-QJFH9UkVkb6lVtOdJ19KcSKNt4QTLF4emd-RdWpg,2408
+pyflowery/rest_adapter.py,sha256=NQsSlYqPHF1b9PjcY7AVZKdSOZuK2InqOlY0VXCddIo,3127
+pyflowery/version.py,sha256=lzGFsymf0DtA_1oAZcPbeQ557iY-1BRkekhfA2qaFh8,18
+pyflowery-1.0.0.dist-info/LICENSE,sha256=svVZ-ImbFLpU3nlzBFMpsgvD_s2evPqSiNEGshp66Hg,34588
+pyflowery-1.0.0.dist-info/METADATA,sha256=Woc_Xt7J2RrxhmrkbkwBUi-6yxndzAHjy5BHf_QyyrU,978
+pyflowery-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyflowery-1.0.0.dist-info/RECORD,,
