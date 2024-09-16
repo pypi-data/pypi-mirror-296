@@ -1,0 +1,194 @@
+- case: include_file
+  skip: true
+  files: &INC
+    - path: inc.py
+      content: |
+        from lxml import etree as e
+        el: e._Element
+        comm: e._Comment
+        ent: e._Entity
+        pi_: e._ProcessingInstruction
+        s: str
+        b: bytes
+        i: int
+        o: object
+        qn: e.QName
+  main: ""
+
+- case: method_addnext_addprevious
+  parametrized:
+    - method: addnext
+    - method: addprevious
+  main: |
+    from lxml import etree
+    elem: etree._Element
+    elem.{{ method }}(elem)
+    elem.{{ method }}(1)  # E: Argument 1 to "{{ method }}" of "_Element" has incompatible type "int"; expected "_Element"  [arg-type]
+    elem.{{ method }}(elem, 1)  # E: Too many arguments for "{{ method }}" of "_Element"  [call-arg]
+
+- case: iter_family_goodargs
+  files: *INC
+  main: |
+    from inc import el, s, b, qn
+    from lxml import etree
+    reveal_type(el.iter           ())  # NR: .+ "[\w\.]+\.Iterator\[[\w\.]+\._Element]"$
+    reveal_type(el.iterancestors  ())  # NR: .+ "[\w\.]+\.Iterator\[[\w\.]+\._Element]"$
+    reveal_type(el.iterchildren   ())  # NR: .+ "[\w\.]+\.Iterator\[[\w\.]+\._Element]"$
+    reveal_type(el.iterdescendants())  # NR: .+ "[\w\.]+\.Iterator\[[\w\.]+\._Element]"$
+    reveal_type(el.itersiblings   ())  # NR: .+ "[\w\.]+\.Iterator\[[\w\.]+\._Element]"$
+    el.iter           (s)
+    el.iter           (etree.Comment, b)
+    el.iterancestors  (b)
+    el.iterancestors  (b, qn)
+    el.iterchildren   (qn)
+    el.iterchildren   (etree.Comment, etree.PI)
+    el.iterdescendants(etree.Comment)
+    el.iterdescendants(s, b)
+    el.itersiblings   (etree.Entity)
+    el.itersiblings   (s, b)
+
+- case: iter_family_badargs
+  expect_fail: true
+  parametrized:
+    - method: iter
+      args: 1
+    - method: iter
+      args: tag, 1
+    - method: iter
+      args: badarg=tag
+    - method: iterancestors
+      args: 1
+    - method: iterancestors
+      args: tag, 1
+    - method: iterancestors
+      args: badarg=tag
+    - method: iterdescendants
+      args: 1
+    - method: iterdescendants
+      args: tag, 1
+    - method: iterdescendants
+      args: badarg=tag
+    - method: itersiblings
+      args: 1
+    - method: itersiblings
+      args: tag, 1
+    - method: itersiblings
+      args: badarg=tag
+    - method: iterchildren
+      args: 1
+    - method: iterchildren
+      args: tag, 1
+    - method: iterchildren
+      args: badarg=tag
+  main: |
+    from lxml import etree
+    elem: etree._Element
+    tag: str
+    _ = elem.{{ method }}({{ args }})
+
+- case: iter_family_special_kwd_goodargs
+  files: *INC
+  main: |
+    from inc import el, s, b, qn
+    reveal_type(el.itersiblings(s, qn, preceding=True))  # NR: .+ "[\w\.]+\.Iterator\[[\w\.]+\._Element]"$
+    reveal_type(el.iterchildren(qn, b, reversed=True))  # NR: .+ "[\w\.]+\.Iterator\[[\w\.]+\._Element]"$
+
+- case: iter_family_special_kwd_badargs
+  files: *INC
+  expect_fail: true
+  parametrized:
+    - method: itersiblings
+      kwd: preceding
+    - method: iterchildren
+      kwd: reversed
+  main: |
+    from inc import el, s
+    el.{{ method }}(s, {{ kwd }}=s)
+
+- case: itertext_goodargs
+  files: *INC
+  main: |
+    from lxml import etree
+    from inc import el, s, b, qn
+    reveal_type(el.itertext(s))  # NR: .+ "[\w\.]+\.Iterator\[[\w\.]+\.str]"$
+    el.itertext(b, etree.Comment)
+    el.itertext(etree.Entity, qn)
+    el.itertext(etree.PI, with_tail=False)
+
+- case: itertext_badargs
+  files: *INC
+  expect_fail: true
+  parametrized:
+    - args: 1
+    - args: s, None
+    - args: badarg=s
+    - args: s, with_tail=''
+  main: |
+    from inc import el, s
+    el.itertext({{ args }})
+
+- case: makeelement_goodargs
+  files: *INC
+  main: |
+    from typing import Dict, Optional, Union
+    from inc import el, s, b, qn
+    # XXX see overzealous_inferred_type test case for info
+    # crazy_nsmap = {None: s, s: b}
+    crazy_nsmap: Dict[str | None, str | bytes]
+    nsmap = {None: s, s: s}
+    myattrib = {s: s}
+    reveal_type(el.makeelement(s))  # NR: .+ "[\w\.]+\._Element"
+    el.makeelement(b, el.attrib)
+    el.makeelement(qn, myattrib)
+    el.makeelement(s, None, crazy_nsmap)
+    el.makeelement(s, foo=s)
+    el.makeelement(s, foo=s, baz=b)
+    el.makeelement(b, foo=s, nsmap={None: b})
+    el.makeelement(qn, foo=s, attrib={s: b, s: s})
+
+- case: makeelement_badargs
+  files: *INC
+  main: |
+    from typing import Dict, Optional, Union
+    from inc import el, s, b, qn
+    bad_attrib = {s: 1}
+    el.makeelement()  # ER: Too few arguments.*  \[call-arg]$
+    el.makeelement(None)  # ER: Argument 1 .+; expected ".+"  \[arg-type]$
+    el.makeelement(s, foo=1)  # ER: Argument "foo" .+; expected ".+"  \[arg-type]$
+    el.makeelement(s, bad_attrib)  # ER: Argument 2 .+; expected ".+"  \[arg-type]$
+
+- case: noargs_method
+  files: *INC
+  main: |
+    from inc import el, s
+    reveal_type(el.getparent  ())  # NR: .+ "Union\[[\w\.]+\._Element, None]"$
+    reveal_type(el.getnext    ())  # NR: .+ "Union\[[\w\.]+\._Element, None]"$
+    reveal_type(el.getprevious())  # NR: .+ "Union\[[\w\.]+\._Element, None]"$
+    reveal_type(el.getroottree())  # NR: .+ "[\w\.]+\._ElementTree\[[\w\.]+\._Element]"$
+    el.getparent  (s)  # ER: Too many arguments .+  \[call-arg]$
+    el.getnext    (s)  # ER: Too many arguments .+  \[call-arg]$
+    el.getprevious(s)  # ER: Too many arguments .+  \[call-arg]$
+    el.getroottree(s)  # ER: Too many arguments .+  \[call-arg]$
+
+- case: xpath
+  files: *INC
+  main: |
+    from inc import el, s
+    ns = {s: s}
+    badns = {s: 1}
+    def extfunc1(context, a): return ''
+    def extfunc2(context, a, b): return 0
+    ext1 = [{(None, s): extfunc1}]
+    ext2 = {(s, s): extfunc2}
+    badext = [{badns: extfunc1}]
+    el.xpath(s, namespaces=None)
+    el.xpath(s, namespaces=ns)
+    el.xpath(s, extensions=None)
+    el.xpath(s, extensions=ext2)
+    el.xpath(s, smart_string=True)
+    el.xpath(s, var=1)
+    el.xpath(s, namespaces=ns, extensions=ext1, smart_string=False)
+    el.xpath()  # ER: Too few arguments.*  \[call-arg]$
+    el.xpath(path=s)  # ER: Too few arguments.*  \[call-arg]$
+    el.xpath(s, namespaces=badns)  # ER: Argument "namespaces" .+; expected ".+"  \[arg-type]$
+    el.xpath(s, extensions=badext)  # ER: Argument "extensions" .+; expected ".+"  \[arg-type]$
