@@ -1,0 +1,11 @@
+[build-system]
+requires = [ "setuptools>=61.0.0",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "batframework"
+description = "Pygame framework for making games easier."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [ "pygame-ce",]
+version = "1.0.8a9"
