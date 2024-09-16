@@ -1,0 +1,17 @@
+cbsodata4/__init__.py,sha256=M3x6EYqfv4K0CK0Yx2hg7mSDjKbWKHq6_FYpnmA7ytQ,636
+cbsodata4/catalogs.py,sha256=KiX-h448nuMZY7Wtjzo2K9VNLjnsL8vf-xhjCCuo3dE,314
+cbsodata4/config.py,sha256=02BcFZ1N7o893k3K3Fngl5l_5i3JESsQLA71UC6MXXs,147
+cbsodata4/data_processor.py,sha256=nq7DRnIYZKxRX9vffG-lC3GUZ_A1-1shOe0O7qqwB_8,1714
+cbsodata4/dataset_search.py,sha256=k4AS-7Empn28Cd0hdf_xIhqSlRK3Z6fwiOee0cOGIJM,1577
+cbsodata4/datasets.py,sha256=m3MX8x1YNmZ4c-5jbjmpZKJxUvEy2hA2kVshLqktz1I,1029
+cbsodata4/date_handler.py,sha256=j5vN2_3-svuDx7tey3jb27NW89-xyl3VyCfnLcCXlOY,2338
+cbsodata4/downloader.py,sha256=ruwLidY_vIDYa1Cr7MED8VeSpJT13AJb0qL3dTyfLw4,3262
+cbsodata4/httpx_client.py,sha256=bbXbLXAHu-Zpyyw4SPLnXJIBRJ5Y9g9o7obR-wQehhY,439
+cbsodata4/labeler.py,sha256=fe1354pmqymWC-jmonQg_ZLzqx6O3Yf1uiofhHU_f3g,1331
+cbsodata4/metadata.py,sha256=0z2BScqH6km7g6tDVNIj5Uk87ZGUlA4v5SZaeB2uPLc,3324
+cbsodata4/observations.py,sha256=60YPqDp6SUpVYiCmuHTC8tgIBQQePpmdISJhxfhwNpc,1982
+cbsodata4/query_builder.py,sha256=5IQ_MuOXxhLYlTN3irSFlJBYdQ7lh6Qb-sLeE3WhwTI,2299
+cbsodata4/unit_handler.py,sha256=GM5YZAxTq25RUDOZ0tzpbJFQVNyL4pNKX8A-UPJaOcc,1370
+cbsodata4-0.1.1.dist-info/METADATA,sha256=kNYkg_vebR5kQt_xKY2drWROGXxzlwtB2z8haOomGcc,703
+cbsodata4-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cbsodata4-0.1.1.dist-info/RECORD,,
