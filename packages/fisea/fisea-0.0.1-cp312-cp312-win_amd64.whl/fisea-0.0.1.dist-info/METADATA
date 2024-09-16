@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: fisea
+Version: 0.0.1
+Summary: A mini library simulate the behavior of torch
+Author-Email: Fish Chen <me@email.com>, Season Lo <chlo-mo@outlook.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Description-Content-Type: text/markdown
+
+# fisea
+
+Develop Manual
+
+As you can see, the `fisea` file store all the `.h`, `.cpp`, and `.cu`, mixed with python codes. Our target is to provide some `C++` functions or `CU` functions to python. Giving the package user a torch-like experience in developing new things.
+
+## TODO
+- In fisea.functional store all `simple function acting on one element`. Functions with names ended with `_`, for example `sin_`, `cos_`, ..., are `inplace function`. All(most) functions will have one inplace version and one creating-new-copy version.
+
+- In fisea.tensor store the `tensor` API for the user. We need to implement a lot of build-in functions that directly call the `C++` `CU` functions written in fisea.functional
+
+- conda support
+
+- since there is no documentation or type hint for `c++` functions, so we need to write some `.pyi` files, similar to `.h` files, containing all of the necessary documentations.
+
+# Test it!
+```python
+from fisea.functional import mul, div
+
+a = 10
+b = 5
+
+print(mul(a, b))
+```
