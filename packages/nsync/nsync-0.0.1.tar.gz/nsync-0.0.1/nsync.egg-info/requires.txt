@@ -1,0 +1,8 @@
+anyio
+sniffio
+
+[dev]
+pylint
+pytest-cov
+pytest
+trio

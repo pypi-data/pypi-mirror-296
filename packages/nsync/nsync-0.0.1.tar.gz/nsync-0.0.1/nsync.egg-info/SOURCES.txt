@@ -1,0 +1,8 @@
+pyproject.toml
+nsync/__init__.py
+nsync/test_nsync.py
+nsync.egg-info/PKG-INFO
+nsync.egg-info/SOURCES.txt
+nsync.egg-info/dependency_links.txt
+nsync.egg-info/requires.txt
+nsync.egg-info/top_level.txt
