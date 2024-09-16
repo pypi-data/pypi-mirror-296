@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pdfalign/__init__.py
+src/pdfalign/tableify.py
+src/pdfalign.egg-info/PKG-INFO
+src/pdfalign.egg-info/SOURCES.txt
+src/pdfalign.egg-info/dependency_links.txt
+src/pdfalign.egg-info/requires.txt
+src/pdfalign.egg-info/top_level.txt
