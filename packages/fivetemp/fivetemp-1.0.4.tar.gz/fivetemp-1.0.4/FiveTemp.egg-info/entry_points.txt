@@ -1,0 +1,2 @@
+[console_scripts]
+5t = five_temp.cli:main
