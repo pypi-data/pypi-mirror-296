@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: archon-bot
+Version: 2.10
+Summary: Discord bot for VTES tournaments
+Author-email: Lionel Panhaleux <lionel.panhaleux+krcg@gmail.com>
+Project-URL: Repository, http://github.com/lionel-panhaleux/archon-bot
+Keywords: vampire,vtes,ccg,discord,bot
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Games/Entertainment
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: asgiref
+Requires-Dist: chardet
+Requires-Dist: krcg>=4.1
+Requires-Dist: hikari>=2.0.0.dev122
+Requires-Dist: orjson>=3.9.10
+Requires-Dist: psycopg[pool]>=3.1.13
+Requires-Dist: stringcase
+Requires-Dist: unidecode
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: ipdb; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: zest.releaser[recommended]; extra == "dev"
