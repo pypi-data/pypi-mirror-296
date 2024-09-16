@@ -1,0 +1,6 @@
+include cythonsendevent/requirements.txt
+include cythonsendevent/thirdparty.json
+include cythonsendevent/cysend.pyx
+include cythonsendevent/cysend_compile.py
+include cythonsendevent/LICENSE
+include cythonsendevent/README.MD
