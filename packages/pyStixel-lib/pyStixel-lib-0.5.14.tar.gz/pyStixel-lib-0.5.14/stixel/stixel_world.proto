@@ -1,0 +1,75 @@
+/*
+Protocol Buffer Definition of a Stixel World Data.
+Compile with (in case of problems):
+protoc --python_out=. --pyi_out=. stixel/stixel_world.proto stixel/protos/segmentation.proto
+ */
+syntax = "proto3";
+
+package stixelworld;
+
+import "stixel/protos/segmentation.proto";
+
+// Stixel definition
+message Stixel {
+  // Column in image plane
+  int32 u = 1;
+  // Top point in image plane of the Stixel
+  int32 vT = 2;
+  // Bottom point in image plane of the Stixel
+  int32 vB = 3;
+  // Distance to the camera w as an image plane scaling factor according to the Projection.
+  float d = 4;
+  // Semantic class label
+  Segmentation.Type label = 5;
+  // Stixel width in pixels
+  int32 width = 6;
+  // Confidence of the Stixel
+  float confidence = 7;
+}
+
+
+// Camera-Information
+message CameraInfo {
+  // Camera-Matrix (3x3)
+  // Usage: e.g. in python is like np.array(CameraInfo.K).reshape(3, 3)
+  repeated float K = 1;
+  // Transformation-Matrix (4x4) [R|t]
+  repeated float T = 2;
+  // Rectifications-Matrix (4x4)
+  repeated float R = 3;
+  // Distortion coefficients
+  repeated float D = 4;
+  // Distortion model
+  enum DistortionModelType {
+    MODEL_UNDEFINED = 0;
+    // Brown-Conrady Model- The 5 parameters of D are: (k1, k2, t1, t2, k3)
+    MODEL_PLUMB_BOB = 1;
+  };
+  DistortionModelType DistortionModel = 5;
+  // Reference string for the transformation-Matrix T
+  string reference = 6;
+  // Image name
+  string img_name = 7;
+  // Camera image size.
+  int32 width = 8;
+  int32 height = 9;
+  int32 channels = 10;
+}
+
+// Additional information to apply more functionalities
+message Context {
+  // A unique name that identifies the data.
+  string name = 1;
+  // Intrinsic and extrinsic camera information
+  CameraInfo calibration = 2;
+}
+
+// StixelWorld definition
+message StixelWorld {
+  // List of Stixels
+  repeated Stixel stixel = 1;
+  // Image. Decode with util. By default encoded as PNG. Magic Number gives implicit hints (e.g.: 89 50 4E 47 0D 0A 1A 0A).
+  bytes image = 2;
+  // Camera Information & Naming
+  Context context = 3;
+}
