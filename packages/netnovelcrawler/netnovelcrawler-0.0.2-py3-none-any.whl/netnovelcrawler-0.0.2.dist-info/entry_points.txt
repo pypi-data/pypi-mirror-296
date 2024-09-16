@@ -1,0 +1,2 @@
+[console_scripts]
+mgrui = netnovelcrawlertaskmgr:run_mgr
