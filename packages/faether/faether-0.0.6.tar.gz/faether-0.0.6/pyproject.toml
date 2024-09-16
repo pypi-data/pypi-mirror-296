@@ -1,0 +1,28 @@
+[project]
+name = "faether"
+authors = [
+  { name="Faetherlabs", email="info@faether.io" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/faetherlabs/sdk-python"
+Issues = "https://github.com/faetherlabs/sdk-python/issues"
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "faether/_version.py"
+version_scheme = "no-guess-dev"
+local_scheme = "no-local-version"
+git_describe_command = "git describe --tags --match * --abbrev=0"
