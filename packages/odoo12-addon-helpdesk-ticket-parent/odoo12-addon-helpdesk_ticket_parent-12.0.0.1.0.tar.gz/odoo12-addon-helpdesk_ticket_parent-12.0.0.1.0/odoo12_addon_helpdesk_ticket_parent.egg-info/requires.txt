@@ -1,0 +1,5 @@
+odoo12-addon-contract
+odoo12-addon-helpdesk_mgmt
+odoo12-addon-helpdesk_ticket_massive_creation
+odoo12-addon-queue_job
+odoo<12.1dev,>=12.0a

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <data>
+    <record id="view_form_helpdesk_ticket_massive_creation_parents_wizard" model="ir.ui.view">
+      <field name="name">Massive ticket creation parent from wizard</field>
+      <field name="model">helpdesk.ticket.massive.creation.parent.wizard</field>
+      <field name="arch" type="xml">
+        <form string="Helpdesk Ticket">
+          <sheet>
+            <group name="main">
+              <p>
+                The global ticket allows you to indicate that it has the same root
+                cause and automate status and communications with all related child
+                tickets.
+              </p>
+              <p>
+                Independent tickets can be created in mass without root cause,
+                each one will be treated independently.
+              </p>
+              <button type="object" class="btn btn-primary"
+                    name="button_create_global_ticket"
+                    string="Create global ticket" />
+              <button type="object" class="btn btn-primary"
+                    name="button_create_independent_ticket"
+                    string="Create independent tickets"/>
+            </group>
+          </sheet>
+          <footer>
+          </footer>
+        </form>
+      </field>
+    </record>
+    <act_window id="helpdesk_ticket_massive_creation.action_res_partner_create_helpdesk_ticket_massively"
+                name="Create tickets massively"
+                src_model="res.partner"
+                res_model="helpdesk.ticket.massive.creation.parent.wizard"
+                view_type="form"
+                view_mode="form"
+                target="new"
+                multi="True"
+                />
+    <act_window id="helpdesk_ticket_massive_creation.action_contract_contract_create_helpdesk_ticket_massively"
+                name="Create tickets massively"
+                src_model="contract.contract"
+                res_model="helpdesk.ticket.massive.creation.parent.wizard"
+                view_type="form"
+                view_mode="form"
+                target="new"
+                multi="True"
+                />
+  </data>
+</odoo>
