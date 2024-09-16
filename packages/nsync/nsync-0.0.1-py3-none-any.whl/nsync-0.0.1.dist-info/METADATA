@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nsync
+Version: 0.0.1
+Summary: Bridge code to let non-async programs use async-compatible libraries.
+Author-email: Daniel Reed <nmlorg@gmail.com>
+Project-URL: Homepage, https://github.com/nmlorg/nsync
+Project-URL: Issues, https://github.com/nmlorg/nsync/issues
+Requires-Python: >=3.8
+Requires-Dist: anyio
+Requires-Dist: sniffio
+Provides-Extra: dev
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: trio ; extra == 'dev'
+
