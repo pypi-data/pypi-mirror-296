@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: hexamind
+Version: 0.6.0
+Summary: Hexamind library to implement RAG solutions
+Author-email: Julien Fresnel <julien.fresnel@hexamind.ai>, Max Beales <max.beales@hexamind.ai>, Alexandre Fleutelot <alexandre.fleutelot@hexamind.ai>, Quentin Fever <quentin.fever@hexamind.ai>, Louis Mucha <louis.mucha@hexamind.ai>, Yves Peligry <yves.peligry@hexamind.ai>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: chromadb==0.5.0
+Requires-Dist: elasticsearch==8.12.1
+Requires-Dist: graphviz==0.20.3
+Requires-Dist: mammoth==1.8.0
+Requires-Dist: mistralai==0.4.1
+Requires-Dist: mistral_common==1.3.4
+Requires-Dist: openai==1.34.0
+Requires-Dist: pytest==8.2.2
+Requires-Dist: python_docx==1.1.0
+Requires-Dist: Requests==2.32.3
+Requires-Dist: Markdown==3.6
+Requires-Dist: setuptools==68.2.2
+Requires-Dist: pydantic
+Requires-Dist: sentence_transformers
+Requires-Dist: stanza
+Requires-Dist: cohere
+Requires-Dist: numpy
+Provides-Extra: test
+Requires-Dist: pytest>=8.2.2; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+
+<p align="center">
+  <img src="branding/hexamind.png" alt="Sample Image">
+</p>
+
+# Hexamind
+
+This package has been created by Hexamind to provide a simple and easy way to use and create RAG applications.
+
+- **Website**: https://www.hexamind.ai/
+- **Documentation**: https://hexamindorganisation.github.io/hexamind/
+- **Source Code**: https://github.com/HexamindOrganisation/hexamind
+
+
+
+
+
+
+
+
+
