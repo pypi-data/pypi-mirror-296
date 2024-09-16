@@ -1,0 +1,45 @@
+{
+  "../node_modules/primeicons/fonts/primeicons.eot": {
+    "file": "djing/eot/primeicons-DMOk5skT.eot",
+    "src": "../node_modules/primeicons/fonts/primeicons.eot"
+  },
+  "../node_modules/primeicons/fonts/primeicons.svg": {
+    "file": "djing/svg/primeicons-Dr5RGzOO.svg",
+    "src": "../node_modules/primeicons/fonts/primeicons.svg"
+  },
+  "../node_modules/primeicons/fonts/primeicons.ttf": {
+    "file": "djing/ttf/primeicons-MpK4pl85.ttf",
+    "src": "../node_modules/primeicons/fonts/primeicons.ttf"
+  },
+  "../node_modules/primeicons/fonts/primeicons.woff": {
+    "file": "djing/woff/primeicons-WjwUDZjB.woff",
+    "src": "../node_modules/primeicons/fonts/primeicons.woff"
+  },
+  "../node_modules/primeicons/fonts/primeicons.woff2": {
+    "file": "djing/woff2/primeicons-C6QP2o4f.woff2",
+    "src": "../node_modules/primeicons/fonts/primeicons.woff2"
+  },
+  "_vue-lCBnsq7L.js": {
+    "file": "djing/js/vue-lCBnsq7L.js",
+    "name": "vue"
+  },
+  "main.tsx": {
+    "file": "djing/js/main-De1S7Htf.js",
+    "name": "main",
+    "src": "main.tsx",
+    "isEntry": true,
+    "imports": [
+      "_vue-lCBnsq7L.js"
+    ],
+    "css": [
+      "djing/css/main-CYqP15yy.css"
+    ],
+    "assets": [
+      "djing/eot/primeicons-DMOk5skT.eot",
+      "djing/woff2/primeicons-C6QP2o4f.woff2",
+      "djing/woff/primeicons-WjwUDZjB.woff",
+      "djing/ttf/primeicons-MpK4pl85.ttf",
+      "djing/svg/primeicons-Dr5RGzOO.svg"
+    ]
+  }
+}
