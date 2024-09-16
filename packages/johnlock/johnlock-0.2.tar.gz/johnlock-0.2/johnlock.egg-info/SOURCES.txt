@@ -1,0 +1,7 @@
+README.md
+setup.py
+johnlock/__init__.py
+johnlock.egg-info/PKG-INFO
+johnlock.egg-info/SOURCES.txt
+johnlock.egg-info/dependency_links.txt
+johnlock.egg-info/top_level.txt
