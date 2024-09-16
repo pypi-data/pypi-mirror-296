@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: RaspyTweak
+Version: 0.0.0.1a1
+Summary: A library for raspberry pi
+Home-page: https://github.com/voyager-2021/RaspyTweak
+Download-URL: https://github.com/voyager-2021/RaspyTweak/releases/tag/0.0.0.1a1
+Author: Voyager
+License: MIT
+Project-URL: Issues, https://github.com/voyager-2021/RaspyTweak/issues
+Keywords: Raspberry Pi,GPIO,GPIO Library
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSES.old.md
+
+# I suggest not installing this package

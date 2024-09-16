@@ -1,0 +1,9 @@
+LICENSES.old.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+RaspyTweak/RaspyTweak.egg-info/PKG-INFO
+RaspyTweak/RaspyTweak.egg-info/SOURCES.txt
+RaspyTweak/RaspyTweak.egg-info/dependency_links.txt
+RaspyTweak/RaspyTweak.egg-info/top_level.txt
