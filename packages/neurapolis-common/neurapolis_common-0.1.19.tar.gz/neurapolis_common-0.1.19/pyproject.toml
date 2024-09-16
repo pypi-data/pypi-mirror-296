@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "neurapolis-common"
+version = "0.1.19"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "neurapolis_common", from = "src" }]
+
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+neo4j = "^5.22.0"
+pydantic-settings = "^2.3.4"
+python-dotenv = "^1.0.1"
+langchain-cohere = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

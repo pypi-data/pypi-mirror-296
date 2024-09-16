@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: neurapolis-common
+Version: 0.1.19
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.12,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain-cohere (>=0.3.0,<0.4.0)
+Requires-Dist: neo4j (>=5.22.0,<6.0.0)
+Requires-Dist: pydantic-settings (>=2.3.4,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Neurapolis Common
+
+- Git trigger: 100
+
