@@ -1,0 +1,8 @@
+whatsapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whatsapp/chat.py,sha256=wh05ChZOnuHRlg1bIXVk-oSjK3RRkN2iE9MA8OGSBa0,3956
+whatsapp/events.py,sha256=YL6WgmrnWdA6jBoKOHGDZXRxAdHmtM02o-NHxIG3m9c,1271
+whatsapp/message.py,sha256=V8eZBME-CO5ytDljSsPmuB-PRn0YXJ5gC7MV05Mms-M,357
+whatsapp/reply_message.py,sha256=Dj9fFJUlL7CHcSF-WXBcJ3J-ueef9PbO2G5wKCkvsIY,343
+whatsapp_framework-0.1.0.dist-info/METADATA,sha256=Z0Iw7BFs2fyjWhok-AkmUSjI2qVweDaKSkA9R76vtDw,2115
+whatsapp_framework-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+whatsapp_framework-0.1.0.dist-info/RECORD,,
