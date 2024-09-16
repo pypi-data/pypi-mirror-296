@@ -1,0 +1,3 @@
+[console_scripts]
+osc-transformer-based-extractor = osc_transformer_based_extractor.main_cli:app
+
