@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+PyPicsum.egg-info/PKG-INFO
+PyPicsum.egg-info/SOURCES.txt
+PyPicsum.egg-info/dependency_links.txt
+PyPicsum.egg-info/requires.txt
+PyPicsum.egg-info/top_level.txt
+pypicsum/__init__.py
+pypicsum/pypicsum.py

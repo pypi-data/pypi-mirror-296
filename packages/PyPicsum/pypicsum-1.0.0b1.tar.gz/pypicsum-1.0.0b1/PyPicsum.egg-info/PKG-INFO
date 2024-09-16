@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PyPicsum
+Version: 1.0.0b1
+Summary: PyPicsum is a port of the Picsum library but ported for Python Tkinter. It uses Pillow to handle images!
+Author: EchoTheDeveloper
+Author-email: admin@echothedeveloper.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+License-File: LICENCE
+Requires-Dist: requests
+Requires-Dist: pillow
