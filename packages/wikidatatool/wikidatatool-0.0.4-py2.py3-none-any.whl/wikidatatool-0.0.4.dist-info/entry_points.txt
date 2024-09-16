@@ -1,0 +1,2 @@
+[console_scripts]
+wikidatatool = wikidatatool.cli:main

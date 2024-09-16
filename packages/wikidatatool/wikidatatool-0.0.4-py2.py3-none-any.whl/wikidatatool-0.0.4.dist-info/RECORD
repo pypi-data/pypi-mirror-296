@@ -1,0 +1,11 @@
+wikidatatool/__init__.py,sha256=w9UFEwyE2ZpFlbLwgLiHJUnogGpm1elAloeu1CSxR1M,132
+wikidatatool/cli.py,sha256=nwCQc7vMciBouO2wYbIRmoXmIEuRJ069YByHrtffjPw,451
+wikidatatool/common.py,sha256=3qAGMO9ZRCIxiFiZl4Rip2vV7JZOMeHkGgd4xF_vMbE,6354
+wikidatatool/wikidatatool.py,sha256=yyo0wY8Z8HL8Cbv4CmqhNZsZ3xfoImXAG-jTFT4Oxh0,2082
+wikidatatool-0.0.4.dist-info/AUTHORS.rst,sha256=lZwjSELkE6M3aqCUQY4Tq30wtJ8-nDcHmezLrW7KYgQ,158
+wikidatatool-0.0.4.dist-info/LICENSE,sha256=YLHHqe8am0aWVsWfiuMWb9sWdn4ijs-p94iz11aovMU,1068
+wikidatatool-0.0.4.dist-info/METADATA,sha256=fSOKasRxMQx6yMErmk48yq_ZhiOB5v_omVtjhpSvvOo,1386
+wikidatatool-0.0.4.dist-info/WHEEL,sha256=6binq_9xKkNRe3m9rvW8w6Q1IH2Y1x7ilGugrYZIb14,109
+wikidatatool-0.0.4.dist-info/entry_points.txt,sha256=QfWI_MRRyDSlLGL-GD3ew_Q_DWix8CzuwScN5I987wg,55
+wikidatatool-0.0.4.dist-info/top_level.txt,sha256=747ipuzTdiW3GgwszwD7QsnI-qA6s8ZRb139hh2XNAY,13
+wikidatatool-0.0.4.dist-info/RECORD,,
