@@ -1,0 +1,3 @@
+[console_scripts]
+pytempl-cli=pytempl_cli.__main__:main
+
