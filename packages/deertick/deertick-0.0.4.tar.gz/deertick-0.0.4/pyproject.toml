@@ -1,0 +1,18 @@
+[project]
+name = "deertick"
+version = "0.0.4"
+description = "DeerTick: A Multi-Provider Language Model Interface for interacting with various AI models across different providers, supporting both interactive chat and file-based input/output."
+readme = "deertick/README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+authors = [
+  {name="Doe Sparkle", email="thesparkledoe@gmail.com" },
+]
+
+[project.urls]
+Homepage = "https://github.com/deeterbleater/deertick"
+Issues = "https://github.com/deeterbleater/deertick/issues"
