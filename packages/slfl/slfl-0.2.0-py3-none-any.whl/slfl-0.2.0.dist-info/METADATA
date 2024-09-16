@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: slfl
+Version: 0.2.0
+Summary: Slot FLow. Local workflow engine with human-in-the-loop inspired by slot-filling in NLP.
+Author-email: alexjuda <alexanderjuda@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: ruamel-yaml>=0.18.6
+Description-Content-Type: text/markdown
+
+# slfl
+
+SLot FLow. Local workflow engine with human-in-the-loop inspired by slot-filling in NLP.

@@ -1,0 +1,14 @@
+slfl/__init__.py,sha256=iMDCTtAKH_KMn6NPfTUwF68zvrL-YNImH1djrV4MzxY,75
+slfl/__main__.py,sha256=2NWVWeVZeZD7dAnJtTeUJjfoIDHm9AmTWF5wzepqD-k,46
+slfl/_cli.py,sha256=KRQD4Or4YHAzZLzYdvBBCbBvSLYOhz9pq0lmonvdDCc,654
+slfl/_dsl.py,sha256=KNG-amTWATwwoy_b47M6UVGUhu6CWx5OpuzBg0RknAo,3749
+slfl/engine/__init__.py,sha256=_jgEJG_nfjvbTjgl1L42X6Edj2UZVhLhbWQTJm3-Tss,187
+slfl/engine/_memory.py,sha256=7YTYWBjvoaiqpLDTCSCkfRvqgKvLyTpat0cqY-Huej8,1256
+slfl/engine/_runner.py,sha256=dThZtQZBSetjy3vWeXcTbiAbS1K1rvuk3xVNCs5DUIQ,2964
+slfl/engine/_traversal.py,sha256=w6LFCkbhq37BJY-qXZJBHOdFB1i1yqmzQtCCS84FOZU,468
+slfl/engine/_types.py,sha256=5b4HWAs3tD3cPOvsjrSTKu-mUx2gk531lAoWoqlrUWI,654
+slfl-0.2.0.dist-info/METADATA,sha256=TsUuownatezE6pEcq6S956DeXSJq679JyRbCKGTQ3cw,413
+slfl-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+slfl-0.2.0.dist-info/entry_points.txt,sha256=DGk1zPq-_8czO7lfIUOXnmJttmS0hyCEAkeUs76i1-s,35
+slfl-0.2.0.dist-info/licenses/LICENSE,sha256=QbWj8g1g2bWzyYcyYU4H3nQadOjZaBgrs0AW-22HRNw,11344
+slfl-0.2.0.dist-info/RECORD,,
