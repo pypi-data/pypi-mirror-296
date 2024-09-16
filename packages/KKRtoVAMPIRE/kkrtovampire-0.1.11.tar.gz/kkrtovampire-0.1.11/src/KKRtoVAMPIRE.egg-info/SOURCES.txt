@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/KKRtoVAMPIRE/Converter.py
+src/KKRtoVAMPIRE/init.py
+src/KKRtoVAMPIRE/init.py.bak
+src/KKRtoVAMPIRE/plot_UCF_JvsR.py
+src/KKRtoVAMPIRE/sprkkr_to_vampire.py.bak
+src/KKRtoVAMPIRE/utils.py
+src/KKRtoVAMPIRE.egg-info/PKG-INFO
+src/KKRtoVAMPIRE.egg-info/SOURCES.txt
+src/KKRtoVAMPIRE.egg-info/dependency_links.txt
+src/KKRtoVAMPIRE.egg-info/requires.txt
+src/KKRtoVAMPIRE.egg-info/top_level.txt
