@@ -1,0 +1,6 @@
+gspread
+oauth2client
+selenium
+webdriver_manager
+PyQt5
+requests
