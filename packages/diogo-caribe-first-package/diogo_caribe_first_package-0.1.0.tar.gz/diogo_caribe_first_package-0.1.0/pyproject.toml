@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "diogo-caribe-first-package"
+version = "0.1.0"
+description = "Pacote para o curso do Dio.me"
+authors = ["Diogo Caribé <dogosousa@gmail.com>"]
+readme = "README.md"
+
+repository = "https://github.com/diogocaribe/first_package"
+keywords = ["aprendendo", "primeiro-pacote", "dio"]
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

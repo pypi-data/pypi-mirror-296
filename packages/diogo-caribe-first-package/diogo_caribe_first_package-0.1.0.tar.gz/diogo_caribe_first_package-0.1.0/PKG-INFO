@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: diogo-caribe-first-package
+Version: 0.1.0
+Summary: Pacote para o curso do Dio.me
+Home-page: https://github.com/diogocaribe/first_package
+Keywords: aprendendo,primeiro-pacote,dio
+Author: Diogo Caribé
+Author-email: dogosousa@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Project-URL: Repository, https://github.com/diogocaribe/first_package
+Description-Content-Type: text/markdown
+
+
