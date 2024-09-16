@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: icutk
+Version: 0.0.0
+Summary: test for name
+Home-page: https://github.com/yeungchie/icutk
+Author: YEUNGCHIE
+Keywords: icutk,linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# 测试一下命名是否可用
