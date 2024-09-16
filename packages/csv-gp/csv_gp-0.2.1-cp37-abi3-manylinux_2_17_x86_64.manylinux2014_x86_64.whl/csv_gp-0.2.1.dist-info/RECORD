@@ -1,0 +1,10 @@
+csv_gp-0.2.1.dist-info/METADATA,sha256=40Vm8IXf_6Sv_yc6wm1m86mZumU0hQ1ZcXLkHvTItr0,3872
+csv_gp-0.2.1.dist-info/WHEEL,sha256=ugjrkjqCrMwL1Wcm7dgkRJBwew0toeZ9N6T2GR5vMVU,129
+csv_gp-0.2.1.dist-info/license_files/LICENSE,sha256=4aZk7uKL_6vC6ZKolg5sv1U2nlGbe4bwszl580NDKzQ,1073
+README.md,sha256=9dw7WC8001l7l0WsbRASEBO9fmHhG5JelUp-pCd2rqc,2864
+LICENSE,sha256=4aZk7uKL_6vC6ZKolg5sv1U2nlGbe4bwszl580NDKzQ,1073
+csv_gp/__init__.py,sha256=AJkUOLHKsYM8JLsH1exw6j62pCYSMmRgfpFvw0F69J0,107
+csv_gp/__init__.pyi,sha256=4FXAabK7SbLuJC2fqyeUvVMrD_J1T2YO3sMO3X2GXi4,3046
+csv_gp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csv_gp/csv_gp.abi3.so,sha256=kotctbuXUNlUMubKrnezdlb-SNXJItfC4ym60L3knfs,967832
+csv_gp-0.2.1.dist-info/RECORD,,
