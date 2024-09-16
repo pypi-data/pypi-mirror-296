@@ -1,0 +1,3 @@
+include README.md
+recursive-include pocketgroq *.py
+recursive-include pocketgroq/chain_of_thought *.py
