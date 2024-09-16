@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="helpdesk_ticket_view_global_childs" model="ir.actions.act_window">
+        <field name="name">Global Child Tickets</field>
+        <field name="res_model">helpdesk.ticket</field>
+        <field name="view_mode">kanban,tree,form,pivot</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="context">{'default_parent_ticket_id': active_id}</field>
+        <field name="domain">[('parent_ticket_id','=', active_id)]</field>
+    </record>
+
+    <record id="ticket_view_parent_form" model="ir.ui.view">
+        <field name="name">helpdesk.ticket.parent.view.form</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="inherit_id" ref="helpdesk_mgmt.ticket_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="before">
+                <field name="parent_ticket_id" invisible="1"/>
+                <field name="child_ticket_ids" invisible="1"/>
+                <div
+                    attrs="{'invisible': ['|', ('id', '=', False), ('global_child_ticket_ids_count', '=', 0)]}"
+                    style="
+                        padding: 1.5rem;
+                        background-color: khaki;"
+                >
+                    This is a global ticket that groups under the same root several
+                    cases, automates statuses and communications with all related
+                    tickets.
+                </div>
+                <div
+                    attrs="{'invisible' : [('parent_ticket_id', '=', False)]}"
+                    style="
+                        padding: 1.5rem;
+                        background-color: khaki;">
+                    This is a child ticket linked to <field name="parent_ticket_id" widget="link"/> that groups under the same
+                    root several cases, automates statuses and communications with
+                    all related tickets.
+                </div>
+            </xpath>
+            <xpath expr="//header" position="inside">
+
+                <button
+                    name="action_set_child_ticket"
+                    string="Add Child Tickets"
+                    icon="fa-plus-square-o"
+                    type="object"
+                    target="new"
+                    class="oe_stat_button"
+                    attrs="{'invisible': ['|', ('id', '=', False), ('global_child_ticket_ids_count', '=', 0)]}"
+                    context="{'default_global_ticket_id': active_id}"/>
+
+                <!-- Button that instantiates the wizard to send massively to the child emails -->
+                <button
+                    name="server_action_open_send_email_wizard"
+                    string="Send Email to All Children Tickets"
+                    icon="fa-envelope-o"
+                    type="object"
+                    target="new"
+                    class="oe_stat_button"
+                    attrs="{'invisible': ['|', ('id', '=', False), ('global_child_ticket_ids_count', '=', 0)]}"
+                    context="{'default_global_ticket_id': active_id}"/>
+
+            </xpath>
+            <button name="toggle_active" position="before">
+                <!-- Button for going to child tickets with counter -->
+                    <button
+                        name="%(helpdesk_ticket_view_global_childs)d"
+                        icon="fa-sitemap fa-rotate-180"
+                        type="action"
+                        class="oe_stat_button"
+                        attrs="{'invisible': ['|', ('id', '=', False), ('global_child_ticket_ids_count', '=', 0)]}"
+                        context="{'search_default_parent_ticket_id': active_id}">
+
+                        <field string="View Child Tickets" name="global_child_ticket_ids_count" widget="statinfo"/>
+
+                    </button>
+
+                    <!-- Button for going to the Parent Ticket -->
+                    <button
+                        name="get_view_helpdesk_global_parent_ticket"
+                        string="Global Parent Ticket"
+                        icon="fa-sitemap"
+                        type="object"
+                        class="btn btn-primary oe_stat_button oe_highlight"
+                        context="{'active_id': parent_ticket_id, 'parent_ticket_id': parent_ticket_id}"
+                        attrs="{'invisible' : [('parent_ticket_id', '=', False)]}"/>
+            </button>
+        </field>
+    </record>
+</odoo>

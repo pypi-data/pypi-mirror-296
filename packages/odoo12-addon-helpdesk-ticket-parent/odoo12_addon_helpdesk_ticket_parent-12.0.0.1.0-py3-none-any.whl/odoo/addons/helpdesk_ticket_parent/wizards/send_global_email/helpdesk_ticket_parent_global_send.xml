@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <data>
+  
+    <record id="view_form_helpdesk_ticket_parent_send_global_translation_tree" model="ir.ui.view">
+      <field name="name">global_ticket_translation_tree_view</field>
+      <field name="model">helpdesk.ticket.parent.send.global.translation</field>
+      <field name="arch" type="xml">
+        <tree
+          decoration-success="is_translated"
+          decoration-muted="is_translated==False"
+        >
+
+          <field name="ticket_language_id" invisible="1"/>
+          <field name="ticket_language_name"/>
+          <field name="is_translated"/>
+
+        </tree>
+      </field>
+    </record>
+  
+    <record id="view_form_helpdesk_ticket_parent_send_global_email" model="ir.ui.view">
+      <field name="name">Send global email to All</field>
+      <field name="model">helpdesk.ticket.parent.send.global.email</field>
+      <field name="arch" type="xml">
+        <form string="Send Email">
+          <sheet>
+            <div class="oe_structure">
+              <div class="oe_title">
+                <h3 class="o_row">
+                  <field name="global_ticket_id" invisible="True"/>
+                  <field name="global_name" readonly="True"/>
+                </h3>
+              </div>
+              <div attrs="{'invisible':[('ticket_language_ids', '=', False)]}" role="alert" class="alert alert-info">
+              Here you'd select the translation from the dropdown language field below.<br/>
+              Then after selecting the Email Template (if any) you will proceed to customize it as you wish.<br/>
+              Once you are done with that translation hit `<strong>Save &amp; Continue translation</strong>` button<br/>
+              and select the next translation.
+              </div>
+              <group name="main">
+                <group>
+                  <field name="ticket_language_ids" options="{'no_create': True}" readonly="True">
+                  </field>
+                </group>
+              </group>
+              <label for="lang_cursor" />
+              <field
+                  name="lang_cursor"
+                  options="{'no_create': True}"
+                  nolabel="1"
+              />
+              <br/>
+              <group col="2">
+                <label for="lang_cursor_subject" />
+                <field
+                    name="lang_cursor_subject"
+                    nolabel="1"
+                />
+                <label for="lang_cursor_text" />
+                <field
+                    name="lang_cursor_text"
+                    nolabel="1"
+                    widget="html"
+                />
+              </group>
+              <group col="4">
+                  <div colspan="2"/>
+                  <field name="mail_template_id" options="{'no_create': True}"/>
+              </group>
+
+
+            </div>
+          </sheet>
+
+          <footer>
+            <button 
+              type="object"
+              name="button_send"
+              icon="fa-send-o"
+              class="btn btn-primary"
+              string="Send"
+              confirm="Are you sure you want to send an email to ALL the tickets?"
+            />
+            <button 
+              special="cancel"
+              string="Cancel"
+              class="btn-secondary"
+            />
+            <button 
+              type="action"
+              name="button_translation_save"
+              icon="fa-spinner"
+              class="btn btn-secondary"
+              string="Save &amp; Continue translation"
+              style="margin-left: 4rem;"
+            />
+          </footer>
+          
+        </form>
+      </field>
+    </record>
+  </data>
+</odoo>

@@ -1,0 +1,404 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* helpdesk_ticket_parent
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-10 10:32+0000\n"
+"PO-Revision-Date: 2024-09-10 10:32+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.ticket_view_parent_form
+msgid "Add Child Tickets"
+msgstr "Añadir Tickets Hijos"
+
+#. module: helpdesk_ticket_parent
+#: code:addons/helpdesk_ticket_parent/wizards/send_global_email/helpdesk_ticket_parent_global_send.py:116
+#, python-format
+msgid "An email has been massively sent to all the children ticket followers automatically."
+msgstr "Se ha enviado un email masivo a todos los clientes de los tickets hijos automáticamente"
+
+#. module: helpdesk_ticket_parent
+#: code:addons/helpdesk_ticket_parent/wizards/send_global_email/helpdesk_ticket_parent_global_send.py:174
+#, python-format
+msgid "Are you sure to send a massive mail to %d partners?"
+msgstr "Estás segura de enviar un mail masivo a %d clientes?"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_wizard
+msgid "Are you sure you want to create these tickets?"
+msgstr "Estás segura de crear estos tickets?"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_parent_send_global_email
+msgid "Are you sure you want to send an email to ALL the tickets?"
+msgstr "Estás segura de enviar un correo a TODOS los tickets hijos?"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__ticket_language_ids
+msgid "Available Translations"
+msgstr "Traducciones disponibles"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_wizard
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_parent_send_global_email
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket__child_ticket_ids
+msgid "Children Tickets"
+msgstr ""
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_set_child_ticket_wizard
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_wizard
+msgid "Create"
+msgstr "Crear"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_parents_wizard
+msgid "Create global ticket"
+msgstr "Crear un ticket global"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_parents_wizard
+msgid "Create independent tickets"
+msgstr "Crear un ticket independiente"
+
+#. module: helpdesk_ticket_parent
+#: code:addons/helpdesk_ticket_parent/wizards/helpdesk_ticket_massive_creation/helpdesk_ticket_massive_creation_parents.py:12
+#, python-format
+msgid "Create tickets massively (Global ticket)"
+msgstr "Crear tickets masivamente (Ticket global)"
+
+#. module: helpdesk_ticket_parent
+#: code:addons/helpdesk_ticket_parent/wizards/helpdesk_ticket_massive_creation/helpdesk_ticket_massive_creation_parents.py:26
+#, python-format
+msgid "Create tickets massively (Independent tickets)"
+msgstr "Crear tickets masivamente (Ticket independiente)"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_massive_creation_parent_wizard__create_uid
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__create_uid
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__create_uid
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_massive_creation_parent_wizard__create_date
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__create_date
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__create_date
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_massive_creation_parent_wizard__dms_directory_ids
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__dms_directory_ids
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__dms_directory_ids
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__dms_directory_ids
+msgid "DMS Directories"
+msgstr ""
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_wizard
+msgid "Description"
+msgstr "Descripción"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_massive_creation_parent_wizard__display_name
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__display_name
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__display_name
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__display_ticket_language_name
+msgid "Display Ticket Language Name"
+msgstr "Nombre del idioma del ticket"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__mail_template_id
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__mail_template_id
+msgid "Email Template"
+msgstr "Plantilla de correo electrónico"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket__global_child_ticket_ids_count
+msgid "Global Child Count"
+msgstr "Tickets hijos globales"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.actions.act_window,name:helpdesk_ticket_parent.helpdesk_ticket_view_global_childs
+msgid "Global Child Tickets"
+msgstr "Tickets globales hijos"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.ticket_view_parent_form
+msgid "Global Parent Ticket"
+msgstr "Ticket global padre"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__global_ticket_id
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__global_ticket_id
+msgid "Global Ticket"
+msgstr "Ticket Global"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__bind_global_ticket_email_transient_id
+msgid "Global Ticket Wizard"
+msgstr ""
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model,name:helpdesk_ticket_parent.model_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_parents_wizard
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_wizard
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_set_child_ticket_wizard
+msgid "Helpdesk Ticket"
+msgstr "Ticket Helpdesk"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_parent_send_global_email
+msgid "Here you'd select the translation from the dropdown language field below.<br/>\n"
+"              Then after selecting the Email Template (if any) you will proceed to customize it as you wish.<br/>\n"
+"              Once you are done with that translation hit `<strong>Save &amp; Continue translation</strong>` button<br/>\n"
+"              and select the next translation."
+msgstr "Aquí seleccionarás la traducción desde el campo desplegable abajo.<br/>\n"
+"              Tras seleccionar la Plantilla de Correo (si hubiera) procederás a personalizarla según desees.<br/>\n"
+"              Una vez que hayas finalizado la traducción de este idioma haz clic en el botón `<strong>Guardar & Continuar traducción</strong>` <br/>\n"
+"              y selecciona la siguiente traducción para continuar."
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_massive_creation_parent_wizard__id
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__id
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__id
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__id
+msgid "ID"
+msgstr ""
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_parents_wizard
+msgid "Independent tickets can be created in mass without root cause,\n"
+"                each one will be treated independently."
+msgstr "Los tickets independientes pueden ser creados en masa sin razón común.\n"
+"                Cada uno será tratado de manera independiente."
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__is_translated
+msgid "Is Translated"
+msgstr "Traducido"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__ticket_language_id
+msgid "Language"
+msgstr "Idioma"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__ticket_language_name
+msgid "Language Name"
+msgstr "Nombre del idioma"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_massive_creation_parent_wizard____last_update
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email____last_update
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation____last_update
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_massive_creation_parent_wizard__write_uid
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__write_uid
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__write_uid
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_massive_creation_parent_wizard__write_date
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__write_date
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__write_date
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__lang_cursor_text
+msgid "Message translated to send"
+msgstr "Mensaje traducido para enviar"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_wizard
+msgid "New subject..."
+msgstr "Nuevo asunto..."
+
+#. module: helpdesk_ticket_parent
+#: code:addons/helpdesk_ticket_parent/models/helpdesk_ticket.py:75
+#, python-format
+msgid "No Global Ticket found in context"
+msgstr "No se encontró un Ticket Global en el contexto."
+
+#. module: helpdesk_ticket_parent
+#: code:addons/helpdesk_ticket_parent/wizards/send_global_email/helpdesk_ticket_parent_global_send.py:75
+#, python-format
+msgid "OPERATION ABORTED (Reason: Translation needed but not found: "
+msgstr "OPERACIÓN CANCELADA (Razón: Traducción necesaria pero no encontrada: "
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket__parent_ticket_id
+msgid "Parent Ticket"
+msgstr "Ticket Global"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__global_name
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__global_name
+msgid "Parent Ticket Name"
+msgstr "Nombre Ticket Global"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_set_child_ticket_wizard
+msgid "Save"
+msgstr "Guardar"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_parent_send_global_email
+msgid "Save & Continue translation"
+msgstr "Guardar & Continuar traducción"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_set_child_ticket__child_ticket_ids
+msgid "Selected Child Tickets"
+msgstr "Tickets hijos seleccionados"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__lang_cursor
+msgid "Selected Language"
+msgstr "Idioma Seleccionado"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_parent_send_global_email
+msgid "Send"
+msgstr "Enviar"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_parent_send_global_email
+msgid "Send Email"
+msgstr "Enviar Emails"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.ticket_view_parent_form
+msgid "Send Email to All Children Tickets"
+msgstr "Enviar Email a todos los Tickets Hijos"
+
+#. module: helpdesk_ticket_parent
+#: code:addons/helpdesk_ticket_parent/models/helpdesk_ticket.py:83
+#, python-format
+msgid "Send global email to All"
+msgstr "Enviar email Global a todos"
+
+#. module: helpdesk_ticket_parent
+#: code:addons/helpdesk_ticket_parent/wizards/send_global_email/helpdesk_ticket_parent_global_send.py:171
+#, python-format
+msgid "Send to %d partners"
+msgstr "Enviar a %d clientes "
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_email__lang_cursor_subject
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__translation_subject
+msgid "Subject of the email"
+msgstr "Asunto del correo"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.view_form_helpdesk_ticket_massive_creation_parents_wizard
+msgid "The global ticket allows you to indicate that it has the same root\n"
+"                cause and automate status and communications with all related child\n"
+"                tickets."
+msgstr "El Ticket Global te permite indicar que tienen una causa común\n"
+"                y automatizar los cambios de estado y comunicaciones con\n"
+"                todos los tickets hijos\n"
+""
+
+#. module: helpdesk_ticket_parent
+#: code:addons/helpdesk_ticket_parent/wizards/send_global_email/helpdesk_ticket_parent_global_send.py:105
+#, python-format
+msgid "This Ticket has sent a new mail to all the followers massively ordered from the Global Ticket <a href=# data-oe-model=helpdesk.ticket data-oe-id=%d>%s</a>"
+msgstr "Se ha enviado un nuevo correo electrónico de forma masiva a todos los seguidores, organizado desde el Ticket Global <a href=# data-oe-model=helpdesk.ticket data-oe-id=%d>%s</a>"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.ticket_view_parent_form
+msgid "This is a child ticket linked to"
+msgstr "Este es un ticket hijo vinculado a "
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.ticket_view_parent_form
+msgid "This is a global ticket that groups under the same root several\n"
+"                    cases, automates statuses and communications with all related\n"
+"                    tickets."
+msgstr "Este es un ticket global que agrupa bajo la misma\n"
+"                    causa más de una incidencia. Éste automatizará los estados y comunicaciones\n"
+"                    con todos los hijos.\n"
+""
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_parent_send_global_translation__translation_text
+msgid "Translated Text"
+msgstr "Texto traducido"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.ticket_view_parent_form
+msgid "View Child Tickets"
+msgstr "Tickets hijos"
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model,name:helpdesk_ticket_parent.model_helpdesk_ticket_massive_creation_parent_wizard
+msgid "helpdesk.ticket.massive.creation.parent.wizard"
+msgstr ""
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model,name:helpdesk_ticket_parent.model_helpdesk_ticket_massive_creation_wizard
+msgid "helpdesk.ticket.massive.creation.wizard"
+msgstr ""
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model,name:helpdesk_ticket_parent.model_helpdesk_ticket_parent_send_global_email
+msgid "helpdesk.ticket.parent.send.global.email"
+msgstr ""
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model,name:helpdesk_ticket_parent.model_helpdesk_ticket_parent_send_global_translation
+msgid "helpdesk.ticket.parent.send.global.translation"
+msgstr ""
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model,name:helpdesk_ticket_parent.model_helpdesk_ticket_parent_set_child_ticket
+msgid "helpdesk.ticket.parent.set.child.ticket"
+msgstr ""
+
+#. module: helpdesk_ticket_parent
+#: model:ir.model.fields,field_description:helpdesk_ticket_parent.field_helpdesk_ticket_massive_creation_wizard__is_parent
+msgid "parent"
+msgstr "global"
+
+#. module: helpdesk_ticket_parent
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_parent.ticket_view_parent_form
+msgid "that groups under the same\n"
+"                    root several cases, automates statuses and communications with\n"
+"                    all related tickets."
+msgstr "que agrupa bajo la misma\n"
+"                    causa más de una incidencia. Éste automatizará los estados y comunicaciones\n"
+"                    con todos los hijos.\n"
