@@ -1,0 +1,7 @@
+include LICENSES.txt
+include LICENSES-info.txt
+include MANIFEST.in
+recursive-include frontend_ui5/static *
+recursive-include frontend_ui5/templates *
+exclude setup.cfg
+exclude requirements.dev.txt
