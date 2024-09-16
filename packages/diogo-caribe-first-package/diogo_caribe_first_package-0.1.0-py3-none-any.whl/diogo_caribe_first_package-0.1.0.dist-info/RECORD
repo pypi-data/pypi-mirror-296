@@ -1,0 +1,10 @@
+diogo_caribe_first_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diogo_caribe_first_package/module1_name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diogo_caribe_first_package/module1_name/file1_name.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diogo_caribe_first_package/module1_name/file2_name.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diogo_caribe_first_package/module2_name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diogo_caribe_first_package/module2_name/file1_name.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diogo_caribe_first_package/module2_name/file2_name.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diogo_caribe_first_package-0.1.0.dist-info/METADATA,sha256=_7xzpaVtlyOu9UJAlfuUlhIRn2jIKEepCn0FsGnbFoA,545
+diogo_caribe_first_package-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+diogo_caribe_first_package-0.1.0.dist-info/RECORD,,
