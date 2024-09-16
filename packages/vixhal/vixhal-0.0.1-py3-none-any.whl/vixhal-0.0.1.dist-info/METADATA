@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vixhal
+Version: 0.0.1
+Summary: A library for secure key-value pair storage and AES encryption.
+Author: Vishal Singh Baraiya
+Author-email: <thevishal010@gmail.com>
+Keywords: python,vixhal,encrypt,decrypt,bytes,AES
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome
+
+A library for secure key-value pair storage and AES encryption.
