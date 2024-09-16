@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "eefunction"
+version = "0.1.1"
+description = ""
+authors = ["tobony <outlook_c58038a6b901898b@outlook.com>"]
+readme = "README.md"
+homepage = "https://github.com/tobony/eefunction_py"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+coolprop = "^6.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

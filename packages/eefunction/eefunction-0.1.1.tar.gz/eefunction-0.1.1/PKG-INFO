@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: eefunction
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/tobony/eefunction_py
+Author: tobony
+Author-email: outlook_c58038a6b901898b@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: coolprop (>=6.6.0,<7.0.0)
+Description-Content-Type: text/markdown
+
+# eeFunction_py
+
+easy engineering package for python 
+
+Visit below site to know - How to install and use - 
+<br/>
+https://github.com/tobony/eefunction_py
+
+
+
+
+<br><br>
+
+## How to use
+```
+# pip install eefunction
+
+import eefunction
+
+
+```
