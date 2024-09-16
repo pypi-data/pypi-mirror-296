@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+1Password_Utility/1Password_Utility.py
+1Password_Utility/__init__.py
+1Password_Utility.egg-info/PKG-INFO
+1Password_Utility.egg-info/SOURCES.txt
+1Password_Utility.egg-info/dependency_links.txt
+1Password_Utility.egg-info/top_level.txt
