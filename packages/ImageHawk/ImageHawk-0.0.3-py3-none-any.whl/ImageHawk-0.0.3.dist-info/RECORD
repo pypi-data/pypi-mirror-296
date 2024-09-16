@@ -1,0 +1,9 @@
+Engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Engines/image_embeddings.py,sha256=NLYbrMKyT9NgBvvvrfto4oLWYHJqF45LsR-hIxZLPwo,839
+Engines/text_embeddings.py,sha256=Tw5nLCKNRbe95d7noMT9UywX2BWBuAMTPoujpyzcRgE,528
+VectorStores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+VectorStores/qdrantvectorstore.py,sha256=equIPh4aYvTocF_iMCNsXCH8k5A8oLYTKi-xgAL0cjw,1059
+ImageHawk-0.0.3.dist-info/METADATA,sha256=QMlRKr2hyq10mlc2JGaWXUPODi7JfgSs35rCJ1pfT7k,913
+ImageHawk-0.0.3.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+ImageHawk-0.0.3.dist-info/top_level.txt,sha256=kP8WaSntZN31vMYWUtWKzJ85plcPUTwP_BcEn57B9qk,21
+ImageHawk-0.0.3.dist-info/RECORD,,
