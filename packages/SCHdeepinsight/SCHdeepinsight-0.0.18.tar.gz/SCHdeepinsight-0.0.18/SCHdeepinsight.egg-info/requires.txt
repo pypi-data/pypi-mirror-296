@@ -1,0 +1,11 @@
+numpy
+pandas
+scanpy
+torch
+efficientnet-pytorch
+anndata
+scikit-learn
+matplotlib
+Pillow
+scipy
+rpy2
