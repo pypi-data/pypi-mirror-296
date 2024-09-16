@@ -1,0 +1,10 @@
+cmdcraft/__init__.py,sha256=hAj9dcEB18El_IeTZIv38l9JQUoe0wC1hMmt4wo3_Ys,281
+cmdcraft/base.py,sha256=KR4ldPpvLWtBThXz5LkxXeoL5P-cMIiE0UTtTcrOAPw,5824
+cmdcraft/completer.py,sha256=5G2GtzIDM6JjodyY948Xh2ilOKPurx-_W0g1bnhYtno,3040
+cmdcraft/interpreter.py,sha256=8lvpNSTB26rzedFiO1WGbptMxaYrokglsYt8Pu_WW-4,1457
+cmdcraft/method.py,sha256=Eq6p38kdhm_W7bM9zlBKEgY3lzDPw8BDkZd1tgQdv5Y,4652
+cmdcraft-0.0.2.dist-info/LICENSE,sha256=eaTjffRXHn9vECogupzDrB8J8YSHthQ1O2r9pnV4ucU,1514
+cmdcraft-0.0.2.dist-info/METADATA,sha256=FgDlKRy5TRKDs8pOUd0NZlxTisoDkxsCdf251R5qVMw,1699
+cmdcraft-0.0.2.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+cmdcraft-0.0.2.dist-info/top_level.txt,sha256=yVaQ9UAebzJ1fDpqKxJvCsuyDFwlPVe47RURL_nU9HM,9
+cmdcraft-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cmdcraft
+Version: 0.0.2
+Home-page: https://github.com/weinsen/cmdcraft
+Author: A. M. Weinsen Jr.
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-docstrings ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Provides-Extra: prompt
+Requires-Dist: prompt-toolkit ; extra == 'prompt'
+
+Command Craft
+=============
+
+Make fast prompt apps for your internal tools.
+
+.. image:: https://github.com/weinsen/cmdcraft/actions/workflows/test.yml/badge.svg?branch=master
+.. image:: https://github.com/weinsen/cmdcraft/actions/workflows/test.yml/badge.svg?branch=develop
+
+Special thanks
+==============
+
+- `Python Prompt Toolkit <https://github.com/prompt-toolkit/python-prompt-toolkit>`_: Awesome prompt utility.
