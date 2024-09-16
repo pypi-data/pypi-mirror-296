@@ -1,0 +1,3 @@
+[console_scripts]
+subalch=subalch.cli.__main__:cli
+
