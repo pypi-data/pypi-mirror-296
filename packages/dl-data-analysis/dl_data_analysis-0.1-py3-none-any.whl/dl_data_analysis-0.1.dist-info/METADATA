@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dl-data-analysis
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.26.4)
+Requires-Dist: matplotlib (>=3.7.5)
+Requires-Dist: sklearn (>=1.2.2)
+Requires-Dist: pandas (>=2.2.2)
+
+UNKNOWN
+
