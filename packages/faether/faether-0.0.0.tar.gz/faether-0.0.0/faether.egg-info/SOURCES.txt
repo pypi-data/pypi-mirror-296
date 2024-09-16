@@ -1,0 +1,8 @@
+pyproject.toml
+faether/__init__.py
+faether/__main__.py
+faether/asyncscore.py
+faether.egg-info/PKG-INFO
+faether.egg-info/SOURCES.txt
+faether.egg-info/dependency_links.txt
+faether.egg-info/top_level.txt
