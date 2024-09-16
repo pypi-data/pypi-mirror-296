@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: univ_helper
+Version: 1.0.0
+Summary: Random reusable functions to help.
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+
+# univ_helper
+
+Random reusable functions to help.
