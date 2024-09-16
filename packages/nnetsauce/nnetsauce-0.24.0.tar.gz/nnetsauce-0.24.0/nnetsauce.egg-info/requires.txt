@@ -1,0 +1,14 @@
+GPopt
+joblib
+matplotlib
+numpy
+pandas
+pyvinecopulib
+requests
+scipy
+scikit-learn
+statsmodels
+threadpoolctl
+tqdm
+jax
+jaxlib
