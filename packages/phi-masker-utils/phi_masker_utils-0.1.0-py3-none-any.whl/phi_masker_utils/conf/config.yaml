@@ -1,0 +1,28 @@
+---
+rules:
+  delimited:
+    "Specimen ID":
+      datatype: uuid
+    "Date of Birth":
+      datatype: dob
+    "Age at biopsy":
+      datatype: age
+    "Collection Date":
+      datatype: date
+    "Gender":
+      datatype: gender
+    "Pathology Lab/Submitting Institution":
+      values:
+        - Medical Institute X
+        - Medical Institute Y
+        - Medical Institute Z
+    "Confirmatory Diagnosis":
+      values:
+        - Diagnosis A
+        - Diagnosis B
+        - Diagnosis C
+        - Diagnosis D
+    "Medical Record ID":
+      datatype: uuid
+    "Patient Name":
+      datatype: full_name

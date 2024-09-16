@@ -1,0 +1,2 @@
+[console_scripts]
+mask-file = phi_masker_utils.mask_file:main
