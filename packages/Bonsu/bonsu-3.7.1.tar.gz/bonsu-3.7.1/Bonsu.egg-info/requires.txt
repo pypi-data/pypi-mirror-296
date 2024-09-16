@@ -1,0 +1,9 @@
+wxpython>=4.2.0
+numpy>1.23.0
+vtk>=8.0.0
+h5py
+pillow
+cython>=3.0.0
+
+[hdf5plugin]
+hdf5plugin
