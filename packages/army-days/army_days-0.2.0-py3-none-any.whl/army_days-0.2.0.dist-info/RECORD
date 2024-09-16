@@ -1,0 +1,11 @@
+army_days/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+army_days/cli.py,sha256=6CqeQ33tCdx-Lr99H3hKVNRJMp5p5EG9F4WA-gqLz6Y,661
+army_days/core.py,sha256=SZEl8o3nidzpBXzIT-BUBkkH1jlPFNtSAaP9Ruke814,854
+army_days/models.py,sha256=2A7jHaKaq40hHWN7JBeeCRCu-fL0ZR7qm8j2bLojpwM,454
+army_days/output.py,sha256=ETEig8woIQlEZEov9kqgf6N6lSqWT4PQNBLxSdnbcJM,1696
+army_days/ansi_text/__init__.py,sha256=qEndVdT-P_29HXA8jUJ93HYIHK7R7o7Rj1sTXq7VKF0,196
+army_days-0.2.0.dist-info/METADATA,sha256=7XP0jwR1MK5BrO5IiF8A-YajdQKEfFT6xJi_aG5_gtY,1451
+army_days-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+army_days-0.2.0.dist-info/entry_points.txt,sha256=8WG6FCdadZKtGZKKwYak5b8xS_0jA7uWX-uM4d9WUSA,49
+army_days-0.2.0.dist-info/licenses/LICENSE,sha256=veLzRV20N5dWfCUsRIoEIftEseOdOXerQjWb72IAVXc,1070
+army_days-0.2.0.dist-info/RECORD,,
