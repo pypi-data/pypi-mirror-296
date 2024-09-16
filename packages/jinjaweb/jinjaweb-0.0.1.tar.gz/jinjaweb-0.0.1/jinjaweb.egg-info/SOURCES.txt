@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+jinjaweb/__init__.py
+jinjaweb.egg-info/PKG-INFO
+jinjaweb.egg-info/SOURCES.txt
+jinjaweb.egg-info/dependency_links.txt
+jinjaweb.egg-info/requires.txt
+jinjaweb.egg-info/top_level.txt
