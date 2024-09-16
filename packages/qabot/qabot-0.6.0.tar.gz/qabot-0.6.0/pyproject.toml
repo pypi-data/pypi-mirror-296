@@ -1,0 +1,35 @@
+[project]
+name = "qabot"
+version = "0.6.0"
+description = "Query local or remote data files with natural language queries powered by OpenAI and DuckDB."
+authors = [{name = "Brian Thorne", email = "brian@hardbyte.nz" }]
+readme = "README.md"
+dependencies = [
+    "openai >=1.40,<2.0",
+    "typer >=0.12.5,<0.13.0",
+    "rich >=13.8,<14.0",
+    "httpx >0.27,<1.0",
+    "tenacity >=9.0,<10.0",
+    "pydantic >=2.5.3,<3.0",
+    "pydantic-settings >=2.2,<3.0",
+    "appdirs >=1.4.4,<2.0",
+    "duckdb >=1.0,<2.0"
+]
+
+requires-python = ">=3.11"
+
+[tool.uv]
+# Any UV-specific configurations can go here if needed later
+
+[project.scripts]
+qabot = "qabot.cli:run"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["qabot"]
+exclude = ["data", "experiments"]
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
