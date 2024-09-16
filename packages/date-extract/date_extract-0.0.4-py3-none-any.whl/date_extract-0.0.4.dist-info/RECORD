@@ -1,0 +1,10 @@
+date_extract/__init__.py,sha256=TWYX5DBPfTHdTc57P-sBvEixdTiV-GZZGayw7h-zm4M,38
+date_extract/date_extract.py,sha256=yfJ_nsVkw1AfzyYp6QgFd3mEPDdF7CNDejDe8yaR7Js,4276
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_date_extract.py,sha256=SYuO1XLZRgDKMvs1Ja6TjDCfSGTW_PAuu0IuqO9mFdQ,2312
+date_extract-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+date_extract-0.0.4.dist-info/METADATA,sha256=niN-7hZSKLk8W-YJ8_98UJtpyQ_l2nPiUmHhd7uRitk,566
+date_extract-0.0.4.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+date_extract-0.0.4.dist-info/top_level.txt,sha256=QrJ0fdmURZJOQgMANKC9jD5a2rQTYmMZ4Oj3rSfAKVM,23
+date_extract-0.0.4.dist-info/RECORD,,
