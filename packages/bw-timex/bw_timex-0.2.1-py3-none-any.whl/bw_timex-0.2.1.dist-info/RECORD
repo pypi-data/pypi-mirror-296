@@ -1,0 +1,14 @@
+bw_timex/__init__.py,sha256=BhpViXPzAma8WvUqEymMChB14JkPQC9vzT4vQnj6cYM,286
+bw_timex/dynamic_biosphere_builder.py,sha256=dxuWA9il8ztrUL7gDDLo6cd-6IZweUMKUkit_LZbic0,14077
+bw_timex/edge_extractor.py,sha256=Ripqaih1Ul5Aokn70SQlotNy2OM_Cc9ONfPKBOl6izI,9285
+bw_timex/helper_classes.py,sha256=H7L8GdeuAaTk9GjkMIc-SLX6q9_mXX8bfBbPHpWmoDs,4520
+bw_timex/matrix_modifier.py,sha256=biDbYjakVmzZXr3wl9BOBEycZr7sp05pF5cw1u1AVDo,13103
+bw_timex/timeline_builder.py,sha256=vlLlITPX2YwEicevlxhCYanK_4alPazLsvXqBEGT3LA,21535
+bw_timex/timex_lca.py,sha256=QbG7M1LDtanWtbEFdsEqmG4tZlm7_4BTiqcnS3ydZog,55676
+bw_timex/utils.py,sha256=C4DSk09Tk9qKnCTCaYkXIf-0M3E0mzFM8TrytALgYvo,11086
+bw_timex/data/decay_multipliers.json,sha256=NvIDnuMngyWwA4GGB_2E03fQN65Gewdw5k3tpvjge8A,11306500
+bw_timex-0.2.1.dist-info/LICENSE,sha256=UBe9K_LCa8xcGKliDcOXGCTXz1MhZP78Dm29Rf5A6sE,1674
+bw_timex-0.2.1.dist-info/METADATA,sha256=GGJ2mgMU2r_hkpkG-Sjxb-8DmN8VRFocngrS4G0--GM,5157
+bw_timex-0.2.1.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+bw_timex-0.2.1.dist-info/top_level.txt,sha256=1CNYVnCB95VJqiVdXnj0d1Hz2Gh01LmN7gE317Clfdg,9
+bw_timex-0.2.1.dist-info/RECORD,,
