@@ -1,0 +1,9 @@
+README.md
+setup.py
+mmcr/__init__.py
+mmcr/mmcr.py
+mmcr.egg-info/PKG-INFO
+mmcr.egg-info/SOURCES.txt
+mmcr.egg-info/dependency_links.txt
+mmcr.egg-info/requires.txt
+mmcr.egg-info/top_level.txt
