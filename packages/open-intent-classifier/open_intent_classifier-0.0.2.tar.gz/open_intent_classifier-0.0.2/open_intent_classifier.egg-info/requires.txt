@@ -1,0 +1,6 @@
+transformers
+torch
+sentencepiece
+scikit-learn
+sentence-transformers
+pandas
