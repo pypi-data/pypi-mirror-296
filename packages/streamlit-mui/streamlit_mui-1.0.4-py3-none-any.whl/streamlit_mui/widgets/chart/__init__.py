@@ -1,0 +1,1 @@
+from streamlit_mui.widgets.chart.bar_chart import *
