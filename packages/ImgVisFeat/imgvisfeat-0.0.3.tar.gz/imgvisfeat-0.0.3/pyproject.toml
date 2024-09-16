@@ -1,0 +1,68 @@
+[project]
+name = "ImgVisFeat"
+version = "0.0.0"
+description = "Image Visualization and Feature Extraction Library"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT License" }
+authors = [{ name = "chatflip", email = "oo.chat.flip@gmail.com" }]
+keywords = ['image_processing', 'feature_extraction', 'visualization']
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "opencv-python=2020.1",
+    "opencv-python=4.10.0.84",
+    "numpy=<2.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/chatflip/ImgVisFeat"
+Documentation = "https://chatflip.github.io/ImgVisFeat"
+Repository = "https://github.com/chatflip/ImgVisFeat"
+
+[tool.poetry]
+name = "ImgVisFeat"
+version = "0.0.3"
+description = "Image Visualization and Feature Extraction Library"
+authors = ["chatflip <oo.chat.flip@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+package-mode = true
+packages = [{ include = "imgvisfeat"}]
+homepage = "https://github.com/chatflip/ImgVisFeat"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+opencv-python = "4.10.0.84"
+scikit-image = "0.24.0"
+numpy = "<2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "0.6.2"
+mypy = "1.11.1"
+pytest = "8.3.2"
+pytest-cov = "5.0.0"
+sphinx = "7.4.7"
+sphinx-rtd-theme = "^2.0.0"
+
+[tool.poetry.scripts]
+ivf = "imgvisfeat.cli:main"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+version-pattern = """
+{tag}
+{tag}.post{distance}+{rev}
+"""
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
