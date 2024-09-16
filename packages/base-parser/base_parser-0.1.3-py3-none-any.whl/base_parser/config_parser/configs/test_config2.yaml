@@ -1,0 +1,26 @@
+source:
+  host: "https://bdu.fstec.ru/"
+  port: 443
+  type: "4"
+  files_dir: BDU_FSTEK
+
+evasion:
+  proxy: 1
+  vpn: 0
+  robots: 0
+  sleep: 1000
+  captcha: 0
+
+html_template:
+
+xml_template:
+
+pdf_template:
+
+excel_template:
+
+json_template:
+
+api_template:
+
+rss_template:
