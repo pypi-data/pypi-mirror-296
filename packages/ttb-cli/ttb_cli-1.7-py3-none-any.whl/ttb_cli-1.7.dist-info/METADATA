@@ -1,0 +1,190 @@
+Metadata-Version: 2.1
+Name: ttb-cli
+Version: 1.7
+Requires-Python: ~=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Requests~=2.32.3
+Requires-Dist: pyppeteer~=2.0.0
+Requires-Dist: click~=8.1.7
+Requires-Dist: PyYAML~=6.0.2
+Requires-Dist: tqdm~=4.66.5
+
+# TToolbox CLI
+[![Release](https://github.com/medicm/ttb/actions/workflows/release.yml/badge.svg?event=release)](https://github.com/medicm/ttb/actions/workflows/release.yml)
+
+This is a CLI tool for managing scripts and other tools for performance metrics and other automated tasks.
+
+## Installation
+Please note that the minimum required Python version is `3.12`. Before proceeding make sure you are running Python `3.12` or higher by running the following command: `python --version`
+
+To install the CLI tool run the following command:
+```bash
+pip install ttb-cli
+```
+
+### Upgrading
+
+To upgrade to the latest version, run the following command:
+
+```bash
+pip install ttb-cli --upgrade
+```
+
+## Usage
+
+### Config file
+
+Create a `.tt.config.yml` file in your home directory with the following structure:
+```yaml
+chrome_executable_path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+max_browser_instances: 5
+tmp_dir: /Users/marko/.tmp
+```
+
+Running commands:
+```bash
+ttb <command> <arguments>
+```
+
+Aliases:
+- `ttb`
+- `tammtoolbox`
+
+## Commands
+
+### `performance`
+
+Run performance metrics for given URLs.
+
+```bash
+ttb performance <arguments>
+```
+
+Arguments:
+- `--url`: List of URLs to test (required, can be specified multiple times)
+- `--urls_file`: File containing URLs to test (required if `--url` is not specified) (YAML format)
+- `--output`: Output file for performance metrics (required)
+- `--iterations`: Number of iterations per URL (default: 10)
+- `--headless`: Run headless browser (optional flag)
+- `--concurrent`: Run tests concurrently (optional flag)
+- `--headers_file`: File containing headers to be used in the request in YAML format (optional) (examples and explanation in the [Cookies, Headers, and URL files](#cookies-headers-and-url-files) section below)
+- `--cookies_file`: File containing cookies to be used in the request in YAML format (optional) (examples and explanation in the [Cookies, Headers, and URL files](#cookies-headers-and-url-files) section below)
+
+Example:
+```bash
+ttb performance --url https://tamm.abudhabi --url https://doh.gov.ae --iterations 5 --output metrics_report.csv --headless --concurrent
+```
+
+### `lighthouse`
+Prerequisites: `npm install -g lighthouse`
+
+Run Lighthouse report for given URLs.
+
+```bash
+ttb lighthouse <arguments>
+```
+
+Arguments:
+- `--url`: List of URLs to test (required, can be specified multiple times)
+- `--urls_file`: File containing URLs to test (required if `--url` is not specified) (YAML format)
+- `--output`: Output file for Lighthouse report (required)
+- `--headless`: Run headless browser (optional flag)
+- `--concurrent`: Run tests concurrently (optional flag)
+- `--preset`: Lighthouse preset (desktop or mobile, default: desktop)
+- `--headers_file`: File containing headers to be used in the request in YAML format (optional) (examples and explanation in the [Cookies, Headers, and URL files](#cookies-headers-and-url-files) section below)
+- `--cookies_file`: File containing cookies to be used in the request in YAML format (optional) (examples and explanation in the [Cookies, Headers, and URL files](#cookies-headers-and-url-files) section below)
+
+Example:
+```bash
+ttb lighthouse --url https://tamm.abudhabi --url https://www.tamm.abudhabi/en/contact --output lighthouse_report.csv --headless --concurrent --preset mobile
+```
+
+These commands allow you to run performance metrics and Lighthouse reports on specified URLs, with options for headless browsing, concurrent execution, and customizable settings.
+
+### Cookies, Headers, and URL files
+
+You can use the `--urls_file`, `--headers_file`, and `--cookies_file` arguments to specify files containing urls, headers, and cookies to be
+used in the request. These files should be in YAML format.
+
+Example URL file:
+
+```yaml
+urls: 
+  - https://tamm.abudhabi
+  - https://doh.gov.ae
+```
+
+Example headers file:
+
+```yaml
+- name: X-My-Header
+  value: my-header-value
+- name: X-Another-Header
+  value: another-header-value
+```
+
+Example cookies file:
+
+```yaml
+- name: my-cookie
+  value: my-cookie-value
+  domain: .tamm.abudhabi
+- name: another-cookie
+  value: another-cookie-value
+  domain: .tamm.abudhabi
+```
+
+#### Performance Metrics fields explanation
+
+The performance metrics CSV output includes the following fields:
+
+- `url`: The URL being tested
+- `iteration`: The iteration number of the test
+- `test_time`: The timestamp when the test was conducted
+- `ttfb` (Time to First Byte): Calculated as `responseStart - navigationStart`. This measures the time from when the browser starts navigating to when it receives the first byte of the response.
+- `load_time`: Calculated as `loadEventEnd - navigationStart`. This measures the time from when the browser starts navigating to when the load event is completed.
+- `total_time`: The total time taken for the entire test iteration, measured from the start of the test to its completion.
+- `error`: Any errors encountered during the test, or "N/A" if no errors occurred.
+
+All time measurements are in milliseconds.
+
+Note: The TTFB and load_time are calculated using the browser's Performance API timing events. The total_time is measured by the script itself.
+
+#### Lighthouse fields explanation
+
+The Lighthouse report CSV output includes the following fields:
+
+- `url`: The URL being tested
+- `finalUrl`: The final URL after any redirects
+- `requestedUrl`: The initially requested URL
+- `performance`: The Lighthouse performance score (0-100)
+- `accessibility`: The Lighthouse accessibility score (0-100)
+- `best-practices`: The Lighthouse best practices score (0-100)
+- `seo`: The Lighthouse SEO score (0-100)
+- `pwa`: The Lighthouse Progressive Web App score (0-100)
+- `first-contentful-paint`: Time to first contentful paint in milliseconds
+- `largest-contentful-paint`: Time to largest contentful paint in milliseconds
+- `total-blocking-time`: Total blocking time in milliseconds
+- `cumulative-layout-shift`: Cumulative layout shift score
+- `speed-index`: Speed Index in milliseconds
+- `interactive`: Time to interactive in milliseconds
+- `server-response-time`: Server response time in milliseconds
+- `total-byte-weight`: Total byte weight of the page in bytes
+- `error`: Any errors encountered during the test, or "N/A" if no errors occurred
+
+The scores (performance, accessibility, best-practices, SEO, and PWA) are calculated by Lighthouse based on various metrics and audits performed during the test. Each category has its own set of criteria that contribute to the final score, ranging from 0 to 100.
+
+The additional metrics provide more detailed insights into the page's performance:
+- First Contentful Paint (FCP): Measures how long it takes for the first content to appear on the screen.
+- Largest Contentful Paint (LCP): Measures when the largest content element becomes visible.
+- Total Blocking Time (TBT): Quantifies the total amount of time when the main thread was blocked long enough to prevent input responsiveness.
+- Cumulative Layout Shift (CLS): Measures the movement of visible elements within the viewport.
+- Speed Index: Shows how quickly the contents of a page are visibly populated.
+- Time to Interactive (TTI): Measures how long it takes for the page to become fully interactive.
+- Server Response Time: Measures how long it takes for the server to respond to the main document request.
+- Total Byte Weight: Represents the total size of all resources loaded by the page.
+
+The Lighthouse report is generated using the official Lighthouse CLI tool, which is run through a subprocess in the Python script. The results are then parsed and formatted into the CSV output.
+
+Note: The actual Lighthouse JSON report contains much more detailed information. The CSV output provides a summary of the key scores and metrics for easy comparison across multiple URLs or test runs.
