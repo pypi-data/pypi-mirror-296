@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datainsight
+Version: 0.1.0
+Summary: A Python package for CSV data analysis using Streamlit
+Author-email: Ateendra Jha <ajha@chears.in>
+License: MIT
+Project-URL: Homepage, https://chears.in/contact
+Project-URL: Issues, https://chears.in/contact
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: streamlit
+
