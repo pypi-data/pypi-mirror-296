@@ -1,0 +1,3 @@
+deda_bin
+deda_gui
+libdeda

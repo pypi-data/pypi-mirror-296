@@ -1,0 +1,9 @@
+[console_scripts]
+deda_anonmask_apply = deda_bin.deda_anonmask_apply:main
+deda_anonmask_create = deda_bin.deda_anonmask_create:main
+deda_clean_document = deda_bin.deda_clean_document:main
+deda_compare_prints = deda_bin.deda_compare_prints:main
+deda_create_dots = deda_bin.deda_create_dots:main
+deda_extract_yd = libdeda.extract_yd:main
+deda_gui = deda_gui.deda_gui:main
+deda_parse_print = deda_bin.deda_parse_print:main

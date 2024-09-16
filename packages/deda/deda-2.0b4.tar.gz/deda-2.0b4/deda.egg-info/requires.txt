@@ -1,0 +1,8 @@
+numpy
+opencv-python
+argparse
+scipy
+Pillow
+PyPDF2
+reportlab
+eel
