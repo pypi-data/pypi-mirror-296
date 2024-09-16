@@ -1,0 +1,15 @@
+README.md
+setup.py
+git_sherlock/__init__.py
+git_sherlock/beautifying.py
+git_sherlock/conversation.py
+git_sherlock/gemini.py
+git_sherlock/main.py
+git_sherlock/terminal.py
+git_sherlock/utils.py
+git_sherlock_tool.egg-info/PKG-INFO
+git_sherlock_tool.egg-info/SOURCES.txt
+git_sherlock_tool.egg-info/dependency_links.txt
+git_sherlock_tool.egg-info/entry_points.txt
+git_sherlock_tool.egg-info/requires.txt
+git_sherlock_tool.egg-info/top_level.txt

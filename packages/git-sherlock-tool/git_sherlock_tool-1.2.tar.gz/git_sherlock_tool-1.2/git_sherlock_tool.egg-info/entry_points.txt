@@ -1,0 +1,3 @@
+[console_scripts]
+git-sherlock = git_sherlock.main:main
+git-sherlock-interactive = git_sherlock.terminal:interactive_mode
