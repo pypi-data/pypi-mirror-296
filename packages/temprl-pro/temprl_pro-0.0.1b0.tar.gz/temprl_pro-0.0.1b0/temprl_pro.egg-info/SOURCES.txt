@@ -1,0 +1,11 @@
+README.md
+setup.py
+temprl/StructOutput.py
+temprl/WebScrapper.py
+temprl/__init__.py
+temprl_pro.egg-info/PKG-INFO
+temprl_pro.egg-info/SOURCES.txt
+temprl_pro.egg-info/dependency_links.txt
+temprl_pro.egg-info/entry_points.txt
+temprl_pro.egg-info/requires.txt
+temprl_pro.egg-info/top_level.txt
