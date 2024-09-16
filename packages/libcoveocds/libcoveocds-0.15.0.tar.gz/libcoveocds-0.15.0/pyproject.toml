@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libcoveocds"
+version = "0.15.0"
+authors = [{name = "Open Contracting Partnership and Open Data Services Co-operative Limited", email = "data@open-contracting.org"}]
+description = "A data review library for the Open Contracting Data Standard (OCDS)"
+readme = "README.rst"
+license = {text = "AGPL-3.0-or-later"}
+urls = {Homepage = "https://github.com/open-contracting/lib-cove-ocds"}
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+dependencies = [
+    "click",
+    "jsonref>=1",
+    "jsonschema>=4.18",
+    "libcove>=0.32",
+    "ocdsextensionregistry>=0.3.4",
+    "referencing",
+    "requests",
+]
+
+[project.optional-dependencies]
+perf = ["orjson"]
+test = [
+    "coverage",
+    "pytest",
+]
+web = [
+    "bleach>=6",
+    "django",
+    "markdown-it-py",
+]
+
+[project.scripts]
+libcoveocds = "libcoveocds.__main__:main"
+
+[tool.setuptools.packages.find]
+exclude = [
+    "tests",
+    "tests.*",
+]
+
+[tool.ruff]
+line-length = 119
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "C4", "F", "I", "W"]
