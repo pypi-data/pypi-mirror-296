@@ -1,0 +1,2 @@
+[console_scripts]
+do_ddns = digital_ocean_dynamic_dns.ddns:run
