@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: abxvs3d
+Version: 0.2.0
+Summary: A test library for my research work
+Home-page: https://github.com/yourusername/your-repo-name
+Author: Juned Inamdar
+Author-email: jinamdar4433@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Project Name
+
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-brightgreen.svg)](https://python.org)
+
+## Description
+
+A brief description of what your project does. Explain its purpose and any key features or benefits.
+
+## Features
+
+- Feature 1: Describe what it does.
+- Feature 2: Mention another feature.
+- Feature 3: Highlight any interesting aspect.
+
+## Installation
+
+To install the project, you need to clone this repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt
