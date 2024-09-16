@@ -1,0 +1,20 @@
+<el-drawer title="CRUD设定"  :visible.sync="dialogSetupVisible" direction="btt" size="60%" :with-header="false" v-if="startRender" :modal="false" >
+    <div style="padding: 10px">
+    <el-form :model="setupform" ref="setupform" label-width="auto" size="mini" :inline="true">
+       <el-form-item :label="v.label" v-for="(v, k) in setupform">
+        <el-switch v-if="v.type=='switch'" v-model="setupform[k].value"></el-switch>
+        <el-color-picker v-else-if="v.type=='color'" v-model="setupform[k].value"></el-color-picker>
+        <el-input v-else-if="v.type=='input'" v-model="setupform[k].value" autocomplete="off" :placeholder="v.placeholder"></el-input>
+        <el-input v-else-if="v.type=='input_list'" v-model="setupform[k].value" autocomplete="off" :placeholder="v.placeholder"></el-input>
+        <el-input v-else-if="v.type=='input_dict'" v-model="setupform[k].value" autocomplete="off" :placeholder="v.placeholder"></el-input>
+        <el-input v-else-if="v.type=='number'" type="number" v-model="setupform[k].value" style="width:60px" autocomplete="off" :placeholder="v.placeholder"></el-input>
+        <el-input v-else-if="v.type=='text_dict'"  type="textarea" v-model="setupform[k].value" autocomplete="off" :placeholder="v.placeholder"></el-input>
+        <el-input v-else-if="v.type=='text_dict2'"  type="textarea" v-model="setupform[k].value" autocomplete="off" :placeholder="v.placeholder"></el-input>
+       </el-form-item>
+    </el-form>
+      <div style="text-align: center">
+          <el-button type="info" @click="save_crud(false)">预览</el-button>
+          <el-button type="warning" @click="save_crud(true)">保存</el-button>
+        </div>
+     </div>
+</el-drawer>
