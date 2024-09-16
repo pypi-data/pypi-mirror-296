@@ -1,0 +1,23 @@
+click
+click_logging
+flatten-dict
+ijson>=2.5
+jsonref
+ocdsextensionregistry
+ocdskit>=1.0.1
+requests
+scalpl
+xlsxwriter
+
+[:python_version < "3.12"]
+importlib_resources
+
+[:python_version < "3.7"]
+dataclasses
+
+[test]
+coverage
+jmespath
+jsonpointer
+openpyxl
+pytest
