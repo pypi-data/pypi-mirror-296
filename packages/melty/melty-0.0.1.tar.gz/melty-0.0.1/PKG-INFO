@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: melty
+Version: 0.0.1
+Summary: AI code editing
+Project-URL: Homepage, https://github.com/meltylabs/melty-python
+Project-URL: Issues, https://github.com/pypa/meltylabs/melty-python/issues
+Author-email: Melty <humans@melty.sh>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
