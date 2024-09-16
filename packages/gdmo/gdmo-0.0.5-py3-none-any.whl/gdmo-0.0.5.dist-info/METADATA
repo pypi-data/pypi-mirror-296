@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: gdmo
+Version: 0.0.5
+Summary: GDMO native classes for standardized interaction with data objects within Azure Databricks
+Author: Stephan Kuiper
+Author-email: Stephan Kuiper <kuiper.s@live.nl>
+Maintainer-email: Stephan Kuiper <kuiper.s@live.nl>
+License: Copyright (c) 2016 The Python Packaging Authority (PyPA)
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of
+        this software and associated documentation files (the "Software"), to deal in
+        the Software without restriction, including without limitation the rights to
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+        of the Software, and to permit persons to whom the Software is furnished to do
+        so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/NSIT/bi-datascience/
+Keywords: forecast,gdmo,api,request,delta,landing
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: prophet
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+
+# GDMO native classes for standardized interaction with data objects within Azure Databricks
+
+This custom library allows our engineering team to use standardized packages that strip away a load of administrative and repetitive tasks from their daily object interactions. The current classes supported (V0.1.0) are: 
+
+## Forecast - Forecast
+Standardized way of forecasting a dataset. Input a dataframe with a Series, a Time, and a Value column, and see the function automatically select the right forecasting model and generate an output. 
+
+# Future expansions
+
+## API - APIRequest
+Class to perform a standard API Request using the request library, which allows a user to just add their endpoint / authentication / method data, and get the data returned without the need of writing error handling or need to understand how to properly build a request. 
+
+## Tables - Landing
+Class to land a dataframe or csv file to the databricks landing zone, and optionally convert this to the bronze layer data. Just say where to store it, and the class will take care of it with error handling associated and a normalized routine is followed. 
+
+## Tables - Delta
+No longer one needs to write a twelve-command notebook to create a table. Call this class once and see it happen.
