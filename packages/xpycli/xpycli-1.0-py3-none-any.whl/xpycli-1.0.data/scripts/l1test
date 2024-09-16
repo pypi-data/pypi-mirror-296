@@ -1,0 +1,4 @@
+#!python
+
+import thonnycontrib.frontend.cli.command_line as cli
+cli.main()

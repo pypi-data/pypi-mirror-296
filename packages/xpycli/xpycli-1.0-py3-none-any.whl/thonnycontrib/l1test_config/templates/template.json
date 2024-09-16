@@ -1,0 +1,11 @@
+{
+    "function": {
+        "summary": "__Write a summary__\n\nExamples:\n>>> __Write an example__\n"
+    },
+    "class": {
+        "summary": "This is a summary for class",
+        "parameters": "",
+        "usage_constraints": "Class usage constraints: ",
+        "test_examples": "Example: "
+    }
+}

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xpycli
+Version: 1.0
+Summary: This is a command line based tool to run tests on your python code
+Author: Reda ID-TALEB
+Platform: Windows
+Platform: macOS
+Platform: Linux
+Requires-Python: >=3.9
+License-File: LICENSE
+
+This is a command line based tool to run tests on your python code
