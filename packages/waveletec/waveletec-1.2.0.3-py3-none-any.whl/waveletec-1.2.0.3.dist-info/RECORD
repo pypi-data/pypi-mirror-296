@@ -1,0 +1,13 @@
+waveletec/__init__.py,sha256=tkEdE65cfbGbMwMq5azcU567qowqODYPtQJSYNJgO9w,111
+waveletec/cec_handler.py,sha256=xSGx1s1lYln5voQf8kOdqA4hGv_PKFH8mmdas22FSWM,10610
+waveletec/handler.py,sha256=-eN2XF1glvI65lweutEg0rXelzrFhgamm7lk1VZZP90,14270
+waveletec/version.py,sha256=pyt86dceoZR-TsuKKQ4UFhjOaXS9zkm5Z2tr3jTGbQo,164
+waveletec/_core/__init__.py,sha256=KaSuO4v4GzQxaEZX1In0u5tBxa8bR_R96Qzslk6wOXo,57
+waveletec/_core/coimbra2024_scripts.py,sha256=kIVrrKxmeFdtdRhklCmYxCl8nV7EDsmG8ue22Unr3iY,45358
+waveletec/_core/commons.py,sha256=kIVrrKxmeFdtdRhklCmYxCl8nV7EDsmG8ue22Unr3iY,45358
+waveletec/_core/wavelet_functions.py,sha256=kKC61HZ_gbL2UsXczjyOsALfMW4HCcMMjNgC8-h8ztI,49287
+waveletec-1.2.0.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+waveletec-1.2.0.3.dist-info/METADATA,sha256=0vCE_FrpisWWfNx-1HUyK5hdiRXmBE0bhcjn0a4__0A,2248
+waveletec-1.2.0.3.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+waveletec-1.2.0.3.dist-info/top_level.txt,sha256=uDcIPjTloy53nFia-7B9qicGpxQw3twkVM5-EJMWeBg,10
+waveletec-1.2.0.3.dist-info/RECORD,,
