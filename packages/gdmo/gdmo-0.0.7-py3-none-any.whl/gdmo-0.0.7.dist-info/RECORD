@@ -1,0 +1,8 @@
+gdmo/__init__.py,sha256=FCriGAXlxppLBib1Upvz3iupYmZZ7GrSQTDGXrWdmd4,32
+gdmo/forecasting/Forecast.py,sha256=d7Jcr7K-94T8keifUaqoHaPQGPppIOR553qJBudczhg,62269
+gdmo/forecasting/__init__.py,sha256=tROjcCbAFrdA34EhrTPmQoEgfwj_auObLLu5uyeI1CY,15
+gdmo-0.0.7.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+gdmo-0.0.7.dist-info/METADATA,sha256=Q8zsOi09WLp5W_iDwVROIFagkb8AhCqX5I7js7g52pI,3182
+gdmo-0.0.7.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+gdmo-0.0.7.dist-info/top_level.txt,sha256=CQA4AeaG8bo7sgb3iUAumKidG1ykHJqr7BIDtep09Xk,5
+gdmo-0.0.7.dist-info/RECORD,,
