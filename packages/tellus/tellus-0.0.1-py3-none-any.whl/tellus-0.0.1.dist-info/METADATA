@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tellus
+Version: 0.0.1
+Summary: A framework for maintaining Earth System Model experiments
+Home-page: https://github.com/pgierz/tellus
+Author: Paul Gierz
+Author-email: paul.gierz@awi.de
+Requires-Python: >=3.7
+
