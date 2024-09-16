@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/llama_index_readers_opendal.egg-info/PKG-INFO
+src/llama_index_readers_opendal.egg-info/SOURCES.txt
+src/llama_index_readers_opendal.egg-info/dependency_links.txt
+src/llama_index_readers_opendal.egg-info/entry_points.txt
+src/llama_index_readers_opendal.egg-info/requires.txt
+src/llama_index_readers_opendal.egg-info/top_level.txt
+tests/test_simple.py
