@@ -1,0 +1,10 @@
+pg_cache/__init__.py,sha256=Bftl-TV_0uJubnX0FLt9YToDw4A0Sh3woVo5JaxttSc,88
+pg_cache/cache.py,sha256=J4qdAX3_U4o6EQ6Tq2ojxmqAMumuMnZzdgNpfe_fKlc,19290
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/find_env.py,sha256=qtWl3YsasYM0vh0Sb8bzyqfXEslkCFXtR9NalHa3lBI,920
+tests/test.py,sha256=VdJPUFN2So3lHVql5iOP_WIRTl6cpCEyc27whM9kh7Y,3425
+pg_cache-0.1.6.1.dist-info/LICENSE,sha256=8WsXbmwjCkKaD90gavK6s5kgKCKVe39oJ9oV6LY70RA,1066
+pg_cache-0.1.6.1.dist-info/METADATA,sha256=YPq72mTV64yNRgv5DvnTEfhOoRt5QzOINsnH7t1-i4c,4020
+pg_cache-0.1.6.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pg_cache-0.1.6.1.dist-info/top_level.txt,sha256=-658jd2X6A4Ra7wOiIMTRgUbHNQ60XiwkLSACmD8QTo,15
+pg_cache-0.1.6.1.dist-info/RECORD,,
