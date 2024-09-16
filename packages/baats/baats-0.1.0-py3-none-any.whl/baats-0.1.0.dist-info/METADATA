@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: baats
+Version: 0.1.0
+Summary: Una librería para esconder cosas en archivos.
+Home-page: https://github.com/Carlos-dev-G/baats
+Author: Carlos-dev-G
+Author-email: baa4tsdev@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tool
+
+La clase `Tool` proporciona una interfaz para realizar operaciones bÃ¡sicas de lectura y escritura en archivos binarios.
+
+## InstalaciÃ³n
+
+No se requiere instalaciÃ³n adicional, solo asegÃºrate de tener Python instalado en tu sistema.
+
+## Uso
+
+#### Nota
+`Se usaron imÃ¡genes como prueba, aÃ±adiendo 100 bytes con mensajes como: "Hola mundo", "Hola Pana", etc. La imagen sigue siendo visualizable aunque contenga los bytes extras.`
+
+### InicializaciÃ³n
+
+```python
+tool = Tool(archivo: str)
+```
+
+- **archivo** (str): Ruta del archivo binario que se va a manejar.
+
+### MÃ©todos
+
+#### `sacar_100_bytes() -> Union[List[int], bool]`
+
+Extrae los Ãºltimos 100 bytes del archivo.
+
+- **Returns**: 
+  - `List[int]`: Lista de los Ãºltimos 100 bytes si la operaciÃ³n es exitosa.
+  - `bool`: `False` si ocurre un error al leer el archivo.
+
+**Ejemplo:**
+
+```python
+ultimos_bytes = tool.sacar_100_bytes()
+```
+
+#### `agregar_100_bytes(contenido: str) -> bool`
+
+Agrega un bloque de 100 bytes al final del archivo. Si el contenido es menor de 100 bytes, se rellena con ceros. Si es mayor, se trunca.
+
+- **Args**:
+  - **contenido** (str): Contenido a agregar al archivo.
+- **Returns**:
+  - `bool`: `True` si se guardÃ³ correctamente, `False` si ocurre un error.
+
+**Ejemplo:**
+
+```python
+exito = tool.agregar_100_bytes("Texto de ejemplo")
+```
+
+#### `agregar_100_bytes_directo(datos: bytes) -> bool`
+
+Agrega un bloque de 100 bytes al final del archivo. Si el bloque de bytes es menor de 100 bytes, se rellena con ceros. Si es mayor, se trunca.
+
+- **Args**:
+  - **datos** (bytes): Bloque de bytes a agregar al archivo.
+- **Returns**:
+  - `bool`: `True` si se guardÃ³ correctamente, `False` si ocurre un error.
+
+**Ejemplo:**
+
+```python
+datos = b'\x01\x02\x03...'  # Datos en formato de bytes
+exito = tool.agregar_100_bytes_directo(datos)
+```
+
+#### `eliminar_100_bytes() -> bool`
+
+Elimina los Ãºltimos 100 bytes del archivo.
+
+- **Returns**:
+  - `bool`: `True` si se guardÃ³ correctamente despuÃ©s de eliminar, `False` si ocurre un error.
+
+**Ejemplo:**
+
+```python
+exito = tool.eliminar_100_bytes()
+```
+
+#### `extractor() -> bool`
+
+Lee el contenido del archivo, lo convierte en una representaciÃ³n de bytes, y guarda el resultado en un archivo llamado `resulta.txt`. La funciÃ³n opera de forma autÃ³noma.
+
+- **Returns**:
+  - `bool`: `True` si se guardÃ³ correctamente en `resulta.txt`, `False` si ocurre un error.
+
+**Ejemplo:**
+
+```python
+exito = tool.extractor()
+```
+
+## Ejemplo Completo
+
+```python
+# Crear una instancia de Tool con el archivo deseado
+tool = Tool("ejemplo.bin")
+
+# Agregar 100 bytes al final del archivo usando una cadena de texto
+tool.agregar_100_bytes("Contenido de ejemplo")
+
+# Agregar 100 bytes al final del archivo usando datos en bytes
+datos = b'\x01\x02\x03...'  # Datos en formato de bytes
+tool.agregar_100_bytes_directo(datos)
+
+# Extraer los Ãºltimos 100 bytes del archivo
+bytes_extraidos = tool.sacar_100_bytes()
+print(bytes_extraidos)
+
+# Eliminar los Ãºltimos 100 bytes del archivo
+tool.eliminar_100_bytes()
+
+# Guardar el contenido en resulta.txt
+tool.extractor()
+```
