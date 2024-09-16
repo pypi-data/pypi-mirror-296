@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "tessellation"
+version = "0.0.6"
+description = "A service for procedurally generating tessellations."
+authors = ["Anthony D'Achille <adachille15@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "tessellation" }]
+license = "BSD-3-Clause"
+homepage = "https://github.com/adachille/tessellation"
+repository = "https://github.com/adachille/tessellation"
+keywords = ["tessellation", "procedural content generation", "generative art"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+leap-ec = "^0.8.1"
+matplotlib = "^3.9.0"
+numpy = "^2.0.1"
+scikit-image = "^0.24.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+notebook = "^7.2.0"
+pylint = "^3.2.7"
+pytest = "^8.3.2"
+coverage = "^7.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+"Homepage" = "https://github.com/adachille/tessellation"
