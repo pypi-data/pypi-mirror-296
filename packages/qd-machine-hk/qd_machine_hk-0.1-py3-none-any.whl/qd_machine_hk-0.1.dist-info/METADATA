@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: qd-machine-hk
+Version: 0.1
+Summary: Machine package
+Author: Hardik Kanak
+Author-email: hardik.kanak@softqubes.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+Requires-Dist: requests ==2.31.0
+
