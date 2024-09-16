@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/github_repo_extractor/__init__.py
+src/github_repo_extractor/github_repo_extractor.py
+src/github_repo_extractor.egg-info/PKG-INFO
+src/github_repo_extractor.egg-info/SOURCES.txt
+src/github_repo_extractor.egg-info/dependency_links.txt
+src/github_repo_extractor.egg-info/requires.txt
+src/github_repo_extractor.egg-info/top_level.txt
+tests/test_github_repo_extractor.py
