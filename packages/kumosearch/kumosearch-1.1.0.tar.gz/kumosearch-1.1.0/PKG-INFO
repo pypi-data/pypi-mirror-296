@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: kumosearch
+Version: 1.1.0
+Summary: Python client for Kumosearch, an open source and typo tolerant search engine.
+Author-email: Kumosearch <contact@kumo-ai.tech>
+License: Apache 2.0
+Project-URL: Documentation, https://kumo-ai.tech/
+Project-URL: Source, https://gitee.com/kumo-pub/kumosearch-py
+Project-URL: Tracker, https://gitee.com/kumo-pub/kumosearch-py/issues
+Keywords: search,kumosearch
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Kumosearch Python Client
+
+Python client for the Kumosearch API: https://github.com/kumosearch/kumosearch
+
+## Installation
+
+```
+$ pip install kumosearch
+```
+
+You can also add `kumosearch` to your project's `requirements.txt`.
+
+## Usage
+
+You can find some examples [here](https://github.com/kumosearch/kumosearch-python/blob/master/examples/collection_operations.py).
+
+See detailed [API documentation](https://kumo-ai.tech/docs/api).
+
+## License
+
+`kumosearch-py` is distributed under the Apache 2 license.
+
+
+
