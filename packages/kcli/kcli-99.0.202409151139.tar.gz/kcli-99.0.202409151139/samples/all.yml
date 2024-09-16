@@ -1,0 +1,175 @@
+mydns:
+ type: dns
+ ip: 192.168.1.35
+ net: default
+ alias:
+ - console-openshift-console.apps.lab.karmalabs.corp
+
+mydisk.img:
+ type: disk
+ size: 5
+ pool: default
+ vms:
+ - myvm1
+ - myvm2
+
+myimage:
+ type: image
+ url: https://cloud.centos.org/centos/8-stream/x86_64/images/CentOS-Stream-GenericCloud-8-20210603.0.x86_64.qcow2
+
+mynetwork:
+ type: network
+ cidr: 10.0.0.0/24
+ dhcp: true
+ nat: true
+
+mybucket:
+ type: bucket
+ files:
+ - bucket_file1.txt
+
+mycontainer:
+ type: container
+ environment:
+  - LDAP_ROOTPASS: mypassword
+ cmds:
+ - echo prout
+ - echo mypassword >> /tmp/result
+ image: docker.io/library/alpine:3.10
+ ports:
+ - 389
+
+mykube:
+ type: kube
+ kubetype: generic
+ ctlplanes: 3
+ workers: 2
+
+myloadbalancer:
+ type: loadbalancer
+ nets:
+ - name: default
+   alias:
+   - vm3.default
+ ports:
+ - 80
+ - 443
+ vms:
+ - myvm1
+ - myvm2
+
+myplan:
+  type: plan
+  file: plan_of_plans/plan1.yml
+  url: https://github.com/karmab/kcli-plan-ovirt/blob/main/ovirt/kcli_plan.yml
+
+myprofile:
+  type: profile
+  disks:
+   - size: 15
+  image: centos9stream
+  memory: 3072
+  numcpus: 1
+   - default
+
+myvm:
+  type: vm
+  baseplan: mybaseplan.yml
+  boot_order: false
+  client: myclient
+  cloudinit: true
+  cmds:
+  -  echo "I am the king of the world" >/etc/motd
+  cpuflags:
+  - acpi
+  - name: arat
+    enable: false
+  - hyperv:
+     relaxed:
+      enabled: true
+  cpumodel: core2duo
+  cpupinning:
+  - vcpus: 0-6
+    hostcpus: 0
+  - vcpus: 7
+    hostcpus: 0
+  finishfiles:
+  - vm2.ign
+  flavor: m1.small
+  image: centos9stream
+  iso: super.iso
+  memory: 2048
+  numamode: preferred
+  numcpus: 8
+  pool: default
+  disks:
+  - 20
+  - size: 30
+    interface: scsi
+    thin: true
+    image: whatever.qcow2
+    source: xx.img
+    name: blabla.qcow2
+  files:
+  - myfile1.txt
+  - mydirectory
+  - path: /root/coco1
+    origin: coco1.txt
+    render: true
+    content:  |
+       this is a cool
+       feature
+  keys:
+  - mykey1
+  - mykey2
+  nets:
+  - default
+  - name: default
+    mac: 52:54:00:00:01:b4
+    noconf: false
+    numa: 0
+    ovs: false
+    sriov: false
+    type: e1000
+    ip: 192.168.8.2
+    mask: 255.255.255.0
+    gateway: 192.168.8.1
+    dns: 1.1.1.1
+    reserveip: false
+    reservedns: false
+  networkwait: 30
+  notify: true
+  notifymethods:
+  - slack
+  notifyscript: info.sh
+  numa:
+  - id: 0
+    vcpus: 0-1
+    memory: 2048
+  - id: 1
+    vcpus: 2-3
+    memory: 5120
+  pcidevices:
+  - "01:00.0"
+  redfish_iso: specific.iso
+  reservedns: false
+  reservehost: false
+  privatekey: false
+  scripts:
+  - vm1.sh
+  secureboot: false
+  sharedfolders:
+  - /tmp/xxx
+  start: true
+  uefi: true
+  uefi_legacy: false
+  wait: false
+
+myworkflow:
+ type: workflow
+ files:
+ - file1.yml
+ - file2.yml
+ scripts:
+ - 01_script.sh
+ - 02_script.sh
