@@ -1,0 +1,4 @@
+omnivoreql
+sphinx
+rich
+myst_parser
