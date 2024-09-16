@@ -1,0 +1,4 @@
+Colocar um exemplo para cada função dentro de examples.
+Criar um docs com plano de trabalho e prioridades.
+Fazer vídeos explicativos de como contribuir.
+Alterar default de DIP, colocar um warning.
