@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "neurapolis-retriever"
+version = "0.1.1"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "neurapolis_retriever", from = "src" }]
+
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+langchain = "^0.3.0"
+langchain-community = "^0.3.0"
+langchain-core = "^0.3.0"
+langchain-openai = "^0.2.0"
+pydantic-settings = "^2.3.4"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+langgraph = "^0.2.21"
+langchain-cohere = "^0.3.0"
+neurapolis-common = "^0.1.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
