@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: facialmatch
+Version: 1.0
+Summary: face matching
+Author: Hemang Baldha
+Author-email: hemang9705@gmail.com
+Keywords: python,face,face matching,face detection,face recognition,opencv,opencv-python,numpy,scikit-learn
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+
+A package that allows two images and compare them to check if face in both images are same or not, also youcan use this package to detect face in image
