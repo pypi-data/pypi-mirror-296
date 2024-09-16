@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+gdmo/__init__.py
+gdmo.egg-info/PKG-INFO
+gdmo.egg-info/SOURCES.txt
+gdmo.egg-info/dependency_links.txt
+gdmo.egg-info/requires.txt
+gdmo.egg-info/top_level.txt
+gdmo/forecasting/Forecast.py
+gdmo/forecasting/__init__.py
+tests/test_gdmo.py
