@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/inequalitychay/__init__.py
+src/inequalitychay/inequalitychay.py
+src/inequalitychay.egg-info/PKG-INFO
+src/inequalitychay.egg-info/SOURCES.txt
+src/inequalitychay.egg-info/dependency_links.txt
+src/inequalitychay.egg-info/top_level.txt
