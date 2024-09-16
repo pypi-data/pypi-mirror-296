@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+pystdlib.egg-info/PKG-INFO
+pystdlib.egg-info/SOURCES.txt
+pystdlib.egg-info/dependency_links.txt
+pystdlib.egg-info/top_level.txt
+src/__init__.py
+src/double.py
+test/test_alloc.py
+test/test_double.py
