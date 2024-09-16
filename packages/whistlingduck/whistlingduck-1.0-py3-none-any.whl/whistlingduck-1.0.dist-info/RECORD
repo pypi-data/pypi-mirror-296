@@ -1,0 +1,17 @@
+whistling_duck/__init__.py,sha256=sj9wIm70R-WOoeYuJaJ_kGbbvofyK2yRnv_sNflJPCQ,23
+whistling_duck/main.py,sha256=D60mD5qV0I42AGYON8zbtqWaDAaLXNCAxfhc9GZwgGI,47
+whistlingduck/__init__.py,sha256=DxZJGRy7NNNyA7otEzdX87kgX3fGlAVWIHzuLesnm0M,281
+whistlingduck/main.py,sha256=D60mD5qV0I42AGYON8zbtqWaDAaLXNCAxfhc9GZwgGI,47
+whistlingduck/analyzers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whistlingduck/analyzers/standard_deviation.py,sha256=vYW-gbkkejETxKjoH4M6xEm72SLTUcyVULbZqoOOraE,4309
+whistlingduck/analyzers/sum.py,sha256=SFQhLAHov5LMCaqpOJOvN9lkdwcPxAlgHx6PriPU0W4,4228
+whistlingduck/analyzers/unique_value_ratio.py,sha256=3gSWopWWMS8kZjwMC7VX5RXlBNEyNtlCcvTCJChnWE8,4810
+whistlingduck/analyzers/uniqueness.py,sha256=iw7D_7NaQLwtfcJ2QkTZwqOspT2_rddXl_s80cT_XIQ,4622
+whistlingduck/documentation/csv_into_table_doc.py,sha256=syH7DGVHRCWOhQdclaq8ISIIooSLa3rML3Zuokk3B34,941
+whistlingduck/read/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whistlingduck/read/csv_into_table.py,sha256=BgeQhBVaIGaUiLTsJi6oVTj9A2vpmebQw_yUcnnxcb8,2141
+whistlingduck-1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+whistlingduck-1.0.dist-info/METADATA,sha256=B0sdhH_UfAFiYnJ4sq8gtwd3lRc530vEaztc2ugmzUk,1648
+whistlingduck-1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+whistlingduck-1.0.dist-info/top_level.txt,sha256=-Ee0krue7Oxp5MUif5Z0JRURqq65Lwq6Bu3r4HFASr0,14
+whistlingduck-1.0.dist-info/RECORD,,
