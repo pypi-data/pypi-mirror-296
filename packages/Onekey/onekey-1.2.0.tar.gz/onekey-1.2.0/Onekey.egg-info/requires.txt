@@ -1,0 +1,6 @@
+aiohttp
+aiofiles
+colorlog
+ujson
+vdf
+requests
