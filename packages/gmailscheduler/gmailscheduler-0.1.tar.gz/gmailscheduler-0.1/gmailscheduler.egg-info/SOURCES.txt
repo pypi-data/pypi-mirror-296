@@ -1,0 +1,11 @@
+README.md
+setup.py
+gmailscheduler.egg-info/PKG-INFO
+gmailscheduler.egg-info/SOURCES.txt
+gmailscheduler.egg-info/dependency_links.txt
+gmailscheduler.egg-info/requires.txt
+gmailscheduler.egg-info/top_level.txt
+timecraft/__init__.py
+timecraft/google_calendar.py
+timecraft/participant.py
+timecraft/scheduler.py
