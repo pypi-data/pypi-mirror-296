@@ -1,0 +1,6 @@
+
+[midi]
+python-rtmidi
+
+[test]
+pytest
