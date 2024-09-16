@@ -1,0 +1,13 @@
+faiss-cpu
+flask
+googledrivedownloader
+llama-index-llms-ollama
+numpy
+pandas
+pydantic
+scikit-learn
+scipy
+sentencepiece
+torch
+tqdm
+transformers
