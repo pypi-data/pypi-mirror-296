@@ -1,0 +1,29 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  standard:
+    format: "%(asctime)s - %(threadName)s - %(levelname)s - %(name)s - %(message)s"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: standard
+    stream: ext://sys.stdout
+  file:
+    class: logging.FileHandler
+    level: INFO
+    formatter: standard
+    filename: /tmp/flashcommit.log
+    encoding: utf8
+    mode: a
+
+
+loggers:
+  flashcommit:
+    level: INFO
+
+root:
+  level: WARN
+  handlers: [ file ]
+  propagate: no
