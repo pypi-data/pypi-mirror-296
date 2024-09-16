@@ -1,0 +1,8 @@
+numpy
+scipy
+numdifftools
+pandas
+joblib
+matplotlib
+requests
+orjson
