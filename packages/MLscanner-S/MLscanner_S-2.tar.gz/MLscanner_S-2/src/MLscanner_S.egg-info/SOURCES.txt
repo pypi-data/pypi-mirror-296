@@ -1,0 +1,8 @@
+setup.py
+src/Scanner_helper.py
+src/Spheno.py
+src/__init__.py
+src/MLscanner_S.egg-info/PKG-INFO
+src/MLscanner_S.egg-info/SOURCES.txt
+src/MLscanner_S.egg-info/dependency_links.txt
+src/MLscanner_S.egg-info/top_level.txt
