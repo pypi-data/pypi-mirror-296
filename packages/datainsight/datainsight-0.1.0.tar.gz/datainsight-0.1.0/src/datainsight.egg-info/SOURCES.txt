@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/datainsight.egg-info/PKG-INFO
+src/datainsight.egg-info/SOURCES.txt
+src/datainsight.egg-info/dependency_links.txt
+src/datainsight.egg-info/requires.txt
+src/datainsight.egg-info/top_level.txt
