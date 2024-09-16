@@ -1,0 +1,16 @@
+gridlooper==0.0.1
+attrs==23.2.0
+numpy==1.26.0
+dill==0.3.7
+httpx
+requests
+
+[all]
+sentence-transformers==2.2.2
+hnswlib==0.8.0
+
+[hnswlib]
+hnswlib==0.8.0
+
+[sentence-transformers]
+sentence-transformers==2.2.2
