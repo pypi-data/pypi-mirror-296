@@ -1,0 +1,21 @@
+Contextual Bandit Algorithms.png
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+contextual_bandits/__init__.py
+contextual_bandits/algorithms.py
+contextual_bandits_algos.egg-info/PKG-INFO
+contextual_bandits_algos.egg-info/SOURCES.txt
+contextual_bandits_algos.egg-info/dependency_links.txt
+contextual_bandits_algos.egg-info/requires.txt
+contextual_bandits_algos.egg-info/top_level.txt
+examples/example_epsilon_greedy.py
+examples/example_kernelucb.py
+examples/example_linucb.py
+examples/example_neurallinear.py
+examples/example_thompson_sampling.py
+examples/example_tree_bandit.py
+examples/example_ucb.py
+examples/example_usage.py

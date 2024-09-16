@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: contextual-bandits-algos
+Version: 0.1.0
+Summary: A library for contextual multi-armed bandit algorithms.
+Home-page: https://github.com/singhsidhukuldeep/contextual-bandits
+Author: Kuldeep Singh Sidhu
+Author-email: singhsidhukuldeep@gmail.com
+Keywords: Contextual Bandits,Multi-Armed Bandits,Reinforcement Learning,LinUCB,Epsilon-Greedy,UCB,Thompson Sampling,Kernel Methods,Neural Networks,Machine Learning,Python Library
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: scikit-learn>=0.22.0
+Requires-Dist: torch>=1.7.0
