@@ -1,0 +1,16 @@
+odoo/addons/helpdesk_ticket_subtags/CHANGELOG.md,sha256=yzqRq4ySw31MrAcyz-EVDENZUr8YdeSi5I6T9mBxEEg,425
+odoo/addons/helpdesk_ticket_subtags/README.rst,sha256=sL7WyeQ65JlJ_7NuAU0kzYhKCMoYoEP-8PbB4JKVHFw,1929
+odoo/addons/helpdesk_ticket_subtags/__init__.py,sha256=k6VdU9k3RocxIg6IwoFhaeynr5yThcRKmQQowowlAvY,20
+odoo/addons/helpdesk_ticket_subtags/__manifest__.py,sha256=x5_DCbMgDniywcpYYyPmp_Q_ToOi_TCzmm_PBJiPbTw,868
+odoo/addons/helpdesk_ticket_subtags/i18n/ca_ES.po,sha256=-W1uneeAZt3ATbHOrTz-aKsjoOxWJVPnAqFHljiM6Gk,1604
+odoo/addons/helpdesk_ticket_subtags/i18n/es.po,sha256=pQm07PGvVSC7k-1X1b6WOjUN4rN3a8kzfGHCLXSNL3c,1607
+odoo/addons/helpdesk_ticket_subtags/models/__init__.py,sha256=drmLyrQBULMkkinbHgCybmNVO2ZDlcPWRv94dU_bEVo,26
+odoo/addons/helpdesk_ticket_subtags/models/helpdesk_tag.py,sha256=5dAPYQ6Gi2ISARw5qT87ZjFMxOom0fbWhEF7Y0YQT4Q,2596
+odoo/addons/helpdesk_ticket_subtags/static/description/icon.png,sha256=3taXULJl0n0Ko0YOBXiXtspPonsicVgYojo1ghzHmuY,17607
+odoo/addons/helpdesk_ticket_subtags/tests/__init__.py,sha256=aUAAfK9aQL9DKM6n9axvDlVSNAf7XGLHzOZ8K633fsg,27
+odoo/addons/helpdesk_ticket_subtags/tests/test_subtags.py,sha256=YPRjsC2GhD_zLMqgTonScPUBc1K4QOW32BplFvpR4cU,1280
+odoo/addons/helpdesk_ticket_subtags/views/helpdesk_tag_view.xml,sha256=A3nVTGvk_N3sP91cNtDiner6iyAb8J1dylvGdr5CTeY,1091
+odoo12_addon_helpdesk_ticket_subtags-12.0.0.1.1.99.dev1.dist-info/METADATA,sha256=dIs-0dZofV2A-pqQsk126WnkOPzBKV_AfK_qula57Eo,2669
+odoo12_addon_helpdesk_ticket_subtags-12.0.0.1.1.99.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_helpdesk_ticket_subtags-12.0.0.1.1.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_helpdesk_ticket_subtags-12.0.0.1.1.99.dev1.dist-info/RECORD,,

@@ -1,0 +1,48 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* helpdesk_ticket_subtags
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-19 07:58+0000\n"
+"PO-Revision-Date: 2024-03-19 07:58+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: helpdesk_ticket_subtags
+#: code:addons/helpdesk_ticket_subtags/models/helpdesk_tag.py:39
+#, python-format
+msgid "Circular reference detected for tag '%s'."
+msgstr "Detectada referencia cíclica para la etiqueta '%s'."
+
+#. module: helpdesk_ticket_subtags
+#: model:ir.model.fields,field_description:helpdesk_ticket_subtags.field_helpdesk_ticket_tag__display_name
+msgid "Complete Name"
+msgstr "Nombre completo"
+
+#. module: helpdesk_ticket_subtags
+#: model:ir.model,name:helpdesk_ticket_subtags.model_helpdesk_ticket_tag
+msgid "Helpdesk Tags and Subtags"
+msgstr "Etiquetas y Sub-Etiquetas para Soporte Técnico"
+
+#. module: helpdesk_ticket_subtags
+#: model:ir.model.fields,field_description:helpdesk_ticket_subtags.field_helpdesk_ticket_tag__parent_id
+msgid "Main Tag"
+msgstr "Etiqueta Principal"
+
+#. module: helpdesk_ticket_subtags
+#: model:ir.model.fields,field_description:helpdesk_ticket_subtags.field_helpdesk_ticket_tag__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: helpdesk_ticket_subtags
+#: model:ir.model.fields,field_description:helpdesk_ticket_subtags.field_helpdesk_ticket_tag__child_id
+msgid "Subtags"
+msgstr "Sub-Etiqueta"
+
