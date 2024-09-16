@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textual-kitty"
+version = "0.1.1"
+description = "Render images via Kitty's Terminal Graphics Protocol with Rich and Textual"
+authors = [
+    {name = "Simon Hayessen", email = "simon@lnqs.io"}
+]
+readme = "README.md"
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+
+  "Intended Audience :: Developers",
+
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: User Interfaces",
+
+  "License :: OSI Approved :: MIT License",
+  "License :: OSI Approved :: GNU General Public License (GPL)",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "pillow~=10.4.0",
+    "rich",
+]
+
+[project.urls]
+Homepage = "https://github.com/lnqs/textual-kitty"
+Documentation = "https://github.com/lnqs/textual-kitty"
+Repository = "https://github.com/lnqs/textual-kitty"
+Issues = "https://github.com/lnqs/textual-kitty/issues"
+
+[project.optional-dependencies]
+textual = [
+    "textual",
+]
+dev = [
+    "ruff",
+    "mypy",
+    "textual-dev",
+]
+
+[tool.setuptools]
+packages = ["textual_kitty"]
+
+[tool.ruff]
+lint.select = ["B", "D", "I", "Q"]
+line-length = 120
+exclude = [
+    ".env",
+    ".git",
+    ".venv",
+    "__pycache__",
+    "env",
+    "venv",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+docstring-code-format = true
