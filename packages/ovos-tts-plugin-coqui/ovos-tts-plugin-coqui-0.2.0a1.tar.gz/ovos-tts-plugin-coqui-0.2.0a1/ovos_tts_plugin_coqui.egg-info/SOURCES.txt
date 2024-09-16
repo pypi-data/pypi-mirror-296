@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ovos_tts_plugin_coqui/__init__.py
+ovos_tts_plugin_coqui/version.py
+ovos_tts_plugin_coqui.egg-info/PKG-INFO
+ovos_tts_plugin_coqui.egg-info/SOURCES.txt
+ovos_tts_plugin_coqui.egg-info/dependency_links.txt
+ovos_tts_plugin_coqui.egg-info/entry_points.txt
+ovos_tts_plugin_coqui.egg-info/requires.txt
+ovos_tts_plugin_coqui.egg-info/top_level.txt
+ovos_tts_plugin_coqui.egg-info/zip-safe
