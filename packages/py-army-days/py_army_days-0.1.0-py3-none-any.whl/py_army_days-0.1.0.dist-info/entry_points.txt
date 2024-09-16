@@ -1,0 +1,2 @@
+[console_scripts]
+army-days = py_army_days.cli:main
