@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oc4idskit"
+version = "0.0.4"
+authors = [{name = "Open Contracting Partnership", email = "data@open-contracting.org"}]
+description = "A suite of command-line tools for working with OC4IDS data"
+readme = "README.rst"
+license = {text = "BSD"}
+urls = {Homepage = "https://github.com/open-contracting/oc4idskit"}
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+    "jsonpointer",
+    "ocdskit>=1.1.2",
+    "ocdsmerge>=0.6",
+]
+
+[project.optional-dependencies]
+test = [
+    "coverage",
+    "pytest",
+]
+
+[project.scripts]
+oc4idskit = "oc4idskit.__main__:main"
+
+[tool.setuptools.packages.find]
+exclude = [
+    "tests",
+    "tests.*",
+]

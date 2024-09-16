@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: oc4idskit
+Version: 0.0.4
+Summary: A suite of command-line tools for working with OC4IDS data
+Author-email: Open Contracting Partnership <data@open-contracting.org>
+License: BSD
+Project-URL: Homepage, https://github.com/open-contracting/oc4idskit
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: jsonpointer
+Requires-Dist: ocdskit>=1.1.2
+Requires-Dist: ocdsmerge>=0.6
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pytest; extra == "test"
+
+|PyPI Version| |Build Status| |Coverage Status| |Python Version|
+
+A suite of command-line tools for working with OC4IDS data to:
+
+* split large packages into small packages
+* combine packages
+* convert OCDS data to OC4IDS data
+
+If you are viewing this on GitHub or PyPI, open the `full documentation <https://oc4idskit.readthedocs.io/>`__ for additional details.
+
+.. |PyPI Version| image:: https://img.shields.io/pypi/v/oc4idskit.svg
+   :target: https://pypi.org/project/oc4idskit/
+.. |Build Status| image:: https://github.com/open-contracting/oc4idskit/actions/workflows/ci.yml/badge.svg
+   :target: https://github.com/open-contracting/oc4idskit/actions/workflows/ci.yml
+.. |Coverage Status| image:: https://coveralls.io/repos/github/open-contracting/oc4idskit/badge.svg?branch=main
+   :target: https://coveralls.io/github/open-contracting/oc4idskit?branch=main
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/oc4idskit.svg
+   :target: https://pypi.org/project/oc4idskit/
