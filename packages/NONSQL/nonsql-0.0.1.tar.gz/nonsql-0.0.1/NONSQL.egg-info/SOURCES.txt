@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+NONSQL/__init__.py
+NONSQL.egg-info/PKG-INFO
+NONSQL.egg-info/SOURCES.txt
+NONSQL.egg-info/dependency_links.txt
+NONSQL.egg-info/requires.txt
+NONSQL.egg-info/top_level.txt
