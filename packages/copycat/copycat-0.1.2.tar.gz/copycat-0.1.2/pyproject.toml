@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "copycat"
+version = "0.1.2"
+description = "A tool that record and replay keyboard and mouse macro."
+authors = ["ZappaBoy <federico.zappone@justanother.cloud>"]
+maintainers = ["ZappaBoy <federico.zappone@justanother.cloud>"]
+readme = "README.md"
+packages = [{ include = "copycat" }]
+homepage = "https://github.com/ZappaBoy/copycat"
+repository = "https://github.com/ZappaBoy/copycat"
+documentation = "https://github.com/ZappaBoy/copycat/blob/main/README.md"
+keywords = ["copycat", "productivity", "macro", "keyboard", "mouse"]
+classifiers = [
+    "Topic :: Utilities",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pydantic = "^2.4.2"
+ttkthemes = "^3.2.2"
+pynput = "^1.7.7"
+joblib = "^1.4.2"
+pyautogui = "^0.9.54"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+python-dotenv = "^1.0.0"
+poetry2setup = "^1.1.0"
+pytest-env = "^0.8.1"
+
+[tool.pytest.ini_options]
+addopts = "-s -v"
+pythonpath = [
+    "copycat"
+]
+env = [
+    "ENVIRONMENT=testing",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+copycat = "copycat:main"
