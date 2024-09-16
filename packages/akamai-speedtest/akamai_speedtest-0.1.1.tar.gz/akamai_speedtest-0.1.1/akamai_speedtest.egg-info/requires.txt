@@ -1,0 +1,5 @@
+typer
+requests
+psutil
+ping3
+typing_extensions

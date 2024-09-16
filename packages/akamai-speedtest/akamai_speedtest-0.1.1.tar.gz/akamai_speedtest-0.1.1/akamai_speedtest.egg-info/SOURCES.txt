@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+Readme.md
+pyproject.toml
+setup.py
+akamai_speedtest.egg-info/PKG-INFO
+akamai_speedtest.egg-info/SOURCES.txt
+akamai_speedtest.egg-info/dependency_links.txt
+akamai_speedtest.egg-info/entry_points.txt
+akamai_speedtest.egg-info/requires.txt
+akamai_speedtest.egg-info/top_level.txt
+netspeedcli/__init__.py
+netspeedcli/netspeed.py
+netspeedcli/servers.py
+netspeedcli/settings.json
