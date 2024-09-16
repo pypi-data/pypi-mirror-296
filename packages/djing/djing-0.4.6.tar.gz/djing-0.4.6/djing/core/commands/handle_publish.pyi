@@ -1,0 +1,3 @@
+from djing.core.application import Application as Application
+
+def handle_publish(command, *args, **options) -> None: ...
