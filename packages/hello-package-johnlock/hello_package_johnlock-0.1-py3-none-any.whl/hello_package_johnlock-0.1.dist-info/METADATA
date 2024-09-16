@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hello_package_johnlock
+Version: 0.1
+Summary: A simple package that says hello
+Home-page: https://github.com/johnlock/hello_package
+Author: John Lock
+Author-email: john.lock@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Hello Package
+This is a simple package that says "Hello, (from local) world!".
