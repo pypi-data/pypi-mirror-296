@@ -1,0 +1,10 @@
+process_dcm/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+process_dcm/__main__.py,sha256=umNKDx9ztnl2cwHjs6xaAnJjKv3_phm2T6D-x0vAOC4,63
+process_dcm/const.py,sha256=jlPgLAamlayRLk7W0hN-scyQw982rM79uIGA7amQ1SQ,5395
+process_dcm/main.py,sha256=bwZsz3QfiOMqvjXmCceQRcjlDu3MLVZ6f349VQk5x9Q,5657
+process_dcm/utils.py,sha256=fvDxYNO806g5alqKW1BMLrlIGEWOrEvfgX1Vc9wBZfg,26008
+process_dcm-0.4.0.dist-info/LICENSE,sha256=sJXpHFRB3e6crX5rsB0y1qjZ2-zrEeXfsmCLvyOmfTU,1111
+process_dcm-0.4.0.dist-info/METADATA,sha256=BlntqcIG8ZNNy_s7PWCmflxI4W91ZD5aUHxvep_gFPI,7831
+process_dcm-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+process_dcm-0.4.0.dist-info/entry_points.txt,sha256=79GjRw43eqy87E-M2P2Yl39hjF1wQ1hhumv2E-RHvT8,52
+process_dcm-0.4.0.dist-info/RECORD,,
