@@ -1,0 +1,8 @@
+setup.py
+akanksha.egg-info/PKG-INFO
+akanksha.egg-info/SOURCES.txt
+akanksha.egg-info/dependency_links.txt
+akanksha.egg-info/entry_points.txt
+akanksha.egg-info/top_level.txt
+resume/__init__.py
+resume/display_resume.py
