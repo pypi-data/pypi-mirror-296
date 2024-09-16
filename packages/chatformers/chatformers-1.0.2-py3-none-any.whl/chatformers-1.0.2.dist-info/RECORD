@@ -1,0 +1,12 @@
+chatformers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatformers/chatbot.py,sha256=GxAnBamAYF9C3f7S1QIDGHBNJkgNSXOWZg6wqdK6vew,7354
+chatformers/chroma_handler.py,sha256=GdDmKTwh8SY9bohJ6Ku_LKAB08R5dmd8gR_1lxhFgUs,8401
+chatformers/constant.py,sha256=GtYMuIWNabqbseI5ZYxcuv6cQ-BkD6iez9SW9riUGu4,103
+chatformers/embedding_llm.py,sha256=mvnS4Uv6PvDzHWLIYl-MkyjXw_FKw4t9bzIhvA2pnEo,3850
+chatformers/llm.py,sha256=vkkdFdFqOycuSCMUBlvvVj_0-eLFHmjfqWdzO4zP6a4,2154
+chatformers-1.0.2.dist-info/LICENSE,sha256=pQagFXjmEc9N0rC0QKWWvTk0vmll_DgcnQFSliWo_IE,1086
+chatformers-1.0.2.dist-info/LICENSE.txt,sha256=jPRQksDG1iaDDiMDFfiYVXh_o3UX48Zlv8g0Mk0fcws,1071
+chatformers-1.0.2.dist-info/METADATA,sha256=DuIZAbvVwWTVGwmSIpfN5DG1409GeXHWBb4x819wuFI,13384
+chatformers-1.0.2.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+chatformers-1.0.2.dist-info/top_level.txt,sha256=EwLeNpp74fOyw_gU4-7zG4jEybolq2TNTLKV8Mq58e4,12
+chatformers-1.0.2.dist-info/RECORD,,
