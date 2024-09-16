@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "onsort"
+version = "0.1.0"
+description = "SOPA Algorithm, best possible probability sorting Algorithm"
+authors = ["Pablo Ruiz <pablo.r.c@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python="^3.11"
+matplotlib = "^3.7.0"
+scipy = "^1.11.3"
+sympy = "^1.12"
+numpy = "^1.26.4"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+pre-commit = "^3.3.3"
+pytest = "^7.4.3"
+mypy = "^1.10.0"
+jupyterlab = "^4.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"] # , "--cov=pytrade"
+minversion = 7.0
+pythonpath = './'
+testpaths = 'tests'
