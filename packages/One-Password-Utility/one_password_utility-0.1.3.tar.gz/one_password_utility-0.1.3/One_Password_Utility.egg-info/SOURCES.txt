@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+One_Password_Utility.egg-info/PKG-INFO
+One_Password_Utility.egg-info/SOURCES.txt
+One_Password_Utility.egg-info/dependency_links.txt
+One_Password_Utility.egg-info/top_level.txt
