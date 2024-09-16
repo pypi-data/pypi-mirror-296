@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+cellular_automata_game_of_life.egg-info/PKG-INFO
+cellular_automata_game_of_life.egg-info/SOURCES.txt
+cellular_automata_game_of_life.egg-info/dependency_links.txt
+cellular_automata_game_of_life.egg-info/entry_points.txt
+cellular_automata_game_of_life.egg-info/requires.txt
+cellular_automata_game_of_life.egg-info/top_level.txt
+conways_game_of_life/__init__.py
+conways_game_of_life/cli.py
+conways_game_of_life/game_of_life.py
