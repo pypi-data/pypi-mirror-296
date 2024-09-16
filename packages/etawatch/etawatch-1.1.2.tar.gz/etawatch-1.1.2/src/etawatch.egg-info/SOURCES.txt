@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/release.yml
+src/etawatch/__init__.py
+src/etawatch/etawatch.py
+src/etawatch.egg-info/PKG-INFO
+src/etawatch.egg-info/SOURCES.txt
+src/etawatch.egg-info/dependency_links.txt
+src/etawatch.egg-info/top_level.txt
