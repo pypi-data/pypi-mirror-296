@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: digit_base_conversions
+Version: 0.1
+Summary: A Python module for converting numbers into list of digits in a given base.
+Home-page: https://github.com/Olle7/digit_base_conversions
+Author: Olger Männik
+Author-email: olgerm@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
