@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langbatch"
+version = "0.1.0"
+description = "LangBatch is a python package with unified API for AI batch processing workloads [OpenAI, VertexAI]"
+authors = ["KarthikeyanVijayanEasyLLM <karthikeyan.vijayan@easyllm.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.43.0"
+jsonlines = "^4.0.0"
+google-cloud-aiplatform = "^1.65.0"
+google-cloud-bigquery-storage = "^2.26.0"
+fastavro = "^1.9.7"
+redis = "^5.0.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
