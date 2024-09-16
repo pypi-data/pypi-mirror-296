@@ -1,0 +1,11 @@
+README.md
+setup.py
+betterprints/__init__.py
+betterprints/betterprint.py
+betterprints/colors.py
+betterprints/main.py
+betterprints/typeclasses.py
+betterprints.egg-info/PKG-INFO
+betterprints.egg-info/SOURCES.txt
+betterprints.egg-info/dependency_links.txt
+betterprints.egg-info/top_level.txt
