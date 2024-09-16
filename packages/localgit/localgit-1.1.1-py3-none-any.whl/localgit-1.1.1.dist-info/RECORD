@@ -1,0 +1,17 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/_version.py,sha256=q8_5C0f-8mHWNb6mMw02zlYPnEGXBqvOmP3z0CEwZKM,22
+src/list.py,sha256=8YiXE3VzG56b6pn5rVQiSTKtKyiFH0LkYZZQE74uzSc,830
+src/localgit.py,sha256=k-UkuW_2W52l2Y99ubIEi4cbc8cNOPVsLLsQtcZYSGc,6933
+src/log.py,sha256=DolU91uJxMV3pp-zanRC1o87P91pI6yHbn0L7V6vIZY,858
+src/parsers.py,sha256=cD9c_HQCek8hfrbtTh6IGa013PaBQOsTAef3r1mxRYk,7712
+src/pretty_print.py,sha256=G9HaQsieClrM5TzRCvmTK_XrY2VEr7F5I6iPUAEoQDM,691
+src/pull.py,sha256=euEBtIhUs-MmRfpGKHIR5FJeJLWQQCmrbIJVWXmXZws,2841
+src/push.py,sha256=0wCH-fTgaRdbhXGJAxlWxeipIy27s7s3fXWWmDQFPcw,4644
+src/status.py,sha256=CgUCjQQzpIY38W87HBCUHJctoWjROkMzk-a4leKvhYg,3500
+src/utils.py,sha256=nPbhK6H0XSiuAvKza6WT9q4tdF81a0xIblDe5i_Zr_o,13355
+localgit-1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+localgit-1.1.1.dist-info/METADATA,sha256=PyQ2_68KdcDGPlN-0W3VGdr09wlRl0R3d4Av2a_x2Ok,4021
+localgit-1.1.1.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+localgit-1.1.1.dist-info/entry_points.txt,sha256=nUrPIwBrpxywaq9Sj0vTLhNx5tMquLSlrkowTUbTvTk,47
+localgit-1.1.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+localgit-1.1.1.dist-info/RECORD,,
