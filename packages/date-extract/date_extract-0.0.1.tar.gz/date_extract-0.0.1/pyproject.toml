@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "date_extract"
+version = "0.0.1"
+authors = [
+  { name="Eric Ellingson", email="god@eric.wtf" },
+]
+description = "Detect and extract dates"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/e-e/date_extractor"
+Issues = "https://github.com/e-e/date_extractor/issues"
