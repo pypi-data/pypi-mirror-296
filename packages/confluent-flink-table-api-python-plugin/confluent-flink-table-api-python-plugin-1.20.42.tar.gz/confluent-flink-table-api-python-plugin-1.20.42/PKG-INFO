@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: confluent-flink-table-api-python-plugin
+Version: 1.20.42
+Summary: Confluent Apache Flink Table API Python
+Home-page: https://confluent.io
+Author: Confluent
+Author-email: dev@confluent.io
+License: https://www.apache.org/licenses/LICENSE-2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Confluent Apache Flink Table API Python
