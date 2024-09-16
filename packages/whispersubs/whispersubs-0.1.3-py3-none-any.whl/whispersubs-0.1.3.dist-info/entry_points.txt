@@ -1,0 +1,2 @@
+[console_scripts]
+whispersubs = whispersubs.__main__:main
