@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sam2util
+Version: 0.1.0
+Summary: 
+Author: Matej Fric
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ffmpeg-python (>=0.2.0,<0.3.0)
+Requires-Dist: numpy (>=1.26.0,<2.0.0)
+Requires-Dist: pillow (>=10.4.0,<11.0.0)
+Requires-Dist: tqdm (>=4.66.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# SAM2 Utils
+
+```
+pip install sam2util
+```
+
