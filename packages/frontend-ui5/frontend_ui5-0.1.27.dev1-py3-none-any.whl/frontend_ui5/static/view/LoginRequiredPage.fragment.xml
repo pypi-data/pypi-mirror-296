@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.ui.layout.form"
+>
+  <MessagePage
+    title="{i18n>loginRequired.title}"
+    text="{i18n>loginRequired.text}"
+    description="{i18n>loginRequired.description}"
+    icon="sap-icon://customer"
+    showNavButton="true"
+    navButtonPress="navToHome"
+    visible="{= ${frontend>/currentUser/username} === ''}"
+  />
+</core:FragmentDefinition>

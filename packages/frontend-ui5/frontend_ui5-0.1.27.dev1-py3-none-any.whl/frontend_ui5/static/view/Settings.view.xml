@@ -1,0 +1,106 @@
+<mvc:View
+  controllerName="demo.spa.controller.Settings"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:l="sap.ui.layout"
+>
+  <Page
+    showHeader="false"
+    id="idPageSettings"
+    busyIndicatorDelay="0"
+  >
+    <OverflowToolbar>
+      <ToolbarSpacer />
+      <Title text="{i18n>settings.title}" />
+      <ToolbarSpacer />
+    </OverflowToolbar>
+    <List>
+      <CustomListItem>
+        <l:HorizontalLayout class="customSettingListItem">
+          <core:Icon
+            class="sapUiSmallMargin"
+            size="1.5rem"
+            src="sap-icon://world"
+          />
+          <Label
+            class="customMarginTop"
+            text="{i18n>settings.labelLanguage}"
+          />
+        </l:HorizontalLayout>
+        <l:HorizontalLayout class="customSettingListItem">
+          <Select
+            id="idSelectLanguage"
+            change="onChangeLanguageByInput"
+            class="sapUiTinyMargin"
+            items="{lang>/supported}"
+            width="220px"
+          >
+            <core:Item
+              key="{lang>code}"
+              text="{lang>name}"
+            />
+          </Select>
+        </l:HorizontalLayout>
+      </CustomListItem>
+      <CustomListItem>
+        <l:HorizontalLayout class="customSettingListItem">
+          <core:Icon
+            src="sap-icon://palette"
+            size="1.5rem"
+            class="sapUiSmallMargin"
+          />
+          <Label
+            class="customMarginTop"
+            text="{i18n>settings.appearance}"
+          />
+        </l:HorizontalLayout>
+        <l:HorizontalLayout class="customSettingListItem">
+          <Select
+            id="idSelectTheme"
+            change="onChangeTheme"
+            class="sapUiTinyMargin"
+            width="220px"
+          >
+            <core:Item
+              key="system"
+              text="{i18n>settings.OSPreset}"
+            />
+            <core:Item
+              key="light"
+              text="{i18n>settings.lightMode}"
+            />
+            <core:Item
+              key="dark"
+              text="{i18n>settings.darkMode}"
+            />
+          </Select>
+        </l:HorizontalLayout>
+      </CustomListItem>
+      <CustomListItem>
+        <l:HorizontalLayout class="customSettingListItem">
+          <core:Icon
+            class="sapUiSmallMargin"
+            size="1.5rem"
+            src="sap-icon://settings"
+          />
+          <Label
+            class="customMarginTop"
+            text="{i18n>settings.labelCookieConsent}"
+          />
+        </l:HorizontalLayout>
+        <l:HorizontalLayout class="customSettingListItem">
+          <Switch
+            id="idSwitchCookieConsent"
+            class="sapUiTinyMargin"
+            change="onChangeCookieConsent"
+          >
+            <layoutData>
+              <FlexItemData growFactor="1" />
+            </layoutData>
+          </Switch>
+        </l:HorizontalLayout>
+      </CustomListItem>
+    </List>
+  </Page>
+</mvc:View>

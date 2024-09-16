@@ -1,0 +1,126 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.ui.layout.form"
+>
+  <Dialog
+    id="idSignUpDialog"
+    busyIndicatorDelay="100"
+    showHeader="false"
+    contentWidth="{= ${device>/system/phone}? '18rem' : '30rem'  }"
+  >
+    <VBox class="sapUiSmallMarginBegin sapUiSmallMarginEnd">
+      <f:Form
+        id="idSignUpForm"
+        editable="true"
+        class="sapUiMediumMarginBottom"
+      >
+        <f:layout>
+          <f:ResponsiveGridLayout />
+        </f:layout>
+        <f:formContainers>
+          <f:FormContainer>
+            <f:FormElement label="">
+              <Image
+                class="sapUiSmallMarginBottom customCenteredImage"
+                height="2rem"
+                width="100%"
+                src="{frontend>/svgLogoPath}"
+              />
+              <Text
+                text="{i18n>signUp.title}"
+                width="100%"
+                textAlign="Center"
+              />
+            </f:FormElement>
+            <f:formElements>
+              <f:FormElement label="{i18n>username}">
+                <f:fields>
+                  <Input
+                    required="true"
+                    valueLiveUpdate="true"
+                    placeholder="{i18n>signUp.usernamePlaceholder}"
+                    value="{ path: 'frontend>/signUpForm/username', type : 'sap.ui.model.type.String', constraints: {maxLength: 100} }"
+                    showClearIcon="true"
+                  />
+                </f:fields>
+              </f:FormElement>
+              <f:FormElement label="{i18n>teamDialog.emailAddress}">
+                <f:fields>
+                  <Input
+                    required="true"
+                    showClearIcon="true"
+                    value="{frontend>/signUpForm/email}"
+                    valueLiveUpdate="true"
+                    valueState="{
+                      path:'frontend>/signUpForm/email',
+                      formatter: '.getEmailAddressErrorState'}"
+                    type="Email"
+                  />
+                </f:fields>
+              </f:FormElement>
+              <f:FormElement label="{i18n>password}">
+                <f:fields>
+                  <Input
+                    placeholder="{i18n>signUp.passwordPlaceholder}"
+                    required="true"
+                    showClearIcon="true"
+                    type="Password"
+                    valueLiveUpdate="true"
+                    value="{
+                      path: 'frontend>/signUpForm/password',
+                      type : 'sap.ui.model.type.String',
+                      constraints: {minLength: 8, maxLength: 100}
+                      }"
+                  />
+                </f:fields>
+              </f:FormElement>
+              <f:FormElement label="{i18n>signUp.confirmPassword}">
+                <f:fields>
+                  <Input
+                    placeholder="{i18n>signUp.confirmPasswordPlaceholder}"
+                    required="true"
+                    showClearIcon="true"
+                    type="Password"
+                    value="{path: 'frontend>/signUpForm/password_confirmation'}"
+                    valueLiveUpdate="true"
+                    valueState="{= ${frontend>/signUpForm/password} ===
+                    ${frontend>/signUpForm/password_confirmation} ? 'None' : 'Error'}"
+                  />
+                </f:fields>
+              </f:FormElement>
+              <f:FormElement label="{i18n>signUp.productKey}">
+                <f:fields>
+                  <Input
+                    placeholder="{i18n>optional}"
+                    showClearIcon="true"
+                    value="{path: 'frontend>/signUpForm/product_key'}"
+                  />
+                </f:fields>
+              </f:FormElement>
+            </f:formElements>
+          </f:FormContainer>
+        </f:formContainers>
+      </f:Form>
+    </VBox>
+    <buttons>
+      <Button
+        id="idSignUpButton"
+        text="{i18n>signUp.btnSignUp}"
+        class="sapUiSmallMarginBegin"
+        type="Emphasized"
+        enabled="{= ${frontend>/signUpForm/username} !== '' &amp;&amp;
+          ${frontend>/signUpForm/password}.length >= 8 &amp;&amp;
+          ${frontend>/signUpForm/password_confirmation} === ${frontend>/signUpForm/password} &amp;&amp;
+          ${frontend>/signUpForm/email} !== ''}"
+        press=".onSignUpPress"
+      />
+      <Button
+        text="{i18n>cancel}"
+        class="sapUiSmallMarginEnd"
+        type="Ghost"
+        press=".onCloseSignUpDialog"
+      />
+    </buttons>
+  </Dialog>
+</core:FragmentDefinition>
