@@ -1,0 +1,2 @@
+[console_scripts]
+streamlit_mui_hello = streamlit_mui:hello
