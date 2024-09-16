@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: littlelog
+Version: 0.1.1
+Summary: Minimalism python logger. 
+Home-page: https://github.com/Buggist/LittleLog
+Author: buggist
+Author-email: 316114933@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# LittleLog
+Minimalism python logger. Import it directly in one python file,
+or create a configurable instance as the logger of your whole project.
