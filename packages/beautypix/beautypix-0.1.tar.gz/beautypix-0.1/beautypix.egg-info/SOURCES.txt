@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+BPix/__init__.py
+BPix/bpix.py
+beautypix.egg-info/PKG-INFO
+beautypix.egg-info/SOURCES.txt
+beautypix.egg-info/dependency_links.txt
+beautypix.egg-info/requires.txt
+beautypix.egg-info/top_level.txt
