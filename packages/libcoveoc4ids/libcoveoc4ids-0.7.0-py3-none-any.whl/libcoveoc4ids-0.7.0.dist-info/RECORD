@@ -1,0 +1,13 @@
+libcoveoc4ids/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libcoveoc4ids/__main__.py,sha256=1da-Qi8iVwJPiVLBnTJQPN1702XacTj_0guQ8h6384M,504
+libcoveoc4ids/additional_checks.py,sha256=hQ43V8bf8guwQvWCF-0GZoDEMmfrB9VnM4F95ge16AU,3647
+libcoveoc4ids/api.py,sha256=-wmS9GekGxWxRn614O_y5GaebkVZ0DiVK4C45FqBuZ8,1150
+libcoveoc4ids/common_checks.py,sha256=Z5wUNzPftPj8TDv7lIRzd2asQdM-HtHefav_rC8S1hw,1634
+libcoveoc4ids/config.py,sha256=5BNby7ECH8N7Mbn8L0r3MAjD9XKIEoVcIBJI5D7CwKM,1085
+libcoveoc4ids/schema.py,sha256=Wu7ehbMyazG9iK8SAn8WjSx0ZNPfgS-P2cdBfd1uvVw,1821
+libcoveoc4ids-0.7.0.dist-info/LICENSE,sha256=oEQHNYh8Z3La8GO34VP0YcryCOFe4euE1-E9oOSbAD4,899
+libcoveoc4ids-0.7.0.dist-info/METADATA,sha256=6iVom4lMxzvWDTnBERHwbqdj3qHdgldA7ezuyB9IpHw,2396
+libcoveoc4ids-0.7.0.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+libcoveoc4ids-0.7.0.dist-info/entry_points.txt,sha256=bBgIK1Hzxb8_miknzb8zmj9yJt15nX3SYzWxBRapLfY,62
+libcoveoc4ids-0.7.0.dist-info/top_level.txt,sha256=oQFrQ2EyBdXoeUoc57vIY-o_E-f1OY7F4BMphQMvAmc,19
+libcoveoc4ids-0.7.0.dist-info/RECORD,,
