@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: dl-data-analysis
+Version: 0.3.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# **A Deep Learning Data Analysis Package**
+## **DataPrep and Visualization Toolkit**
+This is a Python package designed to streamline the process of preparing datasets for machine learning workflows and visualizing time-series data. This package provides essential functionality for splitting datasets, applying data scaling techniques, and visualizing feature trends, making it easier to prepare data for modeling.
+This is version 0.3.0.1 of the package, and we plan to add more features in future updates!
+
+## **Key Features**
+### **Exponential Weighted Mean Smoothing:**
+Smooths input features using an exponential weighted mean (EWM) to help reduce noise in the data before training.
+
+### **Train-Test Split with Optional Validation Split:**
+The data_prep() function handles the splitting of data into training, testing, and (optionally) validation sets, with a variety of user-defined parameters for customization.
+
+### **Scaling Options:**
+Choose between two widely-used scaling methodsâ€”MinMaxScaler and StandardScalerâ€”to normalize your data and ensure that itâ€™s well-prepared for machine learning models.
+
+### **Support for Oversampling (SMOTE):**
+The package offers optional oversampling using the SMOTE technique to handle imbalanced datasets effectively.
+
+### **Dataset Visualization:** 
+The dataset_visualize() function allows you to easily visualize time-series data for selected features, providing insights into trends and patterns in the dataset.
+
+## **Installation**
+You can install the package using pip:
+```python
+pip install dl-data-analysis
+```
+
+## **Data Preparation**
+
+```python
+import pandas as pd
+from your_package_name import data_prep
+
+# Example usage
+X_train, X_test, y_train, y_test = data_prep(
+    x_dataframe=my_data, 
+    y_data=labels, 
+    test_ratio=0.3, 
+    validation=True, 
+    scaler_type="min_max", 
+    oversample=True
+)
+```
+
+## **Visualization**
+
+```python
+from your_package_name import dataset_visualize
+
+# Example visualization
+dataset_visualize(
+    pd_dataframe=my_data, 
+    feature_list=['feature_1', 'feature_2'], 
+    Name='Sensor', 
+    list=[1, 2, 3]
+)
+```
+
+## **Planned Updates**
+This is just the first version of the package. We have plans to introduce additional features in the future, including:
+* More scaling and normalization techniques.
+* Advanced data preprocessing capabilities.
+* Enhanced visualization functions.
+* Support for more types of datasets and tasks.
+
+Stay tuned for more!
+
+# **Contributing**
+Contributions are welcome! If you have any ideas or would like to contribute to the project, please open an issue or submit a pull request.
+
+# **License**
+This project is licensed under the MIT License.
+
