@@ -1,0 +1,9 @@
+README.md
+omnivook.py
+pyproject.toml
+omnivook.egg-info/PKG-INFO
+omnivook.egg-info/SOURCES.txt
+omnivook.egg-info/dependency_links.txt
+omnivook.egg-info/entry_points.txt
+omnivook.egg-info/requires.txt
+omnivook.egg-info/top_level.txt
