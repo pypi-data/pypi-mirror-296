@@ -1,0 +1,35 @@
+[build-system]
+requires = ['setuptools', 'wheel']
+build-backend = "setuptools.build_meta"
+
+[project]
+name='latestversions'
+dynamic = ["version"]
+description = 'Reports the latest versions PyPi packages'
+readme = "README.md"
+license = {text = 'GNU AFFERO GENERAL PUBLIC LICENSE'}
+authors = [{name = 'Humberto A. Sanchez II', email = 'Humbert.A.Sanchez.II@gmail.com'}]
+maintainers = [{name = 'Humberto A. Sanchez II', email = 'Humbert.A.Sanchez.II@gmail.com'}]
+keywords = ['requirements', 'versions', 'python',]
+
+dependencies = [
+  'click~=8.1.7',
+  'codeallybasic<=1.4.0',
+]
+
+[project.urls]
+Repository = 'https://github.com/hasii2011/packageversions'
+
+
+[tool.setuptools.packages.find]
+where = ['src']
+
+[tool.setuptools.package-data]
+'packageversions.resources' = ['loggingConfiguration.json']
+
+[tool.setuptools.dynamic]
+version = {attr = 'packageversions.__version__'}
+
+[project.scripts]
+
+latestversions = "packageversions.PackageVersions:commandHandler"
