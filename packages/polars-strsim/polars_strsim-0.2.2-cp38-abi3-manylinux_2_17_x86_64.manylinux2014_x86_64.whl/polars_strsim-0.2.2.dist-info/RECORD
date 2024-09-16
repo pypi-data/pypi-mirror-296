@@ -1,0 +1,7 @@
+polars_strsim-0.2.2.dist-info/METADATA,sha256=MaJTXQvC91tf6UnM5p2WPhF0N1hIXqqIasNtOaZ7Q8k,4772
+polars_strsim-0.2.2.dist-info/WHEEL,sha256=L-CXLDl2LhdBPPVOFIceGJnf66NWZkVJrb85hY3povY,127
+polars_strsim-0.2.2.dist-info/licenses/LICENSE,sha256=uxuzxLVSjnUZ0cb4LV_FHEMBPQCZ0qwtX_AAJxMFtEg,1072
+polars_strsim/__init__.py,sha256=cvNm5XDgrxWpob4izKa0hZOTha5WQ9t4KPYhNqvCkEo,1973
+polars_strsim/utils.py,sha256=VV6DZg2tmLQwreUfRuMsAwwN3YgKVm-GJjPfWSfL-HM,1162
+polars_strsim/polars_strsim.abi3.so,sha256=ZB4mW0WXi0xIO8hVpSPaE_CIbu_becJgZQhBx0ACrLs,15315400
+polars_strsim-0.2.2.dist-info/RECORD,,
