@@ -1,0 +1,8 @@
+deepfake_detector/__init__.py,sha256=hc4ZtCkdkjI53SLAN2FFRRl2hT9OuXKwpIUgQUQkI8I,52
+deepfake_detector/detector.py,sha256=WBS8hAvodVLdNO8E5JCjGOQC0kcDauN_0_UDDdAAgUk,3410
+deepfake_detector/utils.py,sha256=VwbdM16yWoao4tgO-QCmdLRGzjAjPQJydpXyj5E_sxw,1314
+Deepfake_detector-0.0.0.dist-info/METADATA,sha256=IawhdJ9AMhh0NjlVkirfhL_yJr3HFaeaqgsordGigTU,393
+Deepfake_detector-0.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Deepfake_detector-0.0.0.dist-info/entry_points.txt,sha256=Dz4BBdrpOdGiTap89pY9MzWtng-hRyd1SrmaM1QHf6I,79
+Deepfake_detector-0.0.0.dist-info/top_level.txt,sha256=6k1EY0G5_A6MC8SBnOdTNVleEs2Q_65mdJtlVSRzfOk,18
+Deepfake_detector-0.0.0.dist-info/RECORD,,
