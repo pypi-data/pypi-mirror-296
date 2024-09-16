@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+genoforge/__init__.py
+genoforge/fitness.py
+genoforge.egg-info/PKG-INFO
+genoforge.egg-info/SOURCES.txt
+genoforge.egg-info/dependency_links.txt
+genoforge.egg-info/requires.txt
+genoforge.egg-info/top_level.txt
+tests/test_fitness.py
