@@ -1,0 +1,5 @@
+import typing
+
+ItemsKeys = typing.Literal[<items_keys>]
+
+items_key_and_id: dict[ItemsKeys, int] = {<items_key_and_id>}
