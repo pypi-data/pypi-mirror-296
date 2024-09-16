@@ -1,0 +1,13 @@
+# KKRtoVAMPIRE
+
+**_Convert the Heisenberg Hamiltonian calculated with SPR-KKR to the VAMPIRE format._**
+
+
+
+## Usage
+
+See `./examples/KKR_to_VAMPIRE_example.ipynb` for the example of use.
+
+Needed output files from SPR-KKR are: `seedname.pot_new`, `seedname_SCF.out`, `seedname_JXC_XCPLTEN_Jij.dat` and `seedname_JXC_XCPLTEN_Dij.dat`, `POSCAR_TORQUE.out`.
+
+The produced converted input files for VAMPIRE are `vampire.mat` and `vampire.UCF`, and eventually `vampire.UCF_cropped_<#interactions>_<crop threshold>` if interaction cropping was applied. 
