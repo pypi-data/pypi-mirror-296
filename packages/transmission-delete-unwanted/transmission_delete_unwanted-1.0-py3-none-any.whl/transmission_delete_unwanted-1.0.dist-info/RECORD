@@ -1,0 +1,10 @@
+transmission_delete_unwanted/delete_unwanted.py,sha256=nHN9Bye7r08ewi54OSnOA45-9T08HOqU6FRZUu_VGYs,14719
+transmission_delete_unwanted/file.py,sha256=dpjS6VPnIi34maSOyCy0fxwgRrQmKJC4TysK3khZEUw,541
+transmission_delete_unwanted/mark_unwanted.py,sha256=YIjJq_leEPu2uIU74D9Uq1rrXazYGG7aTcf_NkJxpxU,2481
+transmission_delete_unwanted/pieces.py,sha256=ovoFM6UNiJpc8A_YJ3AJ25-FHfJhebznRZkpqdyHkME,1696
+transmission_delete_unwanted-1.0.dist-info/LICENSE.txt,sha256=gnNPcuck-PrHaqzH8jww0-j8g7IJsPFSfyxtTCT2LcY,1095
+transmission_delete_unwanted-1.0.dist-info/METADATA,sha256=gRM7Yaldcau8-FF9rPtyDqS66jQ5RecQpLXNTtcnDbo,9554
+transmission_delete_unwanted-1.0.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+transmission_delete_unwanted-1.0.dist-info/entry_points.txt,sha256=u7cZ6OeMeL0YTf39fOz83a9zSsOnR7tlWNJbbUgh80Y,176
+transmission_delete_unwanted-1.0.dist-info/top_level.txt,sha256=fFomfS_kG3E5N54xyPoVDQojR4ozzVHk0tSR86Q8dnI,29
+transmission_delete_unwanted-1.0.dist-info/RECORD,,

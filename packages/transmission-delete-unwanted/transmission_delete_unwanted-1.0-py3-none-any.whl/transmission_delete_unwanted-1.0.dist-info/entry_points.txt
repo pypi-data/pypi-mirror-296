@@ -1,0 +1,3 @@
+[console_scripts]
+transmission-delete-unwanted = transmission_delete_unwanted.delete_unwanted:main
+transmission-mark-unwanted = transmission_delete_unwanted.mark_unwanted:main
