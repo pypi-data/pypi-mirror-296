@@ -1,0 +1,9 @@
+aiohttp
+aiolimiter
+polars
+tqdm
+requests
+nest_asyncio
+
+[filingsviewer]
+some-filingsviewer-dependency
