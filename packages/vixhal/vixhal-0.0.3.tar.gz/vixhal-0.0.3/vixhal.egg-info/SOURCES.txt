@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/tests_core.py
+vixhal/__init__.py
+vixhal/core.py
+vixhal.egg-info/PKG-INFO
+vixhal.egg-info/SOURCES.txt
+vixhal.egg-info/dependency_links.txt
+vixhal.egg-info/requires.txt
+vixhal.egg-info/top_level.txt
