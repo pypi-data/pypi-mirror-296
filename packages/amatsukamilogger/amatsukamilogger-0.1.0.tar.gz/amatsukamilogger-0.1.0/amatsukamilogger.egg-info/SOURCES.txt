@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+AmatsukamiLogger/__init__.py
+AmatsukamiLogger/base_logger.py
+AmatsukamiLogger/json_logs_handler.py
+AmatsukamiLogger/local_logs_handler.py
+AmatsukamiLogger/loguru_forwarder.py
+amatsukamilogger.egg-info/PKG-INFO
+amatsukamilogger.egg-info/SOURCES.txt
+amatsukamilogger.egg-info/dependency_links.txt
+amatsukamilogger.egg-info/requires.txt
+amatsukamilogger.egg-info/top_level.txt
