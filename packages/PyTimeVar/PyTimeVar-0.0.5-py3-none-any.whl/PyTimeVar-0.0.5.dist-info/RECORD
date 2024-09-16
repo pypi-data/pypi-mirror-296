@@ -1,0 +1,25 @@
+PyTimeVar/__init__.py,sha256=LugxtkKPZ17I7XRW7lBar9LRuEcCxWuTF1RrlTMgUpk,241
+PyTimeVar/bhpfilter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyTimeVar/bhpfilter/bHP.py,sha256=FpLTrGTRTg9SY6CTlluOhHJThden2dS2qxyhgLOCuSs,14478
+PyTimeVar/datasets/__init__.py,sha256=h7cAUJnsAlVi1hHRnCzTPPgTBsji0wAoV2DotcCHPgE,157
+PyTimeVar/datasets/utils.py,sha256=fyCJMAEyzSItiO3m6r-4ZjrwFzW4bmw9MIWNDViSTIk,572
+PyTimeVar/datasets/co2/Emissions_19002017.csv,sha256=h-uA_kOr0yBkmfGRhl8mYU8dt6NMAUkJa4Ta259J_Ps,63251
+PyTimeVar/datasets/gold/gold.csv,sha256=5e-M52ACx6BmbQfdyCUAGCDYc1uX9GoQbNnhc4ItVJw,1910410
+PyTimeVar/datasets/herding/CN HERDING.csv,sha256=fmnyOmsZ-z_-Jv-V6pSjjagczITrq7lFQ4pihVaE7gs,141326
+PyTimeVar/datasets/temperature/temperature.csv,sha256=ljwIn3qAoxYovQMWm5XWOlIaWAGq9T8J3WAq9eSf_nc,2721
+PyTimeVar/datasets/usd/USDindex.csv,sha256=9gPlfh4qwqD715WXR0Yl3Zgwwe64LiFNdaBIv2P-Khs,340514
+PyTimeVar/gas/GAS.py,sha256=_4KMhz8l6e-Eqko6eXzkBwcpcrA6IBOOzrkW-ZXZ4sM,13012
+PyTimeVar/gas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyTimeVar/kalman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyTimeVar/kalman/kalman.py,sha256=RV0h4N21Nux5TtEdJGUoyRYPoS9YU0pTp4dLjaPLHT4,13523
+PyTimeVar/locallinear/LLR.py,sha256=5bdbq51SVglkJIge6Yh5R4MIiHG2445QICpMML1JE-8,68225
+PyTimeVar/locallinear/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyTimeVar/powerlaw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyTimeVar/powerlaw/pwr.py,sha256=rEBgPElrWWrL0fOU25407yM03pHjaMmCL8t6-LjSXCo,5323
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/replicateSection3.py,sha256=OLGplOqwo5j7ZF5ZX4VLIte4ZaWyKnUj5EcfyjDSczg,2127
+PyTimeVar-0.0.5.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+PyTimeVar-0.0.5.dist-info/METADATA,sha256=Dh94XqpqGUbllHW0y8HXmyzwlk5pgPj9vjKI0w5eq6g,1497
+PyTimeVar-0.0.5.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+PyTimeVar-0.0.5.dist-info/top_level.txt,sha256=lWtwcjoq1usF2gB2EWUZkqpmf_IkldVhnTzi9gmQ0aE,16
+PyTimeVar-0.0.5.dist-info/RECORD,,
