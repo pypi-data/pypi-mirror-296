@@ -1,0 +1,11 @@
+tclogger/__init__.py,sha256=WEeyx_mDQYjbEkq44amhmpkS5BKp1BREiAbBBjXr8RE,271
+tclogger/envs.py,sha256=SzVbCYm8tH211Ci6cpnWYsqc2Z0yagLmYllwCSRQ6M0,1370
+tclogger/formats.py,sha256=dXkjQI8ykeWDI5Y78ohhpG6fi54o31c7mutfDj9BtYw,2002
+tclogger/logs.py,sha256=u2Ecg2_W_j4Nsg10qQRPysU0DD8VRV_oHQNa1oxSP8g,7111
+tclogger/maths.py,sha256=FRlUF7ef8Yqb0RJqFTtrFaG2jkM0ZX2FiYvhAdY9FyY,270
+tclogger/times.py,sha256=a8yBrVc7E2INA-S5lsy1Ksb5CwIfaIvVIw_5UBDmz8k,2659
+tclogger-1.0.2.dist-info/LICENSE,sha256=gdZlCmBLqf1EXXRvK3vxYr9tqtLdM6np1o1vbgnnZGA,1051
+tclogger-1.0.2.dist-info/METADATA,sha256=t5RMm3TDRtlZXOHLjXc9j7vJPDme6z0F-Y_F7fM5SmE,1458
+tclogger-1.0.2.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+tclogger-1.0.2.dist-info/top_level.txt,sha256=Si6Nr3L67sAqdn7Kz6rdorJiZSh8UFTSbgAF9iYhb6c,9
+tclogger-1.0.2.dist-info/RECORD,,
