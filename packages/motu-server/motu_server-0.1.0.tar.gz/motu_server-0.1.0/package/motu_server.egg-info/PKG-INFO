@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: motu_server
+Version: 0.1.0
+Summary: A tornado web server emulating a MOTU AVB interface's datastore API. Enables development of tools to read and manipulate the datastore without requiring an active interface.
+Author-email: Christopher Johnston <christopher_johnston@me.com>
+Project-URL: Homepage, https://github.com/ChristopherJohnston/motu_server
+Keywords: motu,avb,development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
