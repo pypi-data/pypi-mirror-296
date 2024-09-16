@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: verisnap
+Version: 0.1.1
+Summary: A tool to create directory snapshots with size-based file copying or symlinking
+Home-page: https://github.com/Chirobocea/verisnap
+Author: Mihail Chirobocea
+Author-email: mihail.chirobocea@s.unibuc.ro
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: winshell>=0.6
+Requires-Dist: pywin32>=306
+
+### VeriSnap
+
+VeriSnap is a Python tool designed to facilitate tracking and managing multiple experiment runs. It creates snapshots of directories, selectively copying or symbolically linking files based on a specified size threshold. This is especially useful in research environments where experiments might contain bugs or need to be rerun, as it provides an easy way to version and manage experiment results without risk of overwriting previous snapshots.
+
+## Key Features
+- **Automatic Versioning**: VeriSnap automatically checks the snapshot directory and increments the version number, so you donâ€™t need to worry about overwriting previous experiments.
+- **Integration with Experiment Tracking**: The generated version number can be used within your code to label saved models, and it can be integrated with tools like TensorBoard for logging metrics and results.
+- **Efficient File Management**: Files are either copied or symbolically linked based on a size threshold, optimizing storage space.
+
+## Installation
+
+To install VeriSnap, use pip:
+
+```bash
+pip install verisnap
+```
+
+## Usage 
+```
+from verisnap import make_snapshot
+
+source_dir = '/path/to/source'  # Directory containing the experiment results
+snapshots_dir = '/path/to/snapshots'  # Directory where snapshots will be stored
+threshold = 50  # MB, files larger than this will be symbolically linked
+
+version = make_snapshot(source_dir, snapshots_dir, threshold)
+
+# Proceed with your training code...
+
+# You can use the `version` in your code to label saved models or logs.
+```
