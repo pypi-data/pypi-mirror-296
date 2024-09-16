@@ -1,0 +1,7 @@
+README.md
+setup.py
+ichier/__init__.py
+ichier.egg-info/PKG-INFO
+ichier.egg-info/SOURCES.txt
+ichier.egg-info/dependency_links.txt
+ichier.egg-info/top_level.txt
