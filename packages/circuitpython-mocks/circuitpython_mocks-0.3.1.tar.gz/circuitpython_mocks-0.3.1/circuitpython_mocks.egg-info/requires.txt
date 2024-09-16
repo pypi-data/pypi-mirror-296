@@ -1,0 +1,8 @@
+adafruit-circuitpython-typing
+pytest
+typing-extensions~=4.0
+
+[tests]
+adafruit-circuitpython-busdevice
+coverage[toml]
+pytest
