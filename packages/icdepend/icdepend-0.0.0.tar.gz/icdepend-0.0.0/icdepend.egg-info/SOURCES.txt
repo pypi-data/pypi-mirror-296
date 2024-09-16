@@ -1,0 +1,7 @@
+README.md
+setup.py
+icdepend/__init__.py
+icdepend.egg-info/PKG-INFO
+icdepend.egg-info/SOURCES.txt
+icdepend.egg-info/dependency_links.txt
+icdepend.egg-info/top_level.txt
