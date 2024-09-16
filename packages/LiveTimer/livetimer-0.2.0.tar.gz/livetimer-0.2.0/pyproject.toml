@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "LiveTimer"
+version = "0.2.0"
+description = "A Python module to log multiple points in a repeating operation to get live statistics."
+authors = ["Wyko ter Haar <wyko.ter.haar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.09"
+rich = "^13.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+preview = true
+unstable = true
+
+[tool.isort]
+profile = "black"
+line_length = 120
+skip_gitignore = true
+
+[tool.ruff]
+line-length = 120
+preview = true
+fix = true
+unsafe-fixes = true
