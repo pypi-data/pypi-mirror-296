@@ -1,0 +1,6 @@
+[console_scripts]
+flux=flux.cli:app
+
+[flux.backend]
+postgres=flux.builtins.postgres:FluxPostgresBackend
+
