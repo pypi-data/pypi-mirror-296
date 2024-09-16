@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: iris_idealai
+Version: 1.2
+Summary: A module to interact with Iris that is developed by Idea AI
+Home-page: https://idealai.netlify.app
+Author: Ideal AI
+Author-email: 
+Requires-Dist: google-generativeai
+Requires-Dist: pillow
+Requires-Dist: requests
+Requires-Dist: python-dotenv
