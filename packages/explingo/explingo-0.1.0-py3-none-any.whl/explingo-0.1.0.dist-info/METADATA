@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: explingo
+Version: 0.1.0
+Summary: 
+Author: Ola Zytek
+Author-email: zyteka@mit.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dspy (>=0.1.5,<0.2.0)
+Description-Content-Type: text/markdown
+
+# <img src="https://github.com/sibyl-dev/Explingo/blob/main/parrot.jpg" width="auto" height="75"> Explingo
+
+Experiments in using LLMs for more natural, usable ML explanations and interactions.
+
+Experiments: https://colab.research.google.com/drive/1vihVH3XLccwXbqa73iF1UwsPTu_3PNBz?usp=sharing 
+
+
