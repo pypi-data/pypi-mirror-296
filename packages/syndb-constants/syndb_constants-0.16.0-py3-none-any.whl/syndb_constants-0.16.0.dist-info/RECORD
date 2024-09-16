@@ -1,0 +1,9 @@
+syndb_constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syndb_constants/app.py,sha256=N8LOB8gxoKmtljxJH1swsxR8JI89UMBSgk7n9BQthL8,577
+syndb_constants/data_license.py,sha256=sLwZMeFUNU3Q_CjNQTpScXzuR3enc29GoZ-RS3wBqPA,426
+syndb_constants/dataset.py,sha256=Or_m1mVGrNQWATVzmqxWRw-vlei3j-D4nqLnQ6wCoSw,3060
+syndb_constants/schema.py,sha256=2kH2K48q1cRQ_6kpxxooiArG0hcEFgBGXhMPtuzawr0,5493
+syndb_constants/table.py,sha256=NjUC5ZSe2lqy8ytcRbFLYATaVqvPGBN5qCJlcnCegUo,2620
+syndb_constants-0.16.0.dist-info/METADATA,sha256=7RywU9mywTDLy934wXT8Jd-twBr0ihFsACblLftfVBc,541
+syndb_constants-0.16.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+syndb_constants-0.16.0.dist-info/RECORD,,
