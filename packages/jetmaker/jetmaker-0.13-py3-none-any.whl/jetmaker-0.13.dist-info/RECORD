@@ -1,0 +1,12 @@
+jetmaker/__init__.py,sha256=DIKa0JiR467fM45Pzvz2MdgdleKR8yF-8J-dUF2oBGc,7032
+jetmaker/head.py,sha256=DlHhYcAq6adrz5ySNaqLGHPbhh1i4i0ObVXZ12BgCJo,5728
+jetmaker/networking.py,sha256=ndpYhRNHmVENs-Wg78kkRLYvczl-ucDWpexypU3L318,541
+jetmaker/other.py,sha256=g1oQEVgQYvQbxyOgCEr47WGC2uIb_kuk2Mb7igKD90c,347
+jetmaker/newserve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jetmaker/newserve/main.py,sha256=iOGJ8V_Ngjlywwc_P_M44LJcrir2XH-ulcxjILm0cvY,2699
+jetmaker/newserve/setup.py,sha256=oBN-XKiGW8q2-0UCSDz0JL0YhIL6YCqadr2COid-CXg,220
+jetmaker-0.13.dist-info/LICENSE,sha256=cYLyMJ0R6-j8pT-iXdiw6cI4AQaqg4jn4YTEhUGtNAo,1066
+jetmaker-0.13.dist-info/METADATA,sha256=ikXKPCNLinRQbLWNvmjA08JDhICL3rh7bTR30vQOdAg,2972
+jetmaker-0.13.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jetmaker-0.13.dist-info/top_level.txt,sha256=d9Ea4ik6TjH0MAfKOzMeGolHhxszSbc_1XD0OUD4ABU,9
+jetmaker-0.13.dist-info/RECORD,,
