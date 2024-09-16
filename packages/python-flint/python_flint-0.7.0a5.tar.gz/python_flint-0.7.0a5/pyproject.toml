@@ -1,0 +1,130 @@
+[project]
+name = "python-flint"
+description = "Bindings for FLINT"
+version = "0.7.0a5"
+# This needs to be in sync with README, cibuildwheel and CI config.
+requires-python = ">= 3.10"
+authors = [
+    {name = "Fredrik Johansson", email = "fredrik.johansson@gmail.com"},
+]
+license = {text = "MIT"}
+classifiers = [
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.urls]
+Homepage = "https://github.com/flintlib/python-flint"
+Documentation = "https://python-flint.readthedocs.io/en/latest/"
+Repository = "https://github.com/flintlib/python-flint"
+Changelog = "https://github.com/flintlib/python-flint/blob/master/README.md#changelog"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[build-system]
+#
+# Minimum build requirements tested in CI need to be kept in sync with the
+# versions in requires below so that they are tested.
+#
+# The upper cap on Cython is speculative but we may as well cap it given that
+# it is only a build requirement and that it is not uncommon for newer Cython
+# versions to break the build. For example Cython 3.0 broke the build and then
+# Cython 3.1 broke the build again so python-flint 0.6.0 did not have any upper
+# cap but it should have had cython>=3.0,<3.1 i.e. precisely one minor release
+# of Cython works. In future we could contemplate not having an upper cap but
+# until we have actually witnessed a Cython 3.x release that does not break the
+# build we should keep the upper cap.
+#
+requires = ["meson-python>=0.13", "cython>=3.0,<3.1"]
+build-backend = "mesonpy"
+
+[tool.cython-lint]
+# E129 visually indented line with same indent as next logical line
+# Reasoning: this rule is a little controversial
+#            (see https://github.com/PyCQA/pycodestyle/issues/386)
+#            and we ignore it to avoid needing additional indentation after
+#            long logical statements.
+#
+# E501 line too long (128 > 120 characters)
+# Reasoning: this is a work in progress and will be enforced once a line length
+#            and refactor has taken place. See issue #214
+#
+# E741 ambiguous variable name
+# Reasoning: many places it makes sense to use l or other letters as variable
+#            names as it is standard in mathematical notation.
+max-line-length = 120
+ignore = ['E129','E501','E741']
+exclude = 'src/flint/flintlib/functions.*'
+
+[tool.spin]
+package = "flint"
+
+[tool.spin.commands]
+
+"Build" = [
+    "spin.cmds.meson.build",
+    "spin.cmds.meson.test",
+    "spin.cmds.build.sdist",
+    "spin.cmds.pip.install",
+]
+"Documentation" = [
+    "spin.cmds.meson.docs",
+]
+"Environments" = [
+    "spin.cmds.meson.shell",
+    "spin.cmds.meson.ipython",
+    "spin.cmds.meson.python",
+    "spin.cmds.meson.run",
+]
+
+[tool.cibuildwheel]
+# requires-python needs to keep in sync with this and also the list of Python
+# versions the wheels are tested against in CI.
+build = "cp310-* cp311-* cp312-* cp313-* pp310-*"
+skip = "*-win32 *-manylinux_i686 *-musllinux_*"
+
+# This is needed for free-threaded wheels:
+# build = "cp313t-*"
+# free-threaded-support = true
+
+manylinux-x86_64-image = "manylinux2014"
+manylinux-i686-image = "manylinux2014"
+test-command = "python -c \"import flint; print(str(flint.fmpz(2)))\""
+
+[tool.cibuildwheel.linux.environment]
+# LD_LIBRARY_PATH is needed by auditwheel
+LD_LIBRARY_PATH = "$(pwd)/.local/lib:$LD_LIBRARY_PATH"
+PKG_CONFIG_PATH = "$(pwd)/.local/lib/pkgconfig"
+
+[tool.cibuildwheel.macos.environment]
+PKG_CONFIG_PATH = "$(pwd)/.local/lib/pkgconfig"
+
+[tool.cibuildwheel.windows.environment]
+# Setting PKG_CONFIG_PATH here breaks pkgconfig for some reason...
+# We set it in the CI workflow instead.
+# PKG_CONFIG_PATH = "$(pwd)/.local/lib/pkgconfig:$PKG_CONFIG_PATH"
+
+[tool.cibuildwheel.linux]
+before-all = "bin/cibw_before_all_linux.sh"
+
+[tool.cibuildwheel.macos]
+before-all = "bin/cibw_before_all_macosx_$(uname -m).sh"
+
+[tool.cibuildwheel.windows]
+before-all = "C:\\msys64\\usr\\bin\\bash bin/cibw_before_all_windows.sh"
+before-build = "pip install delvewheel"
+repair-wheel-command = "delvewheel repair -w {dest_dir} {wheel} --add-path .local/bin"
+
+# Previously with setuptools and MinGW it was necessary to run
+# bin/cibw_before_build_windows.sh before building the wheel to create the
+# libpython*.a files. This is no longer necessary now meson is used:
+#
+#   before-build = "pip install delvewheel && C:\\msys64\\usr\\bin\\bash bin/cibw_before_build_windows.sh"
+#
+# Previously a custom delvewheel command was needed because delvewheel would
+# reject binaries created with MinGW unless they had been stripped. This is not
+# needed any more with newer versions of delvewheel:
+#
+#   repair-wheel-command = "bin\\cibw_repair_wheel_command_windows.bat {dest_dir} {wheel}"
+#
