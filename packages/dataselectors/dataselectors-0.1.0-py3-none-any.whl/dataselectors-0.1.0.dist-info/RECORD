@@ -1,0 +1,9 @@
+dataselectors/__init__.py,sha256=ca2kYbhGphMi6XrZkAq2S28m9Nje_zphUhFGrAjBEYQ,191
+dataselectors/__version__.py,sha256=34ICPhX5ZdWpr-r_IVw89Py0msS2g4x_J0u9EjtDYI0,518
+dataselectors/base.py,sha256=ri-z0qpxWc9VURk8gZQQV0no_U4XrS3FGn3dgnBbT9g,8216
+dataselectors/selectors.py,sha256=OGVpS8w54rGeWU8uzTU48EEj72ylK0ClHk5lZ1HjAxo,8958
+dataselectors/utils.py,sha256=XmJtgJwLSAKMlJqrGP_RE88-zvsuQc81NbEwoGaob-w,3086
+dataselectors-0.1.0.dist-info/LICENSE,sha256=iNf3xKDEtaXdAfcDLrbGsMn1IVniOFNASM1S_dp62MY,7707
+dataselectors-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+dataselectors-0.1.0.dist-info/METADATA,sha256=jaSKmKUzOPmTqginddRiZ_Bg9Yhvun6kZaUkaP8Ti4M,15738
+dataselectors-0.1.0.dist-info/RECORD,,
