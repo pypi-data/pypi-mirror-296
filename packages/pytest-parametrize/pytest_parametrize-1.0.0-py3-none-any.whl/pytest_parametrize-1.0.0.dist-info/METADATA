@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: pytest-parametrize
+Version: 1.0.0
+Summary: pytest decorator for parametrizing test cases in a dict-way
+Home-page: https://github.com/MarcinSkrobczynski/pytest-parametrize
+License: MIT
+Keywords: pytest,parametrize,testing
+Author: Marcin Skrobczyński
+Author-email: marcin@skrobczynski.pl
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Requires-Dist: pytest (>=8.3.0,<9.0.0)
+Requires-Dist: setuptools (>=75.0.0,<76.0.0) ; python_version < "3.10"
+Description-Content-Type: text/markdown
+
+# pytest-parametrize
+
+[pytest](https://pytest.org/) decorator for parametrizing test cases in a dict-way.
+It is an alternative for the [pytest.mark.parametrize](https://docs.pytest.org/en/latest/how-to/parametrize.html).
+
+## Usage
+Decorate test function with test cases defined as a dictionary.
+
+Example:
+```python
+from pytest_parametrize import parametrize
+
+@parametrize(
+    {
+        "test-case-1": {"a": 1, "b": 2, "c": 3},
+        "test-case-2": {"a": 2, "b": 3, "c": 5},
+        "test-case-3": [
+            {"a": 3, "b": 5, "c": 8},
+            {"a": 5, "b": 8, "c": 13},
+            {"a": 8, "b": 13, "c": 21},
+        ],
+    },
+)
+def test_something(a, b, c):
+    assert a + b == c
+```
+
+## Installation
+
+### pip
+```shell
+pip install pytest-parametrize
+```
+
+### poetry
+```shell
+poetry add pytest-parametrize
+```
+
+# Collaboration
+
+## Test & coverage
+```shell
+pytest -vvv tests --cov=pytest_parametrize
+```
+
