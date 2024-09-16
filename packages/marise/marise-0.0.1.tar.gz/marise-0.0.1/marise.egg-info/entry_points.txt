@@ -1,0 +1,2 @@
+[nbdev]
+marise = marise._modidx:d

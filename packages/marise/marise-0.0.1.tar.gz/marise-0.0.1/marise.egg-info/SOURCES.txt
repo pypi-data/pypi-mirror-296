@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+marise/__init__.py
+marise/_modidx.py
+marise/core.py
+marise.egg-info/PKG-INFO
+marise.egg-info/SOURCES.txt
+marise.egg-info/dependency_links.txt
+marise.egg-info/entry_points.txt
+marise.egg-info/not-zip-safe
+marise.egg-info/requires.txt
+marise.egg-info/top_level.txt
