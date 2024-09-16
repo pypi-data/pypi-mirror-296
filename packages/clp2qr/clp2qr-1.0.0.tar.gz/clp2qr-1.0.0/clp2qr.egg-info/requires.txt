@@ -1,0 +1,3 @@
+pywin32==306
+qrcode==7.4.2
+qreader==3.14

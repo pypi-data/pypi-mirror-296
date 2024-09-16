@@ -1,0 +1,7 @@
+clp2qr.py
+setup.py
+clp2qr.egg-info/PKG-INFO
+clp2qr.egg-info/SOURCES.txt
+clp2qr.egg-info/dependency_links.txt
+clp2qr.egg-info/requires.txt
+clp2qr.egg-info/top_level.txt
