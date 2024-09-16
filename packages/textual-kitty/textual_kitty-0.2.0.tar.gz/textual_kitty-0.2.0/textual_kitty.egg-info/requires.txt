@@ -1,0 +1,10 @@
+pillow~=10.4.0
+rich
+
+[dev]
+ruff
+mypy
+textual-dev
+
+[textual]
+textual
