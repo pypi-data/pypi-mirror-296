@@ -1,0 +1,14 @@
+alea_data_resources/__init__.py,sha256=7cltlFl_PwybSHRmjr_9a0eOt420LdgIYZzyYetkEIM,253
+alea_data_resources/archives.py,sha256=Gi9jWMFpy377h5rHlRAKrfk_4NwSmx4-y7bCvtNnpqU,5179
+alea_data_resources/caching.py,sha256=7-EX0Q4t-udUOL9f1xUqrJtGtqpFVndv4WMq3JW4dCY,6708
+alea_data_resources/cli.py,sha256=58wWmpGEIIyqwVxeZvqe__dMcy2rpJC5Z92P2IsJpdg,5954
+alea_data_resources/sources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alea_data_resources/sources/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alea_data_resources/sources/base/http_source.py,sha256=pdWJmGmKDfkFCHYoYqcqTHyV_nVFomVOiW4cIeaCiPU,5193
+alea_data_resources/sources/cmudict.py,sha256=LNsRTjJVpV0lN7sD7v_zO6JFp2v0KmWPNgCQ3_k3u0Y,2192
+alea_data_resources/sources/wordnet.py,sha256=MyOm1HNK23DWTgIMUjpNgVNRj9hIprWxHtDyxAvtlQw,2104
+alea_data_resources-0.1.0.dist-info/LICENSE,sha256=XSFZewwdqRqQXX8y2E6pPoxr5AnlwWA9AIPLebt3FnQ,1071
+alea_data_resources-0.1.0.dist-info/METADATA,sha256=m7hkiN8tbAjRVB94V4oMCmQX8xHLFEBd2iMiRM9oVnk,2732
+alea_data_resources-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+alea_data_resources-0.1.0.dist-info/entry_points.txt,sha256=PvZu2V30HsYNLw1giPUwGOQg_q7uAvjaG08nwleK6GU,68
+alea_data_resources-0.1.0.dist-info/RECORD,,

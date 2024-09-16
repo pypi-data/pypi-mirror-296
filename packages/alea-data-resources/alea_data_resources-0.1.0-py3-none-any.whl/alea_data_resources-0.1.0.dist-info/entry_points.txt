@@ -1,0 +1,3 @@
+[console_scripts]
+alea-data-resources=alea_data_resources.cli:main
+
