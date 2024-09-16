@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/pacoteira_do_verao/__init__.py
+src/pacoteira_do_verao/main.py
+src/pacoteira_do_verao.egg-info/PKG-INFO
+src/pacoteira_do_verao.egg-info/SOURCES.txt
+src/pacoteira_do_verao.egg-info/dependency_links.txt
+src/pacoteira_do_verao.egg-info/top_level.txt
+test/test_main_function.py
