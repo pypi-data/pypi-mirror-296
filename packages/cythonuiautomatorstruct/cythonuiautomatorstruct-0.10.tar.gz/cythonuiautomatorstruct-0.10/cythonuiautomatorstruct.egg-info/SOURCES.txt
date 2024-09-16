@@ -1,0 +1,17 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cythonuiautomatorstruct/LICENSE
+cythonuiautomatorstruct/README.MD
+cythonuiautomatorstruct/__init__.py
+cythonuiautomatorstruct/requirements.txt
+cythonuiautomatorstruct/thirdparty.json
+cythonuiautomatorstruct/uistruct.pyx
+cythonuiautomatorstruct/uistruct_compile.py
+cythonuiautomatorstruct.egg-info/PKG-INFO
+cythonuiautomatorstruct.egg-info/SOURCES.txt
+cythonuiautomatorstruct.egg-info/dependency_links.txt
+cythonuiautomatorstruct.egg-info/requires.txt
+cythonuiautomatorstruct.egg-info/top_level.txt

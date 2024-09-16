@@ -1,0 +1,6 @@
+include cythonuiautomatorstruct/requirements.txt
+include cythonuiautomatorstruct/thirdparty.json
+include cythonuiautomatorstruct/uistruct.pyx
+include cythonuiautomatorstruct/uistruct_compile.py
+include cythonuiautomatorstruct/LICENSE
+include cythonuiautomatorstruct/README.MD
