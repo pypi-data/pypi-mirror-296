@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+leanhtml/__init__.py
+leanhtml/leanhtml.py
+leanhtml.egg-info/PKG-INFO
+leanhtml.egg-info/SOURCES.txt
+leanhtml.egg-info/dependency_links.txt
+leanhtml.egg-info/requires.txt
+leanhtml.egg-info/top_level.txt
+leanhtml/templates/lean.html

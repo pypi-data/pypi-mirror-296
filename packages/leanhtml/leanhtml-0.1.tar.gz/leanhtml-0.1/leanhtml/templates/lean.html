@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include pako.js library from CDN for decompression -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.0.3/pako.min.js"></script>
+    <style>
+        /* CSS to make the iframe cover the entire viewport */
+        #loading-frame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            border: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Function to decode and decompress the base64-encoded content
+            function decodeAndDecompressContent(encodedContent) {
+                // Decode the base64-encoded content
+                var decodedContent = atob(encodedContent);
+                
+                // Convert the decoded content to a Uint8Array
+                var bytes = new Uint8Array(decodedContent.length);
+                for (var i = 0; i < decodedContent.length; i++) {
+                    bytes[i] = decodedContent.charCodeAt(i);
+                }
+
+                // Decompress the content using pako.js (a JavaScript implementation of zlib)
+                var decompressedContent = pako.inflate(bytes, { to: 'string' });
+
+                return decompressedContent;
+            }
+
+            // Decode and decompress the base64-encoded content
+            var encodedContent = '{{ compressed_content | safe }}';
+            var decompressedContent = decodeAndDecompressContent(encodedContent);
+
+            // Create a new iframe element
+            var iframe = document.createElement('iframe');
+            iframe.id = 'loading-frame'; // Set an ID for styling
+            iframe.style.display = 'none'; // Initially hide the iframe
+            iframe.onload = function() {
+                // Once the iframe content is loaded, show it
+                iframe.style.display = 'block';
+            };
+
+            // Append script to handle link clicks
+            var script = `
+                document.addEventListener('DOMContentLoaded', function() {
+                    var links = document.querySelectorAll('a');
+                    links.forEach(function(link) {
+                        link.addEventListener('click', function(event) {
+                            event.preventDefault();
+                            window.top.location.href = link.href;
+                        });
+                    });
+                });
+            `;
+            decompressedContent += `<script>${script}<\/script>`;
+
+            // Set the content of the iframe to the decompressed HTML
+            document.body.appendChild(iframe);
+            iframe.contentDocument.open();
+            iframe.contentDocument.write(decompressedContent);
+            iframe.contentDocument.close();
+        });
+    </script>
+</body>
+</html>

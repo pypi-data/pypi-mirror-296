@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: leanhtml
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: htmlmin
