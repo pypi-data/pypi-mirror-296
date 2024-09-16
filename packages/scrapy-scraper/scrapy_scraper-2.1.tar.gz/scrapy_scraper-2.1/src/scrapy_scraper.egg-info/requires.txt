@@ -1,0 +1,8 @@
+beautifulsoup4>=4.11.1
+bs4>=0.0.1
+colorama>=0.4.6
+datetime>=5.2
+jsbeautifier>=1.14.11
+scrapy>=2.11.0
+termcolor>=1.1.0
+tldextract>=3.6.0
