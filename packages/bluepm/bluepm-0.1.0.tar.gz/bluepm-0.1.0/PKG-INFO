@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: bluepm
+Version: 0.1.0
+Summary: A Python client for interacting with the Blue project management GraphQL API
+Home-page: https://gitlab.com/bloohq/blue-python-module
+Author: Emanuele Faja
+Author-email: manny@blue.cc
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anyio
+Requires-Dist: backoff
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: gql
+Requires-Dist: graphql-core
+Requires-Dist: idna
+Requires-Dist: multidict
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: sniffio
+Requires-Dist: urllib3
+Requires-Dist: yarl
+
+# Welcome to the Blue API Python SDK
+
+This SDK is designed to facilitate interaction with the Blue API, enabling you to use Blue API endpoints in your Python projects.
+
+We're in the early stages of development, so expect frequent updates and improvements. We only have a few endpoints available at the moment, but we'll be adding more over time to make it easier to manage your Blue environment programmatically.
+
+Currently, we support the following endpoints:
+
+- **get_project_list**: List all projects (name and id)
+- **get_project_list_full_details**:  List all projects (full details)
+- **create_project**: Create a new project 
+- **get_records_company**: Get all records across a company
+
+Stay Productive,
+
+Team Blue

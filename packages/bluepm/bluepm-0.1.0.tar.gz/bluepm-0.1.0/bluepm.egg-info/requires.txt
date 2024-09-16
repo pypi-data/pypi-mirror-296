@@ -1,0 +1,13 @@
+anyio
+backoff
+certifi
+charset-normalizer
+gql
+graphql-core
+idna
+multidict
+requests
+requests-toolbelt
+sniffio
+urllib3
+yarl
