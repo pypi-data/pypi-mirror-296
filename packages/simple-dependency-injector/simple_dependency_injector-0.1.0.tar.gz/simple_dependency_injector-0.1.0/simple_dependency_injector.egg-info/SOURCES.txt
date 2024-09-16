@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+simple_dependency_injector/__init__.py
+simple_dependency_injector/file_handlers.py
+simple_dependency_injector/interfaces.py
+simple_dependency_injector/simple_dependency_injector.py
+simple_dependency_injector.egg-info/PKG-INFO
+simple_dependency_injector.egg-info/SOURCES.txt
+simple_dependency_injector.egg-info/dependency_links.txt
+simple_dependency_injector.egg-info/requires.txt
+simple_dependency_injector.egg-info/top_level.txt
