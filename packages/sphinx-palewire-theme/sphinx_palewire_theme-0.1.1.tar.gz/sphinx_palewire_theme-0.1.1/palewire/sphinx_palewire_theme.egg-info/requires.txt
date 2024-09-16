@@ -1,0 +1,4 @@
+Sphinx
+
+[:python_version < "3.11"]
+exceptiongroup
