@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: dbt-cloud-download-artifacts-action
+Version: 0.2.1
+Summary: Add your description here
+Author-email: Padraic Slattery <pgoslatara@gmail.com>
+License: MIT License
+Requires-Python: <3.12,>=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.32.3
+Requires-Dist: tenacity>=9.0.0
+Requires-Dist: wrapt-timeout-decorator>=1.5.1
+Provides-Extra: dev
+Requires-Dist: ipykernel; extra == "dev"
+Requires-Dist: mypy<2; extra == "dev"
+Requires-Dist: pre-commit<4; extra == "dev"
+Requires-Dist: pytest-cov<6; extra == "dev"
+Requires-Dist: pytest<9; extra == "dev"
+Requires-Dist: pytest-xdist<4; extra == "dev"
+Requires-Dist: ruff<1; extra == "dev"
+Requires-Dist: semver<4; extra == "dev"
+Requires-Dist: sqlfmt<1; extra == "dev"
+Requires-Dist: types-pycurl; extra == "dev"
+Requires-Dist: types-requests; extra == "dev"
+Requires-Dist: types-setuptools; extra == "dev"
+
+
+<div align="center">
+  <a>
+	<img src="https://img.shields.io/github/release/pgoslatara/dbt-cloud-download-artifacts-action.svg?logo=github">
+  </a>
+  <a>
+	<img src="https://github.com/pgoslatara/dbt-cloud-download-artifacts-action/actions/workflows/ci_pipeline.yml/badge.svg">
+  </a>
+  <a>
+	<img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+  </a>
+  <a>
+	<img src="https://img.shields.io/github/last-commit/pgoslatara/dbt-cloud-download-artifacts-action/main">
+  </a>
+  <a>
+	<img src="https://img.shields.io/github/commits-since/pgoslatara/dbt-cloud-download-artifacts-action/latest">
+  </a>
+</div>
+
+<div align="center">
+  <a>
+	<img src="https://img.shields.io/badge/style-ruff-41B5BE?style=flat">
+  </a>
+  <a>
+	<img src="https://www.aschey.tech/tokei/github/pgoslatara/dbt-cloud-download-artifacts-action?category=code">
+  </a>
+</div>
+<br/>
+
+# dbt-cloud-download-artifacts-action
+
+A GitHub Action to download JSON artifacts from a dbt Cloud CI job triggered by a pull request.
+
+# How to use
+
+```yaml
+name: CI pipeline
+
+on:
+  pull_request:
+      branches:
+          - main
+
+jobs:
+    download-artifacts:
+        runs-on: ubuntu-latest
+        permissions:
+            id-token: write
+        steps:
+          - name: Download dbt artifacts
+            uses: pgoslatara/dbt-cloud-download-artifacts-action@v0
+            with:
+              commit-sha: ${{ github.sha }}
+              dbt_cloud_api_token: ${{ secrets.DBT_CLOUD_API_TOKEN }}
+              output-dir: target # Optional: Defaults to ".".
+              step: 4 # Optional: Defaults to last step in CI job.
+              verbose: true # Optional: Defaults to false.
+
+          - name: Do something with the artifacts
+            ...
+```
