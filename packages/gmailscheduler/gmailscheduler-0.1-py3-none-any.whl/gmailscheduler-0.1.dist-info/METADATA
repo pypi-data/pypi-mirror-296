@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gmailscheduler
+Version: 0.1
+Summary: A flexible, timezone-aware event scheduler
+Home-page: https://github.com/yourusername/gmailscheduler
+Author: Sathish Jindam
+Author-email: sathishjindam98@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: google-auth>=2.0.0
+Requires-Dist: google-auth-oauthlib>=0.4.0
+Requires-Dist: google-auth-httplib2>=0.1.0
+Requires-Dist: google-api-python-client>=2.0.0
+Requires-Dist: pytz>=2021.1
+
+UNKNOWN
+
+

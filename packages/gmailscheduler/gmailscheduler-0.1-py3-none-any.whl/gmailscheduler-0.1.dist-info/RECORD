@@ -1,0 +1,8 @@
+timecraft/__init__.py,sha256=3ypiHZZ5miedUQGDQ1U66IJ9msyUjRd9nnFCpJtEZvo,70
+timecraft/google_calendar.py,sha256=6_ZEtpPU_9pi_ScRxdzsVdFw9LfD6SsRD-BP-5TgqcM,5114
+timecraft/participant.py,sha256=uVLMRmvR7ZuZvWJt856ZJfH6ZttXyDY-SWQ8-aPs-Qs,330
+timecraft/scheduler.py,sha256=brTxPMWFS9PjEXRwpIUUo5idC0hQBNZxaSXZ4UMQgf8,4686
+gmailscheduler-0.1.dist-info/METADATA,sha256=vtAOx29rvT5tapYgRQYrwnrSQg4R_fzuKp1D9aIeYI8,639
+gmailscheduler-0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+gmailscheduler-0.1.dist-info/top_level.txt,sha256=bC0UvvnWjeuVNU2eBznGC-b5-9X_MMp0av8Fq5ALIec,10
+gmailscheduler-0.1.dist-info/RECORD,,
