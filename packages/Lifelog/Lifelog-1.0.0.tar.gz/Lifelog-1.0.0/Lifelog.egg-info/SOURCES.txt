@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+Lifelog.egg-info/PKG-INFO
+Lifelog.egg-info/SOURCES.txt
+Lifelog.egg-info/dependency_links.txt
+Lifelog.egg-info/entry_points.txt
+Lifelog.egg-info/requires.txt
+Lifelog.egg-info/top_level.txt
+lifelog/__init__.py
+lifelog/__main__.py
+lifelog/config.py
+lifelog/crypto_utils.py
+lifelog/db_handler.py
+lifelog/res/icon_128.png
+lifelog/res/ui.glade

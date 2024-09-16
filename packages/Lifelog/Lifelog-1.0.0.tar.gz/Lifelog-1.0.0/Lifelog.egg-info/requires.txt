@@ -1,0 +1,6 @@
+pycryptodomex
+pygobject
+scrypt
+
+[dev]
+twine
