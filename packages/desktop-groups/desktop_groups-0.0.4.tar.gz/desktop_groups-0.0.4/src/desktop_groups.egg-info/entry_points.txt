@@ -1,0 +1,2 @@
+[console_scripts]
+desktop-groups = desktop_groups:__main__.main
