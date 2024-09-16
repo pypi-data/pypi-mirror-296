@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+exampleplayer/__init__.py
+exampleplayer/player.py
+exampleplayer_miloter.egg-info/PKG-INFO
+exampleplayer_miloter.egg-info/SOURCES.txt
+exampleplayer_miloter.egg-info/dependency_links.txt
+exampleplayer_miloter.egg-info/top_level.txt
