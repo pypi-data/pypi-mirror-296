@@ -1,0 +1,4 @@
+bibtexparser
+langdetect
+pylatexenc
+wikibaseintegrator
