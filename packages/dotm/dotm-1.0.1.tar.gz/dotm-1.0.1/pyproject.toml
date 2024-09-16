@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dotm"
+description = "dotm: Dotfiles Organized, Tracked, and Managed."
+version = "1.0.1"
+authors = [
+  { name = "F. Y. BALABAN", email = "fyb@fybx.dev" },
+]
+readme = "README.md"
+requires-python = ">3.10"
+keywords = ["dotfiles", "backup", "CLI"]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python :: 3",
+  "Environment :: Console",
+  "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+  "Operating System :: OS Independent",
+  "Natural Language :: English",
+  "Topic :: System :: Archiving",
+  "Topic :: System",
+  "Typing :: Typed",
+]
+
+[project.urls]
+homepage = "https://git.fybx.dev/fyb/dman"
+issues = "https://github.com/fybx/dman/issues"
+
+[project.scripts]
+dotman = "dotman:main"
