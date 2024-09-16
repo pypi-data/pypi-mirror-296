@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+src/tellus.egg-info/PKG-INFO
+src/tellus.egg-info/SOURCES.txt
+src/tellus.egg-info/dependency_links.txt
+src/tellus.egg-info/top_level.txt
