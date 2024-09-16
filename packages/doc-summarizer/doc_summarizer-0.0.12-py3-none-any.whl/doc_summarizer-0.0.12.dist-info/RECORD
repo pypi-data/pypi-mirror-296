@@ -1,0 +1,8 @@
+summarizer/__init__.py,sha256=DmiGmxLRU_kcKAeY60Q1M9j9XwqpumGPLoIfG4bbFWE,28
+summarizer/graph.py,sha256=8QYK-CGpxXvOwUqidZnKq7wRXFX5OoszU44hww4fP9k,10501
+summarizer/main.py,sha256=5LTBk8oWzt4i_EQ3SwBIkEfL3k8FGOQFZonIuB9_T3k,10005
+summarizer/stuff.py,sha256=pFn0DJKqOca-LPJnBlt1cWKyCBCtlP7xBC3LJ4cb3Nw,1830
+doc_summarizer-0.0.12.dist-info/METADATA,sha256=C9a4il-JkVwGF2iEAe-r8NfJjXSQQATgFoH6vuZIXes,7108
+doc_summarizer-0.0.12.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+doc_summarizer-0.0.12.dist-info/top_level.txt,sha256=HSrc3JWoX8BwBWyfn0V0i2PXkTDf1B9QCLrG2kjZnUg,11
+doc_summarizer-0.0.12.dist-info/RECORD,,
