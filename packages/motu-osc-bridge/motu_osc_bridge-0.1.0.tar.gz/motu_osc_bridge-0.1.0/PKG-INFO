@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: motu_osc_bridge
+Version: 0.1.0
+Summary: A service to bridge HTTP messages from a MOTU AVB interface's datastore API to an OSC Server, such as TouchOSC.
+Author-email: Christopher Johnston <christopher_johnston@me.com>
+License: MIT License
+        
+        Copyright (c) 2024 Chris Johnston
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/ChristopherJohnston/motu_osc_bridge
+Keywords: motu,avb,osc
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohappyeyeballs
+Requires-Dist: aiohttp
+Requires-Dist: aiosignal
+Requires-Dist: asyncio
+Requires-Dist: motu_datastore_client
+Requires-Dist: python-osc
+Requires-Dist: zeroconf
+
+# MOTU AVB Websocket Bridge
+
+A service to bridge HTTP messages from a MOTU AVB interface's datastore API to an OSC Server, such as TouchOSC.
+
+* For Datastore API, see [MOTU AVB Datastore API Docs](https://cdn-data.motu.com/downloads/audio/AVB/docs/MOTU%20AVB%20Web%20API.pdf)
+* For OSC Reference, see [MOTU AVB OSC Reference](https://cdn-data.motu.com/downloads/audio/AVB/docs/OSC%20Quick%20Reference.pdf)
+
+# Usage
+
+In the command line at the project root, run:
+
+```
+./run <OSC SERVER NAME> --avbserver http://localhost:8888
+```
+
+The "OSC SERVER NAME" is the ZeroConf (Bonjour) name of the OSC server that will be listening for messages, e.g. for  touchOSC this might be "iPhone [iPhone] (TouchOSC)". The application will wait for this server to become available, connect to it and begin long-polling the MOTU AVB device to listen for changes. The service will relay any changes to the OSC server as OSC messages. For TouchOSC Configuration, see [OSC Connection](https://hexler.net/touchosc-mk1/manual/configuration-connections-osc#:~:text=Port%20(incoming),receiving%20OSC%20messages%20with%20TouchOSC.)
+
+The "AVB Server" is the URI of the MOTU AVB device to which the service will connect and relay any datastore updates. For a 1248, this might be http://1248.local. For testing connectivity to a virtual MOTU AVB device, use my [MOTU Development AVB Server](https://github.com/ChristopherJohnston/motu_server) repository.
+
+# Reference
+
+* [Python-ZeroConf Async Browser](https://github.com/python-zeroconf/python-zeroconf/blob/master/examples/async_browser.py)
+* [Python-OSC Client/Server](https://pypi.org/project/python-osc/)

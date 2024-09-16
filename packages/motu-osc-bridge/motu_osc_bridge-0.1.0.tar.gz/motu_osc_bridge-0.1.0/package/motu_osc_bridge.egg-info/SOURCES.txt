@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+package/motu_osc_bridge/__init__.py
+package/motu_osc_bridge/app.py
+package/motu_osc_bridge/server.py
+package/motu_osc_bridge.egg-info/PKG-INFO
+package/motu_osc_bridge.egg-info/SOURCES.txt
+package/motu_osc_bridge.egg-info/dependency_links.txt
+package/motu_osc_bridge.egg-info/requires.txt
+package/motu_osc_bridge.egg-info/top_level.txt

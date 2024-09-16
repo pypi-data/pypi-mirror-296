@@ -1,0 +1,7 @@
+aiohappyeyeballs
+aiohttp
+aiosignal
+asyncio
+motu_datastore_client
+python-osc
+zeroconf
