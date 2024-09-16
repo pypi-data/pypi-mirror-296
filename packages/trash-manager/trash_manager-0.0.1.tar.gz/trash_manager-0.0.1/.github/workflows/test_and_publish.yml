@@ -1,0 +1,72 @@
+# This workflow will upload a Python Package using Twine when a release is created
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries
+
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Upload Python Package
+
+on:
+  release:
+    types: [published]
+
+env:
+  DEBIAN_FRONTEND: noninteractive
+
+jobs:
+  test:
+    name: Test the source code
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup python 3.9.18
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.9.18
+
+    - name: Install python requirements
+      run: python3 -m pip install --upgrade pip && python3 -m pip install pytest
+
+    - name: Install project for testing
+      run: python3 -m pip install .
+
+    - name: Run tests
+      run: python3 -m pytest
+
+  publish:
+    name: Build and publish the package
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install github cli
+      run: sudo apt install gh
+
+    - name: Authenticate github cli
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+    - name: Setup python 3.9.18
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.9.18
+
+    - name: Install python requirements
+      run: python3 -m pip install --upgrade pip && python3 -m pip install hatch
+
+    - name: Build plugin
+      run: python3 -m hatch build
+
+    - name: Update release
+      run: gh release upload ${{ github.event.release.tag_name }} dist/*.whl
+
+    - name: Publish to PyPi
+      env:
+        HATCH_INDEX_USER: __token__
+        HATCH_INDEX_AUTH: ${{ secrets.PYPI_TOKEN }}
+      run: python3 -m hatch publish
