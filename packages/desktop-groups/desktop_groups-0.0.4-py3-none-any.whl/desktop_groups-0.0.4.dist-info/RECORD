@@ -1,0 +1,15 @@
+desktop_groups/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+desktop_groups/__main__.py,sha256=J3vfuuUwcOJAhngCKG3cmMxVfJGEABTmxsIH2Eba-lM,578
+desktop_groups/group.py,sha256=8HRT0U16-Ywr_SXvSpJ2G9-byKVwhLO4dqFqDsqAft8,2443
+desktop_groups/gui.py,sha256=A0zqy18poTa-qVjYZAdcXh_JRioMZ_NOyTTKkndzb04,12256
+desktop_groups/assets/img/desktopgroups256px.ico,sha256=OPhqFdXqxdqf8vwSCaaCqhubBm-daLIJQj94bDGUTRM,6833
+desktop_groups/assets/json/desktopgroups.schema.json,sha256=rjw2Y-19qyOFhV0HTX5Ks5dp1x8saldVH7LuXonr6fU,1479
+desktop_groups/assets/lang/de.json,sha256=fyEeCdWVvKgj1iyAnQJ1ok3nEvPA-28Cp6f1xyLcNws,165
+desktop_groups/assets/lang/en.json,sha256=qABxfjQqMdcTn58rwpGBnsLE4XHFIssfUvzCcIJXROc,155
+desktop_groups/assets/lang/fr.json,sha256=G_EPl53N4COKEHGX6c_0rETjhnZu-zBNYA6voyTWRGk,167
+desktop_groups-0.0.4.dist-info/LICENSE,sha256=FHo3YUVhJ7y4raLDRyijAdAazTFpRqrX1gXDqc435vI,1233
+desktop_groups-0.0.4.dist-info/METADATA,sha256=PaCUWHyG7-xa1R6wJSjWkhljldzMAc-H_n8OARP-bz8,3479
+desktop_groups-0.0.4.dist-info/WHEEL,sha256=pL8R0wFFS65tNSRnaOVrsw9EOkOqxLrlUPenUYnJKNo,91
+desktop_groups-0.0.4.dist-info/entry_points.txt,sha256=laHbSau1Ta-1Ex0bNd8agtGZTnCRQ6gFdZawps74xm0,64
+desktop_groups-0.0.4.dist-info/top_level.txt,sha256=31aUnQNAPJNhK2ZSmd-SUS0iTx_xDb275Ks4IjwNlVE,15
+desktop_groups-0.0.4.dist-info/RECORD,,
