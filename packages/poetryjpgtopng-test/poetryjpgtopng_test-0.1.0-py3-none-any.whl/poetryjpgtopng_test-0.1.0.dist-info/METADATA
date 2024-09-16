@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: poetryjpgtopng-test
+Version: 0.1.0
+Summary: 
+Author: tuyt
+Author-email: tytwyzh@163.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pillow (>=10.4.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+
