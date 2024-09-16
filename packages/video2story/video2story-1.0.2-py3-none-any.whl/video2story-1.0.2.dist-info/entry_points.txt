@@ -1,0 +1,3 @@
+[console_scripts]
+video2story=video2story:main
+
