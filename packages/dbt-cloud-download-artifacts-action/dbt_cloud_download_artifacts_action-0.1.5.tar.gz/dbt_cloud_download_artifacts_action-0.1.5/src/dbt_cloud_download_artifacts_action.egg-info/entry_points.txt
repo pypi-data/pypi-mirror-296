@@ -1,0 +1,2 @@
+[console_scripts]
+download_artifacts = dbt_cloud_download_artifacts_action.main:cli
