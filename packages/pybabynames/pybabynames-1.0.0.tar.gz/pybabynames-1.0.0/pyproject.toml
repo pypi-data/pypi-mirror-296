@@ -1,0 +1,40 @@
+[project]
+name = "pybabynames"
+version = "1.0.0"
+description = "Python port of the R data package 'babynames'. This package provides US baby names data from the Social Security Administration (SSA). It contains all names used for at least 5 children of either sex in the United States. The package features the ability to switch between the data being imported as a Pandas DataFrame or a Polars DataFrame by setting an environment variable."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "James Joseph Balamuta"}]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "pyarrow"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/coatless-py-pkg/pybabynames"
+Changelog = "https://github.com/coatless-py-pkg/pybabynames/releases"
+Issues = "https://github.com/coatless-py-pkg/pybabynames/issues"
+CI = "https://github.com/coatless-py-pkg/pybabynames/actions"
+
+
+[project.optional-dependencies]
+test = ["pytest", "pandas", "polars"]
+docs = ["quartodoc", "pandas", "polars"]
+polars = ["polars"]
+pandas = ["pandas"]
+
+[tool.setuptools]
+packages = ["pybabynames"]
+
+[tool.setuptools.package-data]
+pybabynames = ["data/*.parquet"]

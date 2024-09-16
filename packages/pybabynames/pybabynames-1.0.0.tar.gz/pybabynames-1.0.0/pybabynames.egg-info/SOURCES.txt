@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+pybabynames/__init__.py
+pybabynames.egg-info/PKG-INFO
+pybabynames.egg-info/SOURCES.txt
+pybabynames.egg-info/dependency_links.txt
+pybabynames.egg-info/requires.txt
+pybabynames.egg-info/top_level.txt
+pybabynames/data/applicants.parquet
+pybabynames/data/babynames.parquet
+pybabynames/data/births.parquet
+pybabynames/data/lifetables.parquet
+tests/test_pybabynames.py

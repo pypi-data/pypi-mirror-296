@@ -1,0 +1,17 @@
+pyarrow
+
+[docs]
+quartodoc
+pandas
+polars
+
+[pandas]
+pandas
+
+[polars]
+polars
+
+[test]
+pytest
+pandas
+polars
