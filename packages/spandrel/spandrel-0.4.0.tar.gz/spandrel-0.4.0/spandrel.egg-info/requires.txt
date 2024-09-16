@@ -1,0 +1,6 @@
+torch
+torchvision
+safetensors
+numpy
+einops
+typing_extensions
