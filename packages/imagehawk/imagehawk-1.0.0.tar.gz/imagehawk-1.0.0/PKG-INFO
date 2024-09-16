@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: imagehawk
+Version: 1.0.0
+Summary: A package for text to image search using embeddings
+Home-page: 
+Author: Junaid Bashir
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# IMAGE HAWK
