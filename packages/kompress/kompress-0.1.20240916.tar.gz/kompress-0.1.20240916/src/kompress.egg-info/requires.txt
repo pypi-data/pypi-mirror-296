@@ -1,0 +1,12 @@
+
+[lz4]
+lz4
+
+[testing]
+pytest
+ruff
+mypy
+lxml
+
+[zstd]
+zstandard
