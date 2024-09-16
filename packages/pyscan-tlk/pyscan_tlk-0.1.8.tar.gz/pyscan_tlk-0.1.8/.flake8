@@ -1,0 +1,25 @@
+# -*- mode: conf; -*-
+## flake8 default linting configuration
+#
+# Loaded by flake8 by default
+
+[flake8]
+# DO NOT check for the following errors:
+
+# E266: too many leading '#' for block comment
+# E722: do not use bare except, specify exception instead
+# W503: Line breaks should occur after the binary operator
+# to keep all variable names aligned. (we're doing the opposite)
+# C901 too complex, change this later
+ignore=E266,E722,W503,C901
+
+; exclude=
+
+# F401: module imported but unused
+#F403 unable to detect undefined names
+per-file-ignores =
+    src/tlk/__init__.py:F401,F403
+    src/tlk/definitions/__init__.py:F401,F403
+    tests/test_import.py:F401,F403
+# 120 characters is a more agreeable max line length for modern displays
+max-line-length=120

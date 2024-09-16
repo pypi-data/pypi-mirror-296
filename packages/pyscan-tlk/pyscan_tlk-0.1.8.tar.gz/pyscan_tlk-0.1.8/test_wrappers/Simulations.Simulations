@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SimulationCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Simulations>
+    <Simulation DeviceType="81" ID="81000001" SerialNo="81000001" HardwareVersion="2">
+      <Actuators />
+    </Simulation>
+  </Simulations>
+</SimulationCollection>
