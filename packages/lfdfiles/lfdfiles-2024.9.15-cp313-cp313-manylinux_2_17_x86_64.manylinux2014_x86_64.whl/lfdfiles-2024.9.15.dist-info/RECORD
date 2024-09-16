@@ -1,0 +1,13 @@
+lfdfiles/lfdfiles.py,sha256=g5fIPTctvBpLBcXbn5NPOdxV2cxKIRuRDSSl8gKMIsI,226890
+lfdfiles/_lfdfiles.cpython-313-x86_64-linux-gnu.so,sha256=gC8cTM9MRYvB6HLiXE7VnMy3B64EjBeyXfnuxQNnqdY,4026569
+lfdfiles/__main__.py,sha256=JYhV4YEJICcvAePmUr0ZGtsNm1KyVTXKw4xTVSvdnAg,126
+lfdfiles/__init__.py,sha256=_jiQi1g0kICmr3d4HT7SYeofy9BhHaHph8d8E0NBTuQ,100
+lfdfiles/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lfdfiles/fbd2b64.py,sha256=Sno_0FcNWvV0C1qNuIcNmSon6x66enKqzXIpowIaWOw,6334
+lfdfiles-2024.9.15.dist-info/LICENSE,sha256=59DNW-_FX6yHOgj-B9ZEnTzE-yqX0V_pkDM6moVxhiA,1529
+lfdfiles-2024.9.15.dist-info/METADATA,sha256=njhEDRFJ5W3d45bxo5v45QopbdUl7Nu6C-M5KXJoURM,7647
+lfdfiles-2024.9.15.dist-info/top_level.txt,sha256=57ed1wWaI26xMH0KgmUMy6MefsknRrCIetAITP7OtBU,9
+lfdfiles-2024.9.15.dist-info/RECORD,,
+lfdfiles-2024.9.15.dist-info/WHEEL,sha256=DQuL8zSPSEpwyhRc77r1r_9FF60y7OATbwUMH_e8Rww,151
+lfdfiles-2024.9.15.dist-info/entry_points.txt,sha256=t6geUirHxKXaV-Ii9YZ4pUxxJzcrFhbsNMlJy3MRpLQ,84
+lfdfiles.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
