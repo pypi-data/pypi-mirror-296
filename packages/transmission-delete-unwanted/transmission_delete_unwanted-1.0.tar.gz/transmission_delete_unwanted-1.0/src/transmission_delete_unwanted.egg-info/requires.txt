@@ -1,0 +1,9 @@
+backoff==2.2.1
+certifi==2024.8.30
+charset-normalizer==3.3.2
+humanize==4.10.0
+idna==3.8
+requests==2.32.3
+transmission-rpc==7.0.11
+typing-extensions==4.12.2
+urllib3==2.2.2
