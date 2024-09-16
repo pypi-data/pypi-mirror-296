@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dbt-cloud-download-artifacts-action
+Version: 0.1.2
+Summary: Add your description here
+Author-email: Padraic Slattery <pgoslatara@gmail.com>
+License: MIT License
+Requires-Python: <3.12,>=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.32.3
+Requires-Dist: tenacity>=9.0.0
+Requires-Dist: wrapt-timeout-decorator>=1.5.1
+Provides-Extra: dev
+Requires-Dist: ipykernel; extra == "dev"
+Requires-Dist: mypy<2; extra == "dev"
+Requires-Dist: pre-commit<4; extra == "dev"
+Requires-Dist: pytest-cov<6; extra == "dev"
+Requires-Dist: pytest<9; extra == "dev"
+Requires-Dist: pytest-xdist<4; extra == "dev"
+Requires-Dist: ruff<1; extra == "dev"
+Requires-Dist: semver<4; extra == "dev"
+Requires-Dist: sqlfmt<1; extra == "dev"
+Requires-Dist: types-pycurl; extra == "dev"
+Requires-Dist: types-requests; extra == "dev"
+Requires-Dist: types-setuptools; extra == "dev"
+
+# dbt-cloud-download-artifacts-action
