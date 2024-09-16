@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gprob"
+version = "0.1.0"
+description = "Probabilistic programming with arrays of Gaussian variables."
+requires-python = ">= 3.7"
+readme = "readme.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Sergey Fedorov", email = "fedorov.s.a@outlook.com"},
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "Gaussian distribution",
+    "Noise",
+    "Random variables",
+    "Stochastic processes",
+    "Gaussian processes",
+    "Probabilistic programming",
+    "Python",
+    "Numpy"
+]
+dependencies = [
+    "numpy"
+]
+
+[tool.setuptools]
+packages=[
+    "gprob"
+]
