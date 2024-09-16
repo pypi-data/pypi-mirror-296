@@ -1,0 +1,11 @@
+faiss_vector_aggregator/__init__.py,sha256=qrztQ2IbMpTBXbiyjj7-2wmAocZS2ED6wu8PNyqn2LQ,183
+faiss_vector_aggregator/aggregator.py,sha256=fvh3b5AMuRCjFFlxvTJCAjfrgEbbxDcGw48AuETZWT0,3483
+faiss_vector_aggregator/embedding_methods.py,sha256=4YoC0E7csneCwEShrL8_c1Bf47kaguKtvnQTNHv39-w,7766
+faiss_vector_aggregator/faiss_index_helpers.py,sha256=Sd83LuR0Y8kM-2u0GWZeHiUqNXxY8KRu2sMPRaRshcw,1374
+faiss_vector_aggregator/test.py,sha256=pm7sn5BkKi4r_biHP_ymgHa3pNTLMjyI776UoHsOu-4,1549
+faiss_vector_aggregator/utils.py,sha256=7QawJcPs_rxF64E6-MP_TtOx9IQC6Lqi2_zMHbode3c,424
+faiss_vector_aggregator-0.3.0.dist-info/LICENSE,sha256=KPvCCIySGzF4TIKB3e8CvLmLpl8-1yxWbJepNwxrEfw,1094
+faiss_vector_aggregator-0.3.0.dist-info/METADATA,sha256=3sQrXpXt-KVVYPtTE1J3_Un_pdMcOUfYLtSTxKtwkx0,9566
+faiss_vector_aggregator-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+faiss_vector_aggregator-0.3.0.dist-info/top_level.txt,sha256=0X78dYXjQQS2PnovhOnV182worDyLKRPRdF9756LSR4,24
+faiss_vector_aggregator-0.3.0.dist-info/RECORD,,
