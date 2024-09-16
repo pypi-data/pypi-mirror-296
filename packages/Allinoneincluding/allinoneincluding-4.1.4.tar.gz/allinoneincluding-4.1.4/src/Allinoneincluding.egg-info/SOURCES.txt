@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Allinoneincluding/Allinone.py
+src/Allinoneincluding/__init__.py
+src/Allinoneincluding/book.py
+src/Allinoneincluding/calculator.py
+src/Allinoneincluding/erfenchazhao_py.py
+src/Allinoneincluding/math_cal_py.py
+src/Allinoneincluding/student_py.py
+src/Allinoneincluding/tuxing_cal.py
+src/Allinoneincluding/xiaogongju.py
+src/Allinoneincluding.egg-info/PKG-INFO
+src/Allinoneincluding.egg-info/SOURCES.txt
+src/Allinoneincluding.egg-info/dependency_links.txt
+src/Allinoneincluding.egg-info/top_level.txt
