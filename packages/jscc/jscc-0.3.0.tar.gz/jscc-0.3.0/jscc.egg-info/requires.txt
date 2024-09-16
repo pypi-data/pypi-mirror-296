@@ -1,0 +1,9 @@
+json-merge-patch
+jsonref>=1
+requests
+
+[test]
+coverage
+jsonschema
+pytest
+pytest-recording
