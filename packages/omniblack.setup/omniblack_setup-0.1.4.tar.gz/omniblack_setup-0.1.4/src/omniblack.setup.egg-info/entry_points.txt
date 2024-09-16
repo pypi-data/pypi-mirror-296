@@ -1,0 +1,10 @@
+[dist_info.writers]
+external_requires.txt = omniblack.setup:write_external_requires
+omniblack_package.json = omniblack.setup:write_package_config
+
+[distutils.setup_keywords]
+requires_external = setuptools.dist:assert_string_list
+
+[egg_info.writers]
+external_requires.txt = omniblack.setup:write_external_requires
+omniblack_package.json = omniblack.setup:write_package_config
