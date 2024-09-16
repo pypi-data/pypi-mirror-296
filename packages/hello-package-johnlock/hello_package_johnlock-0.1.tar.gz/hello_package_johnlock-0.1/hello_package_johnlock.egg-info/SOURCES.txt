@@ -1,0 +1,7 @@
+README.md
+setup.py
+hello_package/__init__.py
+hello_package_johnlock.egg-info/PKG-INFO
+hello_package_johnlock.egg-info/SOURCES.txt
+hello_package_johnlock.egg-info/dependency_links.txt
+hello_package_johnlock.egg-info/top_level.txt
