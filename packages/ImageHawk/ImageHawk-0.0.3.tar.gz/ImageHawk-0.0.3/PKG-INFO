@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ImageHawk
+Version: 0.0.3
+Summary: A package for text to image search using embeddings
+Home-page: 
+Author: Junaid Bashir
+Author-email: junaidkernel@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+### _ImageHawk_
+
+
+
+`This package generates embeddings for the given photos and saves them in the qdrant vector store`
+`It also generates embeddings for your text query`
+`It provides  a function to find an image based on its semantic similarityÂ to the text query`
+`Currently, it supports the Qdrant Vector Store, but other stores will be added soon....`
+
+> Author:Junaid Bashir
