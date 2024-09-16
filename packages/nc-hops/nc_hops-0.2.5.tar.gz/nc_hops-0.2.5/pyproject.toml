@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nc-hops"
+version = "0.2.5"
+description = "Hop file writer and reader"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+
+authors = [
+    {name = "Nikola Brajic", email = "nikolabrajic@proton.me"},
+    {name = "Igor Pekovic", email = "igor.pekovic95@gmail.com"},
+    {name = "Aleksa Marceta", email = "aleksa.marceta@gmail.com"}
+]
+
+urls = {homepage = "https://github.com/apers0/nc-hops"}
+
+dependencies = [
+    "Pillow~=10.0.1",
+    "numpy~=1.26.0",
+    "setuptools~=70.0.0",
+    "smbprotocol~=1.13.0",
+    "chardet"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+packages = ["WriteHop", "ReadHop", "BetterNest"]
+package-dir = {"" = "src"}
+
+[project.optional-dependencies]
+dev = ["pytest", "black"]
