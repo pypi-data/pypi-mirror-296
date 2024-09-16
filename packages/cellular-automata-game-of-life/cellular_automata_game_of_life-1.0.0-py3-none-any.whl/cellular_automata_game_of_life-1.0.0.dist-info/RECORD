@@ -1,0 +1,9 @@
+conways_game_of_life/__init__.py,sha256=7LlnjZ6OAQFNq__v4P7HdX1ugiL284jzwWVBaE0EYx0,36
+conways_game_of_life/cli.py,sha256=a8J4WiOBIFfpNDrO5dFJ2Qyz_qpOfPqVAr771u524EE,263
+conways_game_of_life/game_of_life.py,sha256=iZNjzu8276vWR3REwW35BuxzrDiGnmcwoFQHJRt7VcA,7448
+cellular_automata_game_of_life-1.0.0.dist-info/LICENSE,sha256=z4Isj5ZhEWCskJl-XgjWcXYVQrHtLLtH6-GA2_3jr4E,1096
+cellular_automata_game_of_life-1.0.0.dist-info/METADATA,sha256=WJVpsfjnhwDHhbYYV418K8sw6JWSdXCt3imJmpJKVbg,6185
+cellular_automata_game_of_life-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+cellular_automata_game_of_life-1.0.0.dist-info/entry_points.txt,sha256=Iqm9L_ROdwkMFm4p6BW1RE0mx4JD2B8GH2FekfkIGEA,63
+cellular_automata_game_of_life-1.0.0.dist-info/top_level.txt,sha256=8hF_IyHFBURXuS_7hAp_In6M7SBjEySoYgHctccR3cQ,21
+cellular_automata_game_of_life-1.0.0.dist-info/RECORD,,
