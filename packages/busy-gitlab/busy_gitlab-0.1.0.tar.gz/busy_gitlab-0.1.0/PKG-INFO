@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: busy-gitlab
+Version: 0.1.0
+Summary: Test for plugin architecture for Busy
+License: MIT
+Author: Steampunk Wizard
+Author-email: busy-gitlab@wizlib.ca
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: busy (>=7.4.1,<8.0.0)
+Requires-Dist: wizlib (>=3.1.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Busy plugin (GitLab)
+
+

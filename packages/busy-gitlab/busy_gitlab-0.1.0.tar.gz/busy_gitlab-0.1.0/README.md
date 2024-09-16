@@ -1,0 +1,2 @@
+# Busy plugin (GitLab)
+
