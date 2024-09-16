@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: inequalitychay
+Version: 1.0.0
+Summary: 不等式库（含解一元一次不等式和随机一元一次不等式）
+Home-page: https://github.com/lichenyichay/All-in-one-Including/
+Author: Chay
+Author-email: chay <lichenyi_2020@qq.com>
+Project-URL: Homepage, https://github.com/lichenyichay/Inequality-Including/
+Project-URL: Issues, https://github.com/lichenyichay/Inequality-Including/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Inequality-Including
+
+不等式库
+
+suijiine(dif:int) -> str
+随机不等式，dif为难度系数
+
+solveine(s:str) -> str
+解不等式，s为一元一次不等式，形如ax+b>0的形式
