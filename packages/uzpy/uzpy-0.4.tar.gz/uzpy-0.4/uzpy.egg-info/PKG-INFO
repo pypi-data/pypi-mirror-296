@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: uzpy
+Version: 0.4
+Summary: O'zbek tilidagi Python kutubxonasi
+Home-page: https://www.youtube.com/@qaxxorovdevv
+Author: Qaxxorov DEVV
+Description-Content-Type: text/markdown
+
+# uzpy
+
+`uzpy` - Bu Python kutubxonasi, bir nechta foydali funksiyalarni taqdim etadi.
+
+## Oâ€˜rnatish
+
+Kutubxonani oâ€˜rnatish uchun:
+
+```bash
+pip install uzpy
