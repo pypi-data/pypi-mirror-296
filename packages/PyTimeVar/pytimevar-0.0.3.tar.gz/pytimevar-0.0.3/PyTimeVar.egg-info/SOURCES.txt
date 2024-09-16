@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+PyTimeVar/__init__.py
+PyTimeVar.egg-info/PKG-INFO
+PyTimeVar.egg-info/SOURCES.txt
+PyTimeVar.egg-info/dependency_links.txt
+PyTimeVar.egg-info/requires.txt
+PyTimeVar.egg-info/top_level.txt
+tests/__init__.py
+tests/replicateSection3.py
