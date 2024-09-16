@@ -1,0 +1,7 @@
+tickr_agent/__init__.py,sha256=uHmKjQVRKKG_2e4gDHOCIAKlTQzxD0HW9cxl_HY3i3s,66
+tickr_agent/main.py,sha256=D6JEydFJ7sJIMNnUXqA9CxccVKga6j2U80-oHOlYpuI,14807
+tickr_agent/pandas_utils.py,sha256=B7QT6btgviIHja8rDfYUGOebEoIN5dz_Ry2Wszj9BiI,543
+tickr_agent-0.0.4.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+tickr_agent-0.0.4.dist-info/METADATA,sha256=WxKjXF8O4Auk3ZELE-XAwDTHn4dBeJfHX7q3dlj7HOI,8326
+tickr_agent-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tickr_agent-0.0.4.dist-info/RECORD,,
