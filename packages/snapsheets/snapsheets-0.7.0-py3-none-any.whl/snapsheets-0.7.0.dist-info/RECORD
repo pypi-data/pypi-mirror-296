@@ -1,0 +1,10 @@
+snapsheets/__init__.py,sha256=tdNpvVkG9CU8TSHPfE3Lv2qEM4RzYCFednwMMpcIFZ0,61
+snapsheets/book.py,sha256=wzUVeEJWooAbFa2UufYtX8JurIcbSmsyRNp0Bz-xJ8c,3912
+snapsheets/core.py,sha256=jokyXmoVNHV7jsreAKyeaQHtXZiD5Ts-xw8A7ZEotiE,15110
+snapsheets/next.py,sha256=pMrtGlyKpX4NxL8DOEFI9dcOiuEcVYWK1AQUSH2sgWc,3380
+snapsheets/sheet.py,sha256=ncl22NpC9i_2YLOMcTvxZ0HDdJzxyuDk9ECBdSiMuQ8,6967
+snapsheets-0.7.0.dist-info/LICENSE,sha256=DiwqXCE_py8FBbkoaXtbxTdKZVMaH9kmeuwCWguWYd8,1082
+snapsheets-0.7.0.dist-info/METADATA,sha256=0a7qrvjT0E5hV1la3C3sQMD9UKv0Yer9Bv3Ph_Ly_kA,4883
+snapsheets-0.7.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+snapsheets-0.7.0.dist-info/entry_points.txt,sha256=Kzo_mtR534yCaXBswXtWsX1l-G24nOn9iDJbfGC-dWc,86
+snapsheets-0.7.0.dist-info/RECORD,,
