@@ -1,0 +1,9 @@
+open_intent_classifier/__init__.py,sha256=nkflOZATLh3ofFhh4cX7TbuixP5rxJYxbhalj5qFkhw,19
+open_intent_classifier/consts.py,sha256=3XC4oPPMaoRNFXS4gnYjoQwoWVnfQzrRt6n4qYTIkIg,329
+open_intent_classifier/embedder.py,sha256=oMHK2bS4McN6pXkY5_IFkDf0FLSFBgsVtMTD_jvjYio,1281
+open_intent_classifier/model.py,sha256=AFqoQfoipLNo1JE-hmu1uBNGmi_ehwIu-IJPALNTbwc,2021
+open_intent_classifier/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open_intent_classifier-0.0.2.dist-info/METADATA,sha256=Im46RAyBwVDhb_5YlSjUDVVj-LnWJ46V5UA_7lOiFrk,3712
+open_intent_classifier-0.0.2.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+open_intent_classifier-0.0.2.dist-info/top_level.txt,sha256=nLlCwNZ48-Bc1qsHEJ1hnI81NZZ8a8Y3FXgAo9Zx85Y,23
+open_intent_classifier-0.0.2.dist-info/RECORD,,
