@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cbsodata4
+Version: 0.1.1
+Summary: Python package to access the OData4 interface of data and metadata of Statistics Netherlands (CBS)
+License: Apache-2.0
+Author: Dennis Albers
+Author-email: dennis_foss@tutan.de
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.27.2,<0.28.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: pyarrow (>=16.0.0,<17.0.0)
+Description-Content-Type: text/markdown
+
+# cbsodata4
+Python package to access the OData4 interface of data and metadata of Statistics Netherlands (CBS)
+
