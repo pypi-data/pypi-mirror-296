@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+recursive-include pywinmemscanner *
+recursive-include pywinmemscanner/utils/backend *.dll
+recursive-include pywinmemscanner/utils/backend/dist **/*.py
+recursive-include pywinmemscanner/utils/backend/dist/pyarmor_runtime_000000 *.pyd
