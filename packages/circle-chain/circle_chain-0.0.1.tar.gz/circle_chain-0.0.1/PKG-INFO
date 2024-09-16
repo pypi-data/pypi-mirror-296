@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: circle_chain
+Version: 0.0.1
+Summary: circle chain sdk in python
+Author-email: lidh04 <lidh04@gmail.com>
+Project-URL: Homepage, https://gitee.com/lidh04/python-circle-chain
+Project-URL: Issues, https://gitee.com/lidh04/python-circle-chain/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Circle Chain 
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
