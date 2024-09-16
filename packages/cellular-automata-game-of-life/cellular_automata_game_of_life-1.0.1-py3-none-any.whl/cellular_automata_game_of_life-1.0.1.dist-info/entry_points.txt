@@ -1,0 +1,2 @@
+[console_scripts]
+conways-game = conways_game_of_life.cli:main
