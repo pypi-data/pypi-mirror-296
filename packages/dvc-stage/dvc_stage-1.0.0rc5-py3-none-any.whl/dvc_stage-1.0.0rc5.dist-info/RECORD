@@ -1,0 +1,14 @@
+dvc_stage/__init__.py,sha256=MJ3qNU8IQ3oB9kogzpw9-3X1iQaJaxlEKj2Bicwv0ZM,207
+dvc_stage/cli.py,sha256=iRXXpUBphcsOqjXLQtev-lY1KVFiij0DP1hXo-hJc2A,7011
+dvc_stage/config.py,sha256=WAGfgAbquE8MB_E6-fePCQQtTkS-yOguoOXNb2dgYKY,4688
+dvc_stage/loading.py,sha256=O4hdUciVkwRPCEdAkP_Q5hLNm7ag0kz_tiV1bJSnvE0,4637
+dvc_stage/transforming.py,sha256=OVi0JyE2ILBdeHxr8uICxmIK_SbOZF2nk-JDsj4utPM,16100
+dvc_stage/utils.py,sha256=ryCGsI-y2UFBwuxilSzRKeRrujQD6ucZiXbMAXE04kY,4529
+dvc_stage/validating.py,sha256=OMdedh4rN5R7MNZBZR2z1Im-EzCMuwG1ckikIIgKGVs,8181
+dvc_stage/writing.py,sha256=MpRAM25nSZd1K2kTKP0gBS3ewiju8eUlbP1FmxxAj6Y,4130
+dvc_stage-1.0.0rc5.dist-info/COPYING,sha256=ht2dhcImlSRxGQnfXuhfqR3w6cTXQNbM5y-rxpGZEq0,35143
+dvc_stage-1.0.0rc5.dist-info/METADATA,sha256=s6EFAL1EtrsypLo_mgxWQQHz1VXQBJHx_FzdP933aVk,6428
+dvc_stage-1.0.0rc5.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+dvc_stage-1.0.0rc5.dist-info/entry_points.txt,sha256=UBwnj9UlVNX9_fEQmupEbNMTGCnoZy87DaAmbSqORo0,48
+dvc_stage-1.0.0rc5.dist-info/top_level.txt,sha256=wXVItazD07Agiv-YPGHq9Q9qIlu6PdyE8Te6JMmKM-0,10
+dvc_stage-1.0.0rc5.dist-info/RECORD,,
