@@ -1,0 +1,10 @@
+netspeedcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netspeedcli/netspeed.py,sha256=HGC54y5PvS3Udz8EhAyfqiTxIvKiye9yP1_iWKsjHD0,28514
+netspeedcli/servers.py,sha256=-WUhc_5vdR9C1zPyJVv2SxY6xr71MO8jnOzN9sjZA18,3922
+netspeedcli/settings.json,sha256=OyRfJ1NwVx1rrlEma7P8zlbpLPrxRUcuXGRXWZZ3Hb4,854
+akamai_speedtest-0.1.1.dist-info/LICENSE,sha256=wBxEwqVPvquQVSUGI8-ry7MDNEgB7WpzDOTUaQ4iBHA,1152
+akamai_speedtest-0.1.1.dist-info/METADATA,sha256=5jGNPaElips4Un06JwPFfLQFEHsfOBm_aL71l1gYkHE,3734
+akamai_speedtest-0.1.1.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+akamai_speedtest-0.1.1.dist-info/entry_points.txt,sha256=KuoFPYEcg1jXKsxVHP5Q5MoD4aehxhxcKpLqD6xkx9c,55
+akamai_speedtest-0.1.1.dist-info/top_level.txt,sha256=AZUl7gvx64lNHdIOWRwqW8qClhintlLsWsTXMEt5EUc,12
+akamai_speedtest-0.1.1.dist-info/RECORD,,
