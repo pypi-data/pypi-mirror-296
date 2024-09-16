@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["sap/ui/test/Opa5"],function(t){"use strict";class e extends t{iRestoreBodyStyles(){return this.waitFor({success:()=>{document.body.style.width="";document.body.style.left="";document.body.style.position="";document.body.classList.remove("sapUiOpaBodyComponent")}})}}return e});
+//# sourceMappingURL=Opa5Base.js.map

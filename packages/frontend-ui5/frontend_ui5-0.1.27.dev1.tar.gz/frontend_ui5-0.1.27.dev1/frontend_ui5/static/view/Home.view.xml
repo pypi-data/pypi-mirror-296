@@ -1,0 +1,92 @@
+<mvc:View
+  xmlns:core="sap.ui.core"
+  xmlns="sap.m"
+  xmlns:l="sap.ui.layout"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:form="sap.ui.layout.form"
+>
+  <Page showHeader="false">
+    <l:BlockLayout background="Dashboard">
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell titleAlignment="Center">
+          <l:titleLink>
+            <Link
+              text="{i18n>team.title}"
+              href="#/team"
+              subtle="true"
+            />
+          </l:titleLink>
+          <Text
+            textAlign="Center"
+            text="Füge deinem Team Personen hinzu, ändere Namen und E-Mail Adressen und versende Links zur Mitwirkung am Terminplan."
+            class="customCenteredTileContent"
+          />
+          <core:Icon
+            src="sap-icon://company-view"
+            size="4rem"
+            class="customCenteredTileContent"
+          />
+        </l:BlockLayoutCell>
+        <l:BlockLayoutCell titleAlignment="Center">
+          <l:titleLink>
+            <Link
+              text="{i18n>calendar.appointments}"
+              href="#/choices/appointments"
+              subtle="true"
+            />
+          </l:titleLink>
+          <Text
+            textAlign="Center"
+            text="Lege Termine für deine Teammitglieder an. Nutze bei Terminkonflikten die intelligente Assistentin, um alle Teammitglieder zu berücksichtigen."
+            class="customCenteredTileContent"
+          />
+          <core:Icon
+            src="sap-icon://calendar"
+            size="4rem"
+            class="customCenteredTileContent"
+          />
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell titleAlignment="Center">
+          <l:titleLink>
+            <Link
+              text="{i18n>calendar.availability}"
+              href="#/choices/availability"
+              subtle="true"
+            />
+          </l:titleLink>
+          <Text
+            textAlign="Center"
+            text="Lege fest, wann du für Termine zur Verfügung stehst."
+            class="customCenteredTileContent"
+          />
+          <core:Icon
+            src="sap-icon://check-availability"
+            size="4rem"
+            class="customCenteredTileContent"
+          />
+        </l:BlockLayoutCell>
+        <l:BlockLayoutCell titleAlignment="Center">
+          <l:titleLink>
+            <Link
+              text="{i18n>settings.title}"
+              href="#/settings"
+              subtle="true"
+            />
+          </l:titleLink>
+          <Text
+            textAlign="Center"
+            text="Bearbeite deine Einstellungen wie Sprache und Erscheinungsbild."
+            class="customCenteredTileContent"
+          />
+          <core:Icon
+            src="sap-icon://action-settings"
+            size="4rem"
+            class="customCenteredTileContent"
+          />
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+    </l:BlockLayout>
+  </Page>
+</mvc:View>

@@ -1,0 +1,93 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.ui.layout.form"
+>
+  <Dialog
+    id="idTeamDialog"
+    busyIndicatorDelay="100"
+    showHeader="false"
+  >
+    <Toolbar>
+      <Title
+        class="sapUiTinyMargin"
+        text="{i18n>teamDialog.title}"
+      />
+      <ToolbarSpacer />
+      <Button
+        class="sapUiTinyMargin"
+        icon="sap-icon://decline"
+        press=".onDialogClose"
+        tooltip="{i18n>close}"
+        type="Transparent"
+      />
+    </Toolbar>
+    <buttons>
+      <Button
+        text="{i18n>save}"
+        enabled="{ parts:['frontend>/personForm/first_name',
+                          'frontend>/personForm/last_name',
+                          'frontend>/personForm/email'],
+                   formatter: '.checkPersonFormInput' }"
+        icon="sap-icon://save"
+        type="{= ${frontend>/personForm/id} ? 'Emphasized' : 'Ghost' }"
+        visible="{= ${frontend>/personForm/id} ? true : false}"
+        press=".onDialogSave"
+      />
+      <Button
+        text="{i18n>add}"
+        enabled="{ parts:['frontend>/personForm/first_name',
+                          'frontend>/personForm/last_name',
+                          'frontend>/personForm/email'],
+                   formatter: '.checkPersonFormInput' }"
+        icon="sap-icon://add-employee"
+        type="{= ${frontend>/personForm/id} ? 'Ghost' : 'Emphasized' }"
+        visible="{= ${frontend>/personForm/id} ? false : true}"
+        press=".onDialogCreate"
+      />
+      <Button
+        icon="sap-icon://delete"
+        press="onDeletePersonPress"
+        text="{i18n>delete}"
+        type="Ghost"
+        visible="{= ${frontend>/personForm/id} ? true : false}"
+      />
+    </buttons>
+    <f:SimpleForm
+      layout="ResponsiveGridLayout"
+      singleContainerFullSize="false"
+    >
+      <Label
+        text="{i18n>teamDialog.firstName}"
+        labelFor="idFirstNameInput"
+      />
+      <Input
+        id="idFirstNameInput"
+        valueLiveUpdate="true"
+        showClearIcon="true"
+        value="{frontend>/personForm/first_name}"
+      />
+
+      <Label
+        text="{i18n>teamDialog.lastName}"
+        labelFor="idLastNameInput"
+      />
+      <Input
+        valueLiveUpdate="true"
+        showClearIcon="true"
+        value="{frontend>/personForm/last_name}"
+      />
+      <Label
+        text="{i18n>teamDialog.emailAddress}"
+        labelFor="idEmailInput"
+      />
+      <Input
+        valueLiveUpdate="true"
+        showClearIcon="true"
+        value="{frontend>/personForm/email}"
+        valueState="{path:'frontend>/personForm/email', formatter: '.getEmailAddressErrorState'}"
+        type="Email"
+      />
+    </f:SimpleForm>
+  </Dialog>
+</core:FragmentDefinition>

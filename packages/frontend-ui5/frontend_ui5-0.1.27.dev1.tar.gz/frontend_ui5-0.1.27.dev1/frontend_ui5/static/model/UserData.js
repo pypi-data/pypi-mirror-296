@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["../controller/utils/CustomModel"],function(t){"use strict";function e(t){return t&&t.__esModule&&typeof t.default!=="undefined"?t.default:t}const n=e(t);const s={appointment_list:[],notification_list:[],person_list:[],slot_list:[]};const o=new n(s);var i={__esModule:true};i.userDataModel=o;return i});
+//# sourceMappingURL=UserData.js.map

@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["demo/spa/controller/App.controller"],function(e){"use strict";function t(e){return e&&e.__esModule&&typeof e.default!=="undefined"?e.default:e}const o=t(e);QUnit.module("App.controller");QUnit.test("The App Controller exists",function(e){e.ok(o,"The app controller could be found")})});
+//# sourceMappingURL=App.qunit.js.map

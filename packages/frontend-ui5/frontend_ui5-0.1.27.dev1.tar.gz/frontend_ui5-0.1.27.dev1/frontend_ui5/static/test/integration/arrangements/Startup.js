@@ -1,0 +1,2 @@
+"use strict";sap.ui.define([],function(){"use strict";const t={setUpHTMLBody(){document.body.style.width="80%";document.body.style.left="20%";document.body.style.position="absolute";if(!document.body.classList.contains("sapUiOpaBodyComponent")){document.body.classList.add("sapUiOpaBodyComponent")}}};if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",()=>t.setUpHTMLBody())}else{t.setUpHTMLBody()}return t});
+//# sourceMappingURL=Startup.js.map
