@@ -1,0 +1,9 @@
+pybabynames/__init__.py,sha256=ApheNnYhc7CsXycU2RdqE9R0wMVc06ua8jNhm0mHM2o,5176
+pybabynames/data/applicants.parquet,sha256=Riqt3dfP-IZ1QEdUOWvLyJ8632rLXp7xAUUeCSmffWU,2595
+pybabynames/data/babynames.parquet,sha256=C18X5SHwqfxSv8CpDsiBYHeAyRYyK-XK1HElI_Kb-CE,6539637
+pybabynames/data/births.parquet,sha256=r6cmOXpN4z9aeKACR_gaHm_sIx_za9epC5MMMp1HqUk,1382
+pybabynames/data/lifetables.parquet,sha256=w9DyIxRM7Cgy3Xkk2B9XZpTEmqLpaI1f8xLjawo6CHA,85073
+pybabynames-1.0.0.dist-info/METADATA,sha256=niKgkGnZZ7xGSjk3Sa-1q7pkagfXJyAqlpVfxkwNbl4,4220
+pybabynames-1.0.0.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+pybabynames-1.0.0.dist-info/top_level.txt,sha256=VwMhB0Cs2s6xnHxM1nuWN3BnmOUvsVIXurUilKeaZgc,12
+pybabynames-1.0.0.dist-info/RECORD,,
