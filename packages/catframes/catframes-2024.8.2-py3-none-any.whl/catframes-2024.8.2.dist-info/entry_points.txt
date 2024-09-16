@@ -1,0 +1,3 @@
+[console_scripts]
+catframes = catframes.catframes:main
+catmanager = catframes.catmanager:main
