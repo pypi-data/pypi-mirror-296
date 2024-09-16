@@ -1,0 +1,9 @@
+mpaia/__init__.py,sha256=hSbHyZAO2C50-KUO-sKAzmw1Kubp4y4Whddeq1UiG2s,152
+mpaia/assistant.py,sha256=FoncCqupSk6BBZJviGjdmkiWvtWuIgqq_eLFzCO3iU8,3853
+mpaia/bot.py,sha256=R0nSCKPPo8QCjWRs-5_KW-qqoRfn2_84f-wxsatFupw,2383
+mpaia/jobs.py,sha256=H-g_UCN9C2Ea7V4PENVG0Kn86r5Bgrw3GcRv0C6QC-s,2813
+mpaia/telegram_bot.py,sha256=L8sFuLH6bOvH0tsZZBPCu172OPyRzSemL8YNAKBaL1c,7967
+mpaia-0.1.1.dist-info/METADATA,sha256=0HEjE1LMkMHfLiAgTRG6djfbApSUbV-OO-ucYqbaESM,3566
+mpaia-0.1.1.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+mpaia-0.1.1.dist-info/top_level.txt,sha256=MWgskAZz1CKFvW-NXojG2UPIM2gsgfFWXXxqnufUko8,6
+mpaia-0.1.1.dist-info/RECORD,,
