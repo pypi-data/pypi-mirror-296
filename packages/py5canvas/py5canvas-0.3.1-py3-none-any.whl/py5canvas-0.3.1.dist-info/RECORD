@@ -1,0 +1,16 @@
+py5canvas/__init__.py,sha256=-cB-Ut4HirtlAg2HEL85H4qcbvQW-U2jaFKqb-6WSmc,1853
+py5canvas/canvas.py,sha256=kGG_w4hoAd5hUuefHylqiP8K9lc4YlwinIlKhhzY3wI,52606
+py5canvas/create_dummy_globals.py,sha256=lVe_mPY4T7mScdkNPcyO9jZYLGv8WMYoaR_VS1aaYzg,1402
+py5canvas/dummy_globals.py,sha256=EshaMuNrYDOIyP5c-DdX1KY92qiBaa83KLjBxyeOEGc,8887
+py5canvas/globals.py,sha256=hXindVzPZRX-JDATiOEI3RALaJSUnMsxdzFD-W4zYYs,3863
+py5canvas/notebook.py,sha256=KlNwATKCyGQIKdb70dLFx8OxNtqyg9141KvonEFc3wY,1835
+py5canvas/run_sketch.py,sha256=x2_LY5vT0SlLLn0DVZO7d1eKeQ0kV0_4XXhbuvMXtgo,51944
+py5canvas/run_sketch_pyglet.py,sha256=cgX582ZKTfr92UN8lshTCSfX-61zhZ1BQp_4ULJKWWY,39731
+py5canvas/sketch_params.py,sha256=h_ggkq1X1faGqGqBHzxkcJM944L5WNFjp61HRB-wzxY,23801
+py5canvas/turtle.py,sha256=LehO1Nr1P8BUfargY5NrYB7YFiUv59GGCIkxykK9k9U,3530
+py5canvas-0.3.1.dist-info/LICENSE,sha256=pgSP7qf2vb3vEpx1HYuTgCpK3ZyCoVL0MENUYNDeoow,1067
+py5canvas-0.3.1.dist-info/METADATA,sha256=MBQ-FGgocund_MgS6LvWBrmY4DC7sxLwdNktP-4IZ0M,772
+py5canvas-0.3.1.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+py5canvas-0.3.1.dist-info/entry_points.txt,sha256=gpjINhONX0Qexn5Pnzq06lYbHh2i9ZBeTvAyzSrG2js,56
+py5canvas-0.3.1.dist-info/top_level.txt,sha256=UI4COie0iBT1S5aNqRIpcytre7SgyGrguNzfKZ6FG-c,10
+py5canvas-0.3.1.dist-info/RECORD,,
