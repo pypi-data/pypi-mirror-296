@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: motu_datastore_client
+Version: 0.1.0
+Summary: A web client for interfacing with a MOTU AVB Server.
+Author-email: Christopher Johnston <christopher_johnston@me.com>
+License: MIT License
+        
+        Copyright (c) 2024 Chris Johnston
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/ChristopherJohnston/motu_datastore_client
+Keywords: motu,avb,client
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+# MOTU AVB Datastore Client
+
+A python client to interface with a MOTU AVB interface's datastore API.
+
+* For Datastore API, see [MOTU AVB Datastore API Docs](https://cdn-data.motu.com/downloads/audio/AVB/docs/MOTU%20AVB%20Web%20API.pdf)
+* For OSC Reference, see [MOTU AVB OSC Reference](https://cdn-data.motu.com/downloads/audio/AVB/docs/OSC%20Quick%20Reference.pdf)
+
+# Usage
+
+```
+from motu_datastore_client import DatastoreClient
+import asyncio
+
+client = DatastoreClient("http://localhost:8888")
+task = asyncio.create_task(client.run(write_message))
+await asyncio.wait([task])
+```
+
+# Example
+
+```
+make develop
+make run
+```
+
+The "AVB Server" is the URI of the MOTU AVB device to which the service will connect and relay any datastore updates. For testing connectivity to a virtual MOTU AVB device, use my [MOTU Development AVB Server](https://github.com/ChristopherJohnston/motu_server) repository.
