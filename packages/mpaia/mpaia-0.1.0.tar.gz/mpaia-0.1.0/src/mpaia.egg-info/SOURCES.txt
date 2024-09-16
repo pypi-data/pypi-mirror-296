@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/mpaia/__init__.py
+src/mpaia/assistant.py
+src/mpaia/bot.py
+src/mpaia/jobs.py
+src/mpaia/telegram_bot.py
+src/mpaia.egg-info/PKG-INFO
+src/mpaia.egg-info/SOURCES.txt
+src/mpaia.egg-info/dependency_links.txt
+src/mpaia.egg-info/requires.txt
+src/mpaia.egg-info/top_level.txt
