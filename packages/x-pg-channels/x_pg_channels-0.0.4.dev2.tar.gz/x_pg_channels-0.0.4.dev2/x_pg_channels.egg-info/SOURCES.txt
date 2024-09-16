@@ -1,0 +1,14 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+makefile
+pyproject.toml
+tests/__init__.py
+tests/test_gen.py
+x_pg_channels/__init__.py
+x_pg_channels.egg-info/PKG-INFO
+x_pg_channels.egg-info/SOURCES.txt
+x_pg_channels.egg-info/dependency_links.txt
+x_pg_channels.egg-info/requires.txt
+x_pg_channels.egg-info/top_level.txt
