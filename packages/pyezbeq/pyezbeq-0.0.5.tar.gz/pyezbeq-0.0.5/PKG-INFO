@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyezbeq
+Version: 0.0.5
+Summary: A package to control ezbeq
+Home-page: https://github.com/iloveicedgreentea/pyezbeq
+Author: iloveicedgreentea2
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EzBEQ Client Python Library
+
+This library implements an API client for ezbeq and various functions to determine the right BEQ file to load. It is intended to be used in conjunction with my Home Assistant integration.
+
+> [!IMPORTANT]
+> This library has only been tested with MiniDSP 4x10HD
+
+## Functionality
+- Load Profile
+- Unload Profile
+- Searching
+- Mute commands
+- EzBEQ Version
+
+## Usage
+Refer to examples in the `tests/test_functional.py` file.
+
+## Searching
+For details on how search functions, see [my writeup](https://github.com/iloveicedgreentea/GoWatchIt?tab=readme-ov-file#matching).
+
+
+
