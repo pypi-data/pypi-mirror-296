@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+discord.socket.egg-info/PKG-INFO
+discord.socket.egg-info/SOURCES.txt
+discord.socket.egg-info/dependency_links.txt
+discord.socket.egg-info/requires.txt
+discord.socket.egg-info/top_level.txt
+discord_socket/__init__.py
+discord_socket/cache.py
+discord_socket/client.py
+discord_socket/intents.py
+discord_socket/parser.py
+discord_socket/websocket.py
