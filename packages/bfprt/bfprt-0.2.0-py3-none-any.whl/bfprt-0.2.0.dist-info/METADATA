@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bfprt
+Version: 0.2.0
+Summary: Fast median finding
+Home-page: https://github.com/gregorybchris/bfprt
+License: Apache Software License
+Keywords: median,finding,quick,select
+Author: Chris Gregory
+Author-email: christopher.b.gregory@gmail.com
+Requires-Python: >=3.12
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Project-URL: Repository, https://github.com/gregorybchris/bfprt
+Description-Content-Type: text/markdown
+
+# BFPRT Median of Medians Quickselect Algorithm
+
+Fast median finding with the median of medians selection algorithm, also known as BFPRT (named after the authors of [Blum et al. (1973)](http://people.csail.mit.edu/rivest/pubs/BFPRT73.pdf)).
+
