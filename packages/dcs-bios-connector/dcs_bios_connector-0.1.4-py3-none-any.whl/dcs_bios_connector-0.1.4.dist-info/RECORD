@@ -1,0 +1,11 @@
+dcs_bios_connector/__init__.py,sha256=DPEkMf1N88Uzj0pHDHQ6KxMk_HDxQvn1yd8zGDLbkpI,92
+dcs_bios_connector/aircraft_json_parser.py,sha256=inovwi5Y3-H75WcTljv8WXzW6-Jyl9djD071lYcpu0Y,2986
+dcs_bios_connector/control_parser.py,sha256=D8L2CSn-JniUikaCC2XXCRrJbhYY4ZYgeDs3NGB6Fag,2505
+dcs_bios_connector/dcs_bios_connector.py,sha256=n6lOu2HMPEkQ4F-jRBwb1pzo-LLstMyVttOZnJaOu9s,342
+dcs_bios_connector/event_constants.py,sha256=SsqYvMKT4VSAu5nkgunmIIhiPuq8Y7QjlsxLSu-Y6Z4,95
+dcs_bios_connector/parser.py,sha256=uB3Zb-FTdR8Rea9AT0d-zQup5E_Gh_wMYGRkKYTHwVo,1424
+dcs_bios_connector/udp_listener.py,sha256=Zt1qc126_Nn3s4vl1A9n5MkMth9We1YxW_HHTP4TzHo,1068
+dcs_bios_connector-0.1.4.dist-info/METADATA,sha256=cB1LZot3mw7B6JXOfzFZogcG6SlWg0X8bzUyl0Bkgp4,440
+dcs_bios_connector-0.1.4.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+dcs_bios_connector-0.1.4.dist-info/top_level.txt,sha256=MRsp52oOJSx3RaWXCy7TAti9GvjGRTo1CMjsJt4hLSg,19
+dcs_bios_connector-0.1.4.dist-info/RECORD,,
