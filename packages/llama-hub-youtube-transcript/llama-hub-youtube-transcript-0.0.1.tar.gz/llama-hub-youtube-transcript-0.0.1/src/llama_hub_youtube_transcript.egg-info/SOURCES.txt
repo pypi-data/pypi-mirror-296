@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/llama_hub_youtube_transcript.egg-info/PKG-INFO
+src/llama_hub_youtube_transcript.egg-info/SOURCES.txt
+src/llama_hub_youtube_transcript.egg-info/dependency_links.txt
+src/llama_hub_youtube_transcript.egg-info/entry_points.txt
+src/llama_hub_youtube_transcript.egg-info/requires.txt
+src/llama_hub_youtube_transcript.egg-info/top_level.txt
+tests/test_simple.py
