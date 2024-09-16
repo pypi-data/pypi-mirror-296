@@ -1,0 +1,1 @@
+from .asyncscore import score
