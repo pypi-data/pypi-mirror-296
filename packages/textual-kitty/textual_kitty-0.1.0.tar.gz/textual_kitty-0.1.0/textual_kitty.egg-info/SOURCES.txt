@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+textual_kitty/__init__.py
+textual_kitty/rich.py
+textual_kitty/textual.py
+textual_kitty.egg-info/PKG-INFO
+textual_kitty.egg-info/SOURCES.txt
+textual_kitty.egg-info/dependency_links.txt
+textual_kitty.egg-info/requires.txt
+textual_kitty.egg-info/top_level.txt
