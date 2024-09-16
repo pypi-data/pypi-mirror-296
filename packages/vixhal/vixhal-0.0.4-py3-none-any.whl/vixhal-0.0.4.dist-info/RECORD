@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=c3aje-XkwrJBNF2NZnBV2SMj28J5F2Ha5Y86JwbPlcc,15
+tests/tests_core.py,sha256=3bKpdZv689IJVwX9BInJrKd7ErkjNjyKtI6BSC9V9Wk,2190
+vixhal/__init__.py,sha256=ic1SC4d2taDDun8gvk2_p53p6EjDR_8ZpZTbiCeanvs,125
+vixhal/core.py,sha256=IMAyh7iHiCmKdfhe458WbU180Q72ZOssejghWf0QNSg,2387
+vixhal-0.0.4.dist-info/LICENSE,sha256=VwvItAhYYSfiwT2c_b6Z5aOxk_7sgHjjFWNdUee2_ZY,1098
+vixhal-0.0.4.dist-info/METADATA,sha256=FNt15BCDsQSEVZVfo-tLf_4oK-oTgpB7-FXR61V3JDY,4186
+vixhal-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vixhal-0.0.4.dist-info/top_level.txt,sha256=IQJpr0DW75DHmnOrNol9STbHP-RofNPTfoo5HZi071M,13
+vixhal-0.0.4.dist-info/RECORD,,
