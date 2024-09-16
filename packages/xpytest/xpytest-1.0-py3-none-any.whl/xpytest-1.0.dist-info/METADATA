@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: xpytest
+Version: 1.0
+Summary: Xpytest is a tool to test your python code
+Author: Reda ID-TALEB
+Platform: Windows
+Platform: macOS
+Platform: Linux
+Classifier: Topic :: Education :: Testing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: thonny>=4.0.0
+
+Xpytest is a tool to test your python code
