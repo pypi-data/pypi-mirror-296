@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: envpp-generator
+Version: 1.0.0
+Summary: 
+Author: moose23967
+Author-email: moose23967@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: msgspec (>=0.18.6,<0.19.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Env++ Python Generator
+
