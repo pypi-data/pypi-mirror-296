@@ -1,0 +1,7 @@
+[console_scripts]
+gui = main:main
+heyseller = heyseller:main
+keyword_search = keyword_search:main
+percenty = percenty:main
+seo = seo:main
+tao = tao:main
