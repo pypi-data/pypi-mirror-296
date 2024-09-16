@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: vixhal
+Version: 0.0.2
+Summary: A library for secure key-value pair storage and AES encryption.
+Author: Vishal Singh Baraiya
+Author-email: <thevishal010@gmail.com>
+Keywords: python,vixhal,encrypt,decrypt,bytes,AES
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome
+
+# Vixhal
+
+## Description
+
+Vixhal provides secure storage and AES encryption utilities for general key-value pairs. It supports storing entries in memory (RAM) and encrypting/decrypting data using AES-256. This design choice enables fast access to entries and data, making it suitable for various high-performance applications.
+
+## Features
+
+- **Secure Entry Storage**: Store and manage key-value pairs securely in RAM.
+- **Encryption/Decryption Utilities**: Encrypt and decrypt data with AES-256.
+- **In-Memory Storage**: Data is stored and accessed in RAM for performance, ensuring quick read/write operations.
+
+## Installation
+
+To install Vixhal, use pip:
+
+```bash
+pip install vixhal
