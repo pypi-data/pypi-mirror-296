@@ -1,0 +1,6 @@
+spandrel>=0.3.2
+torch
+torchvision
+numpy
+einops
+typing_extensions
