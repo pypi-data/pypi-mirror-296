@@ -1,0 +1,11 @@
+__main__.py
+pyproject.toml
+.github/workflows/release.yml
+faether/__init__.py
+faether/__main__.py
+faether/_version.py
+faether/asyncscore.py
+faether.egg-info/PKG-INFO
+faether.egg-info/SOURCES.txt
+faether.egg-info/dependency_links.txt
+faether.egg-info/top_level.txt
