@@ -1,0 +1,2 @@
+[console_scripts]
+lifelog = lifelog.__main__:run

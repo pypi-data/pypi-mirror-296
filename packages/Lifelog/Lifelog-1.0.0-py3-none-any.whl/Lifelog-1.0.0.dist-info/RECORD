@@ -1,0 +1,13 @@
+lifelog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lifelog/__main__.py,sha256=Sky_jKAbzkniXEWxviBmEsp3_o3Q-Igq7nHIAvvj2EE,43628
+lifelog/config.py,sha256=gcyffLQUUPgPEOHOkhrghvWZv1hAaXpQTvYHu6oi4L4,974
+lifelog/crypto_utils.py,sha256=-iRO3aokNBC0-UprWdox7vC_Gvmi62ET-HGvSCdPOww,1785
+lifelog/db_handler.py,sha256=qxzaKTqR7gbi1ZaZgaLy8EM097S8FWZWWQ6PJPGlDtE,3852
+lifelog/res/icon_128.png,sha256=FQ63rX4S8CxfX6NoF4U8O2IJwANOL3yS0Lf6YaL2pt8,15171
+lifelog/res/ui.glade,sha256=0gWitPLQ9_2glgtC9P8rvHvbsE5PLQsoGjOG81uSvZM,93369
+Lifelog-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+Lifelog-1.0.0.dist-info/METADATA,sha256=u3zx-cuXOI23IvDVhd0VZ-_3Mx1jujsfOMe7Ka5MX74,4953
+Lifelog-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Lifelog-1.0.0.dist-info/entry_points.txt,sha256=jZ0XPKoglKxcSMBxH5nZXVXO6kgjmEu6GGqjfdfXEto,49
+Lifelog-1.0.0.dist-info/top_level.txt,sha256=fYv0ehZY4hV6UwY1m__onWnmFqr6T2zIkOogQfXKqD0,8
+Lifelog-1.0.0.dist-info/RECORD,,
