@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+0things/__init__.py
+0things.egg-info/PKG-INFO
+0things.egg-info/SOURCES.txt
+0things.egg-info/dependency_links.txt
+0things.egg-info/requires.txt
+0things.egg-info/top_level.txt
