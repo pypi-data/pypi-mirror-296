@@ -1,0 +1,10 @@
+pyproject.toml
+deertick/README.md
+deertick/deertick.py
+deertick/model_data.py
+deertick/soap_yote.py
+deertick/terminal_chat.py
+deertick.egg-info/PKG-INFO
+deertick.egg-info/SOURCES.txt
+deertick.egg-info/dependency_links.txt
+deertick.egg-info/top_level.txt
