@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: imgboost
+Version: 0.1.0
+Summary: A package to enhance images with brightness, contrast, and sharpness adjustments.
+Home-page: https://github.com/dionealfarisi/imgboost
+Author: Dione Alfarisi
+Author-email: ardionefarisi1322@gmail.com
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
