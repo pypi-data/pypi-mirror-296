@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+SQL0/__init__.py
+SQL0.egg-info/PKG-INFO
+SQL0.egg-info/SOURCES.txt
+SQL0.egg-info/dependency_links.txt
+SQL0.egg-info/requires.txt
+SQL0.egg-info/top_level.txt
