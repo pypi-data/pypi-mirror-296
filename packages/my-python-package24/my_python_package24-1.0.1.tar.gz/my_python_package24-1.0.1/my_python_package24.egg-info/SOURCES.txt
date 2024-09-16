@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+my_python_package24/__init__.py
+my_python_package24/helloworld.py
+my_python_package24.egg-info/PKG-INFO
+my_python_package24.egg-info/SOURCES.txt
+my_python_package24.egg-info/dependency_links.txt
+my_python_package24.egg-info/requires.txt
+my_python_package24.egg-info/top_level.txt
