@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: llm-confidence
+Version: 0.1.1
+Summary: A Python package for extracting confidence scores from LLM models outputs, particularly using log probabilities
+Home-page: https://github.com/VATBox/llm-confidence
+Author: Your Name
+Author-email: ruth.miller@bluedotcorp.com
+License: Apache 2.0
+Project-URL: Bug Tracker, https://github.com/VATBox/llm-confidence/issues
+Keywords: logprobs handler confidence json ai llm machine-learning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# llm-confidence
+A Python package for extracting confidence scores from LLM models outputs, particularly using log probabilities.
