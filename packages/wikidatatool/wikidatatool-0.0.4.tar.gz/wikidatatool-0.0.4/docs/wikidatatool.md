@@ -1,0 +1,4 @@
+ 
+# wikidatatool module
+
+::: wikidatatool.wikidatatool

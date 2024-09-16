@@ -1,0 +1,9 @@
+numpy
+SPARQLWrapper
+pandas
+
+[all]
+wikidatatool[extra]
+
+[extra]
+pandas
