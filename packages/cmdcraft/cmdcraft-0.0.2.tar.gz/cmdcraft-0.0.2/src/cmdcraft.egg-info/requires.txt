@@ -1,0 +1,11 @@
+
+[dev]
+black
+isort
+pylint
+flake8
+flake8-docstrings
+pytest
+
+[prompt]
+prompt_toolkit
