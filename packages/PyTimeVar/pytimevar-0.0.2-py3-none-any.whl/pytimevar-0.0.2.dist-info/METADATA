@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: PyTimeVar
+Version: 0.0.2
+Summary: A Python package for Trending Time-Varying Time Series Models
+Author: Mingxuan Song
+Author-email: 678270ms@eur.nl
+Maintainer: Mingxuan Song
+Maintainer-email: 678270ms@eur.nl
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# PyTimeVar
+
+A Python package for Trending Time-Varying Time Series Models
+
+## Purpose of the Package
+
+The PyTimeVar package offers state-of-the-art estimation and statistical inference methods for time series regression models with flexible trends and/or time-
+varying coefficients.
+
+## Features
+
+- Nonparametric estimation of time-varying time series models, along with multiple bootstrap-assisted inference methods
+- Alternative estimation methods for modelling trend and time-varying relationships.
+- Unified framework for comparison of methods.
+- Four datasets for illustration.
+
+## Getting Started
+
+The PyTimeVar can implemented as a PyPI package. To download the package in your Python environment, use the following command:
+```python 
+pip install PyTimeVar
+```
+
