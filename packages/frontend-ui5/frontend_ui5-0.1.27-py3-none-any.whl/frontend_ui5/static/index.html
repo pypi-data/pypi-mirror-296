@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="./img/favicon.svg">
+    <link rel="manifest" href="./pwa.json">
+    <title>demo.spa</title>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+          for (let registration of registrations) {
+            registration.update().then(
+              function () {
+                console.info('service worker updated');
+              },
+              function (err) {
+                console.error('service worker update failed: ', err);
+              }
+            );
+          }
+        });
+        navigator.serviceWorker.register('service-worker.js', { scope: '/', type: 'module' }).then(
+          function (registration) {
+            console.info('service worker registration successful with scope: ', registration.scope);
+          },
+          function (err) {
+            console.info('service worker registration failed: ', err);
+          }
+        );
+      }
+    </script>
+    <script id="sap-ui-bootstrap" src="resources/sap-ui-custom.js" data-sap-ui-async="true" data-sap-ui-compatversion="edge" data-sap-ui-oninit="module:sap/ui/core/ComponentSupport" data-sap-ui-resourceroots="{&quot;demo.spa&quot;: &quot;./&quot;}" data-sap-ui-theme="sap_horizon"></script>
+  </head>
+  <body class="sapUiBody">
+    <div data-sap-ui-component="" data-name="demo.spa" data-id="container" data-settings="{&quot;id&quot; : &quot;demo.spa&quot;}"></div>
+  
+
+</body></html>
