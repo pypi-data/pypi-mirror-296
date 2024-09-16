@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: RaspyTweak
+Version: 0.0.0.1a0
+Summary: A library for raspberry pi
+Author: Voyager
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSES.md
+
+# I suggest not installing this package
