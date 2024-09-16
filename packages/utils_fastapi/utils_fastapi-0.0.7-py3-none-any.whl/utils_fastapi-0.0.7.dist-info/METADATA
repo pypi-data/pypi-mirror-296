@@ -1,0 +1,54 @@
+Metadata-Version: 2.3
+Name: utils_fastapi
+Version: 0.0.7
+Summary: Utils for FastApi. Filters, Pagination, Serializers, Schemas
+Project-URL: Source, https://github.com/zayycev22/fastapi-utils
+Author: zayycev22
+Classifier: Framework :: FastAPI
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Requires-Dist: fastapi>=0.110.0
+Requires-Dist: ordered-set>=4.1.0
+Requires-Dist: pydantic>=2.6.3
+Provides-Extra: sqlalchemy
+Requires-Dist: greenlet>=3.0.0; extra == 'sqlalchemy'
+Requires-Dist: sqlalchemy>=2.0.0; extra == 'sqlalchemy'
+Requires-Dist: typing-extensions; extra == 'sqlalchemy'
+Provides-Extra: tortoise
+Requires-Dist: tortoise-orm; extra == 'tortoise'
+Requires-Dist: typing-extensions; extra == 'tortoise'
+Description-Content-Type: text/markdown
+
+# FastAPI-Utils
+
+FastAPI-Utils is an utils library built upon the principles of Django designed for
+seamless migration from Django to FastAPI.
+
+## Features
+
+* [X] Pagination
+* [X] Filtering
+* [X] Serializers
+
+## Installation
+
+```bash
+pip install utils_fastapi
+```
+
+To use sqlalchemy model serializer
+
+```bash
+pip install utils_fastapi[sqlalchemy]
+```
+
+To use tortoise model serializer
+
+```bash
+pip install utils_fastapi[tortoise]
+```
