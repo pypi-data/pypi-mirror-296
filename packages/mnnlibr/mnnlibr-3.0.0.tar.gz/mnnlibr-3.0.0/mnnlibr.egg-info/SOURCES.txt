@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mnnai/Generator.py
+mnnai/__init__.py
+mnnai/Text_to_image/Image.py
+mnnai/Text_to_image/__init__.py
+mnnai/Text_to_text/Text.py
+mnnai/Text_to_text/__init__.py
+mnnlibr.egg-info/PKG-INFO
+mnnlibr.egg-info/SOURCES.txt
+mnnlibr.egg-info/dependency_links.txt
+mnnlibr.egg-info/requires.txt
+mnnlibr.egg-info/top_level.txt
