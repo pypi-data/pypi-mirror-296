@@ -1,0 +1,10 @@
+aigverse.cp38-win_amd64.pyd,sha256=pmgWn3IoiYxHKxHWP4XvFF3ejKKXBlLawTLcU9A0qi4,1121280
+aigverse-0.0.8.data/platlib/.load-order-aigverse-0.0.8,sha256=Ct_tothTBnaCGo2u4jdEiJj4Z8Pllv6HoiUSBg9Zbnc,98
+aigverse-0.0.8.data/platlib/msvcp140-273f309ecee20244e791c067c74340c3.dll,sha256=MubIEAvWLnqR9QmWwqWWktx5a28UCi36TeMTykPUx0g,618728
+aigverse-0.0.8.data/platlib/vcruntime140_1-906263c2fa39ca407cc612f95cc3e68b.dll,sha256=fdmqAuJxxoym1fGNZR0joV1yWXFa9DMmV4993ifzdjc,49640
+aigverse-0.0.8.dist-info/DELVEWHEEL,sha256=3liJLlBkM230dnwabDlSAd5NtsJRdmNEAMnMsKAZOFs,401
+aigverse-0.0.8.dist-info/LICENSE,sha256=zaX3y6zQ03hng692CxGrokBD82Wq0PokoA7cvVoi7F8,1091
+aigverse-0.0.8.dist-info/METADATA,sha256=lsrkswKMZs-kO_h3fm5Twtwekp2BvM9w64PZooGgxQw,9097
+aigverse-0.0.8.dist-info/RECORD,,
+aigverse-0.0.8.dist-info/top_level.txt,sha256=ACrBOPlXA_snQGwMv9GXvJhb8Dg7Mxdm_Jw4ivOQ3jU,9
+aigverse-0.0.8.dist-info/WHEEL,sha256=L7iDe0gnhxAIl4O1ywL3Ua8qYC_NrMQclbMtgMApFc0,99
