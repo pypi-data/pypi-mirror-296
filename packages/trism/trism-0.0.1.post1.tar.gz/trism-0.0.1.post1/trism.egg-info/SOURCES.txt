@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+trism/__init__.py
+trism/client.py
+trism/meta.py
+trism/model.py
+trism/types.py
+trism.egg-info/PKG-INFO
+trism.egg-info/SOURCES.txt
+trism.egg-info/dependency_links.txt
+trism.egg-info/requires.txt
+trism.egg-info/top_level.txt
+trism.egg-info/zip-safe
