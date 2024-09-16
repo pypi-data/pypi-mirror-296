@@ -1,0 +1,17 @@
+microchain/__init__.py,sha256=hKpO8rZgpTEEFXbSbTgaJYCCbkHnPx0Y1vziFRf_83A,438
+microchain/functions.py,sha256=_6jku5CFrkGg1Xxo3DHaxwriv0sAv1sjq7m3AKJEs4Q,627
+microchain/engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microchain/engine/agent.py,sha256=ldVCsr0pE6JP9l6NOeDOamZl8Jw63Tb59ukkfEQq1cI,6185
+microchain/engine/engine.py,sha256=C--bN2iX7AAiQWQxCuouGsQbR0NMmTEg5QfWUt8He8I,3323
+microchain/engine/function.py,sha256=x2rAYuKvWme6KeoP3m0ZOJ72PLDFsXLU_kSg3K9TOJ4,3207
+microchain/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microchain/models/llama_generators.py,sha256=1IVpZifmb29QSMgmGgPNOZXwugqmViY7G_UChN6tJBI,3484
+microchain/models/llm.py,sha256=btW_TqKPHhMGWeCo1TvcxCqxIsd1KYl0t7r9IbKTS2Y,397
+microchain/models/openai_generators.py,sha256=IZbdy0YYO3UJxNfermA9VdHRB8_ihNiBSnJJZjKTCAo,5313
+microchain/models/templates.py,sha256=RSrQetYVZ5Dzn_V03vs7tFjFe5s0tw4T_5E5VspU8R4,1471
+microchain/models/token_tracker.py,sha256=JoisbDpJNao1xp-tMKR-Q7pLH7eNBJcH-uWcxszu21c,1283
+microchain_python-0.4.6.dist-info/LICENSE,sha256=kM0kzVmKT-BzlDpP4GkUwib-HOfUd7WJpBn8b9EHaOA,11347
+microchain_python-0.4.6.dist-info/METADATA,sha256=e7dkRlB__LPyglfiyzGyjJSvQd8E3pSJAnW7vcRXGdI,4551
+microchain_python-0.4.6.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+microchain_python-0.4.6.dist-info/top_level.txt,sha256=YMeRJFNjfrRY_FBSADIgKnSoVg2VdQDfBY6ZJ6fZPtI,11
+microchain_python-0.4.6.dist-info/RECORD,,
