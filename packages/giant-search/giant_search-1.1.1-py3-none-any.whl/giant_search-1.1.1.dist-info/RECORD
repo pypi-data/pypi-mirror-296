@@ -1,0 +1,13 @@
+giant_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+giant_search/adapter.py,sha256=yszGMjWnQXKPqc0SY8g1rjsID2fQ7VA11c6fU6dFORg,3869
+giant_search/apps.py,sha256=HA9xgemkkaH_9Jzc09He5fX5EttfikcW9HlQkfavHnU,1238
+giant_search/mixins.py,sha256=wTudSBOKYqf1gG4oAAZ90H41Y9oDR84EQKnpzY4D-nU,2546
+giant_search/templates/search/results.html,sha256=NaG4LslBfxolN5O17J1fxYLZeoRD3J52S73x9Afntjw,1882
+giant_search/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+giant_search/tests/test_views.py,sha256=ep2w_BJ2pXchuj-TWyKjfkFFwavScGF-2KWRdqI5GJI,625
+giant_search/urls.py,sha256=5uQl7q-UfyAbvj6AaVWsTbLdcSG7taFfbrqM4YmYdWE,163
+giant_search/utils.py,sha256=KRtcwOkEEGiq8aR4sAkMnBKhhiUyR9adkv77BRwwHH0,2869
+giant_search/views.py,sha256=w8Nb8PZnGJmZK1iRJAr24haIYEeGAjuSkTyg5At0C2w,448
+giant_search-1.1.1.dist-info/METADATA,sha256=mxCw-ADPvprKZhHR3_q5oS0mPu1BYdCcW1q7OEl6q94,6615
+giant_search-1.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+giant_search-1.1.1.dist-info/RECORD,,
