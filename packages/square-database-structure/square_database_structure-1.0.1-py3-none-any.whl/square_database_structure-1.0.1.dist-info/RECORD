@@ -1,0 +1,13 @@
+square_database_structure/__init__.py,sha256=27tzEvV_l_6m8BgsRMAzrh56-SktX3eeYHKQWzy3pqE,62
+square_database_structure/main.py,sha256=QjkhVBW7Xjzht7rcO2GICWymkukmJsCGaDRxRg8Q6PQ,1845
+square_database_structure/square/__init__.py,sha256=8D9dSYmbogHBdjBa0ap6z92l_piY1l1LuG1RghkVd5g,39
+square_database_structure/square/authentication/__init__.py,sha256=gCYdBEMXZ_hlmXYPXdZ9IRSJRYlyTdPwVOYkZCSu3hI,45
+square_database_structure/square/authentication/tables.py,sha256=fX1WZHdfszHwbHRqqyQSv5WSHcPS9KJ6nLjWV7aT7O0,2151
+square_database_structure/square/file_storage/__init__.py,sha256=VanngxwdOU_-4oFb6KAM1IUjWZYizsGxQO74FTX7CW0,43
+square_database_structure/square/file_storage/tables.py,sha256=ui5WaasoUVgR9dpLVvyUyRWwUzbmDJ1E-vjPDdBxuVw,1365
+square_database_structure/square/public/__init__.py,sha256=QrnJY-D0HtVeIrghwCEv1lYZoI2oGdDZV2hdPaKy3wQ,37
+square_database_structure/square/public/tables.py,sha256=uBIbHa_wbvIXYyOnu0FQGKNs5J0Xgpv_fCjg-DPNs88,858
+square_database_structure-1.0.1.dist-info/METADATA,sha256=uqtAyPDMikM2YJtafUa8VcAzMqH5Uz0TtZ6-aBs8898,1647
+square_database_structure-1.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+square_database_structure-1.0.1.dist-info/top_level.txt,sha256=JW1gMLHNiL41Jq14WbamlhGAVl4HT77WI3jz5EqNFd0,26
+square_database_structure-1.0.1.dist-info/RECORD,,
