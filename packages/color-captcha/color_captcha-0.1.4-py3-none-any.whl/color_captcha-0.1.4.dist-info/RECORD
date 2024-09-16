@@ -1,0 +1,10 @@
+color_captcha/__init__.py,sha256=7SQ2dgmEpgmoYOX8HooBHXeNgGlYp2qb6tnTiukZ2CY,36
+color_captcha/__version__.py,sha256=jaMMSCG8JZIQDv4Y1Fc9LPIq_diM_w64tX-DOmqbQpU,17
+color_captcha/captcha.py,sha256=zh_3pye99wVdvzvXYjBnX-obTec5Azrx8lPuDuYZB0Y,2659
+color_captcha/config.py,sha256=DEjQ-TM_yLu4ZHGT1NWl3YWxVHo2T_fFGEChkwJtaEY,65
+color_captcha/helpers.py,sha256=VjfpvLuJFZkJ8_F2hZqluYdIEnRPa2ZBQs40q1GrbCc,3278
+color_captcha/numbers.py,sha256=8l2-K5NYt6ZuE6Y6h2bKIdj7pRDUDjJ5v_JqNkG8n6U,1673
+color_captcha-0.1.4.dist-info/METADATA,sha256=fybLJ9k-4vFvsfK5lXBKIM4y7lxRmBGq0ESPm8F8mFk,3197
+color_captcha-0.1.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+color_captcha-0.1.4.dist-info/licenses/LICENSE,sha256=-ZA2_UHHUSZkoE0hx5YpU7ftqLsyg_SRutXQ9_rF4MQ,1074
+color_captcha-0.1.4.dist-info/RECORD,,
