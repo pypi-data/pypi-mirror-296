@@ -1,0 +1,10 @@
+classifier_anshp/__init__.py,sha256=Jv6XPMOPlwcng6Zr-K6NGhlo4WcY6S97a-uPrk1WIAw,56
+classifier_anshp/main.py,sha256=bCTx_QdyCw96LBm8R-VfXliv30wxW5MCVHfDexCWfCQ,11909
+classifier_linear/__init__.py,sha256=rPTGK_6GNdRQYvDYSn9QByR6kgf-wkIFPwpS-A1ZakM,3904
+classifier_linear/main.py,sha256=EvYZIV-uwfUzAVVXZ4Fc9jS_5e3TYmbS5MITH5hM6No,4173
+classifier_anshp-0.17.0.dist-info/METADATA,sha256=ZV0hNYsY4GapvnNP4FhPt1TRpOwBiXIB6rwYXiA0240,4497
+classifier_anshp-0.17.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+classifier_anshp-0.17.0.dist-info/entry_points.txt,sha256=UI4SX2UGoBWrJkop8omdhFDLky2hG4aWp8_g_dj5RxY,202
+classifier_anshp-0.17.0.dist-info/license.txt,sha256=D0os_k8oAxIA2xmyY-uKmEcg1OW3ZsHBOfk5It__fs0,1076
+classifier_anshp-0.17.0.dist-info/top_level.txt,sha256=kBwliJ7hslvVWEejJeGfZcnqoX_yBMwEnsWL8oIh3CI,17
+classifier_anshp-0.17.0.dist-info/RECORD,,
