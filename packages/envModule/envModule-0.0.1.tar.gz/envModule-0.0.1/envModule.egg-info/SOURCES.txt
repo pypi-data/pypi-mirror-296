@@ -1,0 +1,8 @@
+LICENSE
+README.md
+envmodule.py
+setup.py
+envModule.egg-info/PKG-INFO
+envModule.egg-info/SOURCES.txt
+envModule.egg-info/dependency_links.txt
+envModule.egg-info/top_level.txt
