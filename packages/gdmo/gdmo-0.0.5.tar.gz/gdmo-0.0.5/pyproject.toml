@@ -1,0 +1,30 @@
+# Guide (user-friendly):
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+[build-system]
+requires = ["setuptools"]  # REQUIRED if [build-system] table is used
+build-backend = "setuptools.build_meta"  # If not defined, then legacy behavior can happen.
+
+[project]
+name = "gdmo"  
+version = "0.0.5"  
+description = "GDMO native classes for standardized interaction with data objects within Azure Databricks"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE.txt"}
+keywords = ["forecast", "gdmo", "api", "request", "delta", "landing"]
+authors = [
+  {name = "Stephan Kuiper", email = "kuiper.s@live.nl" }
+]
+maintainers = [
+  {name = "Stephan Kuiper", email = "kuiper.s@live.nl" }
+]
+
+dependencies = [
+  "prophet",
+  "matplotlib",
+  "statsmodels"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/NSIT/bi-datascience/"

@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+GDMO.egg-info/PKG-INFO
+GDMO.egg-info/SOURCES.txt
+GDMO.egg-info/dependency_links.txt
+GDMO.egg-info/requires.txt
+GDMO.egg-info/top_level.txt
+gdmo.egg-info/PKG-INFO
+gdmo.egg-info/SOURCES.txt
+gdmo.egg-info/dependency_links.txt
+gdmo.egg-info/requires.txt
+gdmo.egg-info/top_level.txt
