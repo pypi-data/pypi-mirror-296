@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kyne-goes-easy-dataflow
+Version: 0.1.1
+Summary: Automatización de procesos de Data para Kynegos
+Home-page: https://gitlab.com/GabiAnt95/kynegoeasy-dataflow
+Author: TGabino
+Author-email: g.antuna@capitalenergy.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# kyne-goes-easy-dataflow
+
+AutomatizaciÃ³n de procesos de Data para Kynegos.
+
+## InstalaciÃ³n
+
+```bash
+pip install kyne-goes-easy-dataflow
