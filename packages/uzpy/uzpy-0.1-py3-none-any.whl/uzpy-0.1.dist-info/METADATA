@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: uzpy
+Version: 0.1
+Summary: o'zbek tilidagi puthon
+Home-page: https://github.com/qaxxorovgit/uzpy.git
+Author: Qaxxorov DEVV
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# uzpy
+
+`uzpy` - Bu Python kutubxonasi, bir nechta foydali funksiyalarni taqdim etadi.
+
+## Oâ€˜rnatish
+
+Kutubxonani oâ€˜rnatish uchun:
+
+```bash
+pip install uzpy
