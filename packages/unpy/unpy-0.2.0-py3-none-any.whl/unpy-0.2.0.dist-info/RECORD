@@ -1,0 +1,11 @@
+unpy/__init__.py,sha256=bLZYPwofny9QB_FwYUJKhWnSXd3r6Fz6oM0oyf1SBBs,72
+unpy/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unpy/_pep695.py,sha256=h64sYGZ2G7qoiU50RKAaam-vMSfcS7N6j51zwIOvjqY,22122
+unpy/cli.py,sha256=Dsy6bm8MnFUpzfTOa7Hg4F7jT1XT_KoTX7tIa9kPA3Q,1664
+unpy/convert.py,sha256=KhAuIYx8P1xDzjAMB_-wGLIVsQWCN9VHvv4NXn11y9I,410
+unpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unpy-0.2.0.dist-info/METADATA,sha256=vTLzFHovkmFZpKj5FuCl86jmZr4yJBwJKjp0Vf-er0s,4921
+unpy-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+unpy-0.2.0.dist-info/entry_points.txt,sha256=SLjpvwTV9ydC6NDL8gVM9EzdsHVfZ7mPAqEzrKjOz8c,38
+unpy-0.2.0.dist-info/licenses/LICENSE,sha256=plmy9Xmbf4vtprh_GLT0l8zbGAusMsuZQmc4cZp8w_s,1505
+unpy-0.2.0.dist-info/RECORD,,
