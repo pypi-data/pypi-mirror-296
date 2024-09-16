@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: horus-ai-labs-sdk
+Version: 0.1
+Summary: Python SDK for Horus AI Labs
+Home-page: https://github.com/Video-Search-AI/horus_ai_labs_sdk
+Author: Horus AI Labs
+Author-email: horusailabs@gmail.com
+Keywords: sdk,video processing
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: requests

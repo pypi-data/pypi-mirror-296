@@ -1,0 +1,7 @@
+README.md
+setup.py
+horus_ai_labs_sdk.egg-info/PKG-INFO
+horus_ai_labs_sdk.egg-info/SOURCES.txt
+horus_ai_labs_sdk.egg-info/dependency_links.txt
+horus_ai_labs_sdk.egg-info/requires.txt
+horus_ai_labs_sdk.egg-info/top_level.txt
