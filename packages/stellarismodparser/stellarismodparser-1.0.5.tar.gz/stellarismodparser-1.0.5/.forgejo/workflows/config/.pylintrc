@@ -1,0 +1,7 @@
+  [MESSAGES CONTROL]
+  disable=
+    missing-module-docstring,
+    missing-function-docstring,
+    line-too-long,
+    too-many-arguments,
+    too-many-instance-attributes

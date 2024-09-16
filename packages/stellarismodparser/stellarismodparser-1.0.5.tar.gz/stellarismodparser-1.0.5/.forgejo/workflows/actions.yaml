@@ -1,0 +1,54 @@
+﻿name: Actions
+on:
+  push:
+
+jobs:
+  Build:
+    runs-on: docker
+    container: www.coastalcommits.com/seaswimmerthefsh/actionscontainers-seacogs:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: python3 -m venv .venv && ./.venv/bin/pip install -r ./requirements.txt
+
+      - name: Build the package
+        run: ./.venv/bin/python -m build
+
+      - name: Upload the package
+        uses: actions/upload-artifact@v3
+        with:
+          name: stellarismodparser
+          path: ./dist/*
+
+      - name: Publish to CoastalCommits
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: actions/pypi-publish@v1.8.14
+        with:
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.COASTALCOMMITSTOKEN }}
+          repository_url: https://www.coastalcommits.com/api/packages/${{ github.repository_owner }}/pypi
+
+      - name: Publish to PyPi
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: actions/pypi-publish@v1.8.14
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+
+  Lint Code (Ruff & Pylint):
+    runs-on: docker
+    container: www.coastalcommits.com/seaswimmerthefsh/actionscontainers-seacogs:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: python3 -m venv .venv && ./.venv/bin/pip install -r ./requirements.txt
+
+      - name: Analysing code with Ruff
+        run: ./.venv/bin/ruff check $(git ls-files '*.py')
+        continue-on-error: true
+
+      - name: Analysing code with Pylint
+        run: ./.venv/bin/pylint --rcfile=.forgejo/workflows/config/.pylintrc $(git ls-files '*.py')
