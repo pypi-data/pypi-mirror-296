@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+waveletec/__init__.py
+waveletec/handler.py
+waveletec/version.py
+waveletec.egg-info/PKG-INFO
+waveletec.egg-info/SOURCES.txt
+waveletec.egg-info/dependency_links.txt
+waveletec.egg-info/requires.txt
+waveletec.egg-info/top_level.txt
+waveletec/_core/__init__.py
+waveletec/_core/commons.py
+waveletec/_core/wavelet_functions.py
