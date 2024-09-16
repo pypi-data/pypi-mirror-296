@@ -1,0 +1,10 @@
+gqlrequests/__init__.py,sha256=_h1Rxemn8sKpcbUmFXWJZpbHrzv9jbLIWlCIRFhAH-k,131
+gqlrequests/builder.py,sha256=N4MGMnhuuj9uAQ3ezNfEcEQw03EeWqPCtDua96MrNCM,6552
+gqlrequests/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gqlrequests/pydantic_converter.py,sha256=GMAmNUA1E4veo5VMLnZwXmjbXJKF9zvAFbpxJ41WpVQ,250
+gqlrequests/query_creator.py,sha256=RsC7RwOBMXqZWuleiN52_7SoSuI0gEVunopqlsDsgiU,5460
+gqlrequests-0.0.11.dist-info/LICENSE,sha256=bkG0cYN3g53q5QF_4nOBExWWMKKiIdEL-Vt_o3AxNrc,1048
+gqlrequests-0.0.11.dist-info/METADATA,sha256=D_J3veYwshY6kvC39KT9BaI1WXs2dGK-7olYPIjbDU8,3476
+gqlrequests-0.0.11.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+gqlrequests-0.0.11.dist-info/top_level.txt,sha256=wvZYL7EeA9Fp5ZaENXmaVehtAx9NKklGyHC_pSpg28Q,12
+gqlrequests-0.0.11.dist-info/RECORD,,
