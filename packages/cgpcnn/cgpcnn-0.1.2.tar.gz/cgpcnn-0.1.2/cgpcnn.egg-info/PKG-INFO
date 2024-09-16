@@ -1,0 +1,346 @@
+Metadata-Version: 2.1
+Name: cgpcnn
+Version: 0.1.2
+Summary: A project featuring methods for optimizing neural networks using PyTorch.
+Home-page: https://github.com/MrLipa/CGP-CNN-Optimizer
+Author: Tomasz Szkaradek
+Author-email: bilbo.weirdo@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.14
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: mlflow
+Requires-Dist: pydot
+Requires-Dist: torchsummary
+Requires-Dist: torch_geometric
+Provides-Extra: basic
+Requires-Dist: torch; extra == "basic"
+Requires-Dist: torchvision; extra == "basic"
+Requires-Dist: torchaudio; extra == "basic"
+Requires-Dist: matplotlib; extra == "basic"
+Requires-Dist: seaborn; extra == "basic"
+Requires-Dist: scikit-learn; extra == "basic"
+Requires-Dist: pandas; extra == "basic"
+Requires-Dist: requests; extra == "basic"
+Requires-Dist: mlflow; extra == "basic"
+Requires-Dist: pydot; extra == "basic"
+Requires-Dist: torchsummary; extra == "basic"
+Provides-Extra: dev
+Requires-Dist: python-dotenv; extra == "dev"
+Requires-Dist: click; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: Sphinx; extra == "doc"
+Requires-Dist: sphinx-rtd-theme; extra == "doc"
+Requires-Dist: myst-parser; extra == "doc"
+Provides-Extra: all
+Requires-Dist: torch; extra == "all"
+Requires-Dist: torchvision; extra == "all"
+Requires-Dist: torchaudio; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: seaborn; extra == "all"
+Requires-Dist: scikit-learn; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: torchsummary; extra == "all"
+Requires-Dist: python-dotenv; extra == "all"
+Requires-Dist: click; extra == "all"
+Requires-Dist: coverage; extra == "all"
+Requires-Dist: myst-parser; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: wheel; extra == "all"
+Requires-Dist: ipykernel; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: Sphinx; extra == "all"
+Requires-Dist: sphinx-rtd-theme; extra == "all"
+Requires-Dist: twine; extra == "all"
+Requires-Dist: torch; extra == "all"
+Requires-Dist: torchvision; extra == "all"
+Requires-Dist: torchaudio; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: seaborn; extra == "all"
+Requires-Dist: scikit-learn; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: requests; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: pydot; extra == "all"
+Requires-Dist: torchsummary; extra == "all"
+Requires-Dist: python-dotenv; extra == "all"
+Requires-Dist: click; extra == "all"
+Requires-Dist: coverage; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: wheel; extra == "all"
+Requires-Dist: ipykernel; extra == "all"
+Requires-Dist: twine; extra == "all"
+Requires-Dist: Sphinx; extra == "all"
+Requires-Dist: sphinx-rtd-theme; extra == "all"
+Requires-Dist: myst-parser; extra == "all"
+Requires-Dist: torch; extra == "all"
+Requires-Dist: torchvision; extra == "all"
+Requires-Dist: torchaudio; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: seaborn; extra == "all"
+Requires-Dist: scikit-learn; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: torchsummary; extra == "all"
+Requires-Dist: python-dotenv; extra == "all"
+Requires-Dist: click; extra == "all"
+Requires-Dist: coverage; extra == "all"
+Requires-Dist: myst-parser; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: wheel; extra == "all"
+Requires-Dist: ipykernel; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: Sphinx; extra == "all"
+Requires-Dist: sphinx-rtd-theme; extra == "all"
+Requires-Dist: twine; extra == "all"
+Requires-Dist: torch; extra == "all"
+Requires-Dist: torchvision; extra == "all"
+Requires-Dist: torchaudio; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: seaborn; extra == "all"
+Requires-Dist: scikit-learn; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: requests; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: pydot; extra == "all"
+Requires-Dist: torchsummary; extra == "all"
+Requires-Dist: python-dotenv; extra == "all"
+Requires-Dist: click; extra == "all"
+Requires-Dist: coverage; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: wheel; extra == "all"
+Requires-Dist: ipykernel; extra == "all"
+Requires-Dist: twine; extra == "all"
+Requires-Dist: Sphinx; extra == "all"
+Requires-Dist: sphinx-rtd-theme; extra == "all"
+Requires-Dist: myst-parser; extra == "all"
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+<br />
+<div align="center">
+  <a href="https://github.com/MrLipa/CGP-CNN-Optimizer">
+    <img src="references/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Cartesian Genetic Programming for CNN Optimization</h3>
+
+  <p align="center">
+     Project for optimizing convolutional neural networks using Cartesian genetic programming! 
+    <br />
+    <a href="https://github.com/MrLipa/CGP-CNN-Optimizer"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/MrLipa/CGP-CNN-Optimizer">View Demo</a>
+    ·
+    <a href="https://github.com/MrLipa/CGP-CNN-Optimizer/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/MrLipa/CGP-CNN-Optimizer/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#makefile-commands">Makefile Commands</a></li>
+        <li><a href="#makefile-commands-for-windows-using-mingw32-make">Makefile Commands for Windows (using `mingw32-make`)</a></li>
+        <li><a href="#slurm-commands">SLURM Commands</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+## About The Project
+
+This project is a framework designed to streamline the optimization of convolutional neural networks (CNNs) using Cartesian Genetic Programming (CGP). It provides a structured environment that follows best practices for machine learning projects, including modularity, scalability, and easy deployment.
+
+The project leverages a **cookiecutter template**, which ensures consistent structure and workflow for your projects.
+
+You can easily fork the repository, suggest changes, or contribute to ongoing improvements!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Built With
+
+This project is built using several major frameworks and libraries that streamline the development of machine learning models and help with experiment tracking and documentation. Below are the key technologies used:
+
+* ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+* ![PyTorch](https://img.shields.io/badge/PyTorch-1.10%2B-red)
+* ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+* ![MLflow](https://img.shields.io/badge/MLflow-1.20%2B-brightgreen)
+* ![Sphinx](https://img.shields.io/badge/Sphinx-4.0%2B-lightgrey)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Getting Started
+
+To get a local copy of this project up and running, follow these simple steps.
+
+### Prerequisites
+
+You need **Python 3.10** or newer. Below are two options for setting up the environment:
+
+1. **Using Conda:**
+   ```sh
+   conda create -n cgp-cnn-env python=3.10 -y
+   conda activate cgp-cnn-env
+   pip install .
+   ```
+
+2. **Using venv:**
+   ```sh
+   python -m venv cgp-cnn-env
+   source cgp-cnn-env/bin/activate  # On Windows: cgp-cnn-env\Scripts\activate
+   pip install .
+   ```
+
+For additional dependencies, install with:
+```sh
+pip install .[basic]  # or [dev], [doc], [all]
+```
+
+Alternatively, install the library directly via pip:
+```sh
+pip install cgp-cnn
+```
+
+To verify the Python version and environment setup:
+```sh
+python --version
+```
+
+Check if PyTorch can use a GPU and check the number of CPU cores available:
+```sh
+python -c "import os; print(os.cpu_count()); import torch; print(torch.cuda.is_available())"
+```
+
+### Makefile Commands
+
+```sh
+make lint
+make clean_linux
+make generate_package
+make generate_documentation
+make install
+make publish
+make mlflow
+```
+
+### Makefile Commands for Windows (using `mingw32-make`)
+
+```sh
+mingw32-make lint
+mingw32-make clean_windows
+mingw32-make generate_package
+mingw32-make generate_documentation
+mingw32-make install
+mingw32-make publish
+mingw32-make mlflow
+```
+
+### SLURM Commands
+
+https://docs.cyfronet.pl/display/~plgpawlik/Athena
+
+```sh
+module list
+module avail
+module load Python/3.10.4
+module unload Python/3.10.4
+module spider
+module spider python
+module spider Python/3.11.5
+
+sinfo
+scontrol show partition
+scancel 873986
+sbatch job.sh
+squeue
+scontrol show job
+
+hpc-grants
+hpc-fs
+hpc-jobs
+hpc-jobs-history
+
+source ~/athena_env/bin/activate
+chmod +x script.py script.sh
+!!!! UTF-8 UNIX
+du -sh $HOME/*
+du -h --max-depth=1 $HOME
+rm -rf $HOME/.cache/*
+rm -rf logs/error_*.txt logs/result_*.txt
+``` 
+
+## Usage
+
+To ensure an easy introduction to the library, all examples that can be quickly executed are provided as Jupyter notebooks located in the `notebooks` directory. These notebooks are designed to demonstrate the functionality of the framework and guide you through the process of optimizing CNNs using Cartesian Genetic Programming.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Acknowledgments
+
+* [Choose an Open Source License](https://choosealicense.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/MrLipa/CGP-CNN-Optimizer/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/MrLipa/CGP-CNN-Optimizer/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/MrLipa/CGP-CNN-Optimizer/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/MrLipa/CGP-CNN-Optimizer/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/MrLipa/CGP-CNN-Optimizer/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/tomasz-szkaradek/
