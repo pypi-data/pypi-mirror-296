@@ -1,0 +1,2 @@
+[console_scripts]
+xpytest = thonnycontrib.frontend.cli.l1test_cli:main
