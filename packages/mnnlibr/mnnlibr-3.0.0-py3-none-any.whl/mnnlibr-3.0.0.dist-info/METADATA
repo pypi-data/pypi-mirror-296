@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: mnnlibr
+Version: 3.0.0
+Summary: Module for using AI
+Home-page: https://github.com/mkshustov/MNNLibr
+Author: mkshustov
+Author-email: mkshustov@mail.ru
+Project-URL: Documentation, https://github.com/mkshustov/MNNLibr
+Keywords: ai MNN chatgpt
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.25.1
+Requires-Dist: aiohttp
+
+# MNN AI
+
+!!! Currently the api can only be tested via @mnnaibot
+
+This repository contains an example of how to use the library to interact with the MNN API for image generation and text chat functionalities.
+
+## Prerequisites
+
+- Python 3.x
+- MNNLib library installed. You can install it using pip:
+
+```bash
+pip install mnnai
+```
+
+## Usage
+Image Generation
+The following code demonstrates how to generate an image based on a prompt using the MNN API.
+
+```python
+from mnnai import MNN
+
+client = MNN(
+    key='MNN API KEY',
+    id='MNN ID',
+    # max_retries=2, 
+    # timeout=60
+)
+
+response = client.Image_create(
+    prompt="Draw a cute red panda",
+    model='sdxl'
+)
+
+image_url = response['data'][0]['url']
+print(image_url)
+```
+
+## Text Chat
+The following code demonstrates how to create a chat session with the MNN API, both with streaming and without streaming.
+
+**Streaming Chat**
+```python
+import asyncio
+
+stream = client.async_chat_create(
+    model="gpt-4o",
+    messages=[{"role": "user", "content": "Hi"}],
+    stream=True,
+    temperature=0.5
+)
+
+async def generate():
+    async for chunk in stream:
+        if 'result' in chunk:
+            print(chunk['result'], end='')
+        else:
+            print(f"\n{chunk}")
+
+asyncio.run(generate())
+```
+
+**Non-Streaming Chat**
+```python
+chat_completion = client.chat_create(
+    messages=[
+        {
+            "role": "user",
+            "content": "Hi",
+        }
+    ],
+    model="gpt-4o",
+)
+print(chat_completion)
+```
+
+### Configuration
+Replace the key and id parameters in the MNN client initialization with your own API key and user ID.
+Adjust the prompt, model, and other parameters as needed for your specific use case.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Discord 
+https://discord.gg/Ku2haNjFvj
+
