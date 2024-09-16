@@ -1,0 +1,12 @@
+tclogger/__init__.py,sha256=IuoU5T-rVqh7u_cFWJkV4TmCM8Rth6qKO6hLx65zJlo,299
+tclogger/colors.py,sha256=uNtGJDzgcpVt37CTQvlhrYKhom9VEqxpzchHo35JuHA,3287
+tclogger/envs.py,sha256=cf29Iu9-AaBAWRzonAwX1DHZQISr0V2vYmohhcnC5KY,1368
+tclogger/formats.py,sha256=dXkjQI8ykeWDI5Y78ohhpG6fi54o31c7mutfDj9BtYw,2002
+tclogger/logs.py,sha256=Hi6pntrKyQYux0yEBWhoI8_JgD8n48RsgyaiyNY1Z7Y,7001
+tclogger/maths.py,sha256=FRlUF7ef8Yqb0RJqFTtrFaG2jkM0ZX2FiYvhAdY9FyY,270
+tclogger/times.py,sha256=up7a-MmErvscPzQpi-f_XffY-hwMG37n-afBaw5iJrM,2657
+tclogger-1.0.4.dist-info/LICENSE,sha256=gdZlCmBLqf1EXXRvK3vxYr9tqtLdM6np1o1vbgnnZGA,1051
+tclogger-1.0.4.dist-info/METADATA,sha256=GjQyuUBEMTetp9HkNCCSn1NuOBjglVacPTkK11lfp48,1433
+tclogger-1.0.4.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+tclogger-1.0.4.dist-info/top_level.txt,sha256=Si6Nr3L67sAqdn7Kz6rdorJiZSh8UFTSbgAF9iYhb6c,9
+tclogger-1.0.4.dist-info/RECORD,,
