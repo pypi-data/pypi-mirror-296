@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+eventapi/EventApi.py
+eventapi/Exceptions.py
+eventapi/WebSocket.py
+eventapi/__init__.py
+eventapi.egg-info/PKG-INFO
+eventapi.egg-info/SOURCES.txt
+eventapi.egg-info/dependency_links.txt
+eventapi.egg-info/requires.txt
+eventapi.egg-info/top_level.txt
