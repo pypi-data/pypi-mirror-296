@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+facialmatch/__init__.py
+facialmatch/main.py
+facialmatch.egg-info/PKG-INFO
+facialmatch.egg-info/SOURCES.txt
+facialmatch.egg-info/dependency_links.txt
+facialmatch.egg-info/requires.txt
+facialmatch.egg-info/top_level.txt
