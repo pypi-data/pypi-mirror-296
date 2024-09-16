@@ -1,0 +1,7 @@
+utilities/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+utilities/main.py,sha256=4NW_hLPwYGW8AMbL9BiJpRNgwMql_2R-81q3DEwGi4M,10555
+utilities/utils.py,sha256=EpARNpdQ8roJnGU4iHxJhQ1c1jm5LvUWFK7w5HT8pXU,1158
+rdf2gnn-0.1.0.dist-info/METADATA,sha256=45BsMJWm4rNEhcIZfpgwsdzLJCFCYhFrABazSH0xhgw,805
+rdf2gnn-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rdf2gnn-0.1.0.dist-info/top_level.txt,sha256=oWJtl2ZdV4Sd9Vsjig8NVKXtwotmMeYfyRS-upAaa3g,10
+rdf2gnn-0.1.0.dist-info/RECORD,,

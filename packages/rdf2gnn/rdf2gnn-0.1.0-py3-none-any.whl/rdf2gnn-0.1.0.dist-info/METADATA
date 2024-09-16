@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rdf2gnn
+Version: 0.1.0
+Summary: A Python package for integrating RDF data with Graph Neural Networks (GNNs).
+Home-page: https://github.com/yourusername/rdfgnn
+Author: Avia Anwar
+Project-URL: Documentation, https://github.com/yourusername/rdfgnn
+Project-URL: Source, https://github.com/yourusername/rdfgnn
+Project-URL: Tracker, https://github.com/yourusername/rdfgnn/issues
+Keywords: RDF,Graph Neural Networks,PyTorch Geometric,GNN,Machine Learning
+Requires-Python: >=3.11.5
+Description-Content-Type: text/markdown
+Requires-Dist: torch >=1.8.0
+Requires-Dist: torch-geometric >=2.0.0
+Requires-Dist: rdflib >=6.0.0
+Requires-Dist: scikit-learn >=0.24.0
+Requires-Dist: numpy >=1.18.0
+Requires-Dist: scipy >=1.4.0
+Requires-Dist: pandas >=1.0.0
+Requires-Dist: tqdm >=4.0.0
+
+# Rdf2GNN
