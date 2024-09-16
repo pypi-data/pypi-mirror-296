@@ -1,0 +1,4 @@
+requests
+socket
+ipaddress
+pkg_resources
