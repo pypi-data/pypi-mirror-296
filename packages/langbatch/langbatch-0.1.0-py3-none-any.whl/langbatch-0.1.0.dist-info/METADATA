@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: langbatch
+Version: 0.1.0
+Summary: LangBatch is a python package with unified API for AI batch processing workloads [OpenAI, VertexAI]
+Author: KarthikeyanVijayanEasyLLM
+Author-email: karthikeyan.vijayan@easyllm.tech
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastavro (>=1.9.7,<2.0.0)
+Requires-Dist: google-cloud-aiplatform (>=1.65.0,<2.0.0)
+Requires-Dist: google-cloud-bigquery-storage (>=2.26.0,<3.0.0)
+Requires-Dist: jsonlines (>=4.0.0,<5.0.0)
+Requires-Dist: openai (>=1.43.0,<2.0.0)
+Requires-Dist: redis (>=5.0.8,<6.0.0)
+Description-Content-Type: text/markdown
+
+# langbatch
