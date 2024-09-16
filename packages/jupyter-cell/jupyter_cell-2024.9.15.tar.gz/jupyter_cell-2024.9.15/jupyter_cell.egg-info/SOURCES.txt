@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.rst
+pyproject.toml
+requirements.txt
+jupyter_cell/__init__.py
+jupyter_cell/__main__.py
+jupyter_cell/cli.py
+jupyter_cell.egg-info/PKG-INFO
+jupyter_cell.egg-info/SOURCES.txt
+jupyter_cell.egg-info/dependency_links.txt
+jupyter_cell.egg-info/entry_points.txt
+jupyter_cell.egg-info/requires.txt
+jupyter_cell.egg-info/top_level.txt
