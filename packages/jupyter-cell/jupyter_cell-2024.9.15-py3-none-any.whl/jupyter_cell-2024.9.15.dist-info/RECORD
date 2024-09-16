@@ -1,0 +1,9 @@
+jupyter_cell/__init__.py,sha256=0MGuHPhyguWvFBVPH5s5Ez903AoVLg3YX709K7F3AXY,7753
+jupyter_cell/__main__.py,sha256=DYlEVM_wpeb4M2ge5Y4CCl_uU2a-4r33x2gaY0wKT30,318
+jupyter_cell/cli.py,sha256=kYcScmHWwMUAuBoposjPmR43dLz8aNybj62iN7JZWdM,8736
+jupyter_cell-2024.9.15.dist-info/LICENSE,sha256=b0NmC_32LX4_LVL7Ogjg16C3GWxa4iA3bTnbKS20ti8,1092
+jupyter_cell-2024.9.15.dist-info/METADATA,sha256=1kVALE2YR0aSDBvchY-YPQiLwliUtvp4c3oRX1FRurI,6511
+jupyter_cell-2024.9.15.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+jupyter_cell-2024.9.15.dist-info/entry_points.txt,sha256=l1l4TNg2yu6piyAqEOE1FUErxzfcEL4SZn93xZMN2ss,60
+jupyter_cell-2024.9.15.dist-info/top_level.txt,sha256=NZzEc0A9mAwCM6eUZQ08c5XdzyAORx1mf4rFaVdMbQk,13
+jupyter_cell-2024.9.15.dist-info/RECORD,,
