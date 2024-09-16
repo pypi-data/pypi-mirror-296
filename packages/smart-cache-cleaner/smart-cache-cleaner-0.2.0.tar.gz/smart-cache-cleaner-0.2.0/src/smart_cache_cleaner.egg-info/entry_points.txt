@@ -1,0 +1,2 @@
+[console_scripts]
+smart-cache-cleaner = smart_cache_cleaner.main:main

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/smart_cache_cleaner/__init__.py
+src/smart_cache_cleaner/main.py
+src/smart_cache_cleaner.egg-info/PKG-INFO
+src/smart_cache_cleaner.egg-info/SOURCES.txt
+src/smart_cache_cleaner.egg-info/dependency_links.txt
+src/smart_cache_cleaner.egg-info/entry_points.txt
+src/smart_cache_cleaner.egg-info/requires.txt
+src/smart_cache_cleaner.egg-info/top_level.txt
+tests/test_smart_cache_cleaner.py
