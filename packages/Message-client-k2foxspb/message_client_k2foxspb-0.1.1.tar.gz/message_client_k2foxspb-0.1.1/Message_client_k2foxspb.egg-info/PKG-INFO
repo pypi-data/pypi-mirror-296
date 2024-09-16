@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Message_client_k2foxspb
+Version: 0.1.1
+Summary: mess_client
+Author: @k2Fox
+Author-email: k2foxspb@mail.ru
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+РЎРµСЂРІРµСЂРЅС‹Р№ РјРѕРґСѓР»СЊ РјРµСЃСЃРµРЅРґР¶РµСЂР°. РћР±СЂР°Р±Р°С‚С‹РІР°РµС‚ СЃР»РѕРІР°СЂРё - СЃРѕРѕР±С‰РµРЅРёСЏ, С…СЂР°РЅРёС‚ РїСѓР±Р»РёС‡РЅС‹Рµ РєР»СЋС‡Рё РєР»РёРµРЅС‚РѕРІ.
+
