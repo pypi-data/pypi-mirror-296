@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: docfusion
+Version: 0.1.0
+Summary: Doc Fusion is a Data Sourcing framework capable of parsing various data types such as pdf, txt, md, docx, xlsx, csv and even a webpage url.
+Home-page: https://github.com/IBM/doc-fusion
+Author: Manoj Jahgirdar
+Author-email: manoj.jahgirdar@in.ibm.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ibm-watsonx-ai==1.1.2
+Requires-Dist: pydantic==2.8.2
+Requires-Dist: langchain==0.2.12
+Requires-Dist: langchain-ibm==0.1.11
+Requires-Dist: langchain-community==0.2.11
+Requires-Dist: langchain_huggingface==0.0.3
+Requires-Dist: sqlalchemy==2.0.32
+Requires-Dist: pymupdf==1.24.5
+Requires-Dist: fastapi==0.110.3
+Requires-Dist: uvicorn[standard]==0.23.2
+Requires-Dist: chromadb==0.4.15
+Requires-Dist: langchain-core==0.2.28
+Requires-Dist: sentence-transformers==3.0.0
+Requires-Dist: openpyxl==3.1.4
+Requires-Dist: mammoth==1.8.0
+Requires-Dist: xhtml2pdf==0.2.16
+Requires-Dist: ibm-cos-sdk==2.13.2
+Requires-Dist: pandas==2.1.4
+
+Doc Fusion is a Data Sourcing framework capable of parsing various data types such as pdf, txt, md, docx, xlsx, csv and even a webpage url. It can handle several types of data such as multi columnar, tabular and invoices. The framework uses an LLM (Large Language Model) Agentic approach, where each data type is managed by a dedicated LLM Agent.
