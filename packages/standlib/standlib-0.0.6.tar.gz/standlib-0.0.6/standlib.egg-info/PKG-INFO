@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: standlib
+Version: 0.0.6
+Summary: A custom standard library module for Python
+Home-page: https://github.com/BrunoCiccarino/standlib
+Author: BrunoCiccarino
+Author-email: ciccabr9@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Standlib 🐍
+
+This project is a set of pre-built modules, functions and classes that were made to make your life easier when programming in Python, it works like a Swiss army knife.
+
+Version:
+
+* This library is still only in beta version, it is worth mentioning that this means that it is in constant development.
+
+Instalation:
+
+* To install it is very simple, just install it via pip ```pip install pystdlib``` and then you can use it without any problems.
+
+
+Purpose:
+The Double class provides a custom implementation for double-precision floating-point numbers in Python, offering greater control over precision and formatting than the built-in float type.
+
+Attributes:
+
+precision (int): Specifies the number of decimal places to maintain.
+Methods:
+
+* init(value, precision=None): Creates a new Double object.
+* value (int, float, or str): The initial value.
+* precision (int, optional): The desired precision. Defaults to the class-wide default precision.
+* repr(): Returns a string representation suitable for debugging.
+* str(): Returns a formatted string representation.
+* add, sub, mul, truediv, mod, pow, floordiv: Overloaded arithmetic operators for performing various mathematical operations on Double objects.
+* set_default_precision(precision): Sets the default precision for all Double objects.
+* get_default_precision(): Gets the current default precision.
+
+Features:
+
+Customizable precision: Control the number of decimal places to retain.
+Arithmetic operations: Supports addition, subtraction, multiplication, division, modulo, exponentiation, and floor division.
+String formatting: Provides flexible formatting options.
+Default precision: Sets a global default precision for all Double objects.
+Internal Implementation:
+
+Stores values as strings to maintain exact precision.
+Implements custom arithmetic operations for accurate calculations.
+Handles edge cases like division by zero and large numbers.
+Benefits:
+
+Improved accuracy: Avoids floating-point errors common in standard float types.
+Flexibility: Customize precision to suit specific use cases.
+Control: Offers fine-grained control over number representation.
+Use Cases:
+
+Financial calculations: Where precise calculations are essential.
+Scientific computing: For applications requiring high-precision numbers.
+Custom data types: As a building block for more complex data structures.
