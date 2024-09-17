@@ -1,0 +1,8 @@
+cabaret/__init__.py,sha256=389dfKkFXjm61LErHyoAvDQEX9so9vwvFYVus6DD3lA,97
+cabaret/image.py,sha256=GQqUCAyR-zSpVYb8ilVS3DJzKnxsbB6o6FnaGzCFbtE,4755
+cabaret/observatory.py,sha256=exeHh8WLVx86cbfyF-0-48rn0JfI9ucwPwbIB_yoYwg,609
+cabaret/queries.py,sha256=jCalUIWZ5tQJcDLoS3hyobj_S-h_FYKC4xv3u93kzeA,5309
+cabaret-0.1.0.dist-info/METADATA,sha256=I51G2a3631YbG4H-fiwTDSjahkFBbLRWJ_cvWNFykRI,1627
+cabaret-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+cabaret-0.1.0.dist-info/licenses/LICENSE,sha256=xCffUN0P7yV0yxdb8JccXVOpyIxTRGgEXxZcygAHJpY,1080
+cabaret-0.1.0.dist-info/RECORD,,
