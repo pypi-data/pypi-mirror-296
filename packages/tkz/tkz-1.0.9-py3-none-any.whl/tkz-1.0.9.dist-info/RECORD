@@ -1,0 +1,16 @@
+tkz/__init__.py,sha256=uDiNdJHEmN56QOBhwoa0gYFpY1iIYmSmF87R6x9F-rc,50
+tkz/tkz.py,sha256=s5suHRzRDjQk-iNrZIGB9ZdvVCLPQJ01nlekBRYaCoU,85287
+tkz/examples/test_basic.py,sha256=laTov2nl2XBpagv-p18q2GHew3qVquPeNa5B1qzByD4,214
+tkz/examples/test_hexbin.py,sha256=3D6OYCIiSBxol2KxWzUWIetbRW_UWvB3MkuTH2Bh2_w,912
+tkz/examples/test_range.py,sha256=HBthK4qq98VPn2hIqccCoQvdWRRsaPnLorZxVSr6oDw,1134
+tkz/testing/test_draw_coord.py,sha256=s0sIibc4PUAbQyHnTezC4IOEpXsbHdrDY09Z-B7t430,2165
+tkz/testing/test_hexagon_vertices.py,sha256=CpYupr-S9_nqn9kSqVzQjn6Kk-PYEpQMXwa41A9GH08,3759
+tkz/testing/test_hexagons.py,sha256=otrXo3qUpFHDMxU6zz3J9eN9Rs-VUkJUkLOTx695j-U,7526
+tkz/testing/test_memory.py,sha256=0Pq-v08tp7NUF5P7x4tdHNbpYgQiBOxwMjUuZG8e-Ec,3948
+tkz/testing/test_only_y.py,sha256=IleU8mC0RzDHjaDQIOhI0lNHopOIwhK4lMyrVltlMI8,139
+tkz/testing/test_precision.py,sha256=BZhf_LhOtfVBMMRem3TAKYNTYPC4bAOCY5wzB1CKk-o,1904
+tkz-1.0.9.dist-info/LICENSE.txt,sha256=8RfjdtSsgxPHt1jfYUdAxKoTQo4p51bt8Dm5uWm7XTY,1058
+tkz-1.0.9.dist-info/METADATA,sha256=3h_C5EBOLsmfZO1RAfR8GGpVzWOjAVRExT2pxsPwDdg,16002
+tkz-1.0.9.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+tkz-1.0.9.dist-info/top_level.txt,sha256=eVRz9kvklbJRMHtyAZy13MpCa3NGnCUIEHB5Wv4fJBQ,4
+tkz-1.0.9.dist-info/RECORD,,
