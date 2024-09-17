@@ -1,0 +1,12 @@
+polystar/COPYING,sha256=Sqk6nYDwo19ZDNLKIZFN_nQKApstcNtIMDwTehofesU,34557
+polystar/__init__.py,sha256=MMshO4S1wFGwBCUo9UoyazaGInqXe2jXOmhkkx7xYMM,1578
+polystar/_polystar.cp313-win_amd64.pyd,sha256=_3YmoqMd60uEK3SR0rRRVRLYyOZDxRkpBGIF2LjovnE,3758080
+polystar/bound.py,sha256=n9329-Dz95dcjzLcq1rMw1b138fG5znFY5ZSe95Mb2k,2283
+polystar/peaks.py,sha256=VQbkJNat3NvryzsXVmCz2qzyKZ2so4KU8CtrdHKEFfY,6284
+polystar/plot.py,sha256=X9bTdmiQQysgZq_4PnACXfty1HBTxbu7CDTWItHlGsE,3563
+polystar/vis.py,sha256=rg4rzehTTDiv8tVlocTmrPCVf1npV2_3tu9j_IJ1FrY,9959
+polystar-0.4.5.dist-info/COPYING,sha256=Sqk6nYDwo19ZDNLKIZFN_nQKApstcNtIMDwTehofesU,34557
+polystar-0.4.5.dist-info/METADATA,sha256=W_PB2DhaofBXHoy995cp3ibXDATqzbmijexTus89XsM,2264
+polystar-0.4.5.dist-info/WHEEL,sha256=WsITy9NjrxZo875xZQhJpU3vZUHVZRtNnEd5DMBQpxU,101
+polystar-0.4.5.dist-info/top_level.txt,sha256=V5C-CQG7p6nSqONHxWkhEjYmN-aFJoHDs2DyjbvrMYw,9
+polystar-0.4.5.dist-info/RECORD,,
