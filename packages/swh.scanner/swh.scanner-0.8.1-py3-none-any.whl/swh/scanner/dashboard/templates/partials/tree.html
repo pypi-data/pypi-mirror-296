@@ -1,0 +1,58 @@
+{% macro render_source_tree(root_path, source_tree, nodes_data, json, summary) %}
+  {% if source_tree %}
+    <ul>
+      {% for k, v in source_tree.items()|sort(attribute='0') %}
+        <li>
+
+          {% set fpath = v.data['path'].decode() %}
+          {% set rpath = fpath.removeprefix(root_path + '/') %}
+          {% set node_data = nodes_data.get(v.swhid()) %}
+          {% set known = node_data['known'] %}
+          {% set known_percent = 0 %}
+          {% if v.object_type == 'directory' %}
+            {% if v.data['path'] in summary['partially_known_directories'] %}
+              {% set known_percent = 50 %}
+            {% elif v.data['path'] in summary['full_known_directories'] %}
+              {% set known_percent = 100 %}
+            {% endif %}
+          {% elif v.object_type == 'content' %}
+            {% set known_percent = 100 if known else 0 %}
+          {% endif %}
+          {% set provenance = json(node_data["provenance"]) if "provenance" in node_data else None %}
+          {% if "revision" in node_data and "swhid" in node_data["revision"] %}
+            {% do node_data["revision"].update(swhid=node_data["revision"]["swhid"]|string) %}
+          {% endif %}
+          {% if "release" in node_data and "swhid" in node_data["release"] %}
+            {% do node_data["release"].update(swhid=node_data["release"]["swhid"]|string) %}
+          {% endif %}
+          {% set revision = json(node_data["revision"]) if "revision" in node_data else None %}
+          {% set release = json(node_data["release"]) if "release" in node_data else None %}
+          <details id="{{ v.swhid() }}"
+                   class="{{ v.object_type }}"
+                   data-name="{{ k.decode() }}"
+                   data-swhid="{{ v.swhid() }}"
+                   data-type="{{ v.object_type }}"
+                   data-fpath="{{ fpath }}"
+                   data-rpath="{{ rpath }}"
+                   data-known="{{ known|lower }}"
+                   {% if provenance %}data-provenance="{{ provenance }}"{% endif %}
+                   {% if revision %}data-revision="{{ revision }}"{% endif %}
+                   {% if release %}data-release="{{ release }}"{% endif %}
+                   >
+            <summary>
+              <span class="pie"
+                    name="pie"
+                    {% if known_percent == 100 %}
+                    style="background: #00d300">
+                    {% else %}
+                    style="background: conic-gradient(orange {{ known_percent }}%, white 0)">
+                    {% endif %}
+              </span>
+              {{ k.decode() }}
+            </summary>
+          </details>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
