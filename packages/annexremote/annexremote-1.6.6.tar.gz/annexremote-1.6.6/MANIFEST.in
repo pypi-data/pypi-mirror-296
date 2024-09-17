@@ -1,0 +1,2 @@
+include annexremote/_version.py
+include tests/*.py
