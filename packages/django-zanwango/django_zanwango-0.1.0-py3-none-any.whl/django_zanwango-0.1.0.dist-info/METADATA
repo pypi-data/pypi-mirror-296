@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: django-zanwango
+Version: 0.1.0
+Summary: 
+Author: JorgeMira
+Author-email: jorge.mira.yague@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Framework :: Django :: 5.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Typing :: Typed
+Requires-Dist: django (>=4.2)
+Requires-Dist: django-ninja (>=1.0)
+Description-Content-Type: text/markdown
+
+# django-zanwango
+A Django based web framework, combining the best of DRF and Django Ninja
+
+# Main goals of the project:
+
+- Modernize DRF
+- Use pydantic instead of serializers (Initially use Django Ninja)
+- Fully typed
+- Full async support
+- Full support OpenAPI
+- As compatible as possible with DRF and its batteries. Use of protocols.
+- Allow composition over inheritance in viewset methods
+- Some batteries included, but not limited to:
+  - filtering
+  - sorting (with aliases too)
+  - field selector & viewset config
+  - snake2camel renderer
+
+# Installation
+
+Install using `pip`...
+
+    pip install django-zanwango
+
+Add `"zanwango"` to your `INSTALLED_APPS` setting.
+```python
+INSTALLED_APPS = [
+    ...
+    "zanwango",
+]
+```

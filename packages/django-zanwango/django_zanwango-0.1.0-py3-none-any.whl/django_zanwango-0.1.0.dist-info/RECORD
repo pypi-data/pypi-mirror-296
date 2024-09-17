@@ -1,0 +1,8 @@
+zanwango/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zanwango/apps.py,sha256=USky5s-IWDsaXtFMw_2wEbKiUE_fzhr22xoJ6PagwRk,179
+zanwango/conf/__init__.py,sha256=MzXx3zH4ZmqeGoAMe5aouaiTUD-CZeK42MZZXk4W9do,51
+zanwango/conf/models.py,sha256=BfbaiE2ZrCvM1r3mYtPeGw0GI0sOfsFZFX96F4o_mXo,68
+django_zanwango-0.1.0.dist-info/LICENSE,sha256=Ca4ACIRseBYvsj6EYDaLYMZQAYSn6hdWSrZY4cJc66w,1067
+django_zanwango-0.1.0.dist-info/METADATA,sha256=s4piQ2Bcdwt7sldy06CbkFuq_F4tiMoy5bsC6ftzDk8,1740
+django_zanwango-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_zanwango-0.1.0.dist-info/RECORD,,
