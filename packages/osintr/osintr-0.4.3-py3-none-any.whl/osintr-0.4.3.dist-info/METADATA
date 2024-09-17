@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: osintr
+Version: 0.4.3
+Summary: Gathering open-source data on target based on user input.
+Author: 0SINTr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: langchain-community
+Requires-Dist: python-dotenv
+Requires-Dist: firecrawl-py
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: argparse
+Requires-Dist: colorama
+
