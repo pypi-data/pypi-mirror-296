@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hashi_vault
+Version: 0.1.1
+Summary: Frequently used HashiCorp Vault codes
+Author-email: Song Tang <deamen@gmail.com>
+License: GPL-3.0-only
+Project-URL: Homepage, https://github.com/deamen/python-modules/tree/master/hashi_vault
+Keywords: HashiCorp,Vault
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: requests
+
