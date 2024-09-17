@@ -1,0 +1,12 @@
+zope.i18nmessageid-7.0-py3.9-nspkg.pth,sha256=zDNDwM8h45DoWcASl9nbs_zA6RqUsLEayDGITnaf1Uw,458
+zope/i18nmessageid/__init__.py,sha256=mWzf775fAb2RgQZI9vuQROxXtAZRNUuHQNr6lsDdpeg,888
+zope/i18nmessageid/_zope_i18nmessageid_message.c,sha256=dwV6OFM46L_YtpZRMagxnU65JJd6EJ44gKfQ7zjhrsI,12906
+zope/i18nmessageid/_zope_i18nmessageid_message.cp39-win_amd64.pyd,sha256=9WWbSDFSTwnjZjMqWgryD3qKLCTX0hpOLS938Yi6Vk4,15360
+zope/i18nmessageid/message.py,sha256=1-_nVSv6pNWYL4U9qAicbwLj7v8Y6AFoQT5PWxEYD74,4233
+zope/i18nmessageid/tests.py,sha256=4gecNx34MH02cVvEcByZD4mgdFsIzvcps783ikzpUTg,12148
+zope.i18nmessageid-7.0.dist-info/LICENSE.txt,sha256=bHkPG2Oy1PmxiQVWnzhtYjAlM1wCWbZQ6AyenUetrS0,2114
+zope.i18nmessageid-7.0.dist-info/METADATA,sha256=Q3d07EXVXQHLR17DF1K5OLbHOniFFVg6Rgoq1wdS0bQ,9662
+zope.i18nmessageid-7.0.dist-info/WHEEL,sha256=Os6_QENWp0Y99Uhn6SmX8k6DheJPHPoZtAIvme4kS_I,99
+zope.i18nmessageid-7.0.dist-info/namespace_packages.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
+zope.i18nmessageid-7.0.dist-info/top_level.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
+zope.i18nmessageid-7.0.dist-info/RECORD,,
