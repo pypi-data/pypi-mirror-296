@@ -1,0 +1,7 @@
+numpy
+matplotlib
+sympy
+ase
+pytest
+pytest-cov
+pytest-mpl

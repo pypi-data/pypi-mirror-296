@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/totEnJ/Heisenberg_exchange_from_total_energy.py
+src/totEnJ/example_bulk_bcc.ipynb
+src/totEnJ/example_linear_chain_monoatomic.ipynb
+src/totEnJ/exchange_coupling_hexagonal_mesh.ipynb
+src/totEnJ/prepare_spin_states.py
+src/totEnJ/utils.py
+src/totEnJ.egg-info/PKG-INFO
+src/totEnJ.egg-info/SOURCES.txt
+src/totEnJ.egg-info/dependency_links.txt
+src/totEnJ.egg-info/requires.txt
+src/totEnJ.egg-info/top_level.txt
