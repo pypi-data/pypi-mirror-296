@@ -1,0 +1,12 @@
+gen_joint_mtide/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gen_joint_mtide/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gen_joint_mtide/core/emg_arbitrary_variance.py,sha256=ulxWEvHBJcDMGXL_pfxY73U1-awLYWFDBHYFoT7uvKs,4505
+gen_joint_mtide/core/evaluate_gen_models.py,sha256=vSEtEyZqj-gJzGpmLT1HZ0ZD5Mxv4u3A968rutWEvKk,9306
+gen_joint_mtide/core/fit_tcopula.R,sha256=JITEER9V3wf6MLcJodoB0MDAwCAtktwMjO_yabchLYY,289
+gen_joint_mtide/core/gen_model_strategies.py,sha256=fcszL0cs3mbsY4cuIRCGp9rGCrCmy-GKByxZzVIssuI,4850
+gen_joint_mtide/core/gen_t_copula.R,sha256=-WoubrGLjJR18zXkLpkiJUqbveOxKhi68nqHvufE7i8,1729
+gen_joint_mtide/core/simulate.py,sha256=i3GnZkKa1IqGbQPyyIgc_BojH9Qd-IlnaY_SkHVenR4,6959
+gen_joint_mtide/data/example_data.csv,sha256=TETLvAwY6bwJ81t95Vm3avWAl40tVx5qvq89S7Xhoeg,9247
+gen_joint_mtide-0.1.0.dist-info/METADATA,sha256=YAJR8nScKWmsnlc06_tcx_tuO1jozla6HNo-ejRGzfo,874
+gen_joint_mtide-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gen_joint_mtide-0.1.0.dist-info/RECORD,,
