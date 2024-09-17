@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+team_formation/__init__.py
+team_formation/_version.txt
+team_formation/team_assignment.py
+team_formation/team_assignment_ui.py
+team_formation/working_time.py
+team_formation.egg-info/PKG-INFO
+team_formation.egg-info/SOURCES.txt
+team_formation.egg-info/dependency_links.txt
+team_formation.egg-info/requires.txt
+team_formation.egg-info/top_level.txt
+tests/test_big.py
+tests/test_size.py
+tests/test_small.py
