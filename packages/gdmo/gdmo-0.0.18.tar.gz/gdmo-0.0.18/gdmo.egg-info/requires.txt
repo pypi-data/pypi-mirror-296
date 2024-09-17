@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+prophet
+scipy
+pyspark
+delta-spark
+requests
