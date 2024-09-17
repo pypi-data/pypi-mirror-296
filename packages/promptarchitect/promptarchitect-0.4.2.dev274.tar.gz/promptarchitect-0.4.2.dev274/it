@@ -1,0 +1,407 @@
+[33m78e11ac[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32madd-score-test-case[m[33m)[m Refactor test specifications to use "Metric" instead of "Score"
+[33m820550d[m Add ScoreTestSpecification and ScoreTestCase for score-based tests
+[33m774b729[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Merge pull request #200 from Joopsnijder/Joopsnijder/issue186
+[33m078f216[m[33m ([m[1;31morigin/Joopsnijder/issue186[m[33m, [m[1;32mJoopsnijder/issue186[m[33m)[m Refactor test specifications to use "Metric" instead of "Score"
+[33m0ff29a0[m Merge pull request #199 from Joopsnijder/Joopsnijder/issue186
+[33m36b888a[m Refactor test specifications to use "Metric" instead of "Score"
+[33mdce31e4[m Merge pull request #198 from Joopsnijder/Joopsnijder/issue186
+[33mb938f1b[m Merge branch 'main' into Joopsnijder/issue186
+[33m3df1ff3[m Fixed the tests and renamed score to metric
+[33ma1d68da[m Merge pull request #197 from Joopsnijder/Joopsnijder/issue186
+[33m9b9e06f[m Merge branch 'main' into Joopsnijder/issue186
+[33me8b6df8[m Refactor test specifications to use "Metric" instead of "Score"
+[33me7c5e8c[m Merge pull request #195 from Joopsnijder/record-messages-for-tests
+[33m839546d[m Fix conflicts in the linting configuration
+[33m612d66c[m Fix linting config
+[33m9069dc2[m Fix unit-tests
+[33m0336fcb[m Fix warnings
+[33mfe440dd[m Merge pull request #194 from Joopsnijder/fix-dependency-management
+[33ma0d3726[m Fix lock files to be universal
+[33mab0dfad[m Merge pull request #193 from Joopsnijder/add-precommit-hooks
+[33m1f24a47[m Update contributor guide
+[33m451b639[m Add pre-commit hook for ruff
+[33mfd8bd28[m Merge pull request #191 from Joopsnijder/wmeints/issue155
+[33mf799030[m Fix linting errors
+[33m4736458[m Add code to the CLI to capture logs and emit them to the terminal Fixes #155
+[33ma65befa[m Merge pull request #190 from Joopsnijder/wmeints/add-log-processor
+[33m4af72ce[m Remove hashing in pyproject.toml
+[33m969aeb7[m Make the configuration for rye explicit
+[33m4b4846c[m Fix launch configuration
+[33mb751238[m Link log forwarding into the CLI
+[33m74172c3[m Add LogProcessor class and integrate it into main function
+[33m9a6f1ea[m Merge pull request #189 from Joopsnijder:Joopsnijder/issue188
+[33m2849f09[m Updated the doc strings.
+[33m2e4552b[m Merge pull request #183 from Joopsnijder/fix-content-extraction
+[33m05f242a[m Add missing markers
+[33ma13c8a1[m Remove fixture
+[33mb215d6d[m Mark tests with LLM so the build doesn't choke
+[33md8430e4[m Fix linting errors
+[33m453386b[m Properly support markdown and json in the response
+[33mde07d9f[m Add init file for test module
+[33mfa00864[m Move completion modules into the correct place
+[33ma5f2cff[m Move JSON extraction to the core
+[33m1b8a15d[m Merge pull request #180 from Joopsnijder/chore-remove-generated-files
+[33m5723bd5[m Merge pull request #181 from Joopsnijder:Joopsnijder/issue178
+[33me195b87[m Improve test case analysis report prompt
+[33m14e7725[m Remove generated report
+[33m0fe198b[m Merge pull request #179 from Joopsnijder/wmeints/add-prompt-analysis
+[33mda9f143[m Fix missing input and output tokens
+[33m8dbd9ec[m Refactor CLI
+[33m2a733a9[m Refactor analysis module
+[33m407056e[m Exclude reports from git
+[33mf06c92c[m Add launch configuration
+[33m2444ec3[m Add CLI module for prompt analysis and integrate with main app
+[33m5f7cb2d[m Merge pull request #177 from Joopsnijder:Joopsnijder/issue140
+[33m76dc4bd[m Added specification analysis and report
+[33m52fa219[m Merge pull request #176 from Joopsnijder/ISNL-LemsE/issue150
+[33mcdaf4cb[m Mark another test with LLM
+[33m579a9c8[m Mark the other test with LLM
+[33m95fcf75[m Add completed docstring and cleaned up the code
+[33m5095d49[m Design and implement the PSI calculation function Fixes #150
+[33m2f5697e[m Merge pull request #166 from Joopsnijder/wmeints/fix-missing-token-information
+[33ma0ab8a7[m Add missing token information
+[33m75f6f7d[m Merge pull request #165 from Joopsnijder/wmeints/add-opentelemetry-traces
+[33m23e5226[m Fix build issues
+[33mf2a1eb2[m Merge branch 'main' into wmeints/add-opentelemetry-traces
+[33m77b7409[m Add OpenTelemetry traces to key operations
+[33m3065d7b[m Merge pull request #162 from Joopsnijder/add-engineeredpromptanalyzer
+[33m5596b78[m[33m ([m[1;31morigin/add-engineeredpromptanalyzer[m[33m, [m[1;32madd-engineeredpromptanalyzer[m[33m)[m chore: Refactor EngineeredPromptAnalyzer tests and documentation
+[33ma3c11f6[m Merge pull request #161 from Joopsnijder/add-engineeredpromptanalyzer
+[33md6b46f9[m Implement EngineeredPromptAnalyzer class and related tests/documentation
+[33m48b3c7f[m Implement the EngineeredPromptAnalyzer class and add related tests and documentation
+[33md561b81[m Merge pull request #159 from Joopsnijder:production-decision-openai-standard-for-suggestions
+[33m975d975[m Product Decision for OpenAI as standard suggetions LLM
+[33m1b53f34[m Merge pull request #157 from Joopsnijder:write-to-file-bug
+[33m3bd4974[m[33m ([m[1;32mwrite-to-file-bug[m[33m)[m chore: Update write_output_to_file method to use private method _write_output_to_file
+[33m055160a[m[33m ([m[1;32mJoopsnijder/issue143[m[33m)[m Merge pull request #154 from Joopsnijder/wmeints/add-gitattributes
+[33ma37d0d5[m Add a basic contributor guide
+[33mb6a683b[m Add gitattributes to handle line endings
+[33m5790b71[m Merge pull request #152 from Joopsnijder:wmeints/end-to-end-tests
+[33m6048b73[m[33m ([m[1;31morigin/wmeints/end-to-end-tests[m[33m)[m Fix prompt for the question test case
+[33ma8e5ab0[m Support the use of .env files in the CLI
+[33mba329ee[m Fix prompt question
+[33m0c2b5c8[m Only convert parameter values that are set
+[33m329f5ec[m Fix example syntax
+[33m98eb798[m Fix python interpreter path
+[33m22c0726[m Add script to run end-to-end scenarios
+[33m2aeeb57[m Add missing case for property based tests
+[33m5c2f119[m Merge pull request #149 from Joopsnijder/wmeints/update-build-actions
+[33ma259d7d[m Further increase versions
+[33m623994c[m Revert version change for pypi publish action
+[33m6809e82[m Update build actions to the latest versions
+[33m51d12d9[m Merge pull request #148 from Joopsnijder/wmeints/add-devcontainer
+[33mf6979ce[m Optimize dev container
+[33md0b16a6[m Add devcontainer configuration for copilot workspace
+[33m2c3935f[m Merge pull request #144 from Joopsnijder/wmeints/fix-test-discovery
+[33mdb395ac[m Fix default value for tests in spec
+[33m8ee48d7[m Merge pull request #146 from Joopsnijder:add-top-p-parameter
+[33mcced3cc[m chore: Update parameter handling in completion classes for parameter top_p
+[33me5ea87b[m Switch decorators
+[33m8d7b5a7[m Repair test case
+[33m0f78eee[m Fix test discovery for prompt files without test_path
+[33m9453e49[m Remove output folder
+[33m70c4083[m Merge pull request #142 from Joopsnijder/fix-circular-import-statement
+[33mdacec2d[m Move import statements into method
+[33mf874ab8[m valid langcodes fixed
+[33mfb4ddb3[m Merge pull request #141 from Joopsnijder/fix-test-cases
+[33m13b962c[m Fix linting error
+[33mb04650b[m Move dotenv statements to test cases
+[33me403247[m Fix logging configuration
+[33m7578ddc[m[33m ([m[1;32mJoopsnijder/issue139[m[33m)[m Merge pull request #138 from Joopsnijder:Joopsnijder/issue137
+[33m0fa3da7[m chore: Add validation for language code in LanguageTestSpecification
+[33mc613177[m Merge pull request #135 from Joopsnijder:Joopsnijder/issue82
+[33md509cdb[m chore: Update README.md with caching information
+[33m20494bb[m Merge pull request #134 from Joopsnijder:further-ruff-improvements
+[33mf0d541d[m Enable unused argument checks
+[33m215e9c4[m Enably tidy imports
+[33m093fb97[m Add simplify linting rules
+[33m9a77ae3[m Enable private member checks
+[33ma5debb3[m Fix return statements
+[33m2d847ab[m Enable pytest linters
+[33m07d69e7[m Merge pull request #130 from Joopsnijder/ruff-configuration-improvements
+[33m60741ce[m Fix linting errors for test cases
+[33m2601d38[m Fix remaining linting errors
+[33m35bd50b[m Fix failed tests
+[33m31f4f9f[m Merge remote-tracking branch 'origin/main' into ruff-configuration-improvements
+[33ma2389c2[m Include pyflake ruleset
+[33m42fe9f5[m Merge pull request #119 from Joopsnijder/add-language-test
+[33m084b6c5[m Merge branch 'main' into add-language-test
+[33me03310c[m[33m ([m[1;32madd-language-test[m[33m)[m Add language test type for prompt validation
+[33mafe7e47[m Apply rules to test cases as well
+[33m7b1e247[m Add INP ruleset
+[33mb041675[m Enable logging standards
+[33m9ad99fc[m Forward error to caller
+[33m355cff6[m Fix how we use exception messages
+[33m35fb41f[m Add timezone checks
+[33mf9b11fa[m Fix linting errors after rebase
+[33m8ccfc12[m Add validation for builtins
+[33m54033f0[m Add bugbear checks
+[33mb801d51[m Add boolean trap checks
+[33m2486335[m Remove rule based check
+[33m1dce07a[m Enable security checks
+[33md4147d9[m Fix RCE bug in jinja2 template configuration
+[33m37ac2e2[m Fix denial of service attack checking for ollama
+[33m2cd635c[m Add type annotation checks
+[33me389cd7[m Add naming rules
+[33mfcab112[m Mark validation method as class method
+[33m1ec1320[m Correct type annotation
+[33m5c66f08[m Enable E category linters for ruff
+[33mb8eb367[m Configure additional excludes
+[33mccf232b[m Fix pydocstring errors with ruff
+[33mc0dd1e0[m Add numpy convention to pyddocstyle settings
+[33m2256ae8[m Remove spell-check settings
+[33ma3d452f[m Remove unused modules
+[33m2325ed3[m Add additional checks for ruff
+[33mda6205f[m Merge pull request #133 from Joopsnijder/Joopsnijder/issue128
+[33m5988bd0[m Merge pull request #132 from Joopsnijder:Joopsnijder/issue128
+[33m54ca826[m PRD and Product Decision Log added
+[33mee80c36[m Product Requirements Document (PRD) added and 3 Product Decision Logs.
+[33mac60515[m Merge pull request #125 from Joopsnijder/wmeints/issue90
+[33m1e77fc2[m Remove unused files
+[33m6862358[m Merge pull request #124 from Joopsnijder/fix-missing-report-variables
+[33mc51b936[m Fix missing variables in the report
+[33m380c935[m Update dependencies
+[33meeb45c8[m Merge pull request #120 from Joopsnijder/wmeints/issue67
+[33m7fe361e[m Remove the `id` parameter from the `PromptInput` instantiation in the `input_sample` fixture
+[33md6125b9[m Move validation to before phase
+[33mf04745d[m Fix linting errors
+[33me075096[m Create output folder when it doesn't exist
+[33m4177df1[m Link test session to CLI
+[33m8e4f0a6[m Add theme support to session config
+[33m9abb5c5[m Return success status in session
+[33md67e923[m Fix failing test case
+[33m0494a6f[m Fix docstring
+[33m67d2abb[m Fix call to HTML reporter
+[33m989ee7b[m Add debug configuration for the CLI
+[33me2c8fa5[m Merge pull request #113 from Joopsnijder/wmeints/issue64
+[33m5409d1a[m Fix linting errors
+[33mb76dbc0[m Update templates for the pajamas theme
+[33m5eea0da[m Fix ignore settings
+[33mbcaa4de[m Ignore reports folder
+[33m8325168[m Add helper script to verify reports locally
+[33m68e15dd[m Improve layout of the dashboard
+[33mc1eec89[m Improve behavior in report data
+[33mb611d83[m Move template environment setup
+[33m7cac121[m Add language test type for prompt validation
+[33m3e93621[m Fill in missing data in the file reports
+[33m068c35b[m[33m ([m[1;31morigin/118-user-story-add-language-test-type-for-prompt-validation[m[33m, [m[1;32mJoopsnijder/issue118[m[33m, [m[1;32m118-user-story-add-language-test-type-for-prompt-validation[m[33m)[m Merge pull request #115 from Joopsnijder:Joopsnijder/issue28
+[33m0d050de[m Updated the architectural documentation and already added the needed development experience.
+[33m42f9198[m Include filename in prompt spec
+[33mdea14e5[m Remove extra fields
+[33m2db0e50[m Replace test reporter in test with mock version
+[33m5565b79[m Fix naming of property
+[33m4e54b9b[m Add filename to mock prompt
+[33m2dbd84e[m Fix linting errors
+[33mc2d4803[m Add HTML reporter implementation
+[33m9399128[m Add new theme files
+[33ma99e103[m Remove old theme files
+[33m674b78b[m Replace call to reporter with the improved version
+[33m0c3f503[m Include more details for the test reporter
+[33m0e49dc1[m Extend spec for prompt input with filename
+[33m7074aad[m Add test result collection step to the reporter class
+[33m3982435[m Add property for quickly detecting if we have tests in a prompt file
+[33mb30ba49[m Raise error when a test reporter doesnt implement
+[33m00e740f[m Move session configuration to a separate module
+[33m2bad0c0[m Merge pull request #111 from Joopsnijder:wmeints/issue53
+[33m2498d75[m Mark test cases with llm marker
+[33mdfc538c[m Extend python path in test run
+[33m139305c[m Fix import statements
+[33m3e7a7f5[m Add question test case
+[33m558173d[m Add an engineered prompt fixture
+[33mad2d522[m Refactor test cases to reuse fixtures as much as possible
+[33m717154d[m Merge pull request #110 from Joopsnijder:wmeints/fix-model-detection
+[33m0619bcf[m Mark unit-test with LLM
+[33m47f14e9[m Add function to resolve model
+[33mb4e85ae[m Add self keyword to fix check for ollama server
+[33mcc1ee99[m Merge pull request #107 from Joopsnijder:refactor-claude-completion
+[33m47bf0e6[m chore: Refactor ClaudeCompletion to improve code structure and readability
+[33m543c53d[m Merge pull request #106 from Joopsnijder:Joopsnijder/issue93
+[33m2094b56[m Update OllamaCompletion to check if Ollama model is downloaded.
+[33maca2d43[m Merge pull request #105 from Joopsnijder:Joopsnijder/issue92
+[33mc3d37aa[m chore: Update OllamaCompletion to check if Ollama server is running
+[33m2ff2d0f[m Merge pull request #104 from Joopsnijder/100-rename-latency-property-on-completion-to-duration
+[33mde2e6b1[m[33m ([m[1;31morigin/100-rename-latency-property-on-completion-to-duration[m[33m)[m chore: Update variable name from latency to duration
+[33mca95bb3[m Merge pull request #103 from Joopsnijder:Joopsnijder/issue100
+[33m7fc31f6[m chore: Update variable name from latency to duration
+[33mb5aec60[m Merge pull request #102 from Joopsnijder/wmeints/mark-llm-tests
+[33m1f418f4[m Mark caching test for llm interactions
+[33mc5a1bad[m Register marker for llm tests.
+[33m1090eb9[m Mark tests that execute run method
+[33m883c6f5[m Mark tests that interact with an LLM so we can skip them in the CI pipeline
+[33mf6fb6f3[m Merge pull request #99 from Joopsnijder:wmeints/issue98
+[33m028d72d[m Refactor imports in testcases.py
+[33m9d50ca3[m Add format test case
+[33m65af16c[m Fix missing ID property
+[33m0fb97ee[m Convert output format to enum
+[33m8106bfc[m Merge pull request #97 from Joopsnijder:wmeints/add-identifiers
+[33ma626786[m Fix problem serializing parameters
+[33m725ef2b[m Add unique identifier to prompt
+[33m168ee38[m Fix prompt input problems
+[33me42f929[m Add caching of prompt output for test cases
+[33m2eb3722[m Merge pull request #95 from Joopsnijder/wmeints/issue54
+[33m4d55af8[m Remove unused import
+[33m30815bf[m Fix field_validator deprecation warning
+[33m98e9d41[m Implement property based test case
+[33mb64907e[m Convert unit to enum
+[33m4e8b2c3[m Add between method to limits
+[33m0a1a207[m Expand spec for property testing
+[33mc5d7336[m Merge pull request #94 from Joopsnijder/wmeints/fix-tests
+[33mdce596b[m Update lock file
+[33m13b9663[m Remove unused imports
+[33mecfeb70[m Fix parameter parsing for completions
+[33m3f7af15[m Convert metadata to parameters in factory method
+[33mf14c18b[m Remove unwanted assertions
+[33md120ccf[m Simplify test cases
+[33m82e471f[m Make filename optional
+[33m38764be[m Remove unused test specs
+[33md17ea02[m Merge pull request #91 from Joopsnijder:Joopsnijder/issue90
+[33me913c97[m chore: Remove unused PromptFile class
+[33m3845d2a[m Update README.md
+[33m05bcdc6[m Merge pull request #88 from Joopsnijder/Joopsnijder/issue83
+[33m8a8a933[m Add support for converting EngineeredPrompt to a dictionary
+[33m64d4de6[m Merge pull request #87 from Joopsnijder/Joopsnijder/issue44
+[33me53ea0f[m Added an alias option for setting better readable and memorizable model names in the prompt files.
+[33mbc5b623[m chore: Update architecture decisions documentation formatting
+[33md39d479[m Merge pull request #86 from Joopsnijder/Joopsnijder/issue82
+[33m70e9957[m Remove the caching example and references to caching in the docs
+[33mdb7faf7[m Merge pull request #85 from Joopsnijder/Joopsnijder/issue80
+[33m32201f8[m - Updated all examples to work with the new EngineeredPrompt class
+[33mde32615[m Merge pull request #78 from Joopsnijder/wmeints/issue61
+[33m4d14253[m Fix validation error in test
+[33ma2eeb8d[m Support reading .txt files as input samples for the tests
+[33mb54ec22[m Merge pull request #77 from Joopsnijder/wmeints/issue63
+[33md25fa25[m Fix unit-test
+[33m88463fb[m Sort prompt files in alphabetical order during discovery
+[33mca052b1[m Merge pull request #76 from Joopsnijder/Joopsnijder/issue66
+[33m1413a80[m Fixes Add input file support for a prompt specification #66
+[33m5faacda[m Merge pull request #75 from Joopsnijder/Joopsnijder/issue73
+[33m80f4a84[m Merge pull request #74 from Joopsnijder/Joopsnijder/issue71
+[33m4b881fa[m refactor: Update EngineeredPrompt initialization to support prompt file
+[33m47486cf[m chore: Update PromptInput class name in prompting.py and specification.py
+[33m32cb10f[m Merge pull request #70 from Joopsnijder/Joopsnijder/issue62
+[33m48d2084[m Record latency with the model costs #62 User Story: Store prompt execution info in EngineeredPrompt Class #68
+[33m5fd875d[m Merge pull request #59 from Joopsnijder/wmeints/issue58
+[33m9be2d84[m Fix code to match sequence diagram in the docs
+[33m5e75bd0[m Fix description of sequence diagram
+[33mdebd46e[m Add skeleton for reporters
+[33mfaa4183[m Remove start and end date from session
+[33mbd0b052[m Enable caching for prompts
+[33m2a58c76[m Fix formatting of import statements
+[33md7f7fe5[m Add test cases for test discovery
+[33mbaed482[m Fix formatting
+[33mc42870a[m Implement test discovery
+[33m5927a63[m Remove unused discovery logic
+[33m892156c[m Add save methods to the input sample and prompt spec
+[33m3f7d491[m Move test cases to a single file.
+[33m1601a6b[m Add skeleton for the test session class
+[33m85e6416[m Improve sequence diagram
+[33ma5be30f[m Update architecture docs
+[33ma67205a[m feat: Base API design for test cases Fixes #58
+[33me4d92b4[m Merge pull request #52 from Joopsnijder/wmeints/issue38
+[33m39d1384[m Merge branch 'main' into wmeints/issue38
+[33mce47099[m Restore original prompt code for testing
+[33mf62c9fd[m Remove tests for abstract base class.
+[33mb9e4707[m Add debug configuration
+[33m9c2ebdd[m Fix command to launch application from debugger
+[33m767affc[m Move input samples to the specification module
+[33mf0d9700[m Add template engine dependency
+[33m339339b[m Rewrite tests for engineered prompt
+[33maa9a208[m Rewrite engineered prompt class
+[33m4c32098[m Add system role property
+[33m4870c93[m Create factory method to initialize completions
+[33md820c4b[m feat: Add cSpell words for OpenAI and PromptArchitect
+[33m6c26b7c[m Improve documentation
+[33m3c2ab1f[m Remove invalid launch configuration
+[33m0a53be7[m Add prompt specification logic
+[33m42d93ed[m Remove old spec
+[33m9956b21[m Update architecture docs
+[33md0c4732[m Add settings to make markdown easier to read.
+[33m5614b1c[m Update 06 - Run time view.md
+[33mfe50f11[m Update README.md
+[33m908a7ad[m Add `render` method to support breaking out into your own LLM setup.
+[33ma121da6[m Expand how we support multiple language models
+[33m920416e[m Fix typo
+[33m611e7d8[m Improve design spec
+[33m3b60c62[m Expand API design
+[33m2344939[m Improve design description
+[33ma965b8b[m Add initial design doc
+[33mf19b3c1[m Merge pull request #51 from Joopsnijder/Joopsnijder/issue50
+[33m4e13421[m feat: Update examples for EngineeredPrompt
+[33m1943ef1[m Merge pull request #49 from Joopsnijder/Joopsnijder/issue47
+[33maa2bea3[m Update examples for EngineeredPrompt
+[33m01a33a0[m Merge pull request #46 from Joopsnijder/Joopsnijder/issue36
+[33mbf62905[m feat: Update examples for EngineeredPrompt
+[33m6e5f90f[m Merge pull request #43 from Joopsnijder/Joopsnijder/issue37
+[33m325cedd[m Claude 3 models added
+[33mc9feced[m Support for Claude 3 models Haiku, Sonnet and Opus
+[33ma7571c8[m Merge pull request #35 from Joopsnijder/Joopsnijder/issue34
+[33m6db7b06[m feat: Fix error handling for unreadable input files in `execute` method ClaudeCompletion
+[33mca8b515[m Merge pull request #33 from Joopsnijder/Joopsnijder/issue31
+[33m4ea98d3[m Merge branch 'main' into Joopsnijder/issue31
+[33m5ea8d1d[m feat: Update version to 0.4.1, add ollama dependency, and update templates
+[33m7dd2e6e[m[33m ([m[1;33mtag: [m[1;33mv0.4.0[m[33m)[m Merge pull request #30 from Joopsnijder/Joopsnijder/issue27
+[33mfba277d[m feat: Support for local models using Ollama
+[33me8f0cb0[m Merge pull request #29 from Joopsnijder/Joopsnijder/issue28
+[33m229b088[m feat: Update architectural documentation with constraints and scope
+[33mff948d7[m[33m ([m[1;33mtag: [m[1;33mv0.3.1[m[33m)[m Merge pull request #26 from Joopsnijder/Joopsnijder/issue25
+[33m3a4210a[m chore: Update podcast prompt instructions
+[33m25a158a[m Merge pull request #23 from Joopsnijder/Joopsnijder/issue22
+[33mcc4dedc[m feat: Add support for default models in the provider configuration files.
+[33mf459689[m[33m ([m[1;33mtag: [m[1;33mv0.3.0[m[33m)[m Merge pull request #21 from Joopsnijder/17-move-cost-calculation-to-the-completion-base-class
+[33m057707a[m[33m ([m[1;31morigin/17-move-cost-calculation-to-the-completion-base-class[m[33m)[m feat: Add support for OpenAI GPT-4o model in engineered prompt
+[33m447f3d3[m Merge pull request #20 from Joopsnijder/Joopsnijder/issue13
+[33m131ede2[m Merge branch 'main' into Joopsnijder/issue13
+[33mf3cf7fe[m Merge pull request #19 from Joopsnijder:Joopsnijder/issue16
+[33m75ca266[m Update to 0.3.0: Support for Anthropic's Claude Sonnet model
+[33m6269bc7[m chore: Update podcast prompt instructions
+[33meb65159[m feat: Update version to 0.3.0, add support for Claude models, and refactor code layout
+[33m208f4be[m[33m ([m[1;33mtag: [m[1;33mv0.2.1[m[33m)[m Merge pull request #12 from Joopsnijder/Joopsnijder/issue11
+[33m1fc253a[m chore: Update version to 0.2.1, update click dependency to >=8.1.3
+[33mf731e8c[m Revert "Merge pull request #9 from Joopsnijder/wmeints/add-huggingface-1"
+[33m866a53a[m Merge pull request #9 from Joopsnijder/wmeints/add-huggingface-1
+[33m69eebeb[m Fix lint errors
+[33mbac1e09[m Add support for Huggingface models
+[33m81cdc9f[m Merge pull request #6 from Joopsnijder/refactor-type-inheritance
+[33m2e81a48[m Fix lint error
+[33m77a3be7[m Refactor module layout
+[33m37a3592[m Removed extra call to set cost parameter
+[33m880ed79[m Inherit from Completion
+[33m0562d46[m Add tests for the OpenAI Completion
+[33mbe3d4ac[m Add tests for FormatCompletion
+[33mc22c125[m Include additional tests for calculated completion
+[33m517b727[m Let FormatCheckCompletion inherit from Completion
+[33mdfd54d5[m Update README.md
+[33md0c5623[m Merge pull request #5 from Joopsnijder/wmeints/replace-comment-tags
+[33m6afd3dd[m chore: Clean up test data
+[33m9b001dd[m chore: Replace comment tags with frontmatter in prompt files
+[33md1642d2[m Replace comment tags with frontmatter
+[33mfdbdb53[m[33m ([m[1;33mtag: [m[1;33m0.2.0[m[33m)[m Bump version
+[33m78b75f6[m Merge pull request #3 from Joopsnijder:wmeints/issue2
+[33m03c3728[m Only publish the package on release or in the main branch
+[33mf48ce91[m Extract the cost information out of the code into a configuration file Fixes #2
+[33mc8f3668[m[33m ([m[1;33mtag: [m[1;33m0.1.2[m[33m)[m Fix versioning strategy
+[33m8503627[m Add read permission for contents
+[33mfa7ddfd[m Replace publish action with OIDC compatible version
+[33m98c0ee5[m Add setup rye action
+[33m87788d6[m Remove static version
+[33m9a61418[m Fix call to json.load
+[33m7c6d9f7[m Add build workflow
+[33m3d71c9a[m Replace last occurrences of PromptCraft
+[33m08b3272[m Remove ASCII art to better support typer
+[33m328bbb1[m Rename package because it wasn't available on pypi
+[33m9d0ad34[m Spice up the package
+[33m4aa9403[m Refactor prompt_file.py to remove unnecessary code for input file handling
+[33mf314aa2[m Refactor EngineeredPrompt class to support input files and store completion results
+[33m925012e[m Refactor OpenAICompletion class to extract JSON from response message
+[33maf5731b[m Format checker added
+[33me57dbdd[m chore: Remove unused files and refactor code for prompt processing and completion storage
+[33mad634db[m Package
+[33m5b1cb81[m Refactor CSS margin in report.html and improve prompt processing in validate_engineered_prompts.py
+[33m6bbcdd6[m chore: Update project name and dependencies and report details with completions
+[33md2857fe[m chore: Update pricing for GPT-4 models and logo on html pages
+[33mece92f6[m chore: Refactor EngineeredPrompt class to support input files and store completion results
+[33mcc34740[m chore: Update system role handling in EngineeredPrompt class
+[33m0b7f034[m Refactor PromptFile class to improve readability and maintainability
+[33mdeba357[m chore: Remove unused prompt files and update completion logic
+[33mac440df[m Initial commit
+[33mc25bc4a[m Initial commit
