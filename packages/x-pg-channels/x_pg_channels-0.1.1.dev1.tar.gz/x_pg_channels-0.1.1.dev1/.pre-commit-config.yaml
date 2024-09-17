@@ -1,0 +1,61 @@
+repos:
+- repo: local
+  hooks:
+  - id: pytest
+    name: pytest
+    entry: pytest tests -v
+    language: python
+    types: [python]
+    verbose: true
+    stages: [pre-commit]
+
+  - id: tst
+    name: tst
+    entry: which python
+    language: python
+    types: [python]
+    additional_dependencies: [build]
+    pass_filenames: false
+    stages: [pre-push]
+    verbose: true
+
+  - id: build
+    name: build
+    entry: venv/bin/python -m build
+    language: python
+    types: [python]
+    additional_dependencies: [build, twine]
+    pass_filenames: false
+    stages: [pre-push]
+
+  - id: upload
+    name: upload
+    entry: venv/bin/twine upload dist/* --skip-existing
+    language: python
+    types: [python]
+    additional_dependencies: [build, twine]
+    pass_filenames: false
+    stages: [pre-push]
+
+#  - id: twine
+#    name: pypi-upload
+#    entry:
+#    files: ^dist
+#    language: python
+#    types: [python]
+#    stages: [pre-push]
+
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  # Ruff version.
+  rev: v0.6.4
+  hooks:
+    # Run the linter.
+    - id: ruff
+      args: [--fix]
+      stages: [pre-commit]
+
+    # Run the formatter.
+    - id: ruff-format
+      types_or: [python, pyi]
+      verbose: true
+      stages: [pre-commit]
