@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: manta-manim-theme
+Version: 0.4.1
+Summary: 
+Author: Alexander Nasuta
+Author-email: alexander.nasuta@ima.rwth-aachen.de
+Requires-Python: >=3.11,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: manim-editor (>=0.3.8,<0.4.0)
+Requires-Dist: rich (>=13.8.0,<14.0.0)
+Requires-Dist: typer[all] (>=0.12.5,<0.13.0)
+Description-Content-Type: text/markdown
+
+
+## Usage
+
+Manim is an extremely versatile package. The following is an example `Scene` you can construct:
+
+```python
+from manim import *
+
+
+class SquareToCircle(Scene):
+    def construct(self):
+        circle = Circle()
+        square = Square()
+        square.flip(RIGHT)
+        square.rotate(-3 * TAU / 8)
+        circle.set_fill(PINK, opacity=0.5)
+
+        self.play(Create(square))
+        self.play(Transform(square, circle))
+        self.play(FadeOut(square))
+```
+
+In order to view the output of this scene, save the code in a file called `example.py`. Then, run the following in a terminal window:
+
+```sh
+manim -p -ql example.py SquareToCircle
+```
+
+## Documentation
+
+Documentation is in progress at [ReadTheDocs](https://docs.manim.community/).
+

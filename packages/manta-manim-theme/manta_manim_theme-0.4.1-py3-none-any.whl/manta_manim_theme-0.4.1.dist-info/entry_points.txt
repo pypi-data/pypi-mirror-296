@@ -1,0 +1,4 @@
+[console_scripts]
+install_skip_lock=poetryinstall--skip-lock
+update_skip_lock=poetryupdate--skip-lock
+
