@@ -1,0 +1,94 @@
+[build-system]
+requires = [
+    "setuptools>=45",
+    "setuptools_scm[toml]>=6.2",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tappy"
+dynamic = ["version", "readme"]
+description = "Command line script and Python library perform tidally-based analysis of water level data."
+requires-python = ">=3.7.1"
+dependencies = [
+    "astronomia",
+    "cltoolbox",
+    "dateparser",
+    "numpy >= 1.20, < 2.0 ; python_version <= '3.9'",
+    "pandas[excel]",
+    "pint != 0.21.*, < 0.22 ; python_version < '3.9'",
+    "pint-pandas",
+    "pydantic",
+    "pyparsing",
+    "pywavelets",
+    "scipy",
+    "skyfield",
+    "tabulate"
+]
+license = {text = "BSD-3-Clause"}
+authors = [
+    {name = "Tim Cera", email = "tim@cerazone.net"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+keywords = [
+    "cli-app",
+    "python",
+    "tidal-analysis",
+    "tide-analysis",
+    "tide-filter",
+    "tide-prediction"
+]
+
+[project.scripts]
+tappy = "tappy.tappy:main"
+
+[project.urls]
+documentation = "https://timcera.bitbucket.io/tappy/docs/index.html#tappy-documentation"
+github = "https://github.com/timcera/tappy"
+bitbucket = "https://bitbucket.org/timcera/tappy/src/main/"
+
+[tool]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "1.2.0"
+tag_format = "$version"
+version_files = ["VERSION"]
+update_changelog_on_bump = true
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+license-files = ["LICENSE.txt"]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+readme = {file = "README.rst"}
+version = {file = "VERSION"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
