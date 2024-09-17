@@ -1,0 +1,13 @@
+flytekitplugins_inference-1.13.6b0-py3.12-nspkg.pth,sha256=ya_zoT0ZM023a2lpUsRaqXsgDEknLucLLOWbbtFBPw4,512
+flytekitplugins/inference/__init__.py,sha256=0WFZLk35ByOf92FFLMtwBV2m_woimrHVrTYhqJcCsCM,259
+flytekitplugins/inference/sidecar_template.py,sha256=Vn9QpVLF2F6jFPNbPzxabpScPOAeRaFIpL25HpnM8G0,5226
+flytekitplugins/inference/nim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flytekitplugins/inference/nim/serve.py,sha256=ep7lZowhHDZTxYpHZbPxpT58znYFQ2pxuyk3WsYO7is,7611
+flytekitplugins/inference/ollama/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flytekitplugins/inference/ollama/serve.py,sha256=cxSf29MTSyBeNWB7ezjnApdVr9Powv1xfjRZdx-i8Ys,5576
+flytekitplugins_inference-1.13.6b0.dist-info/METADATA,sha256=pzCVPFc967RUBb_Tum8lxXWRKHAuZGHMVdEnbRXWR0c,1034
+flytekitplugins_inference-1.13.6b0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+flytekitplugins_inference-1.13.6b0.dist-info/entry_points.txt,sha256=EQ6EAiE9IMGdtV3detqwGCowPbDj0pV8I3c1jSO9vbs,57
+flytekitplugins_inference-1.13.6b0.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_inference-1.13.6b0.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_inference-1.13.6b0.dist-info/RECORD,,
