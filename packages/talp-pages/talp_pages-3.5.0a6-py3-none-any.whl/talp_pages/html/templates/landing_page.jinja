@@ -1,0 +1,65 @@
+{% extends "base.html.jinja" %}
+
+
+{% block content %}
+  <div class="px-4 py-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">TALP-Pages Reports</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">
+        Welcome to TALP-Pages
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <!--
+        <a type="button" href="{{report}}" class="btn btn-primary btn-lg px-4 gap-3">Explore the latest execution</a>
+        <a type="button" href="{{report_ts}}" class="btn btn-outline-secondary btn-lg px-4">Compare historic versions of your code</a>
+      -->
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4" id="availableSites">
+    <div class="row g-4">
+        <div class="col col-md-12">
+            {{ figure_overview }}
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      {% for path, pages in sites_dict.items() %}
+        <div class="col">
+          <div class="card">
+          <!--<div class="card-img-top">TEST</div>-->
+          <div class="card-body">
+            <h5 class="card-title">Available reports for <span class="font-monospace">{{path}}</span></h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Updated: {{sites_metadata[path].last_update}}</h6>
+            <p class="card-text">
+            {% for page in pages %}
+            {%if page.type == "Scaling" %}
+            <br>
+            {%endif%}
+             <a type="button" class="btn btn-secondary mx-1 my-1" href="{{page.link}}">
+                <i class="bi {{page.icon}}"></i> {{page.label}}
+            </a>
+            {% endfor %}   
+            <br>
+            <br>
+            <h6 class="card-subtitle text-body-secondary"></i> Available bagdes using region: <span class="font-monospace">{{badge_region}}</span> </h6>
+            <ul>
+            {% for badge in badges_dict[path] %}
+            
+            <li>
+              <a class="" href="{{badge.link}}">
+                {{badge.label}}
+              </a>
+            </li>
+            {% endfor %}   
+            </ul>
+            </p>
+
+          </div>
+        </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
