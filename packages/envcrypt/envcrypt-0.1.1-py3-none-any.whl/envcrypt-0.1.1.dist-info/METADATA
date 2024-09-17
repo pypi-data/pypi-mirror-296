@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: envcrypt
+Version: 0.1.1
+Summary: A Python library for managing encrypted environment files using Base64 and AES, with support for backups and integrity checks.
+Home-page: https://alicrafty1191.github.io/EnvCrypt/
+Author: Ali Crafty
+Author-email: aaasdujkkofe@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+
+# EnvCrypt
+
+EnvCrypt is a Python library designed for managing encrypted environment files. It supports multiple encryption methods, including Base64 and AES, and provides features for switching between different environments, verifying file integrity, and more.
+
+## Features
+
+- **Encryption Methods**: Support for Base64 and AES encryption.
+- **Environment Switching**: Easily switch between different environments (e.g., development, production).
+- **File Integrity Verification**: Verify the integrity of environment files using SHA-256 hashing.
+- **Automatic Backups**: Automatic backups are created before any changes to ensure data safety.
+- **Easy Access and Modification**: Simple methods to access and modify environment variables.
+
+## Installation
+
+To install EnvCrypt, use the following command:
+
+```bash
+pip install envcrypt
