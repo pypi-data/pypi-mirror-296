@@ -1,0 +1,9 @@
+eclipsebin/__init__.py,sha256=KHeVzEKIskw1Se-GYKBUpCKkQWBKXRZPKfTnw_1NPv4,105
+eclipsebin/binning.py,sha256=d3sCqqIgQ92CJk1oZWhyRteUXzQqLlH6lbWKjgAXbsM,19959
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_eclipsing_binary_binner.py,sha256=LgeV5ZCg6TDVPZpMg13D6Vdol5y3fjtm5xE9Zcuijlw,15718
+eclipsebin-0.2.0.dist-info/LICENSE,sha256=AdZSUkNAZ_8ujk4TMznVShdLa3ZUQuOPmbMSd15Qe_c,1090
+eclipsebin-0.2.0.dist-info/METADATA,sha256=lBKIaAU6YRYVp-uejzOtTMyaRsh0bIWxhvCte_gGAdk,5125
+eclipsebin-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+eclipsebin-0.2.0.dist-info/top_level.txt,sha256=3jT2vt4r65obl6YTjnDXNJJvw9MuYFcoUPlR2s7qQiA,17
+eclipsebin-0.2.0.dist-info/RECORD,,
