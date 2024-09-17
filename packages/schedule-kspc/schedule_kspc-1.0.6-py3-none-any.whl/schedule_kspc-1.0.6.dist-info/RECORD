@@ -1,0 +1,9 @@
+schedule_kspc/__init__.py,sha256=eGKydYTxduM2XTikJgIfuBUFkxfj9E0s8CpBc4L7BFI,269
+schedule_kspc/DirManager.py,sha256=9ES11iQD6494FsOEVBruuPURLz-PpQJv01W1OAxb6dE,3233
+schedule_kspc/ExcelParser.py,sha256=0qbz2z6t6dmtsz7x1RYUCldGVp1mhXxbEe-xh0lDjZQ,12724
+schedule_kspc/JsonAdapter.py,sha256=obaSQyWydUQ00a77kCOalwN40Z06UAusyfKpS-mWy-c,2073
+schedule_kspc/Store.py,sha256=iOccKHSGO3-98VNklCsqT4rA0P64dXhVEfYEkACJHoo,988
+schedule_kspc/WebRequests.py,sha256=RrzPZCrvpv1bFUJunhEjutBvPbd-Q71QDnl9nGzGTiM,1475
+schedule_kspc-1.0.6.dist-info/METADATA,sha256=SsFbpRn-MPL9hmUd5ENZtm5OanC7H3C8xghQAfovPvg,7565
+schedule_kspc-1.0.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+schedule_kspc-1.0.6.dist-info/RECORD,,
