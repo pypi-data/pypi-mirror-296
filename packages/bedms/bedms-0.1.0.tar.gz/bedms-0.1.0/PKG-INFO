@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: bedms
+Version: 0.1.0
+Summary: BEDMess attribute standardizer for metadata attribute standardization
+Home-page: https://github.com/databio/bedmess/
+Author: Saanika Tambe
+License: BSD2
+Keywords: project,metadata,bioinformatics
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: sentence-transformers
+Requires-Dist: pephubclient>=0.4.2
+Requires-Dist: peppy>=0.40.6
+
+# BEDMS
+
+BEDMS (BED Metadata Standardizer) is a tool used to standardize genomics/epigenomics metadata based on a schema chosen by the user ( eg. ENCODE, FAIRTRACKS, BEDBASE).
+
+
+## Installation
+
+To install `bedms` use this command: 
+```
+pip install bedms
+```
+or install the latest version from the GitHub repository:
+```
+pip install git+https://github.com/databio/bedms.git
+```
+
+## Usage
+
+```python
+from bedms import AttrStandardizer
+
+model = AttrStandardizer("ENCODE")
+results = model.standardize(pep="geo/gse228634:default")
+
+assert results
+```
+
+
+To see the available schemas, you can run:
+```
+from bedms.constants import AVAILABLE_SCHEMAS
+print(AVAILABLE_SCHEMAS)
+
+# >> ['ENCODE', 'FAIRTRACKS', 'BEDBASE'] 
+
+```
+AVAILABLE_SCHEMAS is a list of available schemas that you can use to standardize your metadata.
