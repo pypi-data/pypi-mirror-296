@@ -1,0 +1,8 @@
+LICENSE
+README.txt
+pynacci.py
+setup.py
+pynacci.egg-info/PKG-INFO
+pynacci.egg-info/SOURCES.txt
+pynacci.egg-info/dependency_links.txt
+pynacci.egg-info/top_level.txt
