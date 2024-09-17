@@ -1,0 +1,111 @@
+# Perse
+
+[![PyPI version](https://badge.fury.io/py/zf-perse.svg)](https://badge.fury.io/py/zf-perse)
+
+<p align="center">
+  <img src="https://zf-static.s3.us-west-1.amazonaws.com/perse-logo128.png" alt="Perse"/>
+</p>
+
+Perse converts `HTML` to `JSON` using a mix of traditional html parsing and LLM based data extraction.
+
+## Installation
+
+```bash
+pip install zf-perse
+```
+
+## Usage
+
+```bash
+export PERSE_OPENAI_API_KEY="your-openai-api-key"
+```
+
+```python
+from perse import perse
+
+url = "https://example.com"
+html = requests.get(url).text
+j = perse(html)
+print(j)
+```
+
+## Example
+
+### Input
+
+-
+
+```html
+<!-- taken from https://zeffmuks.com -->
+```
+
+### Output
+
+```json
+{
+    "title": "Zeff Muks",
+    "description": "Antifragile Entropy Assassin 🥷",
+    "og": {
+        "type": "website",
+        "title": "Zeff Muks",
+        "description": "Antifragile Entropy Assassin 🥷",
+        "url": "https://www.zeffmuks.com/",
+        "image": "https://www.zeffmuks.com/images/ZeffMuks-1920.png",
+        "site_name": "Zeff Muks",
+    },
+    "twitter": {
+        "card": "summary_large_image",
+        "site": "@zeffmuks",
+        "title": "Zeff Muks",
+        "description": "Antifragile Entropy Assassin 🥷",
+        "image": "https://www.zeffmuks.com/images/ZeffMuks-1920.png",
+    },
+    "main_header": "Antifragile Entropy Assassin 🥷🏻",
+    "header_link": "https://x.com/zeffmuks",
+    "builds": [
+        {
+            "date": "08/30/2024",
+            "project": {
+                "name": "Cursor Git",
+                "description": "Enhanced Git for Cursor AI Editor",
+                "logo_url": "https://zf-static.s3.us-west-1.amazonaws.com/cursor-git-logo128.png",
+                "download_link": "https://zf-static.s3.us-west-1.amazonaws.com/cursor-git-0.1.12.vsix",
+                "external_link": "",
+            },
+        },
+        {
+            "date": "08/18/2024",
+            "project": {
+                "name": "PyZF",
+                "description": "Enhancements for Python",
+                "logo_url": "https://zf-static.s3.us-west-1.amazonaws.com/pyzf-logo128.png",
+                "download_link": "",
+                "external_link": "https://pypi.org/project/PyZF",
+            },
+        },
+        {
+            "date": "08/05/2024",
+            "project": {
+                "name": "Xanthus",
+                "description": "X (formerly Twitter) Assistant",
+                "logo_url": "https://zf-static.s3.us-west-1.amazonaws.com/xanthus-logo128.png",
+                "download_link": "",
+                "external_link": "https://pypi.org/project/zf-xanthus",
+            },
+        },
+        {
+            "date": "07/24/2024",
+            "project": {
+                "name": "Jenga",
+                "description": "Fast JSON5 Python Library",
+                "logo_url": "",
+                "download_link": "https://pypi.org/project/zf-jenga",
+                "external_link": "",
+            },
+        },
+        ...
+```
+
+## License
+
+[MIT License](./LICENSE)
