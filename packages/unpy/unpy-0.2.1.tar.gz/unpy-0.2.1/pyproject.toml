@@ -1,0 +1,165 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unpy"
+version = "0.2.1"
+description = "Backports Python Typing Stubs"
+readme = "README.md"
+license = "BSD-3-Clause"
+requires-python = ">=3.12"
+authors = [
+  {name = "Joren Hammudoglu", email = "jhammudoglu@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Software Development :: Compilers",
+    "Typing :: Typed",
+]
+dependencies = [
+    "libcst>=1.4.0,<2",
+    "mainpy>=1.4.0,<2",
+    "typer-slim>=0.12.5,<1",
+]
+
+[project.urls]
+Repository = "https://github.com/jorenham/unpy"
+Documentation = "https://github.com/jorenham/unpy?tab=readme-ov-file#unpy"
+Issues = "https://github.com/jorenham/unpy/issues"
+Changelog = "https://github.com/jorenham/unpy/releases"
+Funding = "https://github.com/sponsors/jorenham"
+
+[project.scripts]
+unpy = "unpy.cli:app"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "/dist",
+    "/examples",
+    "/tests",
+    "/.cache",
+    "/.github",
+    "/.mypy_cache",
+    "/.pytest_cache",
+    "/.ruff_cache",
+    "/.tox",
+    "/.venv",
+    "/.vscode",
+    ".editorconfig",
+    ".gitignore",
+    ".mardownlint.yaml",
+    ".pre-commit-config.yaml",
+    ".python-version",
+    "README.md",
+    "uv.lock",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["unpy"]
+
+[tool.uv]
+dev-dependencies = [
+  "basedpyright>=1.17.4,<2",
+  "codespell>=2.3.0,<3",
+  "pre-commit>=3.8.0,<4",
+  "pytest>=8.3.3,<9",
+  "ruff>=0.6.5,<1",
+  "tox>=4.18.1,<5",
+]
+
+[tool.pyright]
+ignore = ["**/.venv"]
+include = ["unpy", "examples", "tests"]
+pythonPlatform = "All"
+pythonVersion = "3.13"
+venv = ".venv"
+venvPath = "."
+stubPath = "."
+typeCheckingMode = "all"
+reportUnusedParameter = false  # dupe of ARG001
+
+executionEnvironments = [
+  {root = "examples", pythonVersion = "3.13"},
+  {root = "tests", reportPrivateUsage = false},
+  {root = "unpy", pythonVersion = "3.12"}
+]
+
+[tool.pytest.ini_options]
+addopts = ["-ra", "--strict-config", "--strict-markers"]
+filterwarnings = ["error"]
+log_cli_level = "INFO"
+minversion = "8.3"
+testpaths = ["tests"]
+xfail_strict = true
+
+[tool.ruff]
+force-exclude = true
+indent-width = 4
+src = ["unpy"]
+target-version = "py312"
+
+[tool.ruff.format]
+indent-style = "space"
+line-ending = "lf"
+preview = true
+quote-style = "double"
+
+[tool.ruff.lint]
+preview = true
+select = ["ALL"]
+ignore = ["C", "D", "S101", "FBT", "CPY", "ERA", "EM", "T20", "TD", "FIX", "TRY003"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["ANN201", "PLC2701"]
+
+[tool.ruff.lint.isort]
+extra-standard-library = ["_typeshed", "typing_extensions"]
+
+[tool.ruff.lint.flake8-type-checking]
+exempt-modules = ["typing", "typing_extensions"]
+
+[tool.ruff.lint.flake8-import-conventions.extend-aliases]
+ctypes = "ct"
+datetime = "dt"
+libcst = "cst"
+
+[tool.ruff.lint.pylint]
+allow-magic-value-types = ["str", "int"]
+max-args = 10
+max-bool-expr = 20
+max-branches = 24
+max-locals = 30
+max-statements = 100
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = true
+requires = tox>=4
+envlist =
+    pre-commit
+    py{312,313rc2}
+
+[testenv]
+description = pytest
+skip_install = true
+allowlist_externals = uv
+commands_pre = uv sync --frozen --dev
+commands = uv run pytest
+
+[testenv:pre-commit]
+description = pre-commit
+skip_install = true
+allowlist_externals = uv
+commands_pre = uv sync --frozen --dev
+commands = uv run pre-commit run --all-files
+"""
