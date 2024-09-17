@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "circle_chain"
+version = "0.0.4"
+authors = [
+  { name="lidh04", email="lidh04@gmail.com" },
+]
+description = "circle chain sdk in python"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["circle chain", "block", "wallet", "bitcoin"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "PyYAML",
+]
+
+[project.urls]
+Homepage = "https://gitee.com/lidh04/python-circle-chain"
+Issues = "https://gitee.com/lidh04/python-circle-chain/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+circle_chain = ["*.yml"]
