@@ -1,0 +1,12 @@
+unpy/__init__.py,sha256=6xh5RvAxIY8ZRiV7RVNHyCyb94eQuOzkMNp3ahZ9pck,636
+unpy/__main__.py,sha256=pRpE9XoPaqS5e1fDE1SSUn3m0Wf0MmVDduGBFHxyp6M,46
+unpy/_meta.py,sha256=IuNtRgyV4uSgCbbTjcHYSqymvkcXC4A6zi0-oWHcB98,194
+unpy/_py311.py,sha256=NdI0VCmOAW0GL7M2PtVbHG3zUNqnKocpeSmMV1xoBHc,25683
+unpy/cli.py,sha256=pTw72LZaDmEl6292XBTxgbrmFWi3H1f-5044281SE_g,2370
+unpy/convert.py,sha256=nQuFAZV_qEO4-42GrICDiygSXJhlAYR3rGC_4TNsZlU,555
+unpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unpy-0.2.1.dist-info/METADATA,sha256=yHqAlN4EEIuHkNu2fQnkHjq0UdAJm-KTk4_lRRYqx5k,8210
+unpy-0.2.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+unpy-0.2.1.dist-info/entry_points.txt,sha256=SLjpvwTV9ydC6NDL8gVM9EzdsHVfZ7mPAqEzrKjOz8c,38
+unpy-0.2.1.dist-info/licenses/LICENSE,sha256=plmy9Xmbf4vtprh_GLT0l8zbGAusMsuZQmc4cZp8w_s,1505
+unpy-0.2.1.dist-info/RECORD,,
