@@ -1,0 +1,10 @@
+paccreator/__init__.py,sha256=KI6f5dFB2wgmDKC7sCz5WEefDR0CoKnj-JkYMhbv48M,227
+paccreator/helpers.py,sha256=90pXk31aCm3vkNh-bBoUQjj-pnBhMB6E-9T7RM9YKJ4,1643
+paccreator/paccreator.py,sha256=bGPDVC64XrK3-cVCSUFPVloKUVzKbfnmOnOhj5M7laM,2761
+paccreator/paccreatorconfig.py,sha256=DjrT2f4EO0ticM98Vz-Npmg5sZakZquZYntwyoGtuqo,3746
+paccreator/template.js.jinja,sha256=FSOPeRpgXMh3b9v-zwxUU8tpu5BMMxq_sEmFc9JKGwo,1304
+paccreator-0.2.2.dist-info/LICENSE,sha256=NYCWq7du6uXWppCx7USmL-4WJ8FXts3rsAhnFVn7jmg,1062
+paccreator-0.2.2.dist-info/METADATA,sha256=nXSwtybrlRBkK0l4ZiepwkGWRgsxCBHoudpBrjQdR8E,6068
+paccreator-0.2.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+paccreator-0.2.2.dist-info/top_level.txt,sha256=ZD-UdSmF5t7kPoWoWNX56DWTqf_loVnYjWhJtetTyW8,11
+paccreator-0.2.2.dist-info/RECORD,,

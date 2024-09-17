@@ -1,0 +1,28 @@
+function FindProxyForURL(url, host) {
+    /*
+        Description: {{ description }}
+        Version: {{ version }}
+    */
+    host = host.toLowerCase();
+    {%- for proxy in proxies %}
+    if (
+        {%- for target in proxy.targets %}
+        {% if loop.index > 1 %}|| {% else %}   {% endif -%}
+        {%- if target.type.name == "HOST" -%}localHostOrDomainIs(host, "{{ target.target }}")
+        {%- elif target.type.name == "HOSTS" -%}dnsDomainIs(host, "{{ target.target }}")
+        {%- elif target.type.name == "NETWORK" -%}isInNet(host, "{{ target.netmask[0] }}", "{{ target.netmask[1] }}")
+        {%- elif target.type.name == "IP" -%}dnsResolve(host) === "{{ target.target }}"
+        {%- elif target.type.name == "STRING_L" -%}host.substring(0, {{ target.target|length }}) === "{{ target.target }}"
+        {%- elif target.type.name == "STRING_R" -%}host.substring(host.length - {{ target.target|length }}) === "{{ target.target }}"
+        {%- elif target.type.name == "PLAIN_HOSTNAME" -%}isPlainHostName(host)
+        {%- else -%}host === "{{ target.target }}"
+        {%- endif -%}
+        {%- endfor %}
+    ) {
+        /* {{ proxy.description }} */
+        return "{{ proxy.route }}";
+    }
+    {%- endfor %}
+    /* Default: {{ default.description }} */
+    return "{{ default.route }}";
+}
