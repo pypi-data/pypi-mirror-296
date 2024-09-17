@@ -1,0 +1,9 @@
+pycairo
+glfw
+moderngl
+numpy
+pillow
+easydict
+xdialog
+imgui[glfw]
+perlin-noise
