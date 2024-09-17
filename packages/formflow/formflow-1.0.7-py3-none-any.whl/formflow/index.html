@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FormFlow</title>
+  <style>
+    :root {
+      --main-color: #007BFF;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    pre {
+      padding: 1em;
+      border: 1px solid #999;
+      background-color: #eee;
+      overflow-x: auto; /* Enables horizontal scrolling if the content is too wide */
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      background-color: #f7f7f7;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 2px solid #ddd;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #777;
+    }
+
+    header img {
+      vertical-align: middle;
+    }
+
+    nav {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    a, a:visited, button.link {
+      text-decoration: none;
+      color: var(--main-color);
+    }
+
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    a:hover {
+      color: #0056b3;
+    }
+
+    section {
+      padding: 20px 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2em;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      border-top: 2px solid #ddd;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    button.link {
+      color: var(--main-color);
+      padding: 0;
+      margin: 0;
+      display: inline;
+      background: none;
+      border: none;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    #loading {
+      display: block;
+      margin: 1em auto;
+      position: relative;
+      width: 40px;
+      height: 40px;
+    }
+
+    #loading::before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 4px solid transparent;
+      border-top-color: var(--main-color);
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+          transform: rotate(0deg);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+    }
+
+    input, textarea {
+      display: block;
+      padding: 1em;
+      margin: 1em 0;
+      width: 100%;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td, th {
+      padding: 0.5em;
+      border: 1px solid #ccc;
+    }
+
+    button, a.button {
+      margin: 0;
+      padding: 10px 20px;
+      background-color: var(--main-color);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+
+    button.center {
+      display: block;
+      margin: 0 auto;
+    }
+
+    form.little {
+      margin: 0 auto;
+      max-width: 16em;
+    }
+  </style>
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="https://hikaru.org/js/FRM.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="root"></div>
+  </div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
