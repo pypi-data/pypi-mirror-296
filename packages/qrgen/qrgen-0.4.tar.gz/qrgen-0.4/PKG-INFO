@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: qrgen
+Version: 0.4
+Summary: A webapp to generate QR codes
+Author-Email: =?utf-8?q?Yann_de_Th=C3=A9?= <ydethe@gmail.com>
+Project-URL: Bug tracker, https://https://github.com//ydethe/qrgen/issues
+Project-URL: Homepage, https://https://github.com//ydethe/qrgen
+Project-URL: Source, https://https://github.com//ydethe/qrgen
+Requires-Python: <3.13,>=3.9
+Requires-Dist: rich~=13.7.1
+Requires-Dist: qrcode~=7.4
+Requires-Dist: flask~=3.0
+Requires-Dist: waitress~=3.0
+Requires-Dist: Flask-WTF~=1.2
+Requires-Dist: flask-bootstrap~=3.3
+Requires-Dist: pillow~=10.4
+Requires-Dist: logfire[flask]~=0.52
+Requires-Dist: pydantic-settings~=2.5
+Description-Content-Type: text/markdown
+
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://dev.to/frostming/a-review-pipenv-vs-poetry-vs-pdm-39b4)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![Python](https://img.shields.io/badge/python-3.8%7C3.9%7C3.10-green)
+![Doc](doc_badge.svg)
+[![Coverage](cov_badge.svg)](../coverage/index.html)
+[![Versioning](https://badgen.net/badge/semver/2.0.0/green)](https://semver.org/spec/v2.0.0.html)
+
+# Quick look
+
+A webapp to generate QR codes
+
+# Build the doc
+
+Just run:
+
+    pdm doc
+
+This will create the doc in htmldoc
+
+A few guidelines for updating the doc
+https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
