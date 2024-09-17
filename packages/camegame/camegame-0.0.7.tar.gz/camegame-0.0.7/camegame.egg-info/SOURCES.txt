@@ -1,0 +1,9 @@
+setup.py
+abusers/__init__.py
+abusers/camegame.py
+abusers/minecraft.py
+camegame.egg-info/PKG-INFO
+camegame.egg-info/SOURCES.txt
+camegame.egg-info/dependency_links.txt
+camegame.egg-info/not-zip-safe
+camegame.egg-info/top_level.txt

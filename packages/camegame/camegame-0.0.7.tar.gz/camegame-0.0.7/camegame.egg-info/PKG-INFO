@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: camegame
+Version: 0.0.7
+Summary: 권남서버에서 유래된 똥 코드 작성함
+Home-page: 
+Author: ohhi3368
+Author-email: gamechobo11@gmail.com
+Keywords: abusing,camegame
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires: hashlib
+Requires: requests
+Requires: binascii
+Requires-Python: >=3.6
