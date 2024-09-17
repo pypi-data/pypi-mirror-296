@@ -1,0 +1,10 @@
+syncro_api_ctek/__init__.py,sha256=tQXAv0LwSm0clKOlAy5gaJvn03qrTpiz2C6vqFlBoDU,514
+syncro_api_ctek/contacts.py,sha256=VEghQb6gNRt6u-DauvalHF3QuHkrmdKHCTw5CwnX80I,3719
+syncro_api_ctek/customers.py,sha256=G8VGbn6QiRruf2CxYUfIZfFEgSKYiWKboN20w2-H5Zc,3661
+syncro_api_ctek/ticket_timers.py,sha256=swg5yizNx8kN2Z-k8PfMRLEF6s49ndC14V8jlLe9Jhs,1554
+syncro_api_ctek/tickets.py,sha256=vbnGUvRiEYQsLb-g5S1dVjf4z8q4kn-hjDA21mSZoJ4,3572
+syncro_api_ctek-0.0.52.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+syncro_api_ctek-0.0.52.dist-info/METADATA,sha256=OpBjlFpVtygOn9kVwynOBREPtDNrO3Y9XLfLiTxAY9M,482
+syncro_api_ctek-0.0.52.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+syncro_api_ctek-0.0.52.dist-info/top_level.txt,sha256=4Qoa9bro4I2flTJr_ouSHPgo6pGGgLgiA_Sbi3sIyFk,16
+syncro_api_ctek-0.0.52.dist-info/RECORD,,
