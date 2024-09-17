@@ -1,0 +1,7 @@
+.env
+*.pyc
+db/
+.venv/
+__pycache__/
+.gitattributes
+.DS_Store
