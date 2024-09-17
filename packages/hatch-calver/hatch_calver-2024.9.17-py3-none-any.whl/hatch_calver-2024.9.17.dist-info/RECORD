@@ -1,0 +1,9 @@
+hatch_calver/__init__.py,sha256=l0-yLOX4DtKV7aVcI3ZUb2xs90czjLJk2tj0_6FFeGM,26
+hatch_calver/bump.py,sha256=04tI2w8FdPM9cIq5RtDYq9qyC4xHEsjthsIDlC36H6M,4528
+hatch_calver/calver_scheme.py,sha256=KjpP2aOPmAAvbOFNCokEfriZDIT9bZbo-UP8Y66SbLw,960
+hatch_calver/hatch_hooks.py,sha256=epVkuhWxVunTt-EvIwXv8ZtqM2-r_Lsb5n_tG_HoGTA,190
+hatch_calver-2024.9.17.dist-info/METADATA,sha256=CPqd6j7xr3JMFE_vNVvHwGhErMVY00YGTPHB0VUO0xY,3488
+hatch_calver-2024.9.17.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+hatch_calver-2024.9.17.dist-info/entry_points.txt,sha256=NuScgIetJzwf9RBOzUH1Z5I3GxrHKSZ5P1AK2L9YVt0,42
+hatch_calver-2024.9.17.dist-info/licenses/LICENSE,sha256=nS8O4d_eRWaqTpMIzw3GV6d54-E-TOVEPmHKCaEy-3k,1093
+hatch_calver-2024.9.17.dist-info/RECORD,,
