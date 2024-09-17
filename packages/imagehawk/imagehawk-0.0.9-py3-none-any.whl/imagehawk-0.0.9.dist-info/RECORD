@@ -1,0 +1,11 @@
+Core/__init__.py,sha256=E9DVeGT4AF-IDZFJX0EQuuQ8_SBly9GCA9CROZDaM7I,61
+Core/imagehawk.py,sha256=Xdew9ArWa12znrKEb8oBx8EYxE_7o6-nktnjO7CqVmo,2667
+Core/__Engines__/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Core/__Engines__/image_embeddings.py,sha256=YdR8U1uVlEKmPR-z4flKdFuS4c_y-K_2mudLKUqNQ-w,1512
+Core/__Engines__/text_embeddings.py,sha256=-ATczyj5OWxLq8BVAd4cbc9_OJbvgpRIn1yv3LlLjF0,1005
+Core/__VectorStores__/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Core/__VectorStores__/qdrantvectorstore.py,sha256=QpiZm6sVDEWnzzJqHZhNlxoWSIYazif8VoLUbXkNFBA,1067
+imagehawk-0.0.9.dist-info/METADATA,sha256=XajyuPtJeMpVZ1SKKZ4pWaVZ_pTb3G_uuh5AMtmeVIA,1726
+imagehawk-0.0.9.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+imagehawk-0.0.9.dist-info/top_level.txt,sha256=Rg6clN9kHXQZebLs4-Kn2iif1iFgSEaSxEDPv9heoYQ,5
+imagehawk-0.0.9.dist-info/RECORD,,
