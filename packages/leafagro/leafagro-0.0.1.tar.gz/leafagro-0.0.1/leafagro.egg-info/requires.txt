@@ -1,0 +1,7 @@
+numpy
+
+[all]
+leafagro[extra]
+
+[extra]
+pandas
