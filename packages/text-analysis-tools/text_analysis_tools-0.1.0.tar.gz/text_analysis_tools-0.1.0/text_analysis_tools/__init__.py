@@ -1,0 +1,1 @@
+from .core import count_periods, count_exclamations, count_words, count_commas, count_sentences, count_questions

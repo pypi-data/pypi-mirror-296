@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: text_analysis_tools
+Version: 0.1.0
+Summary: Un package Python pour la manipulation de texte
+Home-page: https://github.com/Zakiyou/text_toolkit.git
+Author: Ton Nom
+Author-email: zakiyoubababodi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+# Text Toolkit
+
+Text Toolkit est un package Python simple et efficace pour analyser et manipuler des chaÃ®nes de caractÃ¨res. Il fournit plusieurs fonctions permettant de compter des Ã©lÃ©ments tels que les points, les points d'exclamation, les virgules, les mots, et plus encore. 
+
+## Installation
+
+Pour installer le package, clonez le dÃ©pÃ´t ou utilisez une commande pip une fois le package publiÃ© sur PyPI.
+
+pip install text_analysis_tools
+
+
+## Utilisation
+
+Voici quelques exemples d'utilisation des diffÃ©rentes fonctions fournies par text_analysis_tools.
+
+### Exemple 1 : Compter le nombre de points
+python
+from text_analysis_tools.core import count_periods
+
+text = "Bonjour. Comment Ã§a va? Tout est bien."
+print(count_periods(text))  # Affiche 1
+
+
+### Exemple 2 : Compter le nombre de points d'exclamation
+python
+from text_analysis_tools.core import count_exclamations
+
+text = "C'est incroyable! Je n'y crois pas!"
+print(count_exclamations(text))  # Affiche 2
+
+
+### Exemple 3 : Compter le nombre de mots
+python
+from text_analysis_tools.core import count_words
+
+text = "Ceci est un exemple simple."
+print(count_words(text))  # Affiche 5
+
+
+### Exemple 4 : Compter le nombre de virgules
+python
+from text_analysis_tools.core import count_commas
+
+text = "Le chat, le chien, et le lapin sont des animaux domestiques."
+print(count_commas(text))  # Affiche 2
+
+
+### Exemple 5 : Compter le nombre de phrases
+python
+from text_analysis_tools.core import count_sentences
+
+text = "Bonjour! Comment vas-tu? Je vais bien."
+print(count_sentences(text))  # Affiche 3
+
+
+### Exemple 6 : Compter le nombre de questions
+python
+from text_analysis_tools.core import count_questions
+
+text = "Qui est lÃ ? Pourquoi es-tu venu?"
+print(count_questions(text))  # Affiche 2
+
+
+## FonctionnalitÃ©s
+
+- **count_periods(text)** : Retourne le nombre de points ('.') dans un texte.
+- **count_exclamations(text)** : Retourne le nombre de points d'exclamation ('!') dans un texte.
+- **count_words(text)** : Retourne le nombre de mots dans un texte.
+- **count_commas(text)** : Retourne le nombre de virgules (',') dans un texte.
+- **count_sentences(text)** : Retourne le nombre total de phrases dans un texte, basÃ© sur les '.', '!', et '?'.
+- **count_questions(text)** : Retourne le nombre de points d'interrogation ('?') dans un texte.
+
