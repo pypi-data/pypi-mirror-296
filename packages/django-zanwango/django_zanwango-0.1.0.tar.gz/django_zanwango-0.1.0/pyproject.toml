@@ -1,0 +1,86 @@
+[tool.poetry]
+name = "django-zanwango"
+version = "0.1.0"
+description = ""
+authors = ["JorgeMira <jorge.mira.yague@gmail.com>"]
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 1 - Planning",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Testing",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.1",
+    "Framework :: AsyncIO",
+    "Typing :: Typed",
+]
+packages = [{ include = "zanwango" },]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+django = ">=4.2"
+django-ninja = ">=1.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.5"
+mypy = "^1.11.2"
+pre-commit = "^3.8.0"
+
+[tool.ruff]
+target-version = "py310"
+fix = true
+
+[tool.ruff.lint]
+select = [
+    "A",    # flake8-builtins
+    "B",    # flake8-bugbear
+    "C",    # flake8-comprehensions
+    "E",    # pycodestyle errors
+    "F",    # pyflakes
+    "FURB", # refurb
+    "I",    # isort
+    "N",    # pep8-naming
+    "PTH",  # flake8-use-pathlib
+    "RUF",  # ruff
+    "SIM",  # flake8-simplify
+    "T20",  # flake8-print
+    "UP",   # pyupgrade
+    "W",    # pycodestyle warnings
+]
+ignore = [
+    "B008",   # do not perform function calls in argument defaults
+    "C901",   # too complex
+    "E501",   # line too long
+    "RUF012", # annotated mutable class attributes
+]
+
+[tool.mypy]
+python_version = "3.9"
+show_error_codes = true
+show_column_numbers = true
+follow_imports = "normal"
+ignore_missing_imports = true
+disallow_untyped_calls = true
+warn_return_any = true
+strict_optional = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+no_implicit_reexport = true
