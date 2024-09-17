@@ -1,0 +1,14 @@
+docko/__init__.py,sha256=Cg4_jvEzZ3xuncmeew8Fsx-hXVMdHp7Yw8S6DmS6ENg,1665
+docko/chai.py,sha256=00xK6VSs5L3U7ETdr1tyXlbJwf5whIFcuQPygemdr1M,2629
+docko/diffdock.py,sha256=CIyAEnMXUd5sns-brmoAyJYYGT3-EAj6Sao7lgbPTAg,3521
+docko/docko.py,sha256=sU_oIf-yyoD5ZriwZZD18x4NhitinpllVFhTTszF4eA,3735
+docko/helpers.py,sha256=aMH4lF0qOhsZQ3BHGbnl97BEWvIDgn31so7GB7WwDSQ,18658
+docko/main.py,sha256=O75VNfclPmLeIBxQPPnAKdjLm-FSJ-ooo90kCX8Q6HQ,471
+docko/vina.py,sha256=PJIor-VqVHHPauorPxvwwg0pnPmbnolgzXDRqbSn4Zo,11726
+docko-0.1.1.data/data/LICENSE,sha256=AANOkTNAYDYdYdQBWuoYRa0RZNkCeoS057er6UYYozE,1051
+docko-0.1.1.dist-info/LICENSE,sha256=AANOkTNAYDYdYdQBWuoYRa0RZNkCeoS057er6UYYozE,1051
+docko-0.1.1.dist-info/METADATA,sha256=2njv6LOAnvZ0J4zJaPjYZkCnrFYxu_vvZZuTgrdtKcA,10559
+docko-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+docko-0.1.1.dist-info/entry_points.txt,sha256=gUFF-Ppcu-kqWX0HjkDNSR4l5IkD0vMmdhPvYwb-Yig,46
+docko-0.1.1.dist-info/top_level.txt,sha256=2AD7ztE6MKmZ_ZOw7g3s76oPUr1lEgUP9-fJY01oIBs,6
+docko-0.1.1.dist-info/RECORD,,
