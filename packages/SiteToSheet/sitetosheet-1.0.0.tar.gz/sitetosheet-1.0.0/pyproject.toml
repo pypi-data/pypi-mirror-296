@@ -1,0 +1,47 @@
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SiteToSheet"
+version = "1.0.0"
+readme = "README.md"
+description = "A tool to scrape websites and update Google Sheets"
+authors = [{name = "Jonathan", email = "jontyshaw@btinternet.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = [
+    'beautifulsoup4>=4.12.3',
+    'googlemaps>=4.10.0',
+    'gspread>=6.1.2',
+    'numpy>=1.26.4',
+    'pandas>=2.2.2',
+    'protobuf>=5.27.3',
+    'python-dotenv>=1.0.1',
+    'ratelimit>=2.2.1',
+    'requests>=2.32.3',
+    'setuptools>=72.1.0',
+    'spacy>=3.7.5'
+]
+
+[project.optional-dependencies]
+dev = ["twine"]
+
+[project.urls]
+homepage = "https://github.com/jonty/SiteToSheet"
+
+[project.scripts]
+sitetosheet = "run:main"
+
+[tool.setuptools]
+package-dir = {"" = "src" }
+packages = [
+    "SiteToSheet",
+    "SiteToSheet.api_clients",
+    "SiteToSheet.scrapers",
+    "SiteToSheet.utils"
+]
+
+[tool.setuptools.package-data]
+"SiteToSheet" = ["**/*.py", "**/*.json", "**/*.txt"]
