@@ -1,0 +1,17 @@
+ArabicTagger/CRF.py,sha256=Ju2VB_U_uEtl79-wyW2nYJRDz-Lm5TRzWyT52SQmxH4,4876
+ArabicTagger/NER.py,sha256=bejJZKorZNuWtjLHgDrdExlUhOMQdeVc5gkNBDjbIQU,4590
+ArabicTagger/Tagger.py,sha256=rBz6DYfFjQAwV7PzDLt4tufu08X0KPVmKrUu-sP-gXU,10699
+ArabicTagger/TextMatcher.py,sha256=ZAfGxEFP7TKdKIRzz3fChxa7w_o-ImJ_-hrQdCYPO9E,7961
+ArabicTagger/__init__.py,sha256=va-cJ9UwOqGChD08Qy6IPCnDehey3XTl3WZa25DJ5kw,220
+ArabicTagger/utils.py,sha256=TEH-VB1nOvxnicRT1llyOSPuaCBhIyRdTabEh5HrCBs,2144
+ArabicTagger/dict/alphabets_indx.pkl,sha256=pUIa1IAoM6rf0K-Y2Tk5CdbPuDwZB7x5feUJoflreCs,12292
+ArabicTagger/models/CRF_model_1.pkl,sha256=kVxJqRDjpqd8f4FJENnXUxarqgWfLBCA37vDjGTjbfc,212111
+ArabicTagger/models/CRF_model_2.pkl,sha256=3dN2yu2rVl4iDkOOFnLc-_HzhzUNAqhXYowGRZQQUKo,209591
+ArabicTagger/models/Matcher_weights1.pkl,sha256=wosQwFD2qYP6zbEOONnzOs2738_SJm7kwLm5AjLBWGw,10275
+ArabicTagger/tags/tags1.pkl,sha256=x5OKkI5nLm5TZ62sRXc0FHmeq6QzAp6NDA7d65Txp2Y,90
+ArabicTagger/tags/tags2.pkl,sha256=NgTO4K22RZbLQci_UqFFF2YKqKebINv6wxk79cmghK0,70
+ArabicTagger-0.1.2b2.dist-info/LICENSE,sha256=JPn1dK7XdIAbBbcGgQaYNWLe0rg6ILLVpymyuN_yHeM,1069
+ArabicTagger-0.1.2b2.dist-info/METADATA,sha256=LMOyVfqYo-7Ljs0u1-vFsDV9DzvSgHnfnUOt5hMBrko,16260
+ArabicTagger-0.1.2b2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ArabicTagger-0.1.2b2.dist-info/top_level.txt,sha256=D25_0kd48BnDUiqtFhGVHDbcuYGkZVJyJYR7ArxpcC4,13
+ArabicTagger-0.1.2b2.dist-info/RECORD,,
