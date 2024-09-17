@@ -1,0 +1,14 @@
+quantes/PyPI-Recovery-Codes-wenxinz-2024-03-31T03_02_54.141117.txt,sha256=qgrB6CO0a4wuJpxQBSOf0sQwZOwTEXgxPCglmIdFjko,135
+quantes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantes/admm.py,sha256=xwSCLK0Gw880-2nrb-UcYdzpl0ufkWjBMQK8bsoNgsY,13569
+quantes/composite.py,sha256=RIPjbDogXXZi_aZIgm-Nuc8txeG7qCn4pRz4JA5Fjb4,17732
+quantes/joint.py,sha256=eTW_vJijEvnrqXXYt0cReGRuaq2voGKDtsrBCpH09aU,49720
+quantes/linear.py,sha256=WkV4Z9qZkW4bWFVOpdj6qedP0bv_kDdl8HzDxB5BZ1I,79812
+quantes/nonlinear.py,sha256=IMHCSsjhyzhjAFl6dC2ljIIrmW9QPvfDSdTRAFONTEQ,48244
+quantes/solvers.py,sha256=7BRakAOv3Djlq8FSRDT4O4yW5V3CH3oQnOcYVvIO8J4,3062
+quantes/utils.py,sha256=BjbmA4XmnTxXj6_zief_djt0ZS3dikrphBOJh9_YtZ8,10726
+quantes-2.0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+quantes-2.0.8.dist-info/METADATA,sha256=yU3nNnbGGQ_uZ2Y_u8CQ0Mhzq_ciTSPgadtP9jze5Bo,15858
+quantes-2.0.8.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+quantes-2.0.8.dist-info/top_level.txt,sha256=l8j26_-mm4WMvN8iH_k5ZUlFhpQ8duC-yAppLyEwmCg,8
+quantes-2.0.8.dist-info/RECORD,,
