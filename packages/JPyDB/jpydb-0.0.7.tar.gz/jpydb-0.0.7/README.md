@@ -1,0 +1,231 @@
+## JPyDB
+
+### Introduction
+JPyDB is a python library developed by Manuel Sánchez Mascarell.
+
+The main purpose of this library is to create and manage NoSQL tables in you local machine. This table uses JSON files for store the data.
+
+The idea behing `JPyDB` was to make something similar to AWS DynamoDB resource but for local developments, being useful for develop own projects without requiring a cloud environment.
+
+### Basic usage
+
+In the library we can find two main modules `JPyDBClient` and `JPyDBManager`.
+
+The first one `JPyDBClient` is used to interact with the data, here, we can find functions like (put_items, get_items, query_items, delete_items, ...).
+
+By other hand the `JPyDBManager` is used to manage tables (create, delete, ...)
+
+Internally, `JPyDBClient` makes use of the `JPyDBManager` module for making checks if the table exists, getting the information of the table, and so on.
+
+#### Library imports
+     
+```python
+from JPyDB.JPyDBClient import JPyDBClient, JPyDBManager
+
+json_db_client = JPyDBClient()
+json_db_manager = JPyDBManager()
+```
+
+#### Table creation
+
+For create a new fresh table, we will make usage of the `.create()` method from the `JPyDBManager` module.
+
+For creating a new databas, we will need three **mandatory** arguments:
+- `table_name`: how the new table will be named.
+- `partition_keys`: list containing the name of the fields used to partition the data.
+- `sort_keys`: list containing the name of the fields used to index the data.
+
+
+```python
+    # json_db_manager.create(<table_name>, <partition_keys>, <sort_keys>)
+    json_db_manager.create("clients", ["clientId"], ["purchaseId"])
+```
+
+This method will return a boolean flag for indicate if the creation process was succeeded or not.
+
+If the creation was as expected, now, we will see a folder structure on the following path: _~/Documents/JPyDBClient_
+
+You will find something like this:
+
+```bash
+C:\Users\<usr>\Documents
+├───...
+├───JPyDBClient
+│   ├───clients
+│   └───__sysinfo__
+└───...
+```
+
+In the folder `clients` you will find all the data and the partitions of your table. Meanwhile the `__sysinfo__` contains all the metadata of the table (partition keys, sort keys, ...).
+
+**NOTE:** clients folder won't be created until you don't add an item to the table
+
+#### Adding items
+
+For interact with the data, we will make use of the `JPyDBClient` module, this, will allow us to add new items, and query them.
+
+For achieve this, we will make use of two methods, the `.put_items()` for add an item into the table and the `.get_items()` for retrieve it.
+
+
+```python 
+item = {
+    "clientId": "001",
+    "purchaseId": "001",
+    "purchasedItems": {
+        "itm01": 3,
+        "itm02": 4
+    }
+}
+
+#json_db_client.put_item(<table_name>, <item>)
+json_db_client.put_item("clients", item)
+```
+
+This will return a flag indicating if the insertion process was succeeded. Something to have on mind is that actually the put_items method **works like an upsert**, if the item is found, it will update it, otherwise, it will insert the data as a new item.
+
+Now, we will retrieve the item, for achieve that, we will use the `.get_items()` method, this method retrieves all the items stored inside the table.\
+Another solution could be using the `.query_items()`, but we will go throught this method afterwards.
+
+```python
+#json_db_client.get_items(<table_name>)
+json_db_client.get_items('clients')
+```
+
+The table now should return the item, we've stored previously (if the table doesn't contain any item, it will return an empty list).
+
+```python
+{
+    "clientId": "001",
+    "purchaseId": "001",
+    "purchasedItems": {
+        "itm01": 3,
+        "itm02": 4
+    }
+}
+```
+
+### Managing tables
+
+#### List tables
+
+In addition to the `.create()` method that we've reviewed before, the `JPyDBManager` contains more methods for managing our tables.
+
+The `.list_tables()` method allow us to list all the created and available tables.
+
+```python
+#json_db_manager.list_tables()
+json_db_manager.list_tables()
+```
+
+This will return a list of the available tables. In our case, it appears the clients table that we've created before.
+
+```bash
+["clients"]
+```
+
+#### List table partitions
+The `JPyDBManager` module also allows you to list table partitions using the `.list_table_partitions()` method, this usually is used more often for internal purposes.
+
+```python
+#json_db_manager.list_table_partitions(table_name)
+json_db_manager.list_table_partitions("clients")
+```
+
+The output is also a list containing the partitions of the specified table, in our example, when adding the item, the system has created a new partition to store the client's data.
+
+```bash
+["clientId=001"]
+```
+
+#### Delete table
+The `JPyDBManager` module also contains a `.delete()` method, this method is used to delete tables.
+
+**NOTE:** Use this method if you understand what you're doing, if not, you may lose all your data.
+
+```python
+#json_db_manager.delete(<table_name>)
+json_db_manager.delete("clients")
+```
+
+#### Delete table partition
+`JPyDBManager` also allows you to only remove an specific partition of data, for achieve that, you may use the  `.delete_partition()` method. This method **isn't recommended** for being used, we encourage to use the `.delete_items()` from the `JPyDBClient` module.
+
+**NOTE:** Use this method if you understand what you're doing, if not, you may lose all your data.
+
+```python
+#json_db_manager.delete_partition(<table_name>, <partition_name>)
+json_db_manager.delete_partition("clients", "clientId=001")
+```
+
+#### Check if a table exists
+For check if a table is already created or exists, `JPyDBManager` implements a method called `.table_exists()` this will return a flag indicating if the specified table exists.
+
+```python
+# json_db_client.table_exists(<table_name>)
+json_db_client.table_exists("clients")
+```
+
+#### Check if a partition exists within a table
+For check if a partition exists inside a table, the `JPyDBManager` module, implements the method called `.table_partition_exists()`, this will return a flag indicating if the partition exists within the table
+
+```python
+# json_db_manager.table_partition_exists(<table_name>, <partition_name>)
+json_db_manager.table_partition_exists("clients", "client=001")
+```
+
+### Managing table data
+
+#### Querying data
+You can query your table items using the method `.query_items()` from the `JPyDBClient` module. This method expects a list of queries, the method will return those items who match with the specified attributes.
+
+```python
+# json_db_client.query_items(<table_name>, <query_list>)
+json_db_client.query_items("clients", [{"clientId": "001"}])
+```
+
+#### Delete items
+You can also delete some specific items, for achieve that, we will make use of the `.delete_items()` method, from the `JPyDBClient` module. This will allow us to only delete those items who match with the specified query.
+
+```python
+#json_db_client.delete_items(<table_name>, <query_list>)
+json_db_client.delete_items("clients", [{"clientId": "001"}])
+```
+
+**NOTE:** Use this method if you understand what you're doing, if not, you may lose all your data.
+
+## JPyDB Server
+There's a third module in the package, this is the `JPyDBServer`, this module contains a server implementation using `flask` module.
+
+For launch your own server, please execute:
+```bash
+jpydb-server
+```
+
+You can use the --port, -p argument to change the port (by default uses the port 10000). you can make all the basic functions from the created server, like, get_itemms, query_items, create tables, this is the list of the included methods:
+- [GET] - https://localhost:10000/get_items?table_name=<table_name>
+- [PUT] - https://localhost:10000/put_items?table_name=<table_name>
+- [POST] - https://localhost:10000/query_items?table_name=<table_name>
+- [POST] - https://localhost:10000/delete_items?table_name=<table_name>
+- [POST] - https://localhost:10000/create?table_name=<table_name>
+- [GET] - https://localhost:10000/delete?table_name=<table_name>
+- [GET] - https://localhost:10000/list_tables?table_name=<table_name>
+
+## Changelog
+### **0.0.6** 
+- Updated the way to import the modules:
+    - from JPyDB.JPyDBClient import JPyDBClient -> from JPyDB import JPyDBClient
+    - from JPyDB.JPyDBManager import JPyDBManager -> from JPyDB import JPyDBManager
+
+- Updated server launching cli command: JPyDBClientclient -> jpydb_server
+- Renamed args and variables from database to table.
+- Changed name of the modules and classes JPyDBClient -> JPyDB.
+- Added unit testing.
+- Fixed some bugs:
+    - Added datatype checks
+    - Added table name restrictions (the names used for create can't start or end by '__'). Those names are reserved for internal folders.
+
+- Updated list table method.
+
+
+### 0.0.7
+- Fixed an error in the documentation

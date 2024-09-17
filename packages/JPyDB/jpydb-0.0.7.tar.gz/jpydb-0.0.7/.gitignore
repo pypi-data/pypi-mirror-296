@@ -1,0 +1,3 @@
+src/JPyDB/__pycache__/*
+src/dist/*
+*/__pycache__/*
