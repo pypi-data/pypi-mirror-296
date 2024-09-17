@@ -1,0 +1,11 @@
+syncro_api_ctek/__init__.py,sha256=Qvt97G304huQl38bKJADi0vtW4VOXAhGTHzIy85WT4k,573
+syncro_api_ctek/assets.py,sha256=RG7zuDjbcUdZn3aGI1Y78xgxb-msOLH_IOfUAhYd7w0,1483
+syncro_api_ctek/contacts.py,sha256=SFLnTZtUOxAXtha5d0UDT_jQnFgxQZbWZUWcKR52qEg,4057
+syncro_api_ctek/customers.py,sha256=6TRsMklHAEbGGMF9JaKAJe7FH984MmM8FKtfUKviWvI,3991
+syncro_api_ctek/ticket_timers.py,sha256=XLUWua_mXFqAQK0DclSaBW-G__QKfWQHj9T8TCEcJCc,1749
+syncro_api_ctek/tickets.py,sha256=J42IUA69vp_8mm14Vqg2NHbWyfUAGKZc90tAzQIJHlo,3895
+syncro_api_ctek-0.0.58.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+syncro_api_ctek-0.0.58.dist-info/METADATA,sha256=t9pfqXEQ8_BilAZQfKkgjd4jYF2YOHMT-ygu4EwC__A,482
+syncro_api_ctek-0.0.58.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+syncro_api_ctek-0.0.58.dist-info/top_level.txt,sha256=4Qoa9bro4I2flTJr_ouSHPgo6pGGgLgiA_Sbi3sIyFk,16
+syncro_api_ctek-0.0.58.dist-info/RECORD,,
