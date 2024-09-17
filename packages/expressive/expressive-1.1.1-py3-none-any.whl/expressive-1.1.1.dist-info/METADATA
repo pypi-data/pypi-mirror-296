@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: expressive
+Version: 1.1.1
+Summary: A library for quickly applying symbolic expressions to NumPy arrays
+Home-page: https://gitlab.com/expressive-py/expressive
+Maintainer: Russell Fordyce
+License: Apache License 2.0
+Keywords: sympy numba numpy
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Compilers
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: sympy >=1.13.2
+Requires-Dist: numpy >=2.0.1
+Requires-Dist: numba >=0.60.0
+Requires-Dist: llvmlite >=0.43.0
+
+# expressive
+
+A library for quickly applying symbolic expressions to NumPy arrays
+
+Inspired in part by this Stack Overflow Question [Using numba.autojit on a lambdify'd sympy expression](https://stackoverflow.com/questions/22793601/using-numba-autojit-on-a-lambdifyd-sympy-expression)
+
+## installation
+
+via pip https://pypi.org/project/expressive/
+
+```shell
+pip install expressive
+```
+
+## usage
+
+refer to tests for examples for now
+
+generally follow a workflow like
+* create instance `expr = Expressive("a + log(b)")`
+* build instance `expr.build(sample_data)`
+* instance is now callable `expr(real_data)`
+
+The `data` should be provided as dict of NumPy arrays
+
+```python
+data = {
+    "a": numpy.array(range(1_000_000), dtype="int64"),
+    "b": numpy.array(range(1_000_000), dtype="int64"),
+}
+```
+
+## testing
+
+#### install dependencies
+
+Only docker and compose (v2?) are required (used to generate the test environment)
+
+```shell
+sudo apt install docker.io docker-compose-v2
+```
+
+#### run tests
+
+Just directly run the test script from the root of the repository, it will build the docker test environment and run itself inside it automatically
+
+```shell
+./test/runtests.sh
+```
+
+## contributing
+
+Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) and [LICENSE.txt](LICENSE.txt)
+
+## version history
+
+##### v1.1.1
+* add version history block
+
+##### v1.1.0
+* fixed bug: signature ordering could be unaligned with symbols, resulting in bad types
+* added support for non-vector data arguments
+
+##### v1.0.0
+
+* new version with basic support for indexed offsets
+
+##### v0.2.0 (unreleased)
+
+##### v0.1.0
+
+* very early version with support for python 3.5
