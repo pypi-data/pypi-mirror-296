@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "dharitri-sdk"
+version = "0.0.2"
+authors = [
+  { name="xfactor@toml <xfactor.toml@gmail.com>" },
+]
+license = "MIT"
+description = "The Dharitri Python SDK."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pycryptodomex==3.19.1",
+  "protobuf==5.27.2",
+  "cryptography==42.0.4",
+  "pynacl==1.5.0",
+  "mnemonic==0.20",
+  "requests==2.32.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DharitriOne/drt-sdk-py"
+
+[tool.hatch.build]
+exclude = [
+  ".github",
+  "./examples",
+  ".vscode",
+  "./dharitri_sdk/testutils/",
+  "./docs"
+]
