@@ -1,0 +1,90 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deeprank2"
+version = "3.1.0"
+description = "DeepRank2 is an open-source deep learning framework for data mining of protein-protein interfaces or single-residue missense variants."
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = [
+    "graph neural network",
+    "convolutional neural network",
+    "protein-protein interfaces",
+    "missense variants",
+    "deep learning",
+    "pytorch",
+]
+authors = [
+    { name = "Giulia Crocioni", email = "g.crocioni@esciencecenter.nl" },
+    { name = "Coos Baakman", email = "coos.baakman@radboudumc.nl" },
+    { name = "Dani Bodor", email = "d.bodor@esciencecenter.nl" },
+    { name = "Daniel Rademaker" },
+    { name = "Gayatri Ramakrishnan" },
+    { name = "Sven van der Burg" },
+    { name = "Li Xue" },
+    { name = "Daniil Lepikhov" },
+]
+license = { text = "Apache-2.0 license" }
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "notebook >= 7.2.1, < 8.0",
+    "markov-clustering >= 0.0.6.dev0, < 1.0",
+    "tensorboard >= 0.9.0, < 3.0",
+    "protobuf >= 3.20.1, < 6.0",
+    "dill >= 0.3.8, < 1.0",
+    "pyarrow >= 16.1.0, < 17.0",
+    "tables >= 3.9.2, < 4.0",
+    "numpy >= 1.25, < 2.0",
+    "scipy >= 1.13.1, < 2.0",
+    "h5py >= 3.11.0, < 4.0",
+    "networkx >= 3.1, < 4.0",
+    "matplotlib >= 3.9.0, < 4.0",
+    "scikit-learn >= 1.5.0, < 2.0",
+    "chart-studio >= 1.1.0, < 2.0",
+    "pdb2sql >= 0.5.3, < 1.0",
+    "python-louvain >= 0.16, < 1.0",
+    "tqdm >= 4.66.4, < 5.0",
+    "freesasa >= 2.1.1, < 3.0",
+    "biopython >= 1.83, < 2.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest >= 7.4.0, < 8.0",
+    "bump-my-version >= 0.24.2, < 1.0",
+    "coverage >= 6.5.0, < 7.0",
+    "pycodestyle >= 2.8.0, < 3.0",
+    "pytest-cov >= 4.1.0, < 5.0",
+    "pytest-runner >= 6.0.0, < 7.0",
+    "coveralls >= 3.3.1, < 4.0",
+    "ruff == 0.6.3",
+] # development dependency groups
+publishing = ["build", "twine", "wheel"]
+notebooks = ["nbmake"]
+
+[project.urls]
+Documentation = "https://deeprank2.readthedocs.io/en/latest/?badge=latest"
+Repository = "https://github.com/DeepRank/deeprank2"
+Changelog = "https://github.com/DeepRank/deeprank2/blob/main/CHANGELOG.md"
+
+[tool.coverage.run]
+branch = true
+source = ["deeprank2"]
+
+[tool.setuptools.packages.find]
+include = ["deeprank2*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.xlsx", "*.param", "*.top", "*residue-classes"]
+
+[tool.pytest.ini_options]
+# pytest options: -ra: show summary info for all test outcomes
+addopts = "-ra"
