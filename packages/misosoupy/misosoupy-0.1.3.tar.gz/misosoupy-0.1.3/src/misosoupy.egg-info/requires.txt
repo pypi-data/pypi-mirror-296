@@ -1,0 +1,9 @@
+importlib-metadata
+importlib_resources
+numpy
+psychopy
+
+[testing]
+setuptools
+pytest
+pytest-cov
