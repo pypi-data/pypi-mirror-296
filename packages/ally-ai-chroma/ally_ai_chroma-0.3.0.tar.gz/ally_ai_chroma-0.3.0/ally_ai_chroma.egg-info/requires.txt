@@ -1,0 +1,5 @@
+ally-ai-core>=0.3.0
+chromadb==0.5.3
+langchain_chroma>=0.1.2
+umap-learn
+matplotlib
