@@ -1,0 +1,17 @@
+aidlab/__init__.py,sha256=Ln4dzwdWog2N28FAVhQZe0ErtLLPpEtb9_rtgmq25D0,399
+aidlab/activity_type.py,sha256=Rys0JirufTE3SFSgLB1LwbDlsDcWNlZZPWk3th4gouY,660
+aidlab/aidlab_manager.py,sha256=iF-h_opY6yE73GgKLC-gTAPE4V936sYWjIjmWZf8tac,1259
+aidlab/aidlabsdk-linux-gnu.so,sha256=YiJmkRMgScq37hB9gEnQo8qYm71U2PEWMCeFIkh4xFc,545920
+aidlab/aidlabsdk-linux-gnueabihf.so,sha256=ePh6HfDSbIozHNzDRCO8I3ONotpZpdM13oKCZApxuPA,385300
+aidlab/aidlabsdk.dll,sha256=JSVQHaiRKlPQib10dtvMjUYt0CH7WTQsWdUSiiVKpzU,1422848
+aidlab/aidlabsdk.dylib,sha256=_rhlVrFAoFeK4oEN639qWanxvsYvXfpxMWJ7qa6V40o,3753120
+aidlab/body_position.py,sha256=3wnlTFsaTzbj8S9maz-Ll-MgxvatbiuQui82PudH2kY,702
+aidlab/data_type.py,sha256=U323vhFZmgwz8Vk-aJ4gTNdxnfNbpH_29Ktxz_rnuE4,717
+aidlab/device.py,sha256=t3GI6X0qWNjQjAZRjhHPXj1MyNfc-KkKPkUszsA_dqM,34235
+aidlab/device_delegate.py,sha256=XC3szDAd9D1aioXXV07nvheBepueVj4slVjPvUEWOk4,12817
+aidlab/wear_state.py,sha256=mpoQbxLrGvCwmHQP2rW93gY-NIijqG5PZG_JP9aj28c,267
+AidlabSDK-1.7.3.dist-info/LICENSE.md,sha256=48yOjSX8dkoG892SO78Ixwof_OorQrsDnmjBTiYHtJ0,1064
+AidlabSDK-1.7.3.dist-info/METADATA,sha256=KMFupY2z_jClETOqMZfwb0pQWmXyhTItufd4KgIjFLA,2237
+AidlabSDK-1.7.3.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+AidlabSDK-1.7.3.dist-info/top_level.txt,sha256=cSLScmo2JGy5L0xn81Bvk0sMwcn6P4bYp7wCeFflqYw,7
+AidlabSDK-1.7.3.dist-info/RECORD,,
