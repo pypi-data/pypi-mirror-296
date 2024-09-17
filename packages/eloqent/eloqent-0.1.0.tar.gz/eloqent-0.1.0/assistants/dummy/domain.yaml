@@ -1,0 +1,30 @@
+responses:
+  greet:
+    - "Hello! How can I help you today?"
+  farewell:
+    - "Goodbye! Have a great day!"
+  forecast:
+    - "The weather in {location} is {weather}."
+
+slots:
+  location:
+    type: text
+    description: "The location to get the weather forecast for"
+    ask: "What is the city and country you want to know the weather for?"
+
+actions:
+  get_weather:
+    type: http
+    description: "Get the weather forecast for the city"
+    endpoint: "http://localhost/get_weather"
+    required_slots:
+      - location
+    data:
+      - location: "{location}"
+    response_mapping:
+      type: json
+      items:
+        weather:
+          type: text
+          description: "The weather forecast for the city"
+          key: $.weather

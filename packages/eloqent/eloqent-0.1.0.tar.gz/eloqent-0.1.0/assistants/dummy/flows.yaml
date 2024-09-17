@@ -1,0 +1,18 @@
+flows:
+  greeting:
+    description: "Greet the user"
+    steps:
+      - respond: greet
+
+  farewell:
+    description: "Say goodbye to the user"
+    steps:
+      - respond: farewell
+
+  weather_forecast:
+    description: "Get the weather forecast"
+    steps:
+      - execute: get_weather
+      - respond: forecast
+
+  

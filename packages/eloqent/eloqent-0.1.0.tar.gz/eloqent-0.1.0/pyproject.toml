@@ -1,0 +1,25 @@
+[project]
+name = "eloqent"
+version = "0.1.0"
+description = "Nest is a tool to help you build your own AI assistant"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dspy-ai>=2.4.14",
+    "pypred>=0.4.0",
+    "rich>=13.8.1",
+    "typer>=0.12.5",
+]
+
+[project.scripts]
+eloq = "eloqent.main:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest-asyncio>=0.24.0",
+    "pytest>=8.3.3",
+]
