@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: intuned-sdk
+Version: 0.0.1
+Summary: Intuned Python SDK
+Home-page: https://github.com/intuned/intuned-python-sdk
+Author: Intuned
+Author-email: infra@intuned.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
