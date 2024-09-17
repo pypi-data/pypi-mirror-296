@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/RareGO.egg-info/PKG-INFO
+src/RareGO.egg-info/SOURCES.txt
+src/RareGO.egg-info/dependency_links.txt
+src/RareGO.egg-info/requires.txt
+src/RareGO.egg-info/top_level.txt
+src/rarego_kge/__init__.py
+src/rarego_kge/example.py
