@@ -1,0 +1,11 @@
+syrkis/__init__.py,sha256=NKEX7kkp1WFXlSsQN1DAIKSV6uOdPbmXoqfYBnG3nfI,95
+syrkis/data/__init__.py,sha256=JWw8J7Yhoz-odsr_0W2FXKd74zZIghU_zx9HcnP0W4k,48
+syrkis/data/datasets.py,sha256=zfjWcTJklwBXeFZvmzG4hJPARTuzeZOBFn5qz7sTma8,565
+syrkis/plot/__init__.py,sha256=zUGINkgrdqscEO5rMSoj9-fsvUFj0fqYihzv7ilM37A,52
+syrkis/plot/images.html,sha256=enOtkS_LM2ZE0FLQoTVA4GAI-2md60MmuGTQz9v3xZE,2375
+syrkis/plot/plot.py,sha256=qJvfwg6n769lZuVekieEFgy_lihHZPb1GU5R5dRJTvQ,1733
+syrkis/train/__init__.py,sha256=VtEx2Ij9VWcITP1M80Pxo5YvrCI9GHNDaDqZbwqRmio,397
+syrkis/train/utils.py,sha256=fBKzBMDl0XtqxTPWJsspD_qSCip7yXz4zI67XO77U-c,5302
+syrkis-0.1.0.dist-info/METADATA,sha256=9CqXw5shWMG1LTVwPC3985Au8ZH9lD6DSydQT4r7ndU,887
+syrkis-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+syrkis-0.1.0.dist-info/RECORD,,
