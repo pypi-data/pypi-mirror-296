@@ -1,0 +1,6 @@
+pyproject.toml
+idapro/__init__.py
+idapro.egg-info/PKG-INFO
+idapro.egg-info/SOURCES.txt
+idapro.egg-info/dependency_links.txt
+idapro.egg-info/top_level.txt
