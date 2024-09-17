@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "coppercomm"
+version = "0.1.0"
+description = "Coppercomm"
+readme = "README.md"
+authors = [{ name = "Volvo Cars" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+dependencies = ["paramiko", "pyserial", "pexpect"]
+
+[project.urls]
+Homepage = "https://github.com/volvo-cars/coppercomm"
+Issues = "https://github.com/volvo-cars/coppercomm/issues"
+
+[tool.hatch.envs.default]
+dependencies = ["types-paramiko", "mypy >= 0.991"]
+path = "objs/.env"
+
+[tool.hatch.build]
+directory = "objs/dist"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/coppercomm"]
+
+
+[tool.hatch.envs.default.scripts]
+test = "pytest -o cache_dir=objs/.pytest_cache {args:tests}"
+system-test = "pytest -o cache_dir=objs/.pytest_cache ./system_tests"
+test-cov = "coverage run -m pytest -o cache_dir=objs/.pytest_cache {args:tests}"
+cov-report = ["- coverage combine", "coverage report"]
+cov = ["test-cov", "cov-report"]
+
+
+[tool.pytest.ini_options]
+minversion = "7.2"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.mypy]
+python_version = "3.8"
+incremental = false
+show_column_numbers = true
+check_untyped_defs = true
+warn_unused_configs = true
+ignore_missing_imports = false
+no_implicit_optional = true
+follow_imports = "normal"
+namespace_packages = true
+explicit_package_bases = true
+mypy_path = "$MYPY_CONFIG_FILE_DIR/src"
+files = "$MYPY_CONFIG_FILE_DIR/src"
+
+[[tool.mypy.overrides]]
+module = "pexpect.*"
+ignore_missing_imports = true
+[[tool.mypy.overrides]]
+module = "serial.*"
+ignore_missing_imports = true
