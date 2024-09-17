@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: ou-tm351-py
+Version: 0.0.11
+Summary: Python package installation for OU module TM351
+Home-page: https://github.com/innovationOUtside/innovationOUtside/ou-tm351-py
+Author: Tony Hirst
+Author-email: tony.hirst@open.ac.uk
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Education
+Classifier: License :: Free For Educational Use
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Visualization
+License-File: LICENSE
+Requires-Dist: ipywidgets<9,>=8
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+Requires-Dist: html5lib
+Requires-Dist: chardet
+Requires-Dist: csvkit
+Requires-Dist: xlrd
+Requires-Dist: openpyxl
+Requires-Dist: python-magic
+Requires-Dist: pytimeparse
+Requires-Dist: isodate
+Requires-Dist: pytz
+Requires-Dist: python-dateutil
+Requires-Dist: parsedatetime
+Requires-Dist: itables
+Requires-Dist: json-table-schema
+Requires-Dist: jsonschema
+Requires-Dist: messytables
+Requires-Dist: prettytable
+Requires-Dist: tables
+Requires-Dist: tabulate
+Requires-Dist: genson
+Requires-Dist: webencodings
+Requires-Dist: normality
+Requires-Dist: PyYAML
+Requires-Dist: pyarrow==16.1.0
+Requires-Dist: odfpy
+Requires-Dist: treelib
+Requires-Dist: Faker
+Requires-Dist: pydbgen
+Requires-Dist: numexpr
+Requires-Dist: numpy<2.0.0
+Requires-Dist: pandas==2.2.2
+Requires-Dist: pandasql
+Requires-Dist: scipy==1.13.1
+Requires-Dist: scikit-learn==1.5.0
+Requires-Dist: statsmodels==0.14.2
+Requires-Dist: patsy
+Requires-Dist: formulaic
+Requires-Dist: networkx
+Requires-Dist: pydot
+Requires-Dist: descartes
+Requires-Dist: fastkml
+Requires-Dist: Fiona==1.9.6
+Requires-Dist: folium==0.16.0
+Requires-Dist: geographiclib
+Requires-Dist: geopandas==0.14.4
+Requires-Dist: geopy
+Requires-Dist: pygeoif
+Requires-Dist: Shapely==2.0.4
+Requires-Dist: graphviz
+Requires-Dist: ipythonblocks
+Requires-Dist: matplotlib==3.9.0
+Requires-Dist: mpld3
+Requires-Dist: plotly
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: sqlparse
+Requires-Dist: psycopg2-binary
+Requires-Dist: pgspecial
+Requires-Dist: jupysql
+Requires-Dist: duckdb
+Requires-Dist: duckdb-engine
+Requires-Dist: pymongo
+Requires-Dist: SPARQLWrapper
+Requires-Dist: SQLAlchemy
+Requires-Dist: rdflib
+Requires-Dist: schemadisplay-magic>=0.0.7
+Requires-Dist: streamz
+Requires-Dist: altair
+Requires-Dist: python-editor
+Requires-Dist: python-slugify
+Requires-Dist: PyGithub
+Requires-Dist: humanize
+Requires-Dist: inflect
+Requires-Dist: memory-profiler
+Requires-Dist: nltk
+Requires-Dist: snoop
+Requires-Dist: birdseye
+Requires-Dist: tm351-nb-utils
+Requires-Dist: ou-logger
+Requires-Dist: jupyterlab-execute-time
+Requires-Dist: jupyterlab-spreadsheet-editor
+Provides-Extra: al
+Provides-Extra: full
+Provides-Extra: production
+
