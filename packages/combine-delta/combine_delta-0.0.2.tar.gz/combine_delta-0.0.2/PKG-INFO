@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: combine_delta
+Version: 0.0.2
+Home-page: https://gitlab.mercator-ocean.fr/mhamon/combine_delta
+Author: Mathieu Hamon
+Author-email: mhamon@mercator-ocean.fr
+License: BSD Licence
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: ==3.10.4
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: dask>=2024.7.0
+Requires-Dist: xarray>=2024.6.0
+Requires-Dist: netcdf4>=1.7.1.post1
+Requires-Dist: py4ease>=v0.0.13

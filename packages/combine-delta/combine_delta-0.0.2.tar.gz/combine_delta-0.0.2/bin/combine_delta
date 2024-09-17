@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+set -e
+
+$(command -v python) -m mpi4py $(combine_delta_path)/main.py "$@"
+

@@ -1,0 +1,2 @@
+[console_scripts]
+combine_delta_path = bin.combine_delta_path_utils:path
