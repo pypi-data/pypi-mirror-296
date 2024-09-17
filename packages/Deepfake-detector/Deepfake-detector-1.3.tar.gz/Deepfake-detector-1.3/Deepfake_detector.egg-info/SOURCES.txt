@@ -1,0 +1,11 @@
+README.md
+setup.py
+Deepfake_detector.egg-info/PKG-INFO
+Deepfake_detector.egg-info/SOURCES.txt
+Deepfake_detector.egg-info/dependency_links.txt
+Deepfake_detector.egg-info/requires.txt
+Deepfake_detector.egg-info/top_level.txt
+deepfake_detector/__init__.py
+deepfake_detector/face_detection.py
+deepfake_detector/model.py
+deepfake_detector/utils.py
