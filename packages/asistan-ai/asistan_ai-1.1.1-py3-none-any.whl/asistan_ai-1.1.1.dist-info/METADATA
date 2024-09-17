@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: asistan_ai
+Version: 1.1.1
+Summary: A Python client for Asistan AI model - asistanai.pythonanywhere.com
+Home-page: https://github.com/Keremcm/Asistan-AI
+Author: Keremcem Kaysi
+Author-email: kader.61ts@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Asistan AI Python Client
+
+`asistan_ai` paketi, Asistan AI modeline kolayca eriÅŸim saÄŸlayan bir Python istemcisidir. Asistan AI, GPT-Turbo modelli Ã§ok yÃ¶nlÃ¼ bir sohbet botudur.
+
+## Kurulum
+
+Paketinizi PyPI'den yÃ¼klemek iÃ§in:
+
+```bash
+pip install asistan_ai
+```
+
+## KullanÄ±m
+
+```python
+from asistan_ai import Asistan
+
+# KÃ¼tÃ¼phaneyi baÅŸlat
+asistan = Asistan()
+
+# Bir mesaj gÃ¶nder ve yanÄ±t al
+request = input("Enter message: ")
+reply = asistan.message(request)
+print(reply)
+```
+
+## Lisans
+MIT LisansÄ±
