@@ -1,0 +1,17 @@
+lib/__init__.py,sha256=nMbfyVS-7vdSnn4X293_4zlSxpe66tNuDhaNTw33rq0,34
+lib/myfunctions.py,sha256=XLtQ4kfJIwjTM4ZT2VqOQxuoJ0aV0MrILvz8YiL4S9g,214
+lib/newsol.py,sha256=XLtQ4kfJIwjTM4ZT2VqOQxuoJ0aV0MrILvz8YiL4S9g,214
+lib/extra/__init__.py,sha256=gTVW5sFWgA2Mq0Cx5sk9PnkZlfaiwYjpEOHDT86HQvI,59
+lib/extra/approx.py,sha256=CDcUL8vGqiQFoNiq4FlVY4Lv4KNtyTfHCCgFBHj2XjI,421
+lib/extra/ders.py,sha256=WVfkFEY4_EdV-2XctJ1LeUV9ZJG4kojVO0cikJbRpBw,1945
+lib_4231/__init__.py,sha256=nMbfyVS-7vdSnn4X293_4zlSxpe66tNuDhaNTw33rq0,34
+lib_4231/newsol.py,sha256=XLtQ4kfJIwjTM4ZT2VqOQxuoJ0aV0MrILvz8YiL4S9g,214
+lib_4231/extra/__init__.py,sha256=gTVW5sFWgA2Mq0Cx5sk9PnkZlfaiwYjpEOHDT86HQvI,59
+lib_4231/extra/approx.py,sha256=CDcUL8vGqiQFoNiq4FlVY4Lv4KNtyTfHCCgFBHj2XjI,421
+lib_4231/extra/ders.py,sha256=WVfkFEY4_EdV-2XctJ1LeUV9ZJG4kojVO0cikJbRpBw,1945
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_myfunctions.py,sha256=YS0CjUlIiBye835LjjZE6WSGTJ6YvfyR2ROVHre5cM4,323
+lib_4231-0.0.1.dist-info/METADATA,sha256=VEi96MYC1Ac7xTEkU7cGQnMV8FJvjeEQJJilTGxyqi4,234
+lib_4231-0.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+lib_4231-0.0.1.dist-info/top_level.txt,sha256=ZLT2iXUxuemtpkEwMc4xyLILnUVsZtoahLgpB_proRU,15
+lib_4231-0.0.1.dist-info/RECORD,,
