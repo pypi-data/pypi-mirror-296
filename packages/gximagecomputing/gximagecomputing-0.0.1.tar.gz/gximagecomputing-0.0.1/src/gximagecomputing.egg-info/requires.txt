@@ -1,0 +1,7 @@
+numpy
+astropy
+sunpy
+scipy
+
+[:python_version >= "3.10"]
+importlib-metadata

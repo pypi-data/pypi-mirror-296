@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=65.4.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gximagecomputing"
+version = "0.0.1"
+readme = "README.md"
+
+dependencies = [
+    'importlib-metadata; python_version>="3.10"',
+    "numpy",
+    "astropy",
+    "sunpy",
+    "scipy",
+]
+
+description = "This code computes the 2D maps of the solar gyroresonance and free-free microwave emission using the models of active regions created by the GX Simulator."
+
+authors = [
+  {name = "Alexey Kuznetsov", email = "test@example.com"}
+]
+maintainers = [
+  {name = "Alexey Kuznetsov", email = "test@example.com"}
+]
+
+keywords = ["Sun", "radio emission", "gyroresonance", "microwave emission", "Sun active regions"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Issues = "https://github.com/kuznetsov-radio/gximagecomputing/issues"
+Repository = "https://github.com/kuznetsov-radio/gximagecomputing/"
+
+[tool.cibuildwheel]
+skip = ["cp36*", "cp37*", "cp38*", "cp39*", "pp*", "*musl*"]
+build-frontend = "build"
+
+[[tool.cibuildwheel.overrides]]
+select = "cp*"
+manylinux-x86_64-image = "manylinux_2_28"
+manylinux-i686-image = "manylinux2014"
+
+#[[tool.cibuildwheel.overrides]]
+#select = "cp312*"
+#manylinux-x86_64-image = "manylinux_2_34"
+
+[tool.cibuildwheel.linux]
+repair-wheel-command = "auditwheel repair -w {dest_dir} {wheel}"
+
+[tool.cibuildwheel.macos]
+repair-wheel-command = "delocate-wheel --require-archs {delocate_archs} -w {dest_dir} -v {wheel}"
+
+[tool.cibuildwheel.windows]
