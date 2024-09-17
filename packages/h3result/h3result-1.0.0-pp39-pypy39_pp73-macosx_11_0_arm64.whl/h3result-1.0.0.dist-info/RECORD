@@ -1,0 +1,17 @@
+h3result/path_like.py,sha256=uPpdpxkB6XPCRIeXRmTUv9aNfEpIO4zyl-7CzaZPdNI,72
+h3result/h3result.py,sha256=eFEPBx4eAqAqwqfMmLFV_XCoLHuRQcE3BFp7HX01xpM,1099
+h3result/cffi.pypy39-pp73-darwin.so,sha256=LGgJJcUkfOyXYu1M7mW14zGEy7WXdM0sHclf0exLS7o,109960
+h3result/error.py,sha256=GR8VbTd44Ofhzd49LUkUp7c9-8-Yw8U97jgpWYJwFfQ,242
+h3result/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+h3result/cffi.cpython-312-darwin.so,sha256=Sda724eKj8ma-vBjSUh8eg7u1QfG8woJ17Nl5u6rIIo,113448
+h3result/read_h3result.py,sha256=0-_WnelLSmus8P87hzB96P9aIDLUHq6UvDYL63gB_4Q,662
+h3result/interface.h,sha256=oY-X0abs-GC1fnuYzeFRULc1SRcXTSUSm1_R0kMtqAE,697
+h3result/cffi.cpython-39-darwin.so,sha256=ekYrK6K444SaNCps4R2zbUvcviZNTQb0LEvldFg5hq8,113448
+h3result/cffi.cpython-311-darwin.so,sha256=CanHyEfTw-9E0r49pkYta7RsPIfvWLdL1PiYBRwIplk,113448
+h3result/cffi.cpython-310-darwin.so,sha256=xcSDsSY19aBEgK-KS-EWMjCUjm8uxQ6RyzOpSwFJYP8,113448
+h3result/lib/libh3result.a,sha256=-pgPQF8ThafQPEI6mNxtDWqJ6EoFjuZGnZJgSJyxKKw,71320
+h3result/lib/liblite_pack.a,sha256=noYWs1pgrN5YPiotdcJCMG9pJXUHvS69WkO6SsINXhM,20312
+h3result/lib/liblio.a,sha256=9TrYefREDIJZl0d5Z_MhDCEgMPjo7o8IU0FXPoi3vrM,6056
+h3result-1.0.0.dist-info/RECORD,,
+h3result-1.0.0.dist-info/WHEEL,sha256=lVQfeayqtDYv8Rh8Mbh024R3siRug3oMxHjyEihpV9c,111
+h3result-1.0.0.dist-info/METADATA,sha256=GzRvSrY7hnzyNz9I8FScl6UAUVDL5vXiiXGYop1IiiI,645
