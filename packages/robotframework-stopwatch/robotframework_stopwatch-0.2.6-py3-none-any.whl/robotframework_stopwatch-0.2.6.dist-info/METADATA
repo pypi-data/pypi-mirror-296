@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: robotframework-stopwatch
+Version: 0.2.6
+Summary: Evaluate test case execution against delta.
+Author-email: extraorange <extraorangeio@pm.me>
+License: GPL-3.0-only
+Project-URL: Homepage, https://github.com/extraorange/robotframework-stopwatch
+Project-URL: Documentation, https://github.com/yourusername/robotframework-stopwatch#readme
+Keywords: robotframework,listener,robot framework,automation
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Topic :: Software Development :: Testing :: BDD
+Classifier: Topic :: Software Development :: Testing
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: robotframework >=6.1.1
+
+# robotframework-stopwatch
+
+![Version](https://img.shields.io/badge/version-0.2.6-%2392C444)
+
+Robot Framework library-listener.
+Evaluate test case execution against its average run time & delta in Robot Framework.
