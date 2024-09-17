@@ -1,0 +1,82 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "trash-manager"
+dynamic = ["version"]
+description = "A manager for the trash system of the OS"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = [
+  "trash",
+  "manager",
+  "trash-manager",
+  "delete",
+  "remove",
+  "file",
+  "directory",
+  "folder"
+]
+authors = [
+  { name = "VBrawl", email = "konstantosjim@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "winshell==0.6;platform_system=='Windows'",
+  "pywin32==306;platform_system=='Windows'"
+]
+
+[project.urls]
+Documentation = "https://github.com/vbrawl/trash-manager#readme"
+Issues = "https://github.com/vbrawl/trash-manager/issues"
+Source = "https://github.com/vbrawl/trash-manager"
+
+[tool.hatch.version]
+path = "src/trash_manager/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/trash_manager tests}"
+
+[tool.coverage.run]
+source_pkgs = ["trash_manager", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/trash_manager/__about__.py",
+]
+
+[tool.coverage.paths]
+trash_manager = ["src/trash_manager", "*/trash-manager/src/trash_manager"]
+tests = ["tests", "*/trash-manager/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/trash_manager"]
+
+
+[tool.pytest.ini_options]
+addopts = '-rx'
+testpaths = [
+  "tests"
+]
