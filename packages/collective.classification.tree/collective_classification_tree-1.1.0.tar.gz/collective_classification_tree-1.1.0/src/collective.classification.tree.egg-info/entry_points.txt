@@ -1,0 +1,8 @@
+[console_scripts]
+tree_add_archived = collective.classification.tree.script:add_archived
+tree_add_parent = collective.classification.tree.script:add_parent
+tree_compare_files = collective.classification.tree.script:compare_tree_files
+update_locale = collective.classification.tree.locales.update:update_locale
+
+[z3c.autoinclude.plugin]
+target = plone
