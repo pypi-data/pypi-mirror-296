@@ -1,0 +1,12 @@
+django_logic/__init__.py,sha256=3oE2qtX3DXZbt2Yey-CkU_1f-IBdOS9pSigFIIQ7Dk0,158
+django_logic/commands.py,sha256=UD1ScyImvlnninDlrlveFZA0VE2h9AXRQAu5p2olKOg,3344
+django_logic/display.py,sha256=3B4OC47JJRftTeRZa74YdbqFNimY-mTRO2_fse8zcFU,11773
+django_logic/exceptions.py,sha256=T8mD5YmGb3AKiJVyNSrigzGGke5Gul1EDoUkAhOTnQY,109
+django_logic/process.py,sha256=HCOCELpwq_IA6DRvnWqCzPeCeY7oYwuVsO33GmI6gC4,7057
+django_logic/state.py,sha256=fvlrLBYDq-05BOV4qOuRUWKOgzbEwbbc5BvAJYfP6ts,2741
+django_logic/transition.py,sha256=UPG0RHHYdhzjlZsuYE5S00GWa--TVvSi0M_AKGb4xA0,8130
+django_logic-0.1.3.dist-info/LICENSE,sha256=5yFhsX0QgIJXqwD1NJyaPKqSeZDWFtjkTrJVhmAV0z8,1070
+django_logic-0.1.3.dist-info/METADATA,sha256=PyrWK4Ium19fsyTXjwG_5Fz88A4TUQOPP0l6sKaDVC4,10069
+django_logic-0.1.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+django_logic-0.1.3.dist-info/top_level.txt,sha256=pCe8HKHXfXMoL4Kj2X3sbyntKyetaa-jnST6gPHtHbI,13
+django_logic-0.1.3.dist-info/RECORD,,
