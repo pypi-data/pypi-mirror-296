@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ims_envista
+Version: 0.0.0
+Summary: Israel Meteorological Service Envista API wrapper package
+Home-page: https://github.com/GuyKh/py-ims-envista
+Author: Guy Khmelnitsky
+Author-email: guykhmel@gmail.com
+License: MIT License
+Keywords: ims,weatheril,Israel Meteorological Service,Meteorological Service,weather
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3
+Requires-Dist: loguru
+Requires-Dist: aiohttp
+
+Israel Meteorological Service Envista API wrapper package
