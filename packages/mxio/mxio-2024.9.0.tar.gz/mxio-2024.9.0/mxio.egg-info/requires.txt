@@ -1,0 +1,12 @@
+hdf5plugin
+parsefire
+h5py
+opencv-python
+python-magic
+pytz
+pyyaml
+numpy
+iso8601
+lz4
+pyzmq
+setuptools-scm
