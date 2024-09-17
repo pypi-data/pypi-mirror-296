@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: larva_lib
+Version: 0.0.0.4
+Summary: A library for controlling stepper motors and lighting for larva motion experiments
+Home-page: https://github.com/HectorVR-Dev/larva_lib
+Author: HectorVR-Dev
+Author-email: hectordaniel1112@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python>=4.5.3.56
+Requires-Dist: Jetson.GPIO>=2.0.0
+
+# Larva_Lib
+
+## Overview
+Larva_Motion is a library for controlling stepper motors and lighting for larva motion experiments. It provides an easy-to-use interface for setting up and managing the hardware components involved in these experiments.
+
+## Features
+- Control stepper motors for precise movement
+- Manage lighting conditions for experiments
+- Simple and intuitive API
+
+## Installation
+You can install the library using pip:
+
+```sh
+pip install larva_lib
