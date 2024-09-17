@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: RaspyTweak
+Version: 0.0.1a1
+Summary: A library for raspberry pi
+Home-page: https://github.com/voyager-2021/RaspyTweak
+Download-URL: https://github.com/voyager-2021/RaspyTweak/releases/tag/pre-alpha
+Author: Voyager
+License: MIT
+Project-URL: Issues, https://github.com/voyager-2021/RaspyTweak/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: psutil
+Requires-Dist: deprecated
+Requires-Dist: wrapt
+
+# I suggest not installing this package
+### + If there is a bug i wont fix it u fix it ur self
