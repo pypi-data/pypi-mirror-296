@@ -1,0 +1,7 @@
+wrapt>=1.16.0
+requests>=2.26.0
+
+[test]
+openai>=1.14.3
+flake8>=6.1.0
+pytest>=8.1.1
