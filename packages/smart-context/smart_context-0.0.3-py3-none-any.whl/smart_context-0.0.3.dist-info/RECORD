@@ -1,0 +1,9 @@
+smartcontext/backends.py,sha256=pac87WUlXHvlY4bG1ob3MKfZWXFWLEyNmK-qgd5m2Mc,2007
+smartcontext/context.py,sha256=LMDOuaOzVqYMRMR2PRZwASQppvPcG4SZef5gPnbWOhg,6305
+smartcontext/memory.py,sha256=Y8SJotwdvyM3XsNxvXLIcTa4byNyjZM1ZRUd_aSOA_8,853
+smartcontext/utils.py,sha256=m5Azh0YnKTsuCF5kncC9k4Kx6RFK-rauZRJBmktfYPA,840
+smart_context-0.0.3.dist-info/LICENSE,sha256=1O4XaMZaR4ufr_ThRCqiEZ3JL2tNNvD4P3vrSqKpkWE,1067
+smart_context-0.0.3.dist-info/METADATA,sha256=Z0VuZoeIHqCErGZk5VvXhd2tp1K2myWIdo59X1p9T_M,1890
+smart_context-0.0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+smart_context-0.0.3.dist-info/top_level.txt,sha256=XL4GGRR2WyJlzK3j6f9ynrrveSpMdIm8vECOtTRK1es,13
+smart_context-0.0.3.dist-info/RECORD,,
