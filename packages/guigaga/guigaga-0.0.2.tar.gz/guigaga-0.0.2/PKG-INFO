@@ -1,0 +1,44 @@
+Metadata-Version: 2.3
+Name: guigaga
+Version: 0.0.2
+Project-URL: Documentation, https://github.com/wytamma/guigaga#readme
+Project-URL: Issues, https://github.com/wytamma/guigaga/issues
+Project-URL: Source, https://github.com/wytamma/guigaga
+Author-email: Wytamma Wirth <wytamma.wirth@me.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: click
+Requires-Dist: gradio
+Description-Content-Type: text/markdown
+
+# guigaga
+
+[![PyPI - Version](https://img.shields.io/pypi/v/guigaga.svg)](https://pypi.org/project/guigaga)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/guigaga.svg)](https://pypi.org/project/guigaga)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install guigaga
+```
+
+## License
+
+`guigaga` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
