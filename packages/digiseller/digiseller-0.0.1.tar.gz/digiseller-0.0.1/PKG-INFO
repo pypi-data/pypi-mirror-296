@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: digiseller
+Version: 0.0.1
+Summary: Digiseller API wrapper
+Home-page: https://github.com/onyx256/digiseller
+Author: slava256
+Author-email: sv2021e@gmail.com
+Project-URL: GitHub, https://github.com/onyx256/digiseller
+Keywords: digiseller
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.32.3
