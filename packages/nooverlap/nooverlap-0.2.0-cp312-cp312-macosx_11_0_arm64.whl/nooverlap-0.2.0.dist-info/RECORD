@@ -1,0 +1,7 @@
+nooverlap-0.2.0.dist-info/METADATA,sha256=8IzIVJAlhSXW_1HqgDiAZe5edmSYFIHo_1qqRvd5p8s,2479
+nooverlap-0.2.0.dist-info/WHEEL,sha256=Kb7KizsPlTG3o6hyGw8mrqJSDjTczKr2vylB9aPcUXc,104
+nooverlap/__init__.py,sha256=btpgrG5gyowuSGcdPqsiGPShCPx5KoR6JyPgA5Iuwbk,109
+nooverlap/matplotlib/__init__.py,sha256=bRcPRIJgNXMFbExliLBJGJP6Ynsb5If0H0vlNBlVFfs,67
+nooverlap/matplotlib/push_text.py,sha256=R9lPkJs4QLI4OGkx51OYogpclEeCu1E5gCs1U0baJGU,1339
+nooverlap/nooverlap.cpython-312-darwin.so,sha256=gDaZPE6jbdO4ioyrYqrsGREIWgOctnUpha3Pr0ZJ9Y0,520992
+nooverlap-0.2.0.dist-info/RECORD,,
