@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: gitbase
+Version: 0.0.1
+Summary: A package to manage player data on GitHub with encryption.
+Home-page: https://github.com/TaireruLLC/gitbase
+Author: Taireru LLC
+Author-email: tairerullc@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: cryptography
+
+# GitHub Database
+
+A Python package for saving and loading player data on GitHub, with encryption using `cryptography`. It allows selective saving of class attributes.
+
+## Installation
+
+Install via pip:
+
+```bash
+pip install gitbase
