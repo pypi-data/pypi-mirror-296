@@ -1,0 +1,157 @@
+[tool.poetry]
+name = "Exo_k"
+version = "1.3.0"
+description = "Library to handle radiative opacities from various sources for atmospheric applications"
+authors = ["Jeremy Leconte <jeremy.leconte@u-bordeaux.fr>"]
+
+license = "GPLv3"
+readme = "README.md"
+homepage = "https://forge.oasu.u-bordeaux.fr/jleconte/exo_k-public"
+repository = "https://forge.oasu.u-bordeaux.fr/jleconte/exo_k-public"
+documentation = "https://perso.astrophy.u-bordeaux.fr/~jleconte/exo_k-doc/index.html"
+
+keywords = ["opacities", "cross sections", "correlated-k", "spectra",
+    "atmosphere", "atmospheric", "exoplanet", "radiative transfer"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Framework :: Jupyter",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Unix",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Software Development :: Libraries",
+]
+
+include = ["exo_k/__version__.py"]
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "pep440"
+bump = true
+pattern = "default-unprefixed"
+
+[tool.poetry-dynamic-versioning.files."exo_k/__version__.py"]
+persistent-substitution = true
+initial-content = """
+  __version__ = "0.0.0"
+"""
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typing-extensions = "^4.12.2"
+
+numpy = [
+    { version = "^1.23", python = "^3.10" },
+    { version = "^1.23", python = "3.9" },
+    { version = "^1.23, <1.25", python = "3.8" }]
+scipy = [
+    { version = "^1.14", python = "^3.10" },
+    { version = "^1.10", python = "3.9" },
+    { version = "^1.10", python = "3.8" }]
+numba = [
+    { version = ">=0.58", python = "^3.9" },
+    { version = "^0.58", python = "3.8" }]
+astropy = [
+    { version = "^6.1.1", python = "^3.10" },
+    { version = "^6.0", python = "3.9" },
+    { version = "^5.1", python = "3.8" }]
+
+h5py = ">=3.10.0"
+netCDF4 = "<=1.6.5"
+
+matplotlib = [
+    { version = ">3.7.3", python = "^3.9" },
+    { version = ">=3.7.3", python = "3.8" }]
+pandas = [
+    { version = "^2.0", python = "^3.9" },
+    { version = ">=2.0", python = "3.8" }]
+nestle = "^0.2.0"
+
+
+[tool.poetry.group.doc.dependencies]
+papermill = "^2.6.0"
+
+Sphinx = [
+    { version = "^7.2.6", python = ">=3.9, <3.12" },
+    { version = "7.1.2", python = "3.8" }]
+nbsphinx = "^0.9.4"
+nbsphinx-link = "^1.3.0"
+sphinx-argparse = "^0.4.0"
+sphinx-autoapi = "^3.3.0"
+sphinx-autobuild = "^2021.3.14"
+sphinx-rtd-theme = "^2.0.0"
+sphinx-math-dollar = "^1.2.1"
+sphinx-paramlinks = "^0.6.0"
+sphinx-autodoc-typehints = "^1.25.3"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.0"
+
+
+[tool.poetry.group.tools.dependencies]
+deptry = "^0.12.0"
+nb-clean = "^3.3.0"
+pydocstyle = { extras = ["toml"], version = "^6.3.0" }
+
+
+[tool.poetry.group.testing.dependencies]
+bandit = "^1.7.9"
+coverage = "^7.6.1"
+
+tox = "^4.18.0"
+
+pytest = "^7.4.4"
+pytest-cov = "^4.1.0"
+pytest-clarity = "^1.0.1"
+pytest-mypy = "^0.10.3"
+pytest-sugar = "^0.9.7"
+
+sympy = "^1.13.2"
+
+
+[tool.pytest.ini_options]
+minversion = '7.0'
+addopts = '-p no:warnings' # --cov --capture=no
+testpaths = ['tests']
+
+
+[tool.bandit]
+exclude_dirs = ['tests']
+
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = [
+    'if TYPE_CHECKING:',
+    'pragma: no cover',
+    "if __name__ == '__main__':",
+]
+
+[tool.coverage.run]
+omit = [
+    "tests/*",
+]
+
+[tool.deptry]
+ignore_notebooks = true
+
+[tool.pydocstyle]
+convention = 'numpy'
+#ignore = 'D105, D200, D205, D212, D213, D400, D413, D415, D417'
+
+[build-system]
+requires = ["poetry-core>=1.8.1", "poetry-dynamic-versioning>=1.4.0"]
+build-backend = "poetry_dynamic_versioning.backend"
