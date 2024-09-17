@@ -1,0 +1,12 @@
+judges/__init__.py,sha256=5kOTXu5YKHkJPb9y_IJ7suApDDtJjEjdlpMmByV2HJ0,207
+judges/base.py,sha256=2bPYO6L6rQGQHvtJT17aQdyGxirwPgen45Esl3RlFPE,2304
+judges/classifiers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+judges/classifiers/correctness.py,sha256=ol919IGwQVD07m7t0GBW43hCfNyjz3eXLUvI-izBAWs,1656
+judges/graders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+judges/graders/quality.py,sha256=ul-TswzaFjuYuVwJv4kPYUrpCvzbKT76B32scIs88R4,2690
+judges/graders/relevancy.py,sha256=WdobEGDn2-jL9Ttx3biEk4ZSVr_tGG4yw8ffdNt1a5Y,2185
+judges-0.0.1.dist-info/LICENSE,sha256=GCiW9GFylkD0GBUOJxclzLjlOxp_IN964jlWCHGoWmQ,11348
+judges-0.0.1.dist-info/METADATA,sha256=DtsCr3Wm_NRFiHpJzG75ds2nURbvlIAEaa5jE3zj4r4,535
+judges-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+judges-0.0.1.dist-info/top_level.txt,sha256=Br3kS8-3xOySWioTZX0_qNI64zLZ22U-iK4OcFuHhNw,7
+judges-0.0.1.dist-info/RECORD,,

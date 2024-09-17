@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: judges
+Version: 0.0.1
+Summary: A small library to use and create LLM-as-a-Judge evaluators.
+Author-email: Freddie Vargus <freddie@quotientai.co>
+License: MIT
+Keywords: ai,large language models,llm-judge,evaluation,evals
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai ==1.45.1
+
+# judges
+A small library to use and create LLM-as-a-Judge evaluators.
