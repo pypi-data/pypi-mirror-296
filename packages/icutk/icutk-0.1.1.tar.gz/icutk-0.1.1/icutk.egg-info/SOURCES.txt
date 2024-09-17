@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+icutk/__init__.py
+icutk/obj.py
+icutk/path.py
+icutk/string.py
+icutk/subproc.py
+icutk.egg-info/PKG-INFO
+icutk.egg-info/SOURCES.txt
+icutk.egg-info/dependency_links.txt
+icutk.egg-info/top_level.txt
