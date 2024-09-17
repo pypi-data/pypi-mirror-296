@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: Email_Usage
+Version: 1.2
+Description-Content-Type: text/markdown
+
+# Email Usage
+
+**Created by SomeRandom_Boi/Lag**
+
+
+
+**This package will be updated every month or week as it's not completed yet**
+
+Email Usage is currently my first and expirience creating a package on PyPi
+so expect bugs/glitches on this package
+
+Enough yapping lets go to what this package does
+
+
+**Email Verification:**
+```python
+from Email_Usage import email_verification
+```
+
+appname="subject of the email" - The huge title of the email or subject (Required)
+clientpass="your App Password" - Not to be confused with password you use to login(Required)
+clientemail="Email to be used" - Email Address used to send email or the "From" (Required)
+emailtosend="Receiver Email"   - Where the email will be sent or go to (Required)
+text="Email text or rich text" - The text or the contents of emails (**Not** Required)
+The **email_verification()** function also returns a random code but its not required
+
+
+**usage of email_verification()**
+```python
+from Email_Usage import email_verification
+verified = email_verification(appname='subject: module test', clientpass="app password", clientemail="myemail", emailtosend="receiver")
+print(verified)
+```
+
+**Output:**
+```
+Email Sent Successfully
+```
+**Email Sent:**
+```
+Subject: module test
+You have requested a verification code for module test.
+
+Your digital verification code is 140385
+```
+text can be editied as said above the ``text`` param is default to use the pre-made text
