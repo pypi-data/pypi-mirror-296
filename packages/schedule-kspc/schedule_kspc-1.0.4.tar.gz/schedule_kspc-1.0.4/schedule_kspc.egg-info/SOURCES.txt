@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+schedule_kspc/DirManager.py
+schedule_kspc/ExcelParser.py
+schedule_kspc/JsonAdapter.py
+schedule_kspc/Store.py
+schedule_kspc/WebRequests.py
+schedule_kspc/__init__.py
+schedule_kspc.egg-info/PKG-INFO
+schedule_kspc.egg-info/SOURCES.txt
+schedule_kspc.egg-info/dependency_links.txt
+schedule_kspc.egg-info/requires.txt
+schedule_kspc.egg-info/top_level.txt
