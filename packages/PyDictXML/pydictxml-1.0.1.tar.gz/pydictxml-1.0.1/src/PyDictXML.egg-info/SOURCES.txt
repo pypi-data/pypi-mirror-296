@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/PyDictXML/PyDictXML.py
+src/PyDictXML/__init__.py
+src/PyDictXML.egg-info/PKG-INFO
+src/PyDictXML.egg-info/SOURCES.txt
+src/PyDictXML.egg-info/dependency_links.txt
+src/PyDictXML.egg-info/entry_points.txt
+src/PyDictXML.egg-info/top_level.txt
+tests/test_Performance.py
