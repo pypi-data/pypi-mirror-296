@@ -1,0 +1,2 @@
+[console_scripts]
+frel = frel.main:main
