@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: iccore
+Version: 0.1.1
+Summary: A collection of common data structures and utilities used in other ICHEC tools
+Author-email: "James Grogan, Irish Centre for High End Computing" <james.grogan@ichec.ie>
+Project-URL: Repository, https://git.ichec.ie/performance/toolshed/iccore
+Project-URL: Homepage, https://git.ichec.ie/performance/toolshed/iccore
+Keywords: HPC
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: PyYAML
+Requires-Dist: pydantic
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-sugar; extra == "test"
+Requires-Dist: black; extra == "test"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: pylint; extra == "test"
+Provides-Extra: types
+Requires-Dist: types-PyYAML; extra == "types"
+
+# iccore
+
+This project has a collection of common data structures and utilities used in other ICHEC tools.
+
+# Install  #
+
+It is available on PyPI:
+
+``` sh
+pip install iccore
+```
+
+# Features #
+
+The idea of this project is to provide some common, tested utilities for use in other ICHEC projects.
+
+This includes wrapping basic Python utilities that interact with system resources, for example:
+
+* external processes
+* the filesystem
+* network 
+
+with stubs that can be mocked for tests or executed in 'dry run' mode. By using the `filesystem`, `process` and `network` utils provided here instead of the low-level Python libraries directly you get these extra features and help to standarize our tooling.
+
+A basic CLI is included, mostly for testing, but it may be useful for getting ideas on what features the package can be used to support.
+
+## Filesystem ##
+
+You can replace all occurences of a string with another recursively in files with:
+
+``` shell
+iccore filesystem replace_in_files --target $REPLACE_DIR --search $FILE_WITH_SEARCH_TERM --replace $FILE_WITH_REPLACE_TERM 
+```
+
+The `search` and `replace` terms are, perhaps unusually, read from files. This can be handy to avoid shell escape sequences - as might be used in `sed`.
+
+## Networking ##
+
+You can download a file with:
+
+``` shell
+iccore network download --url $RESOURCE_URL --download_dir $WHERE_TO_PUT_DOWNLOAD
+```
+
+## Version Control ##
+
+You can get Gitlab Milestones given a project id and access token with:
+
+``` shell
+iccore gitlab --token $GITLAB_TOKEN milestone $PROJECT_ID
+```
+
+You can get the version number of the most recent project release with:
+
+``` shell
+iccore gitlab --token $GITLAB_TOKEN latest_release $PROJECT_ID
+```
+
+# License #
+
+This project is licensed under the GPLv3+. See the incluced `LICENSE.txt` file for details.
