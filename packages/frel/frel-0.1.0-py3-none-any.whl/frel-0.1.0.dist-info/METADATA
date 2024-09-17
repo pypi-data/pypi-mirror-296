@@ -1,0 +1,82 @@
+Metadata-Version: 2.3
+Name: frel
+Version: 0.1.0
+Summary: Add your description here
+Author-email: alexjuda <alexanderjuda@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: click>=8.1.7
+Requires-Dist: humanize>=4.10.0
+Requires-Dist: requests>=2.32.3
+Requires-Dist: rich>=13.7.1
+Provides-Extra: test
+Requires-Dist: pytest>=8; extra == 'test'
+Description-Content-Type: text/markdown
+
+# frel
+
+_Fetch RELease_. CLI for fetching binaries from GitHub releases.
+
+## Features
+
+### Fetch release asset
+
+```
+$ frel fetch ryanoasis/nerd-fonts v3.2.1 ZedMono.tar.xz
+ZedMono.tar.xz (46.2 MB) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+Asset saved at ZedMono.tar.xz
+```
+
+
+### List releases
+
+```
+$ frel list ryanoasis/nerd-fonts
+     Releases in ryanoasis/nerd-fonts
+┏━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃ Name   ┃ Published            ┃ Assets ┃
+┡━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│ v3.2.1 │ 2024-04-12T15:15:54Z │ 136    │
+│ v3.2.0 │ 2024-04-04T10:27:49Z │ 135    │
+│ v3.1.1 │ 2023-11-26T18:29:34Z │ 129    │
+│ v3.1.0 │ 2023-11-21T15:15:01Z │ 129    │
+│ v3.0.2 │ 2023-06-05T10:22:31Z │ 113    │
+│ v3.0.1 │ 2023-05-13T20:44:13Z │ 109    │
+│ v3.0.0 │ 2023-04-30T22:21:27Z │ 55     │
+│ v2.3.3 │ 2023-01-24T19:06:32Z │ 53     │
+│ v2.3.2 │ 2023-01-23T15:15:13Z │ 53     │
+│ v2.3.1 │ 2023-01-18T20:59:56Z │ 53     │
+└────────┴──────────────────────┴────────┘
+```
+
+
+### Show release details
+
+```
+$ frel show ryanoasis/nerd-fonts v3.2.1
+         Repo │ ryanoasis/nerd-fonts
+          Tag │ v3.2.1
+ Release Name │ v3.2.1
+ Published At │ 2024-04-12T15:15:54Z
+       Draft? │ no
+    Prelease? │ no
+  # of Assets │ 136
+  Description │ This bugfix release is mainly because of the Fira Code
+              │ progress indicator glyphs. These are used by some...
+              │ [60 more lines of release body]
+
+
+                        Assets
+┏━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┓
+┃ ID        ┃ Name                         ┃ Size     ┃
+┡━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━┩
+│ 161735247 │ 0xProto.tar.xz               │ 1.7 MB   │
+│ 161735248 │ 0xProto.zip                  │ 3.5 MB   │
+│ 161735403 │ 3270.tar.xz                  │ 4.2 MB   │
+│ 161735404 │ 3270.zip                     │ 12.0 MB  │
+│ 161735236 │ Agave.tar.xz                 │ 2.0 MB   │
+│ 161735237 │ Agave.zip                    │ 7.5 MB   │
+                      ...
+│ 161749044 │ ZedMono.tar.xz               │ 46.2 MB  │
+│ 161749043 │ ZedMono.zip                  │ 264.0 MB │
+└───────────┴──────────────────────────────┴──────────┘
+```
