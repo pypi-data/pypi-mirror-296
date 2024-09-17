@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: trendline
+Version: 0.2
+Summary: Trendline is a Python library designed for automatic estimation of financial asset price trendlines.
+Home-page: https://github.com/ryanllu/trendline
+Author: Ryan L
+Author-email: rylu.lubis@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+
