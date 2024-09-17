@@ -1,0 +1,25 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/aigc2md/shell.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+          "PYTHONPATH":"${workspaceRoot}"
+      },
+      "args": [
+        "render",
+        "--id",
+        // "ef0bdafc-045c-41eb-aba5-c841e31c2fd8",
+        "cab178a2-ba80-4008-a72d-1eb41c21e6c4",
+      ],
+    }
+  ]
+}
