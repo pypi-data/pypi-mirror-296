@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zkteco-push-python-sdk
+Version: 1.0.0
+Summary: A Python SDK for ZKTeco Attendance Pull Communication Protocol
+Home-page: https://github.com/yourusername/zkteco-push-python-sdk
+Author: Vincent Luba
+Author-email: vincent@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
