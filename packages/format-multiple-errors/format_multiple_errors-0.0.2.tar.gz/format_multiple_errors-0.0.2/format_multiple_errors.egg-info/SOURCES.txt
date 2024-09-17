@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+format_multiple_errors/__init__.py
+format_multiple_errors/__main__.py
+format_multiple_errors/formatter.py
+format_multiple_errors/pandas.py
+format_multiple_errors/typing.py
+format_multiple_errors.egg-info/PKG-INFO
+format_multiple_errors.egg-info/SOURCES.txt
+format_multiple_errors.egg-info/dependency_links.txt
+format_multiple_errors.egg-info/entry_points.txt
+format_multiple_errors.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_format.py
+tests/test_pandas.py
