@@ -1,0 +1,12 @@
+itk/IOFDFPython.py,sha256=_bckOn8kmnxri9bRnUE2iE7nPI1Uk8Qm0pA0YHZSIUo,2165
+itk/_IOFDFPython.pyd,sha256=fT8gu28mAVUuU5K6_nHxq-TEGqoq-fE1vQZp5lgk7Uk,282624
+itk/__init_iofdf__.py,sha256=1mi6JejGUHAc4kpj1OR4g2sxDIh1vQWzP5nQzFY9E9E,339
+itk/itkFDFImageIOPython.py,sha256=sczks1w3K0qaf9vlaaCE_YSLkRwYEmVuAgsSt_bwEE4,7338
+itk/Configuration/IOFDFConfig.py,sha256=70hNoB64sPB5qFKsHKrH8oCgevI8aiZ97YKCx23f3DI,238
+itk/Configuration/IOFDF_snake_case.py,sha256=9vod4cFmYt5kmtm1e6v9EGK_ZPA-PDivTkxICPlGqzM,27
+itk_iofdf-1.1.0.dist-info/licenses/LICENSE,sha256=6N4ac5NFfpyIdot45rp5BiL777BAzkgZTCyw8bbU6f8,11562
+itk_iofdf.libs/msvcp140.dll,sha256=19dpkdvMzVj1HXgTMNJvUAeJUuHKmQHKnaXP0oWj1VQ,574872
+itk_iofdf-1.1.0.dist-info/DELVEWHEEL,sha256=6xA19AmubZQOZYzFpzvGQ0vZaFrCR-uhMJGEIiVrMkg,273
+itk_iofdf-1.1.0.dist-info/METADATA,sha256=K6Ab2818yKw6VTMGtXLeKoiz_fem5Ui91mvyQClswyU,15510
+itk_iofdf-1.1.0.dist-info/WHEEL,sha256=233IiXxKypMwELcPDtcCDDR3JEWlXtCDG3j9qRS91sg,106
+itk_iofdf-1.1.0.dist-info/RECORD,,
