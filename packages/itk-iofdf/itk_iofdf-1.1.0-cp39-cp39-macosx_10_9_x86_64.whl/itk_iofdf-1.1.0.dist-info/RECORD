@@ -1,0 +1,10 @@
+itk/Configuration/IOFDFConfig.py,sha256=ROGsRSeoRFskJf1DU0QoQ25jEcsBdrUGNofKHYseQqM,233
+itk/Configuration/IOFDF_snake_case.py,sha256=WRnLlen2jxLU1s5GGArPufZ1-DR4D7SdRd25VYoBFXE,26
+itk/IOFDFPython.py,sha256=x7wx24NRgpDCalqtqwFtS_xWGxcbnzl6SGjT765fChs,2097
+itk/_IOFDFPython.so,sha256=5VBfjplH4mNlTqMzAgBQEvyKiVZUMgBaG7rGKe9xw4Y,727728
+itk/itkFDFImageIOPython.py,sha256=ME2fBxbWV1vEdD7CV-mpwgKusLtxm9hiha5E5cuSkrc,7103
+itk_iofdf-1.1.0.dist-info/METADATA,sha256=co4hWJAhRB0vsI9aEXP_MsqckQIMIy_1q-vkamEOtUE,15532
+itk_iofdf-1.1.0.dist-info/WHEEL,sha256=rYz-3BqnjAguOLnnJaeAN1rwe_JLbFIcIlhycRaB-cI,112
+itk_iofdf-1.1.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+itk_iofdf-1.1.0.dist-info/licenses/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_iofdf-1.1.0.dist-info/RECORD,,
