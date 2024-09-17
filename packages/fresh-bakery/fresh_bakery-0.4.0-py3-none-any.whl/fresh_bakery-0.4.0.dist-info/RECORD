@@ -1,0 +1,15 @@
+bakery/__init__.py,sha256=7T_Pf_2xgh8qfhCU_PmdUgodUQtl-MNbK1SNx6dgo1I,593
+bakery/bakery.py,sha256=mOTSFIYXrYiHLP9mRDpV5xdnECR30HrC2sTLExZU3Dk,3846
+bakery/bakery.pyi,sha256=6V_DLOdorTT9MYYq4A6MGop7_VtrRj5skwZirRuGiy0,475
+bakery/baking.py,sha256=Bk4vTHhR8Xn7Kz-Ao3qj4Q4-f9uGLPyAtdhSRThRxWI,8532
+bakery/cake.py,sha256=dKcAM-dEcbbBkcc9FyE8JMVRl_fzi0UvdCJmHsi1YuI,5036
+bakery/mypy.py,sha256=Iuc43-eQgRNbRR2Q45DDO6wg8Cf_BO_BzZ7XO6fFkBY,2062
+bakery/piece_of_cake.py,sha256=q1QQftuoGUNy_BU_Uw8BnS3F4_BfBeP38vBEDi275PQ,2801
+bakery/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bakery/stuff.py,sha256=mGnIHhaZu740y62_e6ov-VqYPhcpXOToLPU1uZ1dOWE,7899
+bakery/testbakery.py,sha256=ueRHQis6l8rvQutoTcPqE7YNuKlb32tQJ_OG14z2c44,5416
+fresh_bakery-0.4.0.dist-info/LICENSE,sha256=XVMoBcSggv_8UOJ-pzP7I7mqiJpOY0MoP6LzIHGRg5c,1063
+fresh_bakery-0.4.0.dist-info/METADATA,sha256=xhiW-IGbYn4g0svpFWWeeBKWR6f592RlvVYhM1N-8wo,8946
+fresh_bakery-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fresh_bakery-0.4.0.dist-info/entry_points.txt,sha256=aoD8nkVp6z-fYigIICR45-0Jn9Vxr-UmaCFrPEI9EHA,42
+fresh_bakery-0.4.0.dist-info/RECORD,,
