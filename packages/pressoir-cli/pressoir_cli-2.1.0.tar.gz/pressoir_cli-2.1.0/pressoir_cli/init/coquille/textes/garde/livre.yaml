@@ -1,0 +1,83 @@
+version: 0
+title: >-
+    Titre du livre test
+subtitle: >-
+    Sous-titre du <em>livre test</em>
+title_f: >-
+    Titre du livre test formaté
+lang: fr
+# langue du chapitre en ISO 639 : en, it...
+date: 2024-03-06
+rights: |-
+    Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+url: 'http://ateliers.sens-public.org/titre-du-livre-test/'
+# url du livre : http://ateliers.sens-public.org/titre-du-livre/
+collective: true
+authors:
+    - forname: Margot
+      surname: Mellet
+      orcidurl: 'https://orcid.org/0000-0001-7167-2136'
+      # url du profil ORCID Auteur 1 : https://orcid.org/
+      display:
+      # Ne rien mettre si on veut que le nom de l'auteur.rice s'affiche sous le titre (pour les ouvrages collectifs par exemple). Mettre 'none' lorsqu'on veut qu'il ne s'affiche pas.
+      presentation: >-
+          Courte biographie de l'autrice.
+    - forname: Servanne
+      surname: Monjour
+      orcidurl: 'https://orcid.org/0000-0003-1067-2145'
+      # url du profil ORCID Auteur 2 : https://orcid.org/
+      display:
+      # Ne rien mettre si on veut que le nom de l'auteur.rice s'affiche sous le titre (pour les ouvrages collectifs par exemple). Mettre 'none' lorsqu'on veut qu'il ne s'affiche pas.
+      presentation: >-
+          Courte biographie de l'autrice.
+coverurl:
+# lien vers la 1ere de couverture déposée dans media/couv.jpg
+abstract_fr: >-
+    Résumé en français
+abstract_en: >-
+    Résumé en anglais
+description: >-
+    Titre du livre | Maison d'édition
+nbpages: 230 pages
+isbnprint: 978-X-XXXXXX-XX-X
+# isbn de la version imprimée - POD
+isbnepub: 978-X-XXXXXX-XX-X
+isbnpdf: 978-X-XXXXXX-XX-X
+isbnnum: 978-X-XXXXXX-XX-X
+# isbn de la version html
+prixprint: XX$ CAD
+prixepub: Gratuit
+prixpdf: Gratuit
+prixnum: Gratuit
+luluurl:
+# url du projet sur Lulu
+amazonurl:
+epuburl:
+# lien vers le livre format epub déposé dans media/livre.epub
+pdfurl:
+# lien vers le livre format epub déposé dans media/livre.pdf
+keyword_fr: >-
+    mot clé 1, mot clé 2, mot clé 3
+# mots clés en français à séparer par des virgules
+keyword_en: >-
+    mot clé 1, mot clé 2, mot clé 3
+# mots clés en anglais à séparer par des virgules
+toc:
+    # sommaire du livre avec tous les chapitres dans l'ordre où ils doivent apparaître
+    - id: introduction
+    - id: chapitre1
+      # si pas de partie, indiquer l'id du chapitre suivant
+    - id: chapitre2
+    - id: conclusion
+    - id: bibliographie
+    - id: index-np
+    - id: colophon
+referenceCitation:
+    - key: >-
+          @melletTitreLivreTest2024
+# clé bibtex de l'ouvrage
+publisher: >-
+    Les Ateliers de [sens public]
+# nom de la maison d'édition
+place: Montréal
+# lieu de la maison d'édition

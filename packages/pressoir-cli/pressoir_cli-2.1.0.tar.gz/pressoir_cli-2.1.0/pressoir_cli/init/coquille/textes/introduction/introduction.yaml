@@ -1,0 +1,25 @@
+title: >-
+    Introduction
+authors:
+    - forname: Margot
+      surname: Mellet
+      orcidurl: 'https://orcid.org/0000-0001-7167-2136'
+      # url du profil ORCID Auteur 1 : https://orcid.org/
+      display:
+      # Ne rien mettre si on veut que le nom de l'auteur.rice s'affiche sous le titre (pour les ouvrages collectifs par exemple). Mettre 'none' lorsqu'on veut qu'il ne s'affiche pas.
+      presentation: >-
+          Courte biographie de l'autrice qui apparaîtra en fin de chapitre si elle est renseignée (Parcours Numériques)
+    - forname: Servanne
+      surname: Monjour
+      orcidurl: 'https://orcid.org/0000-0003-1067-2145'
+      # url du profil ORCID Auteur 2 : https://orcid.org/
+      display:
+      # Ne rien mettre si on veut que le nom de l'auteur.rice s'affiche sous le titre (pour les ouvrages collectifs par exemple). Mettre 'none' lorsqu'on veut qu'il ne s'affiche pas.
+      presentation: >-
+          Courte biographie de l'autrice qui apparaîtra en fin de chapitre si elle est renseignée (Parcours Numériques)
+abstract_fr: >-
+     Ici je mets le résumé du chapitre en français (s'il existe).
+abstract_en: >-
+     Ici je mets le résumé du chapitre en anglais (s'il existe).
+keyword_fr: mots,clés,du,chapitre,en,français
+keyword_en: mots,clés,du,chapitre,en,anglais
