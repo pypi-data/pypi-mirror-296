@@ -1,0 +1,53 @@
+[project]
+name = "flashcommit"
+version = "0.1.16"
+description = "Default template for PDM package"
+authors = [
+    { name = "Michael Lahr", email = "michael.lahr@gmail.com" },
+]
+dependencies = [
+    "requests",
+    "argparse",
+    "pydantic",
+    "gitpython",
+    "pydriller",
+    "python-dotenv",
+    "websocket-client",
+    "rich",
+    "prompt-toolkit",
+    "unidiff",
+    "beautifulsoup4",
+    "lxml",
+    "pyaml",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "PROPRIETARY"
+
+[project.scripts]
+fcommit = "flashcommit.main:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+includes = [
+    "src/",
+    "**/*.yaml",
+]
+excludes = [
+    "tests/",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src",
+]
