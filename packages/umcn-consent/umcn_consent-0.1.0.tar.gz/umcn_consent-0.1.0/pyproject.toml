@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "umcn-consent"
+version = "0.1.0"
+description = ""
+authors = ["Karim <115158216+karimdiabb@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+pytest = "^8.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-mock = "^3.14.0"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core", "setuptools>=42", "wheel"]
+build-backend = "poetry.core.masonry.api"
