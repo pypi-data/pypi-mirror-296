@@ -1,0 +1,15 @@
+title: >-
+    Conclusion
+authors:
+    - forname: Hélène
+      surname: Beauchef
+      orcidurl:
+      # url du profil ORCID Auteur 1 : https://orcid.org/
+      display: 'none'
+      # Ne rien mettre si on veut que le nom de l'auteur.rice s'affiche sous le titre (pour les ouvrages collectifs par exemple). Mettre 'none' lorsqu'on veut qu'il ne s'affiche pas.
+      presentation: >-
+          Courte biographie de l'autrice qui apparaîtra en fin de chapitre si elle est renseignée (Parcours Numériques).
+abstract_fr:
+abstract_en:
+keyword_fr:
+keyword_en:
