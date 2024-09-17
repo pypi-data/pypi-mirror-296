@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: noises
+Version: 1.0.0
+Summary: A package for generation Procedural Noises in Image form.
+Home-page: https://escapedshadows.com/pythonlibs/noises.html
+Author: EscapedShadows
+Author-email: packages@escapedshadows.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+# V 1.0.0
+- Released package
+
+# Coming soon!
