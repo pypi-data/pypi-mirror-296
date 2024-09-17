@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: radial_map
+Version: 0.1
+Summary: Package for creating polar-based radial maps in MPL
+Home-page: https://github.com/MattKotzbauer/radial-map
+Author: Matt
+Author-email: matthewkotzbauer@college.harvard.edu
+Requires-Dist: matplotlib
+Requires-Dist: numpy
