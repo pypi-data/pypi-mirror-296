@@ -1,0 +1,6 @@
+pyproject.toml
+amaia/__init__.py
+amaia.egg-info/PKG-INFO
+amaia.egg-info/SOURCES.txt
+amaia.egg-info/dependency_links.txt
+amaia.egg-info/top_level.txt
