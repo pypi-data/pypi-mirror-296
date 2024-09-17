@@ -1,0 +1,7 @@
+setup.py
+shant1stmodule/__init__.py
+shant1stmodule/shantprg1.py
+shant1stpackage.egg-info/PKG-INFO
+shant1stpackage.egg-info/SOURCES.txt
+shant1stpackage.egg-info/dependency_links.txt
+shant1stpackage.egg-info/top_level.txt
