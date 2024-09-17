@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+DMM_PyTorch/DMM.py
+DMM_PyTorch/__init__.py
+DMM_PyTorch.egg-info/PKG-INFO
+DMM_PyTorch.egg-info/SOURCES.txt
+DMM_PyTorch.egg-info/dependency_links.txt
+DMM_PyTorch.egg-info/requires.txt
+DMM_PyTorch.egg-info/top_level.txt
