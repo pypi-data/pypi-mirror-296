@@ -1,0 +1,14 @@
+googau/__init__.py,sha256=faC8IYjxm8FoQb_2uXElFNPi9zp668tRoxBRTk1oguk,260
+googau/calendar.py,sha256=6IOnmjCje3Yf_EFaeTby6mA_rRjpgXyRW5NKgL8oV7A,2402
+googau/constants/__init__.py,sha256=C0XNgdrPOIPyd2eglrXPtSyw4W1_ZBavQG8CZi9Hsl8,40
+googau/constants/drive_constants.py,sha256=u25EPVFyYXAdz9dcf9q20WdfbvkR7i4TsQF7DoMb4zg,1000
+googau/constants/sheets_constants.py,sha256=m7kE39Vsn5XoKClpP0GS48xkNoBuGlBEHFinjEMnOaE,880
+googau/documents.py,sha256=fudDvjs40D6k16bEQdLcd8yyNNoRWQMLWEVOtHLsF_I,729
+googau/drive.py,sha256=hM_TDN6Jg3WBPt3NB8IaKhO0hCoqc9l2bli-tNSwv_A,2433
+googau/gmail.py,sha256=IRZgNDPU_h_iKp_xWVZ2BwJbXUmVt7rq7TyiUMG_AV4,12223
+googau/sessions.py,sha256=DUo-OZEWI5YW5Iasa-5oryZU3mmidpyBvdS17qVW4YY,4881
+googau/sheets.py,sha256=mZhWKN9al0BhQ8-hpG57fEIEr1o3HazsAvc5-Ug7SX4,7431
+googau-1.2.2.dist-info/LICENSE,sha256=Xt_xZAZW5C_JWp8iiY6l3wvZYzW7ZLaLhcKItbPM4RI,1075
+googau-1.2.2.dist-info/METADATA,sha256=YmwXKiCZA3XxuwjoHAtPdM03ZCDq71E3xznKvNilOUQ,1077
+googau-1.2.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+googau-1.2.2.dist-info/RECORD,,
