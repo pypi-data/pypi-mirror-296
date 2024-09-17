@@ -1,0 +1,9 @@
+pymonetdb>=1.8.2
+sqlalchemy>=2.0.34
+
+[test]
+coverage>=7.3.0
+flake8>=6.1.0
+mypy>=1.5.1
+pytest-cov>=4.1.0
+pytest>=7.4.0
