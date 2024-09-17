@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+fdicapi/__init__.py
+fdicapi.egg-info/PKG-INFO
+fdicapi.egg-info/SOURCES.txt
+fdicapi.egg-info/dependency_links.txt
+fdicapi.egg-info/requires.txt
+fdicapi.egg-info/top_level.txt
+fdicapi/demographics/__init__.py
+fdicapi/failures/__init__.py
+fdicapi/financials/__init__.py
+fdicapi/historical/__init__.py
+fdicapi/history/__init__.py
+fdicapi/sod/__init__.py
+fdicapi/structure/__init__.py
