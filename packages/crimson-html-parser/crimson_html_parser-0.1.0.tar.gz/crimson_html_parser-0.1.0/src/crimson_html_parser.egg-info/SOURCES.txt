@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/crimson/html_parser/__init__.py
+src/crimson/html_parser/temporary.py
+src/crimson_html_parser.egg-info/PKG-INFO
+src/crimson_html_parser.egg-info/SOURCES.txt
+src/crimson_html_parser.egg-info/dependency_links.txt
+src/crimson_html_parser.egg-info/requires.txt
+src/crimson_html_parser.egg-info/top_level.txt
+test/test_example.py
