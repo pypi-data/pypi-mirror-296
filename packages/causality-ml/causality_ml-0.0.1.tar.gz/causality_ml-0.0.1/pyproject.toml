@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "causality_ml"
+version = "0.0.1"
+authors = [
+  { name="Eric Schles", email="eschles3@jh.edu" },
+]
+description = "Yet Another Causality Library"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/EricSchles/causality"
+Issues = "https://github.com/EricSchles/causality/issues"

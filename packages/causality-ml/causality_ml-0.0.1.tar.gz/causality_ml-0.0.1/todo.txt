@@ -1,0 +1,10 @@
+implement:
+* T-learner
+* S-learner
+* X-learner
+* R-learner
+
+Stretch goals:
+* implement assessment of meta-learner
+* implement "statsmodels like" diagnostic
+  idea - https://www.statsmodels.org/dev/examples/notebooks/generated/regression_diagnostics.html
