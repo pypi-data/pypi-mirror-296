@@ -1,0 +1,7 @@
+src/__init__.py,sha256=MX2xfSwXxEpjzGxL6tmoOeSd69lPkyh8iemlsu2mkT4,67
+src/cli.py,sha256=WpoDv5ln1Erhu0W43PoeWsz1j59jj64Nm_ljOz2n2AU,7317
+src/exceptions.py,sha256=CMtsYtCsLwypxaDDBsr5PMweGP4_CzaGe6xT8-WoQu0,71
+mullvad_cli_theheretic_0-0.1.0.dist-info/METADATA,sha256=QpJL1AskPHBvv6sEUh2BbjkAXwGKAN2gPvMapUKbiKo,753
+mullvad_cli_theheretic_0-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+mullvad_cli_theheretic_0-0.1.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mullvad_cli_theheretic_0-0.1.0.dist-info/RECORD,,

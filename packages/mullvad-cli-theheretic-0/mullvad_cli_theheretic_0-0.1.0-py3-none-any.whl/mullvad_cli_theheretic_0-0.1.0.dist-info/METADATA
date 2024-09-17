@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: mullvad_cli_theheretic_0
+Version: 0.1.0
+Summary: A package for interacting with the mullvad cli api
+Project-URL: Homepage, https://github.com/DannyTheHeretic/mullvad_cli_api
+Project-URL: Issues, https://github.com/DannyTheHeretic/mullvad_cli_api/issues
+Author-email: theheretic_ <DannyTheHeretic@proton.me>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# A simple Python Based Mullvad Interface. 
+------------------
+Using commandline utils for interacting and using vpn
