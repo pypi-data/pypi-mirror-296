@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: processamento_imagem_pack
+Version: 0.0.1
+Summary: Image Processing Package
+Home-page: https://github.com/Ruukaas/image-processing-package
+Author: Lucas Henrique
+Author-email: lucashenriquehca@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-image >=0.16.1
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# processamento_imagem_pack
+
+Description. 
+The package processamento_imagem_pack is used to:
+	Processing:
+		- Histogam matching
+		- Structural similarity
+		- Resize image 
+	Utils:
+		- Read image
+		- Save image
+		- Plot image
+		- Plot result
+		- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install processamento_imagem_pack
+```
+
+## Author
+Lucas Henrique
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
