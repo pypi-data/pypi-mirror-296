@@ -1,0 +1,7 @@
+Pillow
+asyncio
+fake_useragent
+filetype
+requests
+requests_toolbelt
+websockets
