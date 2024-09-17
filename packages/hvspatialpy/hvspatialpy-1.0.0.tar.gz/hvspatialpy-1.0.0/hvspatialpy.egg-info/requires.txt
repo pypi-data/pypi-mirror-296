@@ -1,0 +1,11 @@
+numpy>=1.20
+pandas<1.5.4
+matplotlib
+obspy
+scipy
+parzenpy
+tslearn
+scikit-learn
+rasterio
+ipywidgets
+IPython

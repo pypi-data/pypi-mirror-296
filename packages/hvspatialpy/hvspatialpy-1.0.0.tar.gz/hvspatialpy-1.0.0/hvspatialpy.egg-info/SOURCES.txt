@@ -1,0 +1,13 @@
+License
+README.md
+setup.py
+hvspatialpy/__init__.py
+hvspatialpy/hvcorr.py
+hvspatialpy/hvspatialpygui.py
+hvspatialpy/meta.py
+hvspatialpy/pltspatial.py
+hvspatialpy.egg-info/PKG-INFO
+hvspatialpy.egg-info/SOURCES.txt
+hvspatialpy.egg-info/dependency_links.txt
+hvspatialpy.egg-info/requires.txt
+hvspatialpy.egg-info/top_level.txt
