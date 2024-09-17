@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: smartup
+Version: 0.0.1
+Summary: A Python package for interacting with the SmartUp API and Platform.
+Home-page: UNKNOWN
+Author: Marcelo Arias
+Author-email: marcelo@smartup.lat
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# SmartUp Python Package
+
+The **SmartUp Python Package** is a Python interface to the SmartUp API, providing methods for interacting with the SmartUp platform.
+
+SmartUp uses LLMs and ML models for communication, language understanding, and data analysis to accelerate business processes.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Features](#features)
+- [License](#license)
+
+## Installation
+
+Install it from PyPI:
+
+```bash
+pip install smartup
+```
+
+## Configuration
+
+Once installed, set up the `SMARTUP_SERVER_URL` environment variable which points to your SmartUp server URL.
+
+## Usage
+
+This section will be updated soon.
+
+## Features
+
+This section will be updated soon.
+
+- Communication with an agent
+- Make a flow between agents
+- Compile system prompts
+- Validates variables
+
+## License
+
+This project is licensed under the MIT License.
+
+See the [LICENSE](LICENSE) file for more details.
+
+

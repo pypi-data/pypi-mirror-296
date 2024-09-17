@@ -1,0 +1,9 @@
+README.md
+setup.py
+smartup/__init__.py
+smartup.egg-info/PKG-INFO
+smartup.egg-info/SOURCES.txt
+smartup.egg-info/dependency_links.txt
+smartup.egg-info/top_level.txt
+smartup/smartdance/__init__.py
+smartup/smartdance/dance.py
