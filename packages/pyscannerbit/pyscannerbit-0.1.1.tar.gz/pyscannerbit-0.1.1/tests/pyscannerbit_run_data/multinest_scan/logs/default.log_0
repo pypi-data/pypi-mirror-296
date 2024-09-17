@@ -1,0 +1,1375 @@
+(Fri Sep  6 12:55:25 2024)(-0.411922 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+Could not find plugin library "/home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/lib/libscanner_great.so".
+
+Raised at: line 361 in function Gambit::Scanner::Plugins::Plugin_Loader::Plugin_Loader() of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.02439 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_dynesty" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_dynesty.py(14): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0252679 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_emcee" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_emcee.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0260467 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_nautilus" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_nautilus.py(6): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0270777 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_nessai" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_nessai.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0278973 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_pocomc" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_pocomc.py(10): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0288656 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_scipy" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_scipy.py(6): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0298693 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_ultranest" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_ultranest.py(9): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0306525 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_zeus" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_zeus.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0310644 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"grid" was not loaded: ModuleNotFoundError: No module named 'scanner_plugin'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/grid.py(12): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0376441 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_dynesty" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_dynesty.py(14): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0384271 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_emcee" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_emcee.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0392357 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_nautilus" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_nautilus.py(6): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0399912 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_nessai" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_nessai.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0407621 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_pocomc" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_pocomc.py(10): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0415327 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_scipy" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_scipy.py(6): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0641655 [s])(Rank 0)[Default,Utilities]:
+Random number engine mt19937_64 (default) selected with seed 942783318.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0422476 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_ultranest" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_ultranest.py(9): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0429851 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_zeus" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_zeus.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.043369 [s])(Rank 0)[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"grid" was not loaded: ModuleNotFoundError: No module named 'scanner_plugin'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/grid.py(12): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/test_all_scanners.py(63): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0649743 [s])(Rank 0)[Default][Info]:
+No previous output file found, treating run as completely new.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.065866 [s])(Rank 0)[Default,Core]:
+Starting scan.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0863507 [s])(Rank 0)[Default,Printers][Info]:
+Assigned printer ID '0' to output quantity with label 'LogLike'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0864211 [s])(Rank 0)[Default,Printers][Info]:
+Assigned printer ID '1' to output quantity with label 'pointID'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0864462 [s])(Rank 0)[Default,Printers][Info]:
+Assigned printer ID '2' to output quantity with label 'MPIrank'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.086889 [s])(Rank 0)[Default,Printers][Info]:
+Assigned printer ID '3' to output quantity with label 'Posterior'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0869171 [s])(Rank 0)[Default,Printers][Info]:
+Assigned printer ID '4' to output quantity with label 'LastLive'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0879829 [s])(Rank 0)[Default,Printers][Info]:
+Assigned printer ID '5' to output quantity with label 'default::z'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0880635 [s])(Rank 0)[Default,Printers][Info]:
+Assigned printer ID '6' to output quantity with label 'default::y'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0881002 [s])(Rank 0)[Default,Printers][Info]:
+Assigned printer ID '7' to output quantity with label 'default::x'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:25 2024)(0.0882823 [s])(Rank 0)[Default,Printers][Info]:
+Assigned printer ID '8' to output quantity with label 'ModifiedLogLike'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.64548 [s])(Rank 0)[Default,Printers][Info]:
+Gathering sync buffer data from all processes to rank 0 process...
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.64556 [s])(Rank 0)[Default,Printers][Info]:
+Gathering data on number of points and buffers to be transmitted
+Number of points to send from this process: 499
+Number of buffers to send from this process: 7
+
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.64561 [s])(Rank 0)[Default,Printers][Info]:
+Gathered data:
+Number of points to recv from each process: [499, 499 ]
+Number of buffers to recv from each process: [7, 7 ]
+
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.64664 [s])(Rank 0)[Default,Printers][Info]:
+Gathering buffer data for processes [0, 1 ]
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.65627 [s])(Rank 0)[Default,Printers][Info]:
+Gathering buffer block size data (number of buffer blocks to transmit from this process: 50)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.65655 [s])(Rank 0)[Default,Printers][Info]:
+Performing Gatherv of buffer data blocks...
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.68633 [s])(Rank 0)[Default,Printers][Info]:
+Resynchronising print buffers:
+   Buffer contains 998 items (name=LogLike)
+   Buffer contains 998 items (name=MPIrank)
+   Buffer contains 998 items (name=ModifiedLogLike)
+   Buffer contains 998 items (name=default::x)
+   Buffer contains 998 items (name=default::y)
+   Buffer contains 998 items (name=default::z)
+   Buffer contains 998 items (name=pointID)
+
+  Initial N points   : 0
+  Final N points     : 998
+  Difference N points: 998
+
+Print buffer now contains 998 items.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.70229 [s])(Rank 0)[Default,Printers][Error][Fatal]:
+ERROR: A problem has occurred in the printer utilities.
+Error opening existing dataset (with name="lastPointID") in HDF5 file. H5Dopen2 failed.
+You may have a corrupt hdf5 file from a previous run. Try using -r, or deleting the old output.
+Raised at: line 210 in function void Gambit::Printers::HDF5DataSetBase::open_dataset(hid_t) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/Printers/src/printers/hdf5printer_v2/hdf5printer_v2.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.70277 [s])(Rank 0)[Default,Core][Info]:
+EMERGENCY_SHUTDOWN code broadcast to all processes
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.70283 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: Entered BarrierWithTimeout (with tag 6666)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.70288 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.80306 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 100ms (1%% of time allowed). True time waited is 100ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.80316 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.90334 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 200ms (2%% of time allowed). True time waited is 200ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(1.90344 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(2.00358 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 300ms (3%% of time allowed). True time waited is 300ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(2.00367 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(2.10385 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 400ms (4%% of time allowed). True time waited is 400ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(2.10393 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(2.20412 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 501ms (5.01%% of time allowed). True time waited is 501ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:27 2024)(2.20421 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.30442 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 601ms (6.01%% of time allowed). True time waited is 601ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.3045 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.40463 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 701ms (7.01%% of time allowed). True time waited is 701ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.4047 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.50487 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 801ms (8.01%% of time allowed). True time waited is 801ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.50496 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.60514 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 902ms (9.02%% of time allowed). True time waited is 902ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.60523 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.70541 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1002ms (10.02%% of time allowed). True time waited is 1002ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.70549 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.80563 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1102ms (11.02%% of time allowed). True time waited is 1102ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.80571 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.90589 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1202ms (12.02%% of time allowed). True time waited is 1202ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(2.90597 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(3.00616 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1303ms (13.03%% of time allowed). True time waited is 1303ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(3.00626 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(3.10645 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1403ms (14.03%% of time allowed). True time waited is 1403ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(3.10655 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(3.20672 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1503ms (15.03%% of time allowed). True time waited is 1503ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:28 2024)(3.2068 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.30698 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1604ms (16.04%% of time allowed). True time waited is 1604ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.30706 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.40724 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1704ms (17.04%% of time allowed). True time waited is 1704ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.40732 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.50749 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1804ms (18.04%% of time allowed). True time waited is 1804ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.50758 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.60775 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 1904ms (19.04%% of time allowed). True time waited is 1904ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.60784 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.70801 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2005ms (20.05%% of time allowed). True time waited is 2005ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.7081 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.80828 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2105ms (21.05%% of time allowed). True time waited is 2105ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.80836 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.9085 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2205ms (22.05%% of time allowed). True time waited is 2205ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(3.90858 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(4.00877 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2305ms (23.05%% of time allowed). True time waited is 2305ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(4.00886 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(4.10904 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2406ms (24.06%% of time allowed). True time waited is 2406ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(4.10913 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(4.20931 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2506ms (25.06%% of time allowed). True time waited is 2506ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:29 2024)(4.20938 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.30954 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2606ms (26.06%% of time allowed). True time waited is 2606ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.30965 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.40984 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2706ms (27.06%% of time allowed). True time waited is 2706ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.40992 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.51009 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2807ms (28.07%% of time allowed). True time waited is 2807ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.51016 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.61034 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 2907ms (29.07%% of time allowed). True time waited is 2907ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.61044 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.71058 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3007ms (30.07%% of time allowed). True time waited is 3007ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.71066 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.81083 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3107ms (31.07%% of time allowed). True time waited is 3107ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.81093 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.9111 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3208ms (32.08%% of time allowed). True time waited is 3208ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(4.91119 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(5.01137 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3308ms (33.08%% of time allowed). True time waited is 3308ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(5.01146 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(5.1116 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3408ms (34.08%% of time allowed). True time waited is 3408ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(5.1117 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(5.21183 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3508ms (35.08%% of time allowed). True time waited is 3508ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:30 2024)(5.21191 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.31209 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3609ms (36.09%% of time allowed). True time waited is 3609ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.31217 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.41235 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3709ms (37.09%% of time allowed). True time waited is 3709ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.41245 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.51258 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3809ms (38.09%% of time allowed). True time waited is 3809ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.51266 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.61284 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 3909ms (39.09%% of time allowed). True time waited is 3909ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.61293 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.71312 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4010ms (40.1%% of time allowed). True time waited is 4010ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.71322 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.8134 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4110ms (41.1%% of time allowed). True time waited is 4110ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.81351 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.91364 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4210ms (42.1%% of time allowed). True time waited is 4210ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(5.91373 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(6.01391 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4311ms (43.11%% of time allowed). True time waited is 4311ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(6.01398 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(6.11416 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4411ms (44.11%% of time allowed). True time waited is 4411ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(6.11424 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(6.21443 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4511ms (45.11%% of time allowed). True time waited is 4511ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:31 2024)(6.21452 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.31464 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4611ms (46.11%% of time allowed). True time waited is 4611ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.31473 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.41491 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4711ms (47.11%% of time allowed). True time waited is 4711ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.41499 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.51515 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4812ms (48.12%% of time allowed). True time waited is 4812ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.51524 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.61542 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 4912ms (49.12%% of time allowed). True time waited is 4912ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.6155 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.71563 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5012ms (50.12%% of time allowed). True time waited is 5012ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.71572 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.8159 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5112ms (51.12%% of time allowed). True time waited is 5112ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.816 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.91617 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5213ms (52.13%% of time allowed). True time waited is 5213ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(6.91625 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(7.01645 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5313ms (53.13%% of time allowed). True time waited is 5313ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(7.01653 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(7.11666 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5413ms (54.13%% of time allowed). True time waited is 5413ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(7.11675 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(7.21691 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5514ms (55.14%% of time allowed). True time waited is 5514ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:32 2024)(7.21699 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.31717 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5614ms (56.14%% of time allowed). True time waited is 5614ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.31725 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.41745 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5714ms (57.14%% of time allowed). True time waited is 5714ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.41754 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.51767 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5814ms (58.14%% of time allowed). True time waited is 5814ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.51777 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.61795 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 5915ms (59.15%% of time allowed). True time waited is 5915ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.61804 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.71821 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6015ms (60.15%% of time allowed). True time waited is 6015ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.71829 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.81847 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6115ms (61.15%% of time allowed). True time waited is 6115ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.81856 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.91874 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6215ms (62.15%% of time allowed). True time waited is 6215ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(7.91883 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(8.01901 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6316ms (63.16%% of time allowed). True time waited is 6316ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(8.01909 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(8.11927 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6416ms (64.16%% of time allowed). True time waited is 6416ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(8.11937 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(8.21951 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6516ms (65.16%% of time allowed). True time waited is 6516ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:33 2024)(8.21961 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.31974 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6616ms (66.16%% of time allowed). True time waited is 6616ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.31985 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.42004 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6717ms (67.17%% of time allowed). True time waited is 6717ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.42013 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.52026 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6817ms (68.17%% of time allowed). True time waited is 6817ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.52035 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.62052 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 6917ms (69.17%% of time allowed). True time waited is 6917ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.62062 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.72077 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7017ms (70.17%% of time allowed). True time waited is 7017ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.72089 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.82109 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7118ms (71.18%% of time allowed). True time waited is 7118ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.82119 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.92135 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7218ms (72.18%% of time allowed). True time waited is 7218ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(8.92145 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(9.02158 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7318ms (73.18%% of time allowed). True time waited is 7318ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(9.02167 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(9.12185 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7418ms (74.18%% of time allowed). True time waited is 7418ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(9.12194 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(9.2221 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7519ms (75.19%% of time allowed). True time waited is 7519ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:34 2024)(9.22219 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.32239 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7619ms (76.19%% of time allowed). True time waited is 7619ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.32251 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.42265 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7719ms (77.19%% of time allowed). True time waited is 7719ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.42274 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.52286 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7819ms (78.19%% of time allowed). True time waited is 7819ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.52294 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.62308 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 7920ms (79.2%% of time allowed). True time waited is 7920ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.62316 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.72333 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8020ms (80.2%% of time allowed). True time waited is 8020ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.72343 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.82356 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8120ms (81.2%% of time allowed). True time waited is 8120ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.82364 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.92381 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8220ms (82.2%% of time allowed). True time waited is 8220ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(9.9239 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(10.0241 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8321ms (83.21%% of time allowed). True time waited is 8321ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(10.0242 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(10.1243 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8421ms (84.21%% of time allowed). True time waited is 8421ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(10.1244 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(10.2246 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8521ms (85.21%% of time allowed). True time waited is 8521ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:35 2024)(10.2246 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.3248 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8621ms (86.21%% of time allowed). True time waited is 8621ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.3249 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.4251 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8722ms (87.22%% of time allowed). True time waited is 8722ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.4252 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.5253 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8822ms (88.22%% of time allowed). True time waited is 8822ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.5255 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.6256 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 8922ms (89.22%% of time allowed). True time waited is 8922ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.6257 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.7259 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9022ms (90.22%% of time allowed). True time waited is 9022ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.726 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.8261 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9123ms (91.23%% of time allowed). True time waited is 9123ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.8262 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.9264 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9223ms (92.23%% of time allowed). True time waited is 9223ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(10.9265 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(11.0267 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9323ms (93.23%% of time allowed). True time waited is 9323ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(11.0267 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(11.1269 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9424ms (94.24%% of time allowed). True time waited is 9424ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(11.127 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(11.2271 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9524ms (95.24%% of time allowed). True time waited is 9524ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:36 2024)(11.2272 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.3274 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9624ms (96.24%% of time allowed). True time waited is 9624ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.3275 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.4276 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9724ms (97.24%% of time allowed). True time waited is 9724ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.4277 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.5279 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9824ms (98.24%% of time allowed). True time waited is 9824ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.5281 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.6282 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 9925ms (99.25%% of time allowed). True time waited is 9925ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.6283 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: sleeping... (total timeout = 10000ms; sleeptime = 100ms)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.7285 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: time_waited = 10025ms (100.25%% of time allowed). True time waited is 10025ms.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:55:37 2024)(11.7286 [s])(Rank 0)[Default,Utilities][Info]:
+rank 0: timed out in BarrierWithTimeout (tag=6666) waiting for the following process(es): 1, 
+--<>--<>--<>--<>--<>--<>--<>--

@@ -1,0 +1,15 @@
+(Fri Sep  6 12:53:29 2024)(0.974391 [s])[Default,Utilities]:
+Random number engine mt19937_64 (default) selected with hardware random seed -1.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:53:29 2024)(0.974955 [s])[Default][Info]:
+No previous output file found, treating run as completely new.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:53:29 2024)(0.97579 [s])[Default,Core]:
+Starting scan.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:53:29 2024)(0.976853 [s])[Default,Utilities][Info]:
+rank 0: Entered BarrierWithTimeout (with tag 6666)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 12:53:29 2024)(0.976897 [s])[Default,Utilities][Info]:
+rank 0: Synchronisation succeeded in BarrierWithTimeout (tag=6666)!
+--<>--<>--<>--<>--<>--<>--<>--

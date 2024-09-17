@@ -1,0 +1,776 @@
+(Fri Sep  6 13:03:18 2024)(-0.434179 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+Could not find plugin library "/home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/lib/libscanner_great.so".
+
+Raised at: line 361 in function Gambit::Scanner::Plugins::Plugin_Loader::Plugin_Loader() of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0293403 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_dynesty" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_dynesty.py(14): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0306193 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_emcee" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_emcee.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0317644 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_nautilus" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_nautilus.py(6): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.032959 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_nessai" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_nessai.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0341444 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_pocomc" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_pocomc.py(10): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0353907 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_scipy" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_scipy.py(6): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0365643 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_ultranest" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_ultranest.py(9): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0377703 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_zeus" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_zeus.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0384349 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"grid" was not loaded: ModuleNotFoundError: No module named 'scanner_plugin'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/grid.py(12): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0462065 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_dynesty" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_dynesty.py(14): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0473699 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_emcee" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_emcee.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0484945 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_nautilus" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_nautilus.py(6): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0496518 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_nessai" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_nessai.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0508243 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_pocomc" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_pocomc.py(10): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0520475 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_scipy" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_scipy.py(6): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0761749 [s])[Default,Utilities]:
+Random number engine mt19937_64 (default) selected with seed -46319031.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0532094 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_ultranest" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_ultranest.py(9): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0547876 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"gambit_zeus" was not loaded: ModuleNotFoundError: No module named 'scannerbit'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/mpi.py(1): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/utils/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/gambit_zeus.py(8): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0556737 [s])[Default,Scanner][Warning][Non-fatal]:
+WARNING: A problem has been raised by ScannerBit.
+"grid" was not loaded: ModuleNotFoundError: No module named 'scanner_plugin'
+
+At:
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/ScannerBit/src/scanners/python/plugins/grid.py(12): <module>
+  <frozen importlib._bootstrap>(241): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(883): exec_module
+  <frozen importlib._bootstrap>(703): _load_unlocked
+  <frozen importlib._bootstrap>(1006): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(1027): _find_and_load
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(112): _run_scan
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(23): process_func
+  /usr/lib64/python3.10/multiprocessing/process.py(108): run
+  /usr/lib64/python3.10/multiprocessing/process.py(314): _bootstrap
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(71): _launch
+  /usr/lib64/python3.10/multiprocessing/popen_fork.py(19): __init__
+  /usr/lib64/python3.10/multiprocessing/context.py(281): _Popen
+  /usr/lib64/python3.10/multiprocessing/context.py(224): _Popen
+  /usr/lib64/python3.10/multiprocessing/process.py(121): start
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/processify.py(43): wrapper
+  /home/gmartine/.local/lib/python3.10/site-packages/pyscannerbit/scan.py(329): scan
+  /home/gmartine/pyscannerbit/tests/basic_test.py(44): <module>
+
+
+Raised at: line 240 in function void Gambit::Scanner::Plugins::Plugin_Loader::Load_PyPlugins(const string&) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/ScannerBit/src/plugin_loader.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0771291 [s])[Default,Printers][Info]:
+Running shell command: rm -f pyscannerbit_run_data/twalk_scan/samples//results.hdf5
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0809505 [s])[Default,Core]:
+Starting scan.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0820532 [s])[Default,Printers][Info]:
+Assigned printer ID '0' to output quantity with label 'LogLike'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0821002 [s])[Default,Printers][Info]:
+Assigned printer ID '1' to output quantity with label 'pointID'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0821306 [s])[Default,Printers][Info]:
+Assigned printer ID '2' to output quantity with label 'MPIrank'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0824649 [s])[Default,Printers][Info]:
+Assigned printer ID '3' to output quantity with label 'Posterior'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.082502 [s])[Default,Printers][Info]:
+Assigned printer ID '4' to output quantity with label 'chain'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0829124 [s])[Default,Printers][Info]:
+Assigned printer ID '5' to output quantity with label 'default::z'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0830006 [s])[Default,Printers][Info]:
+Assigned printer ID '6' to output quantity with label 'default::y'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0830472 [s])[Default,Printers][Info]:
+Assigned printer ID '7' to output quantity with label 'default::x'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0831406 [s])[Default,Printers][Info]:
+Assigned printer ID '8' to output quantity with label 'x+y+z'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.0832185 [s])[Default,Printers][Info]:
+Assigned printer ID '9' to output quantity with label 'ModifiedLogLike'
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.182836 [s])[Default,Printers][Info]:
+Gathering sync buffer data from all processes to rank 0 process...
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.182951 [s])[Default,Printers][Info]:
+Gathering data on number of points and buffers to be transmitted
+Number of points to send from this process: 608
+Number of buffers to send from this process: 8
+
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.182989 [s])[Default,Printers][Info]:
+Gathered data:
+Number of points to recv from each process: [608 ]
+Number of buffers to recv from each process: [8 ]
+
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.183919 [s])[Default,Printers][Info]:
+Gathering buffer data for processes [0 ]
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.204497 [s])[Default,Printers][Info]:
+Gathering buffer block size data (number of buffer blocks to transmit from this process: 61)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.204795 [s])[Default,Printers][Info]:
+Performing Gatherv of buffer data blocks...
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.234689 [s])[Default,Printers][Info]:
+Resynchronising print buffers:
+   Buffer contains 608 items (name=LogLike)
+   Buffer contains 608 items (name=MPIrank)
+   Buffer contains 608 items (name=ModifiedLogLike)
+   Buffer contains 608 items (name=default::x)
+   Buffer contains 608 items (name=default::y)
+   Buffer contains 608 items (name=default::z)
+   Buffer contains 608 items (name=pointID)
+   Buffer contains 608 items (name=x+y+z)
+
+  Initial N points   : 0
+  Final N points     : 608
+  Difference N points: 608
+
+Print buffer now contains 608 items.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.252928 [s])[Default,Printers][Error][Fatal]:
+ERROR: A problem has occurred in the printer utilities.
+Error opening existing dataset (with name="lastPointID") in HDF5 file. H5Dopen2 failed.
+You may have a corrupt hdf5 file from a previous run. Try using -r, or deleting the old output.
+Raised at: line 210 in function void Gambit::Printers::HDF5DataSetBase::open_dataset(hid_t) of /tmp/pip-req-build-i3g8qoin/pyscannerbit/scannerbit/untar/ScannerBit/Printers/src/printers/hdf5printer_v2/hdf5printer_v2.cpp.
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.254061 [s])[Default,Utilities][Info]:
+rank 0: Entered BarrierWithTimeout (with tag 6666)
+--<>--<>--<>--<>--<>--<>--<>--
+(Fri Sep  6 13:03:18 2024)(0.254114 [s])[Default,Utilities][Info]:
+rank 0: Synchronisation succeeded in BarrierWithTimeout (tag=6666)!
+--<>--<>--<>--<>--<>--<>--<>--
