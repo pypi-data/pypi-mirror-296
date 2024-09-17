@@ -1,0 +1,135 @@
+ipywidgets>=8,<9
+
+# --------- Module Specific ----------
+
+# Data wrangling
+requests
+beautifulsoup4
+lxml
+html5lib
+chardet
+csvkit
+
+xlrd
+openpyxl
+#nb2xls
+
+python-magic # file type detection
+
+pytimeparse
+isodate
+pytz
+python-dateutil
+parsedatetime
+
+itables
+json-table-schema
+jsonschema
+messytables
+prettytable
+tables
+tabulate
+genson
+
+webencodings
+normality
+
+PyYAML
+pyarrow==16.1.0
+odfpy
+treelib
+
+# Fake Data Generator
+Faker
+pydbgen
+
+# Data analysis
+numexpr
+numpy<2.0.0
+pandas==2.2.2
+pandasql
+
+scipy==1.13.1
+scikit-learn==1.5.0
+#scikit-image
+#jupyter_compare_view
+
+statsmodels==0.14.2
+patsy # ?replace by formulaic?
+formulaic
+
+networkx
+pydot
+
+# Geo
+descartes
+fastkml
+Fiona==1.9.6
+folium==0.16.0
+geographiclib
+geopandas==0.14.4
+geopy
+pygeoif
+Shapely==2.0.4
+
+# Diagramming
+graphviz
+ipythonblocks
+matplotlib==3.9.0
+mpld3
+plotly
+seaborn==0.13.2
+
+
+# Databases
+sqlparse
+psycopg2-binary
+pgspecial
+jupysql
+duckdb
+duckdb-engine
+#ipython-sql # DEPRECATED in favour of jupysql
+pymongo
+SPARQLWrapper
+SQLAlchemy
+rdflib
+schemadisplay-magic>=0.0.7
+
+# Streaming data
+streamz
+altair
+
+# Utils
+python-editor
+python-slugify
+PyGithub
+
+humanize # eg numbers into human readable text
+inflect # eg inflect words, pluralise words
+
+# Profiling
+memory_profiler
+
+# NLP
+nltk
+
+# Code trace
+snoop
+birdseye
+
+# OU utilities
+tm351_nb_utils
+ou-logger
+#https://github.com/innovationOUtside/nb_workflow_tools/archive/refs/heads/master.zip
+#https://github.com/innovationOUtside/tm351_utils/archive/refs/heads/master.zip
+
+
+## TESTING EXTENSIONS
+#jupyter-power-usage
+jupyterlab_execute_time
+#jupyterlab-sql-explorer # Doesn't work?
+jupyterlab-spreadsheet-editor
+
+## TESTING
+#https://github.com/ouseful-PR/nbval/archive/refs/heads/table-test.zip
+#pytest-html
