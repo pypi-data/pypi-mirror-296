@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: tinydb-helper
+Version: 0.1.4
+Summary: Tinydb CRUD wrapper for table
+Home-page: https://github.com/jnguyen0220/tinydb-helper
+Author: Jonny Nguyen
+Author-email: jonny_nguyen@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pre-commit (>=3.8.0,<4.0.0)
+Requires-Dist: tinydb (>=4.8.0,<5.0.0)
+Project-URL: Documentation, https://github.com/jnguyen0220/tinydb-helper/blob/main/README.md
+Project-URL: Repository, https://github.com/jnguyen0220/tinydb-helper
+Description-Content-Type: text/markdown
+
+# Tinydb Helper
+A Tinydb crud wrapper that make crud operations a breeze
+
+## Installation
+You can install the package using pip:
+
+```bash
+pip install tinydb-helper
+```
+
+## Usage
+This package will install Tinydb
+
+```python
+from tinydb_helper.helper import Table
+from tinydb import TinyDB
+import time
+
+def main() -> None:
+    db = TinyDB("db.json")
+    timestamp = str(int(time.time()))
+
+    # Exemple creating project table with custom primary key using default primary key generator 
+    project = Table(db=db, table="project", primary_key="proj_id")
+     
+    # Example creating person table with custom primary key generator
+    person = Table(db=db, table="person", key_gen=lambda: timestamp)
+
+    # Example inserting a few record in person and project tables
+    for i in range(4):
+        project.insert(dict(name=f"test-{i}", year=f"{2004 + i}"), id=str(i + 1))
+        person.insert(dict(first=f"first-{i}", year=f"{2004 + i}", id=str(i + 1)))
+
+    # Exemple get all object from table person
+    person.all()
+
+    # Exemple find person object matching primary key field equal to "0"
+    person.find(id="0")
+
+    # Exemple update person object matching primary key field equal to "0" 
+    person.update(id="0", item=dict(test='pass'))
+
+     # Exemple delete person object matching primary key field equal to "0"
+    person.delete(id="0")
+
+if __name__ == "__main__":
+    main()
+```
