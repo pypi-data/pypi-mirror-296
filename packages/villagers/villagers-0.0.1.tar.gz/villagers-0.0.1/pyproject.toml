@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "villagers"
+version = "0.0.1"
+description = "Magic LLM Powered NLP Functions"
+authors = ["Hammad Saeed <hvmmad@gmail.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
