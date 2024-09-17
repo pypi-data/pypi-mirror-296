@@ -1,0 +1,13 @@
+emccd_detect/__init__.py,sha256=FwzLqOGO--eOgOxuK6wCfzsc5yCUneMzLELAeD7Rc7Q,45
+emccd_detect/cosmics.py,sha256=wRE47QOB3fwxkH5PHTeoyLjJ0fgJki6Z8hLDPx2h3SQ,3991
+emccd_detect/emccd_detect.py,sha256=iOLp-I6NibxJeZwmb7V5cqo5xZI3BxV5XB-1AcQLnac,26678
+emccd_detect/nonlinearity.py,sha256=DWBGjoShInMXBX0BLj6lT9dlY_lx6pdn8VU84jk_djU,4938
+emccd_detect/rand_em_gain.py,sha256=3eF9T7PNYFZT0coGZwBmNTYz6B9pj2lXxTR8ROG6_7Q,6297
+emccd_detect/util/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+emccd_detect/util/metadata.yaml,sha256=hcKTg4kMy12dfbCmmvZeKEqjeUA3BYiAcZc5vZpc3bE,1149
+emccd_detect/util/read_metadata.py,sha256=r511ENJ6zbIvLDWiVic7KsVXYrBphSdTKUQbuwocjLs,2764
+emccd_detect/util/read_metadata_wrapper.py,sha256=oBh2KpJ-uLTSIY_hPzw8sNIcJ6MENBSf38ks8OaFOSQ,5473
+emccd_detect-2.4.0.dist-info/METADATA,sha256=sX4JDwVH__aNVtFOAliynk1oLCiMwLSokSACT6noa9g,3039
+emccd_detect-2.4.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+emccd_detect-2.4.0.dist-info/top_level.txt,sha256=V0qxOcGf8TowSJXnTxWEMuK9BBsySwhtKNitfdokD0A,13
+emccd_detect-2.4.0.dist-info/RECORD,,
