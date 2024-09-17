@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: utils-cli_sjain02
+Version: 0.3.0
+Summary: Utility functions
+Author: Saurabh Jain
+Author-email: jpr.saurabh@gmail.com
+Requires-Python: >=3.6
+Requires-Dist: urltitle
