@@ -1,0 +1,11 @@
+itk/itkFDFImageIOPython.py,sha256=ut8hp49iz7CXE_DWyDLuJq6-Oc6Zv9meeR3sLxwg2CQ,7103
+itk/IOFDFPython.py,sha256=x7wx24NRgpDCalqtqwFtS_xWGxcbnzl6SGjT765fChs,2097
+itk/_IOFDFPython.so,sha256=2X3IUuSEwxkDtg0XUkMCyW9w3hAkizBuee-O4IRJBhU,1090025
+itk/Configuration/IOFDFConfig.py,sha256=ROGsRSeoRFskJf1DU0QoQ25jEcsBdrUGNofKHYseQqM,233
+itk/Configuration/IOFDF_snake_case.py,sha256=WRnLlen2jxLU1s5GGArPufZ1-DR4D7SdRd25VYoBFXE,26
+itk_iofdf-1.1.0.dist-info/METADATA,sha256=co4hWJAhRB0vsI9aEXP_MsqckQIMIy_1q-vkamEOtUE,15532
+itk_iofdf-1.1.0.dist-info/RECORD,,
+itk_iofdf-1.1.0.dist-info/WHEEL,sha256=DEvgc4KRAK-VkwDXmzB99Y7GEKCk2LqvcePBmtsvve4,151
+itk_iofdf-1.1.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+itk_iofdf-1.1.0.dist-info/licenses/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_iofdf.libs/libtbb-f489fd38.so.12.9,sha256=rr4QUZmgSmQqsfQRMgDSgd5mRWXtIWUMJxn5phGhtK4,4315273
