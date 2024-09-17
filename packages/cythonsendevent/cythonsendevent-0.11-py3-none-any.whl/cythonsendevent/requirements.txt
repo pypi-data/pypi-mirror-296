@@ -1,0 +1,5 @@
+Cython
+exceptdrucker
+numpy
+regex
+setuptools

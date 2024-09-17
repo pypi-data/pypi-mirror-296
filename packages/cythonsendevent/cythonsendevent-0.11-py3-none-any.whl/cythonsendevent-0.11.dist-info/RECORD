@@ -1,0 +1,12 @@
+cythonsendevent/LICENSE,sha256=ndpYZYI03EbMfGAKRGyzptvVTUli5FsBjobLjMJkesM,1069
+cythonsendevent/README.MD,sha256=Ck8H2n7uhLdc7hfEefeY5SicLMI4d5z03SuuEy7rORU,13993
+cythonsendevent/__init__.py,sha256=xIVTvYohnwA2viOMeg_aZGHnQM7dpyrK0iBNdjkuyqc,936
+cythonsendevent/cysend.pyx,sha256=Lg8FlDEwEMDnCnvspunwU3NMlUHYOkwQGR2Iq4O_0hs,162955
+cythonsendevent/cysend_compile.py,sha256=ll8HGZpsVVcVWlyxphCVqt4V-tkkqPEtBz2sJwsEBAY,3584
+cythonsendevent/requirements.txt,sha256=egRfxQHGtJNxPkrrzm4YqM18ia_YFcWIiqVgMoyBhtI,47
+cythonsendevent/thirdparty.json,sha256=IHbAjYFXlokj_wt3wEA-jSxn86CinwZJ4SP2w2BQ5Z8,63159
+cythonsendevent-0.11.dist-info/LICENSE.rst,sha256=JG2U-syJOvqaKI4hLK8jP4BdnxFaMsrMir_Qn5dbgdc,1148
+cythonsendevent-0.11.dist-info/METADATA,sha256=e6VQJKm_-mFAZukcJ5IsfZzav9zp_IzduAQG9L3YT5w,15343
+cythonsendevent-0.11.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cythonsendevent-0.11.dist-info/top_level.txt,sha256=jAURxj7N6-FhN3kiGOFGgP_NlBfa6u1sOV6-ziEjJcs,16
+cythonsendevent-0.11.dist-info/RECORD,,
