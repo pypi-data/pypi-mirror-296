@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MIMDE
+Version: 1.0.5
+Summary: Python package for MIMDE
+Home-page: https://github.com/ai-for-public-services/MIMDE
+Author-email: sesnaashari@turing.ac.uk
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ai-for-public-services/MIMDE/issues
+Project-URL: Documentation, https://github.com/ai-for-public-services/MIMDE/wiki
+Project-URL: Source Code, https://github.com/ai-for-public-services/MIMDE
+Keywords: MIMDE,package,python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
