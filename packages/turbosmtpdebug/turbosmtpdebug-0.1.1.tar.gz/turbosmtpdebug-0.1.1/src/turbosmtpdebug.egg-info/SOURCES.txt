@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/turbosmtpdebug/__init__.py
+src/turbosmtpdebug/__main__.py
+src/turbosmtpdebug.egg-info/PKG-INFO
+src/turbosmtpdebug.egg-info/SOURCES.txt
+src/turbosmtpdebug.egg-info/dependency_links.txt
+src/turbosmtpdebug.egg-info/top_level.txt
