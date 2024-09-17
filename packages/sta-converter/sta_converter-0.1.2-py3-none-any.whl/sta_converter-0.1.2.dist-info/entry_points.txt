@@ -1,0 +1,3 @@
+[console_scripts]
+sta_converter=sta_converter.converter:cli
+
