@@ -1,0 +1,8 @@
+pgeof-0.3.0.dist-info/RECORD,,
+pgeof-0.3.0.dist-info/WHEEL,sha256=DjtgdAn_xt5JaN0NZ8WC7oKpGASymLK9F5vxhOuLegw,115
+pgeof-0.3.0.dist-info/METADATA,sha256=HJmKwZHC6hEtb1KimcahKncPJrkAyXWp2i403_Q9xbo,9989
+pgeof-0.3.0.dist-info/licenses/LICENSE,sha256=qbq0hUnRMmS716E-gro4bRVtlmdYW-efEBXQl5hq4As,1105
+pgeof/pgeof_ext.cpython-310-darwin.so,sha256=s0Bk6CvMAJEeGDQhnYQqNbTV72XLfN5QVkuNWaaTWq8,388936
+pgeof/__init__.py,sha256=DZnnqQCw2i6vQPCHpcCz31zdNnh_jwEdp7UhyqOEd_0,193
+pgeof/pgeof_ext.pyi,sha256=wvTv47f5UsBBKBEw8XQFm9c_U99qlXJjBtMzuazALjo,10591
+pgeof/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
