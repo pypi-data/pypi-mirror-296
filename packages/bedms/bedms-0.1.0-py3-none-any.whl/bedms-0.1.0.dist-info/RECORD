@@ -1,0 +1,13 @@
+bedms/__init__.py,sha256=vsmeiatHLnmN-pSOQb5CTHVSkhNOdOx4yvoD3GunMIw,98
+bedms/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+bedms/attr_standardizer.py,sha256=p5a2irZVp7YGIzOjiqFaS0bjTeUs3k5YlHXsISDJGFw,8328
+bedms/const.py,sha256=rzfoeDSaDlwZLhlIG8EQobY0xQcBB-zz4QFxWcr6ek8,1032
+bedms/model.py,sha256=Y7XWIu-2_vTodOgXEDnTdP-o48vUgIy7GiRfykYx8P0,2902
+bedms/utils.py,sha256=MjKO3FlcL_ZRWOS_Xxqv1aqtDjwhIW07K_KLvuGbA7c,8184
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_bedms.py,sha256=Tk_Z2DxxjqzfEYLSEF1HJlOOlPm1hShtynPGjIyN2SI,214
+bedms-0.1.0.dist-info/LICENSE.txt,sha256=YDPf4vpo5DLhqlZHItgoBSU1sdIA2CRlYaROJyldw5Q,1269
+bedms-0.1.0.dist-info/METADATA,sha256=jKlM68cTs6KHcssAvD1E1NbbczWj1h2LIdl4PFRQDec,1706
+bedms-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+bedms-0.1.0.dist-info/top_level.txt,sha256=Ty3M_uNa0uH0gJxwXqH-pbfPMCUD4nj01EwpxeEsmFM,12
+bedms-0.1.0.dist-info/RECORD,,
