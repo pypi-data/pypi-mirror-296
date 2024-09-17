@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: totEnJ
+Version: 0.1.2
+Summary: Heisenberg Hamitlonian parametrization from ab initio total energy of magnetic supercells
+Author: L. Vojacek
+Author-email: Libor.Vojacek@vutbr.cz
+License: BSD 3-Clause License
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: sympy
+Requires-Dist: ase
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: pytest-mpl
+
+# Heisenberg exchange and DMI from DFT-calculated supercell total energies
+
+<i>**Tools for preparing magnetic supercells and extracting (anisotropic) exchange interaction and DMI from their total energies (calculated for instance by DFT).**</i>
+
+```
+pip install totEnJ
+```
+
+If you find this package useful, please cite [L. Vojáček*, J. M. Dueñas* _et al._, Nano Letters (2024)](https://pubs.acs.org/doi/10.1021/acs.nanolett.4c03029).
+
+## Usage
+See the Jupyter notebooks in the `./examples` folder.
+
+## Heisenberg exchange
+
+Calculate **Heisenberg exchange** (in-plane and out-of-plane, uniaxial anisotropy) from total energy of magnetic supercells.
+
+<center><img src="https://github.com/user-attachments/assets/32c171bd-507b-4916-8d4a-0f9ca817d598" alt="exchange_total_energy" width="600" /></center>
+
+## DMI
+
+Calculate **Dzyaloshinskii-Moriya interaction coefficients** to arbitrary neighbor from DFT total energy for a linear chain (for now) - many systems will be equivalent however.
+
+- nice-to-have functions:
+  - automatically decide what spin spirals to use for a given problem and construct the supercells (and MAGMOM tag)
+  - choose along which unit cell vector
+
+BSD 3-Clause License
+
+Copyright (c) 2023, liborsold
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
