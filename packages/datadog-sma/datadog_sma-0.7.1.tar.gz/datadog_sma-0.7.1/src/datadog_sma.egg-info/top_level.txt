@@ -1,0 +1,3 @@
+__MACOSX
+__init__
+datadog-serverless-agent
