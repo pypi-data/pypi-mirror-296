@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: Ran-JIT
+Version: 0.1.1
+Summary: A python lib when imported boosts your code using JIT
+Home-page: 
+Author: Coden
+Author-email: codenrblx@gmail.com
+License: MIT
+Keywords: booster
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Our library uses Just-In-Time (JIT) compilation to enhance performance significantly. Unlike the traditional Python Virtual Machine (PVM) which interprets bytecode, JIT compilation translates code into optimized machine code at runtime, allowing it to execute much faster. This means that when you import our library, you benefit from improved execution speeds due to the dynamic compilation of frequently executed code paths. By utilizing JIT, we ensure that our library performs optimally, addressing the common performance bottlenecks associated with standard Python execution and providing a more efficient and responsive experience for your applications.
+
+
+Change Log
+==========
+
+0.0.1(26/8/2024)
+- Initial version.
+0.0.2(26/8/2024)
+- test
+0.0.3(26/8/2024)
+- test 3
+0.0.4(26/8/2024)
+- test 4
+0.0.5(27/8/2024)
+- test 5
+0.0.6(28/8/2024)
+- test 6
+0.0.7(29/8/2024)
+- Added more support to UNIX, boosted code
+0.0.8(31/8/2024)
+- test
+0.0.9(16/9/2024)
+- Adding Network Boost
+0.1.0(17/9/2024)
+- Adding Network Boost
+0.1.1(17/9/2024)
+- Adding Network Boost
