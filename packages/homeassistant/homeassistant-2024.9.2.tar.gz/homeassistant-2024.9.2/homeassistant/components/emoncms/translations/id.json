@@ -1,0 +1,12 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "Kunci API",
+                    "url": "URL"
+                }
+            }
+        }
+    }
+}
