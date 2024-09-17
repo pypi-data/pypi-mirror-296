@@ -1,0 +1,11 @@
+format_multiple_errors/__init__.py,sha256=ZLtmZ1Pe3zyxnic-b4nhtuajNj8llWykspVPpFaN7Rc,460
+format_multiple_errors/__main__.py,sha256=tV8VPGPwq2d3CWJp9hFSDDMyHHL3uY2jvipxeoH_dGY,5825
+format_multiple_errors/formatter.py,sha256=GnfJjP4HbYXxTq-Yx1E8DhbviPqRj0t3_icPTYgQ2P0,10744
+format_multiple_errors/pandas.py,sha256=qoK_UvXIErJJdWKfJRyOvtMNeR6JHaUv_QUlTZjnCHg,7605
+format_multiple_errors/typing.py,sha256=k0p3GDaHGXHd3zmBtNg0-cvcMzEupzN4RHaLdNvxX6U,342
+format_multiple_errors-0.0.2.dist-info/LICENSE,sha256=G3SZheaYJW8JV0Njnnyfi7QwUJWh9evcPRQ-nAXi8Ro,1086
+format_multiple_errors-0.0.2.dist-info/METADATA,sha256=1vJY4LlcZhCuxYANbRIGpUxs8coFFgecUKof8zuk6t4,6334
+format_multiple_errors-0.0.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+format_multiple_errors-0.0.2.dist-info/entry_points.txt,sha256=PeHYlzbvQciSJX3DWuM-Y5Xwi9Is0jO-LlUgdSkUTp4,79
+format_multiple_errors-0.0.2.dist-info/top_level.txt,sha256=I_xD5oYbrw0qjNhbzAlj_sqNhLrkoJsTE_ozCqnlaZc,23
+format_multiple_errors-0.0.2.dist-info/RECORD,,
