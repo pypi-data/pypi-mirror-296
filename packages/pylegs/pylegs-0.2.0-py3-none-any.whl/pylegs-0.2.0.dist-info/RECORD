@@ -1,0 +1,17 @@
+pylegs/__init__.py,sha256=Zw8kBs287OVlEu5X8P0aHCDZkEkp7oWoo7nE8DdMFxA,34
+pylegs/archive.py,sha256=cbaZSU9__o0ONymlQsCo_7T4wKzGBWSfReJBIg7dO6c,28219
+pylegs/cli.py,sha256=_CJUAHpmXq0y_7uR6DeH-0besIdlMsmi8NYgpKm_G-k,14334
+pylegs/config.py,sha256=9LkZrfrvPWkRN8eRTYEQiAFXnxZdYw3xP_8WOigVGT4,1245
+pylegs/cutout.py,sha256=EJr7GWR0TtcMbu1tdRwUD3WFslJrk9Ce6byQZ8OwWj4,7789
+pylegs/io.py,sha256=fnvx_UOOK4fF9mxFxymZ_YZyi59jlT3DJNnSMSQuRKg,22047
+pylegs/pixscale.py,sha256=X8C2PFf-tu9wGPP1SmXjShpXFfUij9JiPrwIrfz8uYQ,5181
+pylegs/tap.py,sha256=sqVOeREGv4Zy8jmHIvaMQr1xZu6HQlNZ3awxwTL7Xqk,10983
+pylegs/utils.py,sha256=MSOh7jBJzh_h0esiO8RMj1gEJXQtspwePLZM__NdNEE,7573
+pylegs/data/correction_factor.dat,sha256=3V5ErE72lDSIfMSPJj4XAPR7BcgbFkapXebdhPkgiyk,1187
+pylegs/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylegs/tests/test_utils.py,sha256=Z1qDAsYhkHRs2PwinGGG8R-1MUIYsg0bdCkgMBpJW3U,14
+pylegs-0.2.0.dist-info/METADATA,sha256=CvnkbzwtgOMv4KSck0wfs2bkElZxdlHGn-eWHgpEH3Q,1626
+pylegs-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pylegs-0.2.0.dist-info/entry_points.txt,sha256=wETnCp01DZgPUGstwXgNmF3iOxzNWQpplG3Cq7sEZCM,49
+pylegs-0.2.0.dist-info/top_level.txt,sha256=SOvYL6m8dqwaa2Ga5RXHqskIGbTvsvnMaF1u3hva1dA,7
+pylegs-0.2.0.dist-info/RECORD,,
