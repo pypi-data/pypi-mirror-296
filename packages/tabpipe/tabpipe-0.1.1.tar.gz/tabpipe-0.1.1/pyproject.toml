@@ -1,0 +1,146 @@
+[tool]
+[tool.poetry]
+name = "tabpipe"
+version = "0.1.1"
+homepage = "https://github.com/tripadv/tabpipe"
+description = "A toolkit for tabular data ML preprocessing pipelines."
+authors = ["José Pinto <jopinto@tripadvisor.com>"]
+readme = "README.md"
+license =  "MIT"
+classifiers=[
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+]
+packages = [
+    { include = "tabpipe" },
+    { include = "tests", format = "sdist" },
+]
+
+[[tool.poetry.source]]
+name = "tamg-ml-pypi-virtual"
+url = "https://tamg-ml-pypi-virtual.maven.dev.tripadvisor.com/artifactory/api/pypi/tamg-ml-pypi-virtual/simple"
+priority = "primary"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+
+black  = { version = "^24.8.0", optional = true}
+isort  = { version = "^5.8.0", optional = true}
+flake8  = { version = "^7.1.1", optional = true}
+flake8-docstrings = { version = "^1.6.0", optional = true }
+mypy = {version = "^1.11.1", optional = true}
+pytest  = { version = "^8.3.2", optional = true}
+pytest-cov  = { version = "^5.0.0", optional = true}
+pytest-dotenv  = { version = "^0.5.2", optional = true}
+tox  = { version = "^4.18.0", optional = true}
+virtualenv  = { version = "^20.2.2", optional = true}
+pip  = { version = "^24.2", optional = true}
+mkdocs  = { version = "^1.3.0", optional = true}
+mkdocs-include-markdown-plugin  = { version = "^6.2.2", optional = true}
+mkdocs-material  = { version = "^9.5.32", optional = true}
+mkdocstrings  = {extras = ["python"], version = "^0.25.2"}
+mkdocs-material-extensions  = { version = "^1.0.1", optional = true}
+twine  = "^5.1.1"
+mkdocs-autorefs = {version = "^1.0.1", optional = true}
+pre-commit = {version = "^3.8.0", optional = true}
+toml = {version = "^0.10.2", optional = true}
+bump2version = {version = "^1.0.1", optional = true}
+click = {version = "<=8.0.2", optional = true}
+jinja2 = {version = "<3.1.0", optional = true}
+snowflake-snowpark-python = {extras = ["pandas"], version = "^1.21.0"}
+pyspark = "^3.5.1"
+pandas = "^2.2.2"
+jupyter = {version = "^1.0.0", optional = true}
+mkdocs-gen-files = {version = "^0.5.0", optional = true}
+graphviz = {version = "^0.20.3", optional = true}
+numpy = "<2"
+pydantic = "^2.8.2"
+scikit-learn = "^1.5.1"
+pkginfo = {version = "^1.8.1", optional = true}
+
+[tool.poetry.extras]
+test = [
+    "pytest",
+    "black",
+    "isort",
+    "mypy",
+    "flake8",
+    "flake8-docstrings",
+    "pytest-cov",
+    "pytest-dotenv",
+]
+
+dev = [
+    "tox",
+    "pre-commit",
+    "virtualenv",
+    "pip",
+    "toml",
+    "bump2version",
+    "jupyter",
+    "graphviz",
+    "twine",
+]
+
+doc = [
+    "mkdocs",
+    "mkdocs-include-markdown-plugin",
+    "mkdocs-material",
+    "mkdocstrings",
+    "mkdocs-material-extension",
+    "mkdocs-autorefs",
+    "mkdocs-gen-files",
+    "click",
+    "jinja2",
+]
+
+
+[tool.black]
+line-length = 88
+skip-string-normalization = true
+target-version = ['py39', 'py310', 'py311', 'py312']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+line_length = 88
+skip_gitignore = true
+# you can skip files as below
+#skip_glob = docs/conf.py
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest]
+env_files = ".env"
