@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/mr_menu/__init__.py
+src/mr_menu/exceptions.py
+src/mr_menu/generator.py
+src/mr_menu/simple.py
+src/mr_menu.egg-info/PKG-INFO
+src/mr_menu.egg-info/SOURCES.txt
+src/mr_menu.egg-info/dependency_links.txt
+src/mr_menu.egg-info/requires.txt
+src/mr_menu.egg-info/top_level.txt
