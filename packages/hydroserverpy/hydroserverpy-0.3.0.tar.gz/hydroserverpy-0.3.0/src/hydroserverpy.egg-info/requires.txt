@@ -1,0 +1,13 @@
+requests>=2
+pydantic>=2.6
+pandas>=2.2
+numpy>=2.0
+pyyaml>=5
+simplejson>=3
+crontab>=1
+python-dateutil>=2.8.2
+croniter>=2.0.1
+country-list>=1.1.0
+
+[docs]
+sphinx_autodoc_typehints
