@@ -1,0 +1,9 @@
+from _typeshed import Incomplete
+from django.http import HttpRequest as HttpRequest
+from djing.core.application import Application as Application
+
+class DjingAdminMiddleware:
+    get_response: Incomplete
+    def __init__(self, get_response) -> None: ...
+    def __call__(self, request: HttpRequest): ...
+    def get_flash_messages(self, request: HttpRequest): ...

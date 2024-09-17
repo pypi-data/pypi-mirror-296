@@ -1,0 +1,6 @@
+from djing.core.base_provider import BaseProvider
+
+
+class Provider(BaseProvider):
+    def authorization(self, user):
+        return user.email in ["johndoe@example.com"]
