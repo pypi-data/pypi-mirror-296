@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+open_news/__init__.py
+py_open_news.egg-info/PKG-INFO
+py_open_news.egg-info/SOURCES.txt
+py_open_news.egg-info/dependency_links.txt
+py_open_news.egg-info/requires.txt
+py_open_news.egg-info/top_level.txt
