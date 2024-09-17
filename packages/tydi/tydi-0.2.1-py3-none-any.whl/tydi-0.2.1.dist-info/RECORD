@@ -1,0 +1,13 @@
+tydi/__init__.py,sha256=hxrNHhgIh45RI4qTe7WAXSo_hkmTEkDYurEIUSy0D7Q,103
+tydi/dispatch.py,sha256=z4JtRh6LJb0D6K5Vt7juG9tgPgyNKjz7kFGdTT-SZ5s,250
+tydi/inspectors/__init__.py,sha256=UhhejqIeYGeqV5zBW5CSG38jqZDdW0pYDOzMWMt7Q3A,204
+tydi/inspectors/class_inspector.py,sha256=99NzxnUIoUgwQiqJ4-D8klcLEuHscdacGny_UuuO4Us,3200
+tydi/inspectors/method_inspector.py,sha256=gC6yx0V0QBjgXUWqXPKkgybDysQTW6xSr9gP0e9nExA,2167
+tydi/inspectors/module_inspector.py,sha256=GKZD8b8X0mnYc6zFZ4lvwlEIZ1xNnIrId7bnnMEpAaA,1501
+tydi/multi_dispatch.py,sha256=Dc6MCC9PxoyUI4T9OyWqTS53xFVQmg_n4XF8jBogZjc,3171
+tydi/overload.py,sha256=zdX6RdYXWdh2wskWw-fo4VrDZFWXrQKZNxphZtKAJQ4,277
+tydi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tydi-0.2.1.dist-info/LICENSE,sha256=B65L-5P_Tk7zu3GKqrXdRukxzGCNhiF0Hlk6EbvOAwY,1069
+tydi-0.2.1.dist-info/METADATA,sha256=Md25zgx06jV6LcqYlPf6gJyKJQ2bFEzsenyEZasCvV0,625
+tydi-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tydi-0.2.1.dist-info/RECORD,,
