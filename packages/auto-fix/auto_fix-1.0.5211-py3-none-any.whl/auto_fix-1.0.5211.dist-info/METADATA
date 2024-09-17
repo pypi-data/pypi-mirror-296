@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: auto_fix
+Version: 1.0.5211
+Summary: 使用AI模型的自动代码修复库.
+Author: Feicell
+Author-email: a@love-me.vip
+Requires-Dist: openai
+Requires-Dist: loguru
+
