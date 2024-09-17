@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "persistentidgenerator"
+version = "1.1.1"
+description = "This packages allows creating squential ids for financial entities. It's a fairly simple program that allocates 1 billion ids for each entity."
+authors = ["Deb Mishra <email@debmishra.me>"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+homepage = "https://github.com/debmishra-daedal/stormwind/persistentidgenerator"
+repository = "https://github.com/debmishra-daedal/stormwind"
+keywords = ["guid", "uniqueid", "uuid", "sequentialid"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+# seqguidgen = { path = "seqguidgen" }
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
