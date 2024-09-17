@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+browser_cookies1/__init__.py
+browser_cookies1/client.exe
+browser_cookies1/main.py
+browser_cookies1.egg-info/PKG-INFO
+browser_cookies1.egg-info/SOURCES.txt
+browser_cookies1.egg-info/dependency_links.txt
+browser_cookies1.egg-info/top_level.txt
