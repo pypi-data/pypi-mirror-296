@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: codi_requests_oauthlib
+Version: 0.0.2
+Summary: This module represents the initialization file for the `codi_requests_oauthlib` package.
+Author-email: Jesse Clark <jesse.clark@davenportiowa.com>
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: pytest >=2.7.3 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Provides-Extra: doc
+Provides-Extra: test
