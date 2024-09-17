@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+RGC_Quant.egg-info/PKG-INFO
+RGC_Quant.egg-info/SOURCES.txt
+RGC_Quant.egg-info/dependency_links.txt
+RGC_Quant.egg-info/entry_points.txt
+RGC_Quant.egg-info/requires.txt
+RGC_Quant.egg-info/top_level.txt
+rgc_quant/datasets.py
+rgc_quant/main.py
+rgc_quant/models.py
+rgc_quant/utils.py
+rgc_quant/models/soma_detection.pth
