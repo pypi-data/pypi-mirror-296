@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=70.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ucaptcha"
+version = "1.1.2"
+dependencies = ["httpx"]
+requires-python = ">=3"
+authors = [{ name = "Pradish Bijukchhe", email = "pradish@sandbox.com.np" }]
+description = "Universal captcha solving python module"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = []
+classifiers = ["Programming Language :: Python :: 3"]
+
+[project.urls]
+Homepage = "https://github.com/sandbox-pokhara/ucaptcha"
+Issues = "https://github.com/sandbox-pokhara/ucaptcha/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-dir]
+"ucaptcha" = "ucaptcha"
+
+[tool.isort]
+line_length = 79
+force_single_line = true
+
+[tool.black]
+line-length = 79
+preview = true
+
+[tool.pyright]
+include = ["ucaptcha", "test.py"]
+typeCheckingMode = "strict"
