@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_templated_mail_2.egg-info/PKG-INFO
+django_templated_mail_2.egg-info/SOURCES.txt
+django_templated_mail_2.egg-info/dependency_links.txt
+django_templated_mail_2.egg-info/top_level.txt
+templated_mail/__init__.py
+templated_mail/mail.py
+tests/test_mail.py
