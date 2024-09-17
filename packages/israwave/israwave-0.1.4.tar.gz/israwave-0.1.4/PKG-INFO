@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: israwave
+Version: 0.1.4
+Summary: Hebrew text to speech on the edge
+Author: thewh1teagle
+Description-Content-Type: text/markdown
+Requires-Dist: onnxruntime>=1.19.2
+Requires-Dist: numpy>=2.1.1
+Requires-Dist: soundfile>=0.12.1
+Requires-Dist: sounddevice>=0.5.0
+Requires-Dist: nakdimon-ort>=0.1.5
+Requires-Dist: piper-phonemize-fork>=1.2.0 ; platform_system != "Linux"
+Requires-Dist: piper-phonemize-cross>=1.2.1 ; platform_system == "Linux"
+Requires-Dist: twine ; extra == "build"
+Requires-Dist: build ; extra == "build"
+Requires-Dist: tox ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: bump2version ; extra == "dev"
+Requires-Dist: pytest ; extra == "test"
+Project-URL: home, https://github.com/thewh1teagle/israwave
+Provides-Extra: build
+Provides-Extra: dev
+Provides-Extra: test
+
+# israwave
+
+Mission to create a Hebrew TTS model as powerful and user-friendly as WaveNet
+
+## Features
+
+- Generate sentence in less than 1ms on CPU
+- Powerful text processor by espeak-ng
+- Support for SSML (soon)
+
+## Play with it!
+
+You can play with it on [HuggingFace Space](https://huggingface.co/spaces/thewh1teagle/tts-with-israwave)
+
+## Samples
+
+https://github.com/user-attachments/assets/3212a800-406f-4d79-8aa1-d814eed815d6
+
+## Setup
+
+```console
+pip install -U israwave
+```
+
+You also need [`israwave.onnx`](https://github.com/thewh1teagle/israwave/releases/download/v0.1.0/israwave.onnx), [`espeak-ng-data`](https://github.com/thewh1teagle/israwave/releases/download/v0.1.0/espeak-ng-data.tar.gz), and [`nakdimon.onnx`](https://github.com/thewh1teagle/israwave/releases/download/v0.1.0/nakdimon.onnx). Please see examples.
+
+## Examples
+
+See [examples](examples)
+
+## Dataset
+
+The model trained on [saspeech gold standard](https://openslr.org/134/).
+
+## Thanks
+
+Thanks to [Kan11](https://www.kan.org.il/) and [Shaul](https://www.kan.org.il/authors/%D7%A9%D7%90%D7%95%D7%9C-%D7%90%D7%9E%D7%A1%D7%98%D7%A8%D7%93%D7%9E%D7%A1%D7%A7%D7%99/) for providing the dataset.
+
+Thanks to [elazarg](https://github.com/elazarg) for sharing the [Nakdimon](https://github.com/elazarg/nakdimon) diacritics model, which was instrumental in our project.
+
+For [mush42](https://github.com/mush42) for their excellent TTS training recipe.
+
