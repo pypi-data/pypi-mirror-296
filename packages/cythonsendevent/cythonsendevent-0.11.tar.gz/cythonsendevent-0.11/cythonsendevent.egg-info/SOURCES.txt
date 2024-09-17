@@ -1,0 +1,17 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cythonsendevent/LICENSE
+cythonsendevent/README.MD
+cythonsendevent/__init__.py
+cythonsendevent/cysend.pyx
+cythonsendevent/cysend_compile.py
+cythonsendevent/requirements.txt
+cythonsendevent/thirdparty.json
+cythonsendevent.egg-info/PKG-INFO
+cythonsendevent.egg-info/SOURCES.txt
+cythonsendevent.egg-info/dependency_links.txt
+cythonsendevent.egg-info/requires.txt
+cythonsendevent.egg-info/top_level.txt
