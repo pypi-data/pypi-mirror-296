@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+iRRBS/__init__.py
+iRRBS/irrbs_pipeline.py
+iRRBS/run_irrbs.py
+iRRBS/suppress.py
+iRRBS.egg-info/PKG-INFO
+iRRBS.egg-info/SOURCES.txt
+iRRBS.egg-info/dependency_links.txt
+iRRBS.egg-info/requires.txt
+iRRBS.egg-info/top_level.txt
