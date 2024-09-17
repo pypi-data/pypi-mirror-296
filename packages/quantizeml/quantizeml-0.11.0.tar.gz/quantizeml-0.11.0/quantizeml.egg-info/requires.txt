@@ -1,0 +1,6 @@
+tensorflow<2.16.0,>=2.15.0
+keras<2.16.0,>=2.15.0
+onnx~=1.13
+onnxruntime==1.15.0
+matplotlib<3.9
+tensorboardX<2.6.1
