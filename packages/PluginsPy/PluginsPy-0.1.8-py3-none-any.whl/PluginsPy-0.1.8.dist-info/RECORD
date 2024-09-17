@@ -1,0 +1,17 @@
+PluginsPy/Config.py,sha256=RjzopTmh82nuNaS3WUV8zEKk2sgAWgE8uJC1r1nljPQ,926
+PluginsPy/MainUI.py,sha256=NtdCJwCyX12tqWMmD3gFh5kXy8oIgODf-66GHfrXGJc,5741
+PluginsPy/Plugin.py,sha256=eMETyRq8M69e-hJLBGjggAq6jEAfNmjbVTtsY1I3Xn4,17341
+PluginsPy/VisualLogPlot.py,sha256=1zxOa7ZaW5c4l1IhEmYy0efuVsfsSWARuzVTbNEBVf0,5915
+PluginsPy/__init__.py,sha256=oN5b8hBaXlCrW_pyUDLsKN8xzZXFNOL0B61Ec7R-BFA,19497
+PluginsPy/assets/images/icon.png,sha256=hH0_8Ta9co0anDPpdsaIw5lIYLZ7qG9S2uJg44z3e3k,1080
+PluginsPy/template/Makefile,sha256=LkyHbdODUkWdxzuzd_pMGXobQig_mcvjsuAduxfgX7c,47
+PluginsPy/template/main.py,sha256=7JghvzprbeSCRezXcjDNcZ8T3W4H6CZQFEpVc-QlQFA,322
+PluginsPy/template/make.bat,sha256=JbAFLvRBRRiyqzIx0oRBy-PN30rP9YOrKczZBVynYLQ,329
+PluginsPy/template/Plugins/PluginExample.py,sha256=mHryWZuyL6Z0ftSJ341dqtMQVrEwDH-N4N5MMC-NIJU,925
+PluginsPy/template/Plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PluginsPy-0.1.8.dist-info/LICENSE,sha256=C8J8LjXHgGsfJJ8FP5R__C1bEqIpoWa-eRDyhzGeceA,1063
+PluginsPy-0.1.8.dist-info/METADATA,sha256=7l1YcpKf2jWpRzfnrEC_nuBukIQrxMo3MYcjyhLvPk8,3492
+PluginsPy-0.1.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PluginsPy-0.1.8.dist-info/entry_points.txt,sha256=5MohL5EBV9H7ku7mjgKNV38hc3NM30UV_T6lH8ya_2A,46
+PluginsPy-0.1.8.dist-info/top_level.txt,sha256=k3G0rahXhLkyMXbdinU3jHeRBXSuSWFAMJyVTH1KEQI,10
+PluginsPy-0.1.8.dist-info/RECORD,,
