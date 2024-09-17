@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: torchdr
+Version: 0.1
+Summary: Torch Dimensionality Reduction Library
+Author:  TorchDR contributors
+Author-email: Hugues Van Assel <vanasselhugues@gmail.com>
+License: BSD (3-Clause)
+Project-URL: homepage, https://torchdr.github.io/
+Project-URL: documentation, https://torchdr.github.io/
+Project-URL: repository, https://github.com/TorchDR/TorchDR
+Keywords: dimensionality reduction,machine learning,data analysis,pytorch,scikit-learn,GPU
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Requires-Dist: tqdm
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: numpydoc; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: codecov; extra == "test"
+Provides-Extra: keops
+Requires-Dist: pykeops; extra == "keops"
+Provides-Extra: all
+Requires-Dist: pykeops; extra == "all"
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx_gallery; extra == "doc"
+Requires-Dist: sphinx_rtd_theme; extra == "doc"
+Requires-Dist: matplotlib; extra == "doc"
+Requires-Dist: numpydoc; extra == "doc"
+Requires-Dist: memory_profiler; extra == "doc"
+Requires-Dist: myst-parser; extra == "doc"
+Requires-Dist: pandas; extra == "doc"
