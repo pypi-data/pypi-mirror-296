@@ -1,0 +1,16 @@
+langdetect~=1.0.9
+nltk>=3.7
+pandas>=1.5.1
+numpy>=1.23.4
+
+[dev]
+flake8-bandit
+flake8-pydocstyle
+mypy
+build
+pytest
+pytest-asyncio
+pytest-cov
+coverage-lcov
+mock
+types-mock
