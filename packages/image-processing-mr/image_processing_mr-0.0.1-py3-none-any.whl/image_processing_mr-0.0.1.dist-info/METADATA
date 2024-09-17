@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: image_processing_mr
+Version: 0.0.1
+Summary: Image processing package using Skimage
+Home-page: https://github.com/mateusrr/image-processing-package
+Author: Mateus
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: matplotpib
+Requires-Dist: numpy
+Requires-Dist: scikit-image >=0.16.1
+
+page_description
