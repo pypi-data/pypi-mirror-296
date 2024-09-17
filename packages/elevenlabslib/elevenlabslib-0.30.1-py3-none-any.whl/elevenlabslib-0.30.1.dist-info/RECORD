@@ -1,0 +1,17 @@
+elevenlabslib/Dub.py,sha256=q6gMqK_WQK5u5sA4zQqUXI0CkgHixTP6RX1JWZX6oNE,3872
+elevenlabslib/HistoryItem.py,sha256=PzlcNIJlzDX-O5oycf8CizPenuZZEDY63bqWOPodrnU,11017
+elevenlabslib/Model.py,sha256=taWzGc8xYu_p4rpxao-BVf5kojoSPZ-eLsDCEXmCxWk,2074
+elevenlabslib/Project.py,sha256=jj-7fPe2Z_sGHQEXryZou3TypDwk2n7vhkF8qp3TFcw,10033
+elevenlabslib/PronunciationDictionary.py,sha256=TNSVJ6cg0PsY8WRZdGfsBmmo3aJSxYeb2g6P4no8MhU,6026
+elevenlabslib/Sample.py,sha256=3ExQTpXZHw1akswSYvHPEuaF2PtgWqD2aAUDJ-CmsD4,1487
+elevenlabslib/User.py,sha256=6BQO_5_OqskesS2t3CnDHIkgSc2cEDoh8-acQho8kxk,48385
+elevenlabslib/Voice.py,sha256=7tv4r3PIO-CeNGXG8_kmBx6EWz2djyKSmerYek-R7z8,34327
+elevenlabslib/__init__.py,sha256=i9Ldab7qbThv7yjUiQ_EGbAbpybc8CLsOQiiB3QzryE,879
+elevenlabslib/_audio_cutter_helper.py,sha256=b8QtHYs9ZR9PQu8AtszkTp2IRX0uJu0IlClAvuesbSM,15556
+elevenlabslib/helpers.py,sha256=imqfUAIP5w3fY9kmRrPnNq5KkX4tJoGyU5YprBDY9dk,55419
+elevenlabslib/utils.py,sha256=JQ1TEjM2nuzsaA_gHdyJyr9gPyHjJxuKxO4dEVlgGNQ,26396
+elevenlabslib-0.30.1.dist-info/LICENSE,sha256=nRfKt1jfsdwhF1kKA3bjdVvmS-ri98LMfti3SuuIUiQ,1070
+elevenlabslib-0.30.1.dist-info/METADATA,sha256=PuoBN2jRL4tNBjgmtPMRW86XPLgmcW2djNqfrglPPNQ,3662
+elevenlabslib-0.30.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+elevenlabslib-0.30.1.dist-info/top_level.txt,sha256=_WxsPHqCGBi44VUmjzswyn_60e36qdVnrzEBGlfEQ_8,14
+elevenlabslib-0.30.1.dist-info/RECORD,,
