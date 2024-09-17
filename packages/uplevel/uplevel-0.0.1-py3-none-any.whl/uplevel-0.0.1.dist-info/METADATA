@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: uplevel
+Version: 0.0.1
+Summary: Access the value of a variable in a higher stack frame
+Author-email: Michael Hohenstein <michael@hohenste.in>
+License: GPL3
+Project-URL: Repository, https://github.com/MitchiLaser/uplevel
+Keywords: variable,stack frame,closure
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# Uplevel
+
+Access the values of variables in the parent scope.
+
+## Installation
+
+```bash
+pip install uplevel
+```
+
+## Usage
+
+Here is a short example of how to use `uplevel`:
+
+```python
+import uplevel
+
+x = 3
+
+def foo():
+    return uplevel.upvar(1, 'x')
+
+print(foo()) # 3
