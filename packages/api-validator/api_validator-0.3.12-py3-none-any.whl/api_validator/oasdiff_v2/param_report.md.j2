@@ -1,0 +1,150 @@
+## {{ parameter_report_name }}
+
+**Summary**:
+
+| Type                                                                          | Count |
+|-------------------------------------------------------------------------------|-------|
+| [Parameter Removed](#parameter-removed)                                       | {{ removed_params | length }} |
+| [Request Body Removed](#request-body-removed)                                 | {{ removed_request_body_params | length }} |
+| [Parameter Type Changed](#parameter-type-changed)                             | {{ type_changed_params | length }} |
+| [Parameter Requirement Status Changed](#parameter-requirement-status-changed) | {{ required_changed_params | length }} |
+| [Default Value Changed](#default-value-changed)                               | {{ default_changed_params | length }} |
+| [Schema Changed](#schema-changed) (TODO)                                      | {{ schema_changed_params | length }} |
+
+Other statistics:
+* **Components**: The original spec had **{{ original_component_count }} components**. The new spec has **{{ new_component_count }} components**. Components are used to define reusable schemas and responses. A change in components can affect multiple endpoints.
+
+### Background
+
+We classify parameters as missing if they are present in the old API but not in the new API.
+
+While there are lots of possible fields in a Swagger doc, we are primarily interested in the ones that influence DAST and general usability of a Swagger doc:
+* **Parameters**
+    * The [Parameter Type](https://swagger.io/docs/specification/describing-parameters/#types): ([query](https://swagger.io/docs/specification/describing-parameters/#query-parameters), [path](https://swagger.io/docs/specification/describing-parameters/#path-parameters), [header](https://swagger.io/docs/specification/describing-parameters/#header-parameters), [cookie](https://swagger.io/docs/specification/describing-parameters/#cookie-parameters))
+    * The variable types (string, boolean, integer, etc)
+    * [Required vs optional parameters](https://swagger.io/docs/specification/describing-parameters/#required-optional)
+* [Request bodies](https://swagger.io/docs/specification/describing-request-body/)
+* [Paths](https://swagger.io/docs/specification/paths-and-operations/)
+
+We have another report that highlights missing endpoints and new endpoints. This report focuses on missing parameters.
+
+These can fall into a few classes.
+- The parameter variable type changed (e.g. `string` to `integer`).
+- The parameter was required in the old spec but is now optional.
+- The parameter was removed.
+- The request body was deleted.
+
+
+### Parameter Removed
+
+{% if removed_params | length > 0 %}
+<details>
+<summary><b>{{ removed_params | length }}</b> Removed Parameters. Click here for more details.</summary>
+<br>
+
+| Endpoint | HTTP Method | Parameter Type | Parameter Name | Variable Type |
+|----------|-------------|----------------|----------------|---------------|
+{% for param in removed_params %}| [{{ param.path }}]({{ param.path }}) | {{ param.http_method }} | {{ param.parameter_type }} | `{{ param.name }}` | Check the Swagger doc. |
+{% endfor %}
+</details>
+{% else %}
+No removed parameters.
+{% endif %}
+
+### Request Body Removed
+
+> [!WARNING]
+> NOTE: This section is currently limited by [this issue](https://github.com/Tufin/oasdiff/issues/276) in oasdiff. In the meantime, we can use (1) the embedded Swagger file and (2) the count of components from the top.
+
+{% if removed_request_body_params | length > 0 %}
+> [!NOTE]
+> Note: This data is also included in the [Parameter Removed](#parameter-removed) section. We call it out separately because of the importance and difference of request bodies in security testing versus query parameters.
+
+<details>
+<summary><b>{{ removed_request_body_params | length }}</b> Removed Request Body Parameters. Click here for more details.</summary>
+<br>
+
+| Endpoint | HTTP Method | Parameter Type | Parameter Name | Variable Type |
+|----------|-------------|----------------|----------------|---------------|
+{% for param in removed_request_body_params %}| [{{ param.path }}]({{ param.path }}) | {{ param.http_method }} | {{ param.parameter_type }} | `{{ param.name }}` | Check the Swagger doc. |
+{% endfor %}
+</details>
+{% else %}
+No removed request body parameters.
+{% endif %}
+
+### Parameter Type Changed
+
+{% if type_changed_params | length > 0 %}
+<details>
+<summary><b>{{ type_changed_params | length }}</b> Changed Parameters. Click here for more details.</summary>
+<br>
+
+| Endpoint | HTTP Method | Parameter Type  | Parameter Name  | Old Variable Type | New Variable Type |
+|----------|-------------|-----------------|-----------------|-------------------|-------------------|
+{% for param in type_changed_params %}| [{{ param.path }}]({{ param.path }}) | {{ param.http_method }} | {{ param.parameter_type }} | `{{ param.name }}` | `{{ param.old_variable_type() }}` | `{{ param.new_variable_type() }}` |
+{% endfor %}
+</details>
+{% else %}
+No parameter type changes.
+{% endif %}
+
+### Parameter Requirement Status Changed
+
+{% if required_changed_params | length > 0 %}
+<details>
+<summary><b>{{ required_changed_params | length }}</b> Requirement Statuses Changed. Click here for more details.</summary>
+<br>
+
+| Endpoint | HTTP Method | Parameter Type | Parameter Name | Old Requirement | New Requirement |
+|----------|-------------|----------------|----------------|-----------------|-----------------|
+{% for param in required_changed_params %}| [{{ param.path }}]({{ param.path }}) | {{ param.http_method }} | {{ param.parameter_type }} | `{{ param.name }}` | `{{ param.old_requirement_status() }}` | `{{ param.new_requirement_status() }}` |
+{% endfor %}
+</details>
+{% else %}
+No parameter requirement changes.
+{% endif %}
+
+### Default Value Changed
+
+{% if default_changed_params | length > 0 %}
+<details>
+<summary><b>{{ default_changed_params | length }}</b> Default Values Changed. Click here for more details.</summary>
+<br>
+
+| Endpoint | HTTP Method | Parameter Type | Parameter Name | Old Default Value | New Default Value |
+|----------|-------------|----------------|----------------|-------------------|-------------------|
+{% for param in default_changed_params %}| [{{ param.path }}]({{ param.path }}) | {{ param.http_method }} | {{ param.parameter_type }} | `{{ param.name }}` | `{{ param.old_default_value() }}` | `{{ param.new_default_value() }}` |
+{% endfor %}
+</details>
+{% else %}
+No default value changes.
+{% endif %}
+
+### Schema Changed
+
+> [!WARNING]
+> NOTE: This section is a work in progress.
+
+{% if schema_changed_params | length > 0 %}
+<details>
+<summary><b>{{ schema_changed_params | length }}</b> Schemas Changed. Click here for more details.</summary>
+<br>
+
+| Endpoint | HTTP Method | Parameter Type | Parameter Name | Schema Details |
+|----------|-------------|----------------|----------------|----------------|
+{% for param in schema_changed_params %}| [{{ param.path }}]({{ param.path }}) | {{ param.http_method }} | {{ param.parameter_type }} | `{{ param.name }}` | Please review the Swagger for details. |
+{% endfor %}
+</details>
+{% else %}
+No schema changes.
+{% endif %}
+
+
+## Original Swagger File
+
+Click here to view the original Swagger file in the Swagger editor: [Original Swagger File](https://editor.swagger.io/?url={{ original_spec_url }})
+
+## New Swagger File
+
+We will figure out a way to quickly view the above file in the Swagger editor. TBD.
