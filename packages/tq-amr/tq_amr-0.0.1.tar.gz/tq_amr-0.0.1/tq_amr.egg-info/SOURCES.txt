@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+tq_amr/__init__.py
+tq_amr.egg-info/PKG-INFO
+tq_amr.egg-info/SOURCES.txt
+tq_amr.egg-info/dependency_links.txt
+tq_amr.egg-info/not-zip-safe
+tq_amr.egg-info/requires.txt
+tq_amr.egg-info/top_level.txt
+tq_amr/AMR/CodeAnalyzer.py
+tq_amr/AMR/__init__.py
+tq_amr/AMR/analysis_module_imports.py
+tq_amr/graph_dot/Model.py
+tq_amr/graph_dot/__init__.py
+tq_amr/graph_dot/get_dot_N_png.py
+tq_amr/utils/__init__.py

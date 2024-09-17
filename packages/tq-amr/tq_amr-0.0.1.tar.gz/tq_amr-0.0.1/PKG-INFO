@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: tq_amr
+Version: 0.0.1
+Summary: Some simple utils.
+Home-page: https://gitee.com/torchW/tq_amr.git
+Author: TripleQuiz
+Author-email: triple_quiz@163.com
+License: MIT
+Keywords: python,util,analyze module relationship,graph,dot
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: Chinese (Simplified)
+Requires-Python: >=3.8, <3.12
+Description-Content-Type: text/markdown
+Requires-Dist: pydot==3.0.1
+Requires-Dist: pygraphviz==1.11
+Requires-Dist: tq_utils>=0.1.3.post1
+
+Util list:
+
+- ARM, Analysis Module Relationship
+  
+    通过 import、from-import 分析模块之间的关系.
+
+    CodeAnalyzer 还可以一块分析每个模块导的包，所含的类、函数、全局变量
+    
+    缺陷：
+    - 只能分析当前文件夹下的所有模块，不递归分析子文件夹（还没写）。
+    - 仅支持静态分析，分析不了动态的模块导入。
+    - 分析不了__init__.py中导入的包
+    - 分析的前提要保障代码的格式规范（以Pycharm的自动代码规范格式为标准）
+    - CodeAnalyzer只能分析单元素的赋值定义，且赋值的字面值需要缩进不能与赋值定义同缩进.
+    - CodeAnalyzer暂不支持分析相对导入
+
+ - graph_dot
+
+    仅提供了有向图的创建，但重写`__str__()`能够输出 dot 格式的图信息。
