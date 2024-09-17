@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "tergite-autocalibration"
+version = "2024.09.0"
+description = "commandline application to calibrate the WACQT quantum computers automatically"
+authors = [
+    "Eleftherios Moschandreou <elemos@chalmers.se>",
+    "Liangyu Chen <liangyuc@chalmers.se>",
+    "Tong Liu <liuto@chalmers.se>",
+    "Stefan Hill <stefanhi@chalmers.se>"
+]
+maintainers = [
+    "Chalmers Next Labs AB <quantum-nextlabs@chalmers.se>",
+]
+readme = "README.md"
+packages = [{include = "tergite_autocalibration"}]
+
+[tool.poetry.dependencies]
+python = ">= 3.9, < 3.10"
+pyqt5-qt5 = [
+    { version = "5.15.2", platform = "linux" },
+    { version = "5.15.2", platform = "win32" },
+    { version = "^5.15.2", platform = "darwin" }
+]
+colorama = "0.4.6"
+h5netcdf = "1.0.2"
+h5py = "3.7.0"
+Jinja2 = "3.1.2"
+numpy = "1.25.2"
+qblox-instruments = "0.12.0"
+qcodes = "0.39.1"
+quantify-core = "0.7.6"
+quantify-scheduler = "0.20.0"
+redis = "5.0.0"
+scikit-learn = "1.2.2"
+toml = "0.10.2"
+python-dotenv = "1.0.1"
+click = "8.1.7"
+jokeapi = "1.0.5"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+black = "^23.9.1"
+isort = "^5.12.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+requests-mock = "^1.11.0"
+
+[tool.poetry.scripts]
+acli = "tergite_autocalibration.tools.cli:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
