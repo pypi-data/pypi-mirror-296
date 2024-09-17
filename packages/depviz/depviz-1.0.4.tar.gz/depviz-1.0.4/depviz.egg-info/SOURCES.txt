@@ -1,0 +1,17 @@
+README.md
+setup.py
+depviz/__init__.py
+depviz/cli.py
+depviz/graph.py
+depviz/utils.py
+depviz.egg-info/PKG-INFO
+depviz.egg-info/SOURCES.txt
+depviz.egg-info/dependency_links.txt
+depviz.egg-info/entry_points.txt
+depviz.egg-info/requires.txt
+depviz.egg-info/top_level.txt
+depviz/parsers/__init__.py
+depviz/parsers/bazel_parser.py
+depviz/parsers/package_json_parser.py
+depviz/parsers/requirements_parser.py
+tests/test_parsers.py
