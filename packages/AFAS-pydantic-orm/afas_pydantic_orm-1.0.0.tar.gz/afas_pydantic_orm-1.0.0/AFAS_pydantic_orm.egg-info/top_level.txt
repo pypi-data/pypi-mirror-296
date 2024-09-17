@@ -1,0 +1,2 @@
+AFAS_pydantic_orm
+tests
