@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pilio
+Version: 0.1.1
+Summary: 
+Author: Ivan Zhang
+Author-email: ivanzhangofficial@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi[standard] (>=0.114.2,<0.115.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+1) pip install pilio
+2) Current api_key is just ivan-api-key
+3) pinn.send to send message
+4) pinn.onMessage to create webhook
+
