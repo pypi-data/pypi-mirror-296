@@ -1,0 +1,8 @@
+README.md
+setup.py
+Colossalpackage.egg-info/PKG-INFO
+Colossalpackage.egg-info/SOURCES.txt
+Colossalpackage.egg-info/dependency_links.txt
+Colossalpackage.egg-info/top_level.txt
+libname/__init__.py
+libname/colossal.py
