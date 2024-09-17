@@ -1,0 +1,6 @@
+yt_dlp_plugins/extractor/getpot_bgutil.py,sha256=pIxUWQG2brcif6SJXtn4CcMr6f5oY-6lwZ_FJEilJwQ,22
+yt_dlp_plugins/extractor/getpot_bgutil_http.py,sha256=9yfT8k1peTYRXHB5SoXiUxs2rKYbvW2gFP_TT68TzAQ,3501
+yt_dlp_plugins/extractor/getpot_bgutil_script.py,sha256=h-XE5wlyt-jtVVC891koFV1MbEjHCBlIjQE87AxHpvA,4014
+bgutil_ytdlp_pot_provider-0.5.2.dist-info/METADATA,sha256=WcgOKYkZOFvhaU4f9Hs9oTI7Vq5dunINTVTPnknk-RU,6075
+bgutil_ytdlp_pot_provider-0.5.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+bgutil_ytdlp_pot_provider-0.5.2.dist-info/RECORD,,
