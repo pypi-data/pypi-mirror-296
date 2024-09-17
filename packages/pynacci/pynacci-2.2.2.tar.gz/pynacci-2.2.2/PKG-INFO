@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pynacci
+Version: 2.2.2
+Summary: Una librería para trabajar con la serie de Fibonacci
+Author: Pablo Álvaro
+Author-email: palvaroh2000@gmail.com
+License: MIT
+Keywords: fibonacci mathematics generator
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+# README.txt
+
+pynacci
+=======
+
+Una librería de Python para trabajar con la serie de Fibonacci.
+
+## Instalación
+
+Puedes instalar la librería utilizando: pip install pynacci
+
