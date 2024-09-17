@@ -1,0 +1,1 @@
+{"argv": ["python", "-m", "dunky_kernel", "-f", "{connection_file}"], "codemirror_mode": "sql", "display_name": "Dunky", "language": "sql"}

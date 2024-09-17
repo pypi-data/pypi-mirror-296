@@ -1,0 +1,12 @@
+dunky/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dunky/__main__.py,sha256=NSFsRCj6ZmgjdxlTvwvxoBG3zyryiyKF8w3xCeW8nH0,137
+dunky/build.py,sha256=Vx_bLjwD7OmfwR5KgX4p20kaDiNW27pSUQGJo29A4Ys,1456
+dunky/config.py,sha256=pMfQwfHVVovIMgOkfh1ZQZ7ql8UyWRqNrEpc8po7y54,1598
+dunky/dunky_kernel.py,sha256=0WeJVFAmat2C1Y2ApwbLNdqgmHS3GrW3iDGibzoFF04,9897
+dunky/plugin.py,sha256=lYCJBhSeO3SKZS5prO-kfg6Y91tKW67Qe59kAWbZiAw,1036
+dunky/threading.py,sha256=RMkCEq0e8jIJiB7tP-gKNOQKaMBQEfQqOO9NRS9Zf-Q,535
+dunky-0.1.1.data/data/share/jupyter/kernels/dunky/kernel.json,sha256=Wg3_4B5ZyrvSxDxLNCvMqIlmIkexWVM5hbHuv3T10EI,139
+dunky-0.1.1.dist-info/METADATA,sha256=CRkO0XFCqFGPln1Pi0HXljyBgBt54crc4-wQ6u0ToUY,1752
+dunky-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dunky-0.1.1.dist-info/licenses/LICENSE,sha256=G585Vdz5wjWxDBaMygm4jB8q35kqDcExIEgtkwN2Aqw,1527
+dunky-0.1.1.dist-info/RECORD,,
