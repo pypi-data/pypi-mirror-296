@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tinydb-helper"
+version = "0.1.5"
+repository = "https://github.com/jnguyen0220/tinydb-helper"
+documentation = "https://github.com/jnguyen0220/tinydb-helper/blob/main/README.md"
+description = "Tinydb CRUD wrapper for table"
+authors = ["Jonny Nguyen <jonny_nguyen@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tinydb = "^4.8.0"
+pre-commit = "^3.8.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+coverage = "^7.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
