@@ -1,0 +1,14 @@
+bitssh/__init__.py,sha256=fi8fvihTje2NGi0zJ9cggOOoeMrtNrmGt_GL9NCEoNs,111
+bitssh/__main__.py,sha256=lP5UBIlvL80knOnuvzo0vlUcBQaymE7dRk5-hZ0oPIs,93
+bitssh/argument_parser.py,sha256=fFxWFZ_9Fu_hRv3KEh9y_k7pft2SoHLhF9EOpKGbSUc,469
+bitssh/cli.py,sha256=qN256fPAMRTDRpi2rjIQLD1pqW7wT4912LloZCtBFsA,294
+bitssh/prompt.py,sha256=-IMRULNSUMeRMdxPBeg4mIAQChH9Sm1bH_glpbqPJFQ,982
+bitssh/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bitssh/ui.py,sha256=L2XlYXaKs3GwvHgiNqyGSKXGut-cYC036cfqxHM1Buw,583
+bitssh/utils.py,sha256=AztSZIdHplEwocpONKnoafGoxfkwwH2R14WUFlhifbw,2082
+bitssh-2.8.0.dist-info/LICENSE,sha256=Ez0CJQWtDFrWifhI0TZErLXJUfU5x6X4aH8OaqlpeLU,1073
+bitssh-2.8.0.dist-info/METADATA,sha256=nLRtruyKLySDXtZ5xjkm7bAvKFN-kpQ2e68TFNItBM8,3932
+bitssh-2.8.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+bitssh-2.8.0.dist-info/entry_points.txt,sha256=DprrpudzrCK7JmIccdKMd6REkJ48WngMyI98Uca85oQ,48
+bitssh-2.8.0.dist-info/top_level.txt,sha256=zV4c9zCv7K2Oy4AJZow0RGonvmyeLcQSmjNWrTg-erA,7
+bitssh-2.8.0.dist-info/RECORD,,
