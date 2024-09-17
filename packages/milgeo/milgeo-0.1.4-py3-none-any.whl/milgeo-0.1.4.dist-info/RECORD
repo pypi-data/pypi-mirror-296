@@ -1,0 +1,13 @@
+milgeo/__init__.py,sha256=YHg962vpqSGqUyQMnQhPzoPRYyx_jfh7pHumShZzPMs,211
+milgeo/builder.py,sha256=hBa8fYPJVpZfA66S8lscKPKA4Gt6qTYh2H-rYofD90k,3479
+milgeo/color.py,sha256=E7RyU6cuy1AitgG8sHymQDpkpEsZQVX5zR84dj3B65Y,3582
+milgeo/enum.py,sha256=hTnQc-ORQUw9n8gw2UaqwfnNJXLdvB9R_8NvYwebLfY,2001
+milgeo/geometry.py,sha256=avnkwp7HN7_rbCTXtm0BmzFadaCE8R9aHT_Q9ADhwmc,8995
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_builder.py,sha256=x05eApyma7T0amDLo7oY9CVtaoKqJXWCY2y9AsdoJ78,3460
+tests/test_color.py,sha256=W85dqoNtE_eKZnSMeDoMVQNx6HEgtVvcs-uVLYo47Xw,1758
+tests/test_geometry.py,sha256=P9x0mk0LuMNAgv7efjn0nkYgQffobckBIt5NzsDcShM,5896
+milgeo-0.1.4.dist-info/METADATA,sha256=HyhOQPu7S2OwSECoCRQ3gnYR68YMyChEpbZ0FsQ7z2k,449
+milgeo-0.1.4.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+milgeo-0.1.4.dist-info/top_level.txt,sha256=XPRoqBXtzYoWhSzRQ-b3IUSGaK0pWkP_eIKARHovvww,13
+milgeo-0.1.4.dist-info/RECORD,,
