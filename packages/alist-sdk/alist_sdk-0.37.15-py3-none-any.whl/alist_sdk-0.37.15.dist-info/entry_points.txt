@@ -1,0 +1,3 @@
+[console_scripts]
+alist-cli = alist_sdk.cmd.app:app
+alist-fs = alist_sdk.cmd.fs:fs
