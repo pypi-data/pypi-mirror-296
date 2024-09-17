@@ -1,0 +1,8 @@
+README.md
+hello.py
+pyproject.toml
+milvus_beir.egg-info/PKG-INFO
+milvus_beir.egg-info/SOURCES.txt
+milvus_beir.egg-info/dependency_links.txt
+milvus_beir.egg-info/requires.txt
+milvus_beir.egg-info/top_level.txt
