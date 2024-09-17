@@ -1,0 +1,12 @@
+cfddns/__init__.py,sha256=toHatrzmxxGSl8Ls15L6WrLS2HNGWTONeROCdSG5Rx4,52
+cfddns/__main__.py,sha256=_P5nfB_sOJcMhh75oVFs_0I6mHNXSw8EYgR6N8KDA-0,60
+cfddns/cfapi.py,sha256=ZV8aLtveAI1kk2xQ3J9DFkE3TsPC_3y_Gj0jsq4BYS0,3519
+cfddns/cli.py,sha256=d0Hhbyi8gbkwSWq9VTdjw0pS5uQT9iMiqCAYUP3-wVo,13499
+cfddns/dns.py,sha256=sKywme1cwrZquniGEWO9e5yW5JYLJ1JKNAHPvlWa8JY,1624
+cfddns/iptools.py,sha256=apco6S1eypChjN21CqRm2V7R4dr8navbB5IF1JWGYaU,6092
+simple_cfddns-2.0.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+simple_cfddns-2.0.0.dist-info/METADATA,sha256=ScASzb3ajdAulXGVcdcyGHRtYN02dnKh9sVOFhAgoUM,5917
+simple_cfddns-2.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+simple_cfddns-2.0.0.dist-info/entry_points.txt,sha256=_m7ovJOuBfHTM93vvwgCFBtRZKaZlAATjt-16bV3z6A,39
+simple_cfddns-2.0.0.dist-info/top_level.txt,sha256=sjVb5Ync2mviPHNfOVSYpPX-ims6FY8ARJsih-e6xuo,7
+simple_cfddns-2.0.0.dist-info/RECORD,,
