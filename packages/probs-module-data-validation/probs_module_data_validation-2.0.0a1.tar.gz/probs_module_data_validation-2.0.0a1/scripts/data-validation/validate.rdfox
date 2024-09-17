@@ -1,0 +1,21 @@
+
+# Import ontology rules and data
+import probs_ontology_rules.dlog
+import probs_ontology_data.nt.gz
+
+set query.answer-format text/x.tab-separated-values-abbrev
+
+# There must be no cycles
+echo "check cycles"
+exec check cycles
+
+# All the required props (Role, Region, Time, and Metric) must be there
+echo "check props"
+exec check props
+
+# Each Observation should have at least a Process or an Object.
+echo "check Process/Object for Observation"
+exec check process_object
+
+#Output validation status
+exec output_valid 

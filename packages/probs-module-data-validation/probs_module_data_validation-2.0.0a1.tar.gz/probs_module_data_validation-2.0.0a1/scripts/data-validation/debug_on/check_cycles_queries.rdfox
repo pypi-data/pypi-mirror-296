@@ -1,0 +1,3 @@
+set output test_cycles.log
+SELECT ?Object WHERE {GRAPH ufu:NG { ?Object ufu:objectComposedRecursiveOf ?Object }}
+set output out

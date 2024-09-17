@@ -1,0 +1,5 @@
+
+# Our prefixes
+PREFIX :             <http://w3id.org/probs-lab/ontology#>
+PREFIX ufu:          <http://w3id.org/probs-lab/ontology/utility/>
+PREFIX qudt:         <http://qudt.org/schema/qudt/>

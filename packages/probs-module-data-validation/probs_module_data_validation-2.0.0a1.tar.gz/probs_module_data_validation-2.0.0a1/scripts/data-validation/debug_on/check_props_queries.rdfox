@@ -1,0 +1,3 @@
+set output test_missing_properties_for_observation.log
+SELECT ?Observation ?Property WHERE {GRAPH ufu:NG { ?Observation ufu:missing_props ?Property }}
+set output out

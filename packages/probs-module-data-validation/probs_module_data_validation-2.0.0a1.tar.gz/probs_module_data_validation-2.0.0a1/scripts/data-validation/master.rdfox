@@ -1,0 +1,16 @@
+# run `RDFox sandbox <root> scripts/data-validation/master`
+# where <root> is the folder "probs-module-data-validation"
+
+# Process command line arguments
+scripts/data-validation/arguments/process_args
+
+# Stop execution on any error
+set on-error stop
+
+exec setup-RDFox
+
+exec input
+
+exec validate
+
+quit

@@ -1,0 +1,6 @@
+set output valid.log
+SELECT ?valid WHERE {BIND(not exists{GRAPH ufu:VALIDATE{?ob ufu:hasStatus false}} as ?valid)} 
+set output out
+set output test_status.csv
+SELECT ?test ?status WHERE {GRAPH ufu:VALIDATE{?test ufu:hasStatus ?status}}
+set output out

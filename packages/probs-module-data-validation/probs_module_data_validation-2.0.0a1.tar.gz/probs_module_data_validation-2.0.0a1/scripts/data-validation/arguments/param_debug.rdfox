@@ -1,0 +1,3 @@
+
+# Set `debug` variable
+set debug "$(1)"
