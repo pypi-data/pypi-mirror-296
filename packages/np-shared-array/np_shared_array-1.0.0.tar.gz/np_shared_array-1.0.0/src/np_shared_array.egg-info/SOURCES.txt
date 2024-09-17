@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/np_shared_array/__init__.py
+src/np_shared_array/shared_array.py
+src/np_shared_array.egg-info/PKG-INFO
+src/np_shared_array.egg-info/SOURCES.txt
+src/np_shared_array.egg-info/dependency_links.txt
+src/np_shared_array.egg-info/requires.txt
+src/np_shared_array.egg-info/top_level.txt
+tests/test_shared_memory.py
