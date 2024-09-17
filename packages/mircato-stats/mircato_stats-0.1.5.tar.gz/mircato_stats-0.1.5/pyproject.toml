@@ -1,0 +1,28 @@
+[project]
+name = "mircato-stats"
+version = "0.1.5"
+description = "Statistics only version of MirCATo for CT image analysis. Much smaller build without torch."
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "dicom2nifti>=2.4.11",
+    "kimimaro==4.0.0",
+    "loguru>=0.7.2",
+    "nibabel>=5.2.1",
+    "scikit-image==0.23.2",
+    "scipy==1.13.1",
+    "simpleitk==2.3.1",
+    "xgboost==2.1.0",
+    "numpy==1.26",
+    "cloud-volume==8.33.0",
+    "cloud-files==4.24.2",
+    "threadpoolctl>=3.5.0",
+    "pydicom==2.4.4",
+]
+
+[project.scripts]
+mircato_stats = "mircato_stats:mircato_stats"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
