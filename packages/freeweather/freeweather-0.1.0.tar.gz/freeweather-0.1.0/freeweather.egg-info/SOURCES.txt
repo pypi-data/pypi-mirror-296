@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+freeweather.egg-info/PKG-INFO
+freeweather.egg-info/SOURCES.txt
+freeweather.egg-info/dependency_links.txt
+freeweather.egg-info/requires.txt
+freeweather.egg-info/top_level.txt
+weather/__init__.py
+weather/weather.py
