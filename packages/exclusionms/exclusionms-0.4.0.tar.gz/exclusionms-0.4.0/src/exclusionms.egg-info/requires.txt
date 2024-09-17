@@ -1,0 +1,6 @@
+intervaltree
+requests
+pydantic
+ujson
+matplotlib
+numpy
