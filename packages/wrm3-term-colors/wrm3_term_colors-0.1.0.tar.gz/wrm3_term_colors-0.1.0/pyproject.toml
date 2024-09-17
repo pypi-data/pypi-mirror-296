@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wrm3_term_colors"
+version = "0.1.0"
+description = "A terminal printing library that adds more color options."
+authors = [{name = "wrm3", email = "wrmartel3@gmail.com"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wrm3/wrm3_term_colors"
+"Bug Tracker" = "https://github.com/wrm3/wrm3_term_colors/issues"
+
+[tool.setuptools]
+packages = ["wrm3_term_colors"]

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_main.py
+wrm3_term_colors/__init__.py
+wrm3_term_colors/cls.py
+wrm3_term_colors/main.py
+wrm3_term_colors/pallette.py
+wrm3_term_colors.egg-info/PKG-INFO
+wrm3_term_colors.egg-info/SOURCES.txt
+wrm3_term_colors.egg-info/dependency_links.txt
+wrm3_term_colors.egg-info/top_level.txt
