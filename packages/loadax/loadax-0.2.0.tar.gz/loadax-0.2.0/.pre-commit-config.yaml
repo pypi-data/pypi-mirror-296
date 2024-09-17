@@ -1,0 +1,27 @@
+repos:
+  - repo: local
+    hooks:
+      - id: lint
+        name: lint
+        entry: uvx ruff check
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: format
+        name: format
+        entry: uvx ruff format --check
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: commit-msg
+        name: conventional-commit-messages
+        language: pygrep
+        entry: "^(chore|test|feat|fix|build|docs|refactor)!?:.*$"
+        args: [--multiline, --negate] # fails if the entry is NOT matched
+        stages: [commit-msg]
+      - id: typecheck
+        name: typecheck
+        entry: rye run mypy src/loadax/
+        language: system
+        types: [python]
+        pass_filenames: false
