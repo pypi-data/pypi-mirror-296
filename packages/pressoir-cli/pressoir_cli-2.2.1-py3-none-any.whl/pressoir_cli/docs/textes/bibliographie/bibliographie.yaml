@@ -1,0 +1,23 @@
+title: >-
+    Bibliographie
+title_h: >-
+    Bibliographie
+# max 72 caractères - pour un affichage optimal du titre dans le footer
+authors:
+    # si ouvrage collectif = auteur.ice.s du chapitre. Sinon, supprimer le champ authors
+    - forname: Margot
+      surname: Mellet
+      orcidurl: 'https://orcid.org/0000-0001-7167-2136'
+      display: 'none'
+      # dans le cas d'un ouvrage collectif, on affiche uniquement le nom des auteur.rice.s sous le titre du chapitre
+      presentation:
+    - forname: Servanne
+      surname: Monjour
+      orcidurl: 'https://orcid.org/0000-0003-1067-2145'
+      display: 'none'
+      # dans le cas d'un ouvrage collectif, on affiche uniquement le nom des auteur.rice.s sous le titre du chapitre
+      presentation:
+abstract_fr:
+abstract_en:
+keyword_fr:
+keyword_en:
