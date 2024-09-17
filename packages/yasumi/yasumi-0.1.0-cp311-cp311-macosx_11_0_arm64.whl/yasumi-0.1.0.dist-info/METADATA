@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: yasumi
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Yasumi is a library for calculating the dates of Japanese holidays.
+Author: telumo
+Author-email: telumo <drumscohika@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/telumo/yasumi
+Project-URL: Issues, https://github.com/telumo/yasumi/issues
+
+# yasumi
+
+for Python
