@@ -1,0 +1,16 @@
+gastli-0.9.1.dist-info/METADATA,sha256=iU62f0PvOlaEEgMjyDowLn88IOzez6YaAZ0TfZcNOls,3435
+gastli-0.9.1.dist-info/WHEEL,sha256=x44jD3KBENaGHuQXcWAzS6gsPN77l0_sHfItfgXuX0c,94
+gastli-0.9.1.dist-info/LICENSE,sha256=qHmuMDQWVADzqdIJCtVVA3Uuog8e2hxKeqipXSQRsb8,1500
+gastli/dimensions.cpython-310-darwin.so,sha256=susEkaJg2zsdnVkXteKVELH2s8dKUxpcUoRUg2M3JgI,71288
+gastli/constants.cpython-310-darwin.so,sha256=PLyeYJsuc-s_dyy2DIDKCuhG5rNBZQPkhvpBYibRYxA,71384
+gastli/fortinput.cpython-310-darwin.so,sha256=KrzczTc447-jtlX3yEdLf5CpMZ2i9MBNgaN1XmB9WG4,124904
+gastli/fortspec.cpython-310-darwin.so,sha256=Eg6i6MbbggUIYE4eNt8z_Bf8bVRATOtgBqmR06o977E,72896
+gastli/gastli_interior.cpython-310-darwin.so,sha256=YxlQXLMm1_ckrCtMrAy09Bf22sPaHtzJQ6J76syx1c8,311104
+gastli/GASTLI.py,sha256=HOvkX974MuuxJ5rVvkakNAOt3VPTu6O5ylhLahKYMZQ,10171
+gastli/Guillot10.py,sha256=BDgY9OCyN9O8jCHXLQ3jy79Xzeqc5G1iEhwrg-gMcYM,11074
+gastli/radius_hse.py,sha256=EG2cN-ka7Y6zP7tpY5MuGP_FVbao9IApU-i0sJi284I,875
+gastli/atm_models_interp.py,sha256=UIJ0HGCbU49g4KLaCx6_cmho62DaU4JnZg9gi2o7QQA,32479
+gastli/Coupling.py,sha256=pUxQpZk2Xwq15XaNTfYwb433eNaJ1Bz3cgkEldAXIYs,12127
+gastli/Thermal_evolution.py,sha256=z6NBj5f_mE8vEykf_tmXqUgOB0nl1Qw1yNz74Vz3KFU,12650
+gastli/water_curves.py,sha256=st4ZUs_XenZwewjzpDANjGkWX2mmklAf_4gbBBkNiXA,2302
+gastli-0.9.1.dist-info/RECORD,,
