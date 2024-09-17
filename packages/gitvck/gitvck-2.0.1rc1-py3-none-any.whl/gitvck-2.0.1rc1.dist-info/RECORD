@@ -1,0 +1,9 @@
+gitvck/__init__.py,sha256=gB5mFE4XFSN1WSigpC4xA1E4FMr436K4m3YfSmSKAL8,36
+gitvck/_version.py,sha256=IpzOeECI-EX3KhvyBzmSPJNPJVVBsPDj7c-H6yhjeAg,25
+gitvck/changelog.py,sha256=1GA1gy3GIWlJ1QisiI4w-EQc2i6fXlspiq_H_l-M63o,127
+gitvck/gitvck.py,sha256=wO_OUeE0Pdj7Ydt6xiMamw-9lq8rK1E-OM1TqCPdmdA,14452
+gitvck-2.0.1rc1.dist-info/LICENSE,sha256=IZj4nVX6-atd8PzyF2fhoVXzF7vw1rBG-O6pwjy8pQ0,1107
+gitvck-2.0.1rc1.dist-info/METADATA,sha256=4mvfTDHa4z8Kb1R6ZHk0VMY9CiQ8BW_qjGM5CysSVJ4,5209
+gitvck-2.0.1rc1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+gitvck-2.0.1rc1.dist-info/top_level.txt,sha256=i_zsL2-TO6Rv31fujUrIWlAN0BXsfZJhLzwiL7SJldY,7
+gitvck-2.0.1rc1.dist-info/RECORD,,
