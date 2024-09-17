@@ -1,0 +1,10 @@
+shortener/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shortener/exceptions.py,sha256=geWJ2oGvdYjgjWyzdz77MymgjO10pLkwj7fVNRPhf20,47
+shortener/shortener.py,sha256=7tvYT2p-f4n8BlvDlPXugqf6qqq0KAGjX_jTs_HyRx0,767
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_shortener.py,sha256=FG54cdQTbOZ1s_e4yRykB-yxkFCaNlNQUquFGuxxD8s,1302
+django_link_url_shortener-1.0.dist-info/LICENSE,sha256=O3ihTtq49TYn0a1USlTsiW8Lazg1huX0vCApJk12aHM,1066
+django_link_url_shortener-1.0.dist-info/METADATA,sha256=BHm-oKToOTGHq4oeax-7XyfGuD32FVqPiIVmF-L2dis,3278
+django_link_url_shortener-1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+django_link_url_shortener-1.0.dist-info/top_level.txt,sha256=JRU0ynB48SjkfUpDeYwNzg1ahRGUkE7FuRgftzucE14,16
+django_link_url_shortener-1.0.dist-info/RECORD,,
