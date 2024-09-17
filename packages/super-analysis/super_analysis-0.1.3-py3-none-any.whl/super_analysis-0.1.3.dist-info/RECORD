@@ -1,0 +1,17 @@
+superanalysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+superanalysis/version.py,sha256=ZY_T77NrMqIKfBFzfdhmZshXLlalrgsDWr2x7DjBA1w,21
+superanalysis/serve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+superanalysis/serve/api_server.py,sha256=HuSl1fAQ2DUdnY3yRL-kG7KwKJbFJbl2Fq3iNN4DNDs,6711
+superanalysis/serve/cli.py,sha256=D1LLldf14Hhwr22Fzm8-ac2T_8UaLnUcMXi6kvDe4sI,5077
+superanalysis/serve/convert.py,sha256=wHwYoNjoC8OgK-11B4Rzx60PggKw8n1bZ8SDHg7v3NE,3206
+superanalysis/serve/llm_wrapper.py,sha256=xpccabQO_gtXo5GZpJIREAeVsf3wNYAtNnjGDpdKILY,2571
+superanalysis/serve/openai_serve.py,sha256=TKzReSjZCBwXobeZggOHT3zuMlDmGW-Fh5ypSKqyEaU,2671
+superanalysis/serve/rest.py,sha256=N2GKDDxtnjoc54DYPUxzXCCf0La-iDSPkWWwnj3XRk8,3018
+superanalysis/sql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+superanalysis/sql/generator.py,sha256=fvlGiC31GDBJDoKx5NyeG4YQg0QNgwB_3xHyTZpAmzg,8693
+superanalysis/sql/types.py,sha256=v4xuk7qQlgAYJpw0SVhEwf0HcqQfd8gWXBQNGRw_E-c,429
+super_analysis-0.1.3.dist-info/METADATA,sha256=mIPPJEd7MzofoKLOCX6suEtm_kaI7MVTvCH4zR8h2Vs,7662
+super_analysis-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+super_analysis-0.1.3.dist-info/entry_points.txt,sha256=N3HCzGb5Gf_8T5AG3Sfrvy5jLm-Me59Jjj05utDkvu4,178
+super_analysis-0.1.3.dist-info/top_level.txt,sha256=WNfm2HOZlYI0bv1c9EfdjAb4bXwipp9Iqe3mSMVwjCw,14
+super_analysis-0.1.3.dist-info/RECORD,,
