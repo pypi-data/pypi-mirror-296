@@ -1,0 +1,14 @@
+policyengine_core
+tables
+survey_enhance
+torch
+requests
+tqdm
+tabulate
+build
+
+[dev]
+black
+pytest
+policyengine_uk>=1.8.0
+streamlit

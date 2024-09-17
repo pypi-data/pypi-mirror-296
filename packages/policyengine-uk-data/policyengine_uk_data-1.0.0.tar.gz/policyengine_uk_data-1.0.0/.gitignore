@@ -1,0 +1,13 @@
+*.egg-info
+**/__pycache__
+**/.DS_STORE
+**/*.h5
+*.ipynb
+**/*.csv
+**/*.zip
+**/*.pkl
+!uprating_factors.csv
+!uprating_growth_factors.csv
+!incomes.csv
+!tax_benefit.csv
+!demographics.csv
