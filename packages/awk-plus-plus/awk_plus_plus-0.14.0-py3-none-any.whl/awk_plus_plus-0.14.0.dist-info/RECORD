@@ -1,0 +1,17 @@
+awk_plus_plus/__init__.py,sha256=P3tZtrHnUIK-bVxOoUkDXegk9n0A2V2_z1UpL3m9eOQ,1092
+awk_plus_plus/cli.py,sha256=QgSgGK2Rv1fTdn_KnwpW0uZ3vtP9a1Xi8Jtxdfs3T1s,5563
+awk_plus_plus/plugin_manager.py,sha256=UIuYmhqKNVPwTftvTV-d6r0ttCwX4-maEZ2tRRNbgCQ,830
+awk_plus_plus/webapp.py,sha256=Uw-ZHN75umS1j6yMIEc6KHVwwhmfZvauYSKIABF_pB8,829
+awk_plus_plus/interpreter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awk_plus_plus/interpreter/interpreter.py,sha256=5cLzTqMnGq3OZSGcZ55a_QUxtj30tThljlZqdQAUSQM,2439
+awk_plus_plus/interpreter/sql_macros.py,sha256=CiCHxefM6lCGKhl_aGYFzA1RxPiOPn8W7Y0mr5EDSaw,919
+awk_plus_plus/interpreter/std.py,sha256=LYrAB1EQTGgmutFQck1avhmOlOhs6s4FThLqSrwvhHA,6042
+awk_plus_plus/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awk_plus_plus/io/assets.py,sha256=iLYGzul6AHJYOSmKjqihqmh3GYi8Pvk23ZerjcimPoU,2754
+awk_plus_plus/io/http.py,sha256=kfbGEx1wJSrOHKkDAX0QWts7h3tIOBh5dgUMQ6NBrsE,2607
+awk_plus_plus-0.14.0.dist-info/LICENSE.txt,sha256=A356-RxY6lv1efDq-ID-T7RKqPHcbuqtkGwqLu_8yyU,1082
+awk_plus_plus-0.14.0.dist-info/METADATA,sha256=WpZSfSXA0_dYg4HbOy7yF09KUvEHPnzNtz6IwF8AyUs,5506
+awk_plus_plus-0.14.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+awk_plus_plus-0.14.0.dist-info/entry_points.txt,sha256=xodADGPfMnJvi_MnnznIOcbB8DrhT5YsDRUB8Foz-DM,46
+awk_plus_plus-0.14.0.dist-info/top_level.txt,sha256=6iSLJ3IGuX4zmrQBlekS-chgX5EFdEb3xb9sw6-3wSI,14
+awk_plus_plus-0.14.0.dist-info/RECORD,,
