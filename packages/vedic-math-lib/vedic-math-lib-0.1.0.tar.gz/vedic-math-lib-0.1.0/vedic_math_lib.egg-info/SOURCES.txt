@@ -1,0 +1,6 @@
+README.md
+setup.py
+vedic_math_lib.egg-info/PKG-INFO
+vedic_math_lib.egg-info/SOURCES.txt
+vedic_math_lib.egg-info/dependency_links.txt
+vedic_math_lib.egg-info/top_level.txt
