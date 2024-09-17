@@ -1,0 +1,9 @@
+clashnetlib/__init__.py,sha256=rppFSN7LmqAMymSaw8T0bv9_7KIdtUFYlCCAalSQKJw,335
+clashnetlib/decision_maker.py,sha256=9Oo44yVt19ClaZCiBbQx3vglyNluNFArspN2ZDauLfs,3643
+clashnetlib/demo.py,sha256=i-AzXnrGGm4xTStCyWRGZly__5BeFEoRf8scARXojhM,713
+clashnetlib/implements/__init__.py,sha256=GnGKLm3XJC1W5MpKxEnzOI9MCm2PjpeG1pD0AaXoGC0,111
+clashnetlib/implements/fight_decision_maker.py,sha256=Bvp3n6Xm2FPVJ-mVTK-nk0PWkJM2_cUn4O1hSahNwVc,1540
+clash_net_lib-0.0.1rc1.dist-info/LICENSE,sha256=TBAdBLmlOCCBJLR0DrzlyahWsTzjZ2VkxKt1sxbTF5c,1057
+clash_net_lib-0.0.1rc1.dist-info/METADATA,sha256=avlD0e1VR8x0vmfgKiwh2tn51ypYZT9z26uwLXsmNf4,692
+clash_net_lib-0.0.1rc1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+clash_net_lib-0.0.1rc1.dist-info/RECORD,,

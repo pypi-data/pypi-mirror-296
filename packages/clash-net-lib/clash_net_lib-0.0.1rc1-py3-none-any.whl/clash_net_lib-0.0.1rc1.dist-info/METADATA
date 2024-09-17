@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: clash-net-lib
+Version: 0.0.1rc1
+Summary: The API for Clash Net
+Home-page: https://github.com/pyclashbot/clash-net-lib
+License: MIT
+Author: Martin Miglio
+Author-email: martin@pyclashbot.app
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: numpy (>=1,<2)
+Project-URL: Repository, https://github.com/pyclashbot/clash-net-lib
+Description-Content-Type: text/markdown
+
+# clash-net-lib
+
+The API for Clash Net
+
