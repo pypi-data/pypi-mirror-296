@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+hydrophilicity_plot/__init__.py
+hydrophilicity_plot/__main__.py
+hydrophilicity_plot/hydrophilicity_plot.py
+hydrophilicity_plot.egg-info/PKG-INFO
+hydrophilicity_plot.egg-info/SOURCES.txt
+hydrophilicity_plot.egg-info/dependency_links.txt
+hydrophilicity_plot.egg-info/entry_points.txt
+hydrophilicity_plot.egg-info/requires.txt
+hydrophilicity_plot.egg-info/top_level.txt
