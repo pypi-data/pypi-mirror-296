@@ -1,0 +1,4 @@
+[console_scripts]
+zipschema = zipschema.zipschema:cli
+zs = zipschema.zipschema:cli
+
