@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+holamundoplayervalium/__init__.py
+holamundoplayervalium/player.py
+holamundovalium.egg-info/PKG-INFO
+holamundovalium.egg-info/SOURCES.txt
+holamundovalium.egg-info/dependency_links.txt
+holamundovalium.egg-info/top_level.txt
