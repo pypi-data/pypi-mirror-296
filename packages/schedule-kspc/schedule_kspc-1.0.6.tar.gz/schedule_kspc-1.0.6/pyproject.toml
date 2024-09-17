@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "schedule-kspc"
+version = "1.0.6"
+description = "Automatic schedule for Kursk State Polytechnic College (KSPC)"
+authors = ["LeoBonki <bonkibon75@gmail.com>"]
+license = "License :: OSI Approved :: GNU Affero General Public License v3"
+readme = "README.md"
+homepage  = "https://github.com/bonkibon-education/schedule-kspc"
+repository  = "https://codeload.github.com/bonkibon-education/schedule-kspc/zip/refs/tags/v1.0-beta"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiofiles = "*"
+aiohttp = "*"
+numpy = "*"
+openpyxl = "*"
+requests = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
