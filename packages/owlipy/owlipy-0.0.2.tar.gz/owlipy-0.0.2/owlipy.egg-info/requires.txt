@@ -1,0 +1,7 @@
+symbolipy
+
+[dev]
+pytest
+gurobipy
+docplex
+highspy
