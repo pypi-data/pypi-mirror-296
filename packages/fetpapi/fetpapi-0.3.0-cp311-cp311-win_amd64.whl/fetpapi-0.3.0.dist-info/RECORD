@@ -1,0 +1,9 @@
+fetpapi/Fetpapi.0.3.0.0.dll,sha256=WR7ij_qJXxRszRtX7-7pgT4bFpn2G8U-p4Y2aVELxxg,1850880
+fetpapi/__init__.py,sha256=-9eLrdAuuYqf1CFBzvbD8UwSEZmpAbdakZe6Bexsz6g,518880
+fetpapi/_fetpapi.cp311-win_amd64.pyd,sha256=jZhsSCqCd-EIQGK2XnQnjzg_TzwHpKnjygk50hW5y2g,4786688
+fetpapi/libcrypto-3-x64.dll,sha256=I6Pz4aq4QPWIOR8qbiom4sXP0mB4sf6AMw_xyVeFO70,5000584
+fetpapi/libssl-3-x64.dll,sha256=M2HiR0m6Uy3pYyXCNeiPDjMaaHMyJS5qO0Ts5Q8yKzA,1372552
+fetpapi-0.3.0.dist-info/METADATA,sha256=hFCytNtG0e6_t9CCiWPghZr4d9JQVDnqokbeV6S0FZQ,1944
+fetpapi-0.3.0.dist-info/WHEEL,sha256=rt4ogJhfwzOIZpQG1-igUOP-t_yXz3fi7xFfo-fNzUo,101
+fetpapi-0.3.0.dist-info/top_level.txt,sha256=w8sGCg71mXFHQMye9odtpN7p6FS4Tm5bnAgu42YIH2A,17
+fetpapi-0.3.0.dist-info/RECORD,,
