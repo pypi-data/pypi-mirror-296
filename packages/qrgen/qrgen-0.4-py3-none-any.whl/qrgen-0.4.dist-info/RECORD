@@ -1,0 +1,7 @@
+qrgen-0.4.dist-info/METADATA,sha256=OhZ9wUQp_XmuHju-_G9ZmLTJa-hx9jIb6uZ9LGalb5w,1424
+qrgen-0.4.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+qrgen-0.4.dist-info/licenses/LICENCE,sha256=DgIGpvdZUr0780FyZ6QdmltD_uQverVOw2LGPZWufXU,1069
+qrgen/__init__.py,sha256=cDASL7WEowJCPx5VD7-g4ByHqJNvcm6YEuO18wT9Ba8,1003
+qrgen/server.py,sha256=DYP6W7v6Dffox2qavRnq75Hgv_SB4nrFQbzvrJ9V0Nw,1685
+qrgen/templates/index.html,sha256=T9Jwbc87lH6J7SKY6SunDD38cjUuylELjyU6zp8fZ6Y,206
+qrgen-0.4.dist-info/RECORD,,
