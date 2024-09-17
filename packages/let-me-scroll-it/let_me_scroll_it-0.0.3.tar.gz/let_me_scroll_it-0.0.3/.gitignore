@@ -1,0 +1,12 @@
+env/*
+example/*.png
+example/*.html
+
+*.egg-info
+*.swp
+*.pyc
+
+
+*.whl
+*.tar.gz
+build/*
