@@ -1,0 +1,9 @@
+numpy
+gdal
+shapely
+rasterstats
+matplotlib
+matplotlib_scalebar
+alive_progress
+csv
+pickle
