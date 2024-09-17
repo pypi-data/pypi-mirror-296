@@ -1,0 +1,8 @@
+pyyaml
+Jinja2
+
+[test]
+watching-testrunner
+pytest
+pytest-cov
+PyPAC

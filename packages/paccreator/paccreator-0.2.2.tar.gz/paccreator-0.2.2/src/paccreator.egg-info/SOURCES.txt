@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/paccreator/__init__.py
+src/paccreator/helpers.py
+src/paccreator/paccreator.py
+src/paccreator/paccreatorconfig.py
+src/paccreator/template.js.jinja
+src/paccreator.egg-info/PKG-INFO
+src/paccreator.egg-info/SOURCES.txt
+src/paccreator.egg-info/dependency_links.txt
+src/paccreator.egg-info/requires.txt
+src/paccreator.egg-info/top_level.txt
