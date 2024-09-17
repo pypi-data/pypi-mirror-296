@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lik
+Version: 0.0.1
+Summary: test my lik package
+Home-page: https://github.com/psychAo/lik
+Author: psychAo
+Author-email: psychao@outlook.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# This is a readme me file
+
+lik version: 0.0.1
