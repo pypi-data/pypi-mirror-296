@@ -1,0 +1,60 @@
+import argparse
+import sys
+
+from nox import workflow, tasks, _options
+from .autonox import create_session, create_parser
+
+argparse.Namespace
+
+
+def get_autonox_version() -> str:
+    import importlib.metadata
+
+    return importlib.metadata.version("autonox")
+
+
+def load_autonox(global_config):
+    import autonox.autonox
+
+    return autonox.autonox
+
+
+def main():
+    _options.options.parser_kwargs["description"] = "Autonox is a nox wrapper for automatic project file generation."
+
+    args = _options.options.parse_args()
+
+    if args.help:
+        _options.options.print_help()
+
+        p = create_parser()
+        p.usage = argparse.SUPPRESS
+        p.description = "\nAutonox global session options."
+        p.print_help()
+
+        return
+
+    if args.version:
+        print(get_autonox_version(), file=sys.stderr)
+        return
+
+    create_session(args.posargs)
+
+    return workflow.execute(
+        global_config=args,
+        workflow=(
+            load_autonox,
+            tasks.merge_noxfile_options,
+            tasks.discover_manifest,
+            tasks.filter_manifest,
+            tasks.honor_list_request,
+            tasks.run_manifest,
+            tasks.print_summary,
+            tasks.create_report,
+            tasks.final_reduce,
+        ),
+    )
+
+
+if __name__ == "__main__":
+    main()

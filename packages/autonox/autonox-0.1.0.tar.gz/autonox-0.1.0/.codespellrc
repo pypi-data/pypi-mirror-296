@@ -1,0 +1,2 @@
+[codespell]
+skip = src/autonox/text.py, src/autonox.egg-info/*
