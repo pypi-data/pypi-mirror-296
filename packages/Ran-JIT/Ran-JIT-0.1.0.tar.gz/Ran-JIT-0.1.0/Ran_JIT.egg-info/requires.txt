@@ -1,0 +1,8 @@
+numba>=0.53.1
+psutil>=5.8.0
+requests>=2.25.1
+requests-cache>=0.5
+aiohttp>=3.7.4
+asyncio
+httpx>=0.18.2
+urllib3>=1.26.5
