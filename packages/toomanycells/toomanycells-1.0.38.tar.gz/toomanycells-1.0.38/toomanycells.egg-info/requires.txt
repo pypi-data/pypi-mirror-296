@@ -1,0 +1,16 @@
+scanpy
+scipy
+numpy
+pandas
+networkx
+tqdm
+scikit-learn
+matplotlib
+pygraphviz
+plotly
+celltypist
+
+[all]
+toomanycells[extra]
+
+[extra]
