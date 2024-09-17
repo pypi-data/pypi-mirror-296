@@ -1,0 +1,13 @@
+fdicapi/__init__.py,sha256=Vj0Rx81cO7gHkTjXdlLL95b5L5z3baEw--zG25h4E7A,1597
+fdicapi/demographics/__init__.py,sha256=hl_NZvd6Jy52UnPzDK6UAkhBUJzxci8fLVnyjnZJDPE,453
+fdicapi/failures/__init__.py,sha256=ScS9jxOP2qdRqEujp4uWMk_Fb3nhgL92tafR3KvdZ9I,1436
+fdicapi/financials/__init__.py,sha256=95p7GWCOtpeqDZ6nDpWinFbiA1SbpSoUjOOmbI2DsTc,1330
+fdicapi/historical/__init__.py,sha256=g3RLyLERHyXjflSkEQSkCbC_jch1t5nL-dazbK7Wi7g,1416
+fdicapi/history/__init__.py,sha256=AZKpaYy95exXwL667kT8P2AJyMzskO_4Oo8z--W-utU,1215
+fdicapi/sod/__init__.py,sha256=q-rIaks2AjeOt9NgMevpr44DiyXkwx_jKUSOsaLk45g,1199
+fdicapi/structure/__init__.py,sha256=2W2NoQBX0jaPP8p-2qDIay0PVtvxK4XlNZG5r972ZN0,1621
+fdicapi-0.0.1.dist-info/LICENSE,sha256=guPUlRGu9j6289UViiQLgcidN91-dgS1_qU8OZSx2_c,1067
+fdicapi-0.0.1.dist-info/METADATA,sha256=Tn1Pyt2LWnhvgN3L4gg-hus5pcZEJWEZ8Pd_HVi2B3k,16368
+fdicapi-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+fdicapi-0.0.1.dist-info/top_level.txt,sha256=BA1Uro3eiYQw9WoyN5VjoKYyZTnjNSjBS3cAEhwU-7E,8
+fdicapi-0.0.1.dist-info/RECORD,,
