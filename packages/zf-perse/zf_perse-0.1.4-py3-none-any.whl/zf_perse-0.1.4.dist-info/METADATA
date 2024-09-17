@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: zf-perse
+Version: 0.1.4
+Summary: perse converts HTML content into structured JSON data
+Author: Zeff Muks
+Author-email: zeffmuks@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types==0.7.0
+Requires-Dist: anyio==4.4.0
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: bs4==0.0.2
+Requires-Dist: certifi==2024.8.30
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: distro==1.9.0
+Requires-Dist: greenlet==3.0.3
+Requires-Dist: h11==0.14.0
+Requires-Dist: httpcore==1.0.5
+Requires-Dist: httpx==0.27.2
+Requires-Dist: idna==3.10
+Requires-Dist: jiter==0.5.0
+Requires-Dist: loguru==0.7.2
+Requires-Dist: openai==1.45.1
+Requires-Dist: playwright==1.47.0
+Requires-Dist: pydantic==2.9.1
+Requires-Dist: pydantic-core==2.23.3
+Requires-Dist: pyee==12.0.0
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: requests==2.32.3
+Requires-Dist: sniffio==1.3.1
+Requires-Dist: soupsieve==2.6
+Requires-Dist: tqdm==4.66.5
+Requires-Dist: typing-extensions==4.12.2
+Requires-Dist: urllib3==2.2.3
+
+# Perse
+
+[![PyPI version](https://badge.fury.io/py/zf-perse.svg)](https://badge.fury.io/py/zf-perse)
+
+![Perse](https://zf-static.s3.us-west-1.amazonaws.com/perse-logo128.png)</p>
+
+Perse converts `HTML` to `JSON` using a mix of traditional html parsing and LLM based data extraction. It performs a few optimizations after fetching the html without accidently removing any important data.
+
+These optimizations includes:
+
+- Removal of styling, scripting and svg tags
+- Collapsing Tags (e.g. divs) with only one child
+
+## Installation
+
+```bash
+pip install zf-perse
+```
+
+## Usage
+
+```bash
+export PERSE_OPENAI_API_KEY="your-openai-api-key"
+```
+
+### CLI
+
+```bash
+perse --url https://example.com
+```
+
+### Python
+
+```python
+from perse import perse
+
+url = "https://example.com"
+html = requests.get(url).text
+j = perse(html)
+print(j)
+```
+
+## Example
+
+## Google's Homepage
+
+```bash
+$ perse --url https://google.com
+
+{'image': 'https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png', 'title': 'Google', 'navigation_links': [{'link_name': 'About', 'href': 'https://about.google/?fg=1&utm_source=google-SG&utm_medium=referral&utm_campaign=hp-header'}, {'link_name': 'Store', 'href': 'https://store.google.com/SG?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-SG'}], 'logo': 'https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png', 'search_form': {'action': '/search', 'method': 'GET', 'autocomplete': 'off', 'search_field': 'q', 'buttons': [{'button_text': 'Google Search', 'button_action': 'submit'}, {'button_text': "I'm Feeling Lucky", 'button_action': 'submit'}]}}
+```
+
+### Input
+
+```bash
+$ perse --url https://zeffmuks.com
+
+{
+    "title": "Zeff Muks",
+    "description": "Antifragile Entropy Assassin 🥷",
+    "og": {
+        "type": "website",
+        "title": "Zeff Muks",
+        "description": "Antifragile Entropy Assassin 🥷",
+        "url": "https://www.zeffmuks.com/",
+        "image": "https://www.zeffmuks.com/images/ZeffMuks-1920.png",
+        "site_name": "Zeff Muks",
+    },
+    "twitter": {
+        "card": "summary_large_image",
+        "site": "@zeffmuks",
+        "title": "Zeff Muks",
+        "description": "Antifragile Entropy Assassin 🥷",
+        "image": "https://www.zeffmuks.com/images/ZeffMuks-1920.png",
+    },
+    "main_header": "Antifragile Entropy Assassin 🥷🏻",
+    "header_link": "https://x.com/zeffmuks",
+    "builds": [
+        {
+            "date": "08/30/2024",
+            "project": {
+                "name": "Cursor Git",
+                "description": "Enhanced Git for Cursor AI Editor",
+                "logo_url": "https://zf-static.s3.us-west-1.amazonaws.com/cursor-git-logo128.png",
+                "download_link": "https://zf-static.s3.us-west-1.amazonaws.com/cursor-git-0.1.12.vsix",
+                "external_link": "",
+            },
+        },
+        {
+            "date": "08/18/2024",
+            "project": {
+                "name": "PyZF",
+                "description": "Enhancements for Python",
+                "logo_url": "https://zf-static.s3.us-west-1.amazonaws.com/pyzf-logo128.png",
+                "download_link": "",
+                "external_link": "https://pypi.org/project/PyZF",
+            },
+        },
+        {
+            "date": "08/05/2024",
+            "project": {
+                "name": "Xanthus",
+                "description": "X (formerly Twitter) Assistant",
+                "logo_url": "https://zf-static.s3.us-west-1.amazonaws.com/xanthus-logo128.png",
+                "download_link": "",
+                "external_link": "https://pypi.org/project/zf-xanthus",
+            },
+        },
+        {
+            "date": "07/24/2024",
+            "project": {
+                "name": "Jenga",
+                "description": "Fast JSON5 Python Library",
+                "logo_url": "",
+                "download_link": "https://pypi.org/project/zf-jenga",
+                "external_link": "",
+            },
+        },
+        ...
+```
+
+## License
+
+[MIT License](./LICENSE)
