@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: byte-gg-wrapper
+Version: 1.0.2
+Author: icmedev
+Author-email: icmecodes@kys.gay
+Requires-Python: >=3.7
+Requires-Dist: requests
+
