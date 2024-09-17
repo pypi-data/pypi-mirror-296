@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: markerpath
+Version: 0.1.10
+Summary: All imports are relative to the presence of the marker file
+Home-page: https://github.com/
+Author: gg61021277
+Author-email: gg61021277@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Usage:
+
+1. Create a file with extension .marker in your base directory.  
+2. Contents of this file
+    Nothing
+    OR
+    lines of path relative to the base directory that contains python executable. These paths will be appended 
+    by the import to the sys.path
+3. In your python file with main anywhere under the base directory.
+    import markerpath
+
+    3.1 This will create a environment variable 
+        MARKER_PATH=<the base directory>
+
+    3.2 Access this as such
+        import os
+        marker_home=os.environ["MARKER_PATH"]
+
+
