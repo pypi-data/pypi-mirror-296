@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+osintr/__init__.py
+osintr/main.py
+osintr.egg-info/PKG-INFO
+osintr.egg-info/SOURCES.txt
+osintr.egg-info/dependency_links.txt
+osintr.egg-info/entry_points.txt
+osintr.egg-info/requires.txt
+osintr.egg-info/top_level.txt
