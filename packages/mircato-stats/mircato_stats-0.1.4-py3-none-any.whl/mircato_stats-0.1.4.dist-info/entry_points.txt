@@ -1,0 +1,2 @@
+[console_scripts]
+mircato_stats = mircato_stats:mircato_stats
