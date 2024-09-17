@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "JPyDB"
+version = "0.0.6"
+authors = [
+  { name="Manuel Sánchez Mascarell", email="manusanchezmascarell@gmail.com" },
+]
+description = "Python library to create and manage databases in Json"
+readme = "README.md"
+requires-python = ">=3.8"
+requirements = [
+    "flask"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+jpydb-server = "JPyDB.JPyDBServer:main"
+
+[project.urls]
+GitHub = "https://github.com/Manu-Sanchez/JPyDB"
+Linkendin = "https://www.linkedin.com/in/manuel-s%C3%A1nchez-mascarell-2a2277195/"
