@@ -1,0 +1,12 @@
+nonebot/adapters/minecraft/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot/adapters/minecraft/adapter.py,sha256=DUYqmpntLf0k7MDICQX_BHxGSc5ITk-RGBFIw6viCEU,3327
+nonebot/adapters/minecraft/config.py,sha256=tEJXXY97lvLUEjtZPTdCcW2dskdnCUiIi354_RQuDd0,100
+nonebot/adapters/minecraft/event.py,sha256=ewdHVIRqU9yBiel6J7jpolfNZfLjDmFmu8HQZ010Iqw,3564
+nonebot/adapters/minecraft/logger.py,sha256=mcjv1zBmhNj0noUdBXwjC2cFUGvSOSlnSRZP8onDHGk,77
+nonebot/adapters/minecraft/message.py,sha256=V3F_2yTu9xuJDm2ADdNVYQGfVSoISbEJEfjvkpt1Q2A,1317
+nonebot/adapters/minecraft/server.py,sha256=ue-PfP5vdgJjfL6xY_MuWOZyUE8HFPJNLss8gFdOW1U,4848
+nonebot/adapters/minecraft/utils.py,sha256=Igf7X3AX8ri_Sctv6g69aiDQ39KyCT-aWq2bcuwSWgA,669
+nonebot_adapter_minecraft_server-1.3.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nonebot_adapter_minecraft_server-1.3.2.dist-info/METADATA,sha256=tlEQY_sYjjIHJjvVfMxlsppuhF5DMkF4lc962i_bDDM,681
+nonebot_adapter_minecraft_server-1.3.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nonebot_adapter_minecraft_server-1.3.2.dist-info/RECORD,,
