@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ozzy_image_processing
+Version: 0.0.3
+Summary: Package to process images using Python
+Home-page: https://github.com/ozzysp/image-processing-package
+Author: Ozzy Azevedo
+Author-email: ozzysp@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ozzy_image_processing
+
+## Description
+
+The package `ozzy_image_processing` is used to:
+
+Processing:
+- Histogram matching
+- Structural similarity
+- Resize image
+
+Utils:
+- Read image
+- Save image
+- Plot image
+- Plot result
+- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `ozzy_image_processing`:
+
+```bash
+pip install ozzy_image_processing
+```
+## Autor
+	Ozzy Azevedo
+
+## License
+	MIT
+	
