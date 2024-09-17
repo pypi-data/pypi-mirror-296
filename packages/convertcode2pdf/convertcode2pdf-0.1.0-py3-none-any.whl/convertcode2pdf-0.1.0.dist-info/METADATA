@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: convertcode2pdf
+Version: 0.1.0
+Summary: A GUI tool to convert code files to PDF or TXT
+Home-page: https://github.com/yourusername/codetopdf
+Author: LightWheel
+Author-email: tiwariparas1096@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pygments
+Requires-Dist: weasyprint
+Requires-Dist: sv-ttk
+
+# CodeToPDF
+
+A GUI tool to convert code files to PDF or TXT.
+
+## Prerequisites
+
+- Python 3.7 or higher
+- Tkinter (usually comes pre-installed with Python)
+
+## Installation
+
+You can install CodeToPDF using pip:
+
+```
+
