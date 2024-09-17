@@ -1,0 +1,12 @@
+nonebot_plugin_ncupdate/__init__.py,sha256=fNJDYWxNLoWebR3TFS5T34l4T0RlfA13ZaJeUy9gsgo,19769
+nonebot_plugin_ncupdate/config.py,sha256=nN5GhzNoAZvU3snvEgwXp_5sgm6dorT3EtmVlZ4-XEA,698
+nonebot_plugin_ncupdate/dialog.py,sha256=u5I-79BmIgLxOo3Z9H-FugsTTRd-oWCYttgR2x1Ed3w,1598
+nonebot_plugin_ncupdate/info.py,sha256=_yBlvDUFKoi8rXChOKkkQVPgP6hkmvkV2_P4bGcK8Dw,1328
+nonebot_plugin_ncupdate/mode.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+nonebot_plugin_ncupdate/notice.py,sha256=9DGVINKsNPyZVautR7Oson6jV72vSMH9hnwONdSqgEo,709
+nonebot_plugin_ncupdate/restart_12.py,sha256=zNUCSKdpWXmTKuOZ-QgUbnNqbyxojCNhb2_bP-Q89fk,2407
+nonebot_plugin_ncupdate/version.py,sha256=YxIZXaemTjaYJZdetjTfzOdlP6xrJga3Fes1vuXr-Zg,2244
+nonebot_plugin_ncupdate-0.2.0.dist-info/LICENSE,sha256=l0k-5e6MKKDrZm8uRapd8YBOBaoX1uH7e4XUExYvoL4,1067
+nonebot_plugin_ncupdate-0.2.0.dist-info/METADATA,sha256=RBq6P-EZNcHCtzQg8CH8Of9RqlEk1qJ9Jm-ch9KhVY0,6938
+nonebot_plugin_ncupdate-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+nonebot_plugin_ncupdate-0.2.0.dist-info/RECORD,,
