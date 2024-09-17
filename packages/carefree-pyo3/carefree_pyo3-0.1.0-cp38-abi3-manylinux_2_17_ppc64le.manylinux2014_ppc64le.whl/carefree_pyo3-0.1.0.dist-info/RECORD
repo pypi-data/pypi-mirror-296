@@ -1,0 +1,12 @@
+carefree_pyo3-0.1.0.dist-info/METADATA,sha256=bHMxraOw8C0tKvKAC02IuGX0s6dg8pGNashEJL2MKsU,262
+carefree_pyo3-0.1.0.dist-info/WHEEL,sha256=0xlddG3IP4fvoKq4cd6sVIqtDXz47dTkfYWjUcmnjpA,129
+cfpyo3/cfpyo3.pyi,sha256=onzGev6FJeQ7szHG1biXsUipwBZCV7gfIcAJXyplKEg,18
+cfpyo3/df/__init__.py,sha256=DpOms2USN63xAk2fsSwgGhXCNDtsZ9ZtJwxsxmhJJXI,1557
+cfpyo3/_rs/__init__.pyi,sha256=jDp9xDzNthOefhRa6ReBHVIOwCMvDhxpntWVvVh4Q2o,17
+cfpyo3/_rs/df/__init__.pyi,sha256=OgLiYqZiVYzUJQcbRsgFk0o_Y-7ZmuOOGgGQYuZbHcg,481
+cfpyo3/_rs/df/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfpyo3/_rs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfpyo3/__init__.py,sha256=tjGR5LgNPPZoN0ojTpfW0t8M8DGINHtjzwB-KYMsshI,24
+cfpyo3/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfpyo3/cfpyo3.abi3.so,sha256=9aYnfadNe12vFt_dINnizNDRlcrJQmK6MFx47Z6bJ34,878000
+carefree_pyo3-0.1.0.dist-info/RECORD,,
