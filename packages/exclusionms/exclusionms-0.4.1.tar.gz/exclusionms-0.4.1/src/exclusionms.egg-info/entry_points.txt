@@ -1,0 +1,2 @@
+[console_scripts]
+stress_test = exclusionms.stress_test:main
