@@ -1,0 +1,12 @@
+perse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+perse/__main__.py,sha256=x6LjUsCSWYHdvPJyDmEruPvZ8eDg6aZ6x8PtNDtNbBY,1654
+perse/collapse.py,sha256=ONdGdpLJ-L2mb7_xYIAUsTbf8l5lppG3rN_5mBGo8e0,1648
+perse/perse.py,sha256=krAtuPY6nflocAAI2d5Z99EmM2kiQm5sw-0Nxr8pqDU,5585
+perse/test.py,sha256=nDQiDt0whnaQLK8vASeH6a2TvyVy-0oF64d5AdBbums,482
+perse/version.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+zf_perse-0.1.5.dist-info/LICENSE,sha256=CmmyP506korVOu4eQ8KKnFTYMC-NalKAyaBZ1_dkSfI,1065
+zf_perse-0.1.5.dist-info/METADATA,sha256=WONwCsH8KI0WJXUNlpVrLeLefu8DficzEEfdewBb6yc,5106
+zf_perse-0.1.5.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+zf_perse-0.1.5.dist-info/entry_points.txt,sha256=sWtNdTV04clYHTubHFLC1GCUDAFiBlaStNSwvgQicM8,46
+zf_perse-0.1.5.dist-info/top_level.txt,sha256=9GPeqA50P5g92s5HueukLqNo8aZPA_kYOBoOnSXELE0,6
+zf_perse-0.1.5.dist-info/RECORD,,
