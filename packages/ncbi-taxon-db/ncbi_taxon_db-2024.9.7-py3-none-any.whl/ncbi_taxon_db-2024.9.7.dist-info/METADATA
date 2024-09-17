@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ncbi-taxon-db
+Version: 2024.9.7
+Summary: Taxoniq index for NCBI Taxonomy database
+Home-page: https://github.com/chanzuckerberg/taxoniq
+Author: Andrey Kislyuk
+Author-email: akislyuk@chanzuckerberg.com
+License: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: ncbi-refseq-accession-db==2024.9.07
+Requires-Dist: ncbi-refseq-accession-lengths==2024.9.07
+Requires-Dist: ncbi-refseq-accession-offsets==2024.9.07
+
+
+[Taxoniq](https://github.com/chanzuckerberg/taxoniq) index for the NCBI Taxonomy database.
+
+This package contains data from NCBI Taxonomy, NCBI GenBank, and NCBI RefSeq (Bethesda (MD): National Library of
+Medicine (US), National Center for Biotechnology Information). These data are released into the public domain under the
+[NCBI Public Domain Notice](https://github.com/chanzuckerberg/taxoniq/blob/main/LICENSE.NCBI).
