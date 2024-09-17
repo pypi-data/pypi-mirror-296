@@ -1,0 +1,2 @@
+[console_scripts]
+osc-tui = osc_tui.main:main
