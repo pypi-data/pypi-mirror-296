@@ -1,0 +1,12 @@
+zope.i18nmessageid-7.0-py3.12-nspkg.pth,sha256=_l6EZJaefCi1yytmDbFQGX_jfS2gAtFyaDmlK1uFLec,457
+zope/i18nmessageid/__init__.py,sha256=ZZ51-hkFcf0C0gEFUmbrdDSU6yeCoEBW9Ei7gZMX0jk,867
+zope/i18nmessageid/_zope_i18nmessageid_message.c,sha256=9j97D7jw1_GIBs5V5nXxjlxYG7ad_YeXFDqDS0ByRQk,12437
+zope/i18nmessageid/_zope_i18nmessageid_message.cpython-312-darwin.so,sha256=il5FU6pIjqjcIevp4CTwZnLmE7RPlQLRXZNtj1zcnog,52960
+zope/i18nmessageid/message.py,sha256=_-O1z-jgCysWT_tW5X7u_3OlgmaCAGJdgO1Oj3QaIRY,4110
+zope/i18nmessageid/tests.py,sha256=gFK9nrb13tbVHzIR4UvW06y4zOeod4eABmQWiZb9Xe0,11834
+zope.i18nmessageid-7.0.dist-info/LICENSE.txt,sha256=PmcdsR32h1FswdtbPWXkqjg-rKPCDOo_r1Og9zNdCjw,2070
+zope.i18nmessageid-7.0.dist-info/METADATA,sha256=mLQ1MICxrmNVQrw5AwArSHm0StEl7pKdVGlE4Ne6LRk,9336
+zope.i18nmessageid-7.0.dist-info/WHEEL,sha256=stdCwhyjiC6LzHI-fEibiHQtTULEgvfCFF-5kawH9Pw,109
+zope.i18nmessageid-7.0.dist-info/namespace_packages.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
+zope.i18nmessageid-7.0.dist-info/top_level.txt,sha256=QpUHvpO4wIuZDeEgKY8qZCtD-tAukB0fn_f6utzlb98,5
+zope.i18nmessageid-7.0.dist-info/RECORD,,
