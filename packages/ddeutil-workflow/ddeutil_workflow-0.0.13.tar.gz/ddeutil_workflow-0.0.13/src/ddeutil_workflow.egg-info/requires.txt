@@ -1,0 +1,7 @@
+ddeutil-io>=0.1.12
+python-dotenv==1.0.1
+typer<1.0.0,==0.12.5
+schedule<2.0.0,==1.2.2
+
+[api]
+fastapi<1.0.0,>=0.114.1
