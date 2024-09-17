@@ -1,0 +1,2 @@
+recursive-include api_validator/tools *.j2 *.yml
+recursive-include api_validator/oasdiff_v2 *.j2

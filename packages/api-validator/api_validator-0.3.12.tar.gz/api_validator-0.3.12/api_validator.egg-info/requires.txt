@@ -1,0 +1,9 @@
+click
+click-option-group
+invoke
+loguru
+PyYAML
+Jinja2
+pandas
+requests
+python-dotenv
