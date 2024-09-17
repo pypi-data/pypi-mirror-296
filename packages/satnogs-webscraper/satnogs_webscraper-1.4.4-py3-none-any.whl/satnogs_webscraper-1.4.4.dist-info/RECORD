@@ -1,0 +1,15 @@
+satnogs_webscraper/__init__.py,sha256=le8Z4Tn3AKq3hzHrVr5GvwIGpHJjp1cWoSc7kegVfCI,81
+satnogs_webscraper/constants.py,sha256=mH4aFkLAFtj3QZqiqhBAKgDNTRVLNwwKHZx85-Q3w5s,1521
+satnogs_webscraper/image_utils.py,sha256=VadpTDM5VGUW4C9LSQlYKKDeoS1m5Nsv8Ncj_kolMFM,2819
+satnogs_webscraper/mainCLI.py,sha256=HOLf-PZEIg1Wst3-LAXScFNqeSr1c7dIsns8SgVy_XQ,2814
+satnogs_webscraper/observation_dataset.py,sha256=w_UniHDbibG145PHvq5Cm_LjZNEwbTRjHn94NVJ63Wc,4149
+satnogs_webscraper/observation_list_scraper.py,sha256=4ns41v74H9xF29z1bTRJth4QvaOaOUepOiMsmQmkmVY,4953
+satnogs_webscraper/observation_scraper.py,sha256=K7I-h8QqRt8ZLgH_F_W-x8aZks87y2Xvi7ft4JIuw68,10531
+satnogs_webscraper/progress_utils.py,sha256=o16JGU0z0a0JpyeUPu_xifvQh0HVCMKxCs1Vtrx7ne0,3339
+satnogs_webscraper/request_utils.py,sha256=OGO6TZ5UVoAvmI3lq4mMI6CVHtxrM3bJ9VajL7VEzxQ,1283
+satnogs_webscraper/scraper.py,sha256=HMk-VRMtRZm9Q-zB8RY2_bO0OUVrEu3LclyO-Ju68n0,4690
+satnogs_webscraper-1.4.4.dist-info/LICENSE.rst,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+satnogs_webscraper-1.4.4.dist-info/METADATA,sha256=X7DBcHUpzENJQetBYu4zM-F4OyQ92TBZBPSayXRkasM,731
+satnogs_webscraper-1.4.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+satnogs_webscraper-1.4.4.dist-info/top_level.txt,sha256=lvOL-_CIVYZTCUEAucHIlKbUO7EfIsZ1nKtU1fzUn4k,19
+satnogs_webscraper-1.4.4.dist-info/RECORD,,
