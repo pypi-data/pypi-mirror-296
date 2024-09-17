@@ -1,0 +1,2 @@
+[console_scripts]
+dmf-alert = dmf.alerts.__main__:main
