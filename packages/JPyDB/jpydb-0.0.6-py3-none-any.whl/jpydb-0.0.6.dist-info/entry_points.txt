@@ -1,0 +1,2 @@
+[console_scripts]
+jpydb-server = JPyDB.JPyDBServer:main
