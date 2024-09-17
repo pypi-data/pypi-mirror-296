@@ -1,0 +1,6 @@
+archive
+docs
+htmlcov
+pyhomelink
+tests
+venv
