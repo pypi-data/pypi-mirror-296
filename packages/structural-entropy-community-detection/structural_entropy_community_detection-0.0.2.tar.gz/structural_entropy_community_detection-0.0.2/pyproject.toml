@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "structural-entropy-community-detection"
+packages = [
+    {include = "se_community"}
+]
+version = "0.0.2"
+description = "This repository contains the code for structural entropy community detection. The philosophy behind this method is to use the structural entropy of a network to detect communities. The structural entropy is a measure of the uncertainty of the network structure. The idea is that the higher the uncertainty, the more likely it is that the network is divided into communities."
+authors = ["Command M <me@c0mm4nd.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+networkx = "^3.3"
+scipy = "^1.14.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
