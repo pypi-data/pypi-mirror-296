@@ -1,0 +1,6 @@
+ufu:hasStatus[ufu:observationsDefined, "false"^^xsd:boolean] ufu:VALIDATE 
+    :-
+    ufu:missing_process_and_object [?Observation, true] ufu:NG .
+
+ufu:hasStatus[ufu:observationsDefined, "true"^^xsd:boolean] ufu:VALIDATE 
+    :- NOT ufu:hasStatus[ufu:observationsDefined, "false"^^xsd:boolean] ufu:VALIDATE .

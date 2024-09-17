@@ -1,0 +1,10 @@
+ufu:objectComposedRecursiveOf[?Object, ?Component] ufu:NG :-
+    :objectComposedOf[?Object, ?Component] .
+
+ufu:objectComposedRecursiveOf[?Object, ?OtherComponent] ufu:NG :-
+    :objectComposedOf[?Object, ?Component],
+    ufu:objectComposedRecursiveOf[?Component, ?OtherComponent] ufu:NG .
+
+ufu:objectComposedRecursiveOf[?Object, ?OtherComponent] ufu:NG :-
+    ufu:objectComposedRecursiveOf[?Object, ?Component] ufu:NG ,
+    :objectEquivalentTo[?Component, ?OtherComponent] .

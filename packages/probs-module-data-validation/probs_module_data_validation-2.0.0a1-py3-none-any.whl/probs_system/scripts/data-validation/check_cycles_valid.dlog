@@ -1,0 +1,8 @@
+ufu:hasStatus[ufu:noCycles, "false"^^xsd:boolean] ufu:VALIDATE 
+    :-
+    ufu:objectComposedRecursiveOf[?Object1, ?Object2] ufu:NG ,
+    FILTER (?Object1 = ?Object2) .
+
+ufu:hasStatus[ufu:noCycles, "true"^^xsd:boolean] ufu:VALIDATE 
+    :-
+    NOT ufu:hasStatus[ufu:noCycles, "false"^^xsd:boolean] ufu:VALIDATE .

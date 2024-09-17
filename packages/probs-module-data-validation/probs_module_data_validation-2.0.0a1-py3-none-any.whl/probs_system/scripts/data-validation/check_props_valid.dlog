@@ -1,0 +1,7 @@
+ufu:hasStatus[ufu:propertiesDefined, "false"^^xsd:boolean] ufu:VALIDATE 
+    :-
+    ufu:missing_props[?Observation, ?Property] ufu:NG .
+
+ufu:hasStatus[ufu:propertiesDefined, "true"^^xsd:boolean] ufu:VALIDATE 
+    :-
+    NOT ufu:hasStatus[ufu:propertiesDefined, "false"^^xsd:boolean] ufu:VALIDATE .

@@ -1,0 +1,15 @@
+ufu:missing_props[?Observation, :Role] ufu:NG :-
+    :Observation[?Observation],
+    NOT EXISTS ?Role IN (:hasRole[?Observation, ?Role]) .
+
+ufu:missing_props[?Observation, :Region] ufu:NG :-
+    :Observation[?Observation],
+    NOT EXISTS ?Region IN (:hasRegion[?Observation, ?Region]) .
+
+ufu:missing_props[?Observation, :Time] ufu:NG :-
+    :Observation[?Observation],
+    NOT EXISTS ?Time IN (:hasTime[?Observation, ?Time]) .
+
+ufu:missing_props[?Observation, qudt:QuantityKind] ufu:NG :-
+    :Observation[?Observation],
+    NOT EXISTS ?Metric IN (:hasMetric[?Observation, ?Metric]) .

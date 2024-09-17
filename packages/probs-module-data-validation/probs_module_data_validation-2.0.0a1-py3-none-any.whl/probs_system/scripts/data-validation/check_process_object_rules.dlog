@@ -1,0 +1,13 @@
+ufu:process_or_object[?Observation, "object"] ufu:NG :-
+    :Observation[?Observation],
+    :objectDefinedBy[?Observation, ?O] .
+
+ufu:process_or_object[?Observation, "process"] ufu:NG :-
+    :Observation[?Observation],
+    :processDefinedBy[?Observation, ?P] .
+
+ufu:missing_process_and_object[?Observation,  true] ufu:NG :-
+    :Observation[?Observation],
+    NOT EXISTS ?V IN (
+        ufu:process_or_object[?Observation, ?V] ufu:NG
+    ) .

@@ -1,0 +1,3 @@
+set output test_object_or_process_not_defined_for_observation.log
+SELECT ?Observation WHERE {GRAPH ufu:NG { ?Observation ufu:missing_process_and_object true }}
+set output out

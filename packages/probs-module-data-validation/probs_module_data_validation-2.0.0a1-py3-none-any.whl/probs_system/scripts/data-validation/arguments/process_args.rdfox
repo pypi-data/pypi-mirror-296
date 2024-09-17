@@ -1,0 +1,17 @@
+
+# Temporary set scripts directory
+set dir.scripts "$(dir.root)/scripts/data-validation/arguments"
+
+# Default values
+set debug "off" # (| "on")
+
+# Read 3 "key-value" arguments and set them
+param_$(1) "$(2)"
+param_$(3) "$(4)"
+param_$(5) "$(6)"
+param_$(7) "$(8)"
+
+echo "debug: $(debug)"
+
+# Reset scripts directory
+set dir.scripts "$(dir.root)/scripts/data-validation"

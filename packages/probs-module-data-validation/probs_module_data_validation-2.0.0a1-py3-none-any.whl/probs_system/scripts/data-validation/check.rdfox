@@ -1,0 +1,23 @@
+
+# Create a temporary named graph
+tupletable create ufu:NG type triple-table
+
+echo check_$(1)_rules.dlog
+
+import check_$(1)_rules.dlog
+
+echo check_$(1)_valid.dlog
+
+import check_$(1)_valid.dlog
+
+set dir.scripts "$(dir.root)/scripts/data-validation/debug_$(debug)"
+set dir.dlog  "$(dir.root)/scripts/data-validation/debug_$(debug)"
+exec check_$(1)_queries
+set dir.scripts "$(dir.root)/scripts/data-validation"
+set dir.dlog  "$(dir.root)/scripts/data-validation"
+
+# Explicate facts
+clear rules-explicate-facts force
+
+# Drop the temporary named graph
+tupletable delete ufu:NG force
