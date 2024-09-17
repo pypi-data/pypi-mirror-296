@@ -1,0 +1,7 @@
+README.md
+setup.py
+auto_fix.egg-info/PKG-INFO
+auto_fix.egg-info/SOURCES.txt
+auto_fix.egg-info/dependency_links.txt
+auto_fix.egg-info/requires.txt
+auto_fix.egg-info/top_level.txt
