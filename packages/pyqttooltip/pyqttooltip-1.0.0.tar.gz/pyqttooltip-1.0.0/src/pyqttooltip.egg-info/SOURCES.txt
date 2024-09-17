@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+src/pyqttooltip/__init__.py
+src/pyqttooltip/constants.py
+src/pyqttooltip/drop_shadow.py
+src/pyqttooltip/enums.py
+src/pyqttooltip/placement_utils.py
+src/pyqttooltip/tooltip.py
+src/pyqttooltip/tooltip_interface.py
+src/pyqttooltip/tooltip_triangle.py
+src/pyqttooltip/utils.py
+src/pyqttooltip.egg-info/PKG-INFO
+src/pyqttooltip.egg-info/SOURCES.txt
+src/pyqttooltip.egg-info/dependency_links.txt
+src/pyqttooltip.egg-info/requires.txt
+src/pyqttooltip.egg-info/top_level.txt
