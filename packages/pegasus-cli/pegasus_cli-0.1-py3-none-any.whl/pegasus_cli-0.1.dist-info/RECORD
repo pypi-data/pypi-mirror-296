@@ -1,0 +1,12 @@
+pegasus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pegasus/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+pegasus/cli.py,sha256=yIWA6fZY6WvosDcXXrI1yE9THWNLFm9uuGxQGQBi1to,174
+pegasus/jinja.py,sha256=cTILyuSqycko8wmsirqFJJMPv7g_upwjFZxU24Sk2xA,658
+pegasus/startapp.py,sha256=9IR9Oq2fBMlCFhFZ6lKRDdW4DzbK9BGBm1LGrWOa7mc,4309
+pegasus/templates.py,sha256=4pfCdW5Pdb3w7ZvL7miU5yVXI8WB5uD5FToEpBkCdOY,2565
+pegasus_cli-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pegasus_cli-0.1.dist-info/METADATA,sha256=JsFq6dLqg0C3AKAM9G4LJxsi043KSIPzQKnIHzj4nvA,1809
+pegasus_cli-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pegasus_cli-0.1.dist-info/entry_points.txt,sha256=VoywNcf1e0ilSWego7WL9cDB0CcE9Z2Pe7N05TS3DDM,44
+pegasus_cli-0.1.dist-info/top_level.txt,sha256=4WAAhIHJ5VasajhnMQ96Ed8tIaZlRk9Gitf0TfOohmY,8
+pegasus_cli-0.1.dist-info/RECORD,,
