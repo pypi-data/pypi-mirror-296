@@ -1,0 +1,7 @@
+ansiblecall/__init__.py,sha256=SPLmiYba8LuiXccg0qiEwSiJOOaBpr33eiIyBbpUUtw,1015
+ansiblecall/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansiblecall/utils/ansibleproxy.py,sha256=rXgsHn1uB-yz87iUMsFxuOUyFymXD9nb27cEoXq_oK8,6605
+ansiblecall-0.2.1.dist-info/METADATA,sha256=jCtFAEjjIHnYE-9vd9hfdld5O6EARp8z3frrYzXsJVQ,1981
+ansiblecall-0.2.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+ansiblecall-0.2.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ansiblecall-0.2.1.dist-info/RECORD,,
