@@ -1,0 +1,14 @@
+RaspyTweak/__init__.py,sha256=KXCj8Q2Kl2tP9wEtl8BqUM2z6te-W1wOzSTqVcPyiGg,999
+RaspyTweak/__todo__.py,sha256=m45urB2ZB-QOYfym_WrJrIYwEP4YSWTicRxwBAfBdGw,882
+RaspyTweak/constants.py,sha256=L1YYlpC9bULMomd13e-O_U_La6BVIcL__JnJFuCdWD4,277
+RaspyTweak/cpu.py,sha256=s-l6JVLlMk8-U_7Z0oOs8xlRrq8KQk05GGxAgkXc4es,1189
+RaspyTweak/disk.py,sha256=Ur3DJkw_qHAqIF9MIq0IQwZVCnaXJzX425de-M-Oiwc,379
+RaspyTweak/errors.py,sha256=ZGXnaHnm1zl5QMHdysnjQ97I823jPpVJt1uJ58B618g,2443
+RaspyTweak/gpio.py,sha256=PhYVS1i-0dtvKLMre1IXysJ14NiZqCF3BIetpdkDY4U,6716
+RaspyTweak/memory.py,sha256=f2xbpZ_N5at7AZnPn5ptQe68X7HjHGsnlc2v0H7jmME,412
+RaspyTweak/network.py,sha256=85otZw6hi6lHyCYuAG4JEgjn7JcUBhWzkkYsyIrQyoE,2074
+RaspyTweak/system.py,sha256=Qm5T6ohLLb8bJTOyrQrog3047MF7IEfhckojcr6wOFs,2291
+RaspyTweak-0.0.1a1.dist-info/METADATA,sha256=Fnte9WalCKYMl0wCdqNkfg0oxTJX5uhCrX-RIIdGdkg,670
+RaspyTweak-0.0.1a1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+RaspyTweak-0.0.1a1.dist-info/top_level.txt,sha256=WvbxzCsj2F7-33SPSHOaY6KyPrKqIe_KPqtMBCxAMxg,11
+RaspyTweak-0.0.1a1.dist-info/RECORD,,
