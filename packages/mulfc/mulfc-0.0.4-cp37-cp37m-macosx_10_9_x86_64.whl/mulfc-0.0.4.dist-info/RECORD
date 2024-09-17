@@ -1,0 +1,8 @@
+lfclib.cpython-37m-darwin.so,sha256=om49pnneFMxtzkwEr52bu9YCc1Q9Yu5Qe6FjqgyVzKE,40272
+mulfc-0.0.4.dist-info/RECORD,,
+mulfc-0.0.4.dist-info/WHEEL,sha256=HS_2vgrXyXO7N4Q-5VnuMAgG-fG_r8eemMgfU9Aw3Kk,110
+mulfc-0.0.4.dist-info/top_level.txt,sha256=PmnwvS7BjanKh4lMH52MQ4IqpWzSWBPweGiMDeaDo9w,13
+mulfc-0.0.4.dist-info/METADATA,sha256=CtCAhtic5ll2K2PINriwDdBvKD1phhhFRbev1HvleHo,2245
+mulfc/__init__.py,sha256=RqIqgK1j3yrztYtcJLUiG8z6oytP8BHGmgDOYGTXVlc,184
+mulfc/lfclib.c,sha256=JlT5hoVkipB3w0LUrT3-fr-ePKsajweMrD8uUI_awsk,20530
+mulfc/LFC.py,sha256=H42vrFqnXNIs80gKrM5AVtVdIHvsJPkHtDNWIVEkgMM,13943
