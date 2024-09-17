@@ -1,0 +1,12 @@
+CHANGELOG.md
+CREDIT.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+noises/__init__.py
+noises.egg-info/PKG-INFO
+noises.egg-info/SOURCES.txt
+noises.egg-info/dependency_links.txt
+noises.egg-info/requires.txt
+noises.egg-info/top_level.txt
