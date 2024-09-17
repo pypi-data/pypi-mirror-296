@@ -1,0 +1,6 @@
+README.md
+setup.py
+mkid_detect.egg-info/PKG-INFO
+mkid_detect.egg-info/SOURCES.txt
+mkid_detect.egg-info/dependency_links.txt
+mkid_detect.egg-info/top_level.txt
