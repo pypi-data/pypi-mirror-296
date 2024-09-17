@@ -1,0 +1,14 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/mCore.egg-info/PKG-INFO
+src/mCore.egg-info/SOURCES.txt
+src/mCore.egg-info/dependency_links.txt
+src/mCore.egg-info/not-zip-safe
+src/mCore.egg-info/requires.txt
+src/mCore.egg-info/top_level.txt
+src/mcore/__init__.py
+src/mcore/type/__init__.py
+src/mcore/type/generic.py
