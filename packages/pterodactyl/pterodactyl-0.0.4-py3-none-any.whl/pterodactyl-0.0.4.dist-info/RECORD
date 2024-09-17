@@ -1,0 +1,15 @@
+pterodactyl/TransformToObject.py,sha256=fYXg6Q74b-4461LCpoYmhK6aXa8NYjf4MxShIUr0pEc,1484
+pterodactyl/__init__.py,sha256=7nLo4ZYBJZL_ggvUR1ZQ1zZL5j_5urqm-ri1wgPVT8c,26
+pterodactyl/API/Application.py,sha256=msDNDN332C5W8TqluBBNLg03qlTq8O1UHlwTzBPtRh8,7284
+pterodactyl/API/Client.py,sha256=2XRTVBvYbMSZEbvGC31-5oRQqO6WjiSmi2bIuK1mSds,844
+pterodactyl/API/__init__.py,sha256=pbnjQb-8k0uCCgoQsMkzQs3yhMYsn0h3JMRbWVIRuo0,63
+pterodactyl/Objects/Consistent.py,sha256=R6nkq7HcMJlNveupP5362yzlO2pF0uJ_8Yv1ahLFIKY,403
+pterodactyl/Objects/Errors.py,sha256=4q9tKcKjW_SbDushjyhqEWiZQgUCgiaI-fa000kXWWc,802
+pterodactyl/Objects/Pagination.py,sha256=6or8vHful87qB0-13TewvZMfU5rWe7FYNgaIuLvlo58,648
+pterodactyl/Objects/Pterodactyl.py,sha256=yhfWosqPapw9_GGMNWxyF446UqsrGnGyN9RUgbSA8vI,12817
+pterodactyl/Objects/__init__.py,sha256=UJo3SWOJkdle2lIrDMlw_80c_knbMuxMkk7t1K-cmeM,123
+pterodactyl-0.0.4.dist-info/LICENSE,sha256=IBpJ9dAlmuLVlMfZzMt10i0e3BDjVb3o0TbDwMk1ZHw,1494
+pterodactyl-0.0.4.dist-info/METADATA,sha256=6edYka43-_RVVZaVt0gO4QK1sI3jJ_lZZt5X4H4ki2A,571
+pterodactyl-0.0.4.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+pterodactyl-0.0.4.dist-info/top_level.txt,sha256=UNBi1Hbel_XadTXLyQDmI4MA7ZZ557abTN2oz7ji1oY,12
+pterodactyl-0.0.4.dist-info/RECORD,,
