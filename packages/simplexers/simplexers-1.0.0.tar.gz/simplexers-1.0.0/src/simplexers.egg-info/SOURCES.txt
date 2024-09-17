@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/simplexers/__init__.py
+src/simplexers/capped.py
+src/simplexers/positive.py
+src/simplexers.egg-info/PKG-INFO
+src/simplexers.egg-info/SOURCES.txt
+src/simplexers.egg-info/dependency_links.txt
+src/simplexers.egg-info/requires.txt
+src/simplexers.egg-info/top_level.txt
+src/simplexers/core/arraytools.py
+tests/test_simplexers.py
