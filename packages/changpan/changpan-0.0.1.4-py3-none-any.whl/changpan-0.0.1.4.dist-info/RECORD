@@ -1,0 +1,15 @@
+changpan/README.md,sha256=uCIiSXYe6ldhcINKL2b22JSvy0h5R-cA4dNFnec1su0,489
+changpan/__init__.py,sha256=9PnuZ2lJanHrdo-Fa0XSv3SVaN-AnHai4aS-CC5Vg_4,282
+changpan/common.py,sha256=yPLMDldSX36HChgRs6m-HO4YkRY27W_8sqYsvhU7Qsc,5254
+changpan/example.cp310-win_amd64.pyd,sha256=sa8gm2WwzAMStlWOSzSx0s5qOF_Gaoman-PmtmksxJw,973312
+changpan/example.cp311-win_amd64.pyd,sha256=5EeiZUfPJe5T10HPlxoAhNi9pm6jZiACRNTsY-c8JwA,975360
+changpan/example.cp39-win_amd64.pyd,sha256=HTiiBsaiM9YBG9zSgdSDzHYw91lQr_Bc0A3TBP7VTsE,973312
+changpan/imgProcess.py,sha256=xdcI2z0EpT_PUfbbUY1U_N_pm72XehL4PXdMh_rXkok,138
+changpan/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+changpan/data/data.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+changpan/submodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+changpan/submodule/common.py,sha256=_6SglMX33lKpBjYFzS9LUIewyAnlqD2I0CWv8YHs3yU,39
+changpan-0.0.1.4.dist-info/METADATA,sha256=P-NnbONwbOTbDPV-tXyp3jO6ypzuaXuIlCkgi2PiH28,827
+changpan-0.0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+changpan-0.0.1.4.dist-info/top_level.txt,sha256=pp1F9GkvThj_3n1QTaYjWLD3OL6Qn2Y06L2n3rq2MKw,9
+changpan-0.0.1.4.dist-info/RECORD,,
