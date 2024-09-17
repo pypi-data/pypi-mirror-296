@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+gdbplotlib/__init__.py
+gdbplotlib/data_extractor.py
+gdbplotlib/default.py
+gdbplotlib/plot.py
+gdbplotlib/save.py
+gdbplotlib/std_types.py
+gdbplotlib/type_handler.py
+gdbplotlib/type_set.py
+gdbplotlib/util.py
+gdbplotlib.egg-info/PKG-INFO
+gdbplotlib.egg-info/SOURCES.txt
+gdbplotlib.egg-info/dependency_links.txt
+gdbplotlib.egg-info/requires.txt
+gdbplotlib.egg-info/top_level.txt
