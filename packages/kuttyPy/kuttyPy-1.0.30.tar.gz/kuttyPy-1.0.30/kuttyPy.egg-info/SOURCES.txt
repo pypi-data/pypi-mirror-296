@@ -1,0 +1,413 @@
+LICENSE
+README.md
+setup.py
+kuttyPy/REGISTERS.py
+kuttyPy/__init__.py
+kuttyPy.egg-info/PKG-INFO
+kuttyPy.egg-info/SOURCES.txt
+kuttyPy.egg-info/dependency_links.txt
+kuttyPy.egg-info/entry_points.txt
+kuttyPy.egg-info/requires.txt
+kuttyPy.egg-info/top_level.txt
+kuttyPyGui/BMP180.py
+kuttyPyGui/KuttyPyAndroidQuiz.py
+kuttyPyGui/KuttyPyGUI.py
+kuttyPyGui/KuttyPyIDE.py
+kuttyPyGui/KuttyPyLib.py
+kuttyPyGui/KuttyPyLibNano.py
+kuttyPyGui/KuttyPyLibUno.py
+kuttyPyGui/KuttyPyNano.py
+kuttyPyGui/KuttyPyPlus.py
+kuttyPyGui/KuttyPyQuizSocketio.py
+kuttyPyGui/KuttyPyUno.py
+kuttyPyGui/KuttyPyVisualCode.py
+kuttyPyGui/__init__.py
+kuttyPyGui/constants.py
+kuttyPyGui/listen_tcp.py
+kuttyPyGui/send_udp.py
+kuttyPyGui/blockly/Markdown.Converter.min.js
+kuttyPyGui/blockly/attach_download_handlers.js
+kuttyPyGui/blockly/blockly_compressed.js
+kuttyPyGui/blockly/blocks_compressed.js
+kuttyPyGui/blockly/editor.html
+kuttyPyGui/blockly/exportsvg.js
+kuttyPyGui/blockly/game.js
+kuttyPyGui/blockly/gauge-glossy.min.css
+kuttyPyGui/blockly/gauge.min.css
+kuttyPyGui/blockly/html2canvas.min.js
+kuttyPyGui/blockly/icons.css
+kuttyPyGui/blockly/icons.less
+kuttyPyGui/blockly/javascript_compressed.js
+kuttyPyGui/blockly/jquery.min.js
+kuttyPyGui/blockly/jspdf.min.js
+kuttyPyGui/blockly/less.min.js
+kuttyPyGui/blockly/listen_tcp.py
+kuttyPyGui/blockly/listen_udp.py
+kuttyPyGui/blockly/piano.css
+kuttyPyGui/blockly/product.css
+kuttyPyGui/blockly/python_compressed.js
+kuttyPyGui/blockly/sample_question.txt
+kuttyPyGui/blockly/semantic.min.css
+kuttyPyGui/blockly/semantic.min.js
+kuttyPyGui/blockly/send_udp.py
+kuttyPyGui/blockly/style.css
+kuttyPyGui/blockly/toolbox_standard.js
+kuttyPyGui/blockly/webview.html
+kuttyPyGui/blockly/webviewstyle.css
+kuttyPyGui/blockly/blocks/FlotPlots.js
+kuttyPyGui/blockly/blocks/Games.js
+kuttyPyGui/blockly/blocks/IO.js
+kuttyPyGui/blockly/blocks/KuttyPy.js
+kuttyPyGui/blockly/blocks/Lists.js
+kuttyPyGui/blockly/blocks/Plots.js
+kuttyPyGui/blockly/blocks/Sensors.js
+kuttyPyGui/blockly/blocks/Sounds.js
+kuttyPyGui/blockly/blocks/acorn_interpreter.js
+kuttyPyGui/blockly/blocks/api.js
+kuttyPyGui/blockly/blocks/blockHelp.js
+kuttyPyGui/blockly/blocks/download.svg
+kuttyPyGui/blockly/blocks/save.png
+kuttyPyGui/blockly/blocks/upload.svg
+kuttyPyGui/blockly/components/icon.min.css
+kuttyPyGui/blockly/components/modal.min.css
+kuttyPyGui/blockly/components/modal.min.js
+kuttyPyGui/blockly/flot/jquery.canvaswrapper.js
+kuttyPyGui/blockly/flot/jquery.colorhelpers.js
+kuttyPyGui/blockly/flot/jquery.flot.axislabels.js
+kuttyPyGui/blockly/flot/jquery.flot.browser.js
+kuttyPyGui/blockly/flot/jquery.flot.drawSeries.js
+kuttyPyGui/blockly/flot/jquery.flot.js
+kuttyPyGui/blockly/flot/jquery.flot.legend.js
+kuttyPyGui/blockly/flot/jquery.flot.resize.js
+kuttyPyGui/blockly/flot/jquery.flot.saturated.js
+kuttyPyGui/blockly/flot/jquery.flot.symbol.js
+kuttyPyGui/blockly/flot/jquery.flot.time.js
+kuttyPyGui/blockly/flot/jquery.flot.uiConstants.js
+kuttyPyGui/blockly/media/1x1.gif
+kuttyPyGui/blockly/media/ADS1115.jpeg
+kuttyPyGui/blockly/media/ADXL345.jpeg
+kuttyPyGui/blockly/media/AHT10.jpeg
+kuttyPyGui/blockly/media/AK8963.jpeg
+kuttyPyGui/blockly/media/BH1750.jpeg
+kuttyPyGui/blockly/media/BMP180.jpg
+kuttyPyGui/blockly/media/BMP280.jpeg
+kuttyPyGui/blockly/media/BMP280.png
+kuttyPyGui/blockly/media/GMCOUNTER.jpeg
+kuttyPyGui/blockly/media/HMC5883L.jpeg
+kuttyPyGui/blockly/media/HUMIDITY.png
+kuttyPyGui/blockly/media/INA219.jpeg
+kuttyPyGui/blockly/media/MAGNETOMETER.png
+kuttyPyGui/blockly/media/MAX30100.jpeg
+kuttyPyGui/blockly/media/MAX44009.jpeg
+kuttyPyGui/blockly/media/MLX90614.jpeg
+kuttyPyGui/blockly/media/MPU6050.jpeg
+kuttyPyGui/blockly/media/MPU6050.png
+kuttyPyGui/blockly/media/MS5611.jpeg
+kuttyPyGui/blockly/media/QMC5883L.jpeg
+kuttyPyGui/blockly/media/TCS34725.jpeg
+kuttyPyGui/blockly/media/THERMOMETER.png
+kuttyPyGui/blockly/media/TSL2561.jpeg
+kuttyPyGui/blockly/media/VL53L0X.jpeg
+kuttyPyGui/blockly/media/WAVEGEN.png
+kuttyPyGui/blockly/media/bird.png
+kuttyPyGui/blockly/media/capacitor.svg
+kuttyPyGui/blockly/media/click.mp3
+kuttyPyGui/blockly/media/click.ogg
+kuttyPyGui/blockly/media/click.wav
+kuttyPyGui/blockly/media/clock.svg
+kuttyPyGui/blockly/media/delete.mp3
+kuttyPyGui/blockly/media/delete.ogg
+kuttyPyGui/blockly/media/delete.wav
+kuttyPyGui/blockly/media/disconnect.mp3
+kuttyPyGui/blockly/media/disconnect.ogg
+kuttyPyGui/blockly/media/disconnect.wav
+kuttyPyGui/blockly/media/dropdown-arrow.svg
+kuttyPyGui/blockly/media/eyeslogo.png
+kuttyPyGui/blockly/media/handclosed.cur
+kuttyPyGui/blockly/media/handdelete.cur
+kuttyPyGui/blockly/media/handopen.cur
+kuttyPyGui/blockly/media/help.svg
+kuttyPyGui/blockly/media/i2cscan.png
+kuttyPyGui/blockly/media/ic_scope.png
+kuttyPyGui/blockly/media/piano.png
+kuttyPyGui/blockly/media/pilcrow.png
+kuttyPyGui/blockly/media/pulse.png
+kuttyPyGui/blockly/media/quote0.png
+kuttyPyGui/blockly/media/quote1.png
+kuttyPyGui/blockly/media/resistor.svg
+kuttyPyGui/blockly/media/sprites.png
+kuttyPyGui/blockly/media/sprites.svg
+kuttyPyGui/blockly/media/stepper_motor.svg
+kuttyPyGui/blockly/media/stepper_motor_body.png
+kuttyPyGui/blockly/media/stepper_motor_shaft.png
+kuttyPyGui/blockly/media/transparent.png
+kuttyPyGui/blockly/media/ttl.png
+kuttyPyGui/blockly/media/undefined.jpeg
+kuttyPyGui/blockly/media/unsupported.jpeg
+kuttyPyGui/blockly/msg/js/ar.js
+kuttyPyGui/blockly/msg/js/de.js
+kuttyPyGui/blockly/msg/js/en.js
+kuttyPyGui/blockly/msg/js/es.js
+kuttyPyGui/blockly/msg/js/fr.js
+kuttyPyGui/blockly/msg/js/hi.js
+kuttyPyGui/blockly/msg/js/ml.js
+kuttyPyGui/blockly/quill/katex.min.css
+kuttyPyGui/blockly/quill/katex.min.js
+kuttyPyGui/blockly/quill/myquill.js
+kuttyPyGui/blockly/quill/quill.min.js
+kuttyPyGui/blockly/quill/quill.snow.css
+kuttyPyGui/blockly/samples/Explore Atmega32.jpg
+kuttyPyGui/blockly/samples/Getting Started.jpg
+kuttyPyGui/blockly/samples/KuttyNano.jpg
+kuttyPyGui/blockly/samples/KuttyPy Intro.jpg
+kuttyPyGui/blockly/samples/Plotting Datasets.jpg
+kuttyPyGui/blockly/samples/Sensor Addons.jpg
+kuttyPyGui/blockly/samples/Vision Demos.jpg
+kuttyPyGui/blockly/samples/WiFi and Games.jpg
+kuttyPyGui/blockly/samples/experiments.json
+kuttyPyGui/blockly/samples/visual_experiments.json
+kuttyPyGui/blockly/samples/visual_styles.qss
+kuttyPyGui/blockly/samples/Explore Atmega32/Copy INPUT A2-A7 to LED D2-D7.jpeg
+kuttyPyGui/blockly/samples/Explore Atmega32/Copy INPUT A2-A7 to LED D2-D7.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/LED BRIGHTNESS CONTROL simple.png
+kuttyPyGui/blockly/samples/Explore Atmega32/LED BRIGHTNESS CONTROL simple.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/PORTB LED WATERFALL.png
+kuttyPyGui/blockly/samples/Explore Atmega32/PORTB LED WATERFALL.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/RGB LED with Accelerometer.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/Read ADC Registers.png
+kuttyPyGui/blockly/samples/Explore Atmega32/Read ADC Registers.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/Read N Voltages.png
+kuttyPyGui/blockly/samples/Explore Atmega32/Read N Voltages.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/Set 6 bit DAC.jpg
+kuttyPyGui/blockly/samples/Explore Atmega32/Set 6 bit DAC.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/Switch Piano.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/copyport.jpg
+kuttyPyGui/blockly/samples/Explore Atmega32/copyport.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/copyport2.jpg
+kuttyPyGui/blockly/samples/Explore Atmega32/copyport2.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/readport.jpg
+kuttyPyGui/blockly/samples/Explore Atmega32/readport.xml
+kuttyPyGui/blockly/samples/Explore Atmega32/setport.jpg
+kuttyPyGui/blockly/samples/Explore Atmega32/setport.xml
+kuttyPyGui/blockly/samples/Getting Started/Calculate Area Of A Circle.jpeg
+kuttyPyGui/blockly/samples/Getting Started/Calculate Area Of A Circle.xml
+kuttyPyGui/blockly/samples/Getting Started/Hello World.png
+kuttyPyGui/blockly/samples/Getting Started/Hello World.xml
+kuttyPyGui/blockly/samples/Getting Started/If Condition.jpeg
+kuttyPyGui/blockly/samples/Getting Started/If Condition.xml
+kuttyPyGui/blockly/samples/Getting Started/Input and Output Text.jpeg
+kuttyPyGui/blockly/samples/Getting Started/Input and Output Text.xml
+kuttyPyGui/blockly/samples/Getting Started/Plot Datapoints.jpeg
+kuttyPyGui/blockly/samples/Getting Started/Plot Datapoints.xml
+kuttyPyGui/blockly/samples/Getting Started/Plot Using Loops.jpeg
+kuttyPyGui/blockly/samples/Getting Started/Plot Using Loops.xml
+kuttyPyGui/blockly/samples/Getting Started/Print Multiplication Table.jpeg
+kuttyPyGui/blockly/samples/Getting Started/Print Multiplication Table.xml
+kuttyPyGui/blockly/samples/Getting Started/Print N Times.jpeg
+kuttyPyGui/blockly/samples/Getting Started/Print N Times.xml
+kuttyPyGui/blockly/samples/Getting Started/Read Text Input.jpg
+kuttyPyGui/blockly/samples/Getting Started/Read Text Input.xml
+kuttyPyGui/blockly/samples/Getting Started/While Loops.jpeg
+kuttyPyGui/blockly/samples/Getting Started/While Loops.xml
+kuttyPyGui/blockly/samples/Getting Started/Write Data To A File.png
+kuttyPyGui/blockly/samples/Getting Started/Write Data To A File.xml
+kuttyPyGui/blockly/samples/KuttyPy Intro/Blink LEDs alternately.jpeg
+kuttyPyGui/blockly/samples/KuttyPy Intro/Blink LEDs alternately.xml
+kuttyPyGui/blockly/samples/KuttyPy Intro/Blink.jpeg
+kuttyPyGui/blockly/samples/KuttyPy Intro/Blink.xml
+kuttyPyGui/blockly/samples/KuttyPy Intro/Copy Port Looped.jpg
+kuttyPyGui/blockly/samples/KuttyPy Intro/Copy Port Looped.xml
+kuttyPyGui/blockly/samples/KuttyPy Intro/Copy Port Once.jpg
+kuttyPyGui/blockly/samples/KuttyPy Intro/Copy Port Once.xml
+kuttyPyGui/blockly/samples/KuttyPy Intro/I2C Data Logger.jpeg
+kuttyPyGui/blockly/samples/KuttyPy Intro/I2C Data Logger.xml
+kuttyPyGui/blockly/samples/KuttyPy Intro/Read N Voltages.png
+kuttyPyGui/blockly/samples/KuttyPy Intro/Read N Voltages.xml
+kuttyPyGui/blockly/samples/KuttyPy Intro/Read Port.jpg
+kuttyPyGui/blockly/samples/KuttyPy Intro/Read Port.xml
+kuttyPyGui/blockly/samples/KuttyPy Intro/Set Port.jpg
+kuttyPyGui/blockly/samples/KuttyPy Intro/Set Port.xml
+kuttyPyGui/blockly/samples/Plotting Datasets/Create a List.jpeg
+kuttyPyGui/blockly/samples/Plotting Datasets/Create a List.xml
+kuttyPyGui/blockly/samples/Plotting Datasets/Plot A Parabola.jpeg
+kuttyPyGui/blockly/samples/Plotting Datasets/Plot A Parabola.xml
+kuttyPyGui/blockly/samples/Plotting Datasets/Plot List of Numbers.jpeg
+kuttyPyGui/blockly/samples/Plotting Datasets/Plot List of Numbers.xml
+kuttyPyGui/blockly/samples/Plotting Datasets/Plot Sine Wave points.xml
+kuttyPyGui/blockly/samples/Plotting Datasets/Plot Sine Wave.xml
+kuttyPyGui/blockly/samples/Plotting Datasets/Plot Two Lists.png
+kuttyPyGui/blockly/samples/Plotting Datasets/Plot Two Lists.xml
+kuttyPyGui/blockly/samples/Plotting Datasets/Polar Plot Flower.png
+kuttyPyGui/blockly/samples/Plotting Datasets/Polar Plot Flower.xml
+kuttyPyGui/blockly/samples/Plotting Datasets/Subtract Lists.jpeg
+kuttyPyGui/blockly/samples/Plotting Datasets/Subtract Lists.xml
+kuttyPyGui/blockly/samples/Sensor Addons/Data Logger.jpeg
+kuttyPyGui/blockly/samples/Sensor Addons/Data Logger.xml
+kuttyPyGui/blockly/samples/Sensor Addons/Distance Sensor VL53L0X.png
+kuttyPyGui/blockly/samples/Sensor Addons/Distance Sensor VL53L0X.xml
+kuttyPyGui/blockly/samples/Sensor Addons/Line Follower.jpeg
+kuttyPyGui/blockly/samples/Sensor Addons/Line Follower.xml
+kuttyPyGui/blockly/samples/Sensor Addons/Measure Heart Rate (MAX30100).png
+kuttyPyGui/blockly/samples/Sensor Addons/Measure Heart Rate (MAX30100).xml
+kuttyPyGui/blockly/samples/Sensor Addons/Phone Controlled Robot.png
+kuttyPyGui/blockly/samples/Sensor Addons/Phone Controlled Robot.xml
+kuttyPyGui/blockly/samples/Sensor Addons/Robot Maintains Safe Distance.png
+kuttyPyGui/blockly/samples/Sensor Addons/Robot Maintains Safe Distance.xml
+kuttyPyGui/blockly/samples/Sensor Addons/Robot Obeys Hand.png
+kuttyPyGui/blockly/samples/Sensor Addons/Robot Obeys Hand.xml
+kuttyPyGui/blockly/samples/Sensor Addons/Stepper Motor Dual.jpeg
+kuttyPyGui/blockly/samples/Sensor Addons/Stepper Motor Dual.xml
+kuttyPyGui/blockly/samples/Sensor Addons/Stepper Motor.jpeg
+kuttyPyGui/blockly/samples/Sensor Addons/Stepper Motor.xml
+kuttyPyGui/blockly/samples/Sensor Addons/water level monitor.jpeg
+kuttyPyGui/blockly/samples/Sensor Addons/water level monitor.xml
+kuttyPyGui/blockly/samples/Vision Demos/AI Gesture LEDs.jpeg
+kuttyPyGui/blockly/samples/Vision Demos/AI Gesture LEDs.xml
+kuttyPyGui/blockly/samples/Vision Demos/AI Hand Gestures.jpeg
+kuttyPyGui/blockly/samples/Vision Demos/AI Hand Gestures.xml
+kuttyPyGui/blockly/samples/Vision Demos/AI LED.xml
+kuttyPyGui/blockly/samples/Vision Demos/AI Piano.jpeg
+kuttyPyGui/blockly/samples/Vision Demos/AI Piano.xml
+kuttyPyGui/blockly/samples/Vision Demos/AI birdy.jpeg
+kuttyPyGui/blockly/samples/Vision Demos/AI birdy.xml
+kuttyPyGui/blockly/samples/WiFi and Games/AI Bird Game.xml
+kuttyPyGui/blockly/samples/WiFi and Games/Bird Game with Light Sensor.png
+kuttyPyGui/blockly/samples/WiFi and Games/Bird Game with Light Sensor.xml
+kuttyPyGui/blockly/samples/WiFi and Games/Happy Birthday.jpeg
+kuttyPyGui/blockly/samples/WiFi and Games/Happy Birthday.xml
+kuttyPyGui/blockly/samples/WiFi and Games/Play Song Using Functions.jpeg
+kuttyPyGui/blockly/samples/WiFi and Games/Play Song Using Functions.xml
+kuttyPyGui/blockly/samples/WiFi and Games/Play Song.jpeg
+kuttyPyGui/blockly/samples/WiFi and Games/Play Song.xml
+kuttyPyGui/blockly/samples/WiFi and Games/Rotation Controlled Bird.jpeg
+kuttyPyGui/blockly/samples/WiFi and Games/Rotation Controlled Bird.xml
+kuttyPyGui/blockly/sounds/040.wav
+kuttyPyGui/blockly/sounds/041.wav
+kuttyPyGui/blockly/sounds/042.wav
+kuttyPyGui/blockly/sounds/043.wav
+kuttyPyGui/blockly/sounds/044.wav
+kuttyPyGui/blockly/sounds/045.wav
+kuttyPyGui/blockly/sounds/046.wav
+kuttyPyGui/blockly/sounds/047.wav
+kuttyPyGui/blockly/sounds/048.wav
+kuttyPyGui/blockly/sounds/049.wav
+kuttyPyGui/blockly/sounds/050.wav
+kuttyPyGui/blockly/sounds/051.wav
+kuttyPyGui/blockly/sounds/052.wav
+kuttyPyGui/blockly/sounds/053.wav
+kuttyPyGui/blockly/sounds/054.wav
+kuttyPyGui/blockly/sounds/055.wav
+kuttyPyGui/blockly/sounds/056.wav
+kuttyPyGui/blockly/themes/default/assets/fonts/icons.ttf
+kuttyPyGui/blockly/themes/default/assets/fonts/icons.woff
+kuttyPyGui/blockly/themes/default/assets/fonts/icons.woff2
+kuttyPyGui/blockly/themes/default/assets/fonts/outline-icons.ttf
+kuttyPyGui/blockly/themes/default/assets/fonts/outline-icons.woff
+kuttyPyGui/blockly/themes/default/assets/fonts/outline-icons.woff2
+kuttyPyGui/blockly/themes/default/assets/images/flags.png
+kuttyPyGui/examples/__init__.py
+kuttyPyGui/examples/adc-read-direct.c
+kuttyPyGui/examples/adc-read.c
+kuttyPyGui/examples/blink-2.c
+kuttyPyGui/examples/blink.c
+kuttyPyGui/examples/copy-bit-2.c
+kuttyPyGui/examples/copy-bit.c
+kuttyPyGui/examples/copy.c
+kuttyPyGui/examples/cro.c
+kuttyPyGui/examples/echo-direct.c
+kuttyPyGui/examples/echo.c
+kuttyPyGui/examples/freq-counter.c
+kuttyPyGui/examples/pwm-tc0-direct.c
+kuttyPyGui/examples/pwm-tc0.c
+kuttyPyGui/examples/pwm-tc1.c
+kuttyPyGui/examples/pwm-tc2-direct.c
+kuttyPyGui/examples/sq-tc0.c
+kuttyPyGui/examples/sq-tc1.c
+kuttyPyGui/examples/sq-tc2.c
+kuttyPyGui/examples/test-lcd.c
+kuttyPyGui/examples/test-uart.c
+kuttyPyGui/examples/voltmeter.c
+kuttyPyGui/examples/x.c
+kuttyPyGui/examples/atmega32/POV.py
+kuttyPyGui/examples/atmega32/__init__.py
+kuttyPyGui/examples/atmega32/accelerometer.py
+kuttyPyGui/examples/atmega32/accelerometer_robot.py
+kuttyPyGui/examples/atmega32/adc_200x_example.py
+kuttyPyGui/examples/atmega32/adc_example.py
+kuttyPyGui/examples/atmega32/adc_relay.py
+kuttyPyGui/examples/atmega32/blink.py
+kuttyPyGui/examples/atmega32/malus_law.py
+kuttyPyGui/examples/atmega32/stepper.py
+kuttyPyGui/examples/atmega32/temp-max6675.py
+kuttyPyGui/examples/atmega328p/__init__.py
+kuttyPyGui/kpy/__init__.py
+kuttyPyGui/kpy/mh-adc.c
+kuttyPyGui/kpy/mh-digital.c
+kuttyPyGui/kpy/mh-i2c.c
+kuttyPyGui/kpy/mh-lcd-float.c
+kuttyPyGui/kpy/mh-lcd-plus.c
+kuttyPyGui/kpy/mh-lcd.c
+kuttyPyGui/kpy/mh-soft-uart.c
+kuttyPyGui/kpy/mh-timer.c
+kuttyPyGui/kpy/mh-timer2.c
+kuttyPyGui/kpy/mh-uart.c
+kuttyPyGui/kpy/mh-utils.c
+kuttyPyGui/utilities/MyTabBrowser.py
+kuttyPyGui/utilities/Qt.py
+kuttyPyGui/utilities/REGISTERS.py
+kuttyPyGui/utilities/REGISTERS_NANO.py
+kuttyPyGui/utilities/REGISTERS_UNO.py
+kuttyPyGui/utilities/__init__.py
+kuttyPyGui/utilities/build_details.py
+kuttyPyGui/utilities/compile_routes.py
+kuttyPyGui/utilities/compile_server.py
+kuttyPyGui/utilities/dio.py
+kuttyPyGui/utilities/ipy.py
+kuttyPyGui/utilities/quiz_server.py
+kuttyPyGui/utilities/quiz_server_backup.py
+kuttyPyGui/utilities/quiz_server_socketio.py
+kuttyPyGui/utilities/syntax.py
+kuttyPyGui/utilities/texteditor.py
+kuttyPyGui/utilities/uploader.py
+kuttyPyGui/utilities/webBrowser.py
+kuttyPyGui/utilities/widgetUtils.py
+kuttyPyGui/utilities/static/__init__.py
+kuttyPyGui/utilities/templates/__init__.py
+kuttyPyGui/utilities/templates/gauge.py
+kuttyPyGui/utilities/templates/nano_rc.py
+kuttyPyGui/utilities/templates/res_rc.py
+kuttyPyGui/utilities/templates/resplus_rc.py
+kuttyPyGui/utilities/templates/ui_blockly_layout.py
+kuttyPyGui/utilities/templates/ui_category_row_2.py
+kuttyPyGui/utilities/templates/ui_dio.py
+kuttyPyGui/utilities/templates/ui_dio_adc.py
+kuttyPyGui/utilities/templates/ui_dio_adcConfig.py
+kuttyPyGui/utilities/templates/ui_dio_adcLog.py
+kuttyPyGui/utilities/templates/ui_dio_cntr.py
+kuttyPyGui/utilities/templates/ui_dio_control.py
+kuttyPyGui/utilities/templates/ui_dio_motor_shield.py
+kuttyPyGui/utilities/templates/ui_dio_pwm.py
+kuttyPyGui/utilities/templates/ui_dio_robot.py
+kuttyPyGui/utilities/templates/ui_dio_sensor.py
+kuttyPyGui/utilities/templates/ui_dio_stepper.py
+kuttyPyGui/utilities/templates/ui_dummyio.py
+kuttyPyGui/utilities/templates/ui_expt_row.py
+kuttyPyGui/utilities/templates/ui_ipy.py
+kuttyPyGui/utilities/templates/ui_layout.py
+kuttyPyGui/utilities/templates/ui_layout_ide.py
+kuttyPyGui/utilities/templates/ui_layout_quiz.py
+kuttyPyGui/utilities/templates/ui_layoutnano.py
+kuttyPyGui/utilities/templates/ui_layoutplus.py
+kuttyPyGui/utilities/templates/ui_layoutuno.py
+kuttyPyGui/utilities/templates/ui_quiz_row.py
+kuttyPyGui/utilities/templates/ui_regedit.py
+kuttyPyGui/utilities/templates/ui_regvals.py
+kuttyPyGui/utilities/templates/uno_rc.py
+kuttyPyGui/utilities/themes/__init__.py
+kuttyPyGui/utilities/themes/amoled.qss
+kuttyPyGui/utilities/themes/aqua.qss
+kuttyPyGui/utilities/themes/material.qss
+kuttyPyGui/utilities/themes/newtheme.qss
+resources/99-kuttypy-pip.rules
+resources/__init__.py
+resources/sispmctl.conf
