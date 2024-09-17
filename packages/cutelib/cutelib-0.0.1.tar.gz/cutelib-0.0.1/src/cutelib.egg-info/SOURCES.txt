@@ -1,0 +1,8 @@
+License
+Readme.md
+pyproject.toml
+src/algolib/__init__.py
+src/cutelib.egg-info/PKG-INFO
+src/cutelib.egg-info/SOURCES.txt
+src/cutelib.egg-info/dependency_links.txt
+src/cutelib.egg-info/top_level.txt
