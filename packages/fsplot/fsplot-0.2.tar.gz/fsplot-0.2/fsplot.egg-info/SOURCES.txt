@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fsplot/__init__.py
+fsplot/fsplot.py
+fsplot.egg-info/PKG-INFO
+fsplot.egg-info/SOURCES.txt
+fsplot.egg-info/dependency_links.txt
+fsplot.egg-info/requires.txt
+fsplot.egg-info/top_level.txt
