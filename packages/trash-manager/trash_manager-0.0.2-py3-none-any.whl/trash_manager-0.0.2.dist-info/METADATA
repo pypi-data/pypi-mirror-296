@@ -1,0 +1,45 @@
+Metadata-Version: 2.3
+Name: trash-manager
+Version: 0.0.2
+Summary: A manager for the trash system of the OS
+Project-URL: Documentation, https://github.com/vbrawl/trash-manager#readme
+Project-URL: Issues, https://github.com/vbrawl/trash-manager/issues
+Project-URL: Source, https://github.com/vbrawl/trash-manager
+Author-email: VBrawl <konstantosjim@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: delete,directory,file,folder,manager,remove,trash,trash-manager
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Requires-Dist: pywin32==306; platform_system == 'Windows'
+Requires-Dist: winshell==0.6; platform_system == 'Windows'
+Description-Content-Type: text/markdown
+
+# trash-manager
+
+[![PyPI - Version](https://img.shields.io/pypi/v/trash-manager.svg)](https://pypi.org/project/trash-manager)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/trash-manager.svg)](https://pypi.org/project/trash-manager)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install trash-manager
+```
+
+## License
+
+`trash-manager` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

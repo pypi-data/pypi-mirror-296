@@ -1,0 +1,5 @@
+
+WINDOWS_TrashItem_recover__ALLOW_UNDO = False
+WINDOWS_TrashItem_recover__NO_CONFIRM = True
+WINDOWS_TrashItem_recover__RENAME_ON_COLLISION = False
+WINDOWS_TrashItem_recover__SILENT = True
