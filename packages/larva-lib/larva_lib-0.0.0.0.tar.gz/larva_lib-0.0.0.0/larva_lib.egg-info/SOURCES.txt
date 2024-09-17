@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+larva/__init__.py
+larva/image_capture.py
+larva/inference.py
+larva/lighting_control.py
+larva/motion_control.py
+larva/utils.py
+larva_lib.egg-info/PKG-INFO
+larva_lib.egg-info/SOURCES.txt
+larva_lib.egg-info/dependency_links.txt
+larva_lib.egg-info/requires.txt
+larva_lib.egg-info/top_level.txt
