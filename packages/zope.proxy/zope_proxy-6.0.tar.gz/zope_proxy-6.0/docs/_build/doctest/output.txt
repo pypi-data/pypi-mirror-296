@@ -1,0 +1,313 @@
+Results of doctest builder run on 2024-09-17 09:14:15
+=====================================================
+
+Document: api
+-------------
+**********************************************************************
+File "api.rst", line 64, in default
+Failed example:
+    [interface.getName() for interface in list(providedBy(D1(x)))]
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[0]>", line 1, in <module>
+        [interface.getName() for interface in list(providedBy(D1(x)))]
+                                                              ^^^^^
+      File "/Users/jens/src/zope/zope.proxy/.tox/docs/lib/python3.11/site-packages/zope/proxy/__init__.py", line 110, in __new__
+        inst = super().__new__(cls)
+               ^^^^^^^
+    TypeError: super(type, obj): obj must be an instance or subtype of type
+**********************************************************************
+File "api.rst", line 67, in default
+Failed example:
+    [interface.getName() for interface in list(providedBy(D2(D1(x))))]
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[1]>", line 1, in <module>
+        [interface.getName() for interface in list(providedBy(D2(D1(x))))]
+                                                                 ^^^^^
+      File "/Users/jens/src/zope/zope.proxy/.tox/docs/lib/python3.11/site-packages/zope/proxy/__init__.py", line 110, in __new__
+        inst = super().__new__(cls)
+               ^^^^^^^
+    TypeError: super(type, obj): obj must be an instance or subtype of type
+**********************************************************************
+File "api.rst", line 84, in default
+Failed example:
+    [interface.getName() for interface in list(providedBy(D1(x)))]
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[4]>", line 1, in <module>
+        [interface.getName() for interface in list(providedBy(D1(x)))]
+                                                              ^^^^^
+      File "/Users/jens/src/zope/zope.proxy/.tox/docs/lib/python3.11/site-packages/zope/proxy/__init__.py", line 110, in __new__
+        inst = super().__new__(cls)
+               ^^^^^^^
+    TypeError: super(type, obj): obj must be an instance or subtype of type
+**********************************************************************
+File "api.rst", line 87, in default
+Failed example:
+    [interface.getName() for interface in list(providedBy(D2(D1(x))))]
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[5]>", line 1, in <module>
+        [interface.getName() for interface in list(providedBy(D2(D1(x))))]
+                                                                 ^^^^^
+      File "/Users/jens/src/zope/zope.proxy/.tox/docs/lib/python3.11/site-packages/zope/proxy/__init__.py", line 110, in __new__
+        inst = super().__new__(cls)
+               ^^^^^^^
+    TypeError: super(type, obj): obj must be an instance or subtype of type
+**********************************************************************
+1 items had failures:
+   4 of  23 in default
+23 tests in 1 items.
+19 passed and 4 failed.
+***Test Failed*** 4 failures.
+
+Document: narr
+--------------
+**********************************************************************
+File "narr.rst", line 21, in default
+Failed example:
+    p = MyProxy(l)
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[3]>", line 1, in <module>
+        p = MyProxy(l)
+            ^^^^^^^^^^
+      File "/Users/jens/src/zope/zope.proxy/.tox/docs/lib/python3.11/site-packages/zope/proxy/__init__.py", line 110, in __new__
+        inst = super().__new__(cls)
+               ^^^^^^^
+    TypeError: super(type, obj): obj must be an instance or subtype of type
+**********************************************************************
+File "narr.rst", line 27, in default
+Failed example:
+    p.x = 'x'
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[0]>", line 1, in <module>
+        p.x = 'x'
+        ^
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 28, in default
+Failed example:
+    p.x
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[1]>", line 1, in <module>
+        p.x
+        ^
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 30, in default
+Failed example:
+    p.f()
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[2]>", line 1, in <module>
+        p.f()
+        ^
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 37, in default
+Failed example:
+    p
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[0]>", line 1, in <module>
+        p
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 39, in default
+Failed example:
+    p.pop()
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[1]>", line 1, in <module>
+        p.pop()
+        ^
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 41, in default
+Failed example:
+    p
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[2]>", line 1, in <module>
+        p
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 68, in default
+Failed example:
+    p = MyProxy(o)
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[5]>", line 1, in <module>
+        p = MyProxy(o)
+            ^^^^^^^^^^
+      File "/Users/jens/src/zope/zope.proxy/.tox/docs/lib/python3.11/site-packages/zope/proxy/__init__.py", line 110, in __new__
+        inst = super().__new__(cls)
+               ^^^^^^^
+    TypeError: super(type, obj): obj must be an instance or subtype of type
+**********************************************************************
+File "narr.rst", line 69, in default
+Failed example:
+    p.q
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[6]>", line 1, in <module>
+        p.q
+        ^
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 72, in default
+Failed example:
+    p.z
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[7]>", line 1, in <module>
+        p.z
+        ^
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 75, in default
+Failed example:
+    p.z = 1
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[8]>", line 1, in <module>
+        p.z = 1
+        ^
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 76, in default
+Failed example:
+    o.z, p.z
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[9]>", line 1, in <module>
+        o.z, p.z
+        ^^^
+    AttributeError: 'MyOb' object has no attribute 'z'
+**********************************************************************
+File "narr.rst", line 107, in default
+Failed example:
+    p = MyProxy(o)
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[5]>", line 1, in <module>
+        p = MyProxy(o)
+            ^^^^^^^^^^
+      File "/Users/jens/src/zope/zope.proxy/.tox/docs/lib/python3.11/site-packages/zope/proxy/__init__.py", line 110, in __new__
+        inst = super().__new__(cls)
+               ^^^^^^^
+    TypeError: super(type, obj): obj must be an instance or subtype of type
+**********************************************************************
+File "narr.rst", line 108, in default
+Failed example:
+    p.foo()
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[6]>", line 1, in <module>
+        p.foo()
+        ^
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 126, in default
+Failed example:
+    p = ProxyBase(c1)
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[5]>", line 1, in <module>
+        p = ProxyBase(c1)
+            ^^^^^^^^^^^^^
+      File "/Users/jens/src/zope/zope.proxy/.tox/docs/lib/python3.11/site-packages/zope/proxy/__init__.py", line 110, in __new__
+        inst = super().__new__(cls)
+               ^^^^^^^
+    TypeError: super(type, obj): obj must be an instance or subtype of type
+**********************************************************************
+File "narr.rst", line 133, in default
+Failed example:
+    old = setProxiedObject(p, c2)
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[0]>", line 1, in <module>
+        old = setProxiedObject(p, c2)
+                               ^
+    NameError: name 'p' is not defined
+**********************************************************************
+File "narr.rst", line 134, in default
+Failed example:
+    old is c1
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[1]>", line 1, in <module>
+        old is c1
+        ^^^
+    NameError: name 'old' is not defined
+**********************************************************************
+File "narr.rst", line 137, in default
+Failed example:
+    getProxiedObject(p) is c2
+Exception raised:
+    Traceback (most recent call last):
+      File "/Users/jens/src/python/Python-3.11.9/lib/python3.11/doctest.py", line 1355, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest default[2]>", line 1, in <module>
+        getProxiedObject(p) is c2
+                         ^
+    NameError: name 'p' is not defined
+**********************************************************************
+1 items had failures:
+  18 of  37 in default
+37 tests in 1 items.
+19 passed and 18 failed.
+***Test Failed*** 18 failures.
+
+Doctest summary
+===============
+   60 tests
+   22 failures in tests
+    0 failures in setup code
+    0 failures in cleanup code
