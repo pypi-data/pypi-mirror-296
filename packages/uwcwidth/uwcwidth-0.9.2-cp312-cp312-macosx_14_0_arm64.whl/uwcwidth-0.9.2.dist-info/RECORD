@@ -1,0 +1,11 @@
+uwcwidth/__init__.pxd,sha256=qfuA2zWNTjQtFa5x8E-6EEHxM-R9v6Mm6uB8oWiOoHs,179
+uwcwidth/__init__.py,sha256=1AMtbOPcMIIe_gGQcuVdR_3gnzvwDHel0fUoxsOmWaA,104
+uwcwidth/tables.pxd,sha256=k-FIs6Ac3lf7N2oDjwKb2VgUZnsp6x-HGV9IvJNCJN0,13436
+uwcwidth/uwcwidth.cpython-312-darwin.so,sha256=5LI9BzWtKDTTGJNdL-3FyaVaJ9H4-Sv62Ny0C6hACaY,98272
+uwcwidth/uwcwidth.pxd,sha256=_g9Tiko8EoLjlIXZL4kDjfGbPi4iC3ScsxCKUCrPJBM,268
+uwcwidth/uwcwidth.pyx,sha256=45zOVa8vHWgTvu1jqnxrjLirZWfP5Pivb4grlpaHTag,2686
+uwcwidth-0.9.2.dist-info/LICENSE,sha256=13C-RRJwvgsFQ_K5sQot9Qak1Is-ez2AEpJI2Mhnm5A,1149
+uwcwidth-0.9.2.dist-info/METADATA,sha256=f-voWTbCN6TDqxjXfp_HB8FcFSKY33C8gSFbbM5Ze38,5210
+uwcwidth-0.9.2.dist-info/WHEEL,sha256=ZMiJpg52t84m-fVZEr5yarTx_R2TBJEH3cjkP4xam6E,109
+uwcwidth-0.9.2.dist-info/top_level.txt,sha256=Tr61O5db29AaCaGKdS7cWJnG6PObf_-ygMOViQxof1o,9
+uwcwidth-0.9.2.dist-info/RECORD,,
