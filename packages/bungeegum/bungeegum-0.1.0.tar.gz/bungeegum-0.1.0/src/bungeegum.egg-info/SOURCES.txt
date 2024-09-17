@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/bungeegum/__init__.py
+src/bungeegum/_version.py
+src/bungeegum/bg.py
+src/bungeegum/com.zetier.bungeegum-debug.apk
+src/bungeegum/fork_exec.js
+src/bungeegum/run_shellcode.js
+src/bungeegum.egg-info/PKG-INFO
+src/bungeegum.egg-info/SOURCES.txt
+src/bungeegum.egg-info/dependency_links.txt
+src/bungeegum.egg-info/entry_points.txt
+src/bungeegum.egg-info/requires.txt
+src/bungeegum.egg-info/top_level.txt
