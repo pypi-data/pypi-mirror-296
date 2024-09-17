@@ -1,0 +1,9 @@
+aws_cdk/aws_lambda_dotnet/__init__.py,sha256=chcbfzP6p7NBWDE4aFpx6HzsncEXmgsedyZHT2CNPQU,104495
+aws_cdk/aws_lambda_dotnet/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_lambda_dotnet/_jsii/__init__.py,sha256=Tp5jnCJB-U1nFGSrkzmgrEFxnLIej__spD6mvSV-bkc,1467
+aws_cdk/aws_lambda_dotnet/_jsii/aws-lambda-dotnet@0.0.6.jsii.tgz,sha256=pMMt3jOYFlshM4mGbWRFLTyLs3466THfdNDL7CTmIhU,51608
+aws_cdk.aws_lambda_dotnet-0.0.6.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_cdk.aws_lambda_dotnet-0.0.6.dist-info/METADATA,sha256=hPAIWt_sJnUKLh20jInMGdffvv7qy8yXgbow9_kKZcI,3946
+aws_cdk.aws_lambda_dotnet-0.0.6.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+aws_cdk.aws_lambda_dotnet-0.0.6.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_lambda_dotnet-0.0.6.dist-info/RECORD,,
