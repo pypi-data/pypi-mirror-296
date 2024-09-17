@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: standlib
+Version: 0.0.5
+Summary: A custom standard library module for Python
+Home-page: https://github.com/BrunoCiccarino/standlib
+Author: BrunoCiccarino
+Author-email: ciccabr9@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Standlib 🐍
+
+This project is a set of pre-built modules, functions and classes that were made to make your life easier when programming in Python, it works like a Swiss army knife.
+
+Version:
+
+* This library is still only in beta version, it is worth mentioning that this means that it is in constant development.
+
+Instalation:
+
+* To install it is very simple, just install it via pip ```pip install pystdlib``` and then you can use it without any problems.
+
+Contributing: 
+
+That said, there's a bunch of ways you can contribute to this project, like by:
+
+* Giving a star on this repository (this is very important and costs nothing)
+* Reporting a bug
+* Improving this documentation
+* Sharing this project and recommending it to your friends
+* Or you can contribute code by following this guide: 
+
+guide: 
+
+🎉👍 Hello dev, thank you for thinking about contributing to our project, your help is very important to us. 👍 🎉  
+
+To facilitate your contribution, I am writing this guide. Because I keep in mind that help from the community is essential for the growth of a project, and contributing here is very simple, just follow this guide and send the pull request.
+
+To contribute, start by forking the repository, then you can start working on the code, here in this repository we use a commit convention conventional We use this convention to facilitate code maintenance, as we can make mistakes in our codes, it's okay, we are human and can make mistakes, and commits are a history of our changes or contributions. Using this convention we can navigate between the commits and we will be able to find where we added the code that possibly caused an error in the application, so that we can edit the code and fix it or even recover the state before the commit. Right after you finish doing everything, it is very important that you make sure you have finished everything before making the pull request. If you have, make the pull request and briefly explain your changes. What did you do, why did you do it, how did you do it, to facilitate code review. 
+
+Double:
+
+Class Overview
+
+The Double class represents double-precision floating-point numbers with customizable precision. It offers arithmetic operations, formatting, and utility methods.
+
+Attributes
+
+precision (int): The number of decimal places to maintain.
+value (str): The value of the number as a string.
+Methods
+
+* __init__(value, precision=None):
+
+Initializes a new Double object with the given value and precision.
+If precision is not provided, the default precision is used.
+The value can be an integer, float, or string.
+_parse(value):
+
+Parses the given value into a string representation, ensuring it has a decimal point and appropriate formatting.
+
+* __repr__():
+
+Returns a string representation of the Double object, suitable for debugging or evaluation.
+
+* __str__():
+
+Returns a formatted string representation of the Double object, suitable for display.
+
+* _format(value):
+
+Formats the given value to the specified precision, ensuring leading zeros and trailing zeros are handled correctly.
+
+* __add__(other):
+
+Adds the given other value to this Double object.
+Handles Double, int, and float operands.
+Returns a new Double object with the result.
+
+* __sub__(other):
+
+Subtracts the given other value from this Double object.
+Handles Double, int, and float operands.
+Returns a new Double object with the result.
+
+* __mul__(other):
+
+Multiplies this Double object by the given other value.
+Handles Double, int, and float operands.
+Returns a new Double object with the result.
+
+* __truediv__(other):
+
+Divides this Double object by the given other value.
+Handles Double, int, and float operands.
+Raises ZeroDivisionError if the divisor is zero.
+Returns a new Double object with the result.
+
+* _add(a, b):
+
+Adds two string representations of numbers.
+Handles different decimal lengths and carries over.
+Returns the sum as a string.
+
+* _subtract(a, b):
+
+Subtracts two string representations of numbers.
+Handles different decimal lengths and borrowing.
+Returns the difference as a string.
+
+* _multiply(a, b):
+
+Multiplies two string representations of numbers.
+Handles different decimal lengths and carries over.
+Returns the product as a string.
+
+* _divide(a, b):
+
+Divides two string representations of numbers.
+Handles different decimal lengths and carries over.
+Returns the quotient as a string.
+
+* set_default_precision(precision):
+
+Sets the default precision for all Double objects.
+
+* get_default_precision():
+
+Gets the default precision for all Double objects.
