@@ -1,0 +1,65 @@
+.cursorrules
+Comprehensive_Library_Guide.md
+LICENSE
+README.md
+STYLE_GUIDE.md
+future_dev_roadmap.ipynb
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+updated_pyproject.toml
+.github/workflows/publish-to-pypi.yml
+.gitignore/.gitignore
+ai_tools/README.md
+ai_tools/llmsummarize 1. full repo.py
+ai_tools/llmsummarize 2. docs and code only.py
+ai_tools/llmsummarize 3. documentation and docstrings.py
+ai_tools/rascommander_code_assistant.ipynb
+ai_tools/llm_summary/ras_commander.txt
+examples/01_project_initialization.py
+examples/02_plan_operations.py
+examples/03_geometry_operations.py
+examples/04_unsteady_flow_operations.py
+examples/05_utility_functions.py
+examples/06_single_plan_execution.py
+examples/07_sequential_plan_execution.py
+examples/08_parallel_execution.py
+examples/09_specifying_plans.py
+examples/10_arguments_for_compute.py
+examples/11_Using_RasExamples.ipynb
+examples/12_plan_set_execution.py
+examples/13_multiple_project_operations.py
+examples/example_projects.csv
+examples/example_projects.ipynb
+misc/Claude Example Error Correct Suggestions.txt
+misc/FunctionList.md
+misc/Gemini Code Review.ipynb
+misc/Gemini Dev notes.ipynb
+misc/PEP 484.txt
+misc/Plan Key Notes.txt
+misc/Prompts.txt
+misc/future_dev_roadmap.ipynb
+misc/magic example project lines.txt
+misc/pep 8.txt
+misc/future examples/xx_accessing_hdf_results_1D.py
+misc/future examples/xx_accessing_hdf_results_2D.py
+misc/future examples/xx_changing_2d_infiltration_overrides.ipynb
+misc/future examples/xx_changing_2d_mannings_tables.ipynb
+misc/future examples/xx_changing_common_plan_keys.ipynb
+misc/future examples/xx_changing_common_unsteady_keys.ipynb
+misc/future examples/xx_compute_remote_desktop.py
+ras_commander/README.md
+ras_commander/RasCommander.py
+ras_commander/RasExamples.py
+ras_commander/RasGeo.py
+ras_commander/RasPlan.py
+ras_commander/RasPrj.py
+ras_commander/RasUnsteady.py
+ras_commander/RasUtils.py
+ras_commander/__init__.py
+ras_commander/_version.py
+ras_commander.egg-info/PKG-INFO
+ras_commander.egg-info/SOURCES.txt
+ras_commander.egg-info/dependency_links.txt
+ras_commander.egg-info/top_level.txt
