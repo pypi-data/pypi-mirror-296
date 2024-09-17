@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "lsoft-docker"
+version = "1.0.0"
+description = "high level docker functions"
+authors = ["Marco Bartel <bartel@electronic-shop.lu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydash = "*"
+docker = "^7.1.0"
+pydantic = "^2.9.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+
+addopts = "-ra -q -s -v"
+testpaths = [
+    "tests",
+]
+
+log_cli = true
+log_cli_level = "DEBUG"
+#log_cli_format = "[%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_format = "[%(levelname)8s][%(name)s] %(message)s (%(filename)s:%(lineno)s)"
