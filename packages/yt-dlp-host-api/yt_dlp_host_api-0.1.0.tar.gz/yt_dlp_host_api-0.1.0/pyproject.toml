@@ -1,0 +1,21 @@
+[project]
+name = "yt_dlp_host_api"
+version = "0.1.0"
+authors = [
+  { name="Amadeus (Wasys)", email="tubik.corp@gmail.com" },
+]
+description = "A Python library for interacting with the yt-dlp-host API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.25.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/Vasysik/yt-dlp-host-api"
+Issues = "https://github.com/Vasysik/yt-dlp-host-api/issues"
