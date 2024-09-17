@@ -1,0 +1,2 @@
+[console_scripts]
+rgc_quant = rgc_quant.main:main

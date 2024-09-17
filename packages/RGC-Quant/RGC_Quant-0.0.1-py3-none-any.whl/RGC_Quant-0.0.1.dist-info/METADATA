@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RGC-Quant
+Version: 0.0.1
+Summary: RGC Quantification
+Home-page: https://github.com/AminAlam/RGC-Quant
+Author: Amin Alam, Arsalan Firoozi
+License: MIT
+Keywords: RGC,Quantification,Deep Learning,3D,Confocal,Microscopy,Retina,Neuroscience,Image Processing,Image Analysis,Image Segmentation,Deep learning,PyTorch,3D U-Net
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+
+
+# RGC-Quant
