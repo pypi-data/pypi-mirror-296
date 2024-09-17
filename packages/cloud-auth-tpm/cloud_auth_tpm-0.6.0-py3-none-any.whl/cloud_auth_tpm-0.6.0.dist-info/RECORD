@@ -1,0 +1,17 @@
+cloud_auth_tpm/__init__.py,sha256=3z-W0Vf3kvI0kIdLDY3Dn3rFiShglIB1ZUJgwMWyANs,71
+cloud_auth_tpm/base.py,sha256=OeiovimZHpbTbeb8Z9TaKN1ROjVXaTKv0tXhDWS-cMs,3461
+cloud_auth_tpm/aws/__init__.py,sha256=cxkhpEmfkRxy-vqHrDonNITkB_y85eqNOdF8dn_lvS8,154
+cloud_auth_tpm/aws/awscredentials.py,sha256=Y2py4jx7omyURHVmQiA8iiWyNVsF3Jog_iWNrA8SCMg,7475
+cloud_auth_tpm/aws/awshmaccredentials.py,sha256=H9q97k-XKEkiEEQvBRFoqtHumF6BatBlrHKVn0qiEP0,8669
+cloud_auth_tpm/azure/__init__.py,sha256=OVIxrcDTJiYVYSBdl-q779WPA3YELsNH4i4g7qpVwj4,91
+cloud_auth_tpm/azure/azurecredentials.py,sha256=1xvzvFqKa4l7EE5UbnIuG5lqCr07yJf6F9ax8_OMuW4,5453
+cloud_auth_tpm/gcp/__init__.py,sha256=kacwAWO8qta8MUFQVn0Pn_OC70zaRs4DYG2XjVqAP24,85
+cloud_auth_tpm/gcp/gcpcredentials.py,sha256=6yuFSckjshimmGBam8nbfRm9huYkFO-zsV5kms2w4kE,3472
+cloud_auth_tpm/policy/__init__.py,sha256=kr-KyGbYcakphqw5eWe7d4gMeETr_qycm5aFSmfnpY0,125
+cloud_auth_tpm/policy/pcr.py,sha256=YZfJRMvCuGM5F4mjCdOxJIgxuKCabYPWakFIJznp-1c,1912
+cloud_auth_tpm/policy/policy.py,sha256=WiNMGIUlCGy8G82Uz-SiNN4jzq8awrNSr4LDI6G47Ok,334
+cloud_auth_tpm-0.6.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cloud_auth_tpm-0.6.0.dist-info/METADATA,sha256=lEvSmbtuOIZfhpPzdrQpYOs_k63OcJIF2R6SfwZdobg,28531
+cloud_auth_tpm-0.6.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+cloud_auth_tpm-0.6.0.dist-info/top_level.txt,sha256=2gezTjJgACp4_6fEvuidY_jQxuu8yFl_dFXeReo0Q3Y,15
+cloud_auth_tpm-0.6.0.dist-info/RECORD,,
