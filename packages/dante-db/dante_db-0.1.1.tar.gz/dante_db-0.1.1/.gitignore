@@ -1,0 +1,9 @@
+.coverage
+coverage.lcov
+*.py[co]
+__pycache__
+htmlcov/
+*.code-*
+dist/
+*.lock
+*.db
