@@ -1,0 +1,33 @@
+site_name: GraphBin-Tk
+site_url: "https://github.com/Vini2/gbintk"
+site_author: "Vijini Mallawaarachchi"
+repo_url: "https://github.com/Vini2/gbintk"
+repo_name: 'GitHub'
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - bash
+        - shell
+        - text
+nav:
+    - Home:
+      - Introduction: index.md
+      - Install: install.md
+    - MetaCoAG:
+      - Introduction: metacoag_intro.md
+      - Preprocess: metacoag_preprocess.md
+      - Usage: metacoag_usage.md
+    - GraphBin:
+      - Introduction: graphbin_intro.md
+      - Preprocess: graphbin_preprocess.md
+      - Usage: graphbin_usage.md
+    - GraphBin2:
+      - Introduction: graphbin2_intro.md
+      - Preprocess: graphbin2_preprocess.md
+      - Usage: graphbin2_usage.md
+    - Support:
+      - Prepare: prepare.md
+      - Visualise: visualise.md
+      - Evaluate: evaluate.md
