@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "parsefire"
+version = "2024.9.1"
+description = "Python Package for consistent data mining from unstructured text documents."
+authors = ["Michel Fodje <michel4j@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "parsefire"},
+    { include = "tests", format = "sdist" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyYAML = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
