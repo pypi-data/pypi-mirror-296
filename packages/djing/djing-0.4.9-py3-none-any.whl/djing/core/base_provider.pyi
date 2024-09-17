@@ -1,0 +1,9 @@
+from _typeshed import Incomplete
+from djing.core.application import Application as Application
+
+class BaseProvider:
+    application: Incomplete
+    resource_classes: Incomplete
+    def __init__(self, application: Application) -> None: ...
+    def boot(self) -> None: ...
+    def authorization(self, user): ...
