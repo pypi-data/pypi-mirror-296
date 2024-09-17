@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+byte_gg_wrapper.egg-info/PKG-INFO
+byte_gg_wrapper.egg-info/SOURCES.txt
+byte_gg_wrapper.egg-info/dependency_links.txt
+byte_gg_wrapper.egg-info/requires.txt
+byte_gg_wrapper.egg-info/top_level.txt
