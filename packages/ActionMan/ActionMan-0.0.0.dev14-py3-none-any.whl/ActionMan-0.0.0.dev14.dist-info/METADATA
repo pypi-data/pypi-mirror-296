@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ActionMan
+Version: 0.0.0.dev14
+Requires-Python: >=3.10
+Requires-Dist: PyProtocol
+Requires-Dist: rich
+
