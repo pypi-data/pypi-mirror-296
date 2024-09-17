@@ -1,0 +1,11 @@
+miniogre/__init__.py,sha256=v77T2Mkpzkn40VRqP3nx4sHLIT1GZfn9Oj18Ecp8U5I,125
+miniogre/actions.py,sha256=DbBgXjLpeOmzukp9lZKTIHIm4Yaxyx5m1fWme71fd2o,33278
+miniogre/config.py,sha256=_J5nHG8UyQsxJIKOfFaD0dN3cHALLP16fljpdeVZy0s,7105
+miniogre/constants.py,sha256=N1y9hjJO8ecCrz4nBST2RSD-U6ujNdq033snp6zzerY,16647
+miniogre/encodings/9b5ad71b2ce5302211f9c61530b329a4922fc6a4,sha256=Ijkht27pm96ZW3_3OFE-7xAPtR0YyTWXoRO8_-hlsqc,1681126
+miniogre/main.py,sha256=cyWSg55c_slZcIFW4PwOKeEippYA6RmlqL_MkmVcJy4,5104
+miniogre-0.9.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+miniogre-0.9.3.dist-info/METADATA,sha256=t8xS7yINHQwdiW9w8_D20QIse3uWdFIC7HnqlLHGcFI,5927
+miniogre-0.9.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+miniogre-0.9.3.dist-info/entry_points.txt,sha256=cC0KiF23U_cZr5-ydf7I6ZCiAYEySQiXLvUbGonQA0Q,46
+miniogre-0.9.3.dist-info/RECORD,,
