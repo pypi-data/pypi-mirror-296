@@ -1,0 +1,7 @@
+graft src
+
+global-exclude *~
+global-exclude *.py[cod]
+global-exclude *.ipynb
+global-exclude *.DS_Store
+global-exclude .*-sunloginclient*
