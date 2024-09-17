@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: orpheuspypractice
+Version: 0.2.7
+Summary: Practice Package to Experiment with Orpheus's goals and its submodules
+Home-page: https://github.com/jgwill/orpheuspypractice
+Author: JGWill
+Author-email: jgi@jgwill.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tlid
+Requires-Dist: requests
+Requires-Dist: music21
+Requires-Dist: ipython
+Requires-Dist: jgcmlib>=1.0.57
+Requires-Dist: jghfmanager>=0.1.2
+
+# orpheuspypractice
+
+A Practice Package to Experiment with Orpheus's goals.
+
+## Installation
+
+You can install orpheuspypractice using pip:
+
+```shell
+pip install orpheuspypractice
+```
+
+## Commands
+
+* oabc: Convert an ABC file to a MIDI file.
