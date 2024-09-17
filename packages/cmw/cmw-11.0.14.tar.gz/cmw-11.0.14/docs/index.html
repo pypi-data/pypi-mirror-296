@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CommonMark Website</title>
+
+    <style>
+        :root {
+            --raw-main-color: 0, 123, 255; /* Professional blue */
+            --raw-darker-color: 0, 86, 179; /* Darker blue */
+            --raw-lighter-color: 30, 144, 255; /* Bright blue */
+            --main-color: rgb(var(--raw-main-color));
+            --darker-color: rgb(var(--raw-darker-color));
+            --lighter-color: rgb(var(--raw-lighter-color));
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        pre {
+            padding: 1em;
+            border: 1px solid #999;
+            background-color: #eee;
+            overflow-x: auto;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f7f7f7;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #ddd;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #777;
+        }
+
+        header img {
+            vertical-align: middle;
+            width: 3em;
+            border-radius: 50%;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        a, a:visited {
+            text-decoration: none;
+            color: var(--main-color);
+        }
+
+        nav a {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: var(--darker-color);
+        }
+
+        section {
+            padding: 20px 0;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            border-top: 2px solid #ddd;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .center {
+            text-align: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button.link {
+            color: var(--main-color);
+            padding: 0;
+            margin: 0;
+            display: inline;
+            background: none;
+            border: none;
+            font: inherit;
+            cursor: pointer;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            padding: 0.5em;
+            border: 1px solid #ccc;
+        }
+
+        button, a.button {
+            margin: 0;
+            padding: 10px 20px;
+            background-color: var(--main-color);
+            color: #fff;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+        /* Global Form Styles */
+
+        form {
+            max-width: 600px; /* Keeps the form sleek */
+            margin: 1em auto; /* Center form on page */
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+            border: 1px solid #888;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        label {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #333; /* Neutral color for labels */
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc; /* Light border */
+            border-radius: 4px; /* Slightly rounded edges */
+            font-size: 16px;
+            background-color: #f9f9f9; /* Soft background */
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        input:focus, textarea:focus {
+            border-color: var(--primary-color); /* Blue border on focus */
+            box-shadow: 0 0 5px rgba(var(--raw-primary-color), 0.5); /* Slight glow effect */
+            outline: none; /* Remove default focus */
+        }
+
+        textarea {
+            resize: vertical; /* Allow vertical resizing */
+            min-height: 120px;
+        }
+
+        /* Submit Button Styles */
+        button[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: var(--secondary-color);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            form {
+                padding: 15px;
+            }
+
+            input, textarea {
+                font-size: 14px;
+            }
+
+            button[type="submit"] {
+                font-size: 14px;
+                padding: 10px 15px;
+            }
+        }
+
+        .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .box {
+            flex: 1 1 calc(33% - 20px);
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .box {
+                flex: 1 1 100%;
+            }
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .tags span {
+            display: inline-block;
+            padding: .2em .6em;
+            margin: .2em .2em;
+            border-radius: 5px;
+            white-space: nowrap;
+            background-color: #e8e8e8;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>CommonMark Website</h1>
+            <p>Website creation simplified.</p>
+        </header>
+
+        <nav> <a href='/'>Documentation</a>  <a href='/feedback.html'>Feedback</a>  <a href='https://github.com/mizuki-hikaru/cmw'>GitHub Repository</a> </nav>
+
+        <section id="introduction">
+<h2>Introduction</h2>
+<p>CommonMark Website (CMW) is a command-line utility designed to simplify the
+creation and management of websites using markdown files. It eliminates the
+repetitive task of updating raw HTML pages by allowing you to configure your
+site through <code>config.yaml</code> and generate HTML automatically.</p>
+</section>
+<section id="getting-started">
+<h2>Getting started</h2>
+<p>Installation:</p>
+<pre><code>pip install cmw
+</code></pre>
+<p>Initializing a new project:</p>
+<pre><code>mkdir my-project
+cd my-project
+cmw init
+</code></pre>
+<p>This creates two files: config.yaml, and index.md. Edit them as you see fit.</p>
+<p>You can preview the site by running:</p>
+<pre><code>cmw server
+</code></pre>
+<p>Doing this will convert the markdown files into HTML and launch a development
+server for live viewing in your browser. If you just want to generate HTML
+files without a server, run <code>cmw</code> without any arguments.</p>
+</section>
+<section id="syntax">
+<h2>Syntax</h2>
+<h3>1. Section Wrapping from H2 to the next H2</h3>
+<p>When rendering markdown, any content starting from an H2 (##) heading up to the
+next H2 will be automatically wrapped in a <code>&lt;section&gt;</code> tag. This enables
+logical grouping of content for better structure and styling.</p>
+<p>Example:</p>
+<pre><code>## Section 1
+
+Some content here.
+
+### Subheading
+
+More content here.
+
+## Section 2
+
+New section content here.
+</code></pre>
+<p>Output:</p>
+<pre><code>&lt;section id="section-1"&gt;
+    &lt;h2&gt;Section 1&lt;/h2&gt;
+    &lt;p&gt;Some content here.&lt;/p&gt;
+    &lt;h3&gt;Subheading&lt;/h3&gt;
+    &lt;p&gt;More content here.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="section-2"&gt;
+    &lt;h2&gt;Section 2&lt;/h2&gt;
+    &lt;p&gt;New section content here.&lt;/p&gt;
+&lt;/section&gt;
+</code></pre>
+<p>Note that the id of the section is automatically generated by lowercasing the
+alphanumeric parts of the H2 section title and then joining with dashes (-).</p>
+<h3>2. Class wrapping</h3>
+<p>You can wrap any text inside a div with with a custom class by using the
+following syntax:</p>
+<pre><code>.center: This text will be centered.
+
+.center:
+    This paragraph will be centered.
+
+    And so will this paragraph.
+</code></pre>
+<p>The above example will output the following code:</p>
+<pre><code>&lt;div class="center"&gt;
+    This text will be centered.
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;p&gt;This paragraph will be centered.&lt;/p&gt;
+
+    &lt;p&gt;And so will this paragraph.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+<p>Divs with custom classes can be nested, for example:</p>
+<pre><code>.box: .center: This is nested inside multiple divs.
+</code></pre>
+<p>Or classes can be combined in a single div, for example:</p>
+<pre><code>.highlight.center.tags: HTML, CSS, Python, Markdown
+</code></pre>
+<p>You can use any class name, but there are three in-built class names with
+custom behaviour: .center, .tags, and .box.</p>
+<h3>3. Tags</h3>
+<p><code>.tags</code> will style some comma-separated tags each with a light grey background.</p>
+<p>Example:</p>
+<pre><code>.tags: HTML, CSS, YAML, Markdown
+</code></pre>
+<p>Will render as:</p>
+<div class='tags'>
+<p><span>HTML</span>
+<span>CSS</span>
+<span>YAML</span>
+<span>Markdown</span></p>
+</div>
+<h3>3. Box Layout (3-Column Responsive)</h3>
+<p>You can use the box: directive to wrap content inside a box, which will be part
+of a responsive 3-column layout.</p>
+<p>Example:</p>
+<pre><code>.box:
+    /project-1-logo.png
+
+    ### Project 1
+
+    Description of project 1
+.box:
+    /project-2-logo.png
+
+    ### Project 2
+
+    Description of project 2
+.box:
+    /project-3-logo.png
+
+    ### Project 3
+
+    Description of project 3
+</code></pre>
+<p>Output:</p>
+<pre><code>&lt;div class='boxes'&gt;
+    &lt;div class='box'&gt;
+        &lt;img src="/project-1-logo.png" /&gt;
+        &lt;h3&gt;Project 1&lt;/h3&gt;
+        &lt;p&gt;Description of project 1&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class='box'&gt;
+        &lt;img src="/project-2-logo.png" /&gt;
+        &lt;h3&gt;Project 2&lt;/h3&gt;
+        &lt;p&gt;Description of project 2&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class='box'&gt;
+        &lt;img src="/project-3-logo.png" /&gt;
+        &lt;h3&gt;Project 3&lt;/h3&gt;
+        &lt;p&gt;Description of project 3&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<h3>4. img replacement</h3>
+<p>To include an image, just write it's pathname ending in .webp, .jpg, or .png.</p>
+<p>Example:</p>
+<pre><code>center: /path/to/my/image.png
+</code></pre>
+<p>Output:</p>
+<pre><code>&lt;div class="center"&gt;
+   &lt;img src="/path/to/my/image.png" /&gt;
+&lt;/div&gt;
+</code></pre>
+<p>To output the actual pathname, prefix it with an exclamation mark.</p>
+<p>Example:</p>
+<pre><code>The file can be found at !/path/to/my/image.png
+</code></pre>
+<p>Output:</p>
+<pre><code>&lt;p&gt;The file can be found at /path/to/my/image.png&lt;/p&gt;
+</code></pre>
+</section>
+
+
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+
+</html>
