@@ -1,0 +1,5 @@
+prune unicode_charnames/tests
+global-exclude *.pyc __pycache__
+exclude tox.ini
+global-include *.txt
+include UNICODE-LICENSE

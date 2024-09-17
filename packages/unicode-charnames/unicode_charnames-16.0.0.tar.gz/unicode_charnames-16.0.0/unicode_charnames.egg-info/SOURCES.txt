@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+UNICODE-LICENSE
+setup.py
+unicode_charnames/DerivedName.txt
+unicode_charnames/__init__.py
+unicode_charnames/_unicode_names.py
+unicode_charnames/_version.py
+unicode_charnames/charnames.py
+unicode_charnames.egg-info/PKG-INFO
+unicode_charnames.egg-info/SOURCES.txt
+unicode_charnames.egg-info/dependency_links.txt
+unicode_charnames.egg-info/not-zip-safe
+unicode_charnames.egg-info/top_level.txt
