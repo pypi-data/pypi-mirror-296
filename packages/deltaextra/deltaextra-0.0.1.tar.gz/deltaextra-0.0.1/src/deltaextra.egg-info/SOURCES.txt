@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/deltaextra.egg-info/PKG-INFO
+src/deltaextra.egg-info/SOURCES.txt
+src/deltaextra.egg-info/dependency_links.txt
+src/deltaextra.egg-info/requires.txt
+src/deltaextra.egg-info/top_level.txt
+src/deltaextras/__init__.py
+src/deltaextras/_utils.py
