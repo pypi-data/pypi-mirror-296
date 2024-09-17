@@ -1,0 +1,190 @@
+Metadata-Version: 2.1
+Name: ip-fetcher
+Version: 0.3.4.1
+Summary: A Python library to fetch public and private IP addresses.
+Home-page: UNKNOWN
+License: MIT
+Keywords: IP address,public IP,private IP,network utilities,Python library,CLI tool,IP fetching,IP
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# IP Fetcher
+
+<!-- License and PyPI Version Buttons -->
+<p>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+  </a>
+
+  <a href="https://pypi.org/project/ip-fetcher/" rel="nofollow">
+    <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/ip-fetcher?label=Newest%20version&link=https%3A%2F%2Fpypi.org%2Fproject%2Fip-fetcher%2F">
+  </a>
+  <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/ip-fetcher?label=Total%20downloads%20in%20month">
+</p>
+
+`ip_fetcher` is a Python library for retrieving public and private IP addresses, checking IP types, detecting proxies or VPNs, and saving/retrieving IPs to/from files. It also provides a command-line interface (CLI) for ease of use.
+
+## Features
+
+- **Fetches Public IP Address**: Retrieves the public IP address of the user.
+- **Retrieves Private IP Address**: Retrieves the private IP address of the user.
+- **Checks IP Type**: Determines if a given IP address is IPv4 or IPv6.
+- **Detects Proxy or VPN**: Checks if a given IP address is associated with a known proxy or VPN.
+- **Saves IPs to a File**: Stores public or private IP addresses in a file for later use.
+- **Reads IPs from a File**: Reads previously stored IP addresses from a file.
+- **Command-Line Interface**: Provides a CLI for quick access to the library's functionalities.
+
+## Installation
+
+To install the package, use:
+
+```bash
+pip install ip_fetcher
+```
+## Changelog
+
+### 0.3.4.1
+- **Same as 0.3.4**: Fixed bugs.
+
+### 0.3.4 YANKED (2024-09-16)
+
+- **Python 3.6+ Support**: Updated compatibility to Python `3.6` or later.
+- **Refactored f-strings**: Changed f-strings to `.format()` to support older versions of Python `(3.3+)`.
+- **New IP Saving and Loading Feature**: Added functionality to save public and private IP addresses to a file and read them back.
+- **Improved Version Check**: Automatically checks for the latest version on PyPI when the package is imported.
+
+### 0.3.3 (2024-09-15)
+
+- **Updated** **`setup.py`** **Requirements**: Changed Python version requirement to `>=3.9.7`.
+- **Improved CLI**: Enhanced error handling and command functionality; fixed issues from versions [0.3.2](https://pypi.org/project/ip-fetcher/0.3.2/) and [0.3.2.9](https://pypi.org/project/ip-fetcher/0.3.2.9/).
+- **Created Changelog Section**: Added a changelog.
+
+## Usage
+
+Here are some examples of how to use the `ip_fetcher` library:
+
+### Fetching the Public IP
+
+To get your public IP address:
+
+```python
+from ip_fetcher import get_public_ip
+
+public_ip = get_public_ip()
+print("Public IP: {}".format(public_ip))
+```
+
+### Fetching the Private IP
+
+To get your private IP address:
+
+```python
+from ip_fetcher import get_private_ip
+
+private_ip = get_private_ip()
+print("Private IP: {}".format(private_ip))
+```
+
+### Checking IP Type
+
+To check if an IP address is IPv4 or IPv6:
+
+```python
+from ip_fetcher import is_ipv4, is_ipv6
+
+ip_address = "192.168.1.1"
+
+if is_ipv4(ip_address):
+    print("{} is an IPv4 address.".format(ip_address))
+elif is_ipv6(ip_address):
+    print("{} is an IPv6 address.".format(ip_address))
+else:
+    print("{} is not a valid IP address.".format(ip_address))
+```
+
+### Checking for Proxy or VPN
+
+To check if an IP address is associated with a proxy or VPN:
+
+```python
+from ip_fetcher import detect_proxy_or_vpn
+
+ip_address = "8.8.8.8"
+
+proxy_data = detect_proxy_or_vpn(ip_address)
+print(proxy_data)
+```
+
+### Saving IP Addresses to a File
+
+You can save the public or private IP to a file for later use:
+
+```python
+from ip_fetcher import get_public_ip, get_private_ip, store
+
+public_ip = get_public_ip()
+private_ip = get_private_ip()
+
+# Save the IP addresses to a file
+store(public_ip, "ip_addresses.txt")
+store(private_ip, "ip_addresses.txt")
+
+print("IP addresses saved to ip_addresses.txt")
+```
+
+### Reading IP Addresses from a File
+
+You can load and display the saved IPs from a file:
+
+```python
+from ip_fetcher import read
+
+ips = read("ip_addresses.txt")
+for ip in ips:
+    print(ip)
+```
+
+### Reading a Specific IP Address from a File
+
+You can load and display a specific IP address from a file:
+
+```python
+from ip_fetcher import read_specific
+
+public_ip = read_specific("public_ip_address", "ip_addresses.txt")
+if public_ip:
+    print("Stored Public IP: {}".format(public_ip))
+else:
+    print("Public IP address not found in the file.")
+```
+
+### Command-Line Interface (CLI)
+
+After installing the package, you can use the command-line interface to access the library's functionalities directly from the terminal.
+
+### Fetch Public IP
+
+```bash
+ip-fetcher --public
+```
+
+### Fetch Private IP
+
+```bash
+ip-fetcher --private
+```
+
+### Fetch Both Public and Private IPs
+
+```bash
+ip-fetcher --public --private
+```
+
