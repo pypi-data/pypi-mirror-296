@@ -1,0 +1,8 @@
+README.md
+setup.py
+markerpath/__init__.py
+markerpath/markerpath.py
+markerpath.egg-info/PKG-INFO
+markerpath.egg-info/SOURCES.txt
+markerpath.egg-info/dependency_links.txt
+markerpath.egg-info/top_level.txt
