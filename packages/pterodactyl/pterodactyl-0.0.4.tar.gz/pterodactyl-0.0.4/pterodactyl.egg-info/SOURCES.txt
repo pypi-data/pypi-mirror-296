@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+pterodactyl/__init__.py
+pterodactyl.egg-info/PKG-INFO
+pterodactyl.egg-info/SOURCES.txt
+pterodactyl.egg-info/dependency_links.txt
+pterodactyl.egg-info/requires.txt
+pterodactyl.egg-info/top_level.txt
+pterodactyl/API/Application.py
+pterodactyl/API/Client.py
+pterodactyl/API/__init__.py
+pterodactyl/Objects/Consistent.py
+pterodactyl/Objects/Errors.py
+pterodactyl/Objects/Pagination.py
+pterodactyl/Objects/Pterodactyl.py
+pterodactyl/Objects/__init__.py
