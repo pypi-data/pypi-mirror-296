@@ -1,0 +1,11 @@
+bungeegum/__init__.py,sha256=Kh7zAg0ykqzppj32zGuVQHmJZhsHikkBtTTgSyJj76I,142
+bungeegum/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+bungeegum/bg.py,sha256=XszC04X4abUa6PGCpHlr0d1QvbB04rvYpWXy0Rv0mOQ,7377
+bungeegum/com.zetier.bungeegum-debug.apk,sha256=gdk3PcJpMjxtj-O7GRgJEiv9QC4hLvWu5hJq5KE42LY,20484612
+bungeegum/fork_exec.js,sha256=kd0hPS4uriOCHvyM-ya-vggaeWIKoen_eqtGGi-eXCk,4768
+bungeegum/run_shellcode.js,sha256=voju5tcETp5xuRUhvcmxxiruJCyQLMoi2gE_Y1L_jyk,2882
+bungeegum-0.1.0.dist-info/METADATA,sha256=awJx-RkbWZ4ok8Ti8Sr_B4qtuJYT8bICcGTEyx1Chas,3041
+bungeegum-0.1.0.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+bungeegum-0.1.0.dist-info/entry_points.txt,sha256=wszZ-3ueqF3FNUcqaQBo8iPskwrybCHFlbTFnhQiRRQ,48
+bungeegum-0.1.0.dist-info/top_level.txt,sha256=KNXZP1D6drWQpgSwHcYPusFRyy4EfQ8pfVdbPW4GhN8,10
+bungeegum-0.1.0.dist-info/RECORD,,
