@@ -1,0 +1,8 @@
+README.txt
+setup.py
+fibonacci_checker.egg-info/PKG-INFO
+fibonacci_checker.egg-info/SOURCES.txt
+fibonacci_checker.egg-info/dependency_links.txt
+fibonacci_checker.egg-info/top_level.txt
+pynacci/__init__.py
+pynacci/fibonacci.py

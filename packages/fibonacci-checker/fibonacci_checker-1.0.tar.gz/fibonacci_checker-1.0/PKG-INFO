@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: fibonacci_checker
+Version: 1.0
+Summary: A library to check if a number is in the Fibonacci sequence
+Home-page: https://www.linkedin.com/in/pabblo2000/
+Author: Pablo Álvaro
+Author-email: palvaroh2000@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+
+# README.txt
+
+pynacci
+=======
+
+Una librerÃ­a de Python para trabajar con la serie de Fibonacci.
+
+InstalaciÃ³n
+-----------
+
+Puedes instalar la librerÃ­a utilizando `pip`:
+
+Uso
+---
+
+```python
+from pynacci import fibonacci, is_in_fibonacci
+
+# Obtener los primeros 10 nÃºmeros de Fibonacci
+print(fibonacci(10))
+
+# Verificar si un nÃºmero estÃ¡ en la serie de Fibonacci
+print(is_in_fibonacci(21))  # DevolverÃ¡ True
+print(is_in_fibonacci(22))  # DevolverÃ¡ False
+
+   
