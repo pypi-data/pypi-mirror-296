@@ -1,0 +1,83 @@
+Metadata-Version: 2.3
+Name: shmdash
+Version: 0.6.0
+Summary: Vallen Systeme Dashboard (SHM Dash) upload client
+Project-URL: Source, https://github.com/vallen-systems/pySHMdash
+Project-URL: Issues, https://github.com/vallen-systems/pySHMdash/issues
+Author-email: "Lukas Berbuer (Vallen Systeme GmbH)" <lukas.berbuer@vallen.de>
+License: MIT License
+License-File: LICENSE.txt
+Keywords: client,dashboard,shmdash,upload,vallen
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Requires-Dist: httpx>=0.27
+Provides-Extra: dev
+Requires-Dist: coverage[toml]>=5; extra == 'dev'
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: mypy>=0.9; extra == 'dev'
+Requires-Dist: pytest-asyncio; extra == 'dev'
+Requires-Dist: pytest>=6; extra == 'dev'
+Requires-Dist: ruff>=0.5; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: coverage[toml]>=5; extra == 'tests'
+Requires-Dist: pytest-asyncio; extra == 'tests'
+Requires-Dist: pytest>=6; extra == 'tests'
+Provides-Extra: tools
+Requires-Dist: hatch; extra == 'tools'
+Requires-Dist: mypy>=0.9; extra == 'tools'
+Requires-Dist: ruff>=0.5; extra == 'tools'
+Description-Content-Type: text/markdown
+
+[![CI](https://github.com/vallen-systems/shmdash/workflows/CI/badge.svg)](https://github.com/vallen-systems/shmdash/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI](https://img.shields.io/pypi/v/shmdash)](https://pypi.org/project/shmdash)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/shmdash)](https://pypi.org/project/shmdash)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/charliermarsh/ruff)
+
+# SHMdash
+
+Python client library to upload data to a SHM Dashboard server.
+
+Have a look at the [basic example](examples/basic.py) for usage.
+Further descriptions of the client functions can be found in the docstrings.
+
+> [!NOTE]
+> The SHM Dashboard is a product from Vallen Systeme to upload data from different sources and locations and instantly access and visualize the data in a dashboard.
+> If you are interested, please check out our [demo dashboard](https://demo.shmdash.de) and contact our sales department [sales@vallen.de](mailto:sales@vallen.de).
+
+## Installation
+
+Install the latest version from [PyPI](https://pypi.org/project/shmdash):
+
+```sh
+$ pip install shmdash
+```
+
+## Development setup
+
+```sh
+# Clone repository
+$ git clone https://github.com/vallen-systems/shmdash
+$ cd shmdash
+
+# Install package and development tools
+$ pip install -e .[dev]
+
+# Run checks
+$ ruff check .
+$ mypy .
+
+# Run tests
+$ pytest
+```
