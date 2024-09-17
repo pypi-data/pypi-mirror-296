@@ -1,0 +1,63 @@
+/* Global Form Styles */
+.formflow {
+    max-width: 37.5em; /* Keeps the form sleek */
+    margin: 1em auto; /* Center form on page */
+    padding: 1.25em;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 0.5em;
+    border: 1px solid #ccc;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formflow label {
+    margin-bottom: 0.5em;
+    color: #333; /* Neutral color for labels */
+}
+
+.formflow input, .formflow textarea {
+    width: 100%;
+    padding: 0.6em;
+    margin-bottom: 1.25em;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 0.25em; /* Slightly rounded edges */
+    background-color: #f9f9f9; /* Soft background */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formflow input:focus, .formflow textarea:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    box-shadow: 0 0 0.35em rgba(0, 123, 255, 0.5); /* Slight glow effect */
+    outline: none; /* Remove default focus */
+}
+
+.formflow textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 7.5em;
+}
+
+/* Submit Button Styles */
+.formflow button[type="submit"] {
+    background-color: #007BFF; /* Professional blue */
+    color: white;
+    border: none;
+    padding: 0.75em 1.25em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formflow button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 37.5em) {
+    .formflow {
+        padding: 1em;
+    }
+
+    .formflow button[type="submit"] {
+        padding: 0.6em 1em;
+    }
+}
