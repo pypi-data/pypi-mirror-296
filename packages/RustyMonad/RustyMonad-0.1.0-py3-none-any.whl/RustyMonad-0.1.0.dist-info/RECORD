@@ -1,0 +1,11 @@
+rustymonad/__init__.py,sha256=RnezVrzWQGmggkytKDU1eNC5YBQkM4S6N5q6BwHHtMI,329
+rustymonad/monad.py,sha256=wgVxJQGfZkodi3jPBYWsF7AQ07rs-kbwzJ4GiZJpAao,891
+rustymonad/option.py,sha256=lOKFD1qXDuKGpRnDLv5L9lHkUaNeNTCMyrlsqE6q2-I,5486
+rustymonad/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rustymonad/result.py,sha256=76qPhcFr6zxy2cUGlciy3amECnRJkKajzD8vLYvMNMA,6808
+rustymonad/utils.py,sha256=ri9yBxvjzNoCmt6qSoLdswCILkAKRn2IhkbOiAk8aCo,1464
+RustyMonad-0.1.0.dist-info/LICENSE,sha256=sWW6BsrViPnR61IJ6LlPlDqNRTpiQ4REm79WzAxHjBQ,1084
+RustyMonad-0.1.0.dist-info/METADATA,sha256=2gFbLr-6h1QA7MAorsa_Twy_sUUg5995WUZyv0N8GW0,4476
+RustyMonad-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+RustyMonad-0.1.0.dist-info/top_level.txt,sha256=h_EdH_RQzgYJ1a0dmDTy_E1jsQZuIgprr7knwQHmg1I,11
+RustyMonad-0.1.0.dist-info/RECORD,,
