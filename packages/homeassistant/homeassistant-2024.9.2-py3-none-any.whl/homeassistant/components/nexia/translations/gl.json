@@ -1,0 +1,22 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "emergency_heat_active": {
+                "name": "Calefacci\u00f3n de emerxencia activa"
+            }
+        }
+    },
+    "issues": {
+        "migrate_aux_heat": {
+            "fix_flow": {
+                "step": {
+                    "confirm": {
+                        "description": "A acci\u00f3n `set_aux_heat` de Nexia foi migrada. Unha nova entidade de interruptor `aux_heat_only` est\u00e1 dispo\u00f1ible para cada term\u00f3stato.\n\nActualiza calquera automatizaci\u00f3n para usar a nova entidade de interruptor de calor de emerxencia. Cando isto estea feito, preme enviar para solucionar este problema.",
+                        "title": "Migraci\u00f3n da acci\u00f3n set_aux_heat de Nexia"
+                    }
+                }
+            },
+            "title": "Migraci\u00f3n da acci\u00f3n set_aux_heat de Nexia"
+        }
+    }
+}

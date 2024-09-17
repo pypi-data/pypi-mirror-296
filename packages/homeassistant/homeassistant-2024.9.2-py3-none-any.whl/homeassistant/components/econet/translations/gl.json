@@ -1,0 +1,15 @@
+{
+    "issues": {
+        "migrate_aux_heat": {
+            "fix_flow": {
+                "step": {
+                    "confirm": {
+                        "description": "A acci\u00f3n EcoNet `set_aux_heat` foi migrada. Unha nova entidade de interruptor `aux_heat_only` est\u00e1 dispo\u00f1ible para cada termostato.\n\nActualiza calquera automatizaci\u00f3n para usar a nova entidade de interruptor `aux_heat_only`. Cando isto estea feito, preme enviar para solucionar este problema.",
+                        "title": "Migraci\u00f3n da acci\u00f3n set_aux_heat de EcoNet"
+                    }
+                }
+            },
+            "title": "Migraci\u00f3n da acci\u00f3n set_aux_heat de EcoNet"
+        }
+    }
+}
