@@ -1,0 +1,7 @@
+README.md
+setup.py
+asistan_ai.egg-info/PKG-INFO
+asistan_ai.egg-info/SOURCES.txt
+asistan_ai.egg-info/dependency_links.txt
+asistan_ai.egg-info/requires.txt
+asistan_ai.egg-info/top_level.txt
