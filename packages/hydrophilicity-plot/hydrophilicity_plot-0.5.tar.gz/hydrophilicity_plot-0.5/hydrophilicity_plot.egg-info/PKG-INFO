@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hydrophilicity_plot
+Version: 0.5
+Summary: Kyte-Doolittle hydrophilicity plot tool for FASTA single/multiple protein sequences
+Home-page: https://github.com/karagol-taner/HGVS-missense-variants-to-FASTA
+Author: Taner Karagol
+Author-email: taner.karagol@gmail.com
+License: GPL-3.0
+Keywords: hydrophilicity,Kyte-Doolittle,hydropathy,protein structure
+Requires-Dist: biopython
+Requires-Dist: matplotlib
