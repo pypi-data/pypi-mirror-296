@@ -1,0 +1,16 @@
+ndgrid-0.1.0.dev0.dist-info/METADATA,sha256=anqmWH-AOdKUtT41q4XKDKTQ8x5Kvcz3KwDANQfBmfo,1781
+ndgrid-0.1.0.dev0.dist-info/WHEEL,sha256=bXLanFBku1kW5NeDor5R2135toFyVgtArjzxclPx1G0,105
+ndgrid-0.1.0.dev0.dist-info/licenses/LICENSE,sha256=EGK5KTW21IqTvDq1SUuE6SxIOu-pQkT1FN66iXxpE9k,1526
+ndgrid.libs/libquadmath-1c3f8ec4.so.0,sha256=brXjK9ybFuuXclzfzqORFHQ0tI3oT6JFiPzjfjPUA5A,292977
+ndgrid.libs/liblapack-426b4bf5.so.3,sha256=evIj_G70SL_ku-WC-Q0VNXJ2lTAHHF-YSv3vVcadzbg,7177857
+ndgrid.libs/libopenblas-1dedc9fe.so.0,sha256=qzp1VoTLarcXSB16B0VGJZHIdb2dWNvGNukBu1oLtXA,38740745
+ndgrid.libs/libblas-babdd0d2.so.3,sha256=t7Il9ef2P9DTaOjmnnhdW-uEtpcduw4fXTkMMS0Ec1Q,459889
+ndgrid.libs/libgfortran-df5d6f8d.so.5,sha256=vPZvXyjrQHbDAZTT-aAGfjIp8AYINzgO4Fb4vcNerys,3082705
+ndgrid/ownership.py,sha256=11umGnf4kc1h45agaCC_1M5nIpd8oOD-6ZNWyXaw55U,746
+ndgrid/grid.py,sha256=8z2S0-VD6KeIM6wOh7BWNWJ04dCZglo5zTTUOZs_sA8,10102
+ndgrid/shapes.py,sha256=Xl9OKiTAF5GcW2GXItG9rSU8F9eAa1foLE0n-9mNnmE,482
+ndgrid/__init__.py,sha256=wUby_FY5hIABQn-rE6BQC9YQy7cgBcXP88JtwMSc2KY,47
+ndgrid/_ndgridrs/__init__.py,sha256=UQfmIe54UFwaNmzdKR7ef7MXMvMTe_N_DyL0y5aflfg,139
+ndgrid/_ndgridrs/ffi.py,sha256=NQ1PUjQSCmnYTuU2ED0gQ2hNeWwY0UTAsCsEPQrPnEQ,5881
+ndgrid/_ndgridrs/_ndgridrs.so,sha256=cKfj_LDmQISBFQW6fntdXGJQRLCzXulDuy8-TMBF9r0,1539585
+ndgrid-0.1.0.dev0.dist-info/RECORD,,
