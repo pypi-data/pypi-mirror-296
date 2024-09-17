@@ -1,0 +1,14 @@
+whoau/__init__.py,sha256=0AL_coygOdRQMcoEQRaRIwVsDuSyUb1NZmxscLpEqAs,24
+whoau/config.py,sha256=YIwJ_mY7WlzHa292gx7s6dIcg-CVqqYuzERFwL37wrc,1743
+whoau/contents.py,sha256=psOLuqH_sKCsY-8cnnNr6l11Ts-wcwMsW4CFsbolLUA,2771
+whoau/dependency.py,sha256=FYUgycCrrq5DPsbrWxRWhL5hn7LEMNSUHUfDVF-OrUo,1766
+whoau/display.py,sha256=do1PZ7nfogI1oMRCu1dCtTVXopjP7uQj0moL_THTNXc,2558
+whoau/localization.py,sha256=riJESt40Rk4pBXZDD-i7tiqppGKpK99DDqNy7IO0NzY,3117
+whoau/main.py,sha256=g-aUXCsccvfFwvzbRn-5YRwzPf8lh6Yh64VvW5YtU-c,1351
+whoau/userid.py,sha256=_ssduQi4gzmKtXGRExfKY02TWVSrbNJ23ZFQBHZY3-A,1339
+whoau/utils.py,sha256=SlURBFq6zoj3q_PsBiMgb38byNcdpEMXnvVfsIIkvhE,1403
+whoau-0.1.1.dist-info/LICENSE,sha256=-5LE_vTxS9mWGnBTNmWGQg4--5irkG-0c2HCoM6oeqY,1058
+whoau-0.1.1.dist-info/METADATA,sha256=x6v-rDTN39B6c5BG3asz-O8IZa3WSZEM8WTv7_rHdew,3952
+whoau-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+whoau-0.1.1.dist-info/entry_points.txt,sha256=q0IhtDP-TRtHG6qdwGOh_djJPPIeToCWHic5OIJZ_Ig,42
+whoau-0.1.1.dist-info/RECORD,,
