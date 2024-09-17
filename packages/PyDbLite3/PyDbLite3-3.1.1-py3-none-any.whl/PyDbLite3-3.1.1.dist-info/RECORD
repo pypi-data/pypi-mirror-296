@@ -1,0 +1,10 @@
+pydblite/__init__.py,sha256=JIwJn91nscYVGp3cnSPGta-MEJPsPQOyVHhiBqXA-dk,235
+pydblite/common.py,sha256=nrUUjQBAuV1i2Hh7O_BXY_O8FPZUIJNlbfx8hqoLmDc,7250
+pydblite/pydblite.py,sha256=a86q5mO6PlTp01tpVhaUhkyGr123rvOnTY-i8OhVSxE,19435
+pydblite/pydblite_conversions.py,sha256=xKHci4fBTghfI9EAMq8yrEWAwKqOfH6gReO6bjMdYOY,3900
+pydblite/sqlite.py,sha256=VI5TOXaf7mZSyLwzpje5ChokFt0fJ8HLTmGQ5BLf45I,20162
+PyDbLite3-3.1.1.dist-info/LICENCE.txt,sha256=RlHspkGC2phcTIs-62zrxaPhrZLv-pw9B-KxbxwQqeQ,1512
+PyDbLite3-3.1.1.dist-info/METADATA,sha256=LIbg9i-xXTvp1iUxVVGKKvgsJAJ-38QvVWs3CvyHMns,827
+PyDbLite3-3.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+PyDbLite3-3.1.1.dist-info/top_level.txt,sha256=HSlfaVPR8U3Mp2ZA3GY1fDRckBvJ7xEpJPAx_I50r6g,9
+PyDbLite3-3.1.1.dist-info/RECORD,,
