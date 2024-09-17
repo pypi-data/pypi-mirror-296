@@ -1,0 +1,9 @@
+tide/__init__.py,sha256=P976fB0eaD6inWZ19CcXgKWlqOQpp_anldhYxqpJqrw,55
+tide/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+tide/cli.py,sha256=prbuYT8gmOdLF5Q6KmY-eLF7mjh-oc7-F9xoypUJmgY,12476
+tide/core.py,sha256=NaQ4zomaRcR5hF90cZ-UtgVZrZkh8IZiU2yoRxBJyrM,28202
+tide/gitutils.py,sha256=i46bbVsRF0qjZ-a0JKKZZmuPVW1DWq3cwt_pQW7tgeE,9164
+git_tide-0.1.13.dist-info/METADATA,sha256=1TsetN2CxUcbBjiKWn1tl8YtmcOi8qxUnzbQ6iLkKP8,7252
+git_tide-0.1.13.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+git_tide-0.1.13.dist-info/entry_points.txt,sha256=GcxqhKkWJnEGVaoKzpajCFCyeXa2Ga8da-UbInkFUJY,39
+git_tide-0.1.13.dist-info/RECORD,,
