@@ -1,0 +1,7 @@
+setup.py
+camegame.egg-info/PKG-INFO
+camegame.egg-info/SOURCES.txt
+camegame.egg-info/dependency_links.txt
+camegame.egg-info/not-zip-safe
+camegame.egg-info/top_level.txt
+data_lab/camegame.py
