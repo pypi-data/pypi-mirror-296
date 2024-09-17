@@ -1,0 +1,13 @@
+chaise/__init__.py,sha256=ml0GqPRZZX4RaAFq-RX5bgBq71rnykU1oLpNDzxERnc,13355
+chaise/attrs.py,sha256=CivFbzLkSj4Q0mpwTvRizrh9QsYxHgjNvkfen4zOHzA,1399
+chaise/cli/__init__.py,sha256=GoBuXTLSHV-EVbgHgrsvDBty8e21ZU6AOV1ZhwhF7zQ,1707
+chaise/cli/__main__.py,sha256=bIscaV-PAVqc3BHa5f2WzAr1XKtN_ITmoHAtMPxj_40,38
+chaise/cli/client.py,sha256=uUe_6bvs3Z3rTvHty9lYaudhWipCvgOodxz4lxxsll4,135
+chaise/cli/datafiles.py,sha256=BDb8jedaeELE40MaaddJqQT5XJvVcLAyLs5p3afPiqY,1465
+chaise/dictful.py,sha256=p5BgiuggeR0b9JC6GzqV8euEfTBIbWcK8x-lH3aiAhI,2747
+chaise/helpers.py,sha256=er0KG1F_T6UVe0fK6bEdBy1o4fFm_D9jxIT6EgSqry8,2113
+chaise/structs.py,sha256=YfsfaRFnmKeRItyCS15clL5fW8ZV3bOWn1ABYBXay9s,890
+chaise-0.5.0.dist-info/METADATA,sha256=VnJUtqbF1RbPiWk7-y9OmDNtqODYh6FeokX6khc4fdQ,714
+chaise-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+chaise-0.5.0.dist-info/entry_points.txt,sha256=gr67qm9ao57bmWjOYnioBglVRYLbtXpvZmmxl-XPRI0,43
+chaise-0.5.0.dist-info/RECORD,,
