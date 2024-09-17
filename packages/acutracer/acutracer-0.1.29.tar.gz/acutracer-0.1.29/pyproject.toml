@@ -1,0 +1,100 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+    "aiohappyeyeballs==2.4.0",
+    "aiohttp",
+    "aiosignal",
+    "annotated-types",
+    "anyio",
+    "asgiref",
+    "attrs",
+    "certifi",
+    "charset-normalizer",
+    "click",
+    "Deprecated",
+    "distro",
+    "fastapi",
+    "frozenlist",
+    "googleapis-common-protos",
+    "grpcio",
+    "h11",
+    "httpcore",
+    "httpx",
+    "idna",
+    "importlib_metadata",
+    "jiter",
+    "jsonpatch",
+    "jsonpointer",
+    "langchain",
+    "langchain-core",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "langsmith",
+    "loguru",
+    "multidict",
+    "numpy",
+    "openai",
+    "openinference-instrumentation==0.1.15",
+    "openinference-instrumentation-openai==0.1.14",
+    "openinference-semantic-conventions==0.1.10",
+    "opentelemetry-api",
+    "opentelemetry-exporter-jaeger",
+    "opentelemetry-exporter-jaeger-proto-grpc",
+    "opentelemetry-exporter-jaeger-thrift",
+    "opentelemetry-instrumentation==0.48b0",
+    "opentelemetry-instrumentation-asgi==0.48b0",
+    "opentelemetry-instrumentation-fastapi==0.48b0",
+    "opentelemetry-instrumentation-flask",
+    "opentelemetry-instrumentation-django",
+    "opentelemetry-sdk",
+    "opentelemetry-semantic-conventions==0.48b0",
+    "opentelemetry-util-http==0.48b0",
+    "opentelemetry-instrumentation-threading==0.48b0",
+    "orjson",
+    "packaging",
+    "protobuf",
+    "pydantic",
+    "pydantic_core",
+    "PyYAML",
+    "regex",
+    "requests",
+    "setuptools",
+    "six",
+    "sniffio",
+    "SQLAlchemy",
+    "starlette",
+    "tenacity",
+    "thrift",
+    "tiktoken",
+    "tqdm",
+    "typing_extensions",
+    "urllib3",
+    "uvicorn",
+    "wheel",
+    "wrapt",
+    "yarl",
+    "zipp",
+    "Flask",
+    "django",
+]
+name = "acutracer"
+version = "0.1.29"
+authors = [{ name = "Abhijit Herekar", email = "abhijit@acuvity.ai" }]
+description = "A Acuvity tracer that instruments the http calls"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/acuvity/acutracer"
+"Bug Tracker" = "https://github.com/acuvity/acutracer/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["acutracer*"]
