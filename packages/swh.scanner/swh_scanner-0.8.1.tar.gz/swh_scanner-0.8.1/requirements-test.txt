@@ -1,0 +1,9 @@
+pytest >= 8.1
+pytest-flask
+pytest-mock
+swh.core[testing-core]
+swh.model[testing]
+types-pyyaml
+types-requests
+bs4
+types-beautifulsoup4

@@ -1,0 +1,329 @@
+{% extends "base.html" %}
+{% import "partials/tree.html" as tree_macros %}
+{% import "partials/provenance.html" as provenance_macros %}
+
+{% block title %}Results{% endblock %}
+{% block main %}
+<div id="loader" class="loading-overlay">
+  <div class="loading"></div>
+</div>
+<div id="notification-box" class="hidden">
+  <div id="close-button"></div>
+  <div id="notification-message" style="white-space: pre-line;">
+  </div>
+</div>
+<div id="results">
+  <aside class="box-shadow">
+    <div id="tree">
+      {{ tree_macros.render_source_tree(root_path, source_tree, nodes_data, json, summary) }}
+    </div>
+  </aside>
+  <article class="box-shadow">
+    <hgroup>
+      <h2 class="size-3">Results tree</h2>
+      <p name="help" class="size-6">Click on a directory or a file for result details.</p>
+    </hgroup>
+    <div id="selected_path">
+      <section>
+        <h3 name="rpath" class="size-4"></h3>
+        <h4 class="size-6">Definition</h4>
+        <dl name="definition">
+          <dt>Name</dt>
+          <dd name="name">
+            <a href="#" title="Copy path" name="name_link"></a>
+          </dd>
+          <dt>Type</dt>
+          <dd name="type"></dd>
+          <dt>Known</dt>
+          <dd name="known"></dd>
+          <dt>Swhid</dt>
+          <dd name="swhid">
+            <a href="" title="Search the Software Heritage Archive for this swhid" name="swhid_link"
+              target="_blank"></a>
+          </dd>
+        </dl>
+      </section>
+      <section name="provenance_btn_section">
+        <a id="provenance_btn" class="button" title="Get provenance information" href="javascript:void(0);">Get
+          provenance</a>
+      </section>
+      <section id="no-provenance">
+        <p name="no-provenance-found">No provenance information was found.</p>
+      </section>
+      <section name="origin">
+        <h4 class="size-6">Origin</h4>
+        <dl>
+          <dt>Url</dt>
+          <dd name="origin_url">
+            <a href="" title="Origin url" name="origin_url_link" target="_blank"></a>
+          </dd>
+        </dl>
+      </section>
+      <section name="revision">
+      </section>
+      <section name="release">
+      </section>
+    </div>
+  </article>
+</div>
+{% endblock main %}
+{% block jsbottom %}
+<script>
+  async function copyToClipboard(text, elt) {
+    if (navigator && navigator.clipboard && navigator.clipboard.writeText)
+      try {
+        await navigator.clipboard.writeText(text).then(function () {
+          const tooltip_elt = document.createElement("span")
+          tooltip_elt.classList.add("tooltip")
+          tooltip_elt.textContent = "✔ Copied!"
+          elt.insertAdjacentElement("afterend", tooltip_elt)
+          setTimeout(function () {
+            tooltip_elt.remove()
+          }, 1000);
+        })
+      } catch {
+        alert("Copy failed: " + err)
+      }
+    else
+      return Promise.reject("The Clipboard API is not available")
+  }
+
+  function formatSearchUrl(swhid) {
+    return "https://archive.softwareheritage.org/browse/search/?q=" + swhid + "&with_visit=true&with_content=true"
+  }
+
+  function show_provenance_button(provenance_button) {
+    if (provenance_button.style.display == "none") {
+      provenance_button.style.display = "block"
+    }
+  }
+
+  function hide_provenance_button(provenance_button) {
+    if (provenance_button.style.display != "none") {
+      provenance_button.style.display = "none"
+    }
+  }
+
+  function show_error_notification(message) {
+    // Display an error message to the user
+    const notification_box = document.getElementById("notification-box")
+    const notification_message = document.getElementById("notification-message")
+    const close_button = document.getElementById("close-button")
+    notification_box.classList.remove("hidden");
+    notification_message.textContent = message
+    close_button.addEventListener('click', function () {
+      notification_box.classList.add('hidden')
+    })
+  }
+
+  function show_origin(selected_path, dataset) {
+    const origin = selected_path.querySelector("section[name='origin']")
+    origin.style.display = "none"
+    let origin_url = null;
+    if (dataset.hasOwnProperty("provenance")) {
+      provenance = JSON.parse(dataset.provenance)
+      if (provenance != null) {
+        origin_url = provenance["origin"]
+      }
+    } if (origin_url === null && dataset.hasOwnProperty("origin")) {
+      origin_url = dataset.origin
+    }
+    if (origin_url === null) {
+      return
+    }
+    const origin_url_link = origin.querySelector("a[name='origin_url_link']")
+    origin_url_link.href = origin_url
+    origin_url_link.textContent = origin_url
+    origin.style.display = "block"
+  }
+
+  function show_revision(selected_path, dataset) {
+    // Provenance / Revision
+    const revision = selected_path.querySelector("section[name='revision']");
+    revision.style.display = "none";
+    if (!dataset.hasOwnProperty("revision")) {
+      return
+    }
+    revision.innerHTML = dataset.revision;
+    // TODO: display synthetic, extra_headers, parents and metadata information
+    revision.style.display = "block";
+  }
+
+  function show_release(selected_path, dataset) {
+    // Provenance / Release
+    const release = selected_path.querySelector("section[name='release']")
+    release.style.display = "none";
+    if (!dataset.hasOwnProperty("release")) {
+      return
+    }
+
+    release.innerHTML = dataset.release;
+    release.style.display = "block"
+  }
+
+  function show_notification_message(title, msg) {
+  }
+
+  async function fetchProvenance(selected_path, dataset) {
+    // Show the loader
+    const loader = document.getElementById("loader")
+    loader.style.display = "flex"
+    try {
+      const response = await fetch("/api/v1/provenance/" + dataset.swhid)
+      let data = {}
+      if (response.ok) {
+        data = await response.json()
+      } else {
+        // Hide the loader
+        loader.style.display = "none"
+        if (response.status === 401) {
+          const msg = await response.text()
+          show_error_notification(msg)
+        } else {
+          const msg = "Network response was not ok: " + response.statusText
+          show_error_notification(msg)
+          throw new Error(msg)
+        }
+      }
+      // TODO show something if no provenance information was found
+      // Display provenance information
+      if (data.hasOwnProperty("origin")) {
+        dataset.origin = data["origin"]
+        show_origin(selected_path, dataset)
+      }
+      if (data.hasOwnProperty("revision")) {
+        dataset.revision = data["revision"]
+        show_revision(selected_path, dataset)
+      }
+      if (data.hasOwnProperty("release")) {
+        dataset.release = data["release"]
+        show_release(selected_path, dataset)
+      }
+      // Hide the provenance query button
+      const provenance_section = selected_path.querySelector("section[name='provenance_btn_section']")
+      hide_provenance_button(provenance_section)
+      if (Object.keys(data).length === 0) {
+        // If data is empty, show that no provenance was found
+        selected_path.querySelector("#no-provenance").style.display = 'block';
+      }
+      // Hide the loader
+      loader.style.display = "none"
+    } catch (error) {
+      if (error.name === "TypeError") {
+        const msg = "Fetch failed or network error: " + error.message
+        show_error_notification(msg)
+        console.error(msg)
+      } else if (error.name === "SyntaxError") {
+        const msg = "Failed to parse JSON:" + error.message
+        show_error_notification(msg)
+        console.error(msg)
+      } else {
+        const msg = "An unexpected error occurred:" + error.message + "("+ error.name +")"
+        show_error_notification(msg)
+        console.error(msg)
+      }
+      // Hide the loader
+      loader.style.display = "none"
+      throw error;
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const loader = document.getElementById("loader")
+    const tree = document.getElementById("tree")
+    const selected_path = document.getElementById("selected_path")
+    selected_path.style.visibility = "hidden"
+
+    if (!tree || !selected_path) {
+      const msg = "Can not find the results tree or selected path in the DOM"
+      show_error_notification(msg)
+      console.error(msg)
+      return
+    }
+
+    tree.addEventListener("click", function (event) {
+      const tree_selected_path = event.target.closest("details")
+      const dataset = tree_selected_path.dataset;
+      if (!tree_selected_path) return
+
+      // show the loader
+      loader.style.display = "flex"
+
+      if (dataset.type === "directory") {
+        // Progressive tree loading
+        const subtree_path_url = "/api/v1/html-tree/" + dataset.rpath
+        subtree_path_url.replace(/\/{2,}/g, '/') // ensure single slash
+        const subtree_dest = tree_selected_path.getElementsByTagName("summary")[0]
+        if (subtree_dest.nextElementSibling === null) {
+          fetch(subtree_path_url)
+            .then(response => response.json())
+            .then(data => {
+              subtree_dest.insertAdjacentHTML("afterend", data["html"])
+            })
+        }
+      }
+
+      // Relative path as title with pie indicator
+      const pie = tree_selected_path.firstElementChild.children.namedItem("pie").cloneNode(true)
+      const rpath = selected_path.querySelector("h3[name='rpath']")
+      rpath.textContent = dataset.rpath
+      rpath.insertAdjacentElement("afterbegin", pie)
+
+      // Definition list element
+      const definition = selected_path.querySelector("dl[name='definition']")
+
+      // Directory name with copy to clipboard link
+      const name_link = definition.children.namedItem("name").children.namedItem("name_link")
+      name_link.textContent = "🗐 " + dataset.name
+      name_link.onclick = function () {
+        copyToClipboard(dataset.fpath, name_link)
+        return false
+      }
+
+      // Known
+      const known_icon = (dataset.known === "true") ? "✔" : "✘"
+      const known = definition.children.namedItem("known")
+      known.textContent = known_icon + " " + dataset.known
+
+      // Swhid with search link to the archive
+      const search_swhid = "https://archive.softwareheritage.org/" + dataset.swhid
+      const swhid_link = definition.children.namedItem("swhid").children.namedItem("swhid_link")
+      swhid_link.href = formatSearchUrl(dataset.swhid)
+      swhid_link.textContent = dataset.swhid
+
+      // Type
+      definition.children.namedItem("type").textContent = (dataset.type === "directory") ? "🗀  " + dataset.type : dataset.type
+
+      // Provenance query button
+      const provenance_section = selected_path.querySelector("section[name='provenance_btn_section']")
+      const provenance_button_elt = provenance_section.children.namedItem("provenance_btn")
+      provenance_button_elt.onclick = function () {
+        fetchProvenance(selected_path, dataset)
+        return false
+      }
+
+      // Hide the provenance button if element is unknown or if provenance information is already set
+      if (dataset.known === "false" || dataset.hasOwnProperty("provenance") || dataset.hasOwnProperty("release") || dataset.hasOwnProperty("revision")) {
+        hide_provenance_button(provenance_section)
+        fetchProvenance(selected_path, dataset)
+      } else {
+        show_provenance_button(provenance_section)
+      }
+
+      selected_path.querySelector("#no-provenance").style.display = "none";
+
+      // Display provenance information
+      show_origin(selected_path, dataset)
+      show_revision(selected_path, dataset)
+      show_release(selected_path, dataset)
+
+      // Display results
+      if (selected_path.style.visibility == "hidden") selected_path.style.visibility = "visible"
+      // Hide the loader
+      loader.style.display = "none"
+    });
+    // Hide the loader on first load
+    loader.style.display = "none"
+  });
+</script>
+{% endblock jsbottom %}
