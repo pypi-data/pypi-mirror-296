@@ -1,0 +1,5 @@
+trustspecpy-0.1.17.dist-info/METADATA,sha256=lGjmfVDYnd0uXshQM6rMCQVaZU5huWOwVeFZ7Jrq0Go,10950
+trustspecpy-0.1.17.dist-info/WHEEL,sha256=XHIMMqKJPYbs2zltNx-HQCDNw6UNwwpHlE65RNjWPdE,108
+trustspecpy/__init__.py,sha256=7CAlZobR1nl7zuPlGYu6rye47lIFbQad_9lU9O8XBj0,127
+trustspecpy/trustspecpy.cpython-310-x86_64-linux-gnu.so,sha256=Lc2cQEP33flnYhNrAk0JTgXuvN8_adarPytHRkjsNkE,115030784
+trustspecpy-0.1.17.dist-info/RECORD,,
