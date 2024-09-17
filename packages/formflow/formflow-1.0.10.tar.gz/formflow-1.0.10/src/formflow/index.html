@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormFlow</title>
+    <style>
+        :root {
+            --raw-main-color: 0, 123, 255; /* Professional blue */
+            --raw-darker-color: 0, 86, 179; /* Darker blue */
+            --raw-lighter-color: 30, 144, 255; /* Bright blue */
+            --main-color: rgb(var(--raw-main-color));
+            --darker-color: rgb(var(--raw-darker-color));
+            --lighter-color: rgb(var(--raw-lighter-color));
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        pre {
+            padding: 1em;
+            border: 1px solid #999;
+            background-color: #eee;
+            overflow-x: auto;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f7f7f7;
+            padding: 1.25em;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 62.5em;
+            margin: 0 auto;
+            padding: 1.25em;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            padding: 1.25em 0;
+            border-bottom: 2px solid #ddd;
+        }
+
+        header h1 {
+            font-size: 2.3em;
+            color: #333;
+            margin-bottom: 0.6em;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #777;
+        }
+
+        header img {
+            vertical-align: middle;
+            width: 3em;
+            border-radius: 50%;
+        }
+
+        nav {
+            margin: 1.25em 0;
+            text-align: center;
+        }
+
+        a, a:visited, button.link {
+            text-decoration: none;
+            color: var(--main-color);
+        }
+
+        nav a, nav button.link {
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: var(--darker-color);
+        }
+
+        section {
+            padding: 1.25em 0;
+            margin-bottom: 2.5em;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 0.6em;
+        }
+
+        p {
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 0.6em;
+            border-top: 2px solid #ddd;
+            font-size: 0.8em;
+            color: #777;
+        }
+
+        .center {
+            text-align: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button.link {
+            color: var(--main-color);
+            padding: 0;
+            margin: 0;
+            display: inline;
+            background: none;
+            border: none;
+            font: inherit;
+            cursor: pointer;
+        }
+
+        button.center {
+            display: block;
+            margin: 0 auto;
+        }
+
+        form.little {
+            margin: 1em auto;
+            max-width: 16em;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            padding: 0.5em;
+            border: 1px solid #ccc;
+        }
+
+        button, a.button {
+            font-size: inherit;
+            margin: 0;
+            padding: 0.6em 1.25em;
+            background-color: var(--main-color);
+            color: #fff;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+        /* Global Form Styles */
+
+        form {
+            max-width: 37.5em; /* Keeps the form sleek */
+            margin: 1em auto; /* Center form on page */
+            padding: 1.25em;
+            background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+            border: 1px solid #ccc;
+            border-radius: 0.5em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        label {
+            margin-bottom: 0.5em;
+            color: #333; /* Neutral color for labels */
+        }
+
+        input, textarea {
+            font-size: inherit;
+            width: 100%;
+            padding: 0.6em;
+            margin-bottom: 1.25em;
+            border: 1px solid #ccc; /* Light border */
+            border-radius: 4px; /* Slightly rounded edges */
+            background-color: #f9f9f9; /* Soft background */
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        input:focus, textarea:focus {
+            border-color: var(--main-color); /* Blue border on focus */
+            box-shadow: 0 0 5px rgba(var(--raw-main-color), 0.5); /* Slight glow effect */
+            outline: none; /* Remove default focus */
+        }
+
+        textarea {
+            resize: vertical; /* Allow vertical resizing */
+            min-height: 7.5em;
+        }
+
+        /* Submit Button Styles */
+        button[type="submit"] {
+            background-color: var(--main-color);
+            color: white;
+            border: none;
+            padding: 0.75em 1.25em;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: var(--lighter-color);
+        }
+
+        .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25em;
+        }
+
+        .box {
+            flex: 1 1 calc(33% - 1.25em);
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 1.25em;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .tags span {
+            display: inline-block;
+            padding: .2em .6em;
+            margin: .2em .2em;
+            border-radius: 0.25em;
+            white-space: nowrap;
+            background-color: #e8e8e8;
+            color: #333;
+        }
+
+        #loading {
+            display: block;
+            margin: 1em auto;
+            position: relative;
+            width: 2.5em;
+            height: 2.5em;
+        }
+
+        #loading::before {
+            content: "";
+            box-sizing: border-box;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 4px solid transparent;
+            border-top-color: var(--main-color);
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 37.5em) {
+            form {
+                padding: 1em;
+            }
+
+            button[type="submit"] {
+                padding: 0.6em 1em;
+            }
+            .box {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://hikaru.org/js/FRM.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="root"></div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
