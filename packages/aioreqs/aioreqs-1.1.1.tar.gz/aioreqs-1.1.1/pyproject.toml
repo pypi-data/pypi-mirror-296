@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aioreqs"
+version = "1.1.1"
+description = "Simple async wrapper for `requests` library"
+authors = ["Xenely <amaryatkin@vk.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
