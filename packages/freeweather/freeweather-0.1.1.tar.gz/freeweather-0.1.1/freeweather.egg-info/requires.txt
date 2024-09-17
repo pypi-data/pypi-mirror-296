@@ -1,0 +1,14 @@
+httpx
+pydantic
+tenacity
+pytest
+pytest-asyncio
+anyio
+Faker
+
+[dev]
+pytest
+pytest-asyncio
+Faker
+black
+flake8
