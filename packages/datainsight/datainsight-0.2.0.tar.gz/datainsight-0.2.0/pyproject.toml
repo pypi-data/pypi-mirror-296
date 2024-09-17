@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datainsight"
+version = "0.2.0"
+description = "A Python package for CSV data analysis"
+readme = "README.md"
+authors = [{name = "Ateendra Jha", email = "ajha@chears.in"}]
+license = {text = "MIT"}
+dependencies = ["pandas", "matplotlib", "seaborn", "streamlit", "scikit-learn", "python-docx", "numpy", "Pillow" ]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+chears-datainsight-app = "datainsight.app:insight"
+
+[project.urls]
+Homepage = "https://chears.in/contact"
+Issues = "https://chears.in/contact"
+

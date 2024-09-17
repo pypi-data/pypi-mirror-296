@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: datainsight
+Version: 0.2.0
+Summary: A Python package for CSV data analysis
+Author-email: Ateendra Jha <ajha@chears.in>
+License: MIT
+Project-URL: Homepage, https://chears.in/contact
+Project-URL: Issues, https://chears.in/contact
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: streamlit
+Requires-Dist: scikit-learn
+Requires-Dist: python-docx
+Requires-Dist: numpy
+Requires-Dist: Pillow
+
+# datainsight
+
+`datainsight` is a Python package for CSV data analysis using Streamlit. It allows users to upload CSV files, filter columns, and generate visual charts and tables.
+
+## Features
+
+- Upload CSV files and visualize data.
+- Filter data based on selected columns.
+- Generate bar, pie, and line charts automatically.
+- Display value counts in a table format.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install datainsight
+```
+## Run the package:
+```bash
+# write following line in app.py 
+import datainsight.app as di
+di.insight()
+```
