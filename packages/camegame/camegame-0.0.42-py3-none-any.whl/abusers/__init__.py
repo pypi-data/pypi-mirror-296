@@ -1,0 +1,1 @@
+from abusers.camegame import CameGame
