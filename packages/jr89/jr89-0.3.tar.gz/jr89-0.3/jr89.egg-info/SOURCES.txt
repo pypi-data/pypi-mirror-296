@@ -1,0 +1,8 @@
+setup.py
+jr89/__init__.py
+jr89/main.py
+jr89.egg-info/PKG-INFO
+jr89.egg-info/SOURCES.txt
+jr89.egg-info/dependency_links.txt
+jr89.egg-info/entry_points.txt
+jr89.egg-info/top_level.txt

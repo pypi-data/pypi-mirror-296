@@ -1,0 +1,2 @@
+[console_scripts]
+jr89 = jr89 : jr89_welcome
