@@ -1,0 +1,5 @@
+fire
+gtts
+notify2
+playsound
+sense_emu
