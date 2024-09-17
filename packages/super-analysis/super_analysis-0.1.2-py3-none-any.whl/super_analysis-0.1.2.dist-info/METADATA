@@ -1,0 +1,288 @@
+Metadata-Version: 2.1
+Name: super-analysis
+Version: 0.1.2
+Summary: A package for super analysis with ByzerLLM
+Home-page: https://github.com/yourusername/super-analysis
+Author: allwefantasy
+Author-email: allwefantasy@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: auto-coder
+
+# Super Analysis
+
+Super Analysis 支持 NLP2SQL 以及 使用 SQL 对表中的文本字段做自然语言分析。
+
+## 安装
+
+你可以使用 pip 安装 Super Analysis：
+
+```bash
+git clone https://github.com/allwefantasy/super_analysis
+cd super-analysis
+pip install -e .
+```
+
+或者使用 Makefile 来管理项目：
+
+```bash
+# 清理项目
+make clean
+
+# 构建项目
+make build
+
+# 创建wheel包
+make wheel
+
+# 安装项目
+make install
+
+# 卸载项目
+make uninstall
+
+# 以开发模式安装项目
+make develop
+
+# 运行测试
+make test
+```
+
+
+
+## 示例数据
+
+下载电影数据集： https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/download?datasetVersionNumber=7
+
+
+## 启动分析服务
+
+整个 super-analysis 服务分为四个部分：
+
+1. byzer-sql 分布式执行引擎 
+2. schema 文档知识库
+3. context 文档知识库
+4. super-analysis 自身
+
+在启动 super-analysis 之前，你需要启动 schema 文档知识库和 context 文档知识库以及 byzer-sql 引擎。
+
+## 部署 Deepseek 模型代理
+
+在启动其他服务之前，我们需要先部署 Deepseek 模型。你可以使用以下命令来部署：
+
+```bash
+make deploy_deepseek
+```
+
+或者直接运行以下命令：
+
+```bash
+byzerllm deploy --pretrained_model_type saas/openai \
+--cpus_per_worker 0.001 \
+--gpus_per_worker 0 \
+--worker_concurrency 1000 \
+--num_workers 1 \
+--infer_params saas.base_url="https://api.deepseek.com/v1" saas.api_key=${MODEL_DEEPSEEK_TOKEN} saas.model=deepseek-chat \
+--model deepseek_chat
+```
+
+注意：请确保在运行此命令之前，已经设置了环境变量 `MODEL_DEEPSEEK_TOKEN`。
+
+## 部署 Byzer-SQL
+
+在你的电脑上参考 [这个文档](./docs/4.3.1%20安装与配置%20Byzer-SQL.pdf) 完成部署.
+
+> 启动的时候需要在安装有 super-analysis 的conda环境中启动。
+
+
+
+当 byzer-sql 部署完成后，注册账号为 `hello`, 然后进入到 byzer-sql 的控制台中执行以下脚本：
+
+```sql
+!byzerllm setup single;
+
+run command as LLM.`` where 
+action="infer"
+and reconnect="true"
+and pretrainedModelType="saas/openai"
+and udfName="deepseek_chat";
+```
+
+## 启动其他服务
+
+现在可以按如下方式做一些数据预处理或者启动相关服务：
+
+```bash
+## 将电影数据集的csv文件转换为schema文档
+super-analysis.convert --data_dir /Users/allwefantasy/data/movice --doc_dir /Users/allwefantasy/data/movice/schemas/
+
+# 启动schema文档知识库
+auto-coder doc serve \
+--model deepseek_chat --index_filter_workers 100 \
+--tokenizer_path /Users/allwefantasy/Downloads/tokenizer.json \
+--doc_dir /Users/allwefantasy/data/movice/schemas/ \
+--port 8001
+
+# 下载 Byzer-SQL 专门为大模型优化的文档
+git clone https://github.com/allwefantasy/llm_friendly_packages
+
+# 启动文档知识库
+auto-coder doc serve \
+--model deepseek_chat --index_filter_workers 100 \
+--tokenizer_path /Users/allwefantasy/Downloads/tokenizer.json \
+--doc_dir  /Users/allwefantasy/projects/llm_friendly_packages/github.com/allwefantasy \
+--port 8002
+
+# 启动兼容 OpenAI Server 的分析服务
+super-analysis.serve --served-model-name deepseek_chat --port 8000 \
+--schema-rag-base-url http://127.0.0.1:8001/v1 \
+--context-rag-base-url http://127.0.0.1:8002/v1 \
+--byzer-sql-url http://127.0.0.1:9003/run/script
+```
+
+现在你可以用 OpenAI SDK 去使用了。 具体测试和接口使用参考 [openai_local_api.ipynb](./notebooks/openai_local_api.ipynb)
+
+
+## 非 OpenAI 兼容接口
+
+除了兼容 OpenAI 的接口外，Super Analysis 还提供了一个简单的 REST API 接口，可以直接与模型进行交互。以下是如何使用这个接口：
+
+### 启动服务
+
+使用以下命令启动 REST API 服务：
+
+```bash
+superanalysis.api --schema-rag-base-url <schema_rag_url> \
+                  --schema-rag-api-key <schema_rag_api_key> \
+                  --context-rag-base-url <context_rag_url> \
+                  --context-rag-api-key <context_rag_api_key> \
+                  --byzer-sql-url <byzer_sql_url> \
+                  --llm-model <llm_model_name> \
+                  --gen-sql-llm-model <gen_sql_llm_model_name> \
+                  --host <host> \
+                  --port <port>
+```
+
+请替换尖括号中的值为实际的配置信息。
+
+### API 端点
+
+服务启动后，将提供以下 API 端点：
+
+#### POST /chat
+
+此端点用于与模型进行对话。
+
+请求体格式：
+
+```json
+{
+  "conversations": [
+    {
+      "role": "user",
+      "content": "你的问题或指令"
+    }
+  ],
+  "model": "可选的模型名称"
+}
+```
+
+响应格式：
+
+```json
+{
+  "response": "模型的回答"
+}
+```
+
+### 示例使用
+
+以下是使用 Python 请求库与 API 交互的示例：
+
+```python
+import requests
+import json
+
+url = "http://localhost:8000/chat"
+payload = {
+    "conversations": [
+        {
+            "role": "user",
+            "content": "你好，请介绍一下你自己。"
+        }
+    ],
+    "model": "your_model_name"
+}
+
+response = requests.post(url, json=payload)
+result = response.json()
+
+print(result["response"])
+```
+
+这个 API 相比兼容 OpenAI 接口，可以在请求中提供提供更多可选参数。
+
+## 使用方法
+
+安装完成后，你可以使用 `super-analysis.serve` 命令来启动 API 服务器：
+
+```bash
+super-analysis.serve --served-model-name your_model_name
+```
+
+### 命令行参数
+
+以下是可用的命令行参数：
+
+- `--host`: 服务器绑定的主机地址（默认：0.0.0.0）
+- `--port`: 服务器绑定的端口（默认：8000）
+- `--uvicorn-log-level`: Uvicorn 日志级别（默认：info）
+- `--allow-credentials`: 允许凭证（默认：False）
+- `--allowed-origins`: 允许的源（默认：["*"]）
+- `--allowed-methods`: 允许的方法（默认：["*"]）
+- `--allowed-headers`: 允许的头部（默认：["*"]）
+- `--api-key`: 用于认证的 API 密钥
+- `--served-model-name`: 要服务的模型名称（必需）
+- `--prompt-template`: 提示模板
+- `--response-role`: 响应角色（默认：assistant）
+- `--ssl-keyfile`: SSL 密钥文件路径
+- `--ssl-certfile`: SSL 证书文件路径
+
+例如：
+
+```bash
+super-analysis.serve --served-model-name deepseek_chat --port 8000
+```
+
+
+## 抽取csv文件schema
+
+The `super-analysis.convert` command allows you to convert CSV files to schema documents. This is useful for generating metadata about your CSV files that can be used for further analysis or documentation.
+
+#### Usage
+
+```
+super-analysis.convert --data_dir <path_to_csv_files> --doc_dir <output_directory> [--include-rows-num <number_of_sample_rows>]
+```
+
+Arguments:
+- `--data_dir`: Directory containing CSV files (required)
+- `--doc_dir`: Output directory for schema documents (required)
+- `--include-rows-num`: Number of sample rows to include in the schema (optional, default is 0)
+
+The utility will:
+1. Recursively find all CSV files in the specified directory
+2. Extract the schema from each CSV file
+3. Generate a schema text that includes:
+   - The CSV file name
+   - Field names and their data types
+   - Sample data (if `--include-rows-num` is specified)
+4. Save the schema text as a markdown file in the output directory
+
+## 联系方式
+
+如有任何问题或建议，请联系 allwefantasy@gmail.com。
+
