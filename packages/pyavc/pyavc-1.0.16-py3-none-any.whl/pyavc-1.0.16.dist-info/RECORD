@@ -1,0 +1,13 @@
+avc/__init__.py,sha256=tQqOQVZ44_ALag6ooAwNWj11GBqucmbHQOSZ6tHhosc,66
+avc/bytestrings.py,sha256=9MlKy9kJH5UdasQZrjqIHq4KECc1G88rxW_hjeOiw9g,715
+avc/cli.py,sha256=WEAMT_hoJQ9RJn4lXn6p8F0oUks083curyiZFpJ_zOY,3583
+avc/core.py,sha256=a3CWHrwT3P9UYYC52ugTUEGij0Kf8wvOUvgnmyxSZf8,841
+avc/docx_utils.py,sha256=kmn36RF7RvBF_ZOBs37EY_CZH2z5t5h82UoJvYVYkX8,1150
+avc/file.py,sha256=vz2DKEx48GsQFzhZsxGzSbdbiDJh2lL87NP7XF5Ss64,9475
+avc/utils.py,sha256=GbqpF_ZXY2_mshHvy_lxp6sZmnrU-JTM2nhkpANe41A,4902
+pyavc-1.0.16.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyavc-1.0.16.dist-info/METADATA,sha256=guQjl0Al0XJoaSVf7VE4dP-mOpcCVfbFsbcjQB1Ftcw,4115
+pyavc-1.0.16.dist-info/WHEEL,sha256=5Mi1sN9lKoFv_gxcPtisEVrJZihrm_beibeg5R6xb4I,91
+pyavc-1.0.16.dist-info/entry_points.txt,sha256=B9teQKmtcLyPCNTzVCbGqlKVn6e7Z2Ff-3RgaRFs7M4,39
+pyavc-1.0.16.dist-info/top_level.txt,sha256=Ua9OuCNaZl_49jE-clrkjJpySdnO-Fi24_vBFhklghw,4
+pyavc-1.0.16.dist-info/RECORD,,
