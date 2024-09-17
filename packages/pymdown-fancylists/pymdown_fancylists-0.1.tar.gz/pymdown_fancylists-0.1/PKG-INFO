@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pymdown-fancylists
+Version: 0.1
+Summary: Python Markdown Extension that allows more types of lists.
+Author-email: Joan Puigcerver <joapuiib@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/joapuiib/pymdown-fancylists
+Project-URL: Repository, https://github.com/joapuiib/pymdown-fancylists
+Keywords: extensions,markdown
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Markdown>=3.6
+
+# pymdown-fancylists
+Python Markdown Extension that allows more types of lists.
+
+Inspired by [Pandoc fancy_lists extension](https://pandoc.org/MANUAL.html#extension-fancy_lists)
