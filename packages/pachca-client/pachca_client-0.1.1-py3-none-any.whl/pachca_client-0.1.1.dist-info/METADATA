@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pachca-client
+Version: 0.1.1
+Summary: pachca.com API client
+Home-page: https://github.com/k1nky/pachca-client
+Author: Andrey Shalashov
+Author-email: avshalashov@yandex.ru
+License: Apache 2.0
+Keywords: pachca client
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+

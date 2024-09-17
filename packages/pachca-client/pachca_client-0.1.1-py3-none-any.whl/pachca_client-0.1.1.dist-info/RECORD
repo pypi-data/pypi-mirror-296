@@ -1,0 +1,11 @@
+pachca_client/__init__.py,sha256=Y-89_rWmqrEgbSOtZpKIZLmJmAZS_mMrkVO5phLVbS8,430
+pachca_client/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pachca_client/api/cache.py,sha256=DFrrTjLvjPfEIl60kctFMi-v55bD23Bvu0S36yJv1hE,635
+pachca_client/api/client.py,sha256=Uf7glZ6ac4-btRApH2nNtAj-XuEQ6CS71VnjM5-o73s,3560
+pachca_client/api/exceptions.py,sha256=UduPZXRNPtu5wcMWzCQm4IEtz4gaXsI1PwgeJsZUGiM,336
+pachca_client/api/file.py,sha256=Kbsgv_i26_omND6bZ_imLSzoys53F-U3AXb7cP2zvGg,784
+pachca_client/api/pachca.py,sha256=xmxA-LIbFHaszRQ2q5Oc6pU9nMP-SbNIRsFaM4y77uk,8834
+pachca_client-0.1.1.dist-info/METADATA,sha256=kp6hB7AH0LTq0m7aARMnS4hRAKO4EeWKa8SR3p6jA4c,308
+pachca_client-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pachca_client-0.1.1.dist-info/top_level.txt,sha256=Yf7mGbNIQ5txauLOA772kX19fgSuSe2b-MeIsL-Epcg,14
+pachca_client-0.1.1.dist-info/RECORD,,
