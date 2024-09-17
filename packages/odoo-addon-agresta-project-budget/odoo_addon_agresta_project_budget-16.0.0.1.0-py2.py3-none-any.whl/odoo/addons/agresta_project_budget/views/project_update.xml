@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="agresta_project_update_form" model="ir.ui.view">
+        <field name="name">Agresta Project updates</field>
+        <field name="model">project.update</field>
+        <field name="inherit_id" ref="project.project_update_view_form" />
+        <field name="arch" type="xml">
+            <data>
+
+
+<field name="progress" position="after">
+    <field name="project_execution_weight" invisible="1"/>
+    <field name="total_budget" 
+                attrs="{'invisible': [('project_execution_weight', '!=', 'budget')]}"/>
+    
+</field>
+
+
+    <xpath expr="/form/sheet/div" position="before">
+        <div class="oe_button_box" name="button_box">
+        <button name="button_recalculate" 
+                string="Recalculate" 
+                type="object" 
+                class="btn-primary" 
+                groups="agresta_project_budget.group_agresta_project_manager" 
+                attrs="{'invisible': [('project_execution_weight', '!=', 'budget')]}" data-hotkey="r" />
+    </div>
+    </xpath>
+
+<xpath expr="/form/sheet/notebook/page[@name='description']" position="after">
+    <page string="Task updates" 
+        name="task_updates" 
+        id="task_updates_tab" 
+        groups="agresta_project_budget.group_agresta_project_user" 
+        attrs="{'invisible': [('project_execution_weight', '!=', 'budget')]}">
+        
+        <group>
+        <field name="currency_id" invisible="1"/>
+        <field name="project_task_update_ids" mode="tree" readonly="1" >
+            <tree editable="top" string="Task Updates" default_order="date" col="6">
+                <field name="name" colspan="4"/>
+                <field name="date" colspan="4"/>
+                <field name="execution_pcnt" colspan="2"/>
+                <field name="budget" colspan="2"/>
+            </tree>                     
+        </field>
+        </group>
+
+    </page>
+</xpath>
+
+
+
+            </data>
+        </field>
+    </record>
+</odoo>
+
