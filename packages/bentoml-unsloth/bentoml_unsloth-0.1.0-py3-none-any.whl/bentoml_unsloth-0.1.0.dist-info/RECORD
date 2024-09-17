@@ -1,0 +1,9 @@
+_bentoml_impl/frameworks/unsloth/__init__.py,sha256=fYyYAJKuOgmIQ4pkqGuplhCk8YXUJlMUDE4Q7kiGZ8I,4445
+_bentoml_impl/frameworks/unsloth/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+_bentoml_impl/frameworks/unsloth/mapping.py,sha256=P6I1bDAEsSmnvLILa-IoivSQy4qw0f2hlOTfJmDir7Q,1149
+_bentoml_impl/frameworks/unsloth/template/.bentoignore,sha256=QtRGYBqXiVaLXMpcPexzUuCwC0BKgzfuYjVmg5F96LE,66
+_bentoml_impl/frameworks/unsloth/template/.gitignore,sha256=itADyDI_5WwdeB0zJuenmIqSsCzg2evoZu19WcT2RfU,122
+_bentoml_impl/frameworks/unsloth/template/service.py,sha256=PghJyEuIc00OzGDgK1hTeFPJJ_Fo13gUPFNmx2kEHU0,2306
+bentoml_unsloth-0.1.0.dist-info/METADATA,sha256=wAw5qHu_JaD_JTM2Z5Fe1BHiZTIrN3pENCobIPPIxOk,2604
+bentoml_unsloth-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+bentoml_unsloth-0.1.0.dist-info/RECORD,,
