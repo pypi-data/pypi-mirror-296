@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mutt-ical"
+version = "2.0.2"
+description = "Scripts for helping mutt deal with iCalendar data"
+authors = ["Pip Gold <pip@aperiodic.net>"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+packages = [{include = "mutt_ical"}]
+repository = "https://github.com/asciipip/mutt-ical"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+icalendar = ">=1.0"
+tzlocal = ">=3.0"
+
+[tool.poetry.scripts]
+viewical = "mutt_ical.viewical:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
