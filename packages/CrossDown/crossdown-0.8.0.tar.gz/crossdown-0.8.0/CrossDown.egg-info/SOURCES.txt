@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+CrossDown.egg-info/PKG-INFO
+CrossDown.egg-info/SOURCES.txt
+CrossDown.egg-info/dependency_links.txt
+CrossDown.egg-info/requires.txt
+CrossDown.egg-info/top_level.txt
