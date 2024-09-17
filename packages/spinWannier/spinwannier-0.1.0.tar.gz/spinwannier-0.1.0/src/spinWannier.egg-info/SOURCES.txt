@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/spinWannier/WannierTBmodel.py
+src/spinWannier/__init__.py
+src/spinWannier/wannier_utils.py
+src/spinWannier.egg-info/PKG-INFO
+src/spinWannier.egg-info/SOURCES.txt
+src/spinWannier.egg-info/dependency_links.txt
+src/spinWannier.egg-info/requires.txt
+src/spinWannier.egg-info/top_level.txt

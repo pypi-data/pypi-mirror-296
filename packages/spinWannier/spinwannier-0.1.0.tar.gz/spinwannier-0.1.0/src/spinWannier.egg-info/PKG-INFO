@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: spinWannier
+Version: 0.1.0
+Summary: Wannier (spin) interpolation and spin texture plotting
+Author: L. Vojacek
+Author-email: Libor.Vojacek@vutbr.cz
+License: BSD 3-Clause License
+License-File: LICENSE
+Requires-Dist: numpy
+
+# spinWannier
+**<i>Tools for handling Wannier models with a spin operator and spin-texture plotting.</i>**
+
+If you find this package useful, please cite [L. Vojáček*, J. M. Dueñas* _et al._, Nano Letters (2024)](https://pubs.acs.org/doi/10.1021/acs.nanolett.4c03029).
+
+
+## Usage 
+
+An example of use is given in ``./examples/spinWannier_use_example.ipynb``. It uses input files of a CrTe<sub>2</sub> monolayer given in ``./examples/wannier_files_CrTe2/``.
+
+Example plot of Fermi-surface spin textures of CrXY (X,Y=S,Se,Te) monolayers, 
+as calculated in [L. Vojáček*, J. M. Dueñas* et al., Nano Letters (2024)](https://pubs.acs.org/doi/10.1021/acs.nanolett.4c03029):
+<center><img src="https://github.com/user-attachments/assets/5204849c-0fa1-419f-9955-6c55c014babe" alt="spin_texture_example" width="550" /></center>
+
+BSD 3-Clause License
+
+Copyright (c) 2024, liborsold
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
