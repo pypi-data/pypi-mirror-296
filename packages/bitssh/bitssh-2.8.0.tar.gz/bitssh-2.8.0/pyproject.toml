@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bitssh"
+version = "2.8.0"
+description = "A New and Modern SSH connector written in Python."
+readme = "README.md"
+authors = [
+    { name = "Kanishk Pachauri", email = "itskanishkp.py@gmail.com" },
+]
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["bitssh", "sshmanager", "commandline"]
+dependencies = [
+    "rich",
+    "inquirer",
+    "pre-commit>=3.6.0",
+    "path>=16.9.0",
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/Mr-Sunglasses/bitssh"
+Docs = "https://github.com/Mr-Sunglasses/bitssh/blob/master/docs/docs.md"
+
+[project.scripts]
+bitssh = "bitssh.__main__:main"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pre-commit",
+    "ruff",
+]
+
+[tool.bumpver]
+current_version = "2.8.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"src/bitssh/__init__.py" = ["{version}"]
+
+[tool.pdm]
+package-type = "library"
+
+[tool.pdm.scripts]
+lint = "pre-commit run --all-files"

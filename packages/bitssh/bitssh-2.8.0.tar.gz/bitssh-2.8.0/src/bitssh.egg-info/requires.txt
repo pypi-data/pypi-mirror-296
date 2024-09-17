@@ -1,0 +1,11 @@
+rich
+inquirer
+pre-commit>=3.6.0
+path>=16.9.0
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
