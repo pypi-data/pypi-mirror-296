@@ -1,0 +1,9 @@
+motu_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+motu_server/datastore.py,sha256=HQHtzWRZ4EVUQcXy0MwJhfsOIaVv0XCP7YmBCOgUe04,6637
+motu_server/server.py,sha256=FHV2gCw-ob5lecsjyRmzZoWfPRlu--IUj5mzMSSkkeA,7883
+motu_server/zeroconf_registration.py,sha256=D5myhoe0D2Oc_lKstJuSakqFVUtxLfDSjIhOg23u6Y4,3356
+motu_server-0.1.13.dist-info/LICENSE,sha256=W0-8lHF5RRDxVpfUt5MNiZD8lRoIHwWbsK0Tt2MUoVU,1071
+motu_server-0.1.13.dist-info/METADATA,sha256=ApB69Kc_ULWqdB9LzNQwKBJoSuUJFO3HfdWjh6DjpjA,2731
+motu_server-0.1.13.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+motu_server-0.1.13.dist-info/top_level.txt,sha256=4zS33PX58Peu50PLg-02K99GOqoABN-dYn8lNDmGsFs,12
+motu_server-0.1.13.dist-info/RECORD,,
