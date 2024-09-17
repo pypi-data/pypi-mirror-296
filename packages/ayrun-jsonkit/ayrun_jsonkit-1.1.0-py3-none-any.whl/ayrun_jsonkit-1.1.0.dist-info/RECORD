@@ -1,0 +1,9 @@
+jsonkit/__init__.py,sha256=CtL0pCNUtfaYkRsOSoeCNiwl2GQ6xFofcxoq3hcaIbQ,75
+jsonkit/async_jsonfile.py,sha256=EeUXaJsYE_7Ql_DFBfcYmjnLRn9ceHJRJFqCOC_X_6A,2245
+jsonkit/codec.py,sha256=Hg4H45zByU1hxjb0DOLemwDKnpqEYrW1CnZ4UwopBrk,2277
+jsonkit/custom_types.py,sha256=n-CYHPlOwyl_xjT9-Pn-CWZexfr__B_mB85_2uNyoHc,174
+jsonkit/jsonfile.py,sha256=p_bxWOoU5RVQkxJUJAfin_Wbs5fEva1M4uYjLj7DwCY,2029
+ayrun_jsonkit-1.1.0.dist-info/LICENSE,sha256=PZP0S4uml57udAa0JfMtygggvxUwhNLGHT-EW7c7Y7Q,1083
+ayrun_jsonkit-1.1.0.dist-info/METADATA,sha256=eAeXO0mqbN6NNlQYgpxaHTGswrrCUHv1vxW-0okzuPA,3217
+ayrun_jsonkit-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ayrun_jsonkit-1.1.0.dist-info/RECORD,,
