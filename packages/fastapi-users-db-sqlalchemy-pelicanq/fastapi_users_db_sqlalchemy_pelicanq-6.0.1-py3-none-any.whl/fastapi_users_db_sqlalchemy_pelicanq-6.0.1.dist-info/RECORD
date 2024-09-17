@@ -1,0 +1,8 @@
+fastapi_users_db_sqlalchemy_pelicanq/__init__.py,sha256=RStq2SsoIJdn5arO4yZLuAVziVbTT6M40YoUMJff4uA,6478
+fastapi_users_db_sqlalchemy_pelicanq/access_token.py,sha256=SvLsoxC8G9ZHwSkpUx-Uxrow9DIBfeVV8A0sq6CDkZE,3058
+fastapi_users_db_sqlalchemy_pelicanq/generics.py,sha256=zg6KCTgnH3AyEJ1ZR2YwiS7Qch3xg4sRnaYFWuSt5sg,1852
+fastapi_users_db_sqlalchemy_pelicanq/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_users_db_sqlalchemy_pelicanq-6.0.1.dist-info/METADATA,sha256=RFtVMUbFEPTkW9Xfir32HbiY26TFVRhQ1dI8lwqC8yA,3160
+fastapi_users_db_sqlalchemy_pelicanq-6.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+fastapi_users_db_sqlalchemy_pelicanq-6.0.1.dist-info/licenses/LICENSE,sha256=xeZkqqHpa9lkurYK7IUUcu311AWO4s0BDVC8V1U8-VM,1072
+fastapi_users_db_sqlalchemy_pelicanq-6.0.1.dist-info/RECORD,,
