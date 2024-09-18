@@ -1,0 +1,15 @@
+misfits/__init__.py,sha256=Mmewl8nU3hZfEThATM_04EL4-mQZ-za0SFtJenFCets,79
+misfits/app.py,sha256=ufnT68-3nIxhYaNTvyYjUmlCQt6hhhv-MYxkZ6H8Li4,16541
+misfits/data.py,sha256=lEccGvDGnZlz3VffMcr6Lt7lMOmpCvwOeC3532RdCaY,6455
+misfits/effects.py,sha256=r508Pp8U8e_XSxPpu5DYe93V7jMGDZ496HUt0QxdwjU,2746
+misfits/headers.py,sha256=hLsrs9tzFwaovmKreoU7-xUH0J3f-zKKpwsA13-Apsc,2049
+misfits/log.py,sha256=7oUmMdrWtagLt1LsxO4g4ez2lRrn9pVmozxEgx5TQHo,1977
+misfits/logo.py,sha256=syJ94Gqc5ra3ihwpBELrq7jn4ddQPU9JS0vvcqouzXA,992
+misfits/misfits.tcss,sha256=T2Z1M3ekBvx93Ywtln-pwfcr8CGJeSPiVEOIijiIpRI,2146
+misfits/screens.py,sha256=bVrQcM_zFXk0M0vHG4KNx1fBD2DJQNYB3cdxwfiWUJs,3758
+misfits/utils.py,sha256=zUFDo_zDr87Z7buAf6Ydt41KXVxYZ51BsyS35SDTqbI,1089
+misfits-0.0.8.dist-info/METADATA,sha256=LI5tEafMw3tVuJnspr3iz5BN1PMvGBkv9Ebct2Cn2zE,2523
+misfits-0.0.8.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+misfits-0.0.8.dist-info/entry_points.txt,sha256=LYivFSm5-GjuYwdvoHMhXtwGZGNJu6-lS2YCAj7dRMQ,45
+misfits-0.0.8.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+misfits-0.0.8.dist-info/RECORD,,
