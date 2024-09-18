@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: read-nas
+Version: 0.1
+Summary: reads ebas .nas files in pandas
+Author: Saurabh Annadate
+Author-email: saurabh.annadate9@gmail.com
+
