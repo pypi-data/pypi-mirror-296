@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gmlutil-ml-models
+Version: 2.0.4
+Summary: General Machine Learning Utility Package for ML Model Training & Testing
+Home-page: https://github.com/Phillip1982/gmlutil_ml_models
+Author: Phillip Kim
+Author-email: phillip.kim@ejgallo.com
+License: BSD 2-clause
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows :: Windows XP
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
