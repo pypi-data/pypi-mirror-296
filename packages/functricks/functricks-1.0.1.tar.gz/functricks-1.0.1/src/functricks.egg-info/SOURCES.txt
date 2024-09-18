@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/functricks/__init__.py
+src/functricks.egg-info/PKG-INFO
+src/functricks.egg-info/SOURCES.txt
+src/functricks.egg-info/dependency_links.txt
+src/functricks.egg-info/top_level.txt
+src/functricks/_core/__init__.py
+src/functricks/_core/keyalias.py
+src/functricks/_core/overloadable.py
+src/functricks/_core/tofunc.py
+src/functricks/tests/__init__.py
+src/functricks/tests/test_legacy.py
