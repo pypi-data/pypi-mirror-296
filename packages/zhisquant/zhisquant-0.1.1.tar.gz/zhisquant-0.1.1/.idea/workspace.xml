@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58f42d3d-19a9-4707-9e8e-28e71ecb444e" name="更改" comment="maple">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/zhisquant/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/zhisquant/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/zhisquant-0.1.0-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/zhisquant-0.1.0.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_pypi.py" beforeDir="false" afterPath="$PROJECT_DIR$/upload_pypi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhisquant.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/zhisquant.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhisquant.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/zhisquant.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhisquant/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/zhisquant/client.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hl5bxY6aoHMZA6kckNlMUsr1Ht" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.PB_ROE_50.executor": "Run",
+    "Python.SDK.executor": "Run",
+    "Python.Tree.executor": "Run",
+    "Python.api_main.executor": "Run",
+    "Python.caogao (1).executor": "Run",
+    "Python.caogao1.executor": "Run",
+    "Python.get_BonusFinancing_data.executor": "Run",
+    "Python.logs.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.s1.executor": "Run",
+    "Python.s2.executor": "Run",
+    "Python.upload_pypi.executor": "Run",
+    "Python.双均线策略.executor": "Run",
+    "Python.成长价值风格轮动策略.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/智慧深识/量化分析/ZhiSQuant",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\智慧深识\量化分析\ZhiSQuant\ZhiSQuantSDK" />
+      <recent name="E:\智慧深识\量化分析\ZhiSQuant\API" />
+      <recent name="E:\智慧深识\量化分析\ZhiSQuant\Strategy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.upload_pypi">
+    <configuration name="成长价值风格轮动策略" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZhiSQuant" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Strategy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strategy/成长价值风格轮动策略.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PB_ROE_50" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZhiSQuant" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Strategy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strategy/PB_ROE_50.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tree_list" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ZhiSQuant" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Maple chen\Desktop\ZhiSQuant\Tree_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="成长价值风格轮动策略" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZhiSQuant" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Strategy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strategy/成长价值风格轮动策略.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="成长价值风格轮动策略" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZhiSQuant" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Strategy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strategy/成长价值风格轮动策略.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="caogao1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZhiSQuant" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API/caogao1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZhiSQuant" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API/logs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upload_pypi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZhiSQuant" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/upload_pypi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.upload_pypi" />
+        <item itemvalue="Python.成长价值风格轮动策略" />
+        <item itemvalue="Python.logs" />
+        <item itemvalue="Python.PB_ROE_50" />
+        <item itemvalue="Python.caogao1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="58f42d3d-19a9-4707-9e8e-28e71ecb444e" name="更改" comment="" />
+      <created>1718155898831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718155898831</updated>
+      <workItem from="1718155899850" duration="22751000" />
+      <workItem from="1718239740404" duration="14000" />
+      <workItem from="1718239760482" duration="27685000" />
+      <workItem from="1718327086428" duration="15652000" />
+      <workItem from="1718351868860" duration="5996000" />
+      <workItem from="1718544243043" duration="3434000" />
+      <workItem from="1718584757738" duration="7908000" />
+      <workItem from="1718628836767" duration="872000" />
+      <workItem from="1718671967625" duration="28303000" />
+      <workItem from="1718728839527" duration="1348000" />
+      <workItem from="1718763061310" duration="32027000" />
+      <workItem from="1718844102655" duration="20268000" />
+      <workItem from="1718932682167" duration="1085000" />
+      <workItem from="1719027442237" duration="324000" />
+      <workItem from="1719060403051" duration="1584000" />
+      <workItem from="1719133723626" duration="598000" />
+      <workItem from="1719190219534" duration="2359000" />
+      <workItem from="1719214971555" duration="1254000" />
+      <workItem from="1719276534337" duration="22000" />
+      <workItem from="1719280349954" duration="1781000" />
+      <workItem from="1719380931759" duration="4000" />
+      <workItem from="1719449670632" duration="5890000" />
+      <workItem from="1719546522300" duration="2217000" />
+      <workItem from="1719802476322" duration="2397000" />
+      <workItem from="1719881478744" duration="3057000" />
+      <workItem from="1719917695876" duration="614000" />
+      <workItem from="1720182366548" duration="1297000" />
+      <workItem from="1720242597617" duration="1796000" />
+      <workItem from="1720487337680" duration="1091000" />
+      <workItem from="1720665322334" duration="3937000" />
+      <workItem from="1720752170760" duration="10337000" />
+      <workItem from="1720843057284" duration="619000" />
+      <workItem from="1720916399060" duration="24054000" />
+      <workItem from="1721090164168" duration="2593000" />
+      <workItem from="1721108350743" duration="3119000" />
+      <workItem from="1721181194182" duration="18125000" />
+      <workItem from="1721395505184" duration="2211000" />
+      <workItem from="1721408687481" duration="596000" />
+      <workItem from="1721457507472" duration="581000" />
+      <workItem from="1721474169098" duration="821000" />
+      <workItem from="1721479705604" duration="1995000" />
+      <workItem from="1721618991690" duration="20000" />
+      <workItem from="1721636086737" duration="1404000" />
+      <workItem from="1721663152920" duration="611000" />
+      <workItem from="1721700205023" duration="367000" />
+      <workItem from="1721732744460" duration="2111000" />
+      <workItem from="1723341174686" duration="2317000" />
+      <workItem from="1723434330567" duration="1922000" />
+      <workItem from="1723513927787" duration="1409000" />
+      <workItem from="1723690334692" duration="1582000" />
+      <workItem from="1724027275187" duration="3335000" />
+      <workItem from="1724037230748" duration="1473000" />
+      <workItem from="1724045297269" duration="26000" />
+      <workItem from="1724726341719" duration="104000" />
+      <workItem from="1724726456536" duration="16000" />
+      <workItem from="1724735383651" duration="21000" />
+      <workItem from="1724735590388" duration="461000" />
+      <workItem from="1724744308089" duration="1367000" />
+      <workItem from="1724755369873" duration="78000" />
+      <workItem from="1724755574041" duration="1120000" />
+      <workItem from="1724809766550" duration="438000" />
+      <workItem from="1724810383948" duration="1260000" />
+      <workItem from="1724911814205" duration="50000" />
+      <workItem from="1725438670172" duration="1333000" />
+      <workItem from="1725497621220" duration="1308000" />
+      <workItem from="1725513444557" duration="6632000" />
+      <workItem from="1725521020386" duration="11239000" />
+      <workItem from="1725591300949" duration="4910000" />
+      <workItem from="1725699081187" duration="15000" />
+      <workItem from="1725699284326" duration="2405000" />
+      <workItem from="1725707731433" duration="956000" />
+      <workItem from="1725781400883" duration="3709000" />
+      <workItem from="1725847141382" duration="8634000" />
+      <workItem from="1725874517189" duration="4343000" />
+      <workItem from="1725974416040" duration="2651000" />
+      <workItem from="1725977371473" duration="1704000" />
+      <workItem from="1726022613739" duration="4840000" />
+      <workItem from="1726037354482" duration="673000" />
+      <workItem from="1726107078820" duration="16181000" />
+      <workItem from="1726302948238" duration="1218000" />
+      <workItem from="1726403212811" duration="5245000" />
+      <workItem from="1726482825604" duration="1844000" />
+      <workItem from="1726553831658" duration="1098000" />
+      <workItem from="1726576800777" duration="30000" />
+      <workItem from="1726577013608" duration="203000" />
+      <workItem from="1726578363675" duration="2654000" />
+      <workItem from="1726584836499" duration="3142000" />
+      <workItem from="1726627305593" duration="1956000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1725611284627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725611284627</updated>
+    </task>
+    <task id="LOCAL-00002" summary="maple">
+      <option name="closed" value="true" />
+      <created>1725701427617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725701427617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <MESSAGE value="maple" />
+    <option name="LAST_COMMIT_MESSAGE" value="maple" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$caogao__1_.coverage" NAME="caogao (1) 覆盖结果" MODIFIED="1725527888558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$logs.coverage" NAME="logs 覆盖结果" MODIFIED="1726422562430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$stock.coverage" NAME="stock 覆盖结果" MODIFIED="1718162612558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$s1.coverage" NAME="s1 覆盖结果" MODIFIED="1725978630542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strategy" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$get_finance_income_data__1_.coverage" NAME="get_finance_income_data (1) 覆盖结果" MODIFIED="1718851128148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$get_finance_balance_data.coverage" NAME="get_finance_balance_data 覆盖结果" MODIFIED="1718854209040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/main_py$PB_ROE_50.coverage" NAME="PB_ROE_50 覆盖结果" MODIFIED="1725521105716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strategy" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$get_finance_stock_data.coverage" NAME="get_finance_stock_data 覆盖结果" MODIFIED="1718816072969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/main_py$get_BonusFinancing_data.coverage" NAME="get_BonusFinancing_data 覆盖结果" MODIFIED="1725535437201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$Tree.coverage" NAME="Tree 覆盖结果" MODIFIED="1725611919553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$PB_ROE.coverage" NAME="PB_ROE 覆盖结果" MODIFIED="1718169333150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Indicators" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$caogao__1_.coverage" NAME="caogao (1) 覆盖结果" MODIFIED="1718777767961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$get_BonusFinancing_data.coverage" NAME="get_BonusFinancing_data 覆盖结果" MODIFIED="1718895299417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$units.coverage" NAME="units 覆盖结果" MODIFIED="1718850288920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$first_spider.coverage" NAME="first_spider 覆盖结果" MODIFIED="1718188426690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$get_finance_cash_flow_data.coverage" NAME="get_finance_cash_flow_data 覆盖结果" MODIFIED="1718860246771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$Stock.coverage" NAME="Stock 覆盖结果" MODIFIED="1721028527223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/PB_ROE_50_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1725498000825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$main.coverage" NAME="main 覆盖结果" MODIFIED="1726037527332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$get_daily_stock_data.coverage" NAME="get_daily_stock_data 覆盖结果" MODIFIED="1718778736196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/PB_ROE_50_py$PB_ROE_50.coverage" NAME="PB_ROE_50 覆盖结果" MODIFIED="1724911838187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strategy" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$caogao1.coverage" NAME="caogao1 覆盖结果" MODIFIED="1726111675748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/PB_ROE_50_py$api_main.coverage" NAME="api_main 覆盖结果" MODIFIED="1725498389738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$s2.coverage" NAME="s2 覆盖结果" MODIFIED="1725978636130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strategy" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$caogao.coverage" NAME="caogao 覆盖结果" MODIFIED="1721279969299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$SDK.coverage" NAME="SDK 覆盖结果" MODIFIED="1726108926254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$get_finance_main_data.coverage" NAME="get_finance_main_data 覆盖结果" MODIFIED="1721281285327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1725546809385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$.coverage" NAME="成长价值风格轮动策略 覆盖结果" MODIFIED="1726580393007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strategy" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$upload_pypi.coverage" NAME="upload_pypi 覆盖结果" MODIFIED="1726629183908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$setting.coverage" NAME="setting 覆盖结果" MODIFIED="1721035502645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$technical_analysis.coverage" NAME="technical_analysis 覆盖结果" MODIFIED="1718244700523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Indicators" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$code.coverage" NAME="code 覆盖结果" MODIFIED="1718355717496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawl" />
+    <SUITE FILE_PATH="coverage/ZhiSQuant$PB_ROE_50.coverage" NAME="PB_ROE_50 覆盖结果" MODIFIED="1726404310826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strategy" />
+  </component>
+</project>
