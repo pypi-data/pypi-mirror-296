@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: latch-top
+Version: 0.1.0
+Summary: Latch top is a tool to show resource usage of processes in a latch pod
+Requires-Python: >=3.9
+
