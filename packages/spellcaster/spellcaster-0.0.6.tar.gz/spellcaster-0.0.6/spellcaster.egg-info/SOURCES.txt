@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+spellcaster/__init__.py
+spellcaster/__main__.py
+spellcaster/cli.py
+spellcaster/github.py
+spellcaster/grammar.py
+spellcaster/traverse_repo.py
+spellcaster.egg-info/PKG-INFO
+spellcaster.egg-info/SOURCES.txt
+spellcaster.egg-info/dependency_links.txt
+spellcaster.egg-info/entry_points.txt
+spellcaster.egg-info/requires.txt
+spellcaster.egg-info/top_level.txt
