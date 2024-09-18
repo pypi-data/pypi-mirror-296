@@ -1,0 +1,4 @@
+Usage: merge copy.py [OPTIONS]
+Try 'merge copy.py --help' for help.
+
+Error: Got unexpected extra argument (logs)
