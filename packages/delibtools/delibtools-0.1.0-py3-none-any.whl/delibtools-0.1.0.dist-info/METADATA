@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: delibtools
+Version: 0.1.0
+Summary: A package for calculating Deliberation Intensity based on Reddit or similar datasets.
+Home-page: https://github.com/armaniii/delibtools
+Author: Arman Irani
+Author-email: airan002@ucr.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pandas >=1.0
+Requires-Dist: numpy >=1.18
+Requires-Dist: tqdm >=4.0
+Requires-Dist: sentence-transformers >=2.0
+Requires-Dist: seaborn >=0.11
+Requires-Dist: matplotlib >=3.0
+Requires-Dist: scipy >=1.4
+Requires-Dist: nltk >=3.5
+
+Includes tools for generating unique thread IDs, calculating deliberation intensity, and visualizing results.
