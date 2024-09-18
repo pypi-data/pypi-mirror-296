@@ -1,0 +1,15 @@
+policyengine_core
+requests
+tqdm
+build
+tomli
+
+[dev]
+black
+pytest
+policyengine_us==1.71.1
+streamlit
+survey_enhance
+torch
+tables
+tabulate
