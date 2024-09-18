@@ -1,0 +1,3 @@
+[console_scripts]
+bellande_rust_executable = bellande_rust_executable:main
+
