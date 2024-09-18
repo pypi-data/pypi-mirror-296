@@ -1,0 +1,5 @@
+python_cptv-0.0.4.dist-info/METADATA,sha256=-Y96EnU3p3s_KwXTtVx8--sbBYTpC6GJ6xq6N-w_YI0,1001
+python_cptv-0.0.4.dist-info/WHEEL,sha256=frJ0jFhrxtt2pGDBONvx9540ZW9xkmTZYKaVKqF4ZeY,108
+cptv_rs_python_bindings/__init__.py,sha256=IZgcOD1OKjS6ZQaED4YMLOl6-AutYuESJuTIyuvvgsA,175
+cptv_rs_python_bindings/cptv_rs_python_bindings.cpython-310-x86_64-linux-gnu.so,sha256=V3oHXXGAgXuYJgXSbxgwelQOGvTdhGDcvVF_7MjU4Jg,727240
+python_cptv-0.0.4.dist-info/RECORD,,
