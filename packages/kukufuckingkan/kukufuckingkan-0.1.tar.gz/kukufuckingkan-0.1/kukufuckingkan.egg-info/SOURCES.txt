@@ -1,0 +1,9 @@
+README.md
+setup.py
+audio/__init__.py
+audio/player.py
+kukufuckingkan.egg-info/PKG-INFO
+kukufuckingkan.egg-info/SOURCES.txt
+kukufuckingkan.egg-info/dependency_links.txt
+kukufuckingkan.egg-info/requires.txt
+kukufuckingkan.egg-info/top_level.txt
