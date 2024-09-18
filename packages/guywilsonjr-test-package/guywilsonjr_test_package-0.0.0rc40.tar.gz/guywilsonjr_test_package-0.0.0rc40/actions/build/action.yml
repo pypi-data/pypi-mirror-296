@@ -1,0 +1,41 @@
+name: Build wheels
+
+
+inputs:
+  python3-version:
+    description: 'Python version to build the wheel for. Example: 12'
+    required: false
+    default: '12'
+  build-type:
+    required: true
+    description: 'The type of build to run. Either sdist or wheel'
+  working-directory:
+    description: 'The directory to run the build on'
+    required: false
+    default: '.'
+outputs:
+  artifact-id:
+    description: "The artifact id"
+    value: ${{ steps.build-sdist.outputs.artifact-id && steps.build-sdist.outputs.artifact-id || steps.build-wheel.outputs.artifact-id }}
+  filename:
+    description: "The filename of the wheel"
+    value: ${{ steps.build-sdist.outputs.filename && steps.build-sdist.outputs.filename || steps.build-wheel.outputs.filename }}
+runs:
+  using: composite
+  steps:
+    - name: Build sdist
+      id: build-sdist
+      uses: guywilsonjr/actions/actions/build-sdist@v0.0.0
+      if: ${{ inputs.build-type == 'sdist' }}
+      with:
+        python3-version: ${{ inputs.python3-version }}
+        working-directory: ${{ inputs.working-directory }}
+    - name: Build wheel
+      id: build-wheel
+      uses: guywilsonjr/actions/actions/build-wheel@v0.0.0
+      if: ${{ inputs.build-type == 'wheel' }}
+      with:
+         python3-version: ${{ inputs.python3-version }}
+         working-directory: ${{ inputs.working-directory }}
+
+        

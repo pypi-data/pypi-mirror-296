@@ -1,0 +1,5 @@
+
+function tmppush() {
+  git commit -a --amend -m "Add CI Workflow" && gtag -fa v0.0.0 -m "v0.0.0" && gtag v0.0.0-rc$1 -m "v0.0.0-rc$1" && gpush -f --tags
+}
+
