@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: libdc3
+Version: 0.1.0
+Summary: The python library for dc3 and central DC shifters
+Home-page: https://gitlab.cern.ch/cms-dqmdc/libdc3
+Author: Gabriel Moreira
+Author-email: gabriel.moreira@cern.ch
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: paramiko (>=3.4.1,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: runregistry (>=1.3.1,<2.0.0)
+Requires-Dist: typing-extensions (>=3.6.6,<4.6.0)
+Project-URL: Repository, https://gitlab.cern.ch/cms-dqmdc/libdc3
+Description-Content-Type: text/markdown
+
+# libdc3
+
