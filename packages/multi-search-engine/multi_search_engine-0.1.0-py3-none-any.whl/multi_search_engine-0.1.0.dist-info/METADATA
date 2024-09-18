@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: multi_search_engine
+Version: 0.1.0
+Summary: A package for searching multiple search engines
+Author-email: sabarinathan raghupathi <sabarinathan_96@pm.me>
+Project-URL: Homepage, https://github.com/sarag5/multi_search_engine
+Project-URL: Bug Tracker, https://github.com/sarag5/multi_search_engine/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.25.1
+Requires-Dist: beautifulsoup4 >=4.9.3
+Requires-Dist: fake-useragent >=1.1.1
+Requires-Dist: urllib3 >=1.26.6
+
