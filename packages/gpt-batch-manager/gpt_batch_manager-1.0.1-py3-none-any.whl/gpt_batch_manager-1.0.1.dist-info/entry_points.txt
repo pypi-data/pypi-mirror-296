@@ -1,0 +1,4 @@
+[console_scripts]
+gpt-batch-manager=gpt_batch_manager.gpt_batch_manager:run
+gpt-batch-splitter=gpt_batch_manager.gpt_batch_splitter:run
+
