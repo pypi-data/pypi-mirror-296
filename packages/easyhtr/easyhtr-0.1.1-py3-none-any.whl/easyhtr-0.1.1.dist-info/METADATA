@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: easyhtr
+Version: 0.1.1
+Summary: Handwritten sentence recognition pipeline.
+Home-page: https://github.com/syedfaiqueali
+Author: Faiq Ali
+Requires-Python: >=3.9
+Requires-Dist: numpy<2.0,>=1.17
+Requires-Dist: onnxruntime==1.19.2
+Requires-Dist: opencv-python==4.10.0.84
+Requires-Dist: scikit-learn==1.5.2
+Requires-Dist: editdistance==0.8.1
+Requires-Dist: path==17.0.0
+
