@@ -1,0 +1,10 @@
+wallcrop/_version.py,sha256=-Rh7r1jm2wpI8j0eEXJSD9DbCttyD9fjmgAbFMzLKG8,497
+wallcrop/create_monitors_file.py,sha256=TIlUy5pgD8a0p758IK4Mk_TKXKxfllik1N7BNL7B5gc,2823
+wallcrop/wallcrop.py,sha256=rffPMqMYMYzLdL43_otRbJ1smY2D4DuJK7b_ppqp5Io,3122
+wallcrop/wallswitch.py,sha256=t-ZBzmjHQuMcHjXvjNsSz9OfPzw7pyKpGN8sfIcnubg,1544
+wallcrop-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wallcrop-0.0.4.dist-info/METADATA,sha256=xu286QaCKIDAl2DUF3EnGvfexy59kQF4u9M5W_exems,42503
+wallcrop-0.0.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+wallcrop-0.0.4.dist-info/entry_points.txt,sha256=ZRE5ccrHKrEpawv3b4bQKMLSINajAHRet9P8PCHrvzk,152
+wallcrop-0.0.4.dist-info/top_level.txt,sha256=ZAYNWTUbwYPNb97ytS_Ah_QilQIpgT82K9uKgxEVTqU,9
+wallcrop-0.0.4.dist-info/RECORD,,
