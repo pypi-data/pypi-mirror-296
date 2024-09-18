@@ -1,0 +1,91 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plot-serializer"
+dynamic = ["version"]
+description = "A simple tool for serializing scientific diagram to (FAIR) data."
+readme = "README.md"
+authors = [
+    { name = "Michaela Lestakova", email = "michaela.lestakova@tu-darmstadt.de" },
+    { name = "Ning Xia", email = "ning.xia@tu-darmstadt.de" }
+]
+keywords = ["rdm", "plot"]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+"numpy",
+"pandas",
+"matplotlib>=3.9",
+"rdflib",
+"pydantic",
+"rocrate",
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "ruff"
+    ]
+test = [
+    "pytest>=7.1.2",
+    "pytest-cov>=3.0.0",
+    "mypy>=0.971",
+    "pandas-stubs>=1.4.3.220822",
+    "types-tqdm>=4.64.5",
+    "types-pytz>=2022.2.1.0"
+    ]
+doc = ["sphinx>=5.1.1", "sphinx-rtd-theme>=1.0.0", "sphinx-autoapi",]
+
+[project.urls]
+repository = "https://git.rwth-aachen.de/rdm-tools/plot-serializer"
+documentation = "https://plot-serializer.readthedocs.io/en/latest/"
+
+[tool.setuptools.dynamic]
+version = {attr = "plot_serializer.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+
+[tool.mypy]
+strict = true
+show_error_codes = true
+[[tool.mypy.overrides]]
+module = [
+    "matplotlib",
+    "matplotlib.axes",
+    "matplotlib.pyplot",
+    "OMPython"
+]
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = 120
+indent-style = "space"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "W",
+    "I",
+    "B",
+    "PT",
+    "N",
+    #"D",
+]
+preview = true
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
