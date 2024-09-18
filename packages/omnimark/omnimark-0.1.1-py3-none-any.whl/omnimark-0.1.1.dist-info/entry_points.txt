@@ -1,0 +1,2 @@
+[console_scripts]
+omnimark = omnimark.__main__:main
