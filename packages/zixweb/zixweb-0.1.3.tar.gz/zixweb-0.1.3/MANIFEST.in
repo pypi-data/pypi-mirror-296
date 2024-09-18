@@ -1,0 +1,16 @@
+recursive-include zix *.py
+recursive-include zix/default_project .zixignore
+include zix/default_project/requirements*.txt
+include zix/default_project/env.yml
+recursive-include zix/default_project/bin *
+include zix/default_project/alembic.ini
+recursive-include zix/default_project/alembic *
+recursive-include zix/default_project/bstudio *
+recursive-include zix/default_project/static/assets *
+recursive-include zix/default_project/static/compiled/bootstrap *
+recursive-include zix/default_project/static/compiled/css *
+recursive-include zix/default_project/static/compiled/fonts *
+recursive-include zix/default_project/static/compiled/img *
+recursive-exclude zix *.py[cod]
+recursive-exclude zix .env
+recursive-exclude zix .secret
