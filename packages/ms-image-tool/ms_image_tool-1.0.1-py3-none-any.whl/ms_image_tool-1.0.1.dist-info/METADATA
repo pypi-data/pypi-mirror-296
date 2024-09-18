@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ms-image-tool
+Version: 1.0.1
+Summary: Tools for handling multispectral images and generating vegetation indices.
+Author: Andre Mattos
+Author-email: carlosandrematte@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: opencv-python (>=4.10.0.84,<5.0.0.0)
+Requires-Dist: tifffile (>=2024.7.2,<2025.0.0)
+Description-Content-Type: text/markdown
+
+[Documentation Page](https://andrematte.github.io/ms-image-tool/)
+
+# Multispectral Image Tool
+
+## Description 
+
+This python library contains tools to manipulate multispectral image files captured by the Micasense RedEdge-P sensor. 
+
+The input image file must be composed of six channels:
+
+1. Red band reflectance
+2. Green band reflectance
+3. Blue band reflectance
+4. Red Edge band reflectance
+5. Near-infrared band reflectance
+6. Binary cutline (optional)
+
+## Installation
+
+The library can be installed with `pip`.
+
+```bash
+pip install ms-image-tool
+```
+
+## License
+
+This project is licensed under the terms of `MIT License`.
