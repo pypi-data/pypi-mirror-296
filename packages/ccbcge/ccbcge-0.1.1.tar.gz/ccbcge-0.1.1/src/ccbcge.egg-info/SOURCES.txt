@@ -1,0 +1,13 @@
+CITATION.cff
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/ccbcge/__init__.py
+src/ccbcge/data.py
+src/ccbcge/version.py
+src/ccbcge.egg-info/PKG-INFO
+src/ccbcge.egg-info/SOURCES.txt
+src/ccbcge.egg-info/dependency_links.txt
+src/ccbcge.egg-info/requires.txt
+src/ccbcge.egg-info/top_level.txt
