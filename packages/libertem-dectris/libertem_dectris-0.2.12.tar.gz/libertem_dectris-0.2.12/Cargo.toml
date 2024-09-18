@@ -1,0 +1,6 @@
+[workspace]
+members = ["libertem_dectris", "stats", "common"]
+resolver = "2"
+
+[profile.release]
+debug = true
