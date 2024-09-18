@@ -1,0 +1,12 @@
+climakitae
+geoviews
+holoviews
+hvplot
+matplotlib
+panel
+
+[docs]
+Sphinx
+sphinx-book-theme
+sphinx-design
+nbsphinx
