@@ -1,0 +1,11 @@
+ndgrid-0.1.1.dist-info/METADATA,sha256=fO2MysIBWJRGLT9kmuAGO7AQDlaz1SjiQorS1nUVxDs,1885
+ndgrid-0.1.1.dist-info/WHEEL,sha256=eIrmp179fpsxVg7yH049kbsV2_K0pFu1Gx8K2V6Wln8,103
+ndgrid-0.1.1.dist-info/licenses/LICENSE,sha256=EGK5KTW21IqTvDq1SUuE6SxIOu-pQkT1FN66iXxpE9k,1526
+ndgrid/ownership.py,sha256=11umGnf4kc1h45agaCC_1M5nIpd8oOD-6ZNWyXaw55U,746
+ndgrid/grid.py,sha256=nCL8_00VyhFIHKhUSVVupExzSOusOEilR3t-QVVio3U,10589
+ndgrid/shapes.py,sha256=Xl9OKiTAF5GcW2GXItG9rSU8F9eAa1foLE0n-9mNnmE,482
+ndgrid/__init__.py,sha256=XjYAqJ_869N0TiczZ0VnNqtq6YOahHCCeUxqy1aRbZ8,58
+ndgrid/_ndgridrs/__init__.py,sha256=UQfmIe54UFwaNmzdKR7ef7MXMvMTe_N_DyL0y5aflfg,139
+ndgrid/_ndgridrs/ffi.py,sha256=NQ1PUjQSCmnYTuU2ED0gQ2hNeWwY0UTAsCsEPQrPnEQ,5881
+ndgrid/_ndgridrs/_ndgridrs.so,sha256=HPT7usHDz3k2ZdBzEmGYpBTNxF6FR8xYZFe-LYrxtxM,1409560
+ndgrid-0.1.1.dist-info/RECORD,,
