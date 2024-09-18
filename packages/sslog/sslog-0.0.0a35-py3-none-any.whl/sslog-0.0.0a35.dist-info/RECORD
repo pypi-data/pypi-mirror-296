@@ -1,0 +1,10 @@
+sslog/__init__.py,sha256=oM0x4kXJ5q_PudvXUDyyRwbkuqWzqJqYX8qVdDkB__s,6168
+sslog/_base.py,sha256=h9twf9J26_qI8f2IXaRlH_84oALSCCIOnKoF_amo7dM,3385
+sslog/_catch.py,sha256=MJJ-x7g2z9zW2GEjJkXl7k_lkwUDLDkk93An_yyJA8E,1746
+sslog/_default.py,sha256=T_jr7q60fSwTowQpFWR05cuiCQkgblsW4O2qbPhhOAE,1979
+sslog/_out.py,sha256=faADNkjLzgpvyOTOBYdTV8oxDCICh_o1d3sW40qIxTg,470
+sslog/_process.py,sha256=Fnko_kxasYG32tvF76ZdLPuVk6wQ9IMJWgxVhFpTnI8,241
+sslog/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sslog-0.0.0a35.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+sslog-0.0.0a35.dist-info/METADATA,sha256=AeF1g3mDkWkwf-p4fxxKlyazOG2YkAdIrkGPj7FLGwA,620
+sslog-0.0.0a35.dist-info/RECORD,,
