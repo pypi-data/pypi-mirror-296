@@ -1,0 +1,15 @@
+python_middlewareable/__init__.py,sha256=MlNuD1I0K35RfUrogS8WA1U4ztp-h4wmg0-w7yJ3pTE,1361
+python_middlewareable/middleware.py,sha256=GywMjN5-wdTZFLhEEv1PW83cYSI3EGsPeZqXv8Ghb68,433
+python_middlewareable/middlewareable.py,sha256=O14bu1EaTfDXKAUtma2PbvIpbFJy1gtbg0knYZKAbuQ,965
+python_middlewareable/request.py,sha256=yXkzzV--Jksm9sl44I8uuox5aPnOK6IFwNfVac_c5fY,51
+python_middlewareable/traits/auto_instantiable/auto_instantiable.py,sha256=rNEVH3bTt5s8iog17SZSbtF7yI2XSHHkUtxeY6cy3eE,1542
+python_middlewareable/traits/data_structurable/data_structurable.py,sha256=vZonelINIpBEhkXjVChfW3IiUHSafzDmrg2fBQbXLVI,33
+python_middlewareable/traits/data_structurable/dtos/request_data.py,sha256=JKQk3C0-UCQSSRbGmiz7o9P0BYVMyYf_-bzf901WOEA,142
+python_middlewareable/traits/data_structurable/dtos/response_data.py,sha256=Qj5aosouqJAiTKM9GCPrqYnwuW8NlrYUySF7Ur1H9uk,121
+python_middlewareable/traits/data_structurable/dtos/transport_data.py,sha256=Ozix8faQR-WqnXFXftAEGZ6p0viKqccoxBUB_FNVB8Y,125
+python_middlewareable/traits/data_structurable/mixins/request_mixin.py,sha256=_49wWp7mMVIxMxacGtT7wJHdk_EwFJoUfHuYgBeB3tE,471
+python_middlewareable-1.0.0.dist-info/LICENSE,sha256=tp9Z3fObZ8DwNpsZ_28ejQCJpEKQDjm5O2VbllOmUko,1102
+python_middlewareable-1.0.0.dist-info/METADATA,sha256=jRculIPTh6zmFNBvl87SKtNCv2evW3ewzHMIKXL097c,4099
+python_middlewareable-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+python_middlewareable-1.0.0.dist-info/top_level.txt,sha256=MedTlQeJ2EY2GNATSgX-s45OJN9OKVmcuHvs8s6N0SU,22
+python_middlewareable-1.0.0.dist-info/RECORD,,
