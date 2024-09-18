@@ -1,0 +1,8 @@
+mecs/__init__.py,sha256=CwjGTFJaNpyZS9_VD0yvUf23N5GvI99Io8_SqEk7d74,24
+mecs/mecs.py,sha256=aLVP9abWSev_FR_gNmOE5Iw7nu10cAU55WV6VT-GfXI,6341
+mecs/test_mecs.py,sha256=cMch7NuzPJM-dKeJmyEJuVmKJr9Dva87reWOG6CUR8E,170
+py_mecs-0.1.0.dist-info/LICENSE.txt,sha256=JINJrL6416h3YVOWhMALcPQQlBteZCqIg3042g1pPLk,1068
+py_mecs-0.1.0.dist-info/METADATA,sha256=zEuycTUUK_lQyMqwgaJBv7mrrlbMQpFwePrUfHirmUs,1412
+py_mecs-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+py_mecs-0.1.0.dist-info/top_level.txt,sha256=buiCDCg5FfqEV8MWM-Xp7iP9YkpRJQ0qzs_a6VOnBnc,5
+py_mecs-0.1.0.dist-info/RECORD,,
