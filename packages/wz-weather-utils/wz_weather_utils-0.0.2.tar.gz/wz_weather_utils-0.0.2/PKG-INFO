@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: wz-weather-utils
+Version: 0.0.2
+Project-URL: Documentation, https://github.com/yjw/wz-weather-utils#readme
+Project-URL: Issues, https://github.com/yjw/wz-weather-utils/issues
+Project-URL: Source, https://github.com/yjw/wz-weather-utils
+Author-email: yjw <1633998687@qq.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# wz-weather-utils
+
+[![PyPI - Version](https://img.shields.io/pypi/v/wz-weather-utils.svg)](https://pypi.org/project/wz-weather-utils)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/wz-weather-utils.svg)](https://pypi.org/project/wz-weather-utils)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install wz-weather-utils
+```
+
+## License
+
+`wz-weather-utils` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

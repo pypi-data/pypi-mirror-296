@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wz-weather-utils"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "yjw", email = "1633998687@qq.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/yjw/wz-weather-utils#readme"
+Issues = "https://github.com/yjw/wz-weather-utils/issues"
+Source = "https://github.com/yjw/wz-weather-utils"
+
+[tool.hatch.version]
+path = "src/wz_weather_utils/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/wz_weather_utils tests}"
+
+[tool.coverage.run]
+source_pkgs = ["wz_weather_utils", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/wz_weather_utils/__about__.py",
+]
+
+[tool.coverage.paths]
+wz_weather_utils = ["src/wz_weather_utils", "*/wz-weather-utils/src/wz_weather_utils"]
+tests = ["tests", "*/wz-weather-utils/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
