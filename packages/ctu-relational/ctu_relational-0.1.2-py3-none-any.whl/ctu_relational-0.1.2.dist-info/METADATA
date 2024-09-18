@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ctu_relational
+Version: 0.1.2
+Summary: CTU Relational: SQL Database Datasets for Machine Learning
+Keywords: 
+Author-email: Jakub Peleška <jakub.peleska@fel.cvut.cz>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: relbench
+Requires-Dist: pandas
+Requires-Dist: sqlalchemy
+Requires-Dist: mysql-connector-python
+Requires-Dist: tqdm
+Project-URL: Homepage, https://github.com/jakubpeleska/ctu-relational-py
+Project-URL: Issues, https://github.com/jakubpeleska/ctu-relational-py/issues
+
+# ctu-relational-py
