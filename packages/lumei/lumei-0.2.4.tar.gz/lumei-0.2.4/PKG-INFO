@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lumei
+Version: 0.2.4
+Summary: File search tool using OpenAI assistant.
+Home-page: https://github.com/hansololz/lumei
+License: GPL
+Keywords: lumei,openai,file search
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: openai==1.42.0
+Requires-Dist: pandas==2.2.2
+Requires-Dist: absl-py==2.1.0
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: prettytable==3.11.0
+Requires-Dist: setuptools==74.1.2
+Requires-Dist: wheel==0.44.0
+
+File search tools using OpenAI Assistant
+===========================
+
+Work in progress, still trying polish a few features and getting some initial feedback.
