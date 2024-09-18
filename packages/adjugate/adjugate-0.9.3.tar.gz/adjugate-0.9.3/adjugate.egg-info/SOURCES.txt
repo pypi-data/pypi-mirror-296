@@ -1,0 +1,9 @@
+LICENSE
+README.md
+adjugate.py
+setup.py
+adjugate.egg-info/PKG-INFO
+adjugate.egg-info/SOURCES.txt
+adjugate.egg-info/dependency_links.txt
+adjugate.egg-info/requires.txt
+adjugate.egg-info/top_level.txt
