@@ -1,0 +1,15 @@
+spotify_web_downloader/__init__.py,sha256=6cud5pVpwnMsz6fxZVA6qWcQVSpLQXd0ddN6ip-1M_8,22
+spotify_web_downloader/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+spotify_web_downloader/cli.py,sha256=-uwbMNcte8oVTfjWpAsV-R92YyV1GkKWpCnn8gFAflQ,25485
+spotify_web_downloader/constants.py,sha256=31IEZT-pX-lFTD8Yp-EURvJHUUHtKjSjpl8pjV_2Ubk,507
+spotify_web_downloader/downloader.py,sha256=uT_X-2jq0-9kACZcExvpwY85e0nMlTiW0NvBH0HFBRs,14188
+spotify_web_downloader/downloader_music_video.py,sha256=XvCfc0A8rUrA1NufmJAyNg0SDgrwWGoBWIYCaOPQBJQ,12293
+spotify_web_downloader/downloader_song.py,sha256=xc_IHuYosa12LfWwYnWAvaRtwioXjDuaS9IOlVU_JwY,8672
+spotify_web_downloader/enums.py,sha256=54_qXJPioSgu8Ru_Tlp6n8ygZs3Dw20qwNOrUJgp5yA,246
+spotify_web_downloader/models.py,sha256=ECWKvW-VbS6kEAb4cTyPga8DDHP5RIZB1KsdnwbcfVI,751
+spotify_web_downloader/spotify_api.py,sha256=Ulqsh-QEy0SSPcDb-uxB_ZWtMFSGminC_uR0O7vL6jY,9446
+spotify_web_downloader/utils.py,sha256=zdtB0DPO4sI4q8OFITClsX0NQ4zUXjLAxwtrGqO2AqY,395
+spotify_web_downloader-1.8.1.dist-info/entry_points.txt,sha256=S5V-c6zs3vW5UGkkFbs5fiQtqOWhcJFBe4oaNTKds6Q,74
+spotify_web_downloader-1.8.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+spotify_web_downloader-1.8.1.dist-info/METADATA,sha256=uHBqJOYXPcNoNPoqixJrkJSlBDy4DM-vjrVEhGz35BM,11415
+spotify_web_downloader-1.8.1.dist-info/RECORD,,
