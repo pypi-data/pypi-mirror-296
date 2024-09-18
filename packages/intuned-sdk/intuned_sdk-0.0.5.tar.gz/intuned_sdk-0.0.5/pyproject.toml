@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intuned_sdk"
+version = "0.0.5"
+description = "Intuned Python SDK"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "boto3",
+    "botocore",
+    "playwright==1.44.0",
+    "aiofiles==24.1.0",
+    "python-dotenv==1.0.1",
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.3.3",
+    "pytest-asyncio==0.24.0",
+    "python-dotenv==1.0.1",
+    "setuptools==75.1.0",
+]
