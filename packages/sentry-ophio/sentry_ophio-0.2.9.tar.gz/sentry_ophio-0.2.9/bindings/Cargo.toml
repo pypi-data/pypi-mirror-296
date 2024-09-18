@@ -1,0 +1,20 @@
+[package]
+name = "ophio-bindings"
+version = "0.2.9"
+publish = false
+edition = "2021"
+
+[lib]
+name = "_bindings"
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1.0.79"
+pyo3 = { version = "0.22.1", features = [
+    "anyhow",
+    "extension-module",
+    "serde",
+    "abi3-py311",
+] }
+rust-ophio = { path = "../rust" }
+smol_str = "0.2.0"
