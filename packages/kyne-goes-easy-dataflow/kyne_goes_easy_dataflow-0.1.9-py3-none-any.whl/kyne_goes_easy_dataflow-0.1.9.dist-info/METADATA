@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: kyne-goes-easy-dataflow
+Version: 0.1.9
+Summary: Automatización de procesos de Data para Kynegos
+Home-page: https://gitlab.com/GabiAnt95/kynegoeasy-dataflow
+Author: Kynegos - Capital Energy
+Author-email: digital.data@capitalenergy.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# Kyne Goes Easy Dataflow
+
+`kyne-goes-easy-dataflow` es una colecciÃ³n de funciones genÃ©ricas diseÃ±adas para simplificar las operaciones con Google Cloud Platform (GCP). Este paquete facilita la interacciÃ³n con servicios como Google Cloud Storage, BigQuery, y otros componentes clave de GCP, permitiendo a los desarrolladores integrar estas herramientas de manera mÃ¡s eficiente en sus proyectos.
+
+## InstalaciÃ³n
+
+Para instalar el paquete, utiliza pip:
+
+```bash
+pip install kyne-goes-easy-dataflow
+```
+
+## ActualizaciÃ³n
+
+Para instalar el paquete, utiliza pip:
+
+```bash
+pip install --upgrade kyne-goes-easy-dataflow
+```
+
+
+## Uso
+
+### Importar el Paquete
+
+Para comenzar a utilizar las funciones disponibles, simplemente importa el paquete en tu script de Python:
+
+```python
+
+import kynegoes_easy_dataflow.Kynegos_functions as KYNEGOS_FUNCTIONS
+
+```
+
+### ExploraciÃ³n de Funciones
+
+Para ver quÃ© funciones estÃ¡n disponibles en el paquete, puedes utilizar la funciÃ³n `dir()` de Python:
+
+```python
+print(dir(KYNEGOS_FUNCTIONS))
+```
+
+Esto te mostrarÃ¡ una lista de todas las funciones disponibles en `kyne-goes-easy-dataflow`.
+
+### Ejemplo de Uso
+
+Cada funciÃ³n en el paquete estÃ¡ diseÃ±ada para realizar una tarea especÃ­fica en GCP. AquÃ­ te mostramos un ejemplo bÃ¡sico de cÃ³mo utilizar una de las funciones para cargar un archivo a Google Cloud Storage:
+
+```python
+# Ejemplo de cÃ³mo subir un archivo a Google Cloud Storage
+KYNEGOS_FUNCTIONS.upload_to_gcs(bucket_name='nombre_del_bucket', source_file='ruta/del/archivo.txt', destination_blob='carpeta/archivo.txt')
+```
+
+### DocumentaciÃ³n de Funciones
+
+Para obtener detalles sobre cÃ³mo usar cada funciÃ³n, puedes consultar la documentaciÃ³n inline mediante `help()`:
+
+```python
+help(KYNEGOS_FUNCTIONS.upload_to_gcs)
+```
+
+Esto te proporcionarÃ¡ una descripciÃ³n detallada de los parÃ¡metros y el propÃ³sito de la funciÃ³n.
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, por favor, envÃ­e un correo mediante la plataforma Pypy.org
