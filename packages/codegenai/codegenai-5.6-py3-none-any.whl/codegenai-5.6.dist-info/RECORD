@@ -1,0 +1,10 @@
+codegenai/__init__.py,sha256=hbXwadkQdP-2uGxYv4skhYir5u7tzdLZCFxundd4DXw,50
+codegenai/aids.py,sha256=x-ty_A70xphNV1F7ljS0Vrjwtf_Anrl2toxuCXXzuxs,64984
+codegenai/cn.py,sha256=HuzOwq69AsWSUu5HcnpVyBR5fmTAaMAzQ_VVDEA-wvE,15222
+codegenai/codegenai.py,sha256=ho7IZxEFqCx27x2pWv-gC9BjT0xzEWGaFldwYJmNY4E,83513
+codegenai/main.py,sha256=je029txy8p9SDEj4TjceCzxQ9Uw4XuIkRhr_JrsyUKA,4076
+codegenai/special.py,sha256=v5d1Ocq55jFeAD6uOwz6WS_Hh9gmojg_fYSl1sYcKvU,2632
+codegenai-5.6.dist-info/METADATA,sha256=Rxnyr0wZD1Hua3h6V82pN4ssh0IASKdPG3NWoVT2L0s,205
+codegenai-5.6.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+codegenai-5.6.dist-info/top_level.txt,sha256=imK0diRwk2qz8yWslqY3DIrn_zJjxsdh4miYjgicsuo,10
+codegenai-5.6.dist-info/RECORD,,
