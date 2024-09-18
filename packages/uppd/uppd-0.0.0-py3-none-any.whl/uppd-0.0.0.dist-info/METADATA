@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: uppd
+Version: 0.0.0
+Summary: Tool for managing machine learning model and service projects and other fast paced python projects.
+Author-email: Janus Heide <janusheide@gmail.com>
+Project-URL: Homepage, https://github.com/janusheide/uppd
+Project-URL: Repository, https://github.com/janusheide/uppd
+Keywords: building,maintenance,utility
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: tomlkit
+Requires-Dist: aiohttp<4,>2
+Requires-Dist: packaging
+Provides-Extra: dev
+Requires-Dist: uppd[test]; extra == "dev"
+Requires-Dist: bouillon==1.4.0; extra == "dev"
+Requires-Dist: build==1.2.2; extra == "dev"
+Requires-Dist: isort==5.13.2; extra == "dev"
+Requires-Dist: liccheck==0.9.2; extra == "dev"
+Requires-Dist: mypy==1.11.2; extra == "dev"
+Requires-Dist: ruff==0.6.5; extra == "dev"
+Requires-Dist: semver==3.0.2; extra == "dev"
+Requires-Dist: setuptools-scm==8.1.0; extra == "dev"
+Requires-Dist: twine==5.1.1; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest==8.3.3; extra == "test"
+Requires-Dist: pytest-aiohttp==1.0.5; extra == "test"
+Requires-Dist: pytest-asyncio==0.24.0; extra == "test"
+Requires-Dist: pytest-cov==5.0.0; extra == "test"
+
+..  Copyright (c) 2020, Janus Heide.
+..  All rights reserved.
+..
+.. Distributed under the "BSD 3-Clause License", see LICENSE.rst.
+
+Update Python Project Dependencies (UPPD)
+=========================================
+
+.. image:: https://github.com/janusheide/uppd/actions/workflows/unittests.yml/badge.svg
+    :target: https://github.com/janusheide/uppd/actions/workflows/unittests.yml
+    :alt: Unit tests
+
+.. image:: https://img.shields.io/pypi/pyversions/uppd
+   :alt: PyPI - Python Version
+
+.. image:: https://img.shields.io/librariesio/github/janusheide/bouillon
+   :alt: Libraries.io dependency status for GitHub repo
+
+
+Update dependencies and optional dependencies in pyproject.toml files.
+
+Getting Started
+---------------
+
+Install and run::
+
+    pip install uppd
+    uppd --help
+
+Usage
+-----
+
+Set inputs and output files::
+
+    uppd -i pyproject.toml dev/pyproject.toml
+    uppd -i pyproject.toml dev/pyproject.toml -o pyproject.toml.updated
+
+Skip dependencies::
+
+    uppd --skip foo bar
+
+Allow upgrade to pre releases::
+
+    uppd --pre foo bar
+
+Development
+-----------
+
+Setup, run tests and release::
+
+    python boil.py setup
+    python boil.py lint
+    python boil.py test
+    python boil.py release
+
+Credits
+-------
+
+This project aims to enable a similar workflow as pur_ for requirements.txt files
+
+.. _pur: https://github.com/alanhamlett/pip-update-requirements
