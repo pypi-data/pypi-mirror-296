@@ -1,0 +1,16 @@
+LICENCE
+README.md
+setup.py
+simpleswap/__init__.py
+simpleswap/errors.py
+simpleswap.egg-info/PKG-INFO
+simpleswap.egg-info/SOURCES.txt
+simpleswap.egg-info/dependency_links.txt
+simpleswap.egg-info/requires.txt
+simpleswap.egg-info/top_level.txt
+simpleswap/apis/__init__.py
+simpleswap/apis/_base.py
+simpleswap/apis/_currency.py
+simpleswap/apis/_exchange.py
+simpleswap/apis/_market.py
+simpleswap/apis/_pairs.py
