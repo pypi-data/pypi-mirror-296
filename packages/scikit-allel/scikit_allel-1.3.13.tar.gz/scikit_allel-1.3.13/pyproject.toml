@@ -1,0 +1,23 @@
+[project]
+name = "scikit-allel"
+requires-python = ">=3.10"
+description = "A Python package for exploring and analysing genetic variation data."
+readme = "README.rst"
+dynamic = ["version", "classifiers", "license", "maintainers", "dependencies", "optional-dependencies"]
+
+
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = [
+    "setuptools",
+    "wheel",
+    "Cython",
+    "setuptools_scm[toml]",
+    "numpy",  # https://github.com/scipy/oldest-supported-numpy
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "allel/version.py"
+version_scheme = "guess-next-dev"
+local_scheme = "no-local-version"
