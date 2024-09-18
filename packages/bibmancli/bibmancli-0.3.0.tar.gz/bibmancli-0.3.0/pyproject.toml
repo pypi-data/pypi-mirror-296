@@ -1,0 +1,61 @@
+[project]
+name = "bibmancli"
+version = "0.3.0"
+description = "Simple CLI tool to manage BibTeX files."
+authors = [
+    { name = "Pedro Juan Royo", email = "pedro.juan.royo@gmail.com" }
+]
+dependencies = [
+    "typer[all]>=0.12.4",
+    "requests>=2.32.3",
+    "bibtexparser>=2.0.0b7",
+    "pyfzf-iter>=0.0.1",
+    "textual>=0.79.0",
+    "pylatexenc>=2.10",
+    "habanero>=1.2.6",
+    "bs4>=0.0.2",
+]
+readme = "README_pypi.md"
+license = "MIT"
+requires-python = ">= 3.8"
+classifiers = [
+    # tags
+    "Topic :: Utilities",
+    "Environment :: Console",
+
+    # python versions
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/Parzival1918/bibman"
+Documentation = "https://parzival1918.github.io/bibman/"
+Repository = "https://github.com/Parzival1918/bibman"
+
+[project.scripts]
+"bibman" = "bibmancli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.3.2",
+    "mkdocs-material>=9.5.34",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bibmancli"]
+
+[tool.ruff]
+line-length = 80
+extend-exclude = [".venv"]
