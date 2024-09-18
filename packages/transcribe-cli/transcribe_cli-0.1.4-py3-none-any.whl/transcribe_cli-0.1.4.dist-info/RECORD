@@ -1,0 +1,11 @@
+transcribe_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transcribe_cli/audio_providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transcribe_cli/audio_providers/audio_provider.py,sha256=lF78ZW6g0V1t7jFk1XEefMPnjy79Qq06J-ibwdbdYMY,171
+transcribe_cli/audio_providers/youtube_audio_provider.py,sha256=yolEts5p26z5wkck8glMdjCvJ4Z2WfKNHwKZn9M7oL8,2091
+transcribe_cli/downloader.py,sha256=6pG6JLMF6KNMWnDGrC8r25Y5reVRXzYInIdDqKQ8lqg,1602
+transcribe_cli/main.py,sha256=no2yfxB1q7mWf0oRVHVpVyxRU4v6rUtYgvIS6_7b7Ek,3553
+transcribe_cli/transcriber.py,sha256=g81FxgMX_NY63Iac8XNVQs9B_hmQhkFTW5qBMS9s7BM,4067
+transcribe_cli-0.1.4.dist-info/METADATA,sha256=v9DPBlJT2_XqZHSgfHKAMS6eL9bUBSC3hyBcoVZp5cA,439
+transcribe_cli-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+transcribe_cli-0.1.4.dist-info/entry_points.txt,sha256=jGyNkv0Su6QGHBIz1BCmoLB01wvIZdieYxpKg8FK6YY,55
+transcribe_cli-0.1.4.dist-info/RECORD,,
