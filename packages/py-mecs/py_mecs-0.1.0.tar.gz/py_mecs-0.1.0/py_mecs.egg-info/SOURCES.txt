@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+mecs/__init__.py
+mecs/mecs.py
+mecs/test_mecs.py
+py_mecs.egg-info/PKG-INFO
+py_mecs.egg-info/SOURCES.txt
+py_mecs.egg-info/dependency_links.txt
+py_mecs.egg-info/top_level.txt
