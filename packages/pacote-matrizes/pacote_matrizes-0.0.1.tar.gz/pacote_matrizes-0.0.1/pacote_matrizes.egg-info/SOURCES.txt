@@ -1,0 +1,10 @@
+README.md
+setup.py
+pacote_matrizes/__init__.py
+pacote_matrizes/sum_column.py
+pacote_matrizes/sum_row.py
+pacote_matrizes.egg-info/PKG-INFO
+pacote_matrizes.egg-info/SOURCES.txt
+pacote_matrizes.egg-info/dependency_links.txt
+pacote_matrizes.egg-info/requires.txt
+pacote_matrizes.egg-info/top_level.txt
