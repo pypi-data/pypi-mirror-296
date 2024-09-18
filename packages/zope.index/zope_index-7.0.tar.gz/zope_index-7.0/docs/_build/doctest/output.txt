@@ -1,0 +1,25 @@
+Results of doctest builder run on 2024-09-18 07:48:05
+=====================================================
+
+Document: field
+---------------
+1 items passed all tests:
+  75 tests in default
+75 tests in 1 items.
+75 passed and 0 failed.
+Test passed.
+
+Document: text
+--------------
+1 items passed all tests:
+  38 tests in default
+38 tests in 1 items.
+38 passed and 0 failed.
+Test passed.
+
+Doctest summary
+===============
+  113 tests
+    0 failures in tests
+    0 failures in setup code
+    0 failures in cleanup code
