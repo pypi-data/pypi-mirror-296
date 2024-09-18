@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: interpretablefa
+Version: 0.1.0
+Summary: Coming soon
+Author: Justin Philip Tuazon
+Author-email: jstuazon@alum.up.edu.ph
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: factor-analyzer (>=0.5.1,<0.6.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: nlopt (>=2.8.0,<3.0.0)
+Requires-Dist: numpy (>=2.1.1,<3.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: scipy (>=1.14.1,<2.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Requires-Dist: tensorflow-hub (>=0.16.1,<0.17.0)
+Description-Content-Type: text/markdown
+
+
