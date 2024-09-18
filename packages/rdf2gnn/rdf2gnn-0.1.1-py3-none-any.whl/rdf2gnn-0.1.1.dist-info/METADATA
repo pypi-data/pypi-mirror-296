@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rdf2gnn
+Version: 0.1.1
+Summary: A Python package for integrating RDF data with Graph Neural Networks (GNNs).
+Home-page: https://github.com/DataDrivenCPS/rdf2gnn
+Author: Avia Anwar
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: torch >=2.4.0
+Requires-Dist: torch-geometric >=2.6.0
+Requires-Dist: rdflib >=7.0.0
+Requires-Dist: numpy >=2.0
+Requires-Dist: scikit-learn >=1.5.2
+Requires-Dist: pandas >=2.0.3
+
