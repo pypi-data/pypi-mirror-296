@@ -1,0 +1,9 @@
+onp2p/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onp2p/binding.py,sha256=J2CFMdo9BaZOGKmcshuPHkxdWo800AeP7QNDyVx49GY,386
+onp2p/libmath_operations.so,sha256=44YraeRiAbVRxiaHvRiRrn20Bgc9fCY9L2bWUcgSSkc,15048
+onp2p/wrapper.py,sha256=XKsrcsb4dX79WhPpDK0qpc0EiUlR5h0kLrf_l2FJaHU,497
+onp2p-0.0.2.8.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+onp2p-0.0.2.8.dist-info/METADATA,sha256=bvm11LJal0hgiU7ISdJ3vjNGUjjPMtYlaRu4SEPxuYI,773
+onp2p-0.0.2.8.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+onp2p-0.0.2.8.dist-info/top_level.txt,sha256=0eI5AGzl5jqC-i-jmEW6o0MoXwHOzZH4MCaNr-KjcPU,6
+onp2p-0.0.2.8.dist-info/RECORD,,
