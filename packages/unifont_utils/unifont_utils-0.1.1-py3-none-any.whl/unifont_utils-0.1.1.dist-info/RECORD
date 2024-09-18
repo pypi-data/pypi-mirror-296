@@ -1,0 +1,9 @@
+unifont_utils/__init__.py,sha256=ObmOfX4q5q7SMe7rjFtQM2Yz2iPTUt5pkAmqdL2-doA,208
+unifont_utils/base.py,sha256=8VAsdpqMZCwHLHCSNMvdyexIzf944C45K-Wxurl7gm0,1880
+unifont_utils/converter.py,sha256=nCV2SGp5kDDw3_Vx8w5ZRb_ZbjyVdfjdB-9ewwzkhF8,7040
+unifont_utils/files.py,sha256=fpme-ls0nwyORR--NhpHxHv5tTWkyuAXz7Xe1ogxsec,3549
+unifont_utils/glyphs.py,sha256=pDtv8FOEC4LEBk5Q5-XXm24hY9Y6dBacPs8mMEaJCx8,11094
+unifont_utils-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+unifont_utils-0.1.1.dist-info/METADATA,sha256=Oxie-7XXplLoDra7b3YhIpu1qQ5ObCgvMrgaVBs8ra0,1808
+unifont_utils-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+unifont_utils-0.1.1.dist-info/RECORD,,
