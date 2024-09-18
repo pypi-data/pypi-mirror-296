@@ -1,0 +1,17 @@
+qiskit_code_assistant_jupyterlab/__init__.py,sha256=Tk64JFJVn53LaYG8HjsCmDI0dE6dGGy4ERZfQ8OhzrI,1745
+qiskit_code_assistant_jupyterlab/_version.py,sha256=eRaI_msHWVOv6bTmp-hUI2qyjsD8Y73hOmHryCxPX40,171
+qiskit_code_assistant_jupyterlab/handlers.py,sha256=FqhfWRVr_SzwtQH4frnSrcFTjgnsyVtJ6Mgphkf87H4,6478
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/etc/jupyter/jupyter_server_config.d/qiskit_code_assistant_jupyterlab.json,sha256=H2agH3ZclxYT67_qjY5VKN8TMXS3NdqiLSzOjfNf_Gw,107
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/share/jupyter/labextensions/qiskit-code-assistant-jupyterlab/package.json,sha256=eKxryuh5N4GG47fZONp-J_RGtXHraaCUDZNlL4rsMHg,6285
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/share/jupyter/labextensions/qiskit-code-assistant-jupyterlab/schemas/qiskit-code-assistant-jupyterlab/package.json.orig,sha256=Dy0ZJ5Kb-n13ceuamFIfMB_9JtrXYuPgv8rwbCGqL5g,7119
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/share/jupyter/labextensions/qiskit-code-assistant-jupyterlab/schemas/qiskit-code-assistant-jupyterlab/plugin.json,sha256=RkmnnV76Fs-UXbt5J6CiNHovbJC_18fkzPm4dFTeYl0,899
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/share/jupyter/labextensions/qiskit-code-assistant-jupyterlab/static/591.123f3c3e726e4970e754.js,sha256=Ej88PnJuSXDnVMBknj0kU1UI3pXllmmelfeqUHYibmc,12211
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/share/jupyter/labextensions/qiskit-code-assistant-jupyterlab/static/728.e59f1a6b18c0a1c00454.js,sha256=5Z8aaxjAocAEVGoOA9xYaiGh2S3xpgeHnGtrj44_LaE,5176
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/share/jupyter/labextensions/qiskit-code-assistant-jupyterlab/static/remoteEntry.da7b2dc27d76f1eaa66e.js,sha256=2nstwn128eqmbgdVdCGHWKNLCGinI_mJKVYnA_OceI4,7255
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/share/jupyter/labextensions/qiskit-code-assistant-jupyterlab/static/style.js,sha256=lMo-3JzE5_1wTL3lpTB41PFY5GCPHyTzxkxF-NdEnyE,175
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/share/jupyter/labextensions/qiskit-code-assistant-jupyterlab/static/third-party-licenses.json,sha256=W6N2sSD7tQihMqQk64F9xMd1Flfr2KO97esAiHUOYdM,2453
+qiskit_code_assistant_jupyterlab-0.3.2.data/data/share/jupyter/labextensions/qiskit-code-assistant-jupyterlab/install.json,sha256=geSp1nnwVuy1UqEhepJnJ166k0sW4X2_tfgrUsBuX9w,225
+qiskit_code_assistant_jupyterlab-0.3.2.dist-info/METADATA,sha256=hfR8pgqU1kRnm3Kup-ODqV444RAmHoeOwaDnTTMnix0,22094
+qiskit_code_assistant_jupyterlab-0.3.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+qiskit_code_assistant_jupyterlab-0.3.2.dist-info/licenses/LICENSE,sha256=SSBppiwlRezen4y8XD1Gra2qP5XA4faK6n7SzKVISEs,11332
+qiskit_code_assistant_jupyterlab-0.3.2.dist-info/RECORD,,
