@@ -1,0 +1,14 @@
+omnimark/__init__.py,sha256=KbT2HEwB65O9YawfVkYW3mnGAhw5dljRtKmCAgSJmQI,610
+omnimark/processors/pdf_page_processor.py,sha256=-WEi1jd2vdTH1pBievd7r6l9pP8nExrxs_JFxkZuXac,7268
+omnimark/utils/__init__.py,sha256=Q2prc4ynTOyHbO5gmMEaExRhakjrsWtJOj0CkZA3dmE,395
+omnimark/utils/config.py,sha256=5nHTjm_diP5_x6MghfwctGvtmL3UtQNusrIUL9nDUwg,733
+omnimark/utils/markdown_converter.py,sha256=Yu7XvWHMtec9hzVqdurgQ3_dnDjH3zuOg4SaqsrMjMk,1654
+omnimark/utils/pdf_utils.py,sha256=i5nze5MLV1oJqdt3LyaLQ99FVC2Ow4qrvVUDYt5yRZ8,8487
+omnimark/utils/table_detector.py,sha256=zme8sMF3E2kUbZVRtJ7TXVhn8xNWQFhDxVc8H9aoMng,3341
+omnimark/utils/utils.py,sha256=_jtc9NhP8LnjVg1OdqYPwiPoNxj-dO0SefJNG8lPhdA,796
+omnimark-0.1.0.dist-info/LICENSE,sha256=2pPpvuapNTurauB7clkN64EwnRAMEm8D7Y0JmrPfYBw,1084
+omnimark-0.1.0.dist-info/METADATA,sha256=tTdC16vmEqEcTVhku2j4UsGyH579whIZVvIcIGa5AGs,6666
+omnimark-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+omnimark-0.1.0.dist-info/entry_points.txt,sha256=ZHZs5s9X1COrJs1ehlUI7F4hqEmE05hfjF2fOSaGv5Y,52
+omnimark-0.1.0.dist-info/top_level.txt,sha256=HfhwMkoFP-1EktEzRiVqLPnfTD2g2-ln1OJd00lSEjw,9
+omnimark-0.1.0.dist-info/RECORD,,
