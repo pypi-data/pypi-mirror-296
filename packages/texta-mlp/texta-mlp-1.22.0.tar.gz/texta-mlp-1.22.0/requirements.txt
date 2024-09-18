@@ -1,0 +1,10 @@
+stanza==1.2.3
+torch<2
+lxml
+beautifulsoup4
+langdetect
+lang-trans
+regex
+phonenumberslite
+# Torch for some reason throws 'numpy not available' when the version is too big.
+numpy<2.0.0
