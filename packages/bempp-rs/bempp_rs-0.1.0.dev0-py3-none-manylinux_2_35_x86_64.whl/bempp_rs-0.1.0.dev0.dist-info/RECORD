@@ -1,0 +1,14 @@
+bempp_rs-0.1.0.dev0.dist-info/METADATA,sha256=djvinCZHA1XJmztkMMNeHrpkUziaHaCg_hw3pI2u0KE,2277
+bempp_rs-0.1.0.dev0.dist-info/WHEEL,sha256=bXLanFBku1kW5NeDor5R2135toFyVgtArjzxclPx1G0,105
+bempp_rs-0.1.0.dev0.dist-info/licenses/LICENSE,sha256=gYgtaCyk_hw2CQRZPCWXKhWvBE316eZfbtuA-rE1nFA,1527
+bempp.libs/liblapack-426b4bf5.so.3,sha256=CUbb-a7PeS8_mLpWNvHtL3C6t9gYaSZ1yWRgf1MUXSM,7177857
+bempp.libs/libblas-babdd0d2.so.3,sha256=E8LukV99op4KxuOKyVYc41R0r1uvD-UjaoZqSlmC0qY,459889
+bempp.libs/libopenblas-1dedc9fe.so.0,sha256=qzp1VoTLarcXSB16B0VGJZHIdb2dWNvGNukBu1oLtXA,38740745
+bempp.libs/libquadmath-1c3f8ec4.so.0,sha256=brXjK9ybFuuXclzfzqORFHQ0tI3oT6JFiPzjfjPUA5A,292977
+bempp.libs/libgfortran-df5d6f8d.so.5,sha256=vPZvXyjrQHbDAZTT-aAGfjIp8AYINzgO4Fb4vcNerys,3082705
+bempp/__init__.py,sha256=b7eeB10Kdag_hBh_0vgYj9_NU6mbT-wqKNgzsqnuGYU,47
+bempp/function_space.py,sha256=lIif5ZTGFxdXHRNE65B-gm5xuhcDVnWuN-GoL87ujYQ,3843
+bempp/_bempprs/__init__.py,sha256=dA1dFKUG2JoZUYPVUdn0KjfdtMpu0lNpzbytK_YT1Jg,138
+bempp/_bempprs/ffi.py,sha256=A2RN-oD9GnkyZJCqxM5P5Ub7TI3VVminCMBHDW9I4o4,2464
+bempp/_bempprs/_bempprs.so,sha256=HRm0y_B9aCCBrtDIIwDjU2VJxHWzLlx0UbfqbGapaL4,15647257
+bempp_rs-0.1.0.dev0.dist-info/RECORD,,
