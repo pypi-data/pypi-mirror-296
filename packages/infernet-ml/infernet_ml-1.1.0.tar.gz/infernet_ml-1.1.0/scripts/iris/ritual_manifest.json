@@ -1,0 +1,43 @@
+{
+    "files": [
+        "iris.torch",
+        "iris.onnx",
+        "README.md",
+        ".gitattributes",
+        "manifest.json",
+        "ritual_manifest.json"
+    ],
+    "metadata": {
+        "iris.onnx": {
+            "id": "huggingface/Ritual-Net/iris-classification:iris.onnx",
+            "cpu_cores": 1,
+            "memory_requirements": 524288000,
+            "max_position_embeddings": null,
+            "quantization_type": null,
+            "inference_engine": null,
+            "inference_engine_hash": null,
+            "cuda_capability": null,
+            "cuda_version": null
+        },
+        "iris.torch": {
+            "id": "huggingface/Ritual-Net/iris-classification:iris.torch",
+            "cpu_cores": 1,
+            "memory_requirements": 524288000,
+            "max_position_embeddings": null,
+            "quantization_type": null,
+            "inference_engine": null,
+            "inference_engine_hash": null,
+            "cuda_capability": null,
+            "cuda_version": null
+        }
+    },
+    "artifact_type": "ModelArtifact",
+    "file_hashes": {
+        "iris.torch": "d165a37fb990cff3d6696d222124fc64d96d5a6b24de510e370a3a6c4e87fb48",
+        "iris.onnx": "2fd989c146a9ae157f3c7844378c9c0250ba395a0e50890bf6d6b26638a7136e",
+        "README.md": "e02a9e3c2f1424cf41e2660450e42ee5a5057c1bcaddb2b727e059c62a65ad05",
+        ".gitattributes": "05e1404df8380f4dfd781224e1c6eec24e0f07a8f9988cd9e155a457cba4af31",
+        "manifest.json": "835dcbf217e6480bf3124fcb636504d1a51c15c05ab926f0adae63657c83d2c1",
+        "ritual_manifest.json": "d47d65e471f7b080a9629148df967474bb30dd7d008206bd132797ac6b8bdcd5"
+    }
+}

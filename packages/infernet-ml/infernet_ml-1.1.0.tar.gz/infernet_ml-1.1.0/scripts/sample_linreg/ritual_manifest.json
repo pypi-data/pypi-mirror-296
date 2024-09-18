@@ -1,0 +1,52 @@
+{
+    "files": [
+        "linreg_100_features.onnx",
+        "linreg_50_features.onnx",
+        ".gitattributes",
+        "linreg_10_features.onnx",
+        "ritual_manifest.json"
+    ],
+    "metadata": {
+        "linreg_10_features.onnx": {
+            "id": "huggingface/Ritual-Net/sample_linreg:linreg_10_features.onnx",
+            "cpu_cores": 1,
+            "memory_requirements": 524288000,
+            "max_position_embeddings": null,
+            "quantization_type": null,
+            "inference_engine": null,
+            "inference_engine_hash": null,
+            "cuda_capability": null,
+            "cuda_version": null
+        },
+        "linreg_50_features.torch": {
+            "id": "huggingface/Ritual-Net/sample_linreg:linreg_50_features.torch",
+            "cpu_cores": 1,
+            "memory_requirements": 524288000,
+            "max_position_embeddings": null,
+            "quantization_type": null,
+            "inference_engine": null,
+            "inference_engine_hash": null,
+            "cuda_capability": null,
+            "cuda_version": null
+        },
+        "linreg_100_features.torch": {
+            "id": "huggingface/Ritual-Net/sample_linreg:linreg_100_features.torch",
+            "cpu_cores": 1,
+            "memory_requirements": 524288000,
+            "max_position_embeddings": null,
+            "quantization_type": null,
+            "inference_engine": null,
+            "inference_engine_hash": null,
+            "cuda_capability": null,
+            "cuda_version": null
+        }
+    },
+    "artifact_type": "ModelArtifact",
+    "file_hashes": {
+        "linreg_100_features.onnx": "a73d8af753a02b13b73b80ab67c5946633ca932f4c1d6cf3b29480ff4d4100b7",
+        "linreg_50_features.onnx": "11b65915b77c765e0de5202182a0350582df2bececf805d7424e354074fd2546",
+        ".gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+        "linreg_10_features.onnx": "89cc3a329b831425e345548b0f6a0a43e721fc941d513260eb94bd00bb240e17",
+        "ritual_manifest.json": "53320cf6ce8e40ce295753b9c69901e78757b367794930a5234d2d18038b73e9"
+    }
+}

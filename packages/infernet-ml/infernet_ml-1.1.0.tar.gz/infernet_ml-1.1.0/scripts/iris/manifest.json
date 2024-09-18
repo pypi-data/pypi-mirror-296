@@ -1,0 +1,7 @@
+{
+    "files": [
+        "iris.onnx",
+        "iris.torch"
+    ],
+    "metadata": {}
+}
