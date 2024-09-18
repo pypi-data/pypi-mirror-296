@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+releaseer/__init__.py
+releaseer/app.py
+releaseer/data.py
+releaseer.egg-info/PKG-INFO
+releaseer.egg-info/SOURCES.txt
+releaseer.egg-info/dependency_links.txt
+releaseer.egg-info/requires.txt
+releaseer.egg-info/top_level.txt
+tests/test_base.py
+tests/test_shiny.py
