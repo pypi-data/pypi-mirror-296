@@ -1,0 +1,7 @@
+README.md
+setup.py
+bumbo_sonechka.egg-info/PKG-INFO
+bumbo_sonechka.egg-info/SOURCES.txt
+bumbo_sonechka.egg-info/dependency_links.txt
+bumbo_sonechka.egg-info/requires.txt
+bumbo_sonechka.egg-info/top_level.txt
