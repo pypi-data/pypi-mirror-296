@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+netbox_prefix_map/__init__.py
+netbox_prefix_map/urls.py
+netbox_prefix_map/views.py
+netbox_prefix_map.egg-info/PKG-INFO
+netbox_prefix_map.egg-info/SOURCES.txt
+netbox_prefix_map.egg-info/dependency_links.txt
+netbox_prefix_map.egg-info/not-zip-safe
+netbox_prefix_map.egg-info/top_level.txt
+netbox_prefix_map/static/netbox_prefix_map/css/app.css
+netbox_prefix_map/templates/netbox_prefix_map/prefix_map.html
