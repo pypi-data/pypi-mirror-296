@@ -1,0 +1,220 @@
+Metadata-Version: 2.1
+Name: invenio-config-tuw
+Version: 2024.2.9
+Summary: "Invenio module containing some customizations and configuration for TU Wien."
+Home-page: https://gitlab.tuwien.ac.at/fairdata/invenio-config-tuw
+Author: TU Wien
+Author-email: tudata@tuwien.ac.at
+License: MIT
+Keywords: invenio tu wien configuration
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: invenio-app-rdm<13.0.0,>=12.0.0rc2
+Requires-Dist: invenio-search<3.0.0,>=2.1.0
+Requires-Dist: flask-minify>=0.47
+Provides-Extra: tests
+Requires-Dist: pytest-black>=0.3.0; extra == "tests"
+Requires-Dist: pytest-invenio>=1.4.0; extra == "tests"
+Requires-Dist: sphinx>=4.5; extra == "tests"
+Provides-Extra: elasticsearch7
+Requires-Dist: invenio-search[elasticsearch7]<3.0.0,>=2.1.0; extra == "elasticsearch7"
+Provides-Extra: opensearch1
+Requires-Dist: invenio-search[opensearch1]<3.0.0,>=2.1.0; extra == "opensearch1"
+Provides-Extra: opensearch2
+Requires-Dist: invenio-search[opensearch2]<3.0.0,>=2.1.0; extra == "opensearch2"
+Provides-Extra: docs
+
+..
+    Copyright (C) 2020-2024 TU Wien.
+
+    Invenio-Config-TUW is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+
+====================
+ Invenio-Config-TUW
+====================
+
+Invenio package for tweaking InvenioRDM to the needs of TU Wien.
+
+The following list is a quick overview of the most relevant customizations happening in this package:
+
+* Configuration values
+* Permission policies
+* OIDC authentication handling
+* E-Mail notification on errors
+* User profile extension
+* Integration with other TU Wien services
+
+
+Details
+=======
+
+Configuration values
+--------------------
+
+The primary purpose of this Invenio package is to provide some baseline configuration for InvenioRDM to suit deployment at TU Wien.
+These updated configurations include (but are not limited to) setting default values for record metadata and enabling access requests for restricted records per default.
+
+
+Permission policies
+-------------------
+
+InvenioRDM is not just some sort of cheap storage platform where users can upload their data and update it at any time.
+Instead, it is a platform intended to host digital objects that get [DOIs](https://www.doi.org/) assigned.
+Since the idea behind DOIs (and persistent identifiers in general) is to point at the same content over time, it does not allow users to change the files after publication.
+
+This is one of the unique features that the system offers that may not be immediately obvious to users.
+To make sure that users understand the implications of using the system, we require a brief communication between the users and operators.
+
+In contrast to vanilla InvenioRDM, having an account is not enough to create uploads in our system.
+Instead, the creation of records requires the ``trusted-user`` role, which typically has to be given out by administrators.
+
+Also, communities can be quite confusing in the beginning.
+Thus, we restrict the creation of new communities for non-administrators.
+
+
+OIDC authentication handling
+----------------------------
+
+We do not want to handle certain aspects like password management of user management in our system.
+Instead, we offload authentication to a separate service, with which InvenioRDM communicates via OIDC.
+Sometimes we have slightly non-standard requirements, which are satisfied by the authentication handler logic in this package.
+
+
+E-Mail notification on errors
+-----------------------------
+
+This module defines a custom log handler for error-level logs which sends out notifications as e-mail to a set of configured recipient addresses.
+
+
+User profile extension
+----------------------
+
+We forgot to secure the rights to curate metadata for uploads in our system in the first version of the terms of use.
+So instead, we extended the user profiles to collect consent for curation individually per user.
+
+
+Integration with other TU Wien services
+---------------------------------------
+
+One of the benefits of hosting InvenioRDM as an institutional repository is that it enables some conveniences by integrating with the local environment more.
+For example, we integrate with [TISS](https://tiss.tuwien.ac.at/) by periodically querying it for TU Wien employees and adding their names to the controlled vocabulary of known ``names``.
+
+..
+    Copyright (C) 2020-2024 TU Wien.
+
+    Invenio Config TUW is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+
+Changes
+=======
+
+Version 2024.2 (released 2024-06-24, updated 2024-09-17)
+
+- v12 compat: Chase Invenio-OAuthClient refactoring
+- v12 compat: Chase permission policy changes
+- v12 compat: Chase record ownership changes
+- v12 compat: Remove breadcrumbs
+- Use configuration items instead of hacks for the community permission policy
+- Flatten the user preference `curation.consent` to `curation_consent`
+- Override search mappings
+- Remove support for creating `community-submission` requests for drafts
+- Allow {user,guest} access requests for new drafts by default
+- Add install extras for search
+- Add `Flask-Minify` as opt-in for minifying HTML responses (without the golang minifiers)
+- Show all accessible drafts in the user's dashboard
+- Give out permissions to access the draft's files with the preview permission
+- Deduplicate some generators in the permission policy
+- Remove references to the unused `trusted-publisher` role
+- Use the `finalize_app` entrypoint for the SMTP handler rather than a hacky blueprint
+- Update README
+
+
+Version 2024.1 (released 2024-05-22, updated 2024-05-22)
+
+- Store ``given_name`` and ``family_name`` in user profiles
+- Use these values to more accurately synthesize default values for creators in metadata
+- Store the TISS ID in the user profile for people with TU Wien affiliation
+
+
+Version 2023.2 (released 2023-04-24, updated 2023-12-22)
+
+- v11 compat: Update permission policies and disable archive download
+- Set affiliation (hard-coded) to TU Wien in `user.profile`
+- Set a default template for the `description` metadata field
+- Add a null check for the current_user in the logging formatter
+- Prevent the logging formatter from blowing up outside of a request context
+- Add utilities and a celery task for updating the `names` vocabulary with information from TISS
+- Enable sending of registration mails
+- Allow edits to owners of published records even if they only have `trusted-user` role
+- Fix a typo in the config generated by the `TUWSSOSettingsHelper`
+- Fix function to fetch user by username
+- Add record curation preferences to user settings
+
+
+Version 2023.1 (released 2023-01-13)
+
+- Update definition of the default creator for new uploads
+
+
+Version 2022.3 (released 2022-10-28, updated 2022-11-30)
+
+- v10 compat: Discard imports of removed Admin/SuperUser generators
+- Rework the initialization procedure used for some custom overrides
+- Migrate from setup.py to setup.cfg
+- Move Flask config override from Invenio-Theme-TUW to Invenio-Config-TUW
+- Update "Terms of Use" link in registration form
+
+
+Version 2022.2 (released 2022-07-19, updated 2022-10-22)
+
+- v9 compat: Chase changes in Invenio-{Accounts,OAuthClient} 2.x
+- v9 compat: Update permission policies
+- v9 compat: Hack in permission policy for communities
+- Refactor permissions and config
+- Remove leftover views.py
+- Set deposit form file size limits
+- Fix permissions
+- Reverse contents of CHANGES.rst (recent changes are shown on top)
+- Attach SMTP error handler to the application in production mode
+- Add custom logging formatter
+- Auto-confirm newly registered users' e-mail addresses if ``SECURITY_CONFIRMABLE`` is ``False``
+- Set default user preferences (``visibility=public``, ``email_visibility=restricted``)
+- Set default value for ``version`` metadata to ``1.0.0``
+- Add config item to put the system into "read-only mode"
+
+
+Version 2022.1 (released 2022-03-23, updated 2022-04-06)
+
+- Update permissions for creating and editing drafts
+- Use the OAI metadata implementation from Invenio-RDM-Records
+- Change the default file size and bucket quota limits to 75GB
+
+
+Version 2021.2 (released 2021-12-07, updated 2021-12-20)
+
+- Make ready for InvenioRDM v7
+- Add requests permission policy
+- Enforce a rate limit for HTTP requests
+- Change method of overriding the record permission policy
+- Add datacite and oai_datacite metadataPrefixes to the OAI endpoint
+
+
+Version 2021.1 (released 2021-07-15)
+
+- Initial public release.
+- Update the list of citation styles
