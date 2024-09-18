@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pylogs/__init__.py
+pylogs/main.py
+pylogs_DIGITAL_MARKEMATICS.egg-info/PKG-INFO
+pylogs_DIGITAL_MARKEMATICS.egg-info/SOURCES.txt
+pylogs_DIGITAL_MARKEMATICS.egg-info/dependency_links.txt
+pylogs_DIGITAL_MARKEMATICS.egg-info/requires.txt
+pylogs_DIGITAL_MARKEMATICS.egg-info/top_level.txt
