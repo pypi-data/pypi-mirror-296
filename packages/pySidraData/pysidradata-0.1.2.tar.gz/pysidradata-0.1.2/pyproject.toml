@@ -1,0 +1,28 @@
+[build-system]
+requires = [ "setuptools", "wheel",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pySidraData"
+version = "0.1.2"
+description = "A Python client for interacting with IBGE API for aggregate data."
+readme = "README.md"
+keywords = [ "IBGE", "API", "data", "sidra",]
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent",]
+dependencies = [ "requests==2.31.0", "pandas==2.1.1", "sidrapy==0.1.2",]
+[[project.authors]]
+name = "Fernando Barbosa"
+email = "fernando.liaison@gmail.com"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/nandevers/pySidraData"
+Repository = "https://github.com/nandevers/pySidraData"
+
+[project.optional-dependencies]
+dev = [ "pre-commit", "flake8", "black", "isort",]
+
+[tool.setuptools.packages.find]
+where = [ "pySidraData",]
