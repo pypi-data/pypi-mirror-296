@@ -1,0 +1,13 @@
+rai_checklist_cli/__init__.py,sha256=Pru0BlFBASFCFo7McHdohtKkUtgMPDwbGfyUZlE2_Vw,21
+rai_checklist_cli/checklist_generator.py,sha256=PAtJ35Q6Poy6WDpqqcWMIus59J12EgVW5Re7XOlnQ2k,1193
+rai_checklist_cli/cli.py,sha256=tNh8ooapnM6iDQI9Vq1QtCZKp67zmXsm612DXCaZiaU,4768
+rai_checklist_cli/config.py,sha256=NIq8inErwftsabtr24AbSPcrM2IBsa06YkGaFdQ0Xkc,354
+rai_checklist_cli/jupyter_template_manager.py,sha256=xMqJIjVXLeiXZ7cjBLzDJTlfGUg49P06Hhp5sFW0MC0,2250
+rai_checklist_cli/template_manager.py,sha256=VdeQYHeazF4-Unr97YSlhg3enA2lA1PcghmEP9ECCIU,682
+rai_checklist_cli/template_utils.py,sha256=Qi9K1ZMoEdqTvH_lj6n217HAznDPwEi6nDbM1E5Fots,1943
+rai_checklist_cli-0.5.7.dist-info/LICENSE,sha256=Es6hSB6l9yl9fQA_YJ3zz50IaanfxZ2YABGAWjx6aUo,1050
+rai_checklist_cli-0.5.7.dist-info/METADATA,sha256=zPam45acMv4fA-Q2MvRwt48Da-Up3O4ychxDQ1UfFxU,7684
+rai_checklist_cli-0.5.7.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+rai_checklist_cli-0.5.7.dist-info/entry_points.txt,sha256=MKDzSk2yXbfCvB7HgLBxhlVh2cEFXrKI-FmCuDicq3I,61
+rai_checklist_cli-0.5.7.dist-info/top_level.txt,sha256=OyYNRJJglwZWSubvwRyaP_oZb8dtwtnkbcE6vVRcoCY,18
+rai_checklist_cli-0.5.7.dist-info/RECORD,,
