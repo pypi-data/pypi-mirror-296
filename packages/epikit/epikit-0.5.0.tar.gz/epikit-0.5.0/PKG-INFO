@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: epikit
+Version: 0.5.0
+Summary: Cinema scientific toolset.
+Home-page: https://github.com/epic/epikit
+Author: David H. Rogers
+Author-email: dhr@lanl.gov
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# epigenetics python tools
+
+Documentation for this module is available at http://epikit.readthedocs.io
+
+## Installing and running the module
+
+```
+pip install --upgrade pip
+pip install epikit
+```
+
+
