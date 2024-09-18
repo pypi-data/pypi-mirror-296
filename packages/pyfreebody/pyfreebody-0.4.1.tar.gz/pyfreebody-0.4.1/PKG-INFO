@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pyfreebody
+Version: 0.4.1
+Home-page: https://github.com/velocitatem/pyfreebody
+Author: Daniel Rosel
+License-File: LICENSE
+Requires-Dist: Pillow==10.4.0
