@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ShieldedPy
+Version: 0.1
+Summary: A simple library for security tasks like password hashing, token management, and encryption.
+Home-page: https://github.com/tamilsud/pysecurity
+Author: Tamilselvan Sudalai
+Author-email: tamil.sdl@gmamil.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: PyJWT
+Requires-Dist: passlib
+
+# pysecurity
+
+`pysecurity` is a simple library for managing security tasks such as password hashing, token management, and data encryption.
+
+## Installation
+
+You can install `pysecurity` using pip:
+
+```bash
+pip install pysecurity
+```
+
+## Usage
+
+from pysecurity import SecurityManager
+
+# Initialize SecurityManager
+security = SecurityManager(secret_key='your-secret-key')
+
+# Password Handling
+hashed_password = security.hash_password('mypassword')
+is_valid = security.verify_password(hashed_password, 'mypassword')
+
+# Token Management
+token = security.create_token({'user_id': 123})
+data = security.validate_token(token)
+
+# Encryption/Decryption
+encrypted_data = security.encrypt('sensitive data')
+decrypted_data = security.decrypt(encrypted_data)
