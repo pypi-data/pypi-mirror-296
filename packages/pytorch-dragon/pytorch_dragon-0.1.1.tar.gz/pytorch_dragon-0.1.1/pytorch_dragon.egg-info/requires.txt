@@ -1,0 +1,17 @@
+validators
+beautifulsoup4
+opencv-python
+numpy
+numba
+torch==2.2.2
+psutil
+typing
+datetime
+gpytorch
+botorch
+scikit-learn
+scipy
+torchvision
+matplotlib
+requests_html
+pandas
