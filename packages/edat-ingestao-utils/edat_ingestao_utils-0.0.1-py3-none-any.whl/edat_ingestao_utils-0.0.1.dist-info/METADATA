@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: edat-ingestao-utils
+Version: 0.0.1
+Summary: Biblioteca de Apoio a Ingestão de Dados no EDAT
+Home-page: UNKNOWN
+Author: Escritório de Dados
+Author-email: dados@unicamp.br
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2
+Requires-Dist: SQLAlchemy
+Requires-Dist: pandas
+Requires-Dist: pgcopy
+Requires-Dist: jellyfish
+
+# Utilitarios EDAT <br /> Classes utilitarias de ingestão utilizadas pelo EDAT.
+
+
