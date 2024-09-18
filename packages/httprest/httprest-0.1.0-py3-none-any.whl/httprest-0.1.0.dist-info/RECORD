@@ -1,0 +1,9 @@
+httprest/__init__.py,sha256=Cq_jgg1V1q8ZzYw66uHlmpRsCgW9AtROyWbYoAj_D_Q,75
+httprest/api.py,sha256=eooOY8E76MrGREBPNj1Qylq4otpsk1YefAiMCanpyyk,1377
+httprest/http/__init__.py,sha256=uvOlTmAxNjDvZzbkT99NSWvGc8o3pt1VnfKcnAmythU,291
+httprest/http/base.py,sha256=2rbI1ZXhJapawMG5ghy0IanmDE7zndDgc_zGj5qxsjM,2831
+httprest/http/urllib_client.py,sha256=6jBrYbUx3VX-FF6CN3PJOl2ufWrXztGSefr3eIFb7eg,1721
+httprest-0.1.0.dist-info/LICENSE,sha256=Fz2wBg189T0BPQMczcNcTafmw9iRHZHyfhsdN8_264I,1072
+httprest-0.1.0.dist-info/METADATA,sha256=D6NfjZaBLr8IWrzRwQ8J_bzsu08cZXjMhxICVNnDDx0,2259
+httprest-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+httprest-0.1.0.dist-info/RECORD,,
