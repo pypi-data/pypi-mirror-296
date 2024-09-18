@@ -1,0 +1,2 @@
+class DataStructurable:
+    pass

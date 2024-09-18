@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: python-middlewareable
+Version: 1.0.0
+Summary: A simple library for working with middlewares in Python
+Author-email: TheCodeCrate <loureiro.rg@gmail.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2024 TheCodeCrate <loureiro.rg@gmail.com>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+Project-URL: repository, https://github.com/thecodecrate/python-middlewareable
+Project-URL: documentation, https://github.com/thecodecrate/python-middlewareable
+Keywords: middleware,python,library,request-handling,python-middleware
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: build
+Requires-Dist: build; extra == "build"
+Requires-Dist: twine; extra == "build"
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: bumpver; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# Python-Middlewareable
+
+A simple library for working with middlewares in Python.
+
+## Installation
+
+```bash
+pip install python-middlewareable
+```
+
+## Usage
+
+### 1. Define the payload structure
+
+```python
+@dataclass
+class Request(RequestBase): # inherit from RequestBase
+    name: str
+```
+
+### 2. Create a middleware
+
+```python
+class OneMiddleware(MiddlewareBase[Request]):
+    async def handle(
+        self, request: Request, next_call: MiddlewareNextCallBase[Request]
+    ) -> None:
+        request.name = request.name + " from OneMiddleware"
+
+        print("OneMiddleware before")
+        await next_call(request)
+        print("OneMiddleware after")
+
+```
+
+### 3. Add the `MiddlewareableBase` trait to the class that will use the middlewares
+
+```python
+class App(MiddlewareableBase[Request]):
+    middlewares = [OneMiddleware] # add your middlewares here
+```
+
+### 4. Instantiate and use it
+
+```python
+# middlewareable
+app = App()
+
+# process request
+result = await app.process_middlewares(Request(name="Hello"))
+
+# check the result
+print(request)
+
+# output:
+# OneMiddleware before
+# OneMiddleware after
+# Hello from OneMiddleware
+```
+
+## Traits
+
+You can use the following traits to extend the functionality of your classes:
+
+- [AutoInstantiable](src/python_middlewareable/traits/auto_instantiable)
+- [DataStructurable](src/python_middlewareable/traits/data_structurable)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

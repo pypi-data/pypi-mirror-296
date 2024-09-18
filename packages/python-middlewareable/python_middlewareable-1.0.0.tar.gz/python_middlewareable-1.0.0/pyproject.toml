@@ -1,0 +1,61 @@
+[tool.black]
+line-length = 79
+
+[build-system]
+requires = ["setuptools>=70.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-middlewareable"
+version = "1.0.0"
+description = "A simple library for working with middlewares in Python"
+readme = "README.md"
+authors = [{ name = "TheCodeCrate", email = "loureiro.rg@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+keywords = [
+    "middleware",
+    "python",
+    "library",
+    "request-handling",
+    "python-middleware",
+]
+dependencies = []
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+build = ["build", "twine"]
+dev = ["black", "bumpver", "isort", "flake8", "pytest"]
+
+[project.urls]
+repository = "https://github.com/thecodecrate/python-middlewareable"
+documentation = "https://github.com/thecodecrate/python-middlewareable"
+
+[tool.bumpver]
+current_version = "1.0.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+# "README.md" = ["{version}", "{pep440_version}"]
+"src/python_middlewareable/__init__.py" = ['{version}']
