@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: networkcommons
+Version: 0.4.3
+Summary: Integrated framework for network inference and evaluation using prior knowledge and omics data
+Home-page: https://github.com/saezlab/networkcommons
+License: GPL-3.0-only
+Keywords: systems biology,molecular biology,signaling network,transcriptomics,modeling,mechanistic modeling,network inference,molecular network,omics,biomedicine
+Author: Saez Lab
+Author-email: omnipathdb@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Provides-Extra: corneto-backends
+Provides-Extra: igraph
+Requires-Dist: anndata (<=0.10.8)
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: biomart (>=0.9.2,<0.10.0)
+Requires-Dist: corneto (==1.0.0.dev0)
+Requires-Dist: cvxpy (>=1.5.1,<2.0.0)
+Requires-Dist: decoupler (>=1.8.0,<2.0.0)
+Requires-Dist: graphviz (>=0.17,<0.18)
+Requires-Dist: gurobipy (>=11.0.2,<12.0.0)
+Requires-Dist: igraph (>=0.11.6,<0.12.0) ; extra == "igraph"
+Requires-Dist: lazy-import (>=0.2.2,<0.3.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: networkx
+Requires-Dist: numpydoc (>=1.7.0,<2.0.0)
+Requires-Dist: omnipath (>=1.0.8,<2.0.0)
+Requires-Dist: pandas
+Requires-Dist: picos (>=2.4.17,<3.0.0) ; extra == "corneto-backends"
+Requires-Dist: pydeseq2 (>=0.4.9,<0.5.0)
+Requires-Dist: pygraphviz (==1.11)
+Requires-Dist: pypath-common (>=0.2.5,<0.3.0)
+Requires-Dist: pypath-omnipath (>=0.16.16,<0.17.0)
+Requires-Dist: pytest (>=8.2.2,<9.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Requires-Dist: sphinx-rtd-theme (>=2.0.0,<3.0.0)
+Requires-Dist: toml
+Requires-Dist: yfiles-jupyter-graphs (>=1.7.2,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/saezlab/networkcommons/issues
+Project-URL: Documentation, https://networkcommons.readthedocs.io/
+Project-URL: Repository, https://github.com/saezlab/networkcommons
+Description-Content-Type: text/markdown
+
+# NetworkCommons - Bridging the gap between data, methods and knowledge in the network inference field
+
+NetworkCommons is a community-driven platform designed to simplify access to tools and resources for inferring context-specific protein interaction networks by integrating context-agnostic prior knowledge with omics data. These networks have a wide range of applications, from omics data interpretation to identifying drug targets and key driver mutations.
+
+[![codecov][badge-cov]][link-cov]
+[![Tests][badge-tests]][link-tests]
+[![Documentation][badge-docs]][link-docs]
+
+[![NetworkCommons API](https://raw.githubusercontent.com/saezlab/networkcommons/0d62d40ad0b3c7ab40b61f4f236af69ce9fa019f/docs/src/_static/nc_graphabs.svg)](https://networkcommons.readthedocs.io)
+
+Addressing the complexity and fragmentation of data, methods, and tools across multiple repositories, NetworkCommons offers an API that provides access to raw and preprocessed omics data, directed and/or signed template graphs, and various network inference methods. By streamlining accessibility, we aim to support systematic benchmarking, enhance critical assessment, and foster collaborative advancements in network biology.
+
+We welcome any contribution to this project! For more information, please check [our documentation](https://networkcommons.readthedocs.io). 
+
+## Contributors
+
+Martin Garrido-Rodriguez, Olga Ivanova, Victor Paton, Denes Turei
+
+[badge-cov]: https://codecov.io/github/saezlab/networkcommons/graph/badge.svg?token=RH438ALJC2
+[link-cov]: https://codecov.io/github/saezlab/networkcommons
+[badge-tests]: https://img.shields.io/github/actions/workflow/status/saezlab/networkcommons/test.yaml?branch=main
+[link-tests]: https://github.com/saezlab/networkcommons/actions/workflows/test.yml
+[badge-docs]: https://readthedocs.org/projects/networkcommons/badge/?version=main
+[link-docs]: https://networkcommons.readthedocs.io
+  
+
