@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+TEST_upload_to_test_funcionality/__init__.py
+TEST_upload_to_test_funcionality/setup.py
+TEST_upload_to_test_functionality.egg-info/PKG-INFO
+TEST_upload_to_test_functionality.egg-info/SOURCES.txt
+TEST_upload_to_test_functionality.egg-info/dependency_links.txt
+TEST_upload_to_test_functionality.egg-info/top_level.txt
