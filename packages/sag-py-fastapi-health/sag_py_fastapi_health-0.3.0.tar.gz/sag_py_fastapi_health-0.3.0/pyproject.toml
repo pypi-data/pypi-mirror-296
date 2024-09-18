@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "sag-py-fastapi-health"
+version = "0.3.0"
+description = "A library for fastapi health checks"
+authors = ["Samhammer AG"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = ">=0.109.1"
+pydantic = "*"
+aiohttp = { version = ">=3.9.4", extras = ["speedups"] }
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "*"
+mypy = "*"
+build = "*"
+pytest = "*"
+pytest-asyncio = "*"
+pytest-cov = "*"
+coverage-lcov = "*"
+toml = "*"
+coverage = "*"
+mock = "*"
+types-mock = "*"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
