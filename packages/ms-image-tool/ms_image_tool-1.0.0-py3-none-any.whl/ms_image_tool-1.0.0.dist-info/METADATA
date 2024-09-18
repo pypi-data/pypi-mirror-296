@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ms-image-tool
+Version: 1.0.0
+Summary: Tools for handling multispectral images and generating vegetation indices.
+Author: Andre Mattos
+Author-email: carlosandrematte@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: opencv-python (>=4.10.0.84,<5.0.0.0)
+Requires-Dist: tifffile (>=2024.7.2,<2025.0.0)
+Description-Content-Type: text/markdown
+
+[Documentation Page](https://andrematte.github.io/ms-image-tool/)
