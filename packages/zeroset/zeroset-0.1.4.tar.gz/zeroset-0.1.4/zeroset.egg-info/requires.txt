@@ -1,0 +1,14 @@
+natsort>=8.0.0
+Pillow>=10.0.0
+opencv-python
+screeninfo>=0.8.0
+tabulate>=0.9.0
+pytz
+selenium>=4.0.0
+webdriver-manager>=4.0.0
+screeninfo
+gif
+chromedriver_autoinstaller
+image_similarity_measures
+pyfftw
+imagehash
