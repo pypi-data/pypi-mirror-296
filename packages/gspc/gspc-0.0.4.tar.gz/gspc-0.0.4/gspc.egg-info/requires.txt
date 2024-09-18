@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+numba
+numba-progressscipy
