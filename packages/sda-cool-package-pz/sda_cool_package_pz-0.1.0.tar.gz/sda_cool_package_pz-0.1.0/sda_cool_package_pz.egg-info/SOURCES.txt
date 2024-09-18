@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+docs/first.txt
+docs/second.txt
+docs/third.txt
+funniest/data.json
+sda_cool_package_pz.egg-info/PKG-INFO
+sda_cool_package_pz.egg-info/SOURCES.txt
+sda_cool_package_pz.egg-info/dependency_links.txt
+sda_cool_package_pz.egg-info/top_level.txt
