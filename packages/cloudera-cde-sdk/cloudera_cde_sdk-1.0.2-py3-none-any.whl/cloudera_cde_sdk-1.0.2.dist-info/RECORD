@@ -1,0 +1,14 @@
+cloudera/cdp/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudera/cdp/model/cde.py,sha256=Npx-j1IAHx9Q0wlWtyAwCXncu0Frlp_F1hBMizWRTrI,3919
+cloudera/cdp/security/__init__.py,sha256=KFpUu7wdf3rqQ_h8JGSloSeKOIXqfCsvWzOLpIe5C7I,4797
+cloudera/cdp/security/cde_security.py,sha256=k5g0tR2_6N0o3nM5gzFKVxiIQwWY9Of3kAiYvZ5j6TA,8036
+cloudera/cdp/security/cdp_security.py,sha256=xVK2GxiqK1RbPoBrVaLU4BBFhImQgxcrXEIHxnq1kVA,13393
+cloudera/cdp/security/token_cache.py,sha256=bkPMFsQ9PUuLVQIV8lv978ATF5rfLYKHSqyCffZWCj8,12823
+cloudera/cdp/security/cdp_requests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudera/cdp/security/cdp_requests/cdpcurl.py,sha256=Uog_N5AnkvJEo20rNJ0WhPsKF8VmaGmcXiEO99HDzrU,3863
+cloudera/cdp/security/cdp_requests/cdpv1sign.py,sha256=WaKLnmzVJeR-GSOungxcFupREsnddvBQlsZ9qS50bao,5086
+cloudera_cde_sdk-1.0.2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cloudera_cde_sdk-1.0.2.dist-info/METADATA,sha256=xweP4TDWwRSk9viY1lCvwSdP6GOj0_AlCq6shzMCc_I,323
+cloudera_cde_sdk-1.0.2.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+cloudera_cde_sdk-1.0.2.dist-info/top_level.txt,sha256=Su79qfSvtIyoDNUnzhYhhAFVQra5lHfYgu3shHDNwaI,9
+cloudera_cde_sdk-1.0.2.dist-info/RECORD,,

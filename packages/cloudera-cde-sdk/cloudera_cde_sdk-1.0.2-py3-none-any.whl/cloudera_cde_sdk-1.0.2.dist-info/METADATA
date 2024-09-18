@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cloudera-cde-sdk
+Version: 1.0.2
+Summary: Cloudera CDE SDK
+Home-page: UNKNOWN
+Author: Cloudera
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: pure25519
+Requires-Dist: cryptography>=3.3.2
+Requires-Dist: tenacity
+Requires-Dist: requests
+Requires-Dist: pathlib2
+
+UNKNOWN
+
+
