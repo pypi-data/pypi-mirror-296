@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: intuned_sdk
+Version: 0.0.8
+Summary: Intuned Python SDK
+Home-page: https://github.com/intuned/intuned-python-sdk
+Author: Intuned
+Author-email: infra@intuned.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 ==1.35.20
+Requires-Dist: botocore ==1.35.20
+Requires-Dist: playwright ==1.44.0
+Requires-Dist: aiofiles ==24.1.0
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: openai ==1.42.0
+Requires-Dist: anthropic ==0.34.0
+Requires-Dist: diskcache ==5.6.3
+Requires-Dist: beautifulsoup4 ==4.12.3
+Provides-Extra: dev
+Requires-Dist: pytest ==8.3.3 ; extra == 'dev'
+Requires-Dist: pytest-asyncio ==0.24.0 ; extra == 'dev'
+Requires-Dist: python-dotenv ==1.0.1 ; extra == 'dev'
+Requires-Dist: setuptools ==75.1.0 ; extra == 'dev'
+
+# Intuned python sdk
+
+## how to publish to pypi
+
+
+1. update version in setup.py and pyproject.toml
+2. run publish.sh
+
+    ```bash
+    sh ./publish.sh
+    ```
+
+## how to run a test
+
+```bash
+pytest --log-cli-level=DEBUG tests/extract_structured_data_from_page_test_e2e.py
+```
