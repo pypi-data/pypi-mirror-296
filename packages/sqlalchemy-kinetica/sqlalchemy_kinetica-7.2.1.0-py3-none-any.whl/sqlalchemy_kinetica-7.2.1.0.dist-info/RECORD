@@ -1,0 +1,12 @@
+examples/basic_examples.py,sha256=Oht-7htl88oM_TjC91dm5OuM8hXuLUhifHvlEnQ2jjg,7873
+examples/example_utils.py,sha256=jCoom9--dRJeXrKjNlK7P-ZCc81ExAgrqAMu1fMDND0,7348
+examples/sqlalchemy_api_examples.py,sha256=xhzmaueMHSS0xa2oI6lngFMPnlyjhmNerPz4oWD2lSw,81665
+sqlalchemy_kinetica/custom_commands.py,sha256=jr6zdfymZnphv787P4H4bZQ1wQvKZ1cIWlJbJ3vdM-s,11002
+sqlalchemy_kinetica/dialect.py,sha256=01vm5DjMUuxTr2_owmqaAhFHufBFFqVsK3RaC7c3nmg,46292
+sqlalchemy_kinetica/kinetica_types.py,sha256=OeP72EV4s29yd4i_R7LKHAOSFTaLIc-FARtfn02ZGW0,8312
+sqlalchemy_kinetica-7.2.1.0.dist-info/LICENSE,sha256=VYHwkc_3acBxI-AvhEwSp5ve7kIZuvkcl8pQA93UunA,1065
+sqlalchemy_kinetica-7.2.1.0.dist-info/METADATA,sha256=uBcCfYuV4JDQ4zJlbZVQvg0em2ODA8oTiT68R3FWK00,3099
+sqlalchemy_kinetica-7.2.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+sqlalchemy_kinetica-7.2.1.0.dist-info/entry_points.txt,sha256=wbnowFBl_q5mYSwE4WoN6Eu-75h9aQCvcncvRw14uJQ,77
+sqlalchemy_kinetica-7.2.1.0.dist-info/top_level.txt,sha256=3j6slcNxcrn65_gtm08QAc2XPdS62nwi9H7fBIZyOpY,29
+sqlalchemy_kinetica-7.2.1.0.dist-info/RECORD,,
