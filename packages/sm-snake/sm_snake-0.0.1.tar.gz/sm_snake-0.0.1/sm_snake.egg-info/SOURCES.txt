@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bytes/__init__.py
+bytes/test.py
+sm_snake.egg-info/PKG-INFO
+sm_snake.egg-info/SOURCES.txt
+sm_snake.egg-info/dependency_links.txt
+sm_snake.egg-info/entry_points.txt
+sm_snake.egg-info/top_level.txt
