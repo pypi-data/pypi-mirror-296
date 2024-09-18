@@ -1,0 +1,14 @@
+pytesseract
+Pillow
+PyPDF2==2.12.1
+camelot-py[cv]
+opencv-python
+pdf2image
+pypdf
+filetype
+pdfplumber
+
+[dev]
+pytest>=6.0
+flake8>=3.9
+mypy>=0.800
