@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "whoisenriched"
+version = "0.1.0"
+description = "This project builded for enrichment of WhoIs Library's Queries"
+authors = ["Efe Gençalioğlu"]
+#readme = "README.md"
+packages = [{ include = "whois" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
