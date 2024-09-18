@@ -1,0 +1,35 @@
+Dijkstra's Shortest Path Algorithm is an algorithm for finding the shortest paths between nodes in a weighted graph
+
+Edsger W. Dijkstra was a Dutch computer scientist that made many contributions to the field, including a solution to the shortest path problem in a graph. The solution discussed here uses a min-heap to store the shortest known distances from the source. Let's look at a step-by-step execution of the algorithm for the example above.
+
+The algorithm begins by adding the cost to reach the source vertex, which is (of course) 0. We will use the notation (source, weight) to represent that. In the solution for the shortest path problem, the heap uses the weight of an edge to sort the values. A distance list is created to record the cost to reach each of the destinations from source. The distance list is initialized with the maximum possible value for the weight, represented as ∞, except to reach the source, which should be set to zero.
+
+The distances are initialized as: [0, ∞, ∞, ∞, ∞, ∞, ∞, ∞, ∞]
+
+Hint: to represent ∞ in your code use sys.maxsize.
+
+Next, the algorithm will run a loop until the heap becomes empty. At each iteration of that loop, the following steps are taken:
+
+the top of the heap (i.e., its smaller element) is removed;
+refer to that edge as (u, w), where w represents the best (known) cost to reach node u from source;
+next, the algorithm evaluates if the cost to reach each of u's neighbors is better than what is known so far;
+for example, if v is one of u's neighbor, then the algorithm checks if the cost to reach node u plus the weight from u to v is smaller than what is recorded in the distance array;
+if that is the case, the distance array is updated;
+also, if the cost is updated, the algorithm needs to update that cost if edge v is found in the heap.
+For the example, (u, w) = (0, 0) in the first iteration. Nodes 1 and 7 can be reached from u=0 with costs 4 and 8, respectively. Therefore, the distances are updated to [0, 4, ∞, ∞, ∞, ∞, ∞, 8, ∞]. Also, (1, 4) and (7, 8) are added to the heap, which should now look like:
+
+    (1, 4)
+(7, 8)
+On the second iteration, (u, w) = (1, 4). Nodes 0, 2 and 7 can be reached from u=1 with costs 4, 8 and 11, respectively. The distance to node 2 is updated (with a cost of 4+8=12) and the pair (2, 12) is added to the heap. The distance to node 0 does not get updated because travelling to node 0 through node 1 didn't improve the cost: 4 vs. 0. Also, the distance to node 7 does not get updated because travelling to node 7 through node 1 didn't improve the cost: 15 vs. 8. The heap should now look like:
+
+    (7, 8)
+(2, 12)    
+The distances are now: [0, 4, 12, ∞, ∞, ∞, ∞, 8, -]
+
+On the third iteration, (u, w) = (7, 8). Nodes 0, 1, 6, and 8 can be reached from u=7 with costs 8, 11, 1 and 7, respectively. The distance to node 6 is updated (with a cost of 8+1=9) and the pair (6, 9) is added to the heap. The distance to node 8 is also updated (with a cost of 8+7=15) and the pair (8, 15) is added to the heap. The heap should now look like:
+
+    (6, 9)
+(2, 12) (8, 15)  
+The distances are now: [0, 4, 12, ∞, ∞, ∞, 9, 8, 15]
+
+The algorithm repeats until the heap becomes empty. At the end of the loop the array of distances should have the lowest costs to reach each of the destinations from the source.
