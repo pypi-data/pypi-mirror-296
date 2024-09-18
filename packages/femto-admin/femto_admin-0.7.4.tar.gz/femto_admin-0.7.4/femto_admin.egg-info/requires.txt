@@ -1,0 +1,8 @@
+tortoise-api
+jinja2
+redis
+
+[dev]
+build
+twine
+setuptools_scm
