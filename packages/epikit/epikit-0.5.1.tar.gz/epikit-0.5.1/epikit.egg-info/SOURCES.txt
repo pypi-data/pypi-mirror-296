@@ -1,0 +1,10 @@
+setup.py
+doc/epikit-description.md
+epikit/__init__.py
+epikit/_version.py
+epikit/core.py
+epikit.egg-info/PKG-INFO
+epikit.egg-info/SOURCES.txt
+epikit.egg-info/dependency_links.txt
+epikit.egg-info/not-zip-safe
+epikit.egg-info/top_level.txt
