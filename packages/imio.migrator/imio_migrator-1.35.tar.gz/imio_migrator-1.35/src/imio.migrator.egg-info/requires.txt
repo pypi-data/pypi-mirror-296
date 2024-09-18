@@ -1,0 +1,7 @@
+Plone
+imio.helpers>=1.0.0
+imio.pyutils>=0.20
+setuptools
+
+[test]
+plone.app.testing
