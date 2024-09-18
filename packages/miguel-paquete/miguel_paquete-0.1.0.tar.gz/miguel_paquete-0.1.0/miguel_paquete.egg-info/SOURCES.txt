@@ -1,0 +1,9 @@
+README.md
+setup.py
+miguel_paquete/__init__.py
+miguel_paquete/courses.py
+miguel_paquete/utils.py
+miguel_paquete.egg-info/PKG-INFO
+miguel_paquete.egg-info/SOURCES.txt
+miguel_paquete.egg-info/dependency_links.txt
+miguel_paquete.egg-info/top_level.txt
