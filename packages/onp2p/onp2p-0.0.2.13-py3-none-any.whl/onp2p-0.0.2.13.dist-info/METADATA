@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: onp2p
+Version: 0.0.2.13
+Summary: Basic mathematical operations using CFFI
+Home-page: https://github.com/enricozanardo/onp2p.git
+Author: Enrico Zanardo
+Author-email: enrico.zanardo101@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cffi
+
+# onp2p
+Onion Network P2P
+
+
+gcc -shared -o shared_library/libmath_operations.so -fPIC math_operations.cg
+
+
+python3 setup.py sdist bdist_wheel
+twine upload dist/*
+
+
+
+## Installazione
+
+```bash
+pip install onp2p
+
+
+
+
+## Tor
+```bash
+sudo apt-get install tor
+sudo service tor start
+
+sudo vim etc/tor/torrc
+```
+
+```bash
+HiddenServiceDir /var/lib/tor/hidden_service/
+HiddenServicePort 80 127.0.0.1:8122
+```
+
+
+```bash
+sudo service tor restart
+```
+
+# Get Onion Address
+```bash
+sudo less /var/lib/tor/hidden_service/hostname
+```
+
+```
+dvwtkqqt73ixvwa22rwxjarnbypwof6amq757gg45qftjghhx3qdcqad.onion
+```
+
+

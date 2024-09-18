@@ -1,0 +1,2 @@
+[console_scripts]
+onp2p = onp2p.shell:shell
