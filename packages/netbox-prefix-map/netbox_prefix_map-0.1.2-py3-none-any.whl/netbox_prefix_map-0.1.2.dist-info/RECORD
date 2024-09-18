@@ -1,0 +1,10 @@
+netbox_prefix_map/__init__.py,sha256=GwcJqB0LpN1Qm22AWhpz3QIPrRfFFQ2Ab6hR-LGnpdo,289
+netbox_prefix_map/urls.py,sha256=ZQCNCM0He7L17T624WYXjmSSt2beUw7OAyzUVECusko,37
+netbox_prefix_map/views.py,sha256=aJy0Ror7doIIUJwahnpn665M_bxOaQRxk4jYQgK645g,3261
+netbox_prefix_map/static/netbox_prefix_map/css/app.css,sha256=ClMvIRzKzw4Ra4ihD0YbVXBlTiDgmj242RQUUTxZ8J0,876
+netbox_prefix_map/templates/netbox_prefix_map/prefix_map.html,sha256=6Xtdic3iwQFln-S_E2VEPuCcIYKypEqgm_X9dCel3ow,2245
+netbox_prefix_map-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+netbox_prefix_map-0.1.2.dist-info/METADATA,sha256=Py7kGRAvg4EmuzdARSlF253rpAPKzpsMv0GW3BA4738,1380
+netbox_prefix_map-0.1.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+netbox_prefix_map-0.1.2.dist-info/top_level.txt,sha256=tCWBw1WjKZgjDItYqYhRZn9XdLbJrhLXzLJTVmOUx3w,18
+netbox_prefix_map-0.1.2.dist-info/RECORD,,
