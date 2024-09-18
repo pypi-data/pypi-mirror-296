@@ -1,0 +1,8 @@
+tofunc/__init__.py,sha256=9M2y7Gh9eZ0Jm12FjqN7m9FadMAk6u0i3frd2Zw9vq4,217
+tofunc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tofunc/tests/test_hello.py,sha256=XBbh1aChEOBehnMHVaoOtDReu6QBC8R9OLJ27jNndpM,613
+tofunc-1.0.0.dist-info/LICENSE.txt,sha256=QwqYepQwTN5xG57cngKt6xxYD9z9hw9d3lcI8zSLiNg,1074
+tofunc-1.0.0.dist-info/METADATA,sha256=X8811jCuUPBiZPn-x55f9hLUIjR5b7r4H5yAMJWgWTE,3378
+tofunc-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+tofunc-1.0.0.dist-info/top_level.txt,sha256=CatybAb4t-fev6fzoJK97xySS1qqFfUm4QLBKgCFEQA,7
+tofunc-1.0.0.dist-info/RECORD,,
