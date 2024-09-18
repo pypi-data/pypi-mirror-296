@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sharepoint_to_df
+Version: 0.2.0
+Summary: A library to fetch SharePoint list data and return it as a Pandas DataFrame.
+Author: Mutaz Younes
+Author-email: mutazyounes@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
