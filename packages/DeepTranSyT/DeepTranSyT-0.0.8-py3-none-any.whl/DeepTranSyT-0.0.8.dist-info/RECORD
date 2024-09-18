@@ -1,0 +1,11 @@
+deeptransyt/DNN.py,sha256=mSakSXXFmi-O06lFTcCgODaN5QuAG34VOP2UCM6D__c,5010
+deeptransyt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deeptransyt/auxiliary_functions.py,sha256=InhUHuHIzuyK4wyt73JP11YvqMQGSqWQLtE9r_MFwS8,854
+deeptransyt/main.py,sha256=e-48rifKIv37F45YYzAo2rBSdpBvE2O-7mk1ndzV0qo,2116
+deeptransyt/make_predictions.py,sha256=k_5TwvU_MYkgDnaV8FmQtUMSfkOYgFWeT9QHRsQdFpI,7115
+deeptransyt/sequence_processing.py,sha256=kbFDgnR4lBHblkq9Ck1qSGkb8awy8rH5PR5g7Mgq8q0,4703
+DeepTranSyT-0.0.8.dist-info/METADATA,sha256=_R-nGt1R10J1BCqKJgHXIteH-wZeAq9IRnrKgttJl7k,387
+DeepTranSyT-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+DeepTranSyT-0.0.8.dist-info/entry_points.txt,sha256=aayfH_4ZBo0P9QIwFUuooNi121El5g1_oZ6ATvtEp4c,58
+DeepTranSyT-0.0.8.dist-info/top_level.txt,sha256=ounji-3vnKuEuvQmubm8J7vfy-5066_gK2mIlcM7JFE,12
+DeepTranSyT-0.0.8.dist-info/RECORD,,
