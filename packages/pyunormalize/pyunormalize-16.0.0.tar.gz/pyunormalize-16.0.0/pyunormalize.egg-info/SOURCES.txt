@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+UNICODE-LICENSE
+setup.py
+pyunormalize/__init__.py
+pyunormalize/_unicode.py
+pyunormalize/_version.py
+pyunormalize/normalization.py
+pyunormalize.egg-info/PKG-INFO
+pyunormalize.egg-info/SOURCES.txt
+pyunormalize.egg-info/dependency_links.txt
+pyunormalize.egg-info/not-zip-safe
+pyunormalize.egg-info/top_level.txt
