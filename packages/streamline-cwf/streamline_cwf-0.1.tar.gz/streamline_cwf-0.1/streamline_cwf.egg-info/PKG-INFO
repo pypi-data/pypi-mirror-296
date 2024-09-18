@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: streamline-cwf
+Version: 0.1
+Summary: Custom Web Framework
+Home-page: https://github.com/Triston-TL/streamline
+Author: Shu-Ha-Ri
+Requires-Dist: aiohttp
