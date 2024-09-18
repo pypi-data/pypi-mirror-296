@@ -1,0 +1,2 @@
+[console_scripts]
+rakuten_do_dbt_processor = rakuten_do_dbt_processor.processor:main

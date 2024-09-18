@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+rakuten_do_dbt_processor/__init__.py
+rakuten_do_dbt_processor/processor.py
+rakuten_do_dbt_processor.egg-info/PKG-INFO
+rakuten_do_dbt_processor.egg-info/SOURCES.txt
+rakuten_do_dbt_processor.egg-info/dependency_links.txt
+rakuten_do_dbt_processor.egg-info/entry_points.txt
+rakuten_do_dbt_processor.egg-info/top_level.txt
