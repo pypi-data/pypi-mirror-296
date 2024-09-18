@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "let-me-scroll-it"
+version = "0.0.4"
+requires-python = ">=3.10"
+dependencies = [
+    "jinja2",
+    "unyt",
+    "pydantic"
+]
+authors = [
+  { name="Josh Borrow", email="josh@joshborrow.com" },
+]
+readme = "README.md"
+description = "A command-line utility for placing figures in a static webpage"
+
+
+[project.scripts]
+lmsi = "lmsi.cli:main"
+
+[tool.ruff.lint]
+extend-select = ["I"]
