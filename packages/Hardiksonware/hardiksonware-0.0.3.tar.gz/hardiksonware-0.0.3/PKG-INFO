@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Hardiksonware
+Version: 0.0.3
+Summary: Randsome ware for Fun
+Author: Hardik Kansara
+Author-email: <h.kansara106@gmail.com>
+Keywords: python,randsomeware
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: fernet
+Requires-Dist: cryptography
