@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: myskoda
+Version: 0.3.0
+Summary: Library for interaction with the MySkoda APIs.
+Author: Frederick Gnodtke
+Author-email: frederick@gnodtke.net
+Requires-Python: >=3.12.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: cli
+Requires-Dist: aiohttp (>=3,<4)
+Requires-Dist: asyncclick (>=8.1.7.2,<9.0.0.0) ; extra == "cli"
+Requires-Dist: asyncio (>=3,<4)
+Requires-Dist: asyncio-paho (>=0.6.0,<0.7.0)
+Requires-Dist: beautifulsoup4 (>=4,<5)
+Requires-Dist: coloredlogs (>=15.0.1,<16.0.0) ; extra == "cli"
+Requires-Dist: paho-mqtt (>=1,<2)
+Requires-Dist: pydantic (>=1,<2)
+Requires-Dist: pyjwt (>=2,<3)
+Requires-Dist: pyyaml (>=6,<7)
+Requires-Dist: termcolor (>=2.4.0,<3.0.0) ; extra == "cli"
+Description-Content-Type: text/markdown
+
+# MySkoda
+
+Library for interacting with the MySkoda APIs.
