@@ -1,0 +1,3 @@
+[console_scripts]
+wallcrop = wallcrop.wallcrop:main
+wallswitch = wallcrop.wallswitch:main
