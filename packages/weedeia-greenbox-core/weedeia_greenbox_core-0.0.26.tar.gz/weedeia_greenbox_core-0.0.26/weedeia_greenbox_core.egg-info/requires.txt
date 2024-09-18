@@ -1,0 +1,5 @@
+wheel
+fastapi
+uvicorn
+rpi.gpio
+adafruit-circuitpython-dht
