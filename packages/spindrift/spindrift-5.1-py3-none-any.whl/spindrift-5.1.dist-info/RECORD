@@ -1,0 +1,11 @@
+spindrift/__init__.py,sha256=i3zoPNVpqhhRZuUogAU5-Y7lTiwcSxvr_CrkI12i5_A,59
+spindrift/cli.py,sha256=QzC3BiSXnoHJyks7RNYdMnjmjqyJuj0z1zQyS_iLLKQ,3369
+spindrift/compat.py,sha256=1PUUDHyl3YTLPS3XwgskjrXuFPdS-4vq--T9AS-m4Es,518
+spindrift/packager.py,sha256=qW2x5V_j-B91dHjZ789TuIWE00nKXvoOf-F3zijyfHs,40522
+spindrift/wsgi.py,sha256=RhH_HaNClsdXA81EifWH8Px3lHQFvAUhrh40VAcVXRE,4145
+spindrift-5.1.data/scripts/spindrift,sha256=RajKHml3qsiexoiyJQABG-3wPB1iGwIchVCuKcbfBa4,102
+spindrift-5.1.dist-info/LICENSE,sha256=Gzpmw8xpPYy5ivDW3dtNEV7bIlI31bxSxo65cNJLjC8,1062
+spindrift-5.1.dist-info/METADATA,sha256=BjoPZl29z3adDuZEf2hat9DwNFAPv6h69oJ56QBhnU0,976
+spindrift-5.1.dist-info/WHEEL,sha256=nCVcAvsfA9TDtwGwhYaRrlPhTLV9m-Ga6mdyDtuwK18,91
+spindrift-5.1.dist-info/top_level.txt,sha256=TfRe7kzXWk35B--uDWON7NCaZ4X1V2vvmBdULzdx1I0,10
+spindrift-5.1.dist-info/RECORD,,
