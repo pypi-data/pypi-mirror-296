@@ -1,0 +1,2 @@
+[endstone]
+pluggy = endstone_pluggy:Pluggy
