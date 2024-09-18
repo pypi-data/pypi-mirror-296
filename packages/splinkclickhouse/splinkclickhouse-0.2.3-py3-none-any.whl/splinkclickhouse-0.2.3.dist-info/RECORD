@@ -1,0 +1,10 @@
+splinkclickhouse/__init__.py,sha256=GUyFlpFwSdikn-9TpRK-qTWHGUTqgh5pHJpJ3zPwWzQ,153
+splinkclickhouse/dialect.py,sha256=E-6x_qJhGY33AXRJ3VLVVkbTylRru-pvBDwuwsBoNM4,3118
+splinkclickhouse/chdb/database_api.py,sha256=-_n3SyIg-a8p2GZtU8p1OJNZ94nKGCBFEa8RI2SLmFQ,3438
+splinkclickhouse/chdb/dataframe.py,sha256=NMDsSB2Rzz_1bXhJvIp4TPXvwJihPUGlTQd0oz5Hg70,1834
+splinkclickhouse/clickhouse/database_api.py,sha256=YKXuF9ddze_N2H9UZW6AQWmTPMNn6XTeoVdyWFAiDmA,3365
+splinkclickhouse/clickhouse/dataframe.py,sha256=CvN5iwXqDSl7M6e_3OjqrrWhcEaR31aDZ7HUIno7KXs,1636
+splinkclickhouse-0.2.3.dist-info/METADATA,sha256=jEPH6F7PAzHqhCFPMFEVw7U5_t0VwMsIKuEBxsJv5S0,5812
+splinkclickhouse-0.2.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+splinkclickhouse-0.2.3.dist-info/licenses/LICENSE,sha256=QRifhAxDtKMav2ueMsiMf9Nlj5rcSk3mcgskyABJTO0,1068
+splinkclickhouse-0.2.3.dist-info/RECORD,,
