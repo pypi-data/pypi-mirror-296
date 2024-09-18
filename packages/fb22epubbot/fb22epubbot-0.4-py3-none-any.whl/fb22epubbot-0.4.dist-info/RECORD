@@ -1,0 +1,10 @@
+fb22epubbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fb22epubbot/bot.py,sha256=iuUALpll4xVFGljDPrpvcxnIvmrQY8cuAZCf54kz53U,8249
+fb22epubbot/data/navarro.epub,sha256=VVfvEj3wSr1N5p7aUJFfuCoJ_gONLi8rY9Br4T-2QHU,1890853
+fb22epubbot/data/navarro.fb2,sha256=R_2clvJEj2ZmMK7dQPGeZG-V2C2coifRKe_-OQAv-uM,3166102
+fb22epubbot/data/navarro_thumbnail.jpg,sha256=f203YJiSMT9riapOwpg0p0vZB7g3PbeN0UQcKC541jo,37570
+fb22epubbot/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fb22epubbot-0.4.dist-info/METADATA,sha256=3Sf7ogZV0xQzMmkLRkwJw6VLyLmtES5mUgQXkc3M6Jc,739
+fb22epubbot-0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fb22epubbot-0.4.dist-info/entry_points.txt,sha256=U4r4WA7ZMTS7vDbnC9uaVmQQjDkSZO3SXr-a8a7v8sA,52
+fb22epubbot-0.4.dist-info/RECORD,,
