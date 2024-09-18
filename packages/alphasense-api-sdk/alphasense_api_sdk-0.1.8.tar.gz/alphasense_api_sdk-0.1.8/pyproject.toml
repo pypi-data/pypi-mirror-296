@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "alphasense-api-sdk"
+description = "AlphaSense API SDK"
+authors = [{ name = "AlphaSense", email = "api_team@alpha-sense.com" }]
+version = "0.1.8"
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+]
+dependencies = [
+  "graphql-core>=3.2.0,<3.3",
+  "toml~=0.10",
+  "httpx~=0.23",
+  "pydantic>=2.0.0,<3.0.0",
+]
+
+[project.optional-dependencies]
+opentelemetry = ["opentelemetry-api"]
+
+[tool.isort]
+profile = "black"
+combine_as_imports = true
+
+[tool.hatch.build]
+include = ["alphasense_api_sdk/**/*.py", "alphasense_api_sdk/py.typed"]
+exclude = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["alphasense_api_sdk"]
+
+[tool.hatch.build.targets.sdist]
+include = ["alphasense_api_sdk/**/*.py"]
