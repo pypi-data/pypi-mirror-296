@@ -1,0 +1,7 @@
+README.md
+setup.py
+mymemnochtest.egg-info/PKG-INFO
+mymemnochtest.egg-info/SOURCES.txt
+mymemnochtest.egg-info/dependency_links.txt
+mymemnochtest.egg-info/requires.txt
+mymemnochtest.egg-info/top_level.txt
