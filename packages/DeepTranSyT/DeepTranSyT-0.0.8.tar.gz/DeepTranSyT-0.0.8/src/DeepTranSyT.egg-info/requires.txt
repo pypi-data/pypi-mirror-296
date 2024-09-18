@@ -1,0 +1,8 @@
+Bio
+biopython
+fair_esm
+numpy
+pandas
+pytorch_lightning
+tensorflow
+torch
