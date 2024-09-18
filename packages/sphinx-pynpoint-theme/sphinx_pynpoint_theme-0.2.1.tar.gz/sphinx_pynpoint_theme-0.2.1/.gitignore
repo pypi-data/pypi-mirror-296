@@ -1,0 +1,4 @@
+sphinx_pynpoint_theme.egg-info/
+dist/
+.*.sw?
+venv
