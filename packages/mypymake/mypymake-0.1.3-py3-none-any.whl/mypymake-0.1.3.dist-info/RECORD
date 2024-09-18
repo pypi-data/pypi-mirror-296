@@ -1,0 +1,9 @@
+pymake/__init__.py,sha256=5xvN_gb61nKeq5TER5dSfcArTP3DVasZGN_MQq5dNpA,23
+pymake/_types.py,sha256=mc49YVxd6qDz2Dhkh8ugILQqH7Zg_Sy8aKHy8Dd6XBY,37
+pymake/bare.py,sha256=b6Pv_2dlGFIWpKb2w_qjuq-SHXjb9wgjR6rOsiUNYls,7284
+pymake/cmake.py,sha256=DHb_N7mnx_GrtQJ92bCZaGRpGILyCK79ApwMdPXvI00,5417
+mypymake-0.1.3.dist-info/LICENSE,sha256=NJM1KnW85lL8DyLA4Y4VbnxC1Jw-SlDBYW4mpA-CLuU,1090
+mypymake-0.1.3.dist-info/METADATA,sha256=8bHqF0qH37T5BgjewwqjTj0PTuX1oMsuYPI0cCnJmCo,3147
+mypymake-0.1.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mypymake-0.1.3.dist-info/top_level.txt,sha256=OCd5M8nDdx1wH-Fib-6cjOU4dHAeTuU07e1C2WBG6Bc,7
+mypymake-0.1.3.dist-info/RECORD,,
