@@ -1,0 +1,7 @@
+twmap-0.6.2.dist-info/METADATA,sha256=JEN9jVJn2vum0Z0zg5ir0xpClhsgRADm0GkxHzT3dS8,2403
+twmap-0.6.2.dist-info/WHEEL,sha256=n30k3Ow-b4c_NDB09x1NbAG27ocFkmYFGPkkUsHxvvE,94
+twmap/__init__.py,sha256=d6_5CX18ahmYKc2eZ9coQdnj9U_jn-ar_2vKIlQjzWc,103
+twmap/__init__.pyi,sha256=wJDujZ-6gJWgXnSgZ1GBG31_wbKnVNDdH_UvGWMbORg,5054
+twmap/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twmap/twmap.pyd,sha256=HuDPMmIArMPSkYUw7lz0PX8luExTn-vCEe9sIEYi14U,7860176
+twmap-0.6.2.dist-info/RECORD,,
