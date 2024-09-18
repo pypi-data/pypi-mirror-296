@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: smopay
+Version: 0.0.10
+Summary: Package for payment gateways SMO uses
+Home-page: https://github.com/omi-paulalmerino/smo-pay
+Author: Paul Almerino
+Author-email: paul.almerino@smsupermalls.com
+License: BSD 2-clause
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# SMO Pay
+
+> Note: `Test push for Version 0.0.10`.
+
+## Technology
+
+- Python 3.9.15
+
+## Payment Options
+
+- Xendit Credit Card
+
+## Sample Credit Card Charging
+
+```
+from smopay.card import Card
+
+card = Card()
+
+card.ref_id = "..."
+card.token_id = "..."
+card.authentication_id = "..."
+card.amount = "..."
+
+response = card.charge()
+
+print(response)
+```
