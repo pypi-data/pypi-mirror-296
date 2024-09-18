@@ -1,0 +1,12 @@
+text_to_speech_program/__init__.py,sha256=ruULPQI7A5xxFhCYlc2-Yak7eGnabqCYTahYYvxbPtc,19
+text_to_speech_program/client.py,sha256=Oo4Q4AdtOQdGmeI8FOM5Buhu-PABVQqBh6tcUt-bG1w,3715
+text_to_speech_program/config.py,sha256=l4Yk48XCDRcWPevv_UUUnzBuIZn-8vDLzZNl37czxDQ,1313
+text_to_speech_program/server.py,sha256=veXsFq7Kr4g0EfoE8z3MZhAhSoQjn3gY2pKc0U5EgZs,6089
+text_to_speech_program/work_audio.py,sha256=8v-i9RFJEivDbkqEWJAgfap9PFw4NkJ4Am8FRPYPrCQ,1711
+text_to_speech_program/icons/text_to_speech_program.png,sha256=6kMua09LcjlLALY_6gdSO51hxVyZmFK9Y5aWSDlEtG4,31326
+text_to_speech_program-0.1.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+text_to_speech_program-0.1.5.dist-info/METADATA,sha256=PMlqmQoREoTLIL1UYKAssjp9k6jFlxEOwHKTQdpr9_w,5384
+text_to_speech_program-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+text_to_speech_program-0.1.5.dist-info/entry_points.txt,sha256=siOM1AbdwBQR6msAr_DHi1vZfPtt66jN2VnwxqRUtD0,131
+text_to_speech_program-0.1.5.dist-info/top_level.txt,sha256=7UDuVq-aDjqTfcWu12tZpaqa8f0gad237CSoKXFObwQ,23
+text_to_speech_program-0.1.5.dist-info/RECORD,,
