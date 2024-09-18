@@ -1,0 +1,6 @@
+anywidget
+traitlets
+ipylab
+IPython
+traceback
+json
