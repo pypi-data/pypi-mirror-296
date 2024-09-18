@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/fireapi/__init__.py
+src/fireapi/api.py
+src/fireapi/exceptions.py
+src/fireapi/interface.py
+src/fireapi.egg-info/PKG-INFO
+src/fireapi.egg-info/SOURCES.txt
+src/fireapi.egg-info/dependency_links.txt
+src/fireapi.egg-info/requires.txt
+src/fireapi.egg-info/top_level.txt
