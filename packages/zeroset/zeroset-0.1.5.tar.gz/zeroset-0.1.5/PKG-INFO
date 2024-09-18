@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: zeroset
+Version: 0.1.5
+Summary: Useful collection of features.
+Home-page: https://github.com/springkim/zeroset
+Author: Bomm Kim
+Author-email: springnode@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: natsort>=8.0.0
+Requires-Dist: Pillow>=10.0.0
+Requires-Dist: opencv-python
+Requires-Dist: screeninfo>=0.8.0
+Requires-Dist: tabulate>=0.9.0
+Requires-Dist: pytz
+Requires-Dist: selenium>=4.0.0
+Requires-Dist: webdriver-manager>=4.0.0
+Requires-Dist: screeninfo
+Requires-Dist: gif
+Requires-Dist: chromedriver_autoinstaller
+Requires-Dist: image_similarity_measures
+Requires-Dist: pyfftw
+Requires-Dist: imagehash
+
+# zeroset
+Useful collection of features
+
+
+# Memo
+
+```bash
+# 가상환경활성화
+venv\Scripts\activate.bat
+```
+
+
+https://gist.github.com/springkim/420a131a738334bf53f29d2fff9fbd16#file-tabulate_formats-md
