@@ -1,0 +1,14 @@
+xmonkey_lidy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xmonkey_lidy/cli.py,sha256=zBGDI_DZlTS3LpURghRHokl5rrfGkKX63QcU1r1zmtw,2119
+xmonkey_lidy/downloader.py,sha256=dOLc2aN9xfOSkyBk2M5Z2csymFhYU7VzbeDbUKBSf-A,6675
+xmonkey_lidy/matcher.py,sha256=rWu-bvj2kuLbpGvTOnm9iZlw7qsou8XTm2j7HKI9Kt8,12405
+xmonkey_lidy/utils.py,sha256=JgQLxI-lwcXTtOVhVaAWvMNyKS7NFQKM5z5XEhuKo_k,770
+xmonkey_lidy/data/spdx_exclusions.json,sha256=dmIgfHftQU3hoAwfigkB3mUnA572921LSYCphYbtwek,36919307
+xmonkey_lidy/data/spdx_license_patterns.json,sha256=rQLB-XaWzVxPKEcDiGoPfu6JxUSq4YyugjG6cCCgbUE,220403
+xmonkey_lidy/data/spdx_licenses.json,sha256=AzAheQVGLgoRscrr3gp1URj8th13xUPTmXXSb2sLxJg,5036654
+xmonkey_lidy-1.0.10.dist-info/LICENSE,sha256=V9aoB12bWeFi_YXDRgziQyiUd3Ya1hJCuqxdNK6yJLc,1066
+xmonkey_lidy-1.0.10.dist-info/METADATA,sha256=mtTv6fAInMkNSeUFHOa1mMgRPC8zjJUSyxtcuYbdW44,327
+xmonkey_lidy-1.0.10.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+xmonkey_lidy-1.0.10.dist-info/entry_points.txt,sha256=Puu-NrEKF1b7kGWZuEcWeLSgTPEns_Z0VsDoQh3ODbo,54
+xmonkey_lidy-1.0.10.dist-info/top_level.txt,sha256=5eINXSFO64LYG16PQLq7b5nWDTU47zVqXpZGJ6Ba-c4,13
+xmonkey_lidy-1.0.10.dist-info/RECORD,,
