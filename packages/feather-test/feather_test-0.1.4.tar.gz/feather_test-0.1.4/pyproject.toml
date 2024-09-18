@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "feather-test"
+version = "0.1.4"
+description = "Feather-test: A event-driven testing framework for Python"
+authors = ["Jason Sanders <me@fictitiouswizard.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/fictitiouswizard/feather-test"
+repository = "https://github.com/fictitiouswizard/feather-test"
+documentation = "https://feather-test.readthedocs.io"
+keywords = ["testing", "unittest", "event-driven"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+packages = [
+    { include = "feather_test" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama = "^0.4.6"
+
+[tool.poetry.group.dev.dependencies]
+debugpy = "^1.8.5"
+
+[tool.poetry.scripts]
+feather = "feather_test.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/fictitiouswizard/feather-test/issues"
