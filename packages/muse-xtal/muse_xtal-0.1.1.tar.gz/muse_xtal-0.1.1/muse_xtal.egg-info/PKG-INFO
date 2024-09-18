@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: muse-xtal
+Version: 0.1.1
+Author-email: Yuan Chiang <cyrusyc@lbl.gov>
+License: MIT License
+        
+        Copyright (c) 2023, Yuan Chiang
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repo, https://github.com/chiang-yuan/muse
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ase
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: mp-api>=0.37.0
+Requires-Dist: python-dotenv
+
+# Muse
+
+Muse is a python package for fast building amorphous solids and liquid mixtures based on relaxed solid-state structures on [Materials Project](https://materialsproject.org/) using [Packmol](http://m3g.iqm.unicamp.br/packmol/home.shtml) and machine learning interatomic potentials/force fields (MLIPs/MLFFs), especially universal interatomic potentials (UIPs) such as MACE and CHGNet.
+## Usage
+
+### Building the book
+
+If you'd like to develop and/or build the muse book, you should:
+
+1. Clone this repository
+2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
+3. (Optional) Edit the books source files located in the `docs/` directory
+4. Run `jupyter-book clean docs/` to remove any existing builds
+5. Run `jupyter-book build docs/`
+
+A fully-rendered HTML version of the book will be built in `docs/_build/html/`.
+
+### Hosting the book
+
+Please see the [Jupyter Book documentation](https://jupyterbook.org/publish/web.html) to discover options for deploying a book online using services such as GitHub, GitLab, or Netlify.
+
+For GitHub and GitLab deployment specifically, the [cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book) includes templates for, and information about, optional continuous integration (CI) workflow files to help easily and automatically deploy books online with GitHub or GitLab. For example, if you chose `github` for the `include_ci` cookiecutter option, your book template was created with a GitHub actions workflow file that, once pushed to GitHub, automatically renders and pushes your book to the `gh-pages` branch of your repo and hosts it on GitHub Pages when a push or pull request is made to the main branch.
+
+## Contributors
+
+We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/chiang-yuan/docs/graphs/contributors).
+
+## Credits
+
+This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
