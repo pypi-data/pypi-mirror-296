@@ -1,0 +1,30 @@
+[project]
+name = "llm_math"
+version = "0.1.4"
+description = "A tool designed to evaluate the performance of large language models on mathematical tasks."
+authors = [
+    { name = "Haoxiang Sun", email = "hxiang.sun@gmail.com" },
+]
+dependencies = [
+    "vllm>=0.6.1",
+    "word2number>=1.1",
+    "antlr4-python3-runtime==4.11.1",
+    "Pebble>=5.0.7",
+    "timeout-decorator>=0.5.0",
+    "latex2sympy2-llmmath==1.9.1",
+    "sympy==1.12",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
