@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools >= 61.0", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sphinx-palewire-theme"
+dynamic = ["version"]
+authors = [
+  { name="Ben Welsh", email="b@palewi.re" },
+]
+description = "A Sphinx theme for sites hosted at palewi.re"
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "Sphinx",
+    'exceptiongroup; python_version<"3.11"',
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.entry-points."sphinx.html_themes"]
+palewire = "palewire"
+
+[project.urls]
+Homepage = "https://github.com/palewire/sphinx-palewire-theme/"
+Issues = "https://github.com/palewire/sphinx-palewire-theme/issues"
+
+[tool.setuptools]
+packages = ["palewire"]
+zip-safe = false
+
+[tool.setuptools_scm]
