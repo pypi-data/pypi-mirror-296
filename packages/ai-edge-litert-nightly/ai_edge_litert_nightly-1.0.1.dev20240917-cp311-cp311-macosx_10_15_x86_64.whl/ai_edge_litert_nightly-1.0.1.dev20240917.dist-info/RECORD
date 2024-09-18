@@ -1,0 +1,9 @@
+ai_edge_litert/__init__.py,sha256=XRA9xtm2xwuZMGtSbH9u8wPMb2z3xAm9jrYJPii9hT4,80
+ai_edge_litert/_pywrap_tensorflow_interpreter_wrapper.so,sha256=b8_MAokwXHQshGyWQYZ9tJOaVd7aGg_XQX-fQJQHzYQ,7780056
+ai_edge_litert/interpreter.py,sha256=TDkj8SndrPk31gOpXk0vxIY_JpTiHu0uJfDgy9AZUWU,39767
+ai_edge_litert/metrics_interface.py,sha256=dVu6SmbnQUntPgE5o6BxHVMyemwli-7F6tDfVMGrlYI,1542
+ai_edge_litert/metrics_portable.py,sha256=hQ4dC75UblrKTRxkbwG-LoWAO6_Fe3SX_ehuOVqCMnY,2048
+ai_edge_litert_nightly-1.0.1.dev20240917.dist-info/METADATA,sha256=IWMR3zYi66T__0Od8Jw7Y5EeGhY0IM7PaJQYdeGD9QQ,1437
+ai_edge_litert_nightly-1.0.1.dev20240917.dist-info/WHEEL,sha256=P0R0gfgsujlzceZ333QSHUrBf5RhwWvy-94Q20X43OE,111
+ai_edge_litert_nightly-1.0.1.dev20240917.dist-info/top_level.txt,sha256=WcDZgG99n0a0xDS_ipL8ZWy956g1v5fVyR3FH96VDT0,15
+ai_edge_litert_nightly-1.0.1.dev20240917.dist-info/RECORD,,
