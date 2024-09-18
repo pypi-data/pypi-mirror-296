@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: fetter
+Version: 0.4.0
+Classifier: Programming Language :: Rust
+License-File: LICENSE
+Summary: Discover, manage, and monitor Python packages across systems
+Keywords: package,allow-listing
+Author: Christopher Ariza
+Maintainer: Christopher Ariza
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/flexatone/fetter-py
+Project-URL: Repository, https://github.com/flexatone/fetter-py.git
+Project-URL: Issues, https://github.com/flexatone/fetter-py/issues
+
+# fetter-py
+Discover, manage, and monitor Python packages accross systems
+
