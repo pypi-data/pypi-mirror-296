@@ -1,0 +1,60 @@
+Metadata-Version: 2.3
+Name: r2x
+Version: 1.0.0rc0
+Summary: ReEDS to X parser
+Author-email: Pedro Sanchez <psanchez@nrel.gov>, Obika Kodi <kodi.obika@nrel.gov>, Vivienne Liu <vivienne.liu@nrel.gov>
+License-File: LICENCE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.11
+Requires-Dist: infrasys>=0.1.0
+Requires-Dist: jsonschema~=4.23
+Requires-Dist: loguru~=0.7.2
+Requires-Dist: pandas~=2.2
+Requires-Dist: plexosdb>=0.0.2
+Requires-Dist: polars~=1.1.0
+Requires-Dist: pyyaml~=6.0.1
+Requires-Dist: rich~=13.7.1
+Requires-Dist: tables~=3.9.2
+Provides-Extra: all
+Requires-Dist: autodoc-pydantic; extra == 'all'
+Requires-Dist: bump2version; extra == 'all'
+Requires-Dist: ghp-import; extra == 'all'
+Requires-Dist: ipython; extra == 'all'
+Requires-Dist: mypy~=1.11.0; extra == 'all'
+Requires-Dist: myst-parser; extra == 'all'
+Requires-Dist: pre-commit; extra == 'all'
+Requires-Dist: pudb; extra == 'all'
+Requires-Dist: pytest; extra == 'all'
+Requires-Dist: pytest-cov; extra == 'all'
+Requires-Dist: ruff~=0.5.2; extra == 'all'
+Requires-Dist: sphinx-autobuild; extra == 'all'
+Requires-Dist: sphinx-book-theme; extra == 'all'
+Requires-Dist: sphinx-copybutton; extra == 'all'
+Requires-Dist: sphinx-tabs; extra == 'all'
+Requires-Dist: sphinxcontrib-mermaid; extra == 'all'
+Requires-Dist: types-pyyaml; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: bump2version; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: mypy~=1.11.0; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pudb; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: ruff~=0.5.2; extra == 'dev'
+Requires-Dist: sphinx-autobuild; extra == 'dev'
+Requires-Dist: types-pyyaml; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: autodoc-pydantic; extra == 'docs'
+Requires-Dist: ghp-import; extra == 'docs'
+Requires-Dist: myst-parser; extra == 'docs'
+Requires-Dist: sphinx-book-theme; extra == 'docs'
+Requires-Dist: sphinx-copybutton; extra == 'docs'
+Requires-Dist: sphinx-tabs; extra == 'docs'
+Requires-Dist: sphinxcontrib-mermaid; extra == 'docs'
