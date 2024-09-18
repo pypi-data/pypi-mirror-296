@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: DeepTranSyT
+Version: 0.0.7
+Summary: Transporters annotation using LLM's
+Author: Gonçalo Apolinário Cardoso
+Author-email: goncalocardoso2016@gmail.com
+Requires-Dist: Bio
+Requires-Dist: biopython
+Requires-Dist: fair-esm
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pytorch-lightning
+Requires-Dist: tensorflow
+Requires-Dist: torch
+
