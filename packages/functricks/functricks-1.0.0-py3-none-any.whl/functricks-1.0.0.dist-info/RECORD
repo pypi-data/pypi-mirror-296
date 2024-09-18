@@ -1,0 +1,12 @@
+functricks/__init__.py,sha256=0zpBfzO64sy3FMVSKxe4TzTdDEXGpDaPHgG23YWlvts,21
+functricks/_core/__init__.py,sha256=zlv1N-EpQULWJxHuuaus-zQ_8k1t_FgczhyIwtYlAAI,74
+functricks/_core/keyalias.py,sha256=0ZZyCvxXjqy2Y35KQdq_Ci04CKXy_5-uzpSOLwnguR8,683
+functricks/_core/overloadable.py,sha256=pp6xFfMlp9t0GPgwFHAKApDzg2nLbsAcV3M4cgXbh-0,632
+functricks/_core/tofunc.py,sha256=9M2y7Gh9eZ0Jm12FjqN7m9FadMAk6u0i3frd2Zw9vq4,217
+functricks/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+functricks/tests/test_legacy.py,sha256=NcuPKp__10sQzmS-WFEHgxZMId2QoZzrxL-1w8_qC5Q,2153
+functricks-1.0.0.dist-info/LICENSE.txt,sha256=QwqYepQwTN5xG57cngKt6xxYD9z9hw9d3lcI8zSLiNg,1074
+functricks-1.0.0.dist-info/METADATA,sha256=-wcJ-jzIetNLumTv3TKErrlG185zLyNpTEUQA2ICTmE,2910
+functricks-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+functricks-1.0.0.dist-info/top_level.txt,sha256=0u8bJ_efpGRk07ZuFoFfLwLSnjvd4Zg8cxHroc95_6I,11
+functricks-1.0.0.dist-info/RECORD,,
