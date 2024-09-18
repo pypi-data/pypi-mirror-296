@@ -1,0 +1,26 @@
+[project]
+name = "dpd-ai-chatbot-julia-stats-client"
+version = "0.2.4"
+description = "Client for dpd-ai-chatbot-julia-stats-api"
+authors = [
+    { name = "bbilskiy", email = "bbilskiy0266@smartds.ru" },
+]
+requires-python = ">=3.9.2"
+readme = "README.md"
+dependencies = [
+    "pydantic>=2.9.1",
+    "pytest>=8.3.3",
+    "aiohttp>=3.10.5",
+]
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
