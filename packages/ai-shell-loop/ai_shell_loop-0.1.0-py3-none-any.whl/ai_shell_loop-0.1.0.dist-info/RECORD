@@ -1,0 +1,11 @@
+ai_shell/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ai_shell/__main__.py,sha256=FKE-SKIWBH7MKlE0LsEie4NWp4sqyWv_HdAHtcIhT-Q,64
+ai_shell/aishell.py,sha256=5T95qwsl9kYuV_RpDjcPl27RHLQTMePHTmul_8NXs98,7270
+ai_shell/describe.py,sha256=b1wYrT5rBNE0HY-m5YvqBsRj6pVYFcdY-PRd9AAYVz0,655
+ai_shell/util.py,sha256=l40WMFjNRaElN5_FPVa_9s-ZHds1xF0s4WTqbwFdza0,661
+ai_shell_loop-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ai_shell_loop-0.1.0.dist-info/METADATA,sha256=05sByW9yZ6NeINnkbXgOpafcsqBW8_X3w3IxdYb4PDQ,1696
+ai_shell_loop-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ai_shell_loop-0.1.0.dist-info/entry_points.txt,sha256=a4zVVWzPXuZ1h0de-hJvKBKVHCQwXQ4CyrydrWj7XPU,48
+ai_shell_loop-0.1.0.dist-info/top_level.txt,sha256=YZE01l6wwb7b0fmR6fCVI8rNPPNQF5Ad8fCjURBZTvY,9
+ai_shell_loop-0.1.0.dist-info/RECORD,,

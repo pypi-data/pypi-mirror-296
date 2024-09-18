@@ -1,0 +1,2 @@
+[console_scripts]
+ai-do = ai_shell.aishell:main

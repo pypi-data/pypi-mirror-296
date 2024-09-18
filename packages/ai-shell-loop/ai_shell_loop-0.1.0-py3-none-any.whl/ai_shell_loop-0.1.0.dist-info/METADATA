@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: ai-shell-loop
+Version: 0.1.0
+Summary: A command line tool that lets an AI do work for you.
+Author: Carlos Freund
+Author-email: carlosfreund@gmail.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai ==1.45.0
+Requires-Dist: pydantic ==2.9.1
+Requires-Dist: PyYAML ==6.0.2
+
+# ai-shell-loop
+Use openAi's gpt to generate and execute bash commands quickly.
+
+## Installation
+
+```bash
+pip install ai-shell-loop
+```
+
+### Open AI Key
+
+Set your api key with `export OPENAI_API_KEY='your-api-key'`
+
+See the [official-docs](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety)
+for more information.
+
+
+## Development Setup
+
+### Create environment
+```bash
+sudo apt install python3 python3-pip python3-venv pipx
+python3 -m venv venv
+source venv/bin/activate  # Activate the virtual environment
+pip install -r requirements.txt  # Install dependencies
+pip install -r build-requirements.txt  # Install dependencies for doing a build.
+```
+
+
+## Run 
+
+With the virtual python environment activated, inside the project root, run `python -m ai_shell "echo the current time"`
+
+
+## Build
+
+Run `python -m build`
+
+### Install locally
+
+```
+pipx install dist/ai_do-0.1.0-py3-none-any.whl
+pipx ensurepath
+```
+After this, the `ai-do` command should be available anywhere. 
+
+### Deploy to PyPi
+
+```
+twine upload dist/ai_do-0.1.0-py3-none-any.whl -u __token__ -p your_pypi_token
+```
