@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/asker/__init__.py
+src/asker/ask.py
+src/asker/config.py
+src/asker/favs.py
+src/asker/history.py
+src/asker/llm.py
+src/asker_cli.egg-info/PKG-INFO
+src/asker_cli.egg-info/SOURCES.txt
+src/asker_cli.egg-info/dependency_links.txt
+src/asker_cli.egg-info/entry_points.txt
+src/asker_cli.egg-info/top_level.txt
