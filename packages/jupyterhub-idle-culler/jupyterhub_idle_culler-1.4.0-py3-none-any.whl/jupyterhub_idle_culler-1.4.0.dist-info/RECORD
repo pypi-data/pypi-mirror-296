@@ -1,0 +1,7 @@
+jupyterhub_idle_culler/__init__.py,sha256=gPkAeZZGt9667lhQSxyuZ9A0xjgRUeTwi1YgNY9zSpw,20287
+jupyterhub_idle_culler/__main__.py,sha256=PjdcY-W2uMV7eh9msmfuiwf4XWP5W59-ucQ_kx8WUsg,79
+jupyterhub_idle_culler-1.4.0.dist-info/METADATA,sha256=6Ns7je1iO-BVsYwQLNsTu7XDxIgTT4dITg-nb_mF8iQ,19094
+jupyterhub_idle_culler-1.4.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+jupyterhub_idle_culler-1.4.0.dist-info/entry_points.txt,sha256=SGs3Kltqsnjy8zt_axC8HrKDIdDg5AtNgEVHIc0WNJs,122
+jupyterhub_idle_culler-1.4.0.dist-info/licenses/COPYING.md,sha256=kYL5WrgrNVolQh09p6KUgD1nEP205eSllCgldLPI3jw,2897
+jupyterhub_idle_culler-1.4.0.dist-info/RECORD,,
