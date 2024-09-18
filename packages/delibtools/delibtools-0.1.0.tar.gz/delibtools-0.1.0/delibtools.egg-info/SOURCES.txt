@@ -1,0 +1,9 @@
+setup.py
+delibtools/__init__.py
+delibtools/core.py
+delibtools/utils.py
+delibtools.egg-info/PKG-INFO
+delibtools.egg-info/SOURCES.txt
+delibtools.egg-info/dependency_links.txt
+delibtools.egg-info/requires.txt
+delibtools.egg-info/top_level.txt
