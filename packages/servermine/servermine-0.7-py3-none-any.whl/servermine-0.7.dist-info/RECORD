@@ -1,0 +1,9 @@
+servermine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+servermine/client.py,sha256=0WLvC5D6z2uis_wiW2JjQDkItzf6mR0lUYtmYIun17g,5768
+servermine/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+servermine/lib/acl.py,sha256=7laiX-NqpzqTb3LXlZkk6LBGQPBPir_6vxnmupyx_D4,4342
+servermine/lib/redis_lib.py,sha256=VF99z67bN8e1FI8bofa32RzRK0_-t7l8X3I2mNBPtFA,1642
+servermine-0.7.dist-info/METADATA,sha256=Gu72xRg5j-utg20oYFkyD81NOf76wha5Re5TcL8_p74,466
+servermine-0.7.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+servermine-0.7.dist-info/top_level.txt,sha256=6eRS7hmQiVgQKn4G8DBoWAT3m-NaSymGw3cf-dfZHjM,11
+servermine-0.7.dist-info/RECORD,,
