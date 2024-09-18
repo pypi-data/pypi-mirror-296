@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+aws_wand.egg-info/PKG-INFO
+aws_wand.egg-info/SOURCES.txt
+aws_wand.egg-info/dependency_links.txt
+aws_wand.egg-info/top_level.txt
