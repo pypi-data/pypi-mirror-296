@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: trieve_py_client
+Version: 0.11.82
+Summary: Trieve API
+Home-page: https://trieve.ai
+Author: Trieve Team
+Author-email: developers@trieve.ai
+License: MIT
+Project-URL: Bug Reports, https://github.com/devflowinc/trieve/issues
+Project-URL: Source, https://github.com/devflowinc/trieve/tree/main/clients/python-sdk
+Project-URL: Documentation, https://docs.trieve.ai/api-reference
+Project-URL: Website, https://trieve.ai
+Keywords: RAG,search,embeddings,recommendations,analytics,trieve
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Description-Content-Type: text/x-rst
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic >=2
+Requires-Dist: typing-extensions >=4.7.1
+
+
+Trieve Python SDK
+=================
+
+Introduction
+------------
+
+This is the official Python SDK for the `Trieve API <https://docs.trieve.ai/api-reference>`__. It provides a convenient way to interact with the API using Python.
+
+See full documentation on Github at `github.com/devflowinc/trieve/tree/main/clients/python-sdk <https://github.com/devflowinc/trieve/tree/main/clients/python-sdk>`__.
+
+Features
+--------
+
+- RAG
+- Search
+- Recommendations
+- Analytics
+
+Installation
+------------
+
+Provide clear instructions on how to install your package. For example:
+
+.. code-block:: bash
+
+   pip install trieve-py-client
