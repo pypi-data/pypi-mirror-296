@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blatann"
+requires-python = ">=3.7"
+authors = [
+    {name = "Thomas Gerstenberg", email = "tgerst6@gmail.com"}
+]
+description = "Python BLE library for using Nordic nRF52 with Connectivity firmware"
+keywords = ["ble", "bluetooth", "nrf52", "nordic"]
+readme = "README.md"
+license = {text = "BSD 3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+dynamic = ["version", "dependencies"]
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "ruff",
+    "isort",
+]
+
+[project.urls]
+Documentation = "https://blatann.readthedocs.io/en/latest/"
+Repository = "https://github.com/ThomasGerstenberg/blatann"
+Changelog = "https://blatann.readthedocs.io/en/latest/changelog.html"
+
+[tool.setuptools.dynamic]
+version = {attr = "blatann.__version__"}
+dependencies = {file = "requirements.txt"}
+
+[tool.ruff]
+line-length = 120
+target-version = "py37"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "PLC", "PLW", "PLE", "RUF"]
+ignore = [
+    "F401",   # ignore unused imports globally, revisit this suppression later
+    "E501",   # ignore line lengths. While it's set at 120, it's not a hard limit
+    "RUF012", # ignore docstring required for mutable class var (revisit later)
+    "RUF013", # allow implicit optional, e.g. allow 'def my_fun(x: int = None)'
+]
+
+[tool.ruff.lint.per-file-ignores]
+"blatann/nrf/nrf_driver.py" = ["F405"]
+"blatann/nrf/nrf_events/__init__.py" = ["F403", "F405"]
+"blatann/nrf/nrf_types/__init__.py" = ["F403"]
+"blatann/bt_sig/*.py" = ["RUF001"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.isort]
+py_version = 37
+src_paths = ["blatann", "tests"]
+
+add_imports = ["from __future__ import annotations"]
+forced_separate = ["tests"]
+
+line_length = 120
+multi_line_output = 5  # Hanging Grid Grouped
+use_parentheses = true
