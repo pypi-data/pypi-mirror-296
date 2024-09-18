@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+sda_package_rh.egg-info/PKG-INFO
+sda_package_rh.egg-info/SOURCES.txt
+sda_package_rh.egg-info/dependency_links.txt
+sda_package_rh.egg-info/top_level.txt
