@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: classno
+Version: 0.0.3
+Summary: 
+Home-page: https://github.com/kuderr/classno
+License: X11-distribute-modifications-variant
+Keywords: library
+Author: kuderr
+Author-email: dakudryavcev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Project-URL: Bug Tracker, https://github.com/kuderr/classno/issues
+Project-URL: Repository, https://github.com/kuderr/classno
+Description-Content-Type: text/markdown
+
+# classno
+
+# About
+
+TBD
+
+# Authors
+
+- Dmitriy Kudryavtsev - author - [kuderr](https://github.com/kuderr)
+
