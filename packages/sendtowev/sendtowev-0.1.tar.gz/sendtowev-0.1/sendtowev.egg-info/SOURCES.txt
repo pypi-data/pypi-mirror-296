@@ -1,0 +1,8 @@
+setup.py
+sendtowev/__init__.py
+sendtowev/main.py
+sendtowev.egg-info/PKG-INFO
+sendtowev.egg-info/SOURCES.txt
+sendtowev.egg-info/dependency_links.txt
+sendtowev.egg-info/requires.txt
+sendtowev.egg-info/top_level.txt
