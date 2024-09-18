@@ -1,0 +1,8 @@
+README.md
+setup.py
+kyne_goes_easy_dataflow.egg-info/PKG-INFO
+kyne_goes_easy_dataflow.egg-info/SOURCES.txt
+kyne_goes_easy_dataflow.egg-info/dependency_links.txt
+kyne_goes_easy_dataflow.egg-info/top_level.txt
+kynegoes_easy_dataflow/Kynegos_functions.py
+kynegoes_easy_dataflow/__init__.py
