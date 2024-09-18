@@ -1,0 +1,85 @@
+# SDK 文档
+
+## 概述
+
+此 SDK 提供了截取网页长屏截图和获取网页源码的功能。通过 Selenium 库实现对网页的操作，并支持自定义参数以满足不同场景的需求。
+
+## 安装依赖
+
+确保安装了 `Selenium` 库以及对应的浏览器驱动程序。
+
+## 导入模块
+
+```
+python from selenium import webdriver 
+from selenium.webdriver.chrome.options import Options 
+import NorrisUtils.SeleniumUtils.spiders 
+import NorrisUtils.SeleniumUtils.thresholds
+```
+
+## 函数说明
+
+### `dump_page_capture(url, filename, **kwargs)`
+
+- **功能**：截取指定网页的长屏截图并保存到文件。
+- **参数**：
+    - `url` (str)：需要截图的网页 URL。
+    - `filename` (str)：截图保存的文件名。
+    - `kwargs` (dict)：附加参数，包括但不限于以下键值：
+        - `width` (int)：浏览器宽度，默认为 2180。
+        - `height` (int)：浏览器高度，默认为 1280。
+        - `maximum` (bool)：是否最大化浏览器窗口，默认为 True。
+        - `threshold` (function)：阈值算法函数，默认为 `NorrisUtils.SeleniumUtils.thresholds.maximize`。
+- **返回值**：截图文件名 (str)。
+
+### `dump_page_source(url, **kwargs)`
+
+- **功能**：获取指定网页的源码。
+- **参数**：
+    - `url` (str)：访问的目标网页 URL。
+    - `kwargs` (dict)：可变关键字参数，包括但不限于以下键值：
+        - `width` (int)：浏览器宽度，默认为 2180。
+        - `height` (int)：浏览器高度，默认为 1280。
+        - `maximum` (bool)：是否最大化浏览器窗口，默认为 False。
+        - `threshold` (function)：阈值算法函数，默认为 `NorrisUtils.SeleniumUtils.thresholds.default_threshold`。
+        - `file_name` (str)：保存页面源码的文件名，默认为 None。
+        - `browser` (Obj)：浏览器对象，默认为 None。
+        - `close` (bool)：是否关闭浏览器，默认为 True。
+- **返回值**：页面源码 (str)。
+
+### `freestyle(url, **kwargs)`
+
+- **功能**：通用函数，用于执行具体的爬虫逻辑。
+- **参数**：
+    - `url` (str)：访问的目标网页 URL。
+    - `kwargs` (dict)：可变关键字参数，包括但不限于以下键值：
+        - `width` (int)：浏览器宽度，默认为 2180。
+        - `height` (int)：浏览器高度，默认为 1280。
+        - `maximum` (bool)：是否最大化浏览器窗口，默认为 False。
+        - `browser` (Obj)：浏览器对象，默认为 None。
+        - `close` (bool)：是否关闭浏览器，默认为 True。
+        - `spider` (function)：具体的爬虫逻辑，默认为 `NorrisUtils.SeleniumUtils.spiders.save_page_source`。
+- **返回值**：页面源码 (str)。
+
+## 示例代码
+
+### 截图示例
+
+``` 
+dump_page_capture('https://www.example.com', 'example.png', width=1920, height=1080)
+```
+
+### 获取源码示例
+
+``` 
+source_code = dump_page_source('https://www.example.com', file_name='example.html', width=1920, height=1080)
+```
+
+## 注意事项
+
+- 确保安装了相应的浏览器驱动程序，并将其路径添加到环境变量中。
+- 在无头模式下运行时，确保服务器支持无头浏览器操作。
+- 异常处理已加入，确保程序在遇到错误时能够正常退出。
+
+
+
