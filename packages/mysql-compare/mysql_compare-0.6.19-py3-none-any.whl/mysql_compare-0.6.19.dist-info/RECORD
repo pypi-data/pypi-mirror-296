@@ -1,0 +1,9 @@
+mysql_compare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mysql_compare/__main__.py,sha256=oW0D99XKcn4kBNLbkqu7f6prRcD3MGGcnp57JD2TXLQ,80
+mysql_compare/mysql_compare.py,sha256=3D51gEBgnTIfqYTNuBs0oMpfJ6qEvVa5u3xpRUMhhXU,23680
+mysql_compare/mysql_compare_forward.py,sha256=qkkIEB_wk0oQC4OkY9XSzzGP9WTaJx-cpL6bNFXf9jk,33449
+mysql_compare/mysql_compare_reverse.py,sha256=ZJXGlQ9Q_bmSnEukX0lm6_HO8iwuK5BfXfxMMSsh3GU,9920
+mysql_compare-0.6.19.dist-info/METADATA,sha256=BpvDtMce9hlaHdCORo6l929iFnsJrKTadB_CRpiZsng,129
+mysql_compare-0.6.19.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mysql_compare-0.6.19.dist-info/top_level.txt,sha256=_hosZAxDtgc0NrLRPEQvtRL0SVlyhgncuPDTuQD7Yg4,14
+mysql_compare-0.6.19.dist-info/RECORD,,
