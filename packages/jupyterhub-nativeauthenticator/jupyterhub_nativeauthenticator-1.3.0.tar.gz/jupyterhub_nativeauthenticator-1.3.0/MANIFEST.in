@@ -1,0 +1,8 @@
+include LICENSE
+
+graft docs
+prune docs/_build
+
+# package data
+include nativeauthenticator/*.txt
+include nativeauthenticator/templates/*.html
