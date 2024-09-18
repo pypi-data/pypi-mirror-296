@@ -1,0 +1,79 @@
+interactions:
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"},{"idType":"TICKER","idValue":"UNKNOWN_TICKER","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '116'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOUUvDMBSF/0o4z0GqorC+2W5uha2K2Z7GHkJ6u11qk5qmaCn97xJQEPd24N7v
+          O+c4odJBIz1OqPnMSJFl6yRJsm1Zbh4hYXVLSFGU+63IDqooV0qJ3VO+iUnkL2+vkAhsGvLxLdtB
+          gr7MJXdV5A4KEsa1nes50HOxLq4rejKD5zDuxy4iuWtbZ4UKzjSQaLVvKCgywcWG1cfAYYzURXvK
+          33Xf/7Xeqgd1v1j8s95da3/PS+qN5y6wsz/759MsJ3xqb9mekaJ0giuygWsmL2o32OoG8+kbrftq
+          nTsBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:24 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '21'
+        ratelimit-reset:
+          - '59'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '4'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 61fd5bc4-9f12-407c-9821-13edbc9e1062
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+version: 1

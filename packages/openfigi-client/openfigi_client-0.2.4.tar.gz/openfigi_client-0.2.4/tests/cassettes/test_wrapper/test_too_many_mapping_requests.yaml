@@ -1,0 +1,1174 @@
+interactions:
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:24 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '20'
+        ratelimit-reset:
+          - '59'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '10'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - e78bafc4-a965-4df6-966e-3137ee9f8132
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:25 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '19'
+        ratelimit-reset:
+          - '58'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '6'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - e4d4864c-e972-4f64-9a80-44d0ee5eedb4
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:25 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '18'
+        ratelimit-reset:
+          - '58'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '11'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 1c8ae1df-a152-4eca-9285-470b443acc04
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:26 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '17'
+        ratelimit-reset:
+          - '57'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '5'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 71a099c9-36f3-4594-8bcf-d7a4283d7849
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:26 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '16'
+        ratelimit-reset:
+          - '57'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '10'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 68bbfcc6-3ae8-40bd-b2ba-5890f70ba20c
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:26 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '15'
+        ratelimit-reset:
+          - '56'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '7'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 805e6874-3336-4b59-b71f-abfc8bd46f2e
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:27 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '14'
+        ratelimit-reset:
+          - '56'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '5'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 9f94d3d6-33df-4ed2-99f4-9dd69391ea1c
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:27 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '13'
+        ratelimit-reset:
+          - '56'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '5'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - e5cebc71-8804-46fb-8dce-51e5dd6e292a
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:28 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '12'
+        ratelimit-reset:
+          - '55'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '26'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 6522f3af-f54b-4a86-a937-1d5b11760ead
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:28 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '11'
+        ratelimit-reset:
+          - '55'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '18'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 50bde139-4731-41d9-b893-65c4a9ecb2a1
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:28 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '10'
+        ratelimit-reset:
+          - '54'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '5'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - abacf71e-67dd-4696-b0bd-9da01de58215
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:29 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '9'
+        ratelimit-reset:
+          - '54'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '5'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - e225091f-4223-4712-a052-edd41c3cb1ab
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:29 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '8'
+        ratelimit-reset:
+          - '54'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '19'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 1e7541ed-4aa1-4bd8-9738-0af19ef5dd6c
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:30 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '7'
+        ratelimit-reset:
+          - '53'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '6'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 31f6acf0-4c22-4567-8a0f-7c84c51594a7
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAA2WOTWsCMRRF/8pw11mMlQrOrolfAzqWRlfiIsRXDdNMpskTOoj/vQRaKHV34b1z
+          7j3ccDJsUB1ueHdnhwpSLsuylOumWU0g0BlPqFA3u3Uh97pu5loXmxe1yqlQ27dXCLCzLcX8JjcQ
+          oC97UeGUub2GgA2+D8kxLepl/ViRyF6j42E39BlRwfvQFZqDbSHgTWyJNVkOuWH+eXU8ZOpiIqkP
+          k9Jf60g/6/F0+s/69Kj9Pc8o2eh6dqH72X8/3o/fAxd/JRgBAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self'' https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        date:
+          - Thu, 09 May 2024 11:53:30 GMT
+        expect-ct:
+          - max-age=0
+        expires:
+          - '0'
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-remaining:
+          - '6'
+        ratelimit-reset:
+          - '53'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '6'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - a563d9e0-a4f9-4826-8f22-01e0d0e04aff
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+  - request:
+      body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Length:
+          - '53'
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: POST
+      uri: https://api.openfigi.com/v3/mapping
+    response:
+      body:
+        string: upstream request timeout
+      headers:
+        content-length:
+          - '24'
+        content-type:
+          - text/plain
+        date:
+          - Thu, 09 May 2024 11:58:30 GMT
+        server:
+          - istio-envoy
+      status:
+        code: 504
+        message: Gateway Timeout
+version: 1
