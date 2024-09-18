@@ -1,0 +1,11 @@
+airflow_powerbi_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_powerbi_plugin/powerbi_plugin.py,sha256=r-pZxPKC1fKd7xDLu9lTOZ8dv2o8wgcK0pO25QOe1kg,441
+airflow_powerbi_plugin/hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_powerbi_plugin/hooks/powerbi.py,sha256=E4ECUgKeaF_LfhjwGQJ7haeDXEdwinHZ3EDWcdc73fo,11058
+airflow_powerbi_plugin/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_powerbi_plugin/operators/powerbi.py,sha256=QmxZGUy0JL7x4YTjUxdfLwvASxfN2f9ciJGILdQ4Ou0,8219
+airflow_powerbi_plugin-1.0.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+airflow_powerbi_plugin-1.0.1.dist-info/METADATA,sha256=-SH-UzWpX_aiyB87X5DfRIKCX7dTrfhemj-puP3Sq0o,558
+airflow_powerbi_plugin-1.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+airflow_powerbi_plugin-1.0.1.dist-info/top_level.txt,sha256=-A9kuR4iXPR6pqfSz1ZqdxQPnBSWPh7dO2bUBJ8jpAw,23
+airflow_powerbi_plugin-1.0.1.dist-info/RECORD,,
