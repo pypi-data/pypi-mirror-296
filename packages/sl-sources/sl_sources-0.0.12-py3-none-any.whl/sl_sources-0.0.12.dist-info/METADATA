@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: sl_sources
+Version: 0.0.12
+Summary: Code for Society Library Sources
+Home-page: https://github.com/SocietyLibrary/Sources
+Author: SocietyLibrary
+Author-email: info@societylibrary.org
+License: Proprietary
+Keywords: data sources
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.27.1
+Requires-Dist: aiohttp ==3.9.5
+Requires-Dist: PyPDF2 ==3.0.1
+Requires-Dist: Requests ==2.32.3
+Requires-Dist: tqdm ==4.66.4
+Requires-Dist: pytest ==8.2.2
+Requires-Dist: pybtex ==0.24.0
+Requires-Dist: twikit ==2.1.0
+Requires-Dist: pyalex ==0.14
+Requires-Dist: youtube-search2 ==2.1.7
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: yt-dlp ==2024.7.25
+Requires-Dist: playwright ==1.45.1
+Requires-Dist: transformers ==4.43.3
+Requires-Dist: huggingface-hub ==0.24.5
+Requires-Dist: librosa ==0.10.2
+Requires-Dist: torch ==2.4.0
+
+"This is a convenience package which is not currently licensed for use outside of Society Library."
