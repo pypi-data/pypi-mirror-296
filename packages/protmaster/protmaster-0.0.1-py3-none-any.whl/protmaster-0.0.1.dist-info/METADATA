@@ -1,0 +1,128 @@
+Metadata-Version: 2.1
+Name: protmaster
+Version: 0.0.1
+Summary: A powerful proteomic analysis tool
+Home-page: UNKNOWN
+Author: Tang Ting
+Author-email: ttang1900@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: pandas (>=1.3.3)
+Requires-Dist: matplotlib (>=3.3.2)
+Requires-Dist: pymzml (>=2.4.7)
+Requires-Dist: scipy (>=1.6.2)
+Requires-Dist: molmass (==2021.6.18)
+Requires-Dist: tqdm (>=4.62.3)
+Requires-Dist: openpyxl (>=3.0.9)
+Requires-Dist: networkx (>=2.6.3)
+Requires-Dist: scikit-learn (>=1.0.2)
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+protmaster: Tools For working with proteomics
+=====================================================================================================
+
+protmaster is a Python package designed to process high-resolution mass spectrometry data that is coupled with liquid chromatography (LC). Its primary objective is to provide scientists with a user-friendly tool that can be used to read, process, and visualize proteomics data acquired using LC/GC-HRMS .
+
+By utilizing protmaster, users can more easily analyze complex data sets, resulting in a more efficient and streamlined research process. Whether working with LC coupled HRMS data, protmaster is a reliable and effective solution that can help researchers to achieve their scientific goals.
+
+Contributer: Ting Tang
+======================
+First release date: Sep.17.2024
+
+Update
+======
+Sep.15.2024: protmaster update Log 0.0.1::
+
+    * update the extract_tic method
+
+
+protmaster can be installed and import as following:
+
+.. code-block:: python
+
+    pip install protmaster
+
+
+If you just want to update a new version, please update as following:
+
+.. code-block:: python
+
+    pip install protmaster -U
+
+
+
+pyhrms requires major dependencies:
+===================================
+
+* numpy>=1.19.2
+
+* pandas>1.3.3
+
+* matplotlib>=3.3.2
+
+* pymzml>=2.4.7
+
+* scipy>=1.6.2
+
+* molmass==2021.6.18
+
+* tqdm>=4.62.3
+
+* openpyxl>=3.0.9
+
+* networkx>=2.6.3
+
+* scikit-learn>=1.0.2
+
+* pyopenms >= 3.0.0
+
+
+Features
+========
+protmaster provides following functions:
+
+* Read raw LC/GC-HRMS data in mzML format;
+* Powerful and accurate peak picking function for LC/GC HRMS;
+* retention time (rt) and mass over Z stands for charge number of ions (m/z) will be aligned based on user defined error range.
+* Covert profile data to centroid
+* Parallel computing to improve efficiency;
+* Interactive visualizations of raw mzML data;
+* Supporting searching for Local database and massbank;
+* MS quality evaluation for ms data in profile.
+* Can process SWATH data.
+
+
+
+
+Licensing
+=========
+
+The package is open source and can be utilized under MIT license. Please find the detail in licence file.
+
+
+Table of Content
+~~~~~~~~~~~~~~~~~~~
+
+1. Quick start
+
+* **Feature prioritization :** multi_process()
+
+* **Database matching :** multi_process_database_matching()
+
+* **Result filtering :** post_filter()
+
+* **Result summarizing :** summarize_results()
+
+Note
+*********************************************
+Please note that the documentation is currently a work in progress, and there is more content that is being written. I apologize for any inconvenience this may cause, but rest assured that I am continually updating the documentation to provide you with the most comprehensive guide to using protmaster.
+
+
+
+
