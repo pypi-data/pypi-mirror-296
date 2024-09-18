@@ -1,0 +1,2 @@
+[console_scripts]
+kafy = KAFY.commands_parser:parse_command
