@@ -1,0 +1,13 @@
+dgtl_db_connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dgtl_db_connector/client.py,sha256=zLSxF--y2RdA_cTVhOVrpYBRKIsUNALHeEmWb4ukyfE,8690
+dgtl_db_connector/customer.py,sha256=0BSzlX9u1uAMxFsvplSHaGFhFYie0EeystMPtT6z3ZM,719
+dgtl_db_connector/grader_pool.py,sha256=kBuamcxeuQ90mp9F3ddl_j1E6roC9TrDvmCAOeEG9DY,405
+dgtl_db_connector/inventory.py,sha256=n7RvBrTMWj635mlZQTx3NsSRrjsAU6h5rlW5xsCLqBU,2157
+dgtl_db_connector/model.py,sha256=SBqrEsCfC_wCUjGk3JGvJNyHZPGA0TVfFWVMbC6j3GU,3869
+dgtl_db_connector/quality_control.py,sha256=wxu6GK4c3dmpzou5HEdfM0hAz0C-pmszXCXTrGuI0MI,674
+dgtl_db_connector/role.py,sha256=KRaorbJ2hUSvYdEX7whdWsRwIPhe7eHFLHNP-8O-sgE,395
+dgtl_db_connector/user.py,sha256=kT2Xa_lfrL84z78MPv9MLVIjFUtZqAdxv73V0V9tfAk,1058
+DGTL_db_connector-0.1.4.dist-info/METADATA,sha256=s5rF9VhJn-zpanyy-5L7plAHZjqJz9RhW4LrwfwinVU,338
+DGTL_db_connector-0.1.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+DGTL_db_connector-0.1.4.dist-info/top_level.txt,sha256=HnhMebGw8FkQnSllVUffjyK3HTwpHBnLwgd6oBr0tX4,18
+DGTL_db_connector-0.1.4.dist-info/RECORD,,
