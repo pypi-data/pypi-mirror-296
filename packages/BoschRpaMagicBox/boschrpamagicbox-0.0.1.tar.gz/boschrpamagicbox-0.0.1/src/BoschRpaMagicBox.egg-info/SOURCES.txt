@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/BoschMiniRpa/__init__.py
+src/BoschMiniRpa/mini_rpa_core.py
+src/BoschMiniRpa/mini_rpa_functions.py
+src/BoschRpaMagicBox.egg-info/PKG-INFO
+src/BoschRpaMagicBox.egg-info/SOURCES.txt
+src/BoschRpaMagicBox.egg-info/dependency_links.txt
+src/BoschRpaMagicBox.egg-info/requires.txt
+src/BoschRpaMagicBox.egg-info/top_level.txt
