@@ -1,0 +1,37 @@
+name: Static Analysis
+description: Run mypy on the codebase
+
+inputs:
+  python3-version:
+    required: false
+    description: 'Python version to use for analysis'
+    default: '12'
+  working-directory:
+    description: 'The directory to run mypy in'
+    required: false
+    default: '.'
+  ref:
+    description: 'The ref to check out. This can be a branch, tag, or SHA'
+    required: true
+  deps:
+    description: 'The dependencies to install'
+    required: false
+    default: 'mypy'
+  command:
+    description: 'The command to run'
+    required: false
+    default: 'mypy -vvv'
+runs:
+  using: composite
+  steps:
+    - name: Setup python for test ${{ inputs.python3-version }}
+      uses: actions/setup-python@v5.2.0
+      with:
+          python-version: 3.${{ inputs.python3-version }}
+    - name: Install Mypy
+      run: pip install ${{ inputs.deps }}
+      shell: bash
+    - name: MyPy
+      working-directory: ${{ inputs.working-directory }}
+      run: ${{ inputs.command }}
+      shell: bash

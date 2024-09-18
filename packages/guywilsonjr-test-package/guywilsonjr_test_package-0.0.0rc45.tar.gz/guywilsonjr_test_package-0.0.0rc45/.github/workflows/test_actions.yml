@@ -1,0 +1,77 @@
+name: Test Actions
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*.*.*
+env:
+  ACTIONS_RUNNER_DEBUG: true
+  ACTIONS_STEP_DEBUG: true
+jobs:
+  test-checkout-debug:
+    runs-on: [ ubuntu-latest ]
+    name: Test Checkout and Debug
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@v0.0.0
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Test Debug
+        uses: ./actions/debug
+      - name: Test checkout
+        uses: ./actions/minimal-tagged-checkout
+        with:
+          ref: ${{ github.ref_name }}
+  test-sa:
+    runs-on: [ ubuntu-latest ]
+    name: Test Checkout Static Analysis
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@v0.0.0
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Test Debug
+        uses: ./actions/static-analysis
+        with:
+          ref:  ${{ github.ref_name }}
+
+  test-build:
+    runs-on: [ ubuntu-latest]
+    name: Test Build
+    strategy:
+      fail-fast: true
+      matrix:
+        python3-version: ['12']
+        build-type: ['sdist', 'wheel']
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@v0.0.0
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Test Build ${{ matrix.build-type }}
+        id: build
+        uses: ./actions/build
+        with:
+          python3-version: ${{ matrix.python3-version }}
+          build-type: ${{ matrix.build-type }}
+      - name: Test ${{ matrix.build-type }}
+        uses: ./actions/test-tox
+        with:
+          filename: ${{ steps.build.outputs.filename }}
+          artifact-pattern: 'build-${{ matrix.build-type }}-*'
+  test-release:
+    runs-on: [ ubuntu-latest ]
+    name: Test Release
+    needs: [ test-build, test-sa ]
+    permissions:
+      id-token: write
+      contents: read
+    if: github.ref_type == 'tag' && github.ref_name != 'v0.0.0'
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@v0.0.0
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: ./actions/publish

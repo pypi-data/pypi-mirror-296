@@ -1,0 +1,49 @@
+name: Build sdist
+
+
+inputs:
+  python3-version:
+    description: 'Python version to build the wheel for. Example: 12'
+    required: false
+    default: '12'
+  working-directory:
+    description: 'The directory to run the build on'
+    required: false
+    default: '.'
+
+outputs:
+  artifact-id:
+    description: "The artifact id"
+    value: ${{ steps.upload-artifact.outputs.artifact-id }}
+  filename:
+    description: "The filename of the sdist package"
+    value: ${{ steps.set-filename.outputs.filename }}
+
+runs:
+  using: composite
+  steps:
+    - name: Install build
+      run: python -m pip install -U build uv
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+    - name: Build sdist
+      run: python -m build -s --installer uv
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+    - uses: actions/upload-artifact@v4
+      id: upload-artifact
+      with:
+        name: build-sdist-3${{ inputs.python3-version }}
+        path: ${{ inputs.working-directory }}/dist/*.tar.gz
+        if-no-files-found: error
+    - name: Set Filename
+      id: set-filename
+      shell: bash
+      run: |
+        echo "filename=$(cd ${{ inputs.working-directory }}/dist/ && ls *.tar.gz)" >> $GITHUB_OUTPUT
+    - name: Validate Filename
+      id: validate-filename
+      shell: bash
+      env:
+        chosenfilename: ${{ steps.set-filename.outputs.filename }}
+      run: echo "Filename is $chosenfilename"

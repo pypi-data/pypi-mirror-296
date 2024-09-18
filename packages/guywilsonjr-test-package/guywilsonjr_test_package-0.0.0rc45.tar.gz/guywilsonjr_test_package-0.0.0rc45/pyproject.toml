@@ -1,0 +1,67 @@
+[project]
+name = "guywilsonjr-test-package"
+dynamic = ["version"]
+readme = "README.md"
+authors = [
+    { name = "Guy Wilson", email = "guywilsonjr@gmail.com" },
+]
+maintainers = [
+    { name = "Guy Wilson", email = "guywilsonjr@gmail.com" },
+]
+
+
+[project.urls]
+Repository = "https://github.com/guywilsonjr/actions"
+Issues = "https://github.com/guywilsonjr/actions/issues"
+
+
+[build-system]
+requires = ["setuptools", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools]
+ext-modules = [
+    { name = "hello_world", sources = ["src/hello_world/hello_world.c"] }
+]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = test
+
+[testenv:test]
+package = wheel
+fresh_subprocess = false
+recreate = true
+deps =
+    pytest
+commands =
+    python -m pytest {posargs}
+"""
+
+[tool.pytest.ini_options]
+cache_dir = "/dev/null"
+console_output_style = "progress-even-when-capture-no"
+addopts = [
+    "-s",
+    "-vvv",
+    "--cache-clear",
+    "--log-cli-level=INFO",
+    "-p no:cacheprovider"
+]
+log_cli_level = "INFO"
+testpaths = ["tests/hello_world"]
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+version_scheme = "only-version"
+
+
+[tool.cibuildwheel]
+build-verbosity = 1
+
+
+
+[tool.mypy]
+mypy_path = "src"
+files = ["src"]
