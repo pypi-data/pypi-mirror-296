@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-slit-solar-explorer"
+authors = [
+    {name = "Jacob D. Parker", email="jacobdparker@gmail.com"},
+    {name = "Roy T. Smart", email = "roytsmart@gmail.com"},
+]
+description = "A model of the optical design for the Multi-slit Solar Explorer (MUSE)."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "astropy",
+    "optika==0.5.0",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+doc = [
+    "pytest",
+    "matplotlib",
+    "graphviz",
+    "sphinx-autodoc-typehints",
+    "sphinxcontrib-bibtex",
+    "pydata-sphinx-theme",
+    "ipykernel",
+    "jupyter-sphinx",
+    "sphinx-favicon",
+]
+
+[project.urls]
+Homepage = "https://github.com/sun-data/multi-slit-solar-explorer"
+Documentation = "https://sun-data-multi-slit-solar-explorer.readthedocs-hosted.com"
+
+[tool.setuptools_scm]
