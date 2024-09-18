@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: haveno-client
+Version: 0.1.0
+Summary: A client for interacting with the Haveno daemon.
+Home-page: https://github.com/KewbitXMR/python-haveno-client
+Author: Kewbit
+Author-email: kewbitxmr@protonmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: socks
+
