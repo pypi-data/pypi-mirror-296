@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sda_cool_package_pg
+Version: 0.1.0
+Summary: Super useful library
+Author: Petr Gregor (SDA)
+Author-email: pe.gregor@gmail.com
+License: GNU GPL
