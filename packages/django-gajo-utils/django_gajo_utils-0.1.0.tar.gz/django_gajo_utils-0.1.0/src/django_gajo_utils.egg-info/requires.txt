@@ -1,0 +1,9 @@
+
+[dev]
+build>=1.2.2
+twine>=5.1.1
+pytest-cov>=5.0.0
+pytest-django>=4.9.0
+coverage>=7.6.1
+ruff>=0.6.4
+pre-commit>=v3.8.0
