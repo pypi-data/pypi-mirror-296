@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pylogs_DIGITAL_MARKEMATICS
+Version: 1.0.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: psycopg2
+Requires-Dist: configparser
+Requires-Dist: os
+
