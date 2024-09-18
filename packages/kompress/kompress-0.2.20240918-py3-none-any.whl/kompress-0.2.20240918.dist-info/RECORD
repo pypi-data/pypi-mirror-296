@@ -1,0 +1,16 @@
+kompress/__init__.py,sha256=2B3kKRIG47_vyg39xPxSQHNMCGEZsA7AJMM87HJyXas,6108
+kompress/compat.py,sha256=462X7kjqzL-vOCAt5Bw3XlkPL82ZvkAeyEGV74WzKyA,169
+kompress/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kompress/tar.py,sha256=_zNcRMakaqvxAxVd3V_VBDysuCNsnQCLPvCEUGI-T5U,10078
+kompress/utils.py,sha256=zTM2tJuqgolbttc2xI-Urj1wIpYi4aIimEmTeq02Pn8,4130
+kompress/zip.py,sha256=U4pSVdU5MnJkRChCx2CO-AfFdiPzAyJpGMB3Q4ByZpI,6274
+kompress/tests/kompress.py,sha256=iulNqgoFTQDCOg34V3nwI4SWjiEMQps1bsVCZ18-3vU,7717
+kompress/tests/zippath.py,sha256=7utUGDbz6NfOhWCVDP-dvNwPekXuFc6IN79h1TXyn8E,2449
+kompress/tests/structure_data/gdpr_export.tar.gz,sha256=6jZDCEXY4j0kY5EA4uQqSGz9884_FtCWh8eVVM8xfqs,269
+kompress/tests/structure_data/gdpr_export.zip,sha256=OFgCA4BylTltab0CKB8tvGZgtQRmkvDHmd7vBe_b1xE,1273
+kompress/tests/structure_data/with_leading_dot.tar.gz,sha256=pkEcs7-I1BdhkyQCyHgJzTdWvkuBpawjIsdwPV8fX5o,203
+kompress-0.2.20240918.dist-info/LICENSE,sha256=7FarsZq7r7TMrFFmob4YrjkuMhDjUlF6oNNNx0wsHZM,1074
+kompress-0.2.20240918.dist-info/METADATA,sha256=vIPpoOKpVKlt-nWiSaiWhYaPYrNDv6Af5JKa0PSjUw4,1966
+kompress-0.2.20240918.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+kompress-0.2.20240918.dist-info/top_level.txt,sha256=qJ3tmFJW1Y9fFNnKhAutGBBIINzBZ979cnIftWQZ66s,9
+kompress-0.2.20240918.dist-info/RECORD,,
