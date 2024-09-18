@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: databricks_package_4
+Version: 0.5
+Summary: A package to load and display CSV data
+Author: Shashank
+Author-email: shashank.b@hoonartek.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pandas
+
