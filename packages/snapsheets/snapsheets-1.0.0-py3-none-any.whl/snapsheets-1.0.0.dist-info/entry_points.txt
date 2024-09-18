@@ -1,0 +1,4 @@
+[console_scripts]
+snapsheets=snapsheets.v1:cli
+snapsheets-v0=snapsheets.v0.core:cli
+
