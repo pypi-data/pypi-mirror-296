@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: sprynger
+Version: 0.0.1
+Summary: An API wrapper for Springer Nature
+Author-email: Nils Herrmann <nils_herrmann@outlook.de>
+License: MIT
+Project-URL: Homepage, https://github.com/nils-herrmann/sprynger
+Project-URL: Issues, https://github.com/nils-herrmann
+Keywords: API,Springer,wrapper,requests,lxml
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sprynger
+Simple API wrapper for the [Springer Nature APIs](https://dev.springernature.com).
+
+## 🏔️ Overview Springer Nature
+Springer Nature currently offers three APIs:
+- **Springer Metadata API:** Metadata of articles, journal articles and book chapters.
+- **Springer Meta API:** Advanced version offering versioned metadata.
+- **Springer Open Access API:** Metadata and, where available, full-text
+
+**Note:** sprynger currently supports the Metadata API
+
+## 🪧 Example
+### Metadata
+```py
+from sprynger import Metadata
+```
+```py
+article_metadata = Metadata('10.1007/s10288-023-00561-5')
+article_metadata.records
+```
+>[MetadataRecord(contentType='Article', identifier='doi:10.1007/s10288-023-00561-5', language='en', ...)]
+
+```py
+book_metadata = Metadata('978-3-662-48847-8', start=1, max_results=3)
+book_metadata.results
+```
+> {'total': '32', 'start': '1', 'pageLength': '3', 'recordsDisplayed': '3'}
+
+```py
+journal_metadata = Metadata('1422-6952', start=5, max_results=10)
+journal_metadata.facets
+```
+> [MetadataFacets(facet='subject', value='Mathematical Methods in Physics', count='1075'),
+MetadataFacets(facet='subject', value='Physics', count='1075'),
+MetadataFacets(facet='subject', value='Fluid- and Aerodynamics', count='1062'), ...]
+
+
+## ⚠️ Disclaimer
+This project is an independent API wrapper for the Springer Nature API. It is not affiliated with, endorsed, or maintained by Springer Nature. For official support, please refer to the Springers's [documentation](http://docs-dev.springernature.com/docs/) and support channels.
