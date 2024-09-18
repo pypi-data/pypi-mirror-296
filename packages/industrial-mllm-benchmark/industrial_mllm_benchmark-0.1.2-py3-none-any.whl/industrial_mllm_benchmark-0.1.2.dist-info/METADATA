@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: industrial_mllm_benchmark
+Version: 0.1.2
+Summary: Code to benchmark and evaluate MLLM on industrial data (data itself are not part of the publication).
+Author: Dieter Bogdoll
+Author-email: dieter.bogdoll@siemens.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+<!--
+    SPDX-FileCopyrightText: Copyright 2024 Siemens AG
+    SPDX-License-Identifier: MIT
+-->
+# Siemens Multimodal LLM Benchmark
+
+## License
+
+[MIT license](./LICENSE)
+
+## Further details
+
+Please refer to this site for the project documentation: https://siemens-research.github.io/industrial-mllm-benchmark/
+

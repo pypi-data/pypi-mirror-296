@@ -1,0 +1,3 @@
+[console_scripts]
+industrial-mllm-benchmark=industrial_mllm_benchmark.__main__:cli
+
