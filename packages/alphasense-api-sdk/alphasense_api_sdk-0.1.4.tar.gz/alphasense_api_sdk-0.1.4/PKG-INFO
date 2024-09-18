@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: alphasense-api-sdk
+Version: 0.1.4
+Summary: AlphaSense API SDK
+Author-email: AlphaSense <api_team@alpha-sense.com>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: graphql-core<3.3,>=3.2.0
+Requires-Dist: httpx~=0.23
+Requires-Dist: pydantic<3.0.0,>=2.0.0
+Requires-Dist: toml~=0.10
+Provides-Extra: opentelemetry
+Requires-Dist: opentelemetry-api; extra == 'opentelemetry'
+Description-Content-Type: text/markdown
+
+# Python SDK
+
+## Codegen
+
+## Local Development
+
+- Create a virtual environment
+
+```bash
+python3 -m venv .venv
+```
+
+- Install the requirements
+
+```bash
+pip install -e ".[dev]"
+```
+
+- Run the tests
+- Run codegen locally
+
+```bash
+python -m api_sdk
+```
