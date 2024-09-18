@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "no996"
+version = "0.1.0"
+description = ""
+authors = ["Johums <johums@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+arrow = "^1.3.0"
+pytz = "^2024.2"
+sqlmodel = "^0.0.22"
+jwt = "^1.3.1"
+aiohttp = "^3.10.5"
+aiohttp-socks = "^0.9.0"
+tushare = "^1.4.13"
+taskiq = "^0.11.7"
+taskiq-aio-pika = "^0.4.1"
+taskiq-redis = "^1.0.0"
+taskiq-dependencies = "^1.5.3"
+httpx = "^0.27.2"
+tenacity = "^9.0.0"
+jinja2 = "^3.1.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-mock = "^3.14.0"
+aioresponses = "^0.7.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
