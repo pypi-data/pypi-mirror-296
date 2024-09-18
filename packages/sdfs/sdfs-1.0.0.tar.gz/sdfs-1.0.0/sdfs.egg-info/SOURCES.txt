@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.py
+sdfs/__init__.py
+sdfs/concatenate_feature_sets.py
+sdfs/distances.py
+sdfs/dynamic_features.py
+sdfs/early_stopping.py
+sdfs/extend_test_samples.py
+sdfs/feature_expansion.py
+sdfs/models.py
+sdfs/train.py
+sdfs.egg-info/PKG-INFO
+sdfs.egg-info/SOURCES.txt
+sdfs.egg-info/dependency_links.txt
+sdfs.egg-info/requires.txt
+sdfs.egg-info/top_level.txt
