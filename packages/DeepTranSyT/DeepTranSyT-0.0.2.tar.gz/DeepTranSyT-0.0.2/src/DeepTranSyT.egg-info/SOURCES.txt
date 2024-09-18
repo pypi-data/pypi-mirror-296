@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/DeepTranSyT/DNN.py
+src/DeepTranSyT/__init__.py
+src/DeepTranSyT/auxiliary_functions.py
+src/DeepTranSyT/main.py
+src/DeepTranSyT/make_predictions.py
+src/DeepTranSyT/sequence_processing.py
+src/DeepTranSyT.egg-info/PKG-INFO
+src/DeepTranSyT.egg-info/SOURCES.txt
+src/DeepTranSyT.egg-info/dependency_links.txt
+src/DeepTranSyT.egg-info/entry_points.txt
+src/DeepTranSyT.egg-info/requires.txt
+src/DeepTranSyT.egg-info/top_level.txt
