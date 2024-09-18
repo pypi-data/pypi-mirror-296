@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling", "requests", "bs4"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyfris"
+version = "0.0.1"
+authors = [
+  { name="Görkem Uyanık", email="uyanikhg@gmail.com" },
+]
+description = "FRIS Python API"
+license = "MIT"
+keywords = ["python", "pyfris", "fris", "soap", "api", "flanders", "research", "information", "space"]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Homepage = "https://github.com/guyanik/pyfris"
+Issues = "https://github.com/guyanik/pyfris/issues"
