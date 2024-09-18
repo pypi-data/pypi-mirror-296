@@ -1,0 +1,8 @@
+agentops>=0.3.11
+tokencost==0.1.12
+litellm>=1.44.23
+python-dotenv
+rich
+GitPython
+tenacity
+pydantic==2.9.1
