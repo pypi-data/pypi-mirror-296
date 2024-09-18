@@ -1,0 +1,13 @@
+etcpak/__init__.py,sha256=BdeOc8QD2tY9jetBaPE1HgepxZ3IXUj8WMeJ2XzJ3n4,1242
+etcpak/__init__.pyi,sha256=8FDdr245LzhfheTGN6nhtUEGJ72nLR9kKlgiaiagT7Q,4612
+etcpak/_etcpak.cp37-win_amd64.iobj,sha256=pFdcixA7U3zHoRgraTKeXpXJSqGDfBnvF9ErOIlP3JY,1017185
+etcpak/_etcpak.cp37-win_amd64.ipdb,sha256=lmaECBm-lwphafDTvKVseEXuUB_kuzFk-zGRSjru3DY,1015328
+etcpak/_etcpak.cp37-win_amd64.pyd,sha256=xXQE3oW9BsE_-fOJT3DN-wX2Avpot_bG996l1GSe1yQ,153088
+etcpak/_etcpak_simd.cp37-win_amd64.iobj,sha256=IYIwbYeXb88_1sCivQJEIcfkQeA46Psb2vDp2T8me-w,1050637
+etcpak/_etcpak_simd.cp37-win_amd64.ipdb,sha256=D0Yj0VtSzpK5t3x7gHv_7ybGXRFzioYTUq1Z7q-aCIA,862496
+etcpak/_etcpak_simd.cp37-win_amd64.pyd,sha256=pk4Dr1HZqePE_jxOIZEZeZY8pf8q1Ym-S0UhleZkDms,152064
+etcpak-0.9.10.dist-info/LICENSE,sha256=4tkCNwZT6-6BWjvBCghNjayHuuQ7uhK1fwZGX2dfMo4,1083
+etcpak-0.9.10.dist-info/METADATA,sha256=B8sj5UjTMcBkmd8-28VPLVFBC0BuOAclVTzzaWT5NgM,4442
+etcpak-0.9.10.dist-info/WHEEL,sha256=slqBGdqRnxanDn00BSYHhryEsWH_8CUurgRUvoMtK_Y,101
+etcpak-0.9.10.dist-info/top_level.txt,sha256=T2D0x7SQLUB3U1bXC2uotzkyB-VtZlC_mQ2wYZB9Y8E,7
+etcpak-0.9.10.dist-info/RECORD,,
