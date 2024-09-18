@@ -1,0 +1,2 @@
+browsergym-core==0.6.2
+tiktoken>=0.4
