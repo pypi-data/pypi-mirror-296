@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: Img_prcs_package
+Version: 0.0.1
+Summary: I'm a software development student
+Home-page: https://github.com/Milsonyujiaoki/image-processing-package
+Author: Dev_yuji
+Author-email: milsonyujiaoki.estudos@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: build==1.2.2
+Requires-Dist: certifi==2024.8.30
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: colorama==0.4.6
+Requires-Dist: contourpy==1.3.0
+Requires-Dist: cycler==0.12.1
+Requires-Dist: docutils==0.21.2
+Requires-Dist: fonttools==4.53.1
+Requires-Dist: idna==3.10
+Requires-Dist: imageio==2.35.1
+Requires-Dist: importlib_metadata==8.5.0
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: jaraco.context==6.0.1
+Requires-Dist: jaraco.functools==4.0.2
+Requires-Dist: keyring==25.3.0
+Requires-Dist: kiwisolver==1.4.7
+Requires-Dist: lazy_loader==0.4
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: more-itertools==10.5.0
+Requires-Dist: networkx==3.3
+Requires-Dist: nh3==0.2.18
+Requires-Dist: numpy==2.1.1
+Requires-Dist: packaging==24.1
+Requires-Dist: pillow==10.4.0
+Requires-Dist: pkginfo==1.10.0
+Requires-Dist: Pygments==2.18.0
+Requires-Dist: pyparsing==3.1.4
+Requires-Dist: pyproject_hooks==1.1.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pywin32-ctypes==0.2.3
+Requires-Dist: readme_renderer==44.0
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: rfc3986==2.0.0
+Requires-Dist: rich==13.8.1
+Requires-Dist: scikit-image==0.24.0
+Requires-Dist: scipy==1.14.1
+Requires-Dist: setuptools==75.1.0
+Requires-Dist: six==1.16.0
+Requires-Dist: tifffile==2024.8.30
+Requires-Dist: twine==5.1.1
+Requires-Dist: urllib3==2.2.3
+Requires-Dist: zipp==3.20.2
+
+# Img_prcs_package
+
+Description. 
+
+| The package Img_prcs_packageÂ is used to:                                                                                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Processing<br />Â  Â  - Histogram matching<br />Â  Â  - Structural simalarity<br /><br />2. Resize Image Utils:<br />Â  Â  - Read Image<br />Â  Â  - Save Image<br />Â  Â  - Plot Image<br />Â  Â  - Plot result<br />Â  Â  - Plot Histogram |
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install Img_prcs_package
+```
+
+## Usage
+
+```python
+from Img_prcs_package.processing import combination
+combination.find_difference()
+```
+
+## Author
+
+Dev_yuji
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
