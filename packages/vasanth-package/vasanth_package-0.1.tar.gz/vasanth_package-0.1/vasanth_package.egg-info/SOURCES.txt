@@ -1,0 +1,6 @@
+README.md
+setup.py
+vasanth_package.egg-info/PKG-INFO
+vasanth_package.egg-info/SOURCES.txt
+vasanth_package.egg-info/dependency_links.txt
+vasanth_package.egg-info/top_level.txt
