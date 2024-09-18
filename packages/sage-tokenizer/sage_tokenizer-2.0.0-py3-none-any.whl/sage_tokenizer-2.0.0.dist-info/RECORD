@@ -1,0 +1,11 @@
+sage_tokenizer/HFEncoding.py,sha256=qHgdbrcp50xvd2yF0pRWYitVMoFBlaSPYlz3pmq0GjM,1433
+sage_tokenizer/SaGeVocabBuilder.py,sha256=sGa9VBnTjP1OXBN9C64M-vRFTF1hvUifIWM1uUDWQMY,11095
+sage_tokenizer/Word2VecParams.py,sha256=h2cNS7yIYQiF6TBAyP5-AtUmyGkIhjDYJlw_PMkCTUY,303
+sage_tokenizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sage_tokenizer/embeddings.py,sha256=YPwIDZkw_11oD8kgdBRQEn6JDSmjOtb9O1LZcmmFajw,4331
+sage_tokenizer/model.py,sha256=zsanIv-Lr2blqiZMS8-mTWnhFn8_eI5u--FGXTdzMCM,9784
+sage_tokenizer/utils.py,sha256=yXYWqKi33xMTeehdiOfbCr4d0bMheoj9fIkbAyMjmf8,11988
+sage_tokenizer-2.0.0.dist-info/METADATA,sha256=XwDJac2netjgmBE1x0MAl2IQwcOhjcQnF_sdXlmJzZs,7323
+sage_tokenizer-2.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+sage_tokenizer-2.0.0.dist-info/licenses/LICENSE,sha256=1EtT94wK0z-pl-AHnR4HxgMr77TzR39uW2v6X4jwTQY,1139
+sage_tokenizer-2.0.0.dist-info/RECORD,,
