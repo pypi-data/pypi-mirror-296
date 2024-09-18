@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+racer/__init__.py
+racer/racer.py
+task_racer.egg-info/PKG-INFO
+task_racer.egg-info/SOURCES.txt
+task_racer.egg-info/dependency_links.txt
+task_racer.egg-info/top_level.txt
