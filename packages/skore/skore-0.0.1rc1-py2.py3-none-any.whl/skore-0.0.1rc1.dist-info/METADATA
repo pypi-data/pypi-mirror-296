@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: skore
+Version: 0.0.1rc1
+Summary: ...
+License-File: LICENSE
+Requires-Dist: altair
+Requires-Dist: diskcache
+Requires-Dist: fastapi
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: polars
+Requires-Dist: pydantic
+Requires-Dist: pydantic-numpy
+Requires-Dist: rich
+Requires-Dist: scikit-learn
+Requires-Dist: skops
+Requires-Dist: uvicorn
+Provides-Extra: test
+Requires-Dist: httpx; extra == 'test'
+Requires-Dist: jsonschema[format]; extra == 'test'
+Requires-Dist: matplotlib; extra == 'test'
+Requires-Dist: pre-commit; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-order; extra == 'test'
+Requires-Dist: pytest-randomly; extra == 'test'
+Requires-Dist: ruff; extra == 'test'
+Provides-Extra: tools
+Requires-Dist: pip-tools; extra == 'tools'
