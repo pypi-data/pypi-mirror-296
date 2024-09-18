@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+oofempostpy/__init__.py
+oofempostpy/extract.py
+oofempostpy/hm2oofem.py
+oofempostpy/parser.py
+oofempostpy.egg-info/PKG-INFO
+oofempostpy.egg-info/SOURCES.txt
+oofempostpy.egg-info/dependency_links.txt
+oofempostpy.egg-info/top_level.txt
+tests/test.py
+tests/test_parser.py

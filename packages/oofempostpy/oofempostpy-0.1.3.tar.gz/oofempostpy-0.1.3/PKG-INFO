@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: oofempostpy
+Version: 0.1.3
+Summary: A Python package to parse OOFEM simulation logs and export data to CSV
+Author: Cunyi (Bruce) Li
+Author-email: cunyicom@outlook.com
+License: GPLv3+
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+License-File: LICENSE
