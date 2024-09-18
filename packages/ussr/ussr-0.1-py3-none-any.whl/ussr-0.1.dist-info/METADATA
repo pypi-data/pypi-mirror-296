@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ussr
+Version: 0.1
+Summary: A library for sentence search using DistilBERT and All-MiniLM embeddings
+Home-page: https://github.com/BryanMwangi/ussr
+Author: Bryan Mwangi
+Maintainer: Bryan Mwangi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: torch>=2.2.2
+Requires-Dist: transformers>=4.44.2
+Requires-Dist: numpy>=1.26.4
+
