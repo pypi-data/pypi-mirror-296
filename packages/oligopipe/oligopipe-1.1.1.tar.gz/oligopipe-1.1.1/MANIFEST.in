@@ -1,0 +1,7 @@
+include LICENSE
+include VERSION
+include requirements.txt
+recursive-include oligopipe *.json *.p *.pickle *.pickle.gz
+graft test_data
+prune tests
+global-exclude *.pyc

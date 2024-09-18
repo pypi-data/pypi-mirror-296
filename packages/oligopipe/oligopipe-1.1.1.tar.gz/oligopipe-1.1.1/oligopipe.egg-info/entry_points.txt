@@ -1,0 +1,2 @@
+[console_scripts]
+oligopipe = oligopipe.__main__:main

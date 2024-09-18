@@ -1,0 +1,54 @@
+{
+  "varcopp_19": {
+    "package_path": "oligopipe.varcopp",
+    "file_name": "VarCoPP_400BRF_2023_04.pickle.gz",
+    "thresholds": {
+      "CONF_99": 0.743,
+      "CONF_99.9": 0.891,
+      "DISEASE_CAUSING": 0.50
+    },
+    "imputation_values": {
+      "ISPP_AR_A": 0.0505,
+      "ISPP_AR_B": 0.0505,
+      "ISPP_AD_A": 0.0205,
+      "ISPP_AD_B": 0.0205,
+      "ISPP_XL": 0.4342,
+      "HIPRED_A": 0.515,
+      "HIPRED_B": 0.515,
+      "DN_DS": 0.2935,
+      "BIOL_DIST": 11.08,
+      "BP_SIM": 0.12825,
+      "KG_DIST": 1.0
+    }
+  },
+  "varcopp_38": {
+    "package_path": "oligopipe.varcopp",
+    "file_name": "VarCoPP_HG38.pickle.gz",
+    "thresholds": {
+      "CONF_99": 0.647,
+      "CONF_99.9": 0.85,
+      "DISEASE_CAUSING": 0.4575
+    },
+    "imputation_values": {
+      "ISPP_AR_A": 0.048,
+      "ISPP_AR_B": 0.048,
+      "ISPP_AD_A": 0.0195,
+      "ISPP_AD_B": 0.0195,
+      "ISPP_XL": 0.3515,
+      "HIPRED_A": 0.5335,
+      "HIPRED_B": 0.5335,
+      "DN_DS": 0.254,
+      "BIOL_DIST": 13.752,
+      "BP_SIM": 0.135,
+      "KG_DIST": 1.25
+    }
+  },
+  "digenic_effect_19": {
+    "package_path": "oligopipe.digenic_effect",
+    "file_name": "oli_eff_HG19.pickle"
+  },
+  "digenic_effect_38": {
+    "package_path": "oligopipe.digenic_effect",
+    "file_name": "oli_eff_HG38.pickle"
+  }
+}
