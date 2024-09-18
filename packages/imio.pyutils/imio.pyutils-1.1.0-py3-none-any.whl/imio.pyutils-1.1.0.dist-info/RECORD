@@ -1,0 +1,13 @@
+imio.pyutils-1.1.0-py3.11-nspkg.pth,sha256=XTPlQ7ZZOJ9eevOTxBxBdF9Aj2jiqvd7Y7Vv5Sy8VA4,457
+imio/pyutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imio/pyutils/batching.py,sha256=o3snckmwugfYLFezj9uPMuJGQeL9W_7TPUxQtA7XQYo,1462
+imio/pyutils/bs.py,sha256=Ans2_udSbate7jUyyM6imIe9wAnfgtHyjBVv6ySc1oo,3505
+imio/pyutils/postgres.py,sha256=5yjfj_r0flMIE61xo7MMNNQGe9JVvij3o3vCiHNT3bE,4738
+imio/pyutils/system.py,sha256=imFH4clwQz0vr7gDrtA88vvbADvnqhWVDII6G4OV2U0,14492
+imio/pyutils/tests.py,sha256=Uh5x6ZuNRnwurVngnB10EmPzesrUUctLnNeBocDOEE0,12225
+imio/pyutils/utils.py,sha256=4Wow3QYW863-Av2MPoBpmKAvvYhAvtCXGjU1aLJI8bo,11389
+imio.pyutils-1.1.0.dist-info/METADATA,sha256=2HgomtghzFTqL-4rVggmHAhGSkd8qlRZq37IOJ48rfs,8044
+imio.pyutils-1.1.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+imio.pyutils-1.1.0.dist-info/namespace_packages.txt,sha256=ZktC0EGzThvMTAin9_q_41rzvvfMT2FYbP8pbhSLMSA,5
+imio.pyutils-1.1.0.dist-info/top_level.txt,sha256=ZktC0EGzThvMTAin9_q_41rzvvfMT2FYbP8pbhSLMSA,5
+imio.pyutils-1.1.0.dist-info/RECORD,,
