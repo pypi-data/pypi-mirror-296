@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hydra-ext-sweeper"
+version = "0.1.0"
+description = "A hydra sweeper with extended syntax for efficient parameter sweeping"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "daizutabi", email = "daizutabi@gmail.com" }]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Utilities",
+]
+requires-python = ">=3.10"
+dependencies = ["hydra-core"]
+
+[project.optional-dependencies]
+dev = ["pytest-clarity", "pytest-cov", "pytest-randomly", "pytest-xdist"]
+
+[project.urls]
+Documentation = "https://daizutabi.github.io/hydra-ext-sweeper/"
+Source = "https://github.com/daizutabi/hydra-ext-sweeper"
+Issues = "https://github.com/daizutabi/hydra-ext-sweeper/issues"
+
+[tool.hatch.build.targets.sdist]
+exclude = ["/.github", "/docs"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hydra_ext_sweeper"]
+
+[tool.pytest.ini_options]
+addopts = [
+  "--doctest-modules",
+  "--cov=hydra_ext_sweeper",
+  "--cov-report=lcov:lcov.info",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["ALL"]
+unfixable = ["F401", "RUF100"]

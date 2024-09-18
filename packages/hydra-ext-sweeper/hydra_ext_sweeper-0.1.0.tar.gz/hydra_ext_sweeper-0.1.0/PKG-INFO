@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: hydra-ext-sweeper
+Version: 0.1.0
+Summary: A hydra sweeper with extended syntax for efficient parameter sweeping
+Project-URL: Documentation, https://daizutabi.github.io/hydra-ext-sweeper/
+Project-URL: Source, https://github.com/daizutabi/hydra-ext-sweeper
+Project-URL: Issues, https://github.com/daizutabi/hydra-ext-sweeper/issues
+Author-email: daizutabi <daizutabi@gmail.com>
+License-Expression: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Requires-Dist: hydra-core
+Provides-Extra: dev
+Requires-Dist: pytest-clarity; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-randomly; extra == 'dev'
+Requires-Dist: pytest-xdist; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Hydra Ext Sweeper
+
+A hydra sweeper with extended syntax for efficient parameter sweeping.
+
+## Installation
+
+```bash
+pip install hydra-ext-sweeper
+```
