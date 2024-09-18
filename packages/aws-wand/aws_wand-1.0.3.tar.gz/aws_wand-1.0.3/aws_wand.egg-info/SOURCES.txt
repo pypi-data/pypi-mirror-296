@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+aws_wand/__init__.py
+aws_wand/s3.py
+aws_wand/s3_bucket.py
+aws_wand.egg-info/PKG-INFO
+aws_wand.egg-info/SOURCES.txt
+aws_wand.egg-info/dependency_links.txt
+aws_wand.egg-info/top_level.txt
+aws_wand/iam/__init__.py
+aws_wand/iam/iam_admin.py
+aws_wand/iam/iam_handling_api.py
+aws_wand/iam/api/__init__.py
+aws_wand/iam/api/api.py
