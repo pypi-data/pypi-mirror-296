@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: HF_QuickUtils
+Version: 0.1.1
+Summary: A utils pack for downloading model form Huggingface mirror site in china
+Author: MCqie
+Author-email: qq1051846107@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: setuptools~=72.1.0
+Requires-Dist: transformers~=4.44.2
+Requires-Dist: huggingface-hub~=0.24.7

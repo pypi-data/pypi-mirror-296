@@ -1,0 +1,9 @@
+setup.py
+HF_QuickUtils/QuickDownload.py
+HF_QuickUtils/QuickLoader.py
+HF_QuickUtils/__init__.py
+HF_QuickUtils.egg-info/PKG-INFO
+HF_QuickUtils.egg-info/SOURCES.txt
+HF_QuickUtils.egg-info/dependency_links.txt
+HF_QuickUtils.egg-info/requires.txt
+HF_QuickUtils.egg-info/top_level.txt
