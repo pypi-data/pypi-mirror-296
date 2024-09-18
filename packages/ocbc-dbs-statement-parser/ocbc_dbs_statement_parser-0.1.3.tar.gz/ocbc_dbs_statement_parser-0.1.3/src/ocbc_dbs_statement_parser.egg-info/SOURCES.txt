@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/ocbc_dbs_statement_parser.egg-info/PKG-INFO
+src/ocbc_dbs_statement_parser.egg-info/SOURCES.txt
+src/ocbc_dbs_statement_parser.egg-info/dependency_links.txt
+src/ocbc_dbs_statement_parser.egg-info/entry_points.txt
+src/ocbc_dbs_statement_parser.egg-info/requires.txt
+src/ocbc_dbs_statement_parser.egg-info/top_level.txt
+tests/test_main.py
