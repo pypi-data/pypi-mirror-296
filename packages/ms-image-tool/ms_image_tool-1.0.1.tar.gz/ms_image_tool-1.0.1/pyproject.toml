@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "ms-image-tool"
+version = "1.0.1"
+description = "Tools for handling multispectral images and generating vegetation indices."
+authors = ["Andre Mattos <carlosandrematte@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tifffile = "^2024.7.2"
+opencv-python = "^4.10.0.84"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+pytest-cov = "^5.0.0"
+taskipy = "^1.13.0"
+isort = "^5.13.2"
+black = "^24.4.2"
+ipykernel = "^6.29.5"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs-material = "^9.5.28"
+mkdocstrings-python = "^1.10.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = "--doctest-modules"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.taskipy.tasks]
+docs = "mkdocs serve --open -w ."
+lint = "black --check --diff . && isort ."
+test = "pytest -s -x --cov=ms_image_tool -vv"
+pre_test = "task lint"
+post_test = "coverage html"
