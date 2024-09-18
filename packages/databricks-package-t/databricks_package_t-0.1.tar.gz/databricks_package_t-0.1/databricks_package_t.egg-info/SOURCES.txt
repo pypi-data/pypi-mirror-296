@@ -1,0 +1,12 @@
+README.md
+setup.py
+databricks_package_t.egg-info/PKG-INFO
+databricks_package_t.egg-info/SOURCES.txt
+databricks_package_t.egg-info/dependency_links.txt
+databricks_package_t.egg-info/requires.txt
+databricks_package_t.egg-info/top_level.txt
+my_package/__init__.py
+my_package/module1.py
+my_package/module2.py
+tests/test_module1.py
+tests/test_module2.py
