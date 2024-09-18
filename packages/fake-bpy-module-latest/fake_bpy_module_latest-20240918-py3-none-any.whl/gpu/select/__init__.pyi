@@ -1,0 +1,17 @@
+"""
+This module provides access to selection.
+
+"""
+
+import typing
+import collections.abc
+import typing_extensions
+
+_GenericType1 = typing.TypeVar("_GenericType1")
+_GenericType2 = typing.TypeVar("_GenericType2")
+
+def load_id(id):
+    """Set the selection ID.
+
+    :param id: Number (32-bit uint).
+    """
