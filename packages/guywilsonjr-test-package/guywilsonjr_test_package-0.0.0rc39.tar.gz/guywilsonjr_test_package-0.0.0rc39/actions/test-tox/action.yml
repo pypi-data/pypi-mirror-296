@@ -1,0 +1,51 @@
+name: Test
+description: Run Tox Testing
+
+inputs:
+  python3-version:
+    required: true
+    description: 'Python version to test on'
+  artifact-pattern:
+    description: 'The pattern to download the artifact default "build-*"'
+    required: false
+    default: 'build-*'
+  filename:
+    description: 'The filename of the wheel or source tar.gz to test'
+    required: false
+    default: ''
+  working-directory:
+    description: 'The directory to run mypy in'
+    required: false
+    default: '.'
+  deps:
+    description: 'The dependencies to install'
+    required: false
+    default: 'tox tox-gh tox-uv'
+  tox-env-flags:
+    description: 'Default empty string. Comma Separated tox environments to run. Example: "-e py,py38"'
+    required: false
+    default: ''
+runs:
+  using: composite
+  steps:
+    - uses: actions/download-artifact@v4
+      with:
+        pattern: ${{ inputs.artifact-pattern }}
+        path: dist/
+        merge-multiple: true
+    - name: Setup python for test ${{ inputs.python3-version }}
+      uses: actions/setup-python@v5.2.0
+      with:
+          python-version: 3.${{ inputs.python3-version }}
+    - name: Install tox
+      run: pip install ${{ inputs.deps }}
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+    - name: Tox
+      if: ${{ inputs.filename }} == ''
+      run: tox -e py -vvv --workdir ${{ inputs.working-directory }}
+      shell: bash
+    - name: Tox with wheel
+      if: ${{ inputs.filename }} != ''
+      run: tox ${{ inputs.tox-env-flags }} -vvv --installpkg dist/${{ inputs.filename }} --workdir ${{ inputs.working-directory }}
+      shell: bash

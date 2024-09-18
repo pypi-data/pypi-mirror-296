@@ -1,0 +1,80 @@
+name: CI
+# TODO: consider https://github.com/actions/cache/blob/main/restore/README.md
+on:
+  workflow_call:
+    inputs:
+      python3-versions:
+        description: 'Python3 versions to test as stringified array, e.g. ["10","11","12"]'
+        required: true
+        type: string
+      ref_name:
+        required: true
+        type: string
+      working-directory:
+        type: string
+        description: 'The directory to run the ci on'
+        required: false
+        default: '.'
+      static-analysis-deps:
+        type: string
+        description: 'The dependencies to install for static analysis'
+        required: false
+        default: 'mypy'
+      test-deps:
+        type: string
+        description: 'The dependencies to install for the test step'
+        required: false
+        default: 'tox tox-gh tox-uv'
+      tox-env-flags:
+        type: string
+        description: 'The tox environments flags to run. Default is empty string'
+        required: false
+        default: ''
+env:
+  CIBW_BUILD_VERBOSITY: 1
+  CIBW_PLATFORM: linux
+  CIBW_DEBUG_TRACEBACK: True
+  CIBW_BUILD_FRONTEND: build[uv]
+jobs:
+  static-analysis:
+    runs-on: [ ubuntu-latest]
+    name: Static Analysis
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@v0.0.0
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Test Static Analysis
+        uses: guywilsonjr/actions/actions/static-analysis@v0.0.0
+        with:
+          ref: ${{ github.ref_name }}
+          working-directory: ${{ inputs.working-directory }}
+          deps: ${{ inputs.static-analysis-deps }}
+  build-test:
+    runs-on: [ ubuntu-latest]
+    name: Build and Test
+    strategy:
+      fail-fast: true
+      matrix:
+        build-type: ['sdist', 'wheel']
+        python3-version: ${{fromJson(inputs.python3-versions)}}
+    steps:
+      - uses: guywilsonjr/actions/actions/minimal-tagged-checkout@v0.0.0
+        name: Checkout
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Build
+        id: build
+        uses: guywilsonjr/actions/actions/build@v0.0.0
+        with:
+          python3-version: ${{ matrix.python3-version }}
+          working-directory: ${{ inputs.working-directory }}
+          build-type: ${{ matrix.build-type }}
+      - name: Test ${{ matrix.build-type }}
+        uses: guywilsonjr/actions/actions/test-tox@v0.0.0
+        with:
+          filename: ${{ steps.build.outputs.filename }}
+          artifact-pattern: 'build-${{ matrix.build-type }}-*'
+          deps: ${{ inputs.test-deps }}
+          tox-env-flags: ${{ inputs.tox-env-flags }}
+

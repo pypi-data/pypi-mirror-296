@@ -1,0 +1,49 @@
+name: Build wheels
+
+
+inputs:
+  python3-version:
+    required: true
+    description: 'Python version to build the wheel for ex: 12'
+  working-directory:
+    description: 'The directory to run the build on'
+    required: false
+    default: '.'
+outputs:
+  artifact-id:
+    description: "The artifact id"
+    value: ${{ steps.upload-artifact.outputs.artifact-id }}
+  filename:
+    description: "The filename of the wheel"
+    value: ${{ steps.set-filename.outputs.filename }}
+runs:
+  using: composite
+  steps:
+    - name: Build wheels
+      uses: pypa/cibuildwheel@v2.21.0
+      with:
+        # TODO: see https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/evaluate-expressions-in-workflows-and-actions#example-matching-an-array-of-strings
+        only: cp3${{ inputs.python3-version }}-manylinux_x86_64
+        package-dir: ${{inputs.working-directory}}
+      env:
+        SETUPTOOLS_SCM_DEBUG: true
+        CIBW_DEBUG_TRACEBACK: True
+    - uses: actions/upload-artifact@v4
+      id: upload-artifact
+      with:
+        name: build-wheel-3${{ inputs.python3-version }}
+        path: ./wheelhouse/*.whl
+        if-no-files-found: error
+    - name: Set Filename
+      id: set-filename
+      shell: bash
+      run: |
+        echo "filename=$(cd wheelhouse && ls *.whl)" >> $GITHUB_OUTPUT
+    - name: Validate Outputs
+      id: validate-outputs
+      shell: bash
+      env:
+        chosenfilename: ${{ steps.set-filename.outputs.filename }}
+      run: echo "Filename is $chosenfilename"
+
+        
