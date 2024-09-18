@@ -1,0 +1,30 @@
+[project]
+name = "lepus-neo"
+version = "1.0.0"
+authors = [
+  { name="gfek"},
+  { name="Lilly Aronleigh", email="ghostoverflow256@gmail.com" },
+  
+]
+description = "Lepus is a tool for enumerating subdomains, checking for subdomain takeovers and perform port scans - and boy, is it fast!"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["setuptools","beautifulsoup4==4.9.3","dnspython==2.0.0","ipwhois==1.2.0","requests==2.32.2","shodan==1.25.0","slackclient==2.9.3","SQLAlchemy==1.4.18","termcolor==1.1.0","tqdm==4.61.1"]
+
+
+[project.urls]
+Homepage = "https://github.com/GhostDog98/lepus-neo"
+Issues = "https://github.com/GhostDog98/lepus-neo"
+
+[build-system]
+requires = ["setuptools","beautifulsoup4==4.9.3","dnspython==2.0.0","ipwhois==1.2.0","requests==2.32.2","shodan==1.25.0","slackclient==2.9.3","SQLAlchemy==1.4.18","termcolor==1.1.0","tqdm==4.61.1"]
+build-backend = "setuptools.build_meta"
+
+
+[project.scripts]
+lepus = "lepus:main"
