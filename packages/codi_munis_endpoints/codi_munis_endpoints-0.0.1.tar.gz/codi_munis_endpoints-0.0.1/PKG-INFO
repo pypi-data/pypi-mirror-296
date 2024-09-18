@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: codi_munis_endpoints
+Version: 0.0.1
+Summary: Munis Endpoints
+Author-email: Jesse Clark <jesse.clark@davenportiowa.com>
+Requires-Dist: yarl
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: sphinx ; extra == "doc"
+Provides-Extra: dev
+Provides-Extra: doc

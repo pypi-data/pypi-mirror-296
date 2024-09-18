@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "codi_munis_endpoints"
+authors = [{name = "Jesse Clark", email = "jesse.clark@davenportiowa.com"}]
+dynamic = ["version", "description"]
+
+# [tool.flit.external-data]
+# directory = "_munis_endpoints"
+dependencies = ["yarl"]
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "flit",
+]
+doc = ["sphinx"]
