@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: teleapp-auth
+Version: 0.1.0
+Summary: Telegram authentication library
+Author-email: vffuunnyy <vffuunnyy@gmail.com>
+License: MIT
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Telegram WebApp Auth Library
+
+This library is a simple way to authenticate users in your web application using Telegram.
