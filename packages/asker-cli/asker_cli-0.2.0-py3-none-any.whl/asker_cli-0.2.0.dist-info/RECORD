@@ -1,0 +1,11 @@
+asker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asker/ask.py,sha256=TcIaZBPf3SA276clKb4njzZKEkJKpMUuw1aVSf88UAY,3126
+asker/config.py,sha256=07R0gUngTKYq41z2W0D43hBo30F0jjgDf4bLCfc9qfM,853
+asker/favs.py,sha256=yrwhR_MpqKQsv6SS3vuEuPJCCpi73nn0I-bVzx_4VoQ,103
+asker/history.py,sha256=cG8ieIRMYV-5Kauxxyk18QZNP36S6BdLTNqr9uUZnHQ,1742
+asker/llm.py,sha256=cTRlhfPQWWVCj-nq2YOmDNQst1SHHJEea4onazvP9fI,5036
+asker_cli-0.2.0.dist-info/METADATA,sha256=OiMqzC5TVcPhG_lnnl7MerHlZgeOTyn1JJaNogxiQ3g,4000
+asker_cli-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+asker_cli-0.2.0.dist-info/entry_points.txt,sha256=ct0Lx-Jqy73yoF10-0Lumh-0KbBTUQPtuPBH0mqPmFo,39
+asker_cli-0.2.0.dist-info/top_level.txt,sha256=ah1Adq_VZomRYZx4BIC-GHSBugct8m9avSrzlrF9uAg,6
+asker_cli-0.2.0.dist-info/RECORD,,
