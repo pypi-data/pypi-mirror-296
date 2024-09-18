@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+zscryptography/__init__.py
+zscryptography/zscryptography.py
+zscryptography.egg-info/PKG-INFO
+zscryptography.egg-info/SOURCES.txt
+zscryptography.egg-info/dependency_links.txt
+zscryptography.egg-info/requires.txt
+zscryptography.egg-info/top_level.txt
