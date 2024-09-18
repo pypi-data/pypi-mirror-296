@@ -1,0 +1,41 @@
+[project]
+name = "femto-admin"
+requires-python = ">=3.11"
+authors = [
+    {name = "Artemiev", email = "mixartemev@gmail.com"},
+]
+keywords = ["starlette", "fastapi", "admin", "dashboard", "datatables", "crud", "tortoise-orm", "ASGI-admin"]
+description = "Simplest fastest minimal ASGI CRUD Admin panel for Tortoise ORM models. It's generating fully native async auto  zero config one line app"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = [
+    "tortoise-api",
+    "jinja2",
+    "redis"
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/XyncNet/x-admin"
+Repository = "https://github.com/XyncNet/x-admin"
+
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm[toml]>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["femto_admin"]
+
+[tool.setuptools_scm]
+version_scheme = "python-simplified-semver" # if "feature" in `branch_name` SEMVER_MINOR++ else SEMVER_PATCH++
+local_scheme = "no-local-version"
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine",
+    "setuptools_scm",
+]
+
+[tool.ruff]
+line-length = 120
