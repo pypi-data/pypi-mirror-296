@@ -1,0 +1,5 @@
+ase
+matplotlib
+numpy
+mp-api>=0.37.0
+python-dotenv
