@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: BetSim
+Version: 0.0.1
+Summary: A package for simulating a live betting environment
+Author-email: Patrick Gavin LaChapelle <patlachapelle3@gmail.com>
+Project-URL: Homepage, https://github.com/physicslifter/BetSim
+Project-URL: Issues, https://github.com/physicslifter/BetSim/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BetSim
+A python package for simulating a live betting environment
