@@ -1,0 +1,14 @@
+setuptools
+Plone
+prettyconf
+plone.api
+
+[test]
+pytest-plone>=0.5.0
+pytest-cov
+pytest
+zope.pytestlayer
+zest.releaser[recommended]
+plone.app.testing[robot]
+plone.restapi[test]
+collective.MockMailHost
