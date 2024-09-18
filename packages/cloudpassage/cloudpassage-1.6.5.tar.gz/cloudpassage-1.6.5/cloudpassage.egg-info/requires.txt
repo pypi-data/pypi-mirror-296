@@ -1,0 +1,2 @@
+pyaml
+requests>=2.18
