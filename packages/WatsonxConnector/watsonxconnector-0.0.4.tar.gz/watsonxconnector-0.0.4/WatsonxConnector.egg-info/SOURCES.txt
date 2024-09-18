@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+WatsonxConnector/__init__.py
+WatsonxConnector/connector.py
+WatsonxConnector.egg-info/PKG-INFO
+WatsonxConnector.egg-info/SOURCES.txt
+WatsonxConnector.egg-info/dependency_links.txt
+WatsonxConnector.egg-info/requires.txt
+WatsonxConnector.egg-info/top_level.txt
