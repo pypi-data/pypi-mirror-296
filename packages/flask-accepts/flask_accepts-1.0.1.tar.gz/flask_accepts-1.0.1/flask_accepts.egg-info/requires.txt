@@ -1,0 +1,9 @@
+marshmallow>=3.17.0
+
+[:python_version < "3.8"]
+flask-restx==1.1.0
+werkzeug<3,>=2
+
+[:python_version >= "3.8"]
+flask-restx>=1.2.0
+werkzeug<4,>=3
