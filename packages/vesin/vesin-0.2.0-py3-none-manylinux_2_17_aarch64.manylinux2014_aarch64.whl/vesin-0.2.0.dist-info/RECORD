@@ -1,0 +1,11 @@
+vesin/_c_lib.py,sha256=sutx78Iig4CcyEEJNJ3JaBaR4cwfEmb9eKbzpkM9T1Q,2547
+vesin/_ase.py,sha256=qohOEKqbpRNM-KhjMCxsluKHFicI8VxZ9Av3HhZRPNs,1306
+vesin/_c_api.py,sha256=TDWfoc-w1qJ6cEu62862AJRB7aix2TRL8G94Hhjm19o,1283
+vesin/__init__.py,sha256=2fceUuASD3_SUvtA2lPHp2gOCArwKAQQDt47VVOIn_w,200
+vesin/_neighbors.py,sha256=SmlkEEWGgfS9JlgDpNHxSSwjnx7EXnDON_anmwO537A,5945
+vesin/lib/libvesin.so,sha256=wjfrbR5uv863X1md5tbhCTIIbREv9rTlDJicvxQVqOs,178048
+vesin/include/vesin.h,sha256=Mewu3BHILQxpGGF3ZiVeQqzRGQnLOsn33qicTuKLsNU,5443
+vesin-0.2.0.dist-info/METADATA,sha256=ExxFbPLhW8FoocPR2Tz2B84kTbIBCYz1iR607r8s0_w,3950
+vesin-0.2.0.dist-info/RECORD,,
+vesin-0.2.0.dist-info/WHEEL,sha256=7pa-r_MkjtO01eXIPWqUBE0JKPqB1ERhgFyB1Th9IrM,148
+vesin-0.2.0.dist-info/top_level.txt,sha256=LIkiEKoZwkdHsOgavutHMDKBLPQD-__MhrWVxLlAFGg,6
