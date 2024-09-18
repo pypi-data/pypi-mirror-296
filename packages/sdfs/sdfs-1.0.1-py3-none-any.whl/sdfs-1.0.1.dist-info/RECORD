@@ -1,0 +1,14 @@
+sdfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdfs/concatenate_feature_sets.py,sha256=bo3bsE4NOEwl9FaL_kYZjOQHASyg7VnGiDRFDMFnhmQ,452
+sdfs/distances.py,sha256=l21pb4KvHsu8SntFe2D8KvsK8OAss8CX3Go5QJsUxns,925
+sdfs/dynamic_features.py,sha256=jZQpydNsuacA3uz6cbelG648OlheDB9_Q9T88xx00Wk,1169
+sdfs/early_stopping.py,sha256=lXKu69fATs1m1k7OkqIjggWyj5TRWojma4ZI6Aid7qY,700
+sdfs/extend_test_samples.py,sha256=_QV46mPlx5xkb4maDZwLykTDCqlr2q91OmjWxSqxHQE,648
+sdfs/feature_expansion.py,sha256=o7pJ_zAw8Lxl28EzH3ggCMNSn7teXEKh0JM6KnNJJbU,2231
+sdfs/models.py,sha256=39gij4reBkOXSloCW-RXnkz4kh_ESfaqSvbbjvWpog4,515
+sdfs/train.py,sha256=XPDxzChCIJ63I6xYGTkWpSVex8kfaXS3xgZioFXRoyg,3334
+sdfs-1.0.1.dist-info/LICENSE.txt,sha256=UydJ-tKAoZCFjEtHHk2h4LHsTmapyIBdRWh7xwmDxY8,1093
+sdfs-1.0.1.dist-info/METADATA,sha256=zkBrvjrjQUhKy-OctqPDDV187XlyU77hcfTeB31dmHI,4022
+sdfs-1.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+sdfs-1.0.1.dist-info/top_level.txt,sha256=w0mZxrvW4dErdRqpFTDBLKBgfE_pghwJIDCNqCySChM,5
+sdfs-1.0.1.dist-info/RECORD,,
