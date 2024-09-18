@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: locking_activations
+Version: 0.1.0
+Summary: Locking activations via k-sparse autoencoders.
+License: MIT License
+Keywords: interpretability,explainable-ai
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: accelerate
+Requires-Dist: datasets
+Requires-Dist: einops
+Requires-Dist: huggingface-hub
+Requires-Dist: natsort
+Requires-Dist: safetensors
+Requires-Dist: simple-parsing
+Requires-Dist: torch
+Requires-Dist: transformers
+
+# Locking_Backdoors_Via_Steering_Language_Models
+Suppresses backdoors in reward models, by locking to base models.
