@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: csv-to-ascii-table
+Version: 0.5.0
+Summary: An asynchronous CSV to ASCII table converter
+Home-page: https://github.com/rowingdude/ascii_table_generator
+Author: Benjamin Cance
+Author-email: canceb@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asyncio
+
+# CSV to ASCII Table Converter
+
+This package provides an asynchronous CSV to ASCII table converter. It reads CSV files and outputs them as formatted ASCII tables.
+
+## Features
+
+- Asynchronous file I/O for improved performance with large files
+- Customizable column width and alignment
+- Option to limit the number of rows displayed
+- Support for output to file or console
+- Error handling for file operations and CSV parsing
+
+## Installation
+
+You can install the package using pip: `pip install csv-to-ascii-table`
+
+## Usage
+
+Here's a basic example of how to use the converter:
+
+```
+import asyncio
+from csv_to_ascii_table import CSVToASCIITable
+
+async def main():
+    converter = CSVToASCIITable('path/to/your/file.csv', max_width=30, max_rows=100, align='<')
+    await converter.run()
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```

@@ -1,0 +1,2 @@
+[console_scripts]
+csv-to-ascii = csv_to_ascii_table.converter:main
