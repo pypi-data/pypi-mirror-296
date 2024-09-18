@@ -1,0 +1,13 @@
+numpy
+Pillow
+pyproj
+requests
+pytest
+pytest-asyncio
+protobuf~=4.21.9
+pyfrpc
+scipy
+aiohttp
+pycryptodome
+pyequilib
+cython
