@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/framing/__init__.py
+src/framing/__main__.py
+src/framing.egg-info/PKG-INFO
+src/framing.egg-info/SOURCES.txt
+src/framing.egg-info/dependency_links.txt
+src/framing.egg-info/top_level.txt
+src/framing/tests/__init__.py
+src/framing/tests/test_1984.py
