@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi_search_engine"
+version = "0.1.0"
+authors = [
+  { name="sabarinathan raghupathi", email="sabarinathan_96@pm.me" },
+]
+description = "A package for searching multiple search engines"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.25.1",
+    "beautifulsoup4>=4.9.3",
+    "fake-useragent>=1.1.1",
+    "urllib3>=1.26.6",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sarag5/multi_search_engine"
+"Bug Tracker" = "https://github.com/sarag5/multi_search_engine/issues"
