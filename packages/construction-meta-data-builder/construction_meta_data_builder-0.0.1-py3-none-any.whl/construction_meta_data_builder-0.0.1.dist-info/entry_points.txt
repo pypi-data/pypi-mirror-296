@@ -1,0 +1,2 @@
+[console_scripts]
+construction_meta_data_builder = construction_meta_data_builder.main:main
