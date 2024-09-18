@@ -1,0 +1,8 @@
+openfigi_client-0.2.5.dist-info/METADATA,sha256=v6nOeFmTRBcJDWB_3YfWimLcRBuPuKQCAg1tW6CYQdg,12088
+openfigi_client-0.2.5.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+openfigi_client-0.2.5.dist-info/licenses/LICENSE,sha256=B-uvX1ygeIbW7ox7j-b59yGH7F757rNqmCo2fQYR7cY,1066
+openfigi_client/__init__.py,sha256=GXT6Jv3LWCORHh0p6t5kQTKQj-GS8bacdJ3o-UEK9oU,525
+openfigi_client/_client.py,sha256=xPcLVZeYCjtPs3DCh-dRY2qm6ryMrPtjnByWLOMfiRE,10651
+openfigi_client/_models.py,sha256=Fv-8RhRsES0mbs_xyygQNz5N1-UaFTLMktqPh5IH0fs,10910
+openfigi_client/exceptions.py,sha256=uYF7QHW8shYfNgS1FVGkMNHZZSior1A7rNz8zpvkEQI,572
+openfigi_client-0.2.5.dist-info/RECORD,,
