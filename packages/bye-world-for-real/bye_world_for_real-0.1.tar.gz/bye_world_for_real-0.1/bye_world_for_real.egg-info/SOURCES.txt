@@ -1,0 +1,6 @@
+README.md
+setup.py
+bye_world_for_real.egg-info/PKG-INFO
+bye_world_for_real.egg-info/SOURCES.txt
+bye_world_for_real.egg-info/dependency_links.txt
+bye_world_for_real.egg-info/top_level.txt
