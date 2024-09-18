@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: vjscraper-tk
+Version: 0.0.2
+Summary: Scraper de views do TikTok
+Author: Renan de Souza Rodrigues
+Author-email: renanrodrigues7110@gmail.com
+License: MIT License
+Keywords: vjscraper,tiktok,tiktok-scraper,vjscraper-tk
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: playwright
+
+**Creator(s):**
+
+- Renan de Souza Rodrigues
+- vjbots
+
+**Summary:**
+
+- web scrape utilizando playwright para dados de views do tiktok
+- Salva dados de sessão para um navegador não anonimo e os carrega
+
+**Observações:**
+
+- não precisa se utilizar o `load_data_session` para se chamar a função `fetch_artist` pois por si só já chama o metodo em sua assinatura
+- `.class`, `xpaths `e `#selector_css `podem mudar de browser para browser, recomento sobescrever a lib caso haja algum erro em algum desses
+
+**Salvar dados de sessão para logar no browser com dados já inicializados**
+
+```
+    with sync_playwright() as p:
+    navegador = p.chromium.launch(headless=False)
+    contexto = navegador.new_context()
+
+    # Realiza login ou outras ações que criam uma sessão
+    pagina = contexto.new_page()
+    pagina.goto('https://exemplo.com')
+
+    # Salva os dados da sessão em um arquivo
+    save_data_session(contexto, 'sessao.json')
+
+    navegador.close()
+```
+
+**Carregar dados de sessão no browser**
+
+```
+from playwright.sync_api import sync_playwright
+from vjscraper_tk import fetch_artist,load_data_session
+
+with sync_playwright() as p:
+    navegador = p.chromium.launch(headless=False)
+    contexto = navegador.new_context()    # Carrega os dados da sessão
+    load_data_session(contexto, 'sessao.json')    # Abre uma nova página com os dados da sessão carregados
+    pagina = contexto.new_page()
+    pagina.goto('https://exemplo.com')
+navegador.close()
+
+views = fetch_artist(artists.get("@pefilofficial"),'session.json',15)
+
+for i,view in enumerate(views):
+	print('count views {i}º: {view}')
+```
+
+**Get started**
+
+```
+import time
+from vjscraper_tk import fetch_artist
+from vjscraper_tk.datas_user import save_data_session
+from playwright.sync_api import sync_playwright
+
+# primeira vez deve se salvar os dados de sessão
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=False)
+    context=browser.new_context()
+    pg = context.new_page()
+    pg.goto('https://www.tiktok.com/')
+    time.sleep(30)
+    save_data_session(context,'./sessao.json')
+
+results = fetch_artist("@perfiloficial", "./sessao.json")
+i = 1
+for result in results:
+    print(f"video {i}: {result}")
+    i += 1
+```

@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+vjscraper_tk/__init__.py
+vjscraper_tk/datas_user.py
+vjscraper_tk/tiktokscraper.py
+vjscraper_tk.egg-info/PKG-INFO
+vjscraper_tk.egg-info/SOURCES.txt
+vjscraper_tk.egg-info/dependency_links.txt
+vjscraper_tk.egg-info/requires.txt
+vjscraper_tk.egg-info/top_level.txt
