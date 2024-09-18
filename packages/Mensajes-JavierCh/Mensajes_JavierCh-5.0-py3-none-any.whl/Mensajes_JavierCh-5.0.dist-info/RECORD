@@ -1,0 +1,12 @@
+mensajes/__init__.py,sha256=-8H5W0Sre1mNWvNSdpdOYRdi5LSaVou3nOvKVscdAa8,37
+mensajes/adios/__init__.py,sha256=Vx5y-gnL_hUYdZJIb8pQLt6byGFyO6KjJms4xK9QLOQ,46
+mensajes/adios/despedidas.py,sha256=jQXVsZo6Opq2lVEtz_XCWGvLTIw9o0aJEbqt7NasMIA,203
+mensajes/hola/__init__.py,sha256=3XQIgStjjAkG5Gcap8VHMbJADF5ElVCicEE73WIHsr8,45
+mensajes/hola/saludos.py,sha256=pLif1OHE4bdqgEjORnkkVrCz2GwPw1Puuu7wALIC4p8,383
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=PrI47fQCrlS9x4PozScUyKB3wOAERWeWY3b6H9qx_m4,288
+Mensajes_JavierCh-5.0.dist-info/LICENSE,sha256=s8jiXI8BqsxD67HD7_zhsQvLP9vmCL_4xMaVcAPrFFE,1111
+Mensajes_JavierCh-5.0.dist-info/METADATA,sha256=ft0glZjYnwOED2BVACJoF2MBAl42XQnCmc5mg76f7rE,703
+Mensajes_JavierCh-5.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+Mensajes_JavierCh-5.0.dist-info/top_level.txt,sha256=gD40JdIxiaPRvMl4iCu3Edq1ctVrOdqjON-Ms9kPSQk,15
+Mensajes_JavierCh-5.0.dist-info/RECORD,,
