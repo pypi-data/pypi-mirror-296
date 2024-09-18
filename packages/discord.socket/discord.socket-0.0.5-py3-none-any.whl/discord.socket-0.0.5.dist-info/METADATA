@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: discord.socket
+Version: 0.0.5
+Summary: An extension to discord.http to add gateway event support, but as minimal cache as possible.
+Author-email: AlexFlipnote <root@alexflipnote.dev>
+License: MIT
+Keywords: python,api,discord,websocket,socket,raw,interaction,slash,gateway
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: discord.http
+Requires-Dist: websockets
+Requires-Dist: yarl
+Provides-Extra: dev
+Requires-Dist: pyright; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: toml; extra == "dev"
+
+# discord.socket
+An extension to discord.http to add gateway event support, but as minimal cache as possible
+
+> Note that this project is still in early development, and is not yet ready for production use.

@@ -1,0 +1,11 @@
+discord_socket/__init__.py,sha256=yL6llV_W1OOsutZ7lURuKXdoIDMRIB1gPcuoUPnjZV0,165
+discord_socket/cache.py,sha256=SK4BZPyqt5N2ZsA36zKPvUgbgl9-Zk6sRD8OzzVrwBc,710
+discord_socket/client.py,sha256=L0J3KMnuRW8aQqin31YvyWpKFEuYXKpbN2ywdpMX7qA,4435
+discord_socket/intents.py,sha256=pdrWywzqDyfFiqvCUrzVyy04yFXCQb4SAT_wxveBuj8,804
+discord_socket/parser.py,sha256=9GAQAagMOsMZp_OnjbU_PdN0KGToV1_iqsRy3ttsIX8,711
+discord_socket/websocket.py,sha256=TPLqK3xOX2je04DHFqzyInBZ-gNz3KbIfBMDHp6Hu2U,13048
+discord.socket-0.0.5.dist-info/LICENSE,sha256=puF1l3bvJfFbnSlkpuOs1MtXnD9P7CdebKSdOmPc7Fo,1090
+discord.socket-0.0.5.dist-info/METADATA,sha256=mhTb3hdnVEhtRGWBPyteJrEG7s7bE935Bi_A1A844CQ,825
+discord.socket-0.0.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+discord.socket-0.0.5.dist-info/top_level.txt,sha256=RZV_iHfY4jAFrARLQ-BCgibPz0UQ0r4aGo-eXCcRrqQ,15
+discord.socket-0.0.5.dist-info/RECORD,,
