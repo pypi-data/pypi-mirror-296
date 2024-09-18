@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+.circleci/config.yml
+lppl/__init__.py
+lppl/fit.py
+lppl/numerics.py
+lppl.egg-info/PKG-INFO
+lppl.egg-info/SOURCES.txt
+lppl.egg-info/dependency_links.txt
+lppl.egg-info/not-zip-safe
+lppl.egg-info/requires.txt
+lppl.egg-info/top_level.txt
+test/__init__.py
+test/test_model_consistency.py
