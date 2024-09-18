@@ -1,0 +1,5 @@
+tvb_kernels-0.5.dist-info/METADATA,sha256=sUQMWKJvN8HrzUQCRnruj6qrH16J7XcWCtC0xbjIJRw,1403
+tvb_kernels-0.5.dist-info/RECORD,,
+tvb_kernels-0.5.dist-info/WHEEL,sha256=Vc_KD8k7KM3N0YLYRkdTfstPyRXOw-pPrRCZuqVuKT4,115
+tvb_kernels/_nanobound.cpython-310-i386-linux-gnu.so,sha256=uiBBIxFipLqILBj1SBFWbsWjM3WJ6TqUGjCUojC_Ct8,395300
+tvb_kernels/__init__.py,sha256=UcaEinAykmNxhnVet-0-xVp1v-uV9uEr0aZIxOxjwLg,2622
