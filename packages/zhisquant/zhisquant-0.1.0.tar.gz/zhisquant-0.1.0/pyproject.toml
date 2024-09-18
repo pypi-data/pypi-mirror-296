@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "zhisquant"  # 包名
+version = "0.1.0"
+description = "ZhiSQuant SDK for interacting with the ZhiSQuant API"
+authors = ["Maple <mapleccs@outlook.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.0.0"
+pandas = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
