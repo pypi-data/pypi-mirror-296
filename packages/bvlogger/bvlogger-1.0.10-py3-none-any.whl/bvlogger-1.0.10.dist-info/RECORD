@@ -1,0 +1,8 @@
+bvlogger/__init__.py,sha256=VNeb9fpELSG9P3oUs-TxddKq1FbKDtyBY7x6_Wy1t_g,183
+bvlogger/authentication.py,sha256=mCydw6hopkUELW3x77J50fxvOrn5sfovN1GxKbzfQ3U,589
+bvlogger/connector_logging.py,sha256=S0lf_4MWxFncvdrXbJYutpcvoAFo_PrtHiLW4_K7tlo,1263
+bvlogger/endpoint_details.py,sha256=b1uUUVCw81hu_NGwynvOIFv2MjDlHhSIwvXfY6TCO_8,2446
+bvlogger-1.0.10.dist-info/METADATA,sha256=idqf4446DlOyPQC6bfgtLRPLoKfRSkpoxbtjgzDyyXM,917
+bvlogger-1.0.10.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+bvlogger-1.0.10.dist-info/top_level.txt,sha256=aUdekF0YuQSXkwQZPHKv-3eKWNas3Ptvc_QdhKftw5w,9
+bvlogger-1.0.10.dist-info/RECORD,,
