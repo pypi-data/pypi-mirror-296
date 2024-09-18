@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ussr/__init__.py
+ussr/reencoder.py
+ussr/test.py
+ussr.egg-info/PKG-INFO
+ussr.egg-info/SOURCES.txt
+ussr.egg-info/dependency_links.txt
+ussr.egg-info/requires.txt
+ussr.egg-info/top_level.txt
