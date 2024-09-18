@@ -1,0 +1,59 @@
+Metadata-Version: 2.3
+Name: atomic-counter
+Version: 0.1.3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bump-my-version ; extra == 'develop'
+Requires-Dist: check-manifest ; extra == 'develop'
+Requires-Dist: maturin >=1.1, <2 ; extra == 'develop'
+Requires-Dist: pytest ; extra == 'develop'
+Requires-Dist: pytest-cov ; extra == 'develop'
+Requires-Dist: ruff ; extra == 'develop'
+Requires-Dist: twine ; extra == 'develop'
+Requires-Dist: wheel ; extra == 'develop'
+Provides-Extra: develop
+License-File: LICENSE
+Summary: Atomic Counters
+Author: Tim Paine
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/timkpaine/atomic-counter
+Project-URL: homepage, https://github.com/timkpaine/atomic-counter
+
+# Atomic Counter
+
+[![Build Status](https://github.com/timkpaine/atomic-counter/workflows/Build%20Status/badge.svg?branch=main)](https://github.com/timkpaine/atomic-counter/actions?query=workflow%3A%22Build+Status%22)
+[![Coverage](https://codecov.io/gh/timkpaine/atomic-counter/branch/main/graph/badge.svg)](https://codecov.io/gh/timkpaine/atomic-counter)
+[![License](https://img.shields.io/github/license/timkpaine/atomic-counter.svg)](https://pypi.python.org/pypi/atomic-counter)
+[![PyPI](https://img.shields.io/pypi/v/atomic-counter.svg)](https://pypi.python.org/pypi/atomic-counter)
+
+## Overview
+`atomic-counter` is a rust library for generating a monotonically increasing sequence of integers. Depending on the particular configuration of the counter, the generated sequence will be produce unique numbers down to the nanosecond, regardless of memory state.
+E.g. if you quit the process and recreate a new counter `>1ns` later, your sequence is guaranteed to still be monotonically increasing (but with a gap).
+
+## Usage
+
+```python
+from atomic_counter import Counter
+
+c = Counter(offset_in_nanos, base_in_nanos)
+
+c.next()  # generate next number in sequence
+```
+
+Here, `base` is the counter's `0` value (e.g. a epoch in nanos to consider the `0` point, to keep numbers as small as possible if you do not need to go back to 1970). `offset` is the number of nanos since `base` at which to start.
+
+If unset, `base` will be `2010-01-01` in nanos, `offset` will be `0`, which means the counter will start at `(now - 2010/01/01) as nanos`.
+
+To create e.g. a daily counter, pass in `base=today in nanos`. As this is a common occurrence for sequences that reset daily, a convenience function `def daily() -> Counter:` is provided.
+
+
+
+
