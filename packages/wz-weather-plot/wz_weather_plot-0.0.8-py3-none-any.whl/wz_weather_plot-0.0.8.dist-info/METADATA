@@ -1,0 +1,145 @@
+Metadata-Version: 2.3
+Name: wz-weather-plot
+Version: 0.0.8
+Summary: 用来绘制地图数据
+Project-URL: Documentation, https://github.com/yjw/wz-weather-plot#readme
+Project-URL: Issues, https://github.com/yjw/wz-weather-plot/issues
+Project-URL: Source, https://github.com/yjw/wz-weather-plot
+Author-email: yjw <1633998687@qq.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Requires-Dist: cartopy>=0.20.2
+Requires-Dist: chardet>=4.0.0
+Requires-Dist: geopandas>=1.0.1
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: matplotlib-inline>=0.1.7
+Requires-Dist: matplotlib>=3.9.1
+Requires-Dist: metpy>=1.6.3
+Requires-Dist: netcdf4>=1.7.1
+Requires-Dist: numpy>=1.22.3
+Requires-Dist: pandas>=1.4.2
+Requires-Dist: pygrib>=2.1.6
+Requires-Dist: scipy>=1.14.1
+Requires-Dist: xarray>=2024.7.0
+Description-Content-Type: text/markdown
+
+# wz-weather-plot
+
+[![PyPI - Version](https://img.shields.io/pypi/v/wz-weather-plot.svg)](https://pypi.org/project/wz-weather-plot)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/wz-weather-plot.svg)](https://pypi.org/project/wz-weather-plot)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install wz-weather-plot
+```
+
+## License
+
+`wz-weather-plot` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+## 该模块主要用于绘图配置，以下为绘图参数配置详解，目前只支持绘制中国区的图形：
+
+### 1. 绘图参数配置
+
+```
+PRE01:  #传入的key
+  map_cfg:  #地图的配置
+    extent: # 地图范围的配置
+      - 70  # 开始的经度
+      - 140 # 截止的经度
+      - 10  # 起始纬度
+      - 60  # 截止纬度
+      - 10  # x 方向的间隔
+      - 10  # y 方向的间隔
+    add_province: true  # 是否添加省份
+    add_city: false   # 是否添加城市
+    add_cnty: false  # 是否添加县区    
+    title: "2米气温"  # 图片的标题
+  data_detail_cfg:  #数据路径的配置
+    save_path: "./test/test.png"  # 保存的路径
+    data_type: "WIZGRD02"  # 数据的格式
+    u_path: "F:/data/ECMWF_D1D/2022061208/u10/2022061208.006" # 绘制风向杆，需要配置此项
+    v_path: "F:/data/ECMWF_D1D/2022061208/v10/2022061208.006" # 绘制风向杆，需要配置此项
+    contourf_paths: # 绘制填色的数据，需要配置此项
+      mx2t24: "F:/data/ECMWF_D1D/2022061208/mx2t24/2022061208.024"
+    contour_paths: # 绘制等值线的数据，需要配置此项
+      mx2t24: "F:/data/ECMWF_D1D/2022061208/mx2t24/2022061208.024"
+  time_interval: # 时间间隔的配置
+    hours: 12
+  time_zone: "GMT8" # 时区
+  cst_hour:  # 时效的配置
+    start_cst: 1
+    end_cst: 2
+    step: 1
+  contourf_cfg:  # 填色图的配置
+    add_color_bar: true # 是否添加颜色条
+    elements_detail: # 填色图的元素的配置，支持多个产品填色
+      mx2t24:
+        colors: "#022F82,#125CA6,#1776D5,#3B9EF1,#85D2FF,#AFE4FA,#D5FAFF,#F4FBF3,#D4FDD4,#BDFF8C,#FAFEA0, #FFF2C5,#FED1A3,#FA9887,#FD5500,#E60000"
+        # 颜色的配置，需要比levels 少一个
+        levels: "-50, -12, -8, -4, 0, 4, 8, 12, 16, 20, 24, 28, 32, 35, 37, 40, 99"
+        # level的配置，需要比colors 多一个
+#        cmap: "" # 支持 cmap格式
+        extend: "both" # 主要用来绘制颜色调的形状
+      mx2t242:
+        colors: "#022F82,#125CA6,#1776D5,#3B9EF1,#85D2FF,#AFE4FA,#D5FAFF,#F4FBF3,#D4FDD4,#BDFF8C,#FAFEA0, #FFF2C5,#FED1A3,#FA9887,#FD5500,#E60000"
+        levels: "-50, -12, -8, -4, 0, 4, 8, 12, 16, 20, 24, 28, 32, 35, 37, 40, 99"
+        #        cmap: ""
+        extend: "both"
+  wind_bar_cfg: # 风向杆的配置
+    barb_color: "blue" # 风向杆的颜色
+    length: 6  # 风向杆的长度
+    re_grid_shape: 20 # 按道理应该是图片上显示的个数，值越大，越密
+  contour_cfg: # 等值线的配置
+    mx2t24:
+      - levels: # 间隔配置
+          - -20 # 最小值
+          - 0  # 最大值
+          - 4  # 间隔
+        colors: "black" #等值线的颜色
+        line_widths: 1.5 #线条的粗细
+        line_styles: "-" 线条的形状
+      - levels:
+          - 35
+        colors: "red"
+        line_widths: 2
+        line_styles: "-"
+      - levels:
+          - 0
+          - 40
+          - 4
+        colors: "black"
+        line_widths: 1.5
+        line_styles: "-"
+    gh850:
+      - levels:
+          - 488
+          - 584
+          - 4
+        colors: "black"
+        line_widths: 1.5
+        line_styles: "-"
+      - levels:
+          - 588
+        colors: "red"
+        line_widths: 2
+        line_styles: "-"
+      - levels:
+          - 590
+          - 644
+          - 4
+        colors: "black"
+        line_widths: 1.5
+        line_styles: "-"
+
