@@ -1,0 +1,12 @@
+vesin/__init__.py,sha256=EWv4z7R3ohKapDdxvHJWmkrfNpBnpjb6vFbuQ09zuJ8,208
+vesin/_ase.py,sha256=gU2WiLZW8fsbHDe7oNd3U2wtbmrXm5IZ8lu9diDIHzU,1352
+vesin/_c_api.py,sha256=1wPSQ-tYLbgBsiXAxcChZyXJwiXkIDxcnvuAJcy7-Qo,1327
+vesin/_c_lib.py,sha256=-oCPV7H1lLmyP7eok0abXMEct-efC937L6QLK6BWfgo,2630
+vesin/_neighbors.py,sha256=wOer4HSLAijnMf2rAonxxDweGOrn-Ri3s6jVVyhqyis,6113
+vesin/bin/vesin.dll,sha256=FaSGbpQT75I8Dr_5q50vhg773cql6ohfVMNiAGhXitk,156160
+vesin/include/vesin.h,sha256=JSO1zjqkuIJgmS6kJHIHxJ85fZOlZKMGKlkHgMN0DVI,5599
+vesin/lib/vesin.lib,sha256=VYRqGFOAa8Ia2Yh3bxOAgeZDeFxeBOvX67Zr77LnqDM,2812
+vesin-0.2.0.dist-info/METADATA,sha256=qbl03PK-RHNth1Lp6sT74TtaHXk9MitSjHBYirozFaE,4058
+vesin-0.2.0.dist-info/WHEEL,sha256=UZWkB7hdHd8SXLvRSsKYZHaAk7YswVowzA3x4w8Hdww,99
+vesin-0.2.0.dist-info/top_level.txt,sha256=LIkiEKoZwkdHsOgavutHMDKBLPQD-__MhrWVxLlAFGg,6
+vesin-0.2.0.dist-info/RECORD,,
