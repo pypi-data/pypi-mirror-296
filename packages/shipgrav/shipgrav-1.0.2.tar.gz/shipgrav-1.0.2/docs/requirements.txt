@@ -1,0 +1,10 @@
+# requirements to build the docs
+alabaster
+decorator
+sphinx
+numpy
+pandas
+scipy
+tomli
+statsmodels
+pyyaml

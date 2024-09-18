@@ -1,0 +1,7 @@
+*.swp
+shipgrav/__pycache__/
+example-scripts/data*/
+shipgrav/tests/__pycache__/
+shipgrav/tests/.coverage
+docs/_build/
+*.code-workspace
