@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/nfttools/__init__.py
+src/nfttools.egg-info/PKG-INFO
+src/nfttools.egg-info/SOURCES.txt
+src/nfttools.egg-info/dependency_links.txt
+src/nfttools.egg-info/requires.txt
+src/nfttools.egg-info/top_level.txt
