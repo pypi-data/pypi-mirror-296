@@ -1,0 +1,13 @@
+tibert/__init__.py,sha256=CngeexaNfFdl-ysL6TlnjTFRfzVzCOPeSFo1M265pAw,141
+tibert/bertcoref.py,sha256=xeVr4hfZjAVCgK8AonUhoK2dKhmSulcpLTEwoRTme7U,63637
+tibert/predict.py,sha256=JJOl7WoAuMN_HME8sX76aCJxX4B68DYdDXZAf5LSLzI,13144
+tibert/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tibert/run_test.py,sha256=tCi5NvM2x08iGmML27cCaIsR-0rn-AnPzQGnzdMtoXE,4983
+tibert/run_train.py,sha256=zEKCvV8BVoEi42A9xeS8qT0Ijm_lp57WOtEomAFO3qc,5278
+tibert/score.py,sha256=UWvORlTczuq3KqF_A_gnWMJgvPhZqg7kbhvOF7JHEcM,11758
+tibert/train.py,sha256=q9d1yQ0tIPVTZwB7WWPuuQsK9W6QqjXsAn-JVCEy2w8,9534
+tibert/utils.py,sha256=VLEHc5kiwGIfw9o3r2etNPhHC8ABIN_99vWg_ya2iiA,6159
+tibert-0.5.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tibert-0.5.0.dist-info/METADATA,sha256=Hqdfw5aKuU0VrEWcxkx1YcI5j2RtV37aGaeIXB4cRyc,9238
+tibert-0.5.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+tibert-0.5.0.dist-info/RECORD,,
