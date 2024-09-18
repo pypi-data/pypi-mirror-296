@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: customizable-json-encoder
+Version: 0.0.2
+Summary: Customizable JSON Encoder for python. module name is cjenc.
+Author-email: LostEnryu <enryu.lost1n4rest@gmail.com>
+Maintainer-email: LostEnryu <enryu.lost1n4rest@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 YasueShuta
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/LostEnryu/CustomizableJsonEncoder.git
+Project-URL: Issues, https://github.com/LostEnryu/CustomizableJsonEncoder/issues
+Keywords: custom,json,encoder,YasueShuta
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CJEnc; Customizable JSON Encoder
+
+Customizable JSON encoder for json module of python.
+
+Pythonの標準モジュールであるjsonのdump, loadで使えるカスタムJSONエンコーダーです。
+
+cjenc.sample内のクラスや、オリジナルのクラスを追加して、defaultによるカスタマイズだけでは実現できない独自のJSON形式を出力するサポートをします。
+
+## How to Use
+
+<pre>
+Shell:
+
+$ pip install customizable_json_encoder
+</pre>
+
+<pre>
+Python:
+
+import json
+import cjenc import CJEnc
+import cjenc.sample import Inline
+
+data = {"status": "OK", "data": [1,2,3,4,5]}
+
+# default json indent
+print(json.dumps(data, indent=2))
+# {
+#   "status": "OK",
+#   "data": [
+#     1,
+#     2,
+#     3,
+#     4,
+#     5
+#   ]
+# }
+
+# use Inline class
+
+data["data"] = Inline(data["data"], separator=", ")
+print(json.dumps(data, indent=2, cls=CJEnc))
+# {
+#   "status": "OK",
+#   "data": [1, 2, 3, 4, 5]   
+# }
+</pre>
