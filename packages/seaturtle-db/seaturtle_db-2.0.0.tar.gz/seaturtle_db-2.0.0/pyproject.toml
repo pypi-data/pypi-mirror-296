@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools >= 75.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seaturtle_db"
+description = "Python files used as databases."
+version = "2.0.0"
+requires-python = ">= 3.12"
+authors = [
+    {name = "Tathya Garg", email = "coding.tathya@gmail.com"}
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["database"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.12"
+]
+[tool.bumpver]
+current_version = "2.0.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"'
+]
+"seaturtle_db/__version__.py" = ['^__version__ = "{version}"$']
+"docs/source/conf.py" = ['release = "{version}"$']
+"setup.py" = ['version="{version}",$']
