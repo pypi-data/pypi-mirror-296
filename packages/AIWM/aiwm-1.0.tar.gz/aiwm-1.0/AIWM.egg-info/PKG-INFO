@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: AIWM
+Version: 1.0
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: pmdarima
+Requires-Dist: statsmodels
+Requires-Dist: requests
+Requires-Dist: prophet
+Requires-Dist: sklearn

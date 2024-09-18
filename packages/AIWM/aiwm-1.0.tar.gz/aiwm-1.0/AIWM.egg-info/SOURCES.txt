@@ -1,0 +1,9 @@
+setup.py
+AIWM/Predict.py
+AIWM/Test_Package.py
+AIWM/__init__.py
+AIWM.egg-info/PKG-INFO
+AIWM.egg-info/SOURCES.txt
+AIWM.egg-info/dependency_links.txt
+AIWM.egg-info/requires.txt
+AIWM.egg-info/top_level.txt
