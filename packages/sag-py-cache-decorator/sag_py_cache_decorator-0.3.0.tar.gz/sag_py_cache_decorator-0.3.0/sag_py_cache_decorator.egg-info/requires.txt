@@ -1,0 +1,14 @@
+
+[dev]
+flake8
+mypy
+build
+pytest
+pytest-asyncio
+pytest-cov
+toml
+coverage
+coverage-lcov
+mock
+types-mock
+zipp>=3.19.1
