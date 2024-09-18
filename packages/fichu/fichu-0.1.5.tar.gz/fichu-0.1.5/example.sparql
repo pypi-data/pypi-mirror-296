@@ -1,0 +1,11 @@
+SELECT (MAX(?a) AS ?max_a) WHERE {
+  BIND("A" AS ?a)
+  FILTER(?a = "A")
+  FILTER YEAR(?a)
+  FILTER <>(2)
+}
+GROUP BY YEAR(23423423)
+HAVING (?a > 2) (?d = 3) YEAR(23)
+ORDER BY DESC(?a)
+LIMIT 12
+OFFSET 1010
