@@ -1,0 +1,13 @@
+imio.migrator-1.35-py3.11-nspkg.pth,sha256=XTPlQ7ZZOJ9eevOTxBxBdF9Aj2jiqvd7Y7Vv5Sy8VA4,457
+imio/migrator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imio/migrator/migrator.py,sha256=K_4WRce4SV9lGaARGqpn-1z5rAKVsoKC19AaPxmB3Vg,18707
+imio/migrator/testing.py,sha256=voVxyKouo3X62rExsTh15VPNYGLVdRL1nPjd8LboHKk,827
+imio/migrator/testing.zcml,sha256=gtn0H-qpqoW5VOHkcegH6nLvwr51TeCw1ssJrwh2cBc,167
+imio/migrator/utils.py,sha256=3d3-8PuF5utyFz3FhAqMoOXaGDIvPz0rPkvBGM2S7rA,1880
+imio/migrator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imio.migrator-1.35.dist-info/METADATA,sha256=cgsjlWra0DAYu6r0hyronfAoDHYa4l8gPheh-XJZTU4,8873
+imio.migrator-1.35.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+imio.migrator-1.35.dist-info/entry_points.txt,sha256=b5cHz9FINNyhunUZ6BJOQMhgeAi2x9UcnAkA9l8KEC4,40
+imio.migrator-1.35.dist-info/namespace_packages.txt,sha256=ZktC0EGzThvMTAin9_q_41rzvvfMT2FYbP8pbhSLMSA,5
+imio.migrator-1.35.dist-info/top_level.txt,sha256=ZktC0EGzThvMTAin9_q_41rzvvfMT2FYbP8pbhSLMSA,5
+imio.migrator-1.35.dist-info/RECORD,,
