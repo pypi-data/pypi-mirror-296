@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pycddlib-standalone
+Version: 3.0.0b3
+Summary: Standalone version of pycddlib
+Author-email: "Matthias C. M. Troffaes" <matthias.troffaes@gmail.com>
+Project-URL: Homepage, https://github.com/mcmtroffaes/pycddlib-standalone
+Project-URL: Documentation, https://pycddlib.readthedocs.io/
+Project-URL: Repository, https://github.com/mcmtroffaes/pycddlib-standalone.git
+Project-URL: Issues, https://github.com/mcmtroffaes/pycddlib-standalone/issues
+Project-URL: Changelog, https://github.com/mcmtroffaes/pycddlib-standalone/blob/develop/CHANGELOG.md
+Keywords: convex, polyhedron, linear programming, double description method
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: numpy; extra == "test"
+
+This package provides just the ``cdd`` module of
+[pycddlib](https://github.com/mcmtroffaes/pycddlib),
+without ``cdd.gmp``.
+It can be compiled from the source distribution
+without needing cddlib and gmp installed,
+and is suitable for installation of pycddlib on systems where cddlib and gmp
+cannot be installed, such as for instance Google Colab.
+
+* Download: https://pypi.org/project/pycddlib-standalone/#files
+
+* Documentation: https://pycddlib.readthedocs.io/en/latest/
+
+* Development: https://github.com/mcmtroffaes/pycddlib-standalone/ ![build](https://github.com/mcmtroffaes/pycddlib-standalone/actions/workflows/build.yml/badge.svg)
+
+# Installation
+
+From PyPI:
+
+```shell
+python -m pip install pycddlib-standalone
+```
+
+On Google Colab:
+
+```
+%pip install pycddlib-standalone
+```
+
+From source repository:
+
+```shell
+python configure.py
+python -m pip install .
+```

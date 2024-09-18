@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools", "cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycddlib-standalone"
+version = "3.0.0b3"
+requires-python = ">=3.9"
+authors = [
+  {name = "Matthias C. M. Troffaes", email = "matthias.troffaes@gmail.com"},
+]
+description = "Standalone version of pycddlib"
+readme = "README.md"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Programming Language :: C",
+  "Programming Language :: Cython",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+keywords = ["convex, polyhedron, linear programming, double description method"]
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+  "numpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/mcmtroffaes/pycddlib-standalone"
+Documentation = "https://pycddlib.readthedocs.io/"
+Repository = "https://github.com/mcmtroffaes/pycddlib-standalone.git"
+Issues = "https://github.com/mcmtroffaes/pycddlib-standalone/issues"
+Changelog = "https://github.com/mcmtroffaes/pycddlib-standalone/blob/develop/CHANGELOG.md"
+
+[tool.setuptools]
+packages = ["cdd"]
+package-dir = {"" = "src/pycddlib/src"}
+
+[tool.setuptools.package-data]
+cdd = ["py.typed"]
+
+# [[tool.setuptools.ext-modules]] defined in setup.py for now
+
+[tool.pytest.ini_options]
+testpaths = ["src/pycddlib/test"]
+norecursedirs = ["src/pycddlib/test/gmp"]
+
+[tool.mypy]
+files = ["src/pycddlib/src/**/*.pyi", "src/pycddlib/test/*.py"]
+disallow_untyped_defs = true
