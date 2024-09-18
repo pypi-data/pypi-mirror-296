@@ -1,0 +1,4 @@
+prune pyuegc/tests
+global-exclude *.pyc __pycache__
+exclude tox.ini
+include UNICODE-LICENSE
