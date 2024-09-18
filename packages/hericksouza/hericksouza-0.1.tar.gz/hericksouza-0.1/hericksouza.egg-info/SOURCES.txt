@@ -1,0 +1,6 @@
+README.md
+setup.py
+hericksouza.egg-info/PKG-INFO
+hericksouza.egg-info/SOURCES.txt
+hericksouza.egg-info/dependency_links.txt
+hericksouza.egg-info/top_level.txt
