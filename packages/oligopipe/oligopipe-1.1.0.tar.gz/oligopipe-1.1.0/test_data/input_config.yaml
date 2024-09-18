@@ -1,0 +1,32 @@
+################################################
+### Configuration of input for oligopipe CLI ###
+################################################
+
+annotation_database:
+  host:
+  user:
+  password:
+  port:
+
+patient_info:
+   # possible values: M, F, U (undetermined) or empty
+  sex:
+
+variant_input:
+  # choose one of both input types
+  vcf_file:
+  tsv_file:
+  genome_build:   # hg19 or hg38
+
+variant_filters:
+  max_maf: 0.035
+  remove_intronic_synonymous: True
+  remove_intergenic: True
+
+output:
+  dir:
+  prefix:
+
+gene_panel_file:
+
+hpo_terms_file:

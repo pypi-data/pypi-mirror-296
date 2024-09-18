@@ -1,0 +1,1 @@
+# is needed so that importlib.resources can be used to read the config file in cli_utils.py

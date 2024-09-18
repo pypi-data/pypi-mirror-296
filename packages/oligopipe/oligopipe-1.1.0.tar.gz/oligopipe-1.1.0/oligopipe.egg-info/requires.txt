@@ -1,0 +1,9 @@
+numpy
+python-magic
+networkx
+psycopg2-binary
+psycopg2
+treeinterpreter
+scikit-learn==1.1.0
+imbalanced-learn==0.9.1
+pyyaml
