@@ -1,0 +1,9 @@
+em27_metadata-1.1.0.dist-info/METADATA,sha256=4aA5StTvg5Z4cXG_2andbtNHI1_VK95Oy6HTFLC7VRU,4637
+em27_metadata-1.1.0.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+em27_metadata-1.1.0.dist-info/licenses/LICENSE,sha256=Bd6q0b7V_ZxmN5TXXsO6ShMpGOxzDtgVL9vKQ0B4nok,1097
+em27_metadata/__init__.py,sha256=9RVee0QNVzamQGj9hJ1PtVJeKrKpwvngc-UTEMb1hrA,150
+em27_metadata/interfaces.py,sha256=ek0C5eTV5_q0jS-Ui4qqTEW7QiIeNnW1r3ZOxkI1RQs,6030
+em27_metadata/loader.py,sha256=nLQLG0-7xYV9zDj6VB5rLFm1H4sa4nFyqapiOCAXPOo,5485
+em27_metadata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+em27_metadata/types.py,sha256=yIl3bWo_EORASlZSNS4naImHeTv1-hbujhunezFisEI,8033
+em27_metadata-1.1.0.dist-info/RECORD,,
