@@ -1,0 +1,9 @@
+etcpak/__init__.pyi,sha256=2SOoTtnQItukL_amfq4inCsEm5-DRn1624APUkrGJPo,4522
+etcpak/__init__.py,sha256=SVmyeboXWHoBBMpbcJKrpjshpQ25qEA3-8UuR-WWnTQ,1210
+etcpak/_etcpak_simd.cpython-312-darwin.so,sha256=tq8-0iOVtODk5nk0TmbGKPlGRyezH6sw73Qg8AhwVf4,241696
+etcpak/_etcpak.cpython-312-darwin.so,sha256=l76KJLCQZ8_7iXz2SQ38p0_96S3ABZR4C5Sm9lqhLe8,241696
+etcpak-0.9.10.dist-info/RECORD,,
+etcpak-0.9.10.dist-info/LICENSE,sha256=7TQ7Mb6Vzmu0LVXIDQC3x_qY2ZwDeeSFfw440oNBoW8,1062
+etcpak-0.9.10.dist-info/WHEEL,sha256=lWey-nzGdePMz7fsIJ1fIMVKiFg5IkOcUVqkuIpdbws,109
+etcpak-0.9.10.dist-info/top_level.txt,sha256=T2D0x7SQLUB3U1bXC2uotzkyB-VtZlC_mQ2wYZB9Y8E,7
+etcpak-0.9.10.dist-info/METADATA,sha256=1PvPElVmUCn_unZqR3Un53vKMPzwBgbrlsZowGfs2Yw,4314
