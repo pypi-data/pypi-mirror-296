@@ -1,0 +1,11 @@
+firstuseauthenticator/__init__.py,sha256=A0vyGEajo_g7MZm_nr8byRRuibZWWyFtZUo2fGHiKGQ,329
+firstuseauthenticator/_version.py,sha256=VyJr5RASYWTQ0sfZuAvWIlX0vme0HmQQSOVpae5Hk2E,372
+firstuseauthenticator/firstuseauthenticator.py,sha256=V9saWcffUML1jiXYpraa3y7dbhs0z0aWmeW4JUYFqQ4,13766
+firstuseauthenticator/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firstuseauthenticator/templates/reset.html,sha256=4Q9Zy8LdmWJgE_6wdOlMYgwI5jmXcwlaYnyO0gPb1Gw,843
+jupyterhub_firstuseauthenticator-1.1.0.dist-info/LICENSE,sha256=8mkBCwpTwezEr91F5vzGUNN72yD3dE-cJv1K_B12U-E,1501
+jupyterhub_firstuseauthenticator-1.1.0.dist-info/METADATA,sha256=ONHXOdCir3l-42L1eybqL4uVj9sPlcFLupYJg5pySgo,3738
+jupyterhub_firstuseauthenticator-1.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+jupyterhub_firstuseauthenticator-1.1.0.dist-info/entry_points.txt,sha256=uekuwUQZ76bHy5WMH1oec4s9iiYSmCKT8OyI7zCxse0,151
+jupyterhub_firstuseauthenticator-1.1.0.dist-info/top_level.txt,sha256=My94ezNy7BElES1H_6x13By_Ih5Mpne7nmJZv_o58k4,22
+jupyterhub_firstuseauthenticator-1.1.0.dist-info/RECORD,,
