@@ -1,0 +1,7 @@
+gptdb_tugraph_plugins/__init__.py,sha256=HPo5t4KFL49Vzl2pLvTwv5m-kukOz9tlOW4Qf6aOUd0,1421
+gptdb_tugraph_plugins/_version.py,sha256=Gm8Y-WGXh6sSMlimCQFZPOa5gqeUyo-NYS7atWOilcw,16
+gptdb_tugraph_plugins/libs/leiden-0.1.0-linux-x86_64.so,sha256=JTUXSCN9Ksv2FBddjoyw-Vco_l_6_eNt-z6fRm2p1uw,9326096
+gptdb_tugraph_plugins-0.1.0.dist-info/METADATA,sha256=VnPXCqCygVLk1RutuewHfgH_DOKi-odps3vkMSwaSQc,1394
+gptdb_tugraph_plugins-0.1.0.dist-info/WHEEL,sha256=lb684yu7Ks0VhbxEx65yQq6G1qDNFeY7quUdP8xuNFc,104
+gptdb_tugraph_plugins-0.1.0.dist-info/top_level.txt,sha256=IftfqGfP-Ntlc77wwzEi6Y1Wg_cT0BAUGD4Al1EYiFs,22
+gptdb_tugraph_plugins-0.1.0.dist-info/RECORD,,
