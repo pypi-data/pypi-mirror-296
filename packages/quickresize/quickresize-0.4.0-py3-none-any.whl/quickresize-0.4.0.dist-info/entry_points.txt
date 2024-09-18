@@ -1,0 +1,3 @@
+[console_scripts]
+centercrop = quickresize.centercrop:main
+resize = quickresize.resize:main

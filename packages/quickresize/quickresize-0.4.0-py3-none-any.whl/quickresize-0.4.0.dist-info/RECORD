@@ -1,0 +1,9 @@
+quickresize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickresize/centercrop.py,sha256=DhEtSueCkZorYF69rGc0aRbz3uIpTYskHxUjfSxE6oM,1192
+quickresize/resize.py,sha256=uvCPcN1KQkdb2TgbOM71U9T7cl4VGphGDVfvMGrAJA4,927
+quickresize-0.4.0.dist-info/LICENSE,sha256=zpGyf0DOlOm8ghiNqyNRMz4Y36X9lGBwEkSH8TK90qk,1073
+quickresize-0.4.0.dist-info/METADATA,sha256=sXEt5qBbCJbjJ19VkKqEcMknZXVfNRIjCLDEJK0OrYw,523
+quickresize-0.4.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+quickresize-0.4.0.dist-info/entry_points.txt,sha256=RKnLq1U4zu-tP-MIxHMXsHT4rnVuCX1bir9OfvZNB0E,92
+quickresize-0.4.0.dist-info/top_level.txt,sha256=lpfQ24zKOjfcXOqbx7MC5TbnJ37dufWNW9MHxqu2od4,12
+quickresize-0.4.0.dist-info/RECORD,,
