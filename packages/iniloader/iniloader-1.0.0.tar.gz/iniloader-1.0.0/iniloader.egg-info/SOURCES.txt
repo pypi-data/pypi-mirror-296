@@ -1,0 +1,7 @@
+setup.py
+iniloader/__init__.py
+iniloader/iniloader.py
+iniloader.egg-info/PKG-INFO
+iniloader.egg-info/SOURCES.txt
+iniloader.egg-info/dependency_links.txt
+iniloader.egg-info/top_level.txt
