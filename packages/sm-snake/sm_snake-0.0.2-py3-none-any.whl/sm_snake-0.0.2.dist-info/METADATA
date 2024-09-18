@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sm-snake
+Version: 0.0.2
+Summary: Common tool kit
+Home-page: https://github.com/ScottMasson/snake
+Author: Scott Masson
+Author-email: masson@tutanota.de
+Project-URL: Bug Reports, https://github.com/ScottMasson/snake/issues
+Project-URL: Source, https://github.com/ScottMasson/snake
+Keywords: PDF,png2webp,python
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Requires-Python: >=3.0
+License-File: LICENSE
+
+Common tool kit!
