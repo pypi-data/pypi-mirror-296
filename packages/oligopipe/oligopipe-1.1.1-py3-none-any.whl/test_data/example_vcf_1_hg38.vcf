@@ -1,0 +1,37 @@
+##fileformat=VCFv4.2
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##FILTER=<ID=q10,Description="Quality below 10">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##liftOverProgram=CrossMap,version=0.6.4,website=https://crossmap.readthedocs.io/en/latest/
+##liftOverChainFile=/net/isilonP/public/ro/ensweb-data/latest/tools/www/e109/assembly_converter/homo_sapiens/GRCh37_to_GRCh38.chain.gz
+##originalFile=/nfs/incoming/ensweb/live/www/temporary/tools/AssemblyConverter/q/w/h/JYpZ8WuCIDZ3A/1/example_vcf_1.vcf
+##targetRefGenome=/net/isilonP/public/ro/ensweb-data/latest/tools/www/e109/assembly_converter/homo_sapiens/Homo_sapiens.GRCh38.dna.toplevel.fa
+##liftOverDate=June20,2023
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	PATIENT1
+1	156648108	rs1382746556	AT	A	29	PASS	DP=11;AF=0.4	GT:GQ:DP	1/0:43:5
+3	186620608	rs35890379	C	A	48	PASS	DP=5;AF=0.333	GT:GQ:DP	1/0:41:2
+3	186620775	rs35457250	C	T	50	PASS	DP=10;AF=0.333	GT:GQ:DP	1/1:60:6
+4	176729712	.	C	T	61	PASS	DP=14;AF=0.02	GT:GQ:DP	1/0:65:8
+4	55106807	.	T	A	47	PASS	DP=9	GT:GQ:DP	1/1:33:5
+4	55110572	rs200041532	A	G	28	PASS	DP=8	GT:GQ:DP	1/0:32:4
+4	987896	.	C	G	3	q10	DP=3;AF=0.4	GT:GQ:DP	1/0:22:2
+6	31970343	.	C	T	5	q10	DP=6;AF=0.52	GT:GQ:DP	1/0:34:3
+8	56963886	.	G	A	60	PASS	DP=10;AF=0.333	GT:GQ:DP	1/0:56:7
+8	56964017	.	T	C	56	PASS	DP=12;AF=0.333	GT:GQ:DP	1/0:69:8
+8	56966303	.	G	A	22	PASS	DP=14	GT:GQ:DP	1/0:67:8
+10	113567514	.	G	T	47	PASS	DP=14	GT:GQ:DP	1/0:32:9
+10	73913990	.	A	C	33	PASS	DP=10;AF=0.02	GT:GQ:DP	1/1:21:5
+11	124756673	rs61753651	G	A	22	PASS	DP=7;AF=0.02	GT:GQ:DP	1/0:12:4
+12	128616212	rs117965239	C	G	19	PASS	DP=8;AF=0.333	GT:GQ:DP	1/1:34:4
+13	37582401	.	C	T	18	PASS	DP=11;AF=0.04	GT:GQ:DP	1/0:67:8
+13	37592220	.	T	G	25	PASS	DP=11	GT:GQ:DP	1/1:12:7
+14	94378610	.	C	T	34	PASS	DP=13	GT:GQ:DP	1/0:32:6
+15	80180184	.	C	T	68	PASS	DP=16;AF=0.05	GT:GQ:DP	1/1:12:11
+16	84877487	.	A	G	66	PASS	DP=16;AF=0.04	GT:GQ:DP	1/0:13:10
+16	84889253	rs767050	C	T	49	PASS	DP=10;AF=0.4	GT:GQ:DP	1/1:55:7
+17	66214462	.	A	G	45	PASS	DP=9	GT:GQ:DP	1/0:63:4
+20	58997620	.	A	G	52	PASS	DP=9;AF=0.333	GT:GQ:DP	1/1:67:3
+20	58997654	.	A	G	58	PASS	DP=8	GT:GQ:DP	1/0:49:5
