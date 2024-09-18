@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyflowery"
+version = "1.0.4"
+description = "A Python API wrapper for the Flowery API"
+authors = ["cswimr <seaswimmerthefsh@gmail.com>"]
+license = "GPL 3.0-only"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.5"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.7"
+ruff = "^0.6.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
