@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ccbcge
+Version: 0.1.1
+Summary: A package to access gene expression data for breast cancer
+Author: Bryce Tolman
+Author-email: bat.2000@live.com
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/brycetolman54/ccbcge
+Keywords: gene expression,breast cancer,bioinformatics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>2.25.1
+Requires-Dist: pandas>1.3.0
+
+# CCBCGE
+
+The goal of this python package is to provide quick, easy acces to breast cancer gene expression data for analysis.
+
+## Installation
+
+To install this package, run the following command in your terminal:
+```
+pip install ccbcge
+```
+
+## Usage
+
+
+
+## Dependencies
+
+This package requires use of the following packages:
+- `request`
+- `pandas`
+
+If you do not have them installed already, they will be installed for you.
+
+## Development
+
+Help for how to update this package is found in a [Developers File](dev.md)
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for more information.
