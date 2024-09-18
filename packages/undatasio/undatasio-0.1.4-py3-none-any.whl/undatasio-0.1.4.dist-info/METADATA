@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: undatasio
+Version: 0.1.4
+Summary: test pip upload
+Home-page: 
+Author: lily
+Author-email: 1909017169@qq.com
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: requests~=2.32.3
+Requires-Dist: requests-toolbelt==1.0.0
+
+# Unofficial DatasIO Python SDK
+
+This is an unofficial Python SDK for interacting with the DatasIO API.
+
+## Installation
+
+You can install the SDK using pip:
+
+```
+pip install undatasio
+```
+
+Markdown
+Usage
+from undatasio import UnDatasIO
+
+# Replace 'YOUR_TOKEN' with your actual DatasIO API token
+datasio = UnDatasIO(token="YOUR_TOKEN", task_name="YOUR_TASK_NAME")
+
+# Upload files
+file_dir_path = "/path/to/your/files"
+upload_response = datasio.upload(file_dir_path)
+print(upload_response)
+
+# Get parsing results
+file_name_list = ["file1.pdf", "file2.docx"]
+parser_response = datasio.parser(file_name_list)
+print(parser_response)
+
+# Download parsed results
+vision = "v1"  # Replace with the desired version
+download_response = datasio.download(vision)
+print(download_response)
+
+# ... other available methods (see below)
+
+Python
+
+Available Methods
+
+upload(file_dir_path: str): Uploads files in the specified directory to DatasIO.
+parser(file_name_list: List): Initiates parsing of the specified files.
+download(vision: str): Downloads the parsed results for the specified version.
+show_vision(): Retrieves information about available versions.
+show_upload(): Gets details about uploaded files.
+download_type_info(type_info: List, file_name: str, vision: str): Downloads specific types of information (title, table, text, etc.) for a parsed file.
+
+Notes
+
+This SDK is not officially affiliated with DatasIO.
+Ensure you have a valid API token from DatasIO.
+Refer to the DatasIO API documentation for detailed information about API endpoints, parameters, and responses.
+
+Contributing
+
+Contributions are welcome! Please open an issue or pull request if you have any suggestions or improvements.
