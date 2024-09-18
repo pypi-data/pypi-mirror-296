@@ -1,0 +1,9 @@
+[project]
+name = "latch-top"
+version = "0.1.0"
+description = "Latch top is a tool to show resource usage of processes in a latch pod"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+latch-top = "latch_top:main"

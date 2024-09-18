@@ -1,0 +1,2 @@
+[console_scripts]
+latch-top = latch_top:main
