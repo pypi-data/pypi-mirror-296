@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pytorch-dragon
+Version: 0.2.2
+Summary: A pytorch integrated Machine Learning / Deep learning utilities library
+Download-URL: https://github.com/Campbell-Rankine/dragon/archive/refs/tags/v0.2.2.tar.gz
+Author: Campbell Rankine
+Author-email: campbellrankine@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: setuptools >=61.0
+Requires-Dist: validators
+Requires-Dist: beautifulsoup4
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: torch ==2.2.2
+Requires-Dist: psutil
+Requires-Dist: typing
+Requires-Dist: datetime
+Requires-Dist: gpytorch
+Requires-Dist: botorch
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: torchvision
+Requires-Dist: matplotlib
+Requires-Dist: requests-html
+Requires-Dist: pandas
+
