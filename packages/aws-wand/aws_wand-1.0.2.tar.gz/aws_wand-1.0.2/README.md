@@ -1,0 +1,3 @@
+# Description
+
+This is a test package which helps to implement model training pipeline on Amazon Web Services. The main point is you should have created IAM user with administrator permissions. Using this API you're able to create users with safe permissions automatically and orchestrate your S3 buckets or EC2 instances. Thus, having some Docker image with your training code, you can automatically load your data to a S3 bucket, create a EC2 instance and train your model on your data.
