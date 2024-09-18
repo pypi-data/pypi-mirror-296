@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hyo2.ca3
+Version: 0.0.1
+Summary: Visit hydroffice.org.
+Home-page: https://www.hydroffice.org/
+Author: Giuseppe Masetti(UNH,CCOM)
+Author-email: gmasetti@ccom.unh.edu
+License: LGPLv3 license
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Office/Business :: Office Suites
+Requires-Python: >=3.1
+
