@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: tofunc
+Version: 1.0.0
+Summary: Convert any callable into a function.
+Author-email: Johannes <johannes-programming@mailfence.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2024 Johannes
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Documentation, https://pypi.org/project/tofunc
+Project-URL: Download, https://pypi.org/project/tofunc/#files
+Project-URL: Source, https://github.com/johannes-programming/tofunc
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+======
+tofunc
+======
+
+Overview
+--------
+
+Convert any callable into a function. Useful to circumvent method binding.
+
+Installation
+------------
+
+To install ``tofunc``, you can use ``pip``. Open your terminal and run:
+
+.. code-block:: bash
+
+    pip install tofunc
+
+Implementation
+--------------
+
+.. code-block:: python
+
+    import functools
+
+    __all__ = ["tofunc"]
+
+    def tofunc(old, /):
+        def new(*args, **kwargs):
+            return old(*args, **kwargs)
+        try:
+            new = functools.wraps(old)(new)
+        except:
+            pass
+        return new
+
+Example
+-------
+
+.. code-block:: python
+
+    from tofunc import tofunc
+    import functools
+
+    def join(self, b="beta", c="gamma"):
+        return "%s %s %s" % (self, b, c)
+
+    hello = functools.partial(join, c="hello")
+    class Foo:
+        ...
+    Foo.greet = hello
+    print(Foo().greet("Alice"))
+    # Output: Alice beta hello
+    hello = tofunc(hello)
+    Foo.greet = hello
+    print(Foo().greet("Bob"))
+    # Output: <__main__.Foo object at 0x1443bfce0> Bob hello
+
+License
+-------
+
+This project is licensed under the MIT License.
+
+Links
+-----
+
+* `Documentation <https://pypi.org/project/tofunc>`_
+* `Download <https://pypi.org/project/tofunc/#files>`_
+* `Source <https://github.com/johannes-programming/tofunc>`_
+
+Credits
+-------
+
+* Author: Johannes
+* Email: `johannes-programming@mailfence.com <mailto:johannes-programming@mailfence.com>`_
+
+Thank you for using ``tofunc``!
