@@ -1,0 +1,7 @@
+h3>=3.7.0
+transformers
+datasets
+tokenizers
+torch
+tf-keras
+pyarrow<16.0.0,>=14.0.1
