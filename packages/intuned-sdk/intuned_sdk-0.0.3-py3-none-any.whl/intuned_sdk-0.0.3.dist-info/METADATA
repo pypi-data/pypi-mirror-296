@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: intuned_sdk
+Version: 0.0.3
+Summary: Intuned Python SDK
+Home-page: https://github.com/intuned/intuned-python-sdk
+Author: Intuned
+Author-email: infra@intuned.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: playwright ==1.44.0
+Requires-Dist: aiofiles ==24.1.0
+Provides-Extra: dev
+Requires-Dist: pytest ==8.3.3 ; extra == 'dev'
+Requires-Dist: pytest-asyncio ==0.24.0 ; extra == 'dev'
+Requires-Dist: python-dotenv ==1.0.1 ; extra == 'dev'
+Requires-Dist: setuptools ==75.1.0 ; extra == 'dev'
+
+# Intuned python sdk
+
+how to publish to pypi:
+
+1. update version in setup.py and pyproject.toml
+2. clear dist
+3. python setup.py sdist bdist_wheel
+4. twine upload dist/*
+
+
+how to run a test:
+
+```bash
+pytest tests/upload_file_to_s3_test_e2e.py
+```
+
