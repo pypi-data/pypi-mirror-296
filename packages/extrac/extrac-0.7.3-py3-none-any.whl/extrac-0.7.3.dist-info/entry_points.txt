@@ -1,0 +1,4 @@
+[console_scripts]
+extrac = python_extrac.extrac:cli
+x = python_extrac.extrac:cli
+
