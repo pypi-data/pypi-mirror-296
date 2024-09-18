@@ -1,0 +1,8 @@
+discord.http
+websockets
+yarl
+
+[dev]
+pyright
+flake8
+toml
