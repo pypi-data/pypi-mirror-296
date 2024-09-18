@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/market_basket_analysis.egg-info/PKG-INFO
+src/market_basket_analysis.egg-info/SOURCES.txt
+src/market_basket_analysis.egg-info/dependency_links.txt
+src/market_basket_analysis.egg-info/top_level.txt
