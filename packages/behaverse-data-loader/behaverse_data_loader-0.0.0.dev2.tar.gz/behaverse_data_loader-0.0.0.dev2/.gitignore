@@ -1,0 +1,17 @@
+dist/
+tmp/
+*.pyc
+vignettes/
+.Rhistory
+
+cran-comments.md
+CRAN_SUBMITION
+
+.ruff_cache/
+.pytest_cache/
+
+# ignore dataset registry files and cache
+/datasets
+/.dvc
+
+.$*.bkp
