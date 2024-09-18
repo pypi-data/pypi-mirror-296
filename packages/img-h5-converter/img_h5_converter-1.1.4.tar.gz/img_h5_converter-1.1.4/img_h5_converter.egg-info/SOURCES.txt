@@ -1,0 +1,8 @@
+README.md
+setup.py
+img_converter/__init__.py
+img_h5_converter.egg-info/PKG-INFO
+img_h5_converter.egg-info/SOURCES.txt
+img_h5_converter.egg-info/dependency_links.txt
+img_h5_converter.egg-info/requires.txt
+img_h5_converter.egg-info/top_level.txt
