@@ -1,0 +1,12 @@
+nizaba/__init__.py,sha256=FFgfyhTaIpbnVA4KEIdWAYuGoexCXC7L4fk7irMaesM,185
+nizaba/api/__init__.py,sha256=19ILWD5agny22eI79km-jMuJ-b9gcVwnb5rkIw0e3UM,36
+nizaba/api/set_history.py,sha256=IfeWYCsuEgy7pbJlyxUJjkqulue77P7v0GIYMWVEOXY,734
+nizaba/lang/__init__.py,sha256=i28XF9nlqdHTBX_1mp5TYOPVER2zx1UZehAsBbAStVM,47
+nizaba/lang/core.py,sha256=a0hq0gnCUgNv8CnEuJt888njwS4QNCPYuzkUWYVGyq8,3734
+nizaba/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nizaba/providers/openai.py,sha256=UOFqqZLmOlYhSvzU9fciRb-tppo5XRiyvnyI3_YIRwk,2569
+nizaba-0.0.4.dist-info/LICENSE,sha256=bYkERUSPuJJjOWJBOhyabbJjAY8u9g7Da_F6p9cCIWI,1511
+nizaba-0.0.4.dist-info/METADATA,sha256=VcledHAyyFPO3iJqBUK6-yDyjm2QJJbo3T6UAwHSGtA,464
+nizaba-0.0.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+nizaba-0.0.4.dist-info/top_level.txt,sha256=lVLROnGxDONQChEUjbcsSY6Ibw67aaZrxFNpTAxPRj4,7
+nizaba-0.0.4.dist-info/RECORD,,
