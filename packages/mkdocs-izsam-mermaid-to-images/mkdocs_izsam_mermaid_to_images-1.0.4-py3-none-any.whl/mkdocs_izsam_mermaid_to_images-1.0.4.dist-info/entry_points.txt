@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+mkdocs-izsam-mermaid-to-images = mkdocs_izsam_mermaid_to_images.plugin:MermaidToImagePlugin
