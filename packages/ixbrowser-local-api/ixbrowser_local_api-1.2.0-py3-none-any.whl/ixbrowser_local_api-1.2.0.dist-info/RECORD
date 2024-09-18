@@ -1,0 +1,12 @@
+ixbrowser_local_api/__init__.py,sha256=2n6IdU0SxeQGp9qaHO9hkM7bs3wJjS2_dkE032eNIzE,212
+ixbrowser_local_api/client.py,sha256=ZElqd093EYt5fsSZ_T_7hTtwlNWWWhWMomY4bwAHfRk,35332
+ixbrowser_local_api/consts.py,sha256=wdbR-cm03aiTnWjcSnVhSjsXrUNovY05DCOs1ww-WQQ,5351
+ixbrowser_local_api/entities.py,sha256=Zd6M7o-zfzO3jfN90Amex8y-V0bdzSTCsH4f_U-LJk0,13671
+ixbrowser_local_api/errors.py,sha256=k3fTnoBXPOStStcVoIX-1eMujc6wKSd_9wsp8eRsozo,797
+ixbrowser_local_api/utils.py,sha256=ce3n9AxHFv8gv9S-MhnsUej_xdeIpnwwTs78B_y36DE,1848
+ixbrowser_local_api/version.py,sha256=BOzgkixPYe-lylX6c6ncFiuQk5YRoGJFr7djq1uCA3Q,101
+ixbrowser_local_api-1.2.0.dist-info/LICENSE,sha256=i5sr1OR1i2tlvRSKd9Y33vlxJDpC_znjgiasPVci-Xc,1067
+ixbrowser_local_api-1.2.0.dist-info/METADATA,sha256=CX5-HggLNoKPcwK0ZiO3U2JbJmDG7uz5ytmSTlVvSPg,1914
+ixbrowser_local_api-1.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ixbrowser_local_api-1.2.0.dist-info/top_level.txt,sha256=IyHfVkNfeFydYlyDtVS4sh6JgkOdJTlmGnQNFKk0C48,20
+ixbrowser_local_api-1.2.0.dist-info/RECORD,,
