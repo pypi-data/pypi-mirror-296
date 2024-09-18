@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: codi_mun_datamodels
+Version: 0.0.1
+Summary: This module represents the initialization file for the `codi_mun_datamodels` package.
+Author-email: Jesse Clark <jesse.clark@davenportiowa.com>
+Description-Content-Type: text/markdown
+Requires-Dist: msgspec
+Requires-Dist: flit ; extra == "dev"
+Provides-Extra: dev
+
+# CODI MUN DATAMODELS
+
+
