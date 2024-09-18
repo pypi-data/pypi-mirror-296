@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: XeroML
+Version: 0.0.2
+Summary: A data management platform
+Home-page: https://www.kazilab.se
+Author: Julhash Kazi
+Author-email: XeroML@kazilab.se
+License: Apache-2.0
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas==2.2.2
+Requires-Dist: numpy==1.26.4
+Requires-Dist: scipy==1.13.0
+Requires-Dist: matplotlib==3.8.2
+Requires-Dist: statsmodels==0.14.0
+Requires-Dist: scikit-learn==1.4.2
+Requires-Dist: xgboost==1.7.6
+Requires-Dist: seaborn==0.13.1
+Requires-Dist: torch==2.1.2
+Requires-Dist: nimfa==1.4.0
+Requires-Dist: optuna==3.3.0
+Requires-Dist: ipywidgets==8.0.4
+Requires-Dist: joblib==1.2.0
+Requires-Dist: tqdm==4.65.0
+Requires-Dist: catboost==1.2.5
+Requires-Dist: imbalanced-learn==0.12.2
+Requires-Dist: IPython==8.20.0
+Requires-Dist: kaleido==0.2.1
+Requires-Dist: lime==0.2.0.1
+Requires-Dist: lightgbm==4.3.0
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: plotly==5.21.0
+Requires-Dist: scikit-optimize==0.8.1
+Requires-Dist: shap==0.45.0
+Requires-Dist: tensorflow==2.16.1
+
+# XeroML
+
+## Description
+    XeroML is a test version for analyzing biochemical data developed at KaziLab.
+
+## License
+    XeroML is released under the Apache License 2.0. For more details, see the LICENSE file included with the source code.
+
+## Contact
+For help and support, please open an issue in the GitHub repository or contact the development team at XeroML@kazilab.se.
