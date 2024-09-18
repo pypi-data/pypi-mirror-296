@@ -1,0 +1,17 @@
+anyio<4.0.0
+chevron==0.14.0
+click>=8.0.4
+coloredlogs>=10.0
+fastapi>=0.100.0
+g2p<3,>=1.1.20230822
+httpx>=0.24.1
+lxml==4.9.4
+networkx>=2.6
+numpy>=1.20.2
+pydantic<3,>=1.8.2
+pydub==0.23.1
+pympi-ling<2.0,>=1.69
+python-slugify==5.0.0
+requests>=2.31.0
+soundswallower~=0.6.0
+webvtt-py==0.4.2
