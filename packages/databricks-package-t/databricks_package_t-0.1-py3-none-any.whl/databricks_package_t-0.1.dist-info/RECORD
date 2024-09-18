@@ -1,0 +1,7 @@
+my_package/__init__.py,sha256=B3C1Yms6LVwL9vISbpBZHgDMoSr5wpGO6ThmHQBzuzQ,100
+my_package/module1.py,sha256=KlvsaXC0H09-J7IEFuJYbG_dSxKQag5NvW45V7hagl4,335
+my_package/module2.py,sha256=J8oWQNrbdYt3rkD-0S4B4ChBWTNjiYBTCItsqmb8vnQ,222
+databricks_package_t-0.1.dist-info/METADATA,sha256=K7dXodQ7RTWAF9va-v_Te0iyiYMGgY-ciyBohZMtYJk,318
+databricks_package_t-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+databricks_package_t-0.1.dist-info/top_level.txt,sha256=4OyEe7aVmevjXrMpt_mY6srrUUjZGHyUPvlu5sUpLn4,11
+databricks_package_t-0.1.dist-info/RECORD,,
