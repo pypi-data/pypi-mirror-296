@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: cellotype
+Version: 0.1
+Summary: An end-to-end Transformer-based method for automated cell/nucleus segmentation and cell type classification
+Home-page: https://github.com/maxpmx/CelloType
+Author: Minxing Pang
+Author-email: minxing@sas.upenn.edu
+License: Apache License 2.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ==3.8.*
+License-File: LICENSE
+Requires-Dist: cython
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: timm
+Requires-Dist: h5py
+Requires-Dist: submitit
+Requires-Dist: scikit-image
+Requires-Dist: opencv-python
+Requires-Dist: pycocotools
+Requires-Dist: gdown
+Requires-Dist: sahi
+Requires-Dist: torch (==1.9.0)
+Requires-Dist: torchvision (==0.10.0)
+Requires-Dist: cudatoolkit (==11.1)
+
