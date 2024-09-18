@@ -1,0 +1,11 @@
+digiseller/__init__.py,sha256=wwYjNU8yjJKMk1RAaKp2sYuxzAMaAL5pe-ukxtK5f18,36
+digiseller/digiseller.py,sha256=nZpSgluPS0OuE3_o8OXfaIbIC9WV-NHKNjYKDZjpSGM,2923
+digiseller/validators.py,sha256=2e-8JpXQEqkiS1zyuAdNHz3wiO6u6zCP2w-J--LD0Pw,802
+digiseller/api/__init__.py,sha256=P1o3Q3Weh9NOd67sVGtuLvT3NeR0bbnIJ7EOsg7F39s,97
+digiseller/api/general.py,sha256=Hu94n_r0W0Ad6c906A0vPGa8oNUrpkFKIKJfNUqgRAw,1140
+digiseller/api/operations.py,sha256=wouoRGJhNxrcanq-SAwRY938caqDeFleCWaZCsX-Oik,5960
+digiseller/api/statistics.py,sha256=9CvIFkcudhIZIp_JruzXjwLN8rxQKsieBXM9Au968Ic,6151
+digiseller-0.0.5.dist-info/METADATA,sha256=QiUzZ0aVg9dJEs3FWYzCXZ0aDPmM3YkxRjNuTSC1dEU,2263
+digiseller-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+digiseller-0.0.5.dist-info/top_level.txt,sha256=Wo6Q53vYWJwEGykNr7yPwvrAFy5Rks3-mkXE6PDRhvM,11
+digiseller-0.0.5.dist-info/RECORD,,
