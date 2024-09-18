@@ -1,0 +1,13 @@
+remarkable/__init__.py,sha256=c9m_cpAR0Zpb6Wxt9_F175CdgFm9ujNlfxe8GeqFBnA,280
+remarkable/base/RemarkableOCR.py,sha256=_HsnDDpIlheYNMv7Etmu2vRTBtxO3c44k4p6-1G8d54,21634
+remarkable/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remarkable/base/core/RemarkableOCRResearch.py,sha256=tvGH8iyF_ixJ_TtS1Pv19ID3X9ZwDXgRTph5cg73K3I,8454
+remarkable/base/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remarkable/base/core/lightweight_utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remarkable/base/core/lightweight_utilities/colors.py,sha256=ojQR-kaDn48SqOmMxgJGldXR6Q573zJF5biIzfPfylc,599
+remarkable/base/core/lightweight_utilities/utils.py,sha256=HBMHLaVAYBeGPvK8ykoIQxlCE0AJX1Qambcux6F3Rew,5599
+RemarkableOCR-2024.9.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+RemarkableOCR-2024.9.2.dist-info/METADATA,sha256=50w7BIwXdAry3qIMIAP8ucpJAjvWKr8EfCyPWjU9u9M,13706
+RemarkableOCR-2024.9.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+RemarkableOCR-2024.9.2.dist-info/top_level.txt,sha256=e946y5CahZYZw8kyixLV_UaWFMj0ChmEKjJnLvndcBk,11
+RemarkableOCR-2024.9.2.dist-info/RECORD,,
