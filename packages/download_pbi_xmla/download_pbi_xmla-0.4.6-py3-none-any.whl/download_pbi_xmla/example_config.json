@@ -1,0 +1,17 @@
+// remove this line and all comments
+{
+  "server": "powerbi://api.powerbi.com/v1.0/myorg/Onyx%20Data%20Warehouse",
+  "database": "OF DataWarehouse",
+  "chunk_size": 500,  // Set the desired chunk size here
+  "parameters": {
+    "start_date": "2023-01-01",  // Example start date
+    "end_date": "2023-12-31"     // Example end date
+  },
+  "dax_queries": [
+    {
+      "query": "// DAX Query\nDEFINE\n    VAR __StartIndex = {start_index}  // Dynamic start index\n    VAR __PageSize = {chunk_size}    // Dynamic page size\n\nEVALUATE\nTOPN(\n    __PageSize,\n    FILTER(\n        ALL('TableName'),\n        'TableName'[Date] >= DATE({start_date}) && 'TableName'[Date] <= DATE({end_date}) && 'TableName'[IndexColumn] > __StartIndex\n    ),\n    'TableName'[IndexColumn], ASC\n)",
+      "output_file": "dcr",
+      "format": "csv"
+    }
+  ]
+}
