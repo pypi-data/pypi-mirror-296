@@ -1,0 +1,12 @@
+geopandas
+rioxarray
+joblib
+requests
+
+[gee]
+earthengine-api
+geedim
+
+[pc]
+planetary-computer
+odc-stac
