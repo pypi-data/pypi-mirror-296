@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dataon-utils
+Version: 0.0.1
+Summary: dataon utils package
+Author-email: Mik Laursen <mbl@dataon.dk>, Alexander Tygesen <at@dataon.dk>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pendulum
+Requires-Dist: polars
+Requires-Dist: pyspark
+Requires-Dist: requests
+
