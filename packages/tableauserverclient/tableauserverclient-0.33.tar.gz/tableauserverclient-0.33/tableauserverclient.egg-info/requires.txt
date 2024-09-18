@@ -1,0 +1,14 @@
+defusedxml>=0.7.1
+packaging>=23.1
+requests>=2.31
+urllib3==2.2.2
+typing_extensions>=4.0.1
+
+[test]
+black==23.7
+build
+mypy==1.4
+pytest>=7.0
+pytest-cov
+pytest-subtests
+requests-mock<2.0,>=1.0
