@@ -1,0 +1,68 @@
+Metadata-Version: 2.3
+Name: bresourcemanager
+Version: 0.0.2
+Summary: bresourcemanager
+Project-URL: Source, https://github.com/b-scheduler/bresourcemanager
+Author-email: wh1isper <jizhongsheng957@gmail.com>
+License: BSD 3-Clause License
+License-File: LICENSE
+Keywords: bresourcemanager
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Provides-Extra: docs
+Requires-Dist: autodoc-pydantic; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme; extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-click; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: docker; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-asyncio; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Description-Content-Type: text/markdown
+
+![](https://img.shields.io/github/license/b-scheduler/bresourcemanager)
+![](https://img.shields.io/github/v/release/b-scheduler/bresourcemanager)
+![](https://img.shields.io/docker/image-size/wh1isper/bresourcemanager)
+![](https://img.shields.io/pypi/dm/bresourcemanager)
+![](https://img.shields.io/github/last-commit/b-scheduler/bresourcemanager)
+![](https://img.shields.io/pypi/pyversions/bresourcemanager)
+[![codecov](https://codecov.io/gh/b-scheduler/bresourcemanager/graph/badge.svg?token=RoLd4jaanq)](https://codecov.io/gh/b-scheduler/bresourcemanager)
+
+# bresourcemanager
+
+## Install
+
+`pip install bresourcemanager`
+
+Or use docker image
+
+`docker pull b-scheduler/bresourcemanager`
+
+## Usage
+
+TBD
+
+## Develop
+
+Install pre-commit before commit
+
+```
+pip install pre-commit
+pre-commit install
+```
+
+Install package locally
+
+```
+pip install -e .[test]
+```
+
+Run unit-test before PR
+
+```
+pytest -v
+```
