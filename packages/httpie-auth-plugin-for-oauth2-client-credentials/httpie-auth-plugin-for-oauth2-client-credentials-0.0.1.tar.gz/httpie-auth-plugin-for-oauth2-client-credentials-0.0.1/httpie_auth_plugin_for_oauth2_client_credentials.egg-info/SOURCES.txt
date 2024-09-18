@@ -1,0 +1,10 @@
+LICENSE
+README.md
+httpie_oauth2_client_credentials.py
+setup.py
+httpie_auth_plugin_for_oauth2_client_credentials.egg-info/PKG-INFO
+httpie_auth_plugin_for_oauth2_client_credentials.egg-info/SOURCES.txt
+httpie_auth_plugin_for_oauth2_client_credentials.egg-info/dependency_links.txt
+httpie_auth_plugin_for_oauth2_client_credentials.egg-info/entry_points.txt
+httpie_auth_plugin_for_oauth2_client_credentials.egg-info/requires.txt
+httpie_auth_plugin_for_oauth2_client_credentials.egg-info/top_level.txt
