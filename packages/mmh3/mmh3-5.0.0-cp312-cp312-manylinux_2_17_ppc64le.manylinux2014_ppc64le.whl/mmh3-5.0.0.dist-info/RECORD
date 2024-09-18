@@ -1,0 +1,10 @@
+mmh3.cpython-312-powerpc64le-linux-gnu.so,sha256=3in7dZdbM2KtLsWQ3hdXe5m3CpknYbHpkBPGF59FmeI,303752
+mmh3-5.0.0.dist-info/LICENSE,sha256=tvlV3TfqfpVtg2yMlKO34nAEiQY0hxuwnaXhJxzizjY,1074
+mmh3-5.0.0.dist-info/METADATA,sha256=gidPlJRor9q-dnYFhoDVPanO2WZ3tDN5EM3-TQRQNyo,13905
+mmh3-5.0.0.dist-info/top_level.txt,sha256=3Wxu1FBsOTbiKh0WIPJ8WVI1_uJJvsFAdmlxe6Rn-B8,5
+mmh3-5.0.0.dist-info/RECORD,,
+mmh3-5.0.0.dist-info/WHEEL,sha256=bQ7HUSVUDlddcCuhXz7k0EdJHO1O2MfQ8-XszE2cARg,153
+mmh3/__init__.pyi,sha256=fPVAnitb6BeuBCZQ3qK0nGzw-wS3FT6KxBIQZDNKy-I,2616
+mmh3/mmh3module.c,sha256=C8IxGTCqmEhwFxeGsHlXc112IU7yTQXp0VafQCwfFr0,70168
+mmh3/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmh3/murmurhash3.c,sha256=NNAFXyiGRig5uwEgAWtWbCjz7LDpl7lwuvBukcF3mwo,8373
