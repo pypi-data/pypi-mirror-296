@@ -1,0 +1,88 @@
+Metadata-Version: 2.3
+Name: infernet-ml
+Version: 1.1.0
+Summary: Lightweight library to build web3 machine learning workflows
+Author-email: ritual-all <ritual-all@ritual.net>
+Requires-Python: >=3.10
+Requires-Dist: click<9.0.0,>=8.1.7
+Requires-Dist: huggingface-hub<1.0.0,>=0.17.3
+Requires-Dist: pydantic<3.0.0,>=2.5.3
+Requires-Dist: python-dotenv<2.0.0,>=1.0.0
+Requires-Dist: ritual-arweave<1.0.0,>=0.1.0
+Provides-Extra: bark-inference
+Requires-Dist: scipy<2.0.0,>=1.11.4; extra == 'bark-inference'
+Requires-Dist: torch<3.0.0,>=2.1.2; extra == 'bark-inference'
+Requires-Dist: transformers<5.0.0,>=4.37.2; extra == 'bark-inference'
+Provides-Extra: css-inference
+Requires-Dist: retry2<1.0.0,>=0.9.5; extra == 'css-inference'
+Provides-Extra: development
+Requires-Dist: isort<6.0.0,>=5.13.2; extra == 'development'
+Requires-Dist: mypy<2.0.0,>=1.9.0; extra == 'development'
+Requires-Dist: pre-commit<4.0.0,>=3.7.0; extra == 'development'
+Requires-Dist: pytest-mock<4.0.0,>=3.14.0; extra == 'development'
+Requires-Dist: pytest<9.0.0,>=8.1.1; extra == 'development'
+Requires-Dist: ruff<1.0.0,>=0.3.5; extra == 'development'
+Requires-Dist: sk2torch<2.0.0,>=1.2.0; extra == 'development'
+Requires-Dist: torch<3.0.0,>=2.1.2; extra == 'development'
+Requires-Dist: types-mock<6.0,>=5.1.0.20240425; extra == 'development'
+Requires-Dist: types-requests<3.0,>=2.31.0.20240406; extra == 'development'
+Requires-Dist: types-retry<1.0,>=0.9.9.4; extra == 'development'
+Requires-Dist: types-tqdm<5.0,>=4.66.0.20240106; extra == 'development'
+Requires-Dist: web3<7.0.0,>=6.16.0; extra == 'development'
+Provides-Extra: diffusion-inference
+Requires-Dist: accelerate<0.28.0,>=0.27.2; extra == 'diffusion-inference'
+Requires-Dist: diffusers<0.27.0,>=0.26.3; extra == 'diffusion-inference'
+Requires-Dist: pillow<11.0.0,>=10.2.0; extra == 'diffusion-inference'
+Requires-Dist: pydantic<3.0.0,>=2.5.3; extra == 'diffusion-inference'
+Requires-Dist: torch<2.2.0,>=2.1.2; extra == 'diffusion-inference'
+Requires-Dist: transformers<5.0.0,>=4.0.0; extra == 'diffusion-inference'
+Requires-Dist: xformers<0.1.0,>=0.0.20; extra == 'diffusion-inference'
+Provides-Extra: ezkl
+Requires-Dist: ezkl<12.0.0,>=11.2.0; extra == 'ezkl'
+Provides-Extra: hf-diffusion-inference
+Requires-Dist: diffusers<0.27.0,>=0.26; extra == 'hf-diffusion-inference'
+Requires-Dist: huggingface-hub<1.0.0,>=0.20.3; extra == 'hf-diffusion-inference'
+Requires-Dist: pillow<11.0.0,>=10.2.0; extra == 'hf-diffusion-inference'
+Requires-Dist: transformers<5.0.0,>=4.38; extra == 'hf-diffusion-inference'
+Provides-Extra: hf-inference
+Requires-Dist: huggingface-hub<1.0.0,>=0.20.3; extra == 'hf-inference'
+Requires-Dist: transformers<5.0.0,>=4.38; extra == 'hf-inference'
+Provides-Extra: onnx-inference
+Requires-Dist: numpy<2.0.0,>=1.25.2; extra == 'onnx-inference'
+Requires-Dist: onnx<2.0.0,>=1.15.0; extra == 'onnx-inference'
+Requires-Dist: onnxruntime<2.0.0,>=1.16.3; extra == 'onnx-inference'
+Requires-Dist: torch<3.0.0,>=2.0.0; extra == 'onnx-inference'
+Provides-Extra: tgi-inference
+Requires-Dist: retry2<1.0.0,>=0.9.5; extra == 'tgi-inference'
+Requires-Dist: text-generation<1.0.0,>=0.6.1; extra == 'tgi-inference'
+Provides-Extra: torch-inference
+Requires-Dist: numpy<2.0.0,>=1.25.2; extra == 'torch-inference'
+Requires-Dist: sk2torch<2.0.0,>=1.2.0; extra == 'torch-inference'
+Requires-Dist: torch<3.0.0,>=2.0.0; extra == 'torch-inference'
+Description-Content-Type: text/markdown
+
+# Infernet ML
+
+Ritual provides easy-to-use abstractions for users to create AI/ML workflows that can be
+deployed on Infernet nodes.
+The [`infernet-ml`](https://github.com/ritual-net/infernet-ml) library is a Python SDK
+that provides a set of tools and extendable classes for creating and
+deploying machine learning workflows. It is designed to be easy to use, and provides a
+consistent interface for data pre-processing, inference, and post-processing of data.
+
+## Installation
+
+**Via `uv`:**
+
+``` bash
+uv pip install infernet-ml
+```
+
+**Via `pip`:**
+
+``` bash
+pip install infernet-ml
+```
+
+For more information, see
+the [documentation website](https://infernet-ml.docs.ritual.net).
