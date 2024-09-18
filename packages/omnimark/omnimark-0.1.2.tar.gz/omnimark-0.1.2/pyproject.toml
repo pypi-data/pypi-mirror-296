@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omnimark"
+version = "0.1.2"  # Increment version number
+description = "A PDF to Markdown converter with support for native, scanned, and hybrid PDFs"
+readme = "README.md"
+authors = [{name = "Roy Abes", email = "roy.abes@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["pdf", "markdown", "converter", "ocr"]
+dependencies = [
+    "pytesseract>=0.3.0",
+    "Pillow>=8.0.0",
+    "PyPDF2==2.12.1",
+    "camelot-py[cv]>=0.10.0",
+    "opencv-python>=4.0.0",
+    "pdf2image>=1.16.0",
+    "pypdf>=3.0.0",
+    "filetype>=1.0.0",
+    "pdfplumber>=0.7.0",
+    "pdfminer.six>=20200726",
+]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/royabes/omnimark"
+"Bug Tracker" = "https://github.com/royabes/omnimark/issues"
+
+[project.scripts]
+omnimark = "omnimark.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["omnimark*"]
+exclude = ["tests*"]
+
+[tool.setuptools.package-data]
+"omnimark" = ["py.typed"]
