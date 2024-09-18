@@ -1,0 +1,34 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="rss_provider"
+    >
+
+  <genericsetup:registerProfile
+      name="default"
+      title="RSS Provider"
+      description="Add in plone the capability to generate RSS feeds."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      />
+
+  <genericsetup:registerProfile
+      name="initial"
+      title="RSS Provider: Initial content"
+      description="Initial content for our website."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/initial"
+      pre_handler=".setuphandlers.populate_portal"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="RSS Provider"
+      description="Uninstall RSS Provider setup."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/uninstall"
+      />
+
+  <include package=".upgrades" />
+
+</configure>
