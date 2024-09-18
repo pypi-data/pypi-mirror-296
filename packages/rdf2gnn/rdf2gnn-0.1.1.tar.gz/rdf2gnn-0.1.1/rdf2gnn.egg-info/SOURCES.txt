@@ -1,0 +1,10 @@
+README.md
+setup.py
+rdf2gnn/__init__.py
+rdf2gnn/main.py
+rdf2gnn/utils.py
+rdf2gnn.egg-info/PKG-INFO
+rdf2gnn.egg-info/SOURCES.txt
+rdf2gnn.egg-info/dependency_links.txt
+rdf2gnn.egg-info/requires.txt
+rdf2gnn.egg-info/top_level.txt
