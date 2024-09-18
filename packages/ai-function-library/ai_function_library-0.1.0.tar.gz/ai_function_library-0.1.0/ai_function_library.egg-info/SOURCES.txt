@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ai_function/__init__.py
+ai_function/ai_function.py
+ai_function_library.egg-info/PKG-INFO
+ai_function_library.egg-info/SOURCES.txt
+ai_function_library.egg-info/dependency_links.txt
+ai_function_library.egg-info/top_level.txt
