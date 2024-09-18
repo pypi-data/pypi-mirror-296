@@ -1,0 +1,39 @@
+# conda env create -f environment.yml
+name: xopt-dev
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - deap
+  - numpy
+  - pydantic>=2.3
+  - pyyaml
+  - botorch>=0.9.2,<=0.10.0
+  - scipy>=1.10.1
+  - pandas
+  - ipywidgets
+  - tqdm
+  - orjson
+# parallel
+  - mpi4py
+  - dask
+# Developer
+  - ffmpeg
+  - pytest
+  - pytest-cov
+  - jupyterlab>=3
+  - jupyterlab-lsp
+  - python-lsp-server
+  - matplotlib
+  - pygments
+  - mkdocs
+  - mkdocstrings
+  - mkdocs-material
+  # NOTE: we are installing mkdocs-jupyter with pip for now
+  # due to the following: https://github.com/conda-forge/mkdocs-jupyter-feedstock/issues/31
+  # - mkdocs-jupyter
+  - mkdocstrings-python
+  - ruff
+  - typing-extensions
+  - pip:
+      - mkdocs-jupyter>=0.24.7
