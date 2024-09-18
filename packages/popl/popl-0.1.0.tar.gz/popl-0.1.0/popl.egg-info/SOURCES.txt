@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+popl.egg-info/PKG-INFO
+popl.egg-info/SOURCES.txt
+popl.egg-info/dependency_links.txt
+popl.egg-info/entry_points.txt
+popl.egg-info/top_level.txt
