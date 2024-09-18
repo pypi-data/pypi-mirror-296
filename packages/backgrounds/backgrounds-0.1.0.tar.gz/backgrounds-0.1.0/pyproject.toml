@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "backgrounds"
+version = "0.1.0"
+description = "A set of tools for LISA stochastic gravitational wave detectition"
+authors = ["Quentin Baghi"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+numpy = "<=1.26"
+h5py = "<=3.10"
+lisagwresponse = "^2.3"
+pyfftw = "^0.13.1"
+
+
+[tool.poetry.group.doc.dependencies]
+sphinx = "3.2.1"
+nbsphinx = "0.9.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
