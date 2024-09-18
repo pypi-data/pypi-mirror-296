@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: behatrix
+Version: 0.10
+Summary: Behatrix - Behavioral Sequences Analysis with permutation test
+Project-URL: Homepage, http://www.boris.unito.it/behatrix
+Project-URL: Documentation, https://github.com/olivierfriard/behatrix/blob/master/README.rst
+Project-URL: Change_log, https://github.com/olivierfriard/behatrix/wiki/revision-history
+Project-URL: Source_code, https://github.com/olivierfriard/behatrix
+Project-URL: Issues, https://github.com/olivierfriard/behatrix/issues
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.TXT
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: pyqt5 >=5.15
+
