@@ -1,0 +1,4 @@
+opensees
+scipy
+numpy
+sees
