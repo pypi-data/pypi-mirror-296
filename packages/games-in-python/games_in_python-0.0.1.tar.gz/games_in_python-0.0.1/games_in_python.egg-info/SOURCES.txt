@@ -1,0 +1,9 @@
+README.md
+setup.py
+games_in_python/__init__.py
+games_in_python/guessing.py
+games_in_python/hangman.py
+games_in_python.egg-info/PKG-INFO
+games_in_python.egg-info/SOURCES.txt
+games_in_python.egg-info/dependency_links.txt
+games_in_python.egg-info/top_level.txt

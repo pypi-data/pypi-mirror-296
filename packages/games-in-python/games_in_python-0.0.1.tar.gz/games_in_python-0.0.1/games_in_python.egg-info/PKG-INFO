@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: games_in_python
+Version: 0.0.1
+Summary: A package with some games in python
+Home-page: https://github.com/PedroThezi/package-games-in-python
+Author: Pedro Thezi
+Author-email: pedro.maschieto130@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# games_in_pyrhon
+
+Description. 
+The package package_name is used to:
+	- play Guesssing
+	- play Hangman
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install games_in_python
+
+```bash
+pip install games_in_python
+```
+
+## Usage
+
+```python
+from games_in_python import guessing
+guessing.play()
+from games_in_python import hangman
+hangman.play()
+```
+
+## Author
+Pedro Thezi
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
