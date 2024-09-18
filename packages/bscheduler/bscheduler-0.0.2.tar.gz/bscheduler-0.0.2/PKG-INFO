@@ -1,0 +1,68 @@
+Metadata-Version: 2.3
+Name: bscheduler
+Version: 0.0.2
+Summary: bscheduler
+Project-URL: Source, https://github.com/b-scheduler/bscheduler
+Author-email: wh1isper <jizhongsheng957@gmail.com>
+License: BSD 3-Clause License
+License-File: LICENSE
+Keywords: bscheduler
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Provides-Extra: docs
+Requires-Dist: autodoc-pydantic; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme; extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-click; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: docker; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-asyncio; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Description-Content-Type: text/markdown
+
+![](https://img.shields.io/github/license/b-scheduler/bscheduler)
+![](https://img.shields.io/github/v/release/b-scheduler/bscheduler)
+![](https://img.shields.io/docker/image-size/wh1isper/bscheduler)
+![](https://img.shields.io/pypi/dm/bscheduler)
+![](https://img.shields.io/github/last-commit/b-scheduler/bscheduler)
+![](https://img.shields.io/pypi/pyversions/bscheduler)
+[![codecov](https://codecov.io/gh/b-scheduler/bscheduler/graph/badge.svg?token=sF9EDRG5v4)](https://codecov.io/gh/b-scheduler/bscheduler)
+
+# bscheduler
+
+## Install
+
+`pip install bscheduler`
+
+Or use docker image
+
+`docker pull b-scheduler/bscheduler`
+
+## Usage
+
+TBD
+
+## Develop
+
+Install pre-commit before commit
+
+```
+pip install pre-commit
+pre-commit install
+```
+
+Install package locally
+
+```
+pip install -e .[test]
+```
+
+Run unit-test
+
+```
+pytest -v
+```
