@@ -1,0 +1,169 @@
+"""
+    Copyright 2024 Inmanta
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+    Contact: code@inmanta.com
+"""
+import mitogen
+
+
+entity File extends std::PurgeableResource:
+    """
+        This represents a file on the filesystem
+
+        :attr path: The path of the file
+        :attr mode: The permissions of the file
+        :attr owner: The owner of the file
+        :attr group: The group of the file
+        :attr content: The file contents
+        :attr content_separator: A string to use to join all of the prefix/suffix content
+            entities together.
+    """
+    string path
+    int mode
+    string owner
+    string group
+    string content
+    string content_separator = "\n"
+    bool send_event = true
+end
+File.via [0:1] -- mitogen::Context
+"""
+Mitogen context dedicated to this resource.  If not specified, defaults
+to the one of the host.
+"""
+
+File.host [1] -- std::Host
+"""
+Relation to the host on which the file should be deployed.
+"""
+
+File.prefix_content [0:] -- Content
+"""
+Relation to content that should be inserted at the start of the file.
+"""
+
+File.suffix_content [0:] -- Content
+"""
+Relation to content that should be appended at the end of the file.
+"""
+
+index File(host, path)
+
+implement File using fileHost
+
+entity Content:
+    """
+        A content block as a prefix or suffix to a file. This blocks are only merged with the content at export time. This
+        is an advanced pattern that can be used to speed up the compilation in very specific use cases.
+
+        :attr sorting_key: The key to use to sort the content blocks in the same list. When this attribute is not set
+                           value is used as sorting key.
+        :attr value: The value to prepend or append
+    """
+    string? sorting_key=null
+    string value
+end
+
+implement Content using std::none
+
+entity ConfigFile extends File:
+    """
+        A file with often used defaults for configuration files.
+    """
+    int mode = 644
+    string owner = "root"
+    string group = "root"
+end
+
+implement ConfigFile using fileHost
+
+implementation fileHost for File:
+    self.requires = self.host.requires
+end
+
+entity Directory extends std::PurgeableResource:
+    """
+        A directory on the filesystem
+
+        :attr path: The path of the directory
+        :attr mode: The permissions of the directory
+        :attr owner: The owner of the directory
+        :attr group: The group of the directory
+    """
+    string path
+    int mode
+    string owner
+    string group
+    bool send_event = true
+end
+Directory.via [0:1] -- mitogen::Context
+"""
+Mitogen context dedicated to this resource.  If not specified, defaults
+to the one of the host.
+"""
+
+Directory.host [1] -- std::Host
+"""
+Relation to the host on which the directory should be deployed.
+"""
+
+index Directory(host, path)
+
+implement Directory using dirHost
+
+entity DefaultDirectory extends Directory:
+    """
+        A directory that is world readable. It is also writable for its owner root.
+    """
+    int mode = 755
+    string owner = "root"
+    string group = "root"
+end
+
+implement DefaultDirectory using dirHost
+
+implementation dirHost for Directory:
+    self.requires = self.host.requires
+end
+
+entity Symlink extends std::PurgeableResource:
+    """
+    A symbolic link on the filesystem
+
+    :attr src: The path on the file system that the created symlink should point to.
+    :attr dst: The path on the filesystem where the symlink should be created.
+    """
+    string src
+    string dst
+    bool send_event = true
+end
+Symlink.via [0:1] -- mitogen::Context
+"""
+Mitogen context dedicated to this resource.  If not specified, defaults
+to the one of the host.
+"""
+
+Symlink.host [1] -- std::Host
+"""
+Relation to the host where the symlink should be deployed.
+"""
+
+index Symlink(host, dst)
+
+implement Symlink using symHost
+
+implementation symHost for Symlink:
+    self.requires = self.host.requires
+end
