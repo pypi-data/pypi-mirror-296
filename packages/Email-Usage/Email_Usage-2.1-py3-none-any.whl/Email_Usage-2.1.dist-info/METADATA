@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: Email_Usage
+Version: 2.1
+Description-Content-Type: text/markdown
+
+# Email Usage
+
+**Created by SomeRandom_Boi/Lag**
+
+
+
+# version 2.0 changes:
+* added error messages
+* simplesend() function
+* more bug fix and stuff
+* removed the message "email sent"
+* can change port and host (has default)
+**changing port and host can be done by using ``port=`` and ``host=`` param**
+
+
+**This package will be updated every month or week as it's not completed yet**
+
+Email Usage is currently my first and expirience creating a package on PyPi
+so expect bugs/glitches on this package
+
+Enough yapping lets go to what this package does
+
+
+**Email Verification: (for version 1.2)**
+```python
+from Email_Usage import email_verification
+```
+
+appname - The huge title of the email or subject (Required)
+
+clientpass - Not to be confused with password you use to login(Required)
+
+clientemail - Email Address used to send email or the "From" (Required)
+
+emailtosend - Where the email will be sent or go to (Required)
+
+text - The text or the contents of emails (**Not** Required)
+
+The **email_verification()** function also returns a random code but its not required
+
+
+**usage of email_verification()**
+```python
+from Email_Usage import email_verification
+verified = email_verification(appname='module test', clientpass="app password", clientemail="myemail", emailtosend="receiver")
+print(verified)
+```
+
+**Output:**
+``Email Sent Successfully`` **(outputs are now gone in 2.0)**
+
+**Email Sent:**
+```
+Subject: module test
+You have requested a verification code for module test.
+
+Your digital verification code is 140385
+```
+text can be editied as said above the ``text`` param is default to use the pre-made text
+
+
+
+
+**simplesend: (version 2.0)**
+```python
+from Email_Usage import simplesend
+```
+
+clientemail - email used to send (required)
+clientpass - app password (required)
+emailtosend - destination of mail (required)
+text - text to send or plain text (required)
+
+**usage of simplesend()**
+```python
+from Email_Usage import simplesend
+simplesend(clientemail="myemail", clientpass="app pass", emailtosend="receiver", text="Subject: hello, ")
+```
+
+**Email Sent**
+```
+(no subject)
+
+hello
+```
+**you can use MIMEmultipart to add subject and others**
