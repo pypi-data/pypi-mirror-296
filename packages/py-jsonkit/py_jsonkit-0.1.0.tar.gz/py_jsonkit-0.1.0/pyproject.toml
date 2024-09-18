@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "py-jsonkit"
+version = "0.1.0"
+description = "A library for enhanced JSON file handling with support for datetime and UUID objects, both synchronously and asynchronously."
+authors = ["ayrun <ayrun3412@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/ayrun3412/JSONKit"
+repository = "https://github.com/ayrun3412/JSONKit"
+packages = [
+	{include = "jsonkit"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiofiles = "^24.1.0"
+rich = "^13.8.1"
+
+[tool.poetry.group.dev.dependencies]
+jedi = "^0.19.1"  # for my neovim auto-completion
+pytest = "^8.3.3"
+pytest-asyncio = "^0.24.0"
+mypy = "^1.11.2"
+ruff = "^0.6.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

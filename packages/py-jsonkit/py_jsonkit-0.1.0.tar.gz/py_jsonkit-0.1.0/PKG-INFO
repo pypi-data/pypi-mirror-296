@@ -1,0 +1,162 @@
+Metadata-Version: 2.1
+Name: py-jsonkit
+Version: 0.1.0
+Summary: A library for enhanced JSON file handling with support for datetime and UUID objects, both synchronously and asynchronously.
+Home-page: https://github.com/ayrun3412/JSONKit
+License: MIT
+Author: ayrun
+Author-email: ayrun3412@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiofiles (>=24.1.0,<25.0.0)
+Requires-Dist: rich (>=13.8.1,<14.0.0)
+Project-URL: Repository, https://github.com/ayrun3412/JSONKit
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="./assets/jsonkit_logo.png" alt="JSONKit Logo"/>
+</p>
+<hr>
+<h4 align="center">🚀 <i>Your toolkit for seamless JSON handling in Python</i> 🐍</h4>
+
+<p align="center">
+  <a href="#️overview">Overview</a> •
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#license">License</a> •
+  <a href="#contributing">Contributing</a>
+</p>
+
+# Overview
+
+JSONKit is a Python Library for enhanced JSON file handling with support for `datetime` and `UUID` objects. It provides both `synchronous` and `asynchronous` file operations.
+
+## Features
+
+- **Synchronous Operations**: Read and write JSON files with custom encoding and decoding for `datetime` and `UUID` objects.
+
+- **Asynchronous Operations**: Handle JSON files asynchronously using `aiofiles`.
+
+- **Custom Serialization**: Special handling for `datetime` and `UUID` types.
+
+- **Pretty Printing**: Pretty printing powered by the [rich](https://github.com/Textualize/rich) library!
+
+## Installation
+
+You can install JSONKit via pip:
+
+```bash
+pip install py-jsonkit
+```
+
+## Usage
+
+#### 👉 Loading JSON from a File
+
+You can load a JSON file into a Python object easily:
+
+```python
+from jsonkit import JSONFile
+
+# Initialize the JSONFile object
+json_file = JSONFile('example.json')
+
+# Load data from the file
+data = json_file.load()
+```
+
+#### 👉 Writing data to a JSON file:
+
+You can also write some data to a JSONFile easily
+
+```python
+from jsonkit import JSONFile
+from datetime import datetime
+import uuid
+
+# Initialize the JSONFile object
+json_file = JSONFile('example.json')
+
+# Example data
+data_to_write = {
+    "name": "Alice",
+    "age": 30,
+    "created_at": datetime.now(),
+    "uid": uuid.uuid4()
+}
+
+# Insert to the JSON file
+# JSONKit comes with custom encoding/decoding so you don't need to worry about parsing datetime or uuid objects!
+# The `write` function returns the new data that is present in the JSON file after writing to it automatically, so you can store it in a variable like this:
+new_returned_data = json_file.write(data_to_write, indent=4)
+
+# Or, you can simply do this in the good old way:
+json_file.write(data_to_write, indent=4)
+new_data = json_file.load()
+
+# NOTE: The method shown above will completely replace the old data with the new data. In case you want to append some data to a JSON file which of course, already contains some data, you can simply load that data first:
+data = json_file.load()
+
+# Then add some data to it:
+data["......"] = "......"
+data["woah this is some new data"] = "I am the value of the new data!"
+
+# Then write this data back to the JSON File
+json_file.write(data, indent=4)
+```
+
+#### 👉 Pretty Printing
+
+JSONKit also comes with pretty printing which is handled by the [rich](https://github.com/Textualize/rich) library!
+
+```python
+from jsonkit import JSONFile
+
+# Intialize the JSONFile object
+json_file = JSONFile('example.json')
+
+# Pretty print all of the data in 'example.json' file to the console
+# This will print the data with syntax hughlighting!
+json_file.print_data()
+```
+
+#### 👉 Asynchronous Support
+
+JSONKit can also be used asynchronously using the `AsyncJSONFile` class!
+
+```python
+from jsonkit import AsyncJSONFile
+import asyncio
+
+# Create an instance of AsyncJSONFile
+async_json_file = AsyncJSONFile('example.json')
+
+# All of the methods that are available in 'JSONFile' class are also available here!
+async def main():
+    # Loading data
+    data = await async_json_file.load()
+
+    # Writing data
+    data_to_insert = {
+        "...": "..."
+    }
+    await async_json_file.write(data_to_insert, indent=4)
+
+    # Pretty printing data
+    await async_json_file.print_data()
+
+# Running the main function
+asyncio.run(main())
+```
+
+## License
+
+JSONKit is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
