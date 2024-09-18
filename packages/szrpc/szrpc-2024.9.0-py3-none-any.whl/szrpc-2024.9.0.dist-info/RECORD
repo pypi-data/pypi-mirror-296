@@ -1,0 +1,11 @@
+szrpc/__init__.py,sha256=WEzAuvFImPkWziXGCNgRwH3H9-dQ4jLYTvXUXyvK_2U,186
+szrpc/client.py,sha256=pV0lhfViilcesiCK4olv7-KJern3TmokXw1uMjvyt9c,6086
+szrpc/log.py,sha256=i5ivm2Lwsb3qzCciVbcgAwUiATBewE5LS_NGLlorjSQ,2987
+szrpc/server.py,sha256=RbGmiUJhR_F9xC_cb3r3ws8Rl2diYmqWhBIIm5tAEKc,15945
+szrpc/result/__init__.py,sha256=_MNVJ2OillujkVeVeu9fi7C_US45ckYO2yOX2MOBtLk,4190
+szrpc/result/gresult.py,sha256=ozaaZUvzWRloWY8n10lvGhLewYtzCFYBywGl_PJG5EQ,670
+szrpc/result/qresult.py,sha256=rk1v4EhYE6rodg_S5JVohEmQ7qAFYA_qFfrIeKkSIIE,986
+szrpc-2024.9.0.dist-info/METADATA,sha256=y5WON1X-pnWHB91YwBvH-zCdrXyqFIdk4jX89qSTRSA,8014
+szrpc-2024.9.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+szrpc-2024.9.0.dist-info/top_level.txt,sha256=8lOw8y4QZ4OhhZpfuaC4vSGVyZVMTjkjckfsbbRGwSs,6
+szrpc-2024.9.0.dist-info/RECORD,,
