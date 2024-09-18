@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: qsimpy
+Version: 0.1
+Summary: A quantum simulator package
+Home-page: https://github.com/SuhasPK/qsimpy
+Author: Suhas P K
+Author-email: sparrowjack0682@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.21
+
+# qsimpy
+
+`qsimpy` is a lightweight Python library for simulating quantum circuits. It includes implementations for fundamental quantum gates and provides tools to create, manipulate, and measure quantum states.
+
+## Features
+
+- **Quantum Gates**: Implements Pauli-X, Pauli-Y, Pauli-Z, Hadamard, CNOT, SWAP, S-gate, T-gate, and their adjoints.
+- **Circuit Construction**: Build quantum circuits with multiple qubits.
+- **Gate Expansion**: Expand gates to a full Hilbert space.
+- **Measurement**: Simulate measurement outcomes.
+
+## Installation
+
+You can install `qsimpy` directly from PyPI using pip:
+
+```bash
+pip install qsimpy
+```
+
