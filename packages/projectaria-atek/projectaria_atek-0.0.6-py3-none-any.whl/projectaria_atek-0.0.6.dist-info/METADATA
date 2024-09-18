@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: projectaria-atek
+Version: 0.0.6
+Summary: Aria trainining and evaluation kits
+Author: Meta Reality Labs Research
+License-File: LICENSE
+Requires-Dist: torch==2.4.0
+Requires-Dist: torchvision
+Requires-Dist: pillow==9.5.0
+Requires-Dist: torchmetrics==0.10.1
+Requires-Dist: fvcore
+Requires-Dist: fsspec
+Requires-Dist: iopath
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: webdataset
+Requires-Dist: trimesh
+Requires-Dist: pybind11
+Requires-Dist: toolz
+Requires-Dist: jupyter
+Requires-Dist: notebook
+Requires-Dist: opencv-python
+Requires-Dist: projectaria-tools
+Requires-Dist: omegaconf
+
