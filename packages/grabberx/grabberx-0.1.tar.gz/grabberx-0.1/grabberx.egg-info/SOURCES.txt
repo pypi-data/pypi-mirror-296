@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+grabberx/__init__.py
+grabberx.egg-info/PKG-INFO
+grabberx.egg-info/SOURCES.txt
+grabberx.egg-info/dependency_links.txt
+grabberx.egg-info/top_level.txt
