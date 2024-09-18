@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/functricks/__init__.py
+src/functricks/__main__.py
+src/functricks.egg-info/PKG-INFO
+src/functricks.egg-info/SOURCES.txt
+src/functricks.egg-info/dependency_links.txt
+src/functricks.egg-info/top_level.txt
+src/functricks/tests/__init__.py
+src/functricks/tests/test_1984.py
