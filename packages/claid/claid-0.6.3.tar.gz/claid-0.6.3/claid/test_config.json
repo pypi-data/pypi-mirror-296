@@ -1,0 +1,27 @@
+{
+	"hosts": [{
+			"hostname": "test_client",
+			"type": "android",
+			"modules": [
+				{
+					"type": "TestModule",
+					"id": "TestModule",
+					"input_channels": {},
+					"output_channels": {"TestChannel" : "TestChannel", "IntChannel": "IntChannel", "NumberArrayChannel": "NumberArrayChannel", "StringMapChannel": "StringMapChannel"},
+					"properties": {
+						
+					}
+				},
+				{
+					"type": "TestModule2",
+					"id": "TestModule2",
+					"input_channels": {"TestChannel" : "TestChannel", "IntChannel": "IntChannel", "NumberArrayChannel": "NumberArrayChannel", "StringMapChannel" : "StringMapChannel"},
+					"output_channels": {},
+					"properties": {
+						
+					}
+				}
+            ]
+		}
+	]
+}
