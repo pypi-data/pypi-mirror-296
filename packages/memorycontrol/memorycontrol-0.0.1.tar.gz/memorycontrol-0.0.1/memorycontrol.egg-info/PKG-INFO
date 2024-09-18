@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: memorycontrol
+Version: 0.0.1
+Summary: A resource monitor with auto-shutdown for processes
+Home-page: https://github.com/yourusername/memorycontrol
+Author: Your Name
+Author-email: youremail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: psutil==6.0.0

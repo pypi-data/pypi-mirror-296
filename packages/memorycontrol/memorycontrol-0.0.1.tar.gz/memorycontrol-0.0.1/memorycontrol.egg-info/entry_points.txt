@@ -1,0 +1,2 @@
+[console_scripts]
+memorycontrol = memorycontrol.__main__:main

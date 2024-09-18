@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+memorycontrol/__init__.py
+memorycontrol/__main__.py
+memorycontrol/process.py
+memorycontrol.egg-info/PKG-INFO
+memorycontrol.egg-info/SOURCES.txt
+memorycontrol.egg-info/dependency_links.txt
+memorycontrol.egg-info/entry_points.txt
+memorycontrol.egg-info/requires.txt
+memorycontrol.egg-info/top_level.txt
