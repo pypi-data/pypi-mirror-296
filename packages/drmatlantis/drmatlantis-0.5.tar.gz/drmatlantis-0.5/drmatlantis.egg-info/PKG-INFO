@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: drmatlantis
+Version: 0.5
+Summary: Dr. MATLANTIS server tool that connects local chatbot to MATLANTIS server
+Author: Hristo Todorov
+Author-email: httodoroff@gmail.com
+License: MIT
