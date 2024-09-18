@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: miya-chat
+Version: 0.1.13
+Summary: A simple chat application using Flask and AWS Bedrock
+Home-page: https://github.com/yourusername/miya-chat
+Author: Manav Kundra
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: boto3
+Requires-Dist: werkzeug
+
+# Miya Chat
+
+A simple chat application built with Flask.
+
+## Installation
+
+You can install this package using pip:
+
+```
+pip install miya-chat
+```
+
+## Usage
+
+After installation, you can run the chat app using the following command:
+
+```
+miya-chat
+```
+
+This will start the Flask server on the default port 5000, and you can access the chat application in your web browser at `http://localhost:5000`.
+
+To specify a custom port, you can use the `--port` option:
+
+```
+miya-chat --port 8080
+```
+
+This will start the server on port 8080, and you can access the application at `http://localhost:8080`.
+
+## Testing Locally
+
+To test the chat app locally before distribution:
+
+1. Clone the repository or navigate to your project directory.
+
+2. Create and activate a virtual environment (optional but recommended):
+   ```
+   python -m venv test_env
+   source test_env/bin/activate  # On Windows, use: test_env\Scripts\activate
+   ```
+
+3. Install the package in editable mode:
+   ```
+   pip install -e .
+   ```
+
+4. Run the app with the default port:
+   ```
+   miya-chat
+   ```
+   Access the app at `http://localhost:5000`
+
+5. Run the app with a custom port:
+   ```
+   miya-chat --port 8080
+   ```
+   Access the app at `http://localhost:8080`
+
+6. To test access from other devices on your local network, find your computer's local IP address and use that instead of `localhost`. For example:
+   ```
+   http://192.168.1.100:8080
+   ```
+
+Remember to deactivate the virtual environment when you're done testing:
+```
+deactivate
+```
+
+## Features
+
+- Real-time chat functionality
+- Simple and intuitive interface
+- Easy to install and run
+- Customizable port for running the server
+- Accessible from other devices on the local network
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.

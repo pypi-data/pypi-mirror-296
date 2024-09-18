@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+miya_chat/__init__.py
+miya_chat/app.py
+miya_chat.egg-info/PKG-INFO
+miya_chat.egg-info/SOURCES.txt
+miya_chat.egg-info/dependency_links.txt
+miya_chat.egg-info/entry_points.txt
+miya_chat.egg-info/requires.txt
+miya_chat.egg-info/top_level.txt
+miya_chat/templates/index.html
