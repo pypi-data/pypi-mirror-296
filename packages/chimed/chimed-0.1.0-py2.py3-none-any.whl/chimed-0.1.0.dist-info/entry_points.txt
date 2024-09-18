@@ -1,0 +1,2 @@
+[console_scripts]
+chimed = chimed.__main__:main
