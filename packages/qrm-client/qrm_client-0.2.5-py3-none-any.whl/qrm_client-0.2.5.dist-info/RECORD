@@ -1,0 +1,11 @@
+qrm_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qrm_client/qrm_http_client.py,sha256=G7ZsRNCY_qjzesVEPPzY5cCEXNXbdNtEF1pfjbIQqyE,13011
+qrm_client/ver.yaml,sha256=iO2ap1RSocM-8K7NFLO2eWs_7_4ahycOTTE7POY63G8,415
+qrm_defs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qrm_defs/qrm_urls.py,sha256=Ip4tXHIJXUwlC4CkI0hNo4xtrkFaM652J-LJIYGA1GM,571
+qrm_defs/resource_definition.py,sha256=IIUDwVT2T9DI2ENOh9wAvhtDNb8rUGgPsk5hS9zBmUs,4185
+qrm_client-0.2.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+qrm_client-0.2.5.dist-info/METADATA,sha256=Oah2xkB4slzOe3nlzTdunq7F6Bh6DDr37-iQ6rHV1FI,636
+qrm_client-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qrm_client-0.2.5.dist-info/top_level.txt,sha256=uHZkaIxn1_0kcl1Ae6UGTxPu1Ufh-nHNqBF7r3kF3MA,20
+qrm_client-0.2.5.dist-info/RECORD,,
