@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "django-viewcomponent"
+version = "1.0.9"
+description = "Build reusable components in Django, inspired by Rails ViewComponent"
+authors = ["Michael Yin <michaelyin@accordbox.com>"]
+license = "MIT"
+homepage = "https://github.com/rails-inspire-django/django-viewcomponent"
+readme = "README.md"
+packages = [{ include = "django_viewcomponent", from = "src" }]
+
+[tool.poetry.urls]
+Changelog = "https://github.com/rails-inspire-django/django-viewcomponent/releases"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+django = ">=3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["setuptools", "poetry_core>=1.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+lint.ignore = [
+    # https://docs.astral.sh/ruff/rules/
+    "ANN",
+    "D",
+    "ARG",
+    "RUF",
+    "TRY",
+    "PTH",
+    "PGH",
+    "N",
+    "S",
+    "EM",
+    "ERA",
+    "RET",
+    "PERF",
+    "G",
+    "PERF",
+    "TCH",
+    "TD",
+    "FIX",
+    "FBT",
+
+    "E501",
+    "PLR2004",
+    "PT004",
+    "PLR5501",
+    "A002",
+    "BLE001",
+    "B904",
+    "SLF001",
+    "DJ001",
+    "DJ008",
+    "INP001",
+    "I001",
+    "FA100",
+    "FA102",
+    "SIM118",
+    "UP031",
+    "PT011",
+]
+lint.select = ["ALL"]
+exclude = ["migrations"]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+
+[tool.black]
+target_version = ['py310']
