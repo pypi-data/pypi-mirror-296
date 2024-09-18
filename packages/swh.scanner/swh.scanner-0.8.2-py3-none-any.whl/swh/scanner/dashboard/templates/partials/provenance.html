@@ -1,0 +1,102 @@
+{% macro show_release(data) %}
+  {% if data %}
+    <h4 class="size-6">Release</h4>
+    <dl name="release">
+        <dt>Name</dt>
+        <dd name="name">{{ data["name"] }}</dd>
+        <dt>Swhid</dt>
+        <dd name="swhid">
+            <a href="https://archive.softwareheritage.org/browse/search/?q={{data.id}}&with_visit=true&with_content=true" title="Search for release swhid" name="swhid_release_link", target="_blank">{{ data["id"] }}</a>
+        </dd>
+        {% if data.get("message") %}
+            <dt>Message</dt>
+            <dd name="message">{{ data["message"] }}</dd>
+        {% endif %}
+        {% if data.get("date") %}
+            <dt>Date</dt>
+            <dd name="date">{{ data["date"].isoformat() }}</dd>
+        {% endif %}
+        {% if data.get("author") %}
+            {% set person=data["author"] %}
+            {% if (person.get("email") or person.get("name") or person.get("fullname")) %}
+                <dt>Author</dt>
+                {% if person.get("email") %}
+                    <dd name="email">{{ person["email"] }}</ddn>
+                {% endif %}
+                {% if person.get("name") %}
+                    <dd>{{ person["name"] }}</dd>
+                {% endif %}
+                {% if person.get("fullname") %}
+                    <dd>{{ person["fullname"] }}</dd>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+    </dl>
+  {% endif %}
+{% endmacro %}
+
+{% macro show_revision(data) %}
+  {% if data %}
+    <h4 class="size-6">Revision</h4>
+    <dl>
+        <dt>Type</dt>
+        <dd name="type">{{ data["type"] }}</dd>
+        <dt>Swhid</dt>
+        <dd name="swhid">
+        <a href="https://archive.softwareheritage.org/browse/search/?q={{data.id}}&with_visit=true&with_content=true" title="Search for revision swhid" name="search_revision_link" target="_blank">{{data.id}}</a>
+        </dd>
+        {% if data.get("message") %}
+            <dt>Message</dt>
+            <dd name="message">{{ data["message"] }}</dd>
+        {% endif %}
+        {% if data.get("date") %}
+            <dt>Date</dt>
+            <dd name="date">{{ data["date"] }}</dd>
+        {% endif %}
+        {% if data.get("author") %}
+            {% set person=data["committer"] %}
+            {% if person.get("email") or person.get("name") or person.get("fullname") %}
+                <dt>Author</dt>
+                {% if person.get("email") %}
+                    <dd name="email">{{ person["email"] }}</ddn>
+                {% endif %}
+                {% if person.get("name") %}
+                    <dd>{{ person["name"] }}</dd>
+                {% endif %}
+                {% if person.get("fullname") %}
+                    <dd>{{ person["fullname"] }}</dd>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+        {% if data.get("committer") %}
+            {% set person=data["committer"] %}
+            {% if person.get("email") or person.get("name") or person.get("fullname") %}
+                <dt>Committer</dt>
+                {% if person.get("email") %}
+                    <dd name="email">{{ person["email"] }}</ddn>
+                {% endif %}
+                {% if person.get("name") %}
+                    <dd>{{ person["name"] }}</dd>
+                {% endif %}
+                {% if person.get("fullname") %}
+                    <dd>{{ person["fullname"] }}</dd>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+        {% if data.get("committer_date") %}
+            <dt>Committer date</dt>
+            <dd name="committer_date">{{ data["committer_date"] }}</dd>
+        {% endif %}
+        {% if data.get("merge") %}
+            <dt>Merge</dt>
+            <dd name="merge">{{ data["merge"] }}</dd>
+        {% endif %}
+        <dt>Revision api</dt>
+        <dd>
+        <a href="{{ data['url'] }}" title="Revision api endpoint" name="revision_api_link" target="_blank">Revision</a> |
+        <a href="{{ data['history_url'] }}" title="Revision history api endpoint" name="history_api_link" target="_blank">History</a> |
+        <a href="{{ data['directory_url'] }}" title="Revision parents api endpoint" name="directory_api_link" target="_blank">Directory</a>
+        </dd>
+    </dl>
+  {% endif %}
+{% endmacro %}
