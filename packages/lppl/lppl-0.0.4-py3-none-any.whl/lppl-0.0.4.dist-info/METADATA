@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: lppl
+Version: 0.0.4
+Summary: LPPL Model
+Author-email: Kwan Yuet Stephen Ho <stephenhky@yahoo.com.hk>
+License: MIT
+Project-URL: Repository, https://github.com/stephenhky/lppl
+Project-URL: Issues, https://github.com/stephenhky/lppl/issues
+Keywords: finance,bubble,LPPL
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: test
+Requires-Dist: unittest; extra == "test"
+
+lppl
+====
+
+You know who.
