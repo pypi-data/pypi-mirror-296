@@ -1,0 +1,6 @@
+
+[dev]
+pre-commit
+flake8
+black
+isort
