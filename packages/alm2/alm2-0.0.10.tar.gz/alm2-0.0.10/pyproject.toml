@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "alm2"
+version = "0.0.10"
+description = "Python C-wrapped implementation of the LM technqiue for computing the log-likelihood function of the Dirichlet Mutlinomial Distribution with comparision to Python math and scipy implementations of the same function"
+authors = ["Alessandro Languasco (alessandro.languasco AT unipd.it), Sherenaz Al-Haj Baddar(s.baddar AT ju.edu.jo),Mauro Migliardi (mauro.migliardi AT unipd.it) <s.baddar@ju.edu.jo>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+numpy = ">=2.0.0"
+scipy = ">=1.14.0"
+mpmath = ">=1.3.0"
+[include]
+# directory
+alm2_the_data = { path = "../pkg_alm2/alm2/the_data/", develop = false }
+alm2_the_lib = { path = "../pkg_alm2/alm2/the_lib/", develop = false }
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+#[tool.poetry.publish]
+#username = "__token__"
+#password = "ypi-AgEIcHlwaS5vcmcCJDU0YTZjOWRkLTQzN2EtNDkxMi1hNDhmLWQ0ZDU0ZjgzZDI0OQACKlszLCI1NzRjZWNlOC0yNTlhLTRlYTUtODlmOC0zNmRjNTQ4NWRjYzQiXQAABiDEukZ15-gdOdugRNFzJLTLwR92EUzojD27Vv90wJYe4w"
