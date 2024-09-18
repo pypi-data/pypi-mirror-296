@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+zuercherportal_api.py
+zuercherportal_api.egg-info/PKG-INFO
+zuercherportal_api.egg-info/SOURCES.txt
+zuercherportal_api.egg-info/dependency_links.txt
+zuercherportal_api.egg-info/requires.txt
+zuercherportal_api.egg-info/top_level.txt
