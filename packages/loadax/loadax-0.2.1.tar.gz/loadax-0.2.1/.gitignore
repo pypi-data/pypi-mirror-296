@@ -1,0 +1,19 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+
+# cache files
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+site
+
+TODO.md

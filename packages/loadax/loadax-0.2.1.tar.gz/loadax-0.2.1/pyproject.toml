@@ -1,0 +1,73 @@
+[project]
+name = "loadax"
+version = "0.2.1"
+description = "Dataloading for Jax"
+authors = [
+    { name = "Nick Wall", email = "46641379+walln@users.noreply.github.com" },
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+
+dependencies = ["jax>=0.4.15", "flax>=0.9.0", "optax>=0.2.3"]
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.optional-dependencies]
+huggingface = ["datasets>=3.0.0"]
+polars = ["polars>=1.7.1"]
+
+[tool.uv]
+managed = true
+dev-dependencies = [
+    "pytest>=8.3.2",
+    "ruff>=0.4.10",
+    "pre-commit>=3.8.0",
+    "mypy>=1.11.1",
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.5.34",
+    "mike>=2.1.3",
+    "mkdocs-exclude>=1.0.2",
+    "mkdocstrings-python>=1.11.1",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/loadax"]
+
+[tool.ruff]
+include = ["src/**", "tests/**"]
+
+
+[tool.ruff.lint]
+pydocstyle.convention = "google"
+select = [
+    "E",      # pycodestyle
+    "W",      # pycodestyle
+    "F",      # Pyflakes
+    "B",      # flake8-bugbear
+    "C4",     # flake8-comprehensions
+    "D",      # pydocstyle
+    "I",      # isort
+    "SIM",    # flake8-simplify
+    "TCH",    # flake8-type-checking
+    "TID",    # flake8-tidy-imports
+    "UP",     # pyupgrade
+    "PT",     # flake8-pytest-style
+    "RUF",    # Ruff-specific rules
+    "FBT001", # flake8-boolean-trap
+]
+
+ignore = ["F722"]
+per-file-ignores = { "tests/**/*.py" = ["D100", "D103"] }
+
+
+[tool.ruff.lint.isort]
+known-first-party = ["src", "loadax"]
+
+[tool.mypy]
+strict = true
