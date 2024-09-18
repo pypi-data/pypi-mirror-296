@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: scifem
+Version: 0.1.0
+Summary: Scientific tools for finite element methods
+Author-Email: =?utf-8?q?J=C3=B8rgen_S=2E_Dokken?= <dokken@simula.no>, "Henrik N.T. Finsberg" <henriknf@simula.no>
+License: MIT License
+        
+        Copyright (c) 2024 Scientific Computing at Simula Research Laboratory
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Repository, https://github.com/scientificcomputing/scifem.git
+Requires-Python: >=3.9
+Provides-Extra: docs
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Description-Content-Type: text/markdown
+
+# Scientific Computing Tools for Finite Element Methods
+
+This package contains a collection of tools for scientific computing with a focus on finite element methods. The tools are written in Python and are intended to be used in conjunction with the [dolfinx](https://github.com/FEniCS/dolfinx).
+
+Many users that are transitioning from legacy FEniCS to FEniCSx may find the transition difficult due to the lack of some functionalities in FEniCSx. This package aims to provide some of the functionalities that are missing in FEniCSx. The package is still in its early stages and many functionalities are still missing. 
+
+
+## Installation
+
+The package is partly written in C++ and relies on `dolfinx`. User are encouraged to install `scifem` in an environment where `dolfinx` is already installed. The package can be installed using `pip`:
+
+```bash
+python3 -m pip install scifem --no-build-isolation
+```
+
+
+## Having issues or want to contribute?
+
+If you are having issues, feature request or would like to contribute, please let us know. You can do so by opening an issue on the [issue tracker](https://github.com/scientificcomputing/scifem/issues).
+
+
+
+## LICENSE
+MIT

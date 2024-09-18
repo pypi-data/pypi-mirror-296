@@ -1,0 +1,6 @@
+# ninja log v5
+5	209	1726588399917782597	poisson.c	3ef5c459454a212a
+5	209	1726588399917782597	/home/shared/sandbox/7b0ed8e55b8446fac0eff4b821dad67a/build-dir/poisson.c	3ef5c459454a212a
+210	281	1726588400007166216	CMakeFiles/demo_real_space.dir/poisson.c.o	8bc8f6e935459ea4
+210	6066	1726588405782701458	CMakeFiles/demo_real_space.dir/main.cpp.o	c51a10538a399a6d
+6094	6316	1726588406041415902	demo_real_space	a315f4e981dcdea7
