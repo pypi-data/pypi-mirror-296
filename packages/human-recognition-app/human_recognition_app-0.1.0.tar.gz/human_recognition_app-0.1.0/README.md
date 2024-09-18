@@ -1,0 +1,241 @@
+# Human recognition app
+
+Приложение для распознавания людей на фото.
+
+## Инструкция для запуска
+
+#### Локально
+- У вас установлен python 3.12
+#### Через docker
+
+- Укажите все переменные перечисленные в блоке "Переменные окружения".
+- Для запуска приложения с помощью docker compose ...
+
+## Переменные окружения
+
+Для запуска приложения необходимо указать переменные окружения
+в корневой директории в `.env` файле.
+
+* URL адрес и токен доступа для сервиса FaceCloud.
+
+```dotenv
+FACECLOUD_BASE_URL=https://backend.facecloud.tevian.ru
+FACECLOUD_ACCESS_TOKEN="Bearer some.token.here"
+```
+
+* Аутентификационные данные.
+
+```dotenv
+AUTH_USERNAME=admin
+AUTH_PASSWORD=admin
+```
+* Данные базы данных.
+
+```dotenv
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_NAME=human_recognition_app
+```
+
+## Краткое описание API (документацию можно найти в swagger)
+
+### Добавление ***Task***.
+Отправить несколько изображений формата `jpeg` для
+распознавания на них людей.
+
+### Получение ***Task***.
+Получить результаты распознавания людей из ***Task***.
+
+### Обновление ***Task***.
+Добавить в ***Task*** новое изображение.
+
+### Удаление ***Task***.
+Удалить ***Task*** и все связанные с ним данные.
+
+## Сущности
+
+***Face*** - распознанное лицо.
+
+```json
+{
+  "bbox": {
+    "height": 159,
+    "width": 114,
+    "x": 228,
+    "y": 202
+  },
+  "gender": "male",
+  "age": 24
+}
+```
+
+***Image*** - изображение содержащее одно или несколько ***Face***.
+
+```json
+{
+  "name": "me.jpg",
+  "faces": [
+    {
+      "bbox": {
+        "height": 159,
+        "width": 114,
+        "x": 228,
+        "y": 202
+      },
+      "gender": "male",
+      "age": 24
+    }
+  ]
+}
+```
+
+***Task*** - задача содержащая одно или несколько ***Image***.
+
+```json
+{
+  "id": "e6088ffa-100e-4348-8967-8b0b6a3fff99",
+  "images": [
+    {
+      "name": "me.jpg",
+      "faces": [
+        {
+          "bbox": {
+            "height": 159,
+            "width": 114,
+            "x": 228,
+            "y": 202
+          },
+          "gender": "male",
+          "age": 24
+        }
+      ]
+    }
+  ],
+  "total_faces": 1,
+  "total_males": 1,
+  "total_females": 0,
+  "average_male_age": 24,
+  "average_female_age": 0
+}
+```
+
+## Функциональные требования
+
+- ✅ Добавить ***Task*** и распознать ***Image*** в нем.
+- ✅ Получить ***Task*** с результатами распознавания ***Image***.
+- ✅ Добавить ***Image*** в существующий ***Task*** и распознать его.
+- ✅ Удалить ***Task*** и связанные с ним данные.
+
+## Нефункциональные требования
+
+- ✅ Версия Python не ниже 3.8.
+- ✅ Для распознавания ***Image*** использовать `FaceCloud`.
+- ✅ Обработка только формата `JPEG`.
+- ✅ Информация о ***Task***, ***Image*** и ***Face*** должна храниться в `Postgres`.
+- ✅ Файлы с ***Image*** должны храниться на диске с использованием файловой системы.
+- ✅ Возможность конфигурации доступа (url, login, password) к `FaceCloud` через переменные окружения.
+- ❌ Наличие `README` файла с инструкцией по запуску, описанием доступных настроек и описанием API.
+- ❌ Код сервиса и `README` необходимо прислать в виде `zip` архива.
+
+## Дополнительные нефункциональные требования
+- ❌ Наличие `Dockerfile` для запуска контейнера с сервисом.
+- ❌ Наличие `docker-compose.yaml` для запуска сервиса и postgresql.
+- ✅ Доступ к API должен быть защищен с помощью `HTTP Basic Auth`.
+
+## Пример распознавания ***Image*** с помощью FaceCloud
+
+```json
+{
+    "data": [
+        {
+            "bbox": {
+                "height": 262,
+                "width": 193,
+                "x": 204,
+                "y": 96
+            },
+            "demographics": {
+                "age": {
+                    "mean": 32.0,
+                    "variance": 16.7281
+                },
+                "ethnicity": "caucasian",
+                "gender": "female"
+            },
+            "score": 0.999134
+        },
+        {
+            "bbox": {
+                "height": 212,
+                "width": 133,
+                "x": 453,
+                "y": 181
+            },
+            "demographics": {
+                "age": {
+                    "mean": 46.0,
+                    "variance": 17.1396
+                },
+                "ethnicity": "caucasian",
+                "gender": "female"
+            },
+            "score": 0.997892
+        },
+        {
+            "bbox": {
+                "height": 185,
+                "width": 132,
+                "x": 631,
+                "y": 175
+            },
+            "demographics": {
+                "age": {
+                    "mean": 33.0,
+                    "variance": 16.7281
+                },
+                "ethnicity": "caucasian",
+                "gender": "male"
+            },
+            "score": 0.997795
+        },
+        {
+            "bbox": {
+                "height": 148,
+                "width": 103,
+                "x": 985,
+                "y": 156
+            },
+            "demographics": {
+                "age": {
+                    "mean": 32.0,
+                    "variance": 16.7281
+                },
+                "ethnicity": "caucasian",
+                "gender": "male"
+            },
+            "score": 0.998037
+        },
+        {
+            "bbox": {
+                "height": 134,
+                "width": 105,
+                "x": 856,
+                "y": 245
+            },
+            "demographics": {
+                "age": {
+                    "mean": 29.0,
+                    "variance": 12.7449
+                },
+                "ethnicity": "caucasian",
+                "gender": "female"
+            },
+            "score": 0.99729
+        }
+    ],
+    "rotation": 0,
+    "status_code": 200
+}
+```
