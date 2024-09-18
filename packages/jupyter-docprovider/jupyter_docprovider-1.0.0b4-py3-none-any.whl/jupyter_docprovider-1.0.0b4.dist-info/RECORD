@@ -1,0 +1,15 @@
+jupyter_docprovider/__init__.py,sha256=pvzIgrnwXG3rAiMW5TvmGOCW0CPWIlk54yXEw_O_jrc,260
+jupyter_docprovider/_version.py,sha256=v92fjXVqPbWKpdRAZLQm5a2B7zGAfGWX35L_D3jmH84,24
+jupyter_docprovider-1.0.0b4.data/data/share/jupyter/labextensions/@jupyter/docprovider-extension/package.json,sha256=dZG7lXWROHHuaGpg9ZDXTJucoMSiwcvUuFbKeH5_tWc,3808
+jupyter_docprovider-1.0.0b4.data/data/share/jupyter/labextensions/@jupyter/docprovider-extension/static/544.b232b6e984a54719fdb6.js,sha256=sjK26YSlRxn9tudL_e4-KL6KfhdoKH5wawfFf0j1cWw,6088
+jupyter_docprovider-1.0.0b4.data/data/share/jupyter/labextensions/@jupyter/docprovider-extension/static/562.7a1279cc90d15b8b4fa0.js,sha256=ehJ5zJDRW4tPoGcajPdq_aBErZ3XRXceKt8cUCa9lWE,17258
+jupyter_docprovider-1.0.0b4.data/data/share/jupyter/labextensions/@jupyter/docprovider-extension/static/576.36471ca07f7437678515.js,sha256=NkccoH90N2eFFQb3MDhtydXI79zWHCGcIjAbJaiNjb0,15505
+jupyter_docprovider-1.0.0b4.data/data/share/jupyter/labextensions/@jupyter/docprovider-extension/static/944.b85c55dff0f14165f872.js,sha256=uFxV3_DxQWX4cpOx_X-aOdXlZjVqv_GHQuNECOVZLQ8,8557
+jupyter_docprovider-1.0.0b4.data/data/share/jupyter/labextensions/@jupyter/docprovider-extension/static/remoteEntry.8172b13861e4fbfefc1f.js,sha256=gXKxOGHk-_78H9t_rlpw5xLws1G9MsMuJK0IPfatgTs,8904
+jupyter_docprovider-1.0.0b4.data/data/share/jupyter/labextensions/@jupyter/docprovider-extension/static/style.js,sha256=IIvKvBMPlm9SdCt0l2x7pOx2ZMG7tbWWhxCH8l4ylSU,173
+jupyter_docprovider-1.0.0b4.data/data/share/jupyter/labextensions/@jupyter/docprovider-extension/static/third-party-licenses.json,sha256=1HHbDJCwk6Y6w3kb8-3NfWIBFi1QDouC-o9Paseq7j4,7760
+jupyter_docprovider-1.0.0b4.data/data/share/jupyter/labextensions/@jupyter/docprovider-extension/install.json,sha256=NO9HH1zbt0jedIG_-lqpMiOhO1OAvrUmoUfIjgyzvpE,199
+jupyter_docprovider-1.0.0b4.dist-info/METADATA,sha256=lgHTp1gebnLQuM_nHWEcfOTCQAhrdUMy8kpjUQFZxWs,4764
+jupyter_docprovider-1.0.0b4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+jupyter_docprovider-1.0.0b4.dist-info/licenses/LICENSE,sha256=mhO0ZW9EiWOPg0dUgB-lNbJ0CGwRmTdbeAg_se1SOnY,2833
+jupyter_docprovider-1.0.0b4.dist-info/RECORD,,
