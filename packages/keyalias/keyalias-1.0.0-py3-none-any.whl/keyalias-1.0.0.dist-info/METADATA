@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: keyalias
+Version: 1.0.0
+Summary: Add a property that is an alias for an indexer to a class.
+Author-email: Johannes <johannes-programming@mailfence.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2024 Johannes
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Documentation, https://pypi.org/project/keyalias
+Project-URL: Download, https://pypi.org/project/keyalias/#files
+Project-URL: Source, https://github.com/johannes-programming/keyalias
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: tofunc >=1.0
+
+========
+keyalias
+========
+
+Overview
+--------
+
+Add a property that is an alias for an indexer to a class.
+
+Installation
+------------
+
+To install ``keyalias``, you can use ``pip``. Open your terminal and run:
+
+.. code-block:: bash
+
+    pip install keyalias
+
+Implementation
+--------------
+
+.. code-block:: python
+
+    import functools
+    from tofunc import tofunc
+
+    __all__ = ["keyalias"]
+
+    def keyalias(**kwargs):
+        return functools.partial(decorator, **kwargs)
+
+    def propertyget(self, /, *, key):
+        return self[key]
+    def propertyset(self, value, /, *, key):
+        self[key] = value
+    def propertydel(self, /, *, key):
+        del self[key]
+    def decorator(cls, /, **kwargs):
+        raws = [propertyget, propertyset, propertydel]
+        for alias, key in kwargs.items():
+            bindings = list()
+            for raw in raws:
+                b = functools.partial(raw, key=key)
+                b = tofunc(b)
+                bindings.append(b)
+            pro = property(*bindings)
+            setattr(cls, alias, pro)
+        return cls
+
+Example
+-------
+
+.. code-block:: python
+
+    from keyalias import keyalias
+
+    @keyalias(six=6)
+    class MyClass:
+        def __init__(self):
+            self.data = list(range(10))  # Example list with 10 elements
+
+        def __getitem__(self, index):
+            return self.data[index]
+
+        def __setitem__(self, index, value):
+            self.data[index] = value
+
+        def __delitem__(self, index):
+            del self.data[index]
+
+    # Create an instance of MyClass
+    my_instance = MyClass()
+
+    # Use the alias property to access index 6
+    print(my_instance.six)  # prints 6
+    my_instance.six = 42
+    print(my_instance.six)  # prints 42
+    del my_instance.six
+    print(my_instance.six)  # prints 7
+
+License
+-------
+
+This project is licensed under the MIT License.
+
+Links
+-----
+
+* `Documentation <https://pypi.org/project/keyalias>`_
+* `Download <https://pypi.org/project/keyalias/#files>`_
+* `Source <https://github.com/johannes-programming/keyalias>`_
+
+Credits
+-------
+
+* Author: Johannes
+* Email: `johannes-programming@mailfence.com <mailto:johannes-programming@mailfence.com>`_
+
+Thank you for using ``keyalias``!
