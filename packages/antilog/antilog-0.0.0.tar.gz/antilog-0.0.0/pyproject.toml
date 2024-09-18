@@ -1,0 +1,6 @@
+[project]
+name = "antilog"
+version = "0.0.0"
+authors = [ {name="Roger D. Serwy", email="roger.serwy@gmail.com"}, ]
+readme = "README.md"
+

@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+antilog/__init__.py
+antilog.egg-info/PKG-INFO
+antilog.egg-info/SOURCES.txt
+antilog.egg-info/dependency_links.txt
+antilog.egg-info/top_level.txt
