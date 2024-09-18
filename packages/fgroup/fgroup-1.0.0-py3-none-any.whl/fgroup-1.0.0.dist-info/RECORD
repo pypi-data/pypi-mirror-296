@@ -1,0 +1,11 @@
+fgroup/__init__.py,sha256=QJ8M_5VPtItz1RfS_V6iRsIuVtqVBGQrImxYkxoZTzc,13603
+fgroup/_test.py,sha256=mHyGAHB3B8DYZPuyHiIqF44SmHccwTFzA79FmbXUbRc,24305
+fgroup/file.py,sha256=nkPYAjbgz2AkdgYfhN3OyLop-sZoqnl4QFzMNCsN9Do,4562
+fgroup/filetree.py,sha256=cQaO2oBA3rn1BiA5Z9UoPHC6ccFwrpmP-7k2ghrlbS4,11187
+fgroup/formatter.py,sha256=63IxP3B9FuC7pjZhzQkgR4TeDuqckYu4DRORtjKmfds,2089
+fgroup/grouper.py,sha256=q0Jy0ANARJ18_H3ra6SDEMrhLrgawO8cLJSYxgjOkxg,5007
+fgroup/util.py,sha256=9Hah2LEUAQ0sqVL0n9Mqc2IO_fq34jgNGryn2YHEMKs,5164
+fgroup-1.0.0.dist-info/METADATA,sha256=N9AjaYvD7GE_7uBx_etLCLdZdoZ_0x9SgBwZXYQBxtc,670
+fgroup-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fgroup-1.0.0.dist-info/entry_points.txt,sha256=0wvs7a5Y9Vkd7gGEn9deKMSQmDEnu-o6eRTDvgKcqms,37
+fgroup-1.0.0.dist-info/RECORD,,
