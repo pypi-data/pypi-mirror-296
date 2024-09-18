@@ -1,0 +1,9 @@
+python-dateutil>=2.8.2
+dill>=0.3.5.1
+networkx>=2.8.0
+psutil>=5.9.5
+requests>=2.29.0
+commonhelper>=0.0.5
+mphelper>=0.0.3
+biodata>=0.1.0
+simplevc>=0.0.3
