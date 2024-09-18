@@ -1,0 +1,11 @@
+from src.dbdisk.database.db_service import DbService
+
+
+class DbSybaseService(DbService):
+    def __init__(self, connection_string):
+        super().__init__(connection_string)
+
+    def connect(self):
+        import pymssql
+        return pymssql.connect(self.connection_string)
+
