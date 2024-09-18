@@ -1,0 +1,49 @@
+Results of doctest builder run on 2024-09-18 08:12:16
+=====================================================
+
+Document: convenience
+---------------------
+1 items passed all tests:
+   8 tests in default
+8 tests in 1 items.
+8 passed and 0 failed.
+Test passed.
+
+Document: hooks
+---------------
+1 items passed all tests:
+ 134 tests in default
+134 tests in 1 items.
+134 passed and 0 failed.
+Test passed.
+
+Document: doom
+--------------
+1 items passed all tests:
+  32 tests in default
+32 tests in 1 items.
+32 passed and 0 failed.
+Test passed.
+
+Document: datamanager
+---------------------
+1 items passed all tests:
+ 161 tests in default
+161 tests in 1 items.
+161 passed and 0 failed.
+Test passed.
+
+Document: savepoint
+-------------------
+1 items passed all tests:
+  76 tests in default
+76 tests in 1 items.
+76 passed and 0 failed.
+Test passed.
+
+Doctest summary
+===============
+  411 tests
+    0 failures in tests
+    0 failures in setup code
+    0 failures in cleanup code
