@@ -1,0 +1,183 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "openfigi-client"
+version = "0.2.5"
+description = "Python client for the OpenFIGI API."
+authors = [
+    { name = "ljnsn", email = "info@ljnsn.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = [
+    "openfigi",
+    "api",
+    "bloomberg",
+    "figi",
+    "python",
+]
+dependencies = [
+    "requests>=2.31.0",
+    "msgspec>=0.18.6",
+]
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://gitlab.com/cryptoledger-x/openfigi-client"
+
+[tool.commitizen]
+name = "cz_gitmoji"
+version_provider = "pep621"
+tag_format = "v$version"
+bump_message = "🔖 bump(release): v$current_version → v$new_version"
+update_changelog_on_bump = true
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=8.2.0",
+    "pytest-recording>=0.13.1",
+    "coverage>=7.5.1",
+]
+lint = [
+    "ruff>=0.4.3",
+]
+dev = [
+    "commitizen>=3.25.0",
+    "cz-conventional-gitmoji>=0.3.1",
+    "ipython!=8.18.0",
+    "pre-commit>=3.7.0",
+]
+
+[tool.pdm.scripts]
+lint = "pre-commit run --all-files --color always"
+
+[tool.pdm.scripts.test]
+composite = [
+    "coverage run -m pytest -m 'not slow'",
+    "coverage report",
+    "coverage xml",
+]
+
+[tool.ruff]
+fix = true
+target-version = "py310"
+src = [
+    "openfigi_client",
+    "test",
+]
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    "ALL",
+]
+unfixable = [
+    "ERA001",
+    "F401",
+    "F841",
+]
+ignore = [
+    "D100",
+    "D107",
+    "D212",
+    "A003",
+    "ANN101",
+    "ANN102",
+    "ANN401",
+    "EM101",
+    "TD002",
+    "TD003",
+    "FIX002",
+    "TRY003",
+    "TCH001",
+    "TCH002",
+    "TCH003",
+    "TD001",
+    "FIX001",
+    "W191",
+    "E111",
+    "E114",
+    "E117",
+    "E501",
+    "D206",
+    "D300",
+    "Q000",
+    "Q001",
+    "Q002",
+    "Q003",
+    "COM819",
+    "ISC001",
+    "ISC002",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"test_*.py" = [
+    "DTZ001",
+    "FBT001",
+    "S101",
+    "PLR2004",
+    "SLF001",
+    "D205",
+]
+"examples/**/*.py" = [
+    "INP001",
+]
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "openfigi_client",
+    "test",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.pep8-naming]
+classmethod-decorators = [
+    "classmethod",
+    "validator",
+]
+
+[tool.ruff.format]
+line-ending = "lf"
+indent-style = "space"
+
+[tool.coverage.run]
+branch = true
+command_line = "--module pytest"
+data_file = "reports/.coverage"
+source = [
+    "openfigi_client",
+]
+
+[tool.coverage.report]
+fail_under = 50
+precision = 1
+show_missing = true
+skip_covered = true
+
+[tool.coverage.xml]
+output = "reports/coverage.xml"
+
+[tool.pytest.ini_options]
+addopts = "--color=yes --doctest-modules --exitfirst --failed-first --strict-markers --strict-config --verbosity=2 --junitxml=reports/pytest.xml --ignore=examples"
+markers = [
+    "slow: mark a test as slow",
+]

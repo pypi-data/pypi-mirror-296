@@ -1,0 +1,84 @@
+interactions:
+  - request:
+      body:
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: GET
+      uri: https://api.openfigi.com/v3/mapping/values/stateCode
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAAx3Ru1LDMBSE4XdR7SegywXHtqLjBClxHIaCgo6OgYbh3ZkvzY41Z/c/K/k3/bx/
+          fn98pafXtNmmLm12ZCCZHEkhL6SSRu6pS1vm7ZS6tNsQgN1MzoRvx7fn2z+nLj0j9w8ZiWxvRy/W
+          wx+gDnvSE8sPj8GF3AjowDdYOSAPBwI64A1BQAfZkXkEHflGdxv5Rr5R08lxYp7syBJZ8cySobJp
+          Zs665DV16ch3ZCm+ikLFoqJVsa1oVR4WlIJSUIp7hERYFGIhFmLhmcILhWrhIQIl/IpACZTQJa5k
+          IdqHajPA7Kqz2Cw2i81iM8tJ55OVJ9OzGmexs5UvileWalD1q6b1MUCuyBWv2lvdqEk0V2jaN77G
+          1yxvzI25aXBxvEpcQa+Oi+PiuMgu7rYw3/BudqwsK+gqsXqD+5Te/v4BFrWvhtICAAA=
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';font-src ''self'' https: data:;form-action ''self'';frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        cross-origin-opener-policy:
+          - same-origin
+        cross-origin-resource-policy:
+          - same-origin
+        date:
+          - Tue, 17 Sep 2024 21:27:36 GMT
+        expires:
+          - '0'
+        origin-agent-cluster:
+          - ?1
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-policy:
+          - 25;w=60
+        ratelimit-remaining:
+          - '22'
+        ratelimit-reset:
+          - '45'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '34'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 8313ef58-d39e-4fe1-a675-e5d6705a417f
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+version: 1

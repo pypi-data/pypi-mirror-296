@@ -1,0 +1,93 @@
+interactions:
+  - request:
+      body:
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        Content-Type:
+          - application/json
+        User-Agent:
+          - python-requests/2.31.0
+      method: GET
+      uri: https://api.openfigi.com/v3/mapping/values/currency
+    response:
+      body:
+        string: !!binary |
+          H4sIAAAAAAAAAyWVOa7lNhBF96Lw4wce2mOmgaL0REr8HCSKjQ4MeAjcgeGGnRhOvB6vyisx7nnJ
+          eUSx6laRVdT7q/vzh49//PSp+/599/Ly0r12/RREM4nzLjoneiy7FY9ejEnMsLBbfhQvfJqHUhh6
+          rYdBPsOURTOLlt0F+4qFLMMOj0GMDn4UE/ZM1BXgb+KN5Y5Q9QxNnmP/pKoaJ+mPRj7jwnr5WXSs
+          ndTGfYEZ3uKB/ShiHKH0x4L9NOLNum3dazcZnXR6SHPasKAwUY8ZFWvMBllb7FY+JuoUJrHOOrsp
+          PYzw9+61m1fpzw9FzZs856hcdghQt2GNbswuI1QWu7LrFGW5YbsTFVnnN5H7tLcsywZ36SxR1S5Z
+          PV2KotZJ9axG/qtL8JO4Y39T7BpZJ8WuWToP/B9kfxww6IY37mGzcFHU5pVlC5cY4TVB9XGjwq2p
+          R66XvuPsblOs40QuKaMjr6Nmd7Im1jMVfpLF2x7Kx3Nqzzx4L2XPJHg66OMBNQkeZV9cXvlVZn/C
+          i7jrV7Gqn56p9Le653kTnjexU8XObO68g30dIfZV2XanW98Pae5BOjtzdHitQ68ZCUaxwconLKo0
+          cBOBbgfHbtachltqb7124+GgdiOvKhapxUunT/gk3msaWU+sJwsDxM4sJ6Y4WZ0lUUNadXOJF5Cc
+          gQ6e4qFup4CFjqWIMrOfMhZeeTp1J4kXlhr+TV+CvAxQt5QfUsveQ+XNfD8yfctB2TNfkRw1cRn9
+          fEImKzcplF6vv0zqabFVxMz1lKTDFZpcblzuAjWgBYHTDNDAGWKnnLPo6FdSgfUz2evn8Av4JXwH
+          v4Jfw2/gt/A7yODUfoYWOnjAp0+ByliHHq5wh/gMVDKo/jqiSasrH6k6okDD67RAFCay0PzKp7wa
+          fBjDatg1TzsKM1EzFc4esmubSBsrg19XFBj86rA4Yh1RDjXPWXic1ePPU6g7ngd3EtAMnCg8LWSM
+          xEbOEvGPAaKc2E1oJmp4diqxm4nK5M1kLFRY8C94Mqr15M4rloalKdfNH0/rn9THoHGK5nX/jTFs
+          fOAaT7DxJ9quX6CDO5TCf//8O9nuw9//A/QEuhe/BwAA
+      headers:
+        cache-control:
+          - private, no-cache, no-store, must-revalidate
+        content-encoding:
+          - gzip
+        content-security-policy:
+          - 'default-src ''self'';base-uri ''self'';font-src ''self'' https: data:;form-action ''self'';frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+        content-type:
+          - application/json; charset=utf-8
+        cross-origin-opener-policy:
+          - same-origin
+        cross-origin-resource-policy:
+          - same-origin
+        date:
+          - Tue, 17 Sep 2024 21:27:05 GMT
+        expires:
+          - '0'
+        origin-agent-cluster:
+          - ?1
+        pragma:
+          - no-cache
+        ratelimit-limit:
+          - '25'
+        ratelimit-policy:
+          - 25;w=60
+        ratelimit-remaining:
+          - '21'
+        ratelimit-reset:
+          - '11'
+        referrer-policy:
+          - no-referrer
+        server:
+          - istio-envoy
+        strict-transport-security:
+          - max-age=63244800; includeSubDomains
+        transfer-encoding:
+          - chunked
+        vary:
+          - Accept-Encoding
+        x-content-type-options:
+          - nosniff
+        x-dns-prefetch-control:
+          - 'off'
+        x-download-options:
+          - noopen
+        x-envoy-upstream-service-time:
+          - '9'
+        x-frame-options:
+          - SAMEORIGIN
+        x-permitted-cross-domain-policies:
+          - none
+        x-request-id:
+          - 613766fc-e1e5-4aae-a746-071e8247cfe9
+        x-xss-protection:
+          - '0'
+      status:
+        code: 200
+        message: OK
+version: 1
