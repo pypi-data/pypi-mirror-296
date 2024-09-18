@@ -1,0 +1,33 @@
+################################################
+### Configuration of input for oligopipe CLI ###
+################################################
+
+annotation_database:
+  host: 193.190.80.40
+  user: annotation
+  password: varsannotib2
+  port: 55432
+
+patient_info:
+   # possible values: M, F, U (undetermined) or empty
+  sex: F
+
+variant_input:
+  # choose one of both input types
+  vcf_file: test_data/example_vcf_1_hg38.vcf
+  tsv_file:
+  genome_build: hg38  # hg19 or hg38
+
+variant_filters:
+  max_maf: 0.035
+  remove_intronic_synonymous: True
+  remove_intergenic: True
+  remove_intron_and_all_synonymous: False
+
+output:
+  dir: test
+  prefix: test_hop
+
+gene_panel_file:
+
+hpo_terms_file: test_data/example_hpos_file.txt
