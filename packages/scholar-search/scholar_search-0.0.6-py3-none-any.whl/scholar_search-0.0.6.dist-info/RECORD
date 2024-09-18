@@ -1,0 +1,13 @@
+sch/__init__.py,sha256=UH3HDKEnPzlsv0fyd_w_g5ZBUx4U5GqzMhbjyw4UhWU,5091
+sch/cli.py,sha256=AWX7RWDdKwXepq7drz-ii2pjJJqe7g5kCHsBUups5Zs,2292
+sch/commands.py,sha256=ZkDTqtXHbT4TiPNF81Xryf-G7Q787HQU8Gx8RETqCpg,40151
+sch/errors.py,sha256=3sepNxLdPXqDF3gEIAg9vUiNXxylKJ616DrCaVYECpw,123
+sch/readme.py,sha256=car7RU1uxskY5Q2fepK8j0-NTJVXZzOLY604leud39Y,7145
+sch/server.py,sha256=yNsez19SLc9cu-4kXQ_3hmFauyNEB5cvz-UAaiuvxkE,24112
+sch/utils.py,sha256=cnSQm8QpB9jvPtGtInyYKjE1nUzYCZf8S1qncb9xohI,3978
+scholar_search-0.0.6.dist-info/LICENSE,sha256=flNEuAC45_KB6sfgVh-CeRJLXYErX-7Hs8--_AFkc_M,1068
+scholar_search-0.0.6.dist-info/METADATA,sha256=SONY3Cet6-IUOYGJgwQlktFeTxxPvIfgkoLPIWMgvJI,962
+scholar_search-0.0.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+scholar_search-0.0.6.dist-info/entry_points.txt,sha256=msKrqgvoIG9nRuzByghre8vrR0k0ToiqFnHgA9FxS8U,36
+scholar_search-0.0.6.dist-info/top_level.txt,sha256=NHdsbIB5Q5_6cFeNzyuRpSiu2uHAgda6XNbO_6hB1cU,4
+scholar_search-0.0.6.dist-info/RECORD,,
