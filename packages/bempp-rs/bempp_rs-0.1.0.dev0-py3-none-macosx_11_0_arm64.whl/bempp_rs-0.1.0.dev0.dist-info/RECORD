@@ -1,0 +1,9 @@
+bempp_rs-0.1.0.dev0.dist-info/METADATA,sha256=djvinCZHA1XJmztkMMNeHrpkUziaHaCg_hw3pI2u0KE,2277
+bempp_rs-0.1.0.dev0.dist-info/WHEEL,sha256=QamtTjkHNDr8fj4Bi4nGjcHevzEiXJi0DZjkZ6prJAY,101
+bempp_rs-0.1.0.dev0.dist-info/licenses/LICENSE,sha256=gYgtaCyk_hw2CQRZPCWXKhWvBE316eZfbtuA-rE1nFA,1527
+bempp/__init__.py,sha256=b7eeB10Kdag_hBh_0vgYj9_NU6mbT-wqKNgzsqnuGYU,47
+bempp/function_space.py,sha256=lIif5ZTGFxdXHRNE65B-gm5xuhcDVnWuN-GoL87ujYQ,3843
+bempp/_bempprs/__init__.py,sha256=dA1dFKUG2JoZUYPVUdn0KjfdtMpu0lNpzbytK_YT1Jg,138
+bempp/_bempprs/ffi.py,sha256=A2RN-oD9GnkyZJCqxM5P5Ub7TI3VVminCMBHDW9I4o4,2464
+bempp/_bempprs/_bempprs.so,sha256=lUuiyvfRpgP498f75LO09lYIISr-K6BIKmMZEW8MdUM,1911120
+bempp_rs-0.1.0.dev0.dist-info/RECORD,,
