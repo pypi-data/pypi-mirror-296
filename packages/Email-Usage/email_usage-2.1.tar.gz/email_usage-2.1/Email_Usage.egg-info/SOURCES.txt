@@ -1,0 +1,7 @@
+setup.py
+Email_Usage/__init__.py
+Email_Usage/main.py
+Email_Usage.egg-info/PKG-INFO
+Email_Usage.egg-info/SOURCES.txt
+Email_Usage.egg-info/dependency_links.txt
+Email_Usage.egg-info/top_level.txt
