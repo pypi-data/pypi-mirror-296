@@ -1,0 +1,107 @@
+[project]
+name = "key-drivers"
+description = "A little helper to help automatically find key drivers of KPIs through time."
+authors = [
+    { name = "Oracen", email = "alex.stenlake@gmail.com" },
+]
+dependencies = [
+    "scikit-learn>=1.5.1",
+    "umap-learn>=0.5.6",
+    "pandas>=2.2.2",
+]
+requires-python = ">=3.10,<3.12"
+readme = "README.md"
+dynamic = []
+version = "0.1.6"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "scm"
+write_to = "src/key_drivers/__version__.py"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.2",
+    "mypy>=1.0.1",
+    "black>=23.1.0",
+    "flake8>=6.0.0",
+    "isort>=5.12.0",
+    "autoflake>=2.0.1",
+    "pytest>=7.2.1",
+    "pre-commit>=3.1.1",
+    "python-semantic-release>=7.33.2",
+    "pandas-stubs>=2.2.2.240909",
+]
+
+[tool.pdm.scripts]
+mypy-check = "mypy --namespace-packages --check-untyped-defs ."
+
+[tool.pdm.scripts.git-hooks]
+shell = "pre-commit install --install-hooks && pre-commit install --hook-type commit-msg"
+
+[tool.pdm.scripts.test]
+shell = "pytest ."
+
+[tool.pdm.scripts.autoflake-fix]
+cmd = "autoflake ."
+
+[tool.pdm.scripts.black-fix]
+cmd = "black ."
+
+[tool.pdm.scripts.isort-fix]
+cmd = "isort ."
+
+[tool.pdm.scripts.flake8-check]
+cmd = "flake8 ."
+
+[tool.pdm.scripts.black-check]
+cmd = "black --check ."
+
+[tool.pdm.scripts.isort-check]
+cmd = "isort --check-only ."
+
+[tool.pdm.scripts.format]
+composite = [
+    "autoflake-fix",
+    "black-fix",
+    "isort-fix",
+]
+
+[tool.pdm.scripts.lint]
+composite = [
+    "flake8-check",
+    "black-check",
+    "isort-check",
+]
+
+[tool.isort]
+multi_line_output = 3
+force_to_top = [
+    "os",
+    "sys",
+]
+profile = "black"
+skip_gitignore = true
+
+[tool.autoflake]
+recursive = true
+in-place = true
+remove-all-unused-imports = true
+ignore-init-module-imports = true
+remove-unused-variables = true
+ignore-pass-statements = false
+
+[tool.commitizen]
+version = "0.1.6"
