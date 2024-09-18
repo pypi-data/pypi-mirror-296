@@ -1,0 +1,12 @@
+pySidraData/__init__.py,sha256=A4OYJjTtyrT9JSWDzS6mxb6PzGdl0tr3_7JGua7yjzY,79
+pySidraData/client.py,sha256=jX5NLHAcrjSyMy6qBTSAr-hXs5id0Ndt3col-O4uTrk,10911
+pySidraData/models.py,sha256=Y_zeEeXNGLYnjboZos3SQw6DxB7ESnI9Z2L1MRaNRLQ,320
+pySidraData/version.py,sha256=sG9_EOtpSKFBmTmrKlmM5OX_qwnbge_Ss8uUKYfSa4Q,102
+tests/__init__.py,sha256=_4GRF4d2W-K1mdq81m44gcp4FVpKcY1WJA-IWlTxpFM,21
+tests/test_client.py,sha256=6PqFOGQS2fmufzgD6-J88WhRksQ-AeddCP4j0SZXT1M,5101
+tests/test_models.py,sha256=cK3Gu31FQ6L7WQ0CejEHAIEoBWB_4nSb1zQEVCMobnk,1283
+pySidraData-0.1.0.dist-info/LICENSE,sha256=oaprBZWSt82-QjAMksEIsTAIJ8WuhD6_0t1mGjuiFAc,1087
+pySidraData-0.1.0.dist-info/METADATA,sha256=bzroqaMYbS3nYbn0zNMFaEk20XS3KuYaNXaOQPHoCLY,5372
+pySidraData-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pySidraData-0.1.0.dist-info/top_level.txt,sha256=bf0rzqWKem281Lh5AfO3ImQhSCB3VhCjVKnWUu8g3fA,18
+pySidraData-0.1.0.dist-info/RECORD,,
