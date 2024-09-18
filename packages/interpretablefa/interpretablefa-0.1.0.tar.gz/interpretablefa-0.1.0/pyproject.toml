@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "interpretablefa"
+version = "0.1.0"
+description = "Coming soon"
+authors = ["Justin Philip Tuazon <jstuazon@alum.up.edu.ph>", "Gia Mizrane Abubo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.1.1"
+pandas = "^2.2.2"
+factor-analyzer = "^0.5.1"
+tensorflow-hub = "^0.16.1"
+scipy = "^1.14.1"
+nlopt = "^2.8.0"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
