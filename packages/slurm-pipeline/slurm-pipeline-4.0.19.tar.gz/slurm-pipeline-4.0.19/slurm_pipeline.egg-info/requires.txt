@@ -1,0 +1,13 @@
+pandas
+plotly
+pytest>=6.2.2
+
+[dev]
+flake8
+pandas
+pycodestyle
+pytest
+
+[test]
+pandas
+pytest
