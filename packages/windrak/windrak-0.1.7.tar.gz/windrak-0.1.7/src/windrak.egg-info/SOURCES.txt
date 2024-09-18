@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/windrak/__init__.py
+src/windrak/cli.py
+src/windrak/create_pr.py
+src/windrak/create_readme.py
+src/windrak/utils.py
+src/windrak.egg-info/PKG-INFO
+src/windrak.egg-info/SOURCES.txt
+src/windrak.egg-info/dependency_links.txt
+src/windrak.egg-info/entry_points.txt
+src/windrak.egg-info/requires.txt
+src/windrak.egg-info/top_level.txt

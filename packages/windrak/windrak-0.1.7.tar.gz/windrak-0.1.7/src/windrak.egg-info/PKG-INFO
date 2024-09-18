@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: windrak
+Version: 0.1.7
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: groq
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: PyGithub

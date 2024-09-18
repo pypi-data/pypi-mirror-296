@@ -1,0 +1,5 @@
+click
+groq
+python-dotenv
+requests
+PyGithub
