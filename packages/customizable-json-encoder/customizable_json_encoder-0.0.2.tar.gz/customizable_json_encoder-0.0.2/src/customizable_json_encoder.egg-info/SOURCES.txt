@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/cjenc/__init__.py
+src/cjenc/custom_serializable.py
+src/cjenc/customizable_json_encoder.py
+src/cjenc/sample.py
+src/customizable_json_encoder.egg-info/PKG-INFO
+src/customizable_json_encoder.egg-info/SOURCES.txt
+src/customizable_json_encoder.egg-info/dependency_links.txt
+src/customizable_json_encoder.egg-info/top_level.txt
