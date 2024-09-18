@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pysigma-pipeline-crowdstrike
+Version: 2.0.0
+Summary: Placeholder for legacy CrowdStrike pipeline project obsoleted by backend
+License: LGPL-2.1-only
+Author: Thomas Patzke
+Author-email: thomas@patzke.org
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pysigma-backend-crowdstrike
+Description-Content-Type: text/markdown
+
+# pySigma CrowdStrike Legacy Pipeline Placeholder
+
+## Description
+
+This is a placeholder for the legacy *pySigma-pipeline-crowdstrike* project that
+was replaced with
+[pySigma-backend-crowdstrike](https://github.com/SigmaHQ/pySigma-backend-crowdstrike).
+The legacy pipeline project was
+ discontinued because it was extended with a
+LogScale backend. The pipeline `crowdstrike_fdr` formerly contained in this
+project was extended and is available under the same name as in the legacy
+project.
+
+## Migration
+
+Replace all occurrences of the package `pysigma-pipeline-crowdstrike` with `pysigma-backend-crowdstrike`.
