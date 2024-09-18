@@ -1,0 +1,4 @@
+[console_scripts]
+jk_sysinfo_json=jk_sysinfo.bin.cli_sysinfo_json:main
+sysinfo_json=jk_sysinfo.bin.cli_sysinfo_json:main
+
