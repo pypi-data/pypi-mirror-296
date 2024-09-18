@@ -1,0 +1,10 @@
+click
+pydantic
+pydantic-settings
+sagemaker[local]==2.182
+setuptools
+toml
+typing_extensions
+
+[local]
+pre-commit

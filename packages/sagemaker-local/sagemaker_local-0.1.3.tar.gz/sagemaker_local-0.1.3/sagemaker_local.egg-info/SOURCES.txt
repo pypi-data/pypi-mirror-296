@@ -1,0 +1,9 @@
+README.rst
+pyproject.toml
+sagemaker_local.egg-info/PKG-INFO
+sagemaker_local.egg-info/SOURCES.txt
+sagemaker_local.egg-info/dependency_links.txt
+sagemaker_local.egg-info/entry_points.txt
+sagemaker_local.egg-info/requires.txt
+sagemaker_local.egg-info/top_level.txt
+sm/__init__.py
