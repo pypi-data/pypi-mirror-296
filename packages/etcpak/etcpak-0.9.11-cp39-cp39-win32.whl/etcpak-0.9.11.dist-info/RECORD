@@ -1,0 +1,13 @@
+etcpak/__init__.py,sha256=BdeOc8QD2tY9jetBaPE1HgepxZ3IXUj8WMeJ2XzJ3n4,1242
+etcpak/__init__.pyi,sha256=8FDdr245LzhfheTGN6nhtUEGJ72nLR9kKlgiaiagT7Q,4612
+etcpak/_etcpak.cp39-win32.iobj,sha256=cCSa_U7ikvVfeopHT0eUWh2blDJm49XrlQrqOFnqtys,762114
+etcpak/_etcpak.cp39-win32.ipdb,sha256=GibJgvIWLyzBRdUyXHkZw2mElXUnocGanc_7qB70E2k,575216
+etcpak/_etcpak.cp39-win32.pyd,sha256=mStjKAaHzdjgmHJhwJkVPLzKmezY2SMo9UeuRRlNbS4,122880
+etcpak/_etcpak_simd.cp39-win32.iobj,sha256=a_XdI93wwwYT_bk94qkaSY0dRsK5K5jJJbtmeaMXxSo,764777
+etcpak/_etcpak_simd.cp39-win32.ipdb,sha256=Ft1ivQYpJ2RKbXoDGdzBoQFqnqi_GZdReGMxj7s8mZ8,582352
+etcpak/_etcpak_simd.cp39-win32.pyd,sha256=blxMa9mYwUNNx7OaSSK5pEMD6hX4IvrpND7qlzvuabE,123392
+etcpak-0.9.11.dist-info/LICENSE,sha256=4tkCNwZT6-6BWjvBCghNjayHuuQ7uhK1fwZGX2dfMo4,1083
+etcpak-0.9.11.dist-info/METADATA,sha256=ZmhT2EBthpnbZOeRm2uXp-eMfdgwZbGxdUcPcfqFnSc,4516
+etcpak-0.9.11.dist-info/WHEEL,sha256=Ri4o4wt5NUPNLrgMkcmnVM5I7CjJ2bK3UNXJn7clgaM,95
+etcpak-0.9.11.dist-info/top_level.txt,sha256=T2D0x7SQLUB3U1bXC2uotzkyB-VtZlC_mQ2wYZB9Y8E,7
+etcpak-0.9.11.dist-info/RECORD,,
