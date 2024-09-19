@@ -1,0 +1,10 @@
+README.md
+setup.py
+sublister.py
+./sublister.py
+sublister.egg-info/PKG-INFO
+sublister.egg-info/SOURCES.txt
+sublister.egg-info/dependency_links.txt
+sublister.egg-info/entry_points.txt
+sublister.egg-info/requires.txt
+sublister.egg-info/top_level.txt
