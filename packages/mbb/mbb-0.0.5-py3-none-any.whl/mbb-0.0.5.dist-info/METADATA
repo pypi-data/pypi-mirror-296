@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mbb
+Version: 0.0.5
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: astropy
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: emcee
+Requires-Dist: corner
+
