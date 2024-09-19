@@ -1,0 +1,9 @@
+pypaya_pgn_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypaya_pgn_parser/headers.py,sha256=zGmYEdpQzZyCIP76l2etZ7Jau0Wh13c5EjU3_kmmn-A,355
+pypaya_pgn_parser/movetext_parser.py,sha256=7TzcYgUWXmcz6Sev-LI2ch1fk9zhtifkO2FRkSJ-4wU,3727
+pypaya_pgn_parser/movetext_tokenizer.py,sha256=pWkE-JH8uOrbrFb64QcAdT-h0LsAjynRY6OMk2ARR-s,3995
+pypaya_pgn_parser/pgn_parser.py,sha256=2DRQ6Ix_M15E_Pp8sZ_TzR0rjK8LUIf0gxXCncnYtM8,3037
+pypaya_pgn_parser-0.1.1.dist-info/LICENSE,sha256=PViM-l6IaI9ZaE9feovs9G_GgDyNF-Gcvg5P9l7iTbI,1088
+pypaya_pgn_parser-0.1.1.dist-info/METADATA,sha256=iNKyWoINP3pJo_XEs8LTa2rXezuPnV07YPEohursQNk,3007
+pypaya_pgn_parser-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pypaya_pgn_parser-0.1.1.dist-info/RECORD,,
