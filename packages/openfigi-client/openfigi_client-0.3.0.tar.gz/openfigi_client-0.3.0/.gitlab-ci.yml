@@ -1,0 +1,114 @@
+image: python:3.12
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH
+      changes:
+        compare_to: "refs/heads/main"
+        paths:
+          - "**/*"
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_TAG
+
+stages:
+  - lint_test
+  - bump
+  - publish
+
+.setup-uv:
+  variables:
+    UV_LINK_MODE: copy
+  before_script:
+    - pip install "uv>=0.4.2"
+
+lint:
+  stage: lint_test
+  variables:
+    GIT_CLONE_PATH: "$CI_BUILDS_DIR/$CI_PROJECT_NAME/lint"
+  extends:
+    - .setup-uv
+  script:
+    - uv sync --frozen # add --only-dev when https://github.com/astral-sh/uv/commit/5f2e53692581fe2308620cc527f1265aaa8b8467 is released
+    - uv run pre-commit run --all-files --color always
+  rules:
+    - if: $CI_COMMIT_TAG == null
+
+test:
+  stage: lint_test
+  variables:
+    GIT_CLONE_PATH: "$CI_BUILDS_DIR/$CI_PROJECT_NAME/test"
+  extends:
+    - .setup-uv
+  script:
+    - uv sync --frozen
+    - uv run coverage run -m pytest -m 'not slow'
+    - uv run coverage report
+    - uv run coverage xml
+  rules:
+    - if: $CI_COMMIT_TAG == null
+  coverage: '/^TOTAL.*\s+(\d+(?:\.\d+)?)%/'
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: reports/coverage.xml
+      junit:
+        - reports/pytest.xml
+    untracked: true
+    when: always
+
+bump:
+  stage: bump
+  variables:
+    GIT_CLONE_PATH: "$CI_BUILDS_DIR/$CI_PROJECT_NAME/bump"
+    REPO_URL: "https://bump-token:${BOOKY_BOT_TOKEN}@gitlab.com/${CI_PROJECT_PATH}"
+  extends:
+    - .setup-uv
+  script:
+    - uv venv
+    - uv sync --frozen # --only-dev
+    - git config user.email "bot@booky.wtf"
+    - git config user.name "Booky Gitlab Bot"
+    - git remote set-url --push origin "$REPO_URL"
+    - set +e
+    - EXIT_CODE=$(uv run cz bump --yes > output.log 2>&1; echo $?)
+    - set -e
+    - |
+      cat output.log
+      echo "Exit code is $EXIT_CODE"
+      case $EXIT_CODE in
+          0)
+              echo "Pushing bump changes"
+              git push origin --tags HEAD:main
+              ;;
+          3)
+              echo "No commits since last version"
+              exit 0
+              ;;
+          21)
+              echo "Nothing to commit"
+              exit 0
+              ;;
+          *)
+              echo "Oops, something went wrong"
+              exit $EXIT_CODE
+              ;;
+      esac
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+publish:
+  stage: publish
+  variables:
+    TWINE_REPOSITORY_URL: $PYTHON_PACKAGE_INDEX
+    TWINE_USERNAME: gitlab-ci-token
+    TWINE_PASSWORD: $CI_JOB_TOKEN
+  extends:
+    - .setup-uv
+  script:
+    - if test -z $PYTHON_PACKAGE_INDEX; then echo "Index URL is not set" && exit 1; fi
+    - uv sync --frozen # --only-dev
+    - uv build
+    - uvx twine upload dist/*
+  rules:
+    - if: $CI_COMMIT_TAG
