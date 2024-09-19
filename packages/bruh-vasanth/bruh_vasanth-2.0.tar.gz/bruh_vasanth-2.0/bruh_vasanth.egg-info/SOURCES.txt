@@ -1,0 +1,7 @@
+setup.py
+bruh_vasanth/__init__.py
+bruh_vasanth/main.py
+bruh_vasanth.egg-info/PKG-INFO
+bruh_vasanth.egg-info/SOURCES.txt
+bruh_vasanth.egg-info/dependency_links.txt
+bruh_vasanth.egg-info/top_level.txt
