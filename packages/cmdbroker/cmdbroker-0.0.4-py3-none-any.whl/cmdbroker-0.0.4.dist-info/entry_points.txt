@@ -1,0 +1,3 @@
+[console_scripts]
+cmdbroker=cmdbroker.cli:async_run
+
