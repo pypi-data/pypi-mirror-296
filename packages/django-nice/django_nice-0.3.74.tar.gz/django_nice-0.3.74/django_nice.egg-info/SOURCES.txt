@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+django_nice/__init__.py
+django_nice/config.py
+django_nice/frontend.py
+django_nice/sse.py
+django_nice/urls.py
+django_nice/views.py
+django_nice.egg-info/PKG-INFO
+django_nice.egg-info/SOURCES.txt
+django_nice.egg-info/dependency_links.txt
+django_nice.egg-info/requires.txt
+django_nice.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+Django>=3.2
+djangorestframework
+django-sse
+nicegui
+
+[dev]
+pytest
+black
+flake8
