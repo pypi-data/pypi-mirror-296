@@ -1,0 +1,15 @@
+zeraora/__init__.py,sha256=HCQBZeozDv4KEeV6eQzWjHsguu731a6bBX-04qlLFb8,204
+zeraora/binary.py,sha256=p-VrnuEMQkwLb5nNhvtgomFO9vOwatSlj_lVmlpBtQM,357
+zeraora/config.py,sha256=dnY_-JXMC6oB25pR1adqrZblUqm0h5pQ_4C-i2qGff4,4910
+zeraora/datetime.py,sha256=FCDLO_LLh29MfSbvzdh5qwHMcr8Anhu1nvBfBG295Dg,19588
+zeraora/django.py,sha256=pXSUETTsrjjP5tbQ1yyVoVrSoZ0alnhRxIWCyopO8oI,3575
+zeraora/drf.py,sha256=bp26i43sgf0jbbUWR09ZPJZJvfDeySDD3_-kpOwWW78,7890
+zeraora/enum.py,sha256=3Ik_GlD4-x9A17yzqbeszNco1KtNPAvNLNWVA4xIn7Q,6057
+zeraora/math.py,sha256=J-vsC6d-GEbj8bRdxygOZnNcXIFJrdlGrx97of4r_aE,3118
+zeraora/requests.py,sha256=3zlei0RaUs4rfGY1UgF8zKN2RFWTBapW0GCw4ghcGJo,618
+zeraora/string.py,sha256=83XCGJyQkpi5rTa2F3PmZdhZgZeqrJG-mK_4k-WuFUs,6261
+Zeraora-0.4.0a2.dist-info/LICENSE,sha256=5GfW0cd5SiPa1W8wl-iy9PTEhd5sr-iRwpIMoAIANN8,1057
+Zeraora-0.4.0a2.dist-info/METADATA,sha256=iv85ghZyboFdW2Bxz7fsuNXjlDidy3WuHu5Smj6UqRQ,3908
+Zeraora-0.4.0a2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Zeraora-0.4.0a2.dist-info/top_level.txt,sha256=7qzN_j8G52HgXL4eAo-SWX5foRllwDREEFNspTkEuzM,8
+Zeraora-0.4.0a2.dist-info/RECORD,,
