@@ -1,0 +1,9 @@
+[project]
+name = "pinkcloud"
+version = "0.0.1"
+description = "Dummy package"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
