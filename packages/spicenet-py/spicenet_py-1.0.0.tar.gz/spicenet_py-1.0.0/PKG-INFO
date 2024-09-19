@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: spicenet-py
+Version: 1.0.0
+Summary: 
+Author: Fabian Stiegler
+Author-email: stiegler.fabian.dev@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib[plotting] (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=2.1.1,<3.0.0)
+Requires-Dist: pandas[plotting] (>=2.2.2,<3.0.0)
+Requires-Dist: plotly[plotting] (>=5.24.0,<6.0.0)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Description-Content-Type: text/markdown
+
+![](media/spice-net-logo-green-ai.png)
+
+# SPICEnet in Python
+
+[(Original Repo)](https://github.com/102-97-98-105/spicenet-embedded)
+
+Im Ordner python_package finden sich die von mir geschriebenen Dateien. Ich habe ursprünglich das
+Repo https://github.com/th-nuernberg/spicenet geforked.
+
+## Einordnung der Notebooks
+
+- [tests](/code/python_package/tests.ipynb): Das Notebook ist vor allem während der Entwicklung entstanden und als
+  Negativbeispiel aktuell konfiguriert.
+- [solar panels](/code/python_package/solar_panel_example.ipynb): Das ist ein funktionierendes Beispiel. (Mir ist
+  bekannt, dass das Dataset nicht gut ist, aber es war ein gutes Beispiel für den Vortrag.)
+- [weather example](/code/python_package/weather_example.ipynb): Das Beispiel ist leider nicht schön geworden was Matrix
+  und Ergebnisse angeht, ich wollte es aber drinnen lassen um zu einem späteren Zeitpunkt es zu verbessern.
+- [presentation](/code/python_package/presentation.ipynb): Nur Plots für die Präsentation.
+- [tutorial](/code/python_package/spice_net_tutorial.ipynb): Hier habe ich angefangen eine Anleitung zur Benutzung des
+  Packages zu entwickeln.
+
+## Zukunftspläne
+
+- Ausbau des Tutorials. Ich möchte vor allem noch Erkenntnisse einbringen wie die Hyperparameter am besten eingestellt
+  werden sollten und wie die Plots zu interpretieren sind.
+- Implementieren der besseren Decoding-Methode.
+- Besseres befassen damit wie die Learning-Rates aussehen sollten.
+- Deploy des packages nach pip.
+- Implementierung in C++ für den Arduino. (Single core, floating point optimiert)
+
