@@ -1,0 +1,59 @@
+#!python
+# -*- coding: utf-8 -*-
+#**************************************************
+__author__  = "Teddy Chantrait"
+__email__   = "teddy.chantrait@gmail.com"
+__status__  = "Development"
+__date__    = "ven. sept. 11 11:13:21 CEST 2015"
+__version__ = 3.0
+# **************************************************
+
+
+# ////////////////////////////////////////////////////////////////////////////////////////////////////
+#                                     BEGINING OF THE CODE
+# ////////////////////////////////////////////////////////////////////////////////////////////////////
+import os
+import sys
+from optparse import OptionParser
+from nonRegressionTestTools import genericTestBase as GTB
+from nonRegressionTestTools import filters
+
+all_av_filter = list(filters.iTestFilter.implemented_filters.keys())
+NR_VERBOSITY_LEVEL = 0
+NR_TEST_PATTERN = ".slurm"
+try:
+    NR_VERBOSITY_LEVEL = os.getenv("NR_VERBOSITY_LEVEL")
+    if NR_VERBOSITY_LEVEL:
+        NR_VERBOSITY_LEVEL = int(NR_VERBOSITY_LEVEL)
+    else:
+        NR_VERBOSITY_LEVEL = 0
+    NR_TEST_PATTERN = os.getenv("NR_TEST_PATTERN")
+    if NR_TEST_PATTERN:
+        pass
+    else:
+        NR_TEST_PATTERN = ".slurm"
+except:
+    os.environ["NR_VERBOSITY_LEVEL"] = NR_VERBOSITY_LEVEL
+    os.environ["NR_TEST_PATTERN"] = NR_TEST_PATTERN
+
+parser = OptionParser()
+parser.add_option("-v","--verb", help="{{0,1,2,3}} verbosity level default({}) see NR_VERBOSITY_LEVEL".format(NR_VERBOSITY_LEVEL), dest="verb",default=NR_VERBOSITY_LEVEL, type=int)
+parser.add_option("-l", "--local",help="local: run localy (only in the current directory)" , action="store_true", dest="local", default=False)
+parser.add_option("-q", "--quiet",help="quiet mode (do not print tests to fiexd)" , action="store_true", dest="quiet", default=False)
+parser.add_option("-f", "--filter_name", help="select a filter among the followings:{}".format("\n".join(all_av_filter)),  dest="filter_name", default="", type=str)
+parser.add_option("-r","--regex", help="apply regex on test directory",  dest="regex", default="", type=str)
+
+
+(options, args) = parser.parse_args()
+
+def run_me(options):
+    # local  or not?
+    test_cases = None
+    test_cases = GTB.test_cases(recursive=not(options.local),
+                                filter_name=options.filter_name,
+                                regex=options.regex,
+                                ext=NR_TEST_PATTERN,
+                                verbosity_level=options.verb,
+                                )
+    test_cases.print_bilan(options.quiet)
+run_me(options)
