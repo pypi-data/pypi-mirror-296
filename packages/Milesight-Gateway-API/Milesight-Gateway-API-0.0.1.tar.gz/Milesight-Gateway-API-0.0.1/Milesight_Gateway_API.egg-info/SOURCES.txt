@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Milesight_Gateway_API.egg-info/PKG-INFO
+Milesight_Gateway_API.egg-info/SOURCES.txt
+Milesight_Gateway_API.egg-info/dependency_links.txt
+Milesight_Gateway_API.egg-info/requires.txt
+Milesight_Gateway_API.egg-info/top_level.txt
+milesight_gateway_api/__init__.py
+milesight_gateway_api/milesight_gateway_client.py
