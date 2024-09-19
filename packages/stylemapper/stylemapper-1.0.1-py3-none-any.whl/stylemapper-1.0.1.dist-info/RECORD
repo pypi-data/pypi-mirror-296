@@ -1,0 +1,17 @@
+stylemapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stylemapper/stylemapper.py,sha256=63br4WFqWgGkGIV2pBXA9s1wAAadpkWQ38YJpAQudCE,5353
+stylemapper/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stylemapper/helpers/beautify.py,sha256=BvG10o9fAVN79PuxFi7DVHiAjxwiuw0EWmbszHtTvNA,3525
+stylemapper/helpers/compare.py,sha256=qe9beQ9vW3FjgiPs1kTy5_XhuiIdAtK0QQsVhZOnRLE,973
+stylemapper/helpers/read_args.py,sha256=cMjRJ7yIOllRQcDo-OzBGwn0GMp-SPwhUMU2aYyoRAg,5004
+stylemapper/helpers/set_argparse.py,sha256=l5pz8ZSXhBRVBQJ-Lh68OxCB392I4rpvFxKXJmKlJEw,8220
+stylemapper/helpers/usage.py,sha256=Q34Z6sVHY-zO7Ubv00OOCBknrUAWERm9XZZuptIfKvA,1351
+stylemapper/helpers/validate_paths.py,sha256=nhk-zv3QvsuGfAcGLKN7BfoEjhrf8l8nOnK0UlWKb2c,1664
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_stylemapper.py,sha256=e9GRBJ7Xa2QKbakCJYp60iXXjLzIf9Fjh4utfEkgemE,4716
+stylemapper-1.0.1.dist-info/LICENSE,sha256=0IMSQoYn8seq6XVYGdlTprJVFP4CXslmLCgdazycX6s,1063
+stylemapper-1.0.1.dist-info/METADATA,sha256=D1zGINyjFXf4jDBX3ewtqUkj8Ppgdxkaq0qdvtfb01w,3610
+stylemapper-1.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+stylemapper-1.0.1.dist-info/entry_points.txt,sha256=0AyYq9POdosoqoEuLpSrD_dra2RDjSZtagW9v2669Ao,61
+stylemapper-1.0.1.dist-info/top_level.txt,sha256=9Dv-UjvBTmwfAFVNZdAIXC1Nxp6XspZrcqGHIHyCels,18
+stylemapper-1.0.1.dist-info/RECORD,,
