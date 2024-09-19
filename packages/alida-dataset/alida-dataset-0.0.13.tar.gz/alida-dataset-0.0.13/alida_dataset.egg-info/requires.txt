@@ -1,0 +1,9 @@
+bda-service-utils
+s3fs
+minio
+alida-arg-parser
+boto
+ds-io-utilities
+kafka-python
+file-io-utilities
+datasets<=2.21.0
