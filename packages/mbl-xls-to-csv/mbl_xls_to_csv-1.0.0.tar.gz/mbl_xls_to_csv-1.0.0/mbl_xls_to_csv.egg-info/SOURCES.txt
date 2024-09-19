@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+mbl_xls_to_csv/__init__.py
+mbl_xls_to_csv/__main__.py
+mbl_xls_to_csv/py.typed
+mbl_xls_to_csv/utils.py
+mbl_xls_to_csv/xls.py
+mbl_xls_to_csv.egg-info/PKG-INFO
+mbl_xls_to_csv.egg-info/SOURCES.txt
+mbl_xls_to_csv.egg-info/dependency_links.txt
+mbl_xls_to_csv.egg-info/entry_points.txt
+mbl_xls_to_csv.egg-info/requires.txt
+mbl_xls_to_csv.egg-info/top_level.txt
