@@ -1,0 +1,181 @@
+# Panzer: Binance API Connection Manager
+
+Panzer is a Python-based library designed to manage Binance API interactions efficiently, handling both signed and unsigned requests. It includes features like secure credential management, automatic request signing, and a sophisticated rate-limiting system.
+
+## Key Features
+
+- **Secure Credential Management**: AES-encrypted storage for API credentials.
+- **Request Signing**: Automatic signing for secure Binance API endpoints.
+- **Rate-Limiting System**: Dynamic control of API request weight and order limits.
+- **Exception Handling**: Centralized error management for API requests.
+
+## Installation from gutHub
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nand0san/panzer.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+## Installation from pypi
+
+1. Install
+    ```bash
+   pio install panzer
+   ```
+
+## Quick Start
+
+### 1. Setup Credentials
+Panzer securely manages Binance credentials. Credentials are stored encrypted in the home directory (`~/panzer.tmp`).
+
+Example:
+```python
+from panzer.keys import CredentialManager
+
+credentials = CredentialManager()
+
+# decrypt just in time (carefully)
+print(credentials.get("api_key", decrypt=True))
+print(credentials.get("api_secret", decrypt=True))
+```
+
+### 2. Make API Requests
+Panzer simplifies both public and private Binance API requests.
+
+#### Public API Request (Unsigned)
+```python
+from panzer.request import get
+
+url = "https://api.binance.com/api/v3/ticker/price"
+params = [('symbol', 'BTCUSDT')]
+response, headers = get(url=url, params=params)
+print(response)
+```
+
+#### Private API Request (Signed)
+```python
+from panzer.request import get
+
+url = "https://api.binance.com/api/v3/account"
+response, headers = get(url=url, full_sign=True)
+print(response)
+```
+
+### 3. Rate Limiting
+The `BinanceRateLimiter` manages rate limits dynamically to ensure compliance with Binance's rules.
+
+```python
+from panzer.limits import BinanceRateLimiter
+
+rate_limiter = BinanceRateLimiter()
+if rate_limiter.can_make_request(weight=10, is_order=False):
+    print("Request can proceed")
+else:
+    print("Rate limit exceeded, waiting...")
+```
+
+### 4. Logging
+Panzer logs all API interactions for debugging purposes, with logs stored in the `logs/` directory.
+
+```python
+from panzer.logs import LogManager
+
+logger = LogManager(filename='logs/request.log', info_level='DEBUG')
+logger.info("Logging API request details")
+```
+
+## Examples
+
+### 1. Initialize Rate Limiting
+```python
+from panzer.limits import BinanceRateLimiter
+
+rate_limiter = BinanceRateLimiter()
+rate_limiter.get()  # Retrieve current rate limits
+```
+
+### 2. Manage Credentials Securely
+```python
+from panzer.keys import CredentialManager
+
+credentials = CredentialManager()
+credentials.add("api_key", "your_api_key", is_sensitive=True)
+```
+
+### 3. Retrieve Kline Data (Public API)
+```python
+from panzer.request import get
+
+url = 'https://api.binance.com/api/v3/klines'
+params = {
+    "symbol": "BTCUSDT",
+    "interval": "1m",
+    "limit": 1000
+}
+
+if rate_limiter.can_make_request(weight=1, is_order=False):
+    response, headers = get(url=url, params=params, full_sign=False, server_time_offset=rate_limiter.server_time_offset)
+    # always update after making request
+    rate_limiter.update_from_headers(headers)
+print(response)
+```
+
+### 4. Place a Test Order (Signed API)
+```python
+from panzer.request import post
+
+url = 'https://api.binance.com/api/v3/order/test'
+params = {
+    'symbol': "BTCUSDT",
+    'side': "SELL",
+    'type': "LIMIT",
+    'timeInForce': 'GTC',
+    'quantity': 0.001,
+    'price': 80000,
+    'recvWindow': 10000
+}
+
+if rate_limiter.can_make_request(weight=1, is_order=True):
+    response, headers = post(url=url, params=params, full_sign=True, server_time_offset=rate_limiter.server_time_offset)
+    # always update after making request
+    rate_limiter.update_from_headers(headers)
+print(response)
+```
+
+### 5. Retrieve Trade History (Signed API)
+```python
+from panzer.request import get
+
+url = 'https://api.binance.com/api/v3/myTrades'
+params = {
+    'symbol': 'BTCUSDT',
+    'limit': 3,
+    'recvWindow': 5000
+}
+
+if rate_limiter.can_make_request(weight=20, is_order=False):
+    response, headers = get(url=url, params=params, full_sign=True, server_time_offset=rate_limiter.server_time_offset)
+    # always update after making request
+    rate_limiter.update_from_headers(headers)
+print(response)
+```
+
+## Error Handling
+Panzer offers centralized exception handling for all API requests.
+
+```python
+from panzer.errors import BinanceRequestHandler
+
+try:
+    response = get(url="https://api.binance.com/api/v3/some_endpoint")
+except BinanceAPIException as e:
+    print(f"Error: {e}")
+```
+
+## Conclusion
+Panzer is a robust and secure solution for interacting with Binance's API, providing automatic request signing, secure credential management, and built-in rate-limiting controls for API compliance.
+
