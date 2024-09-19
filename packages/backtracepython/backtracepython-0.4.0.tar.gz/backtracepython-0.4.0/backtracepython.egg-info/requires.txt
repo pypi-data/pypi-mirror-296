@@ -1,0 +1,6 @@
+six
+simplejson
+requests
+
+[test]
+pytest
