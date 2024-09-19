@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: odyagent2409
+Version: 0.1.0
+Summary: Python module with a CLI exposing various agents prototyped workflow/actions
+Author: Your Name
+Author-email: jgi@jgwill.com
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: langchain-openai
+Requires-Dist: langchain-experimental
+

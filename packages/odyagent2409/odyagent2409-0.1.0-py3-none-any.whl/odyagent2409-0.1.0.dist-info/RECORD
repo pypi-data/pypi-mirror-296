@@ -1,0 +1,8 @@
+agents/__init__.py,sha256=Hw4nCVcF1fz-nWeQ_x__rJkGpUMB50HZqKHgCtqh8oo,319
+agents/arxiv_agent.py,sha256=Zey3If5s3xbqPEjrmQ3EL4k-ITATI3YmOcahf-wWlY0,878
+agents/shell_agent.py,sha256=SMCuxBk38ScHJfv25zrGjCqwVQyMuQpvQGnc3BkDJts,606
+odyagent2409-0.1.0.dist-info/METADATA,sha256=O_FDsPZPZbW90MMJ6sz-cPhm4Er-CfYscUG1K35ouAE,320
+odyagent2409-0.1.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+odyagent2409-0.1.0.dist-info/entry_points.txt,sha256=5hVk6kA9p5tojN3RoaQtvSNcfo20YlwtBMXq5sHomKI,51
+odyagent2409-0.1.0.dist-info/top_level.txt,sha256=OHAN-tVxGXbi966rMQE_BK7YyDEYoe-JL20jvf6URgI,7
+odyagent2409-0.1.0.dist-info/RECORD,,
