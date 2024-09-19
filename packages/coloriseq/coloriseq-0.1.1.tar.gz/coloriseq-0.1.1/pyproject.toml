@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "coloriseq"
+version = "0.1.1"
+description = "Colorises fasta files with given patterns and/or polyA with revcomp"
+authors = ["Dmitry Solovey <dsolovey@ist.ac.at>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+biopython = "^1.84"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+colorise  = 'coloriseq.__main__:main'
