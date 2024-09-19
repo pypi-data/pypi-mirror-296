@@ -1,0 +1,84 @@
+[tool.poetry]
+name = "jiav"
+version = "0.3.2"
+description = "Jira Issues Auto Verification"
+authors = ["Vadim Khitrin <me@vkhitrin.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://github.com/vkhitrin/jiav"
+repository = "https://github.com/vkhitrin/jiav"
+documentation = "https://jiav.readthedocs.io"
+packages = [
+    { include = "jiav", from = "src" },
+    { include = "jiav_lineinfile", from = "src" },
+    { include = "jiav_regexinfile", from = "src" },
+    { include = "jiav_jira_issue", from = "src" },
+]
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Environment :: Console',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: POSIX :: Linux',
+    'Operating System :: MacOS',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.8',
+    'Topic :: Utilities',
+]
+
+[tool.poetry.plugins."jiav.backend"]
+regexinfile = "jiav_regexinfile.RegexInFileBackend"
+lineinfile = "jiav_lineinfile.LineInFileBackend"
+jira_issue = "jiav_jira_issue.JiraIssueBackend"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorlog = "^6.7.0"
+jsonschema = "^4.17.3"
+pyyaml = "^6.0"
+jira = "^3.8.0"
+iteration-utilities = "^0.12.1"
+rich-click = "^1.8.3"
+importlib-metadata = "^8.2.0"
+
+[tool.poetry.scripts]
+jiav = "jiav:cli.jiav"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+esbonio = "^0.16.4"
+rstfmt = "^0.0.14"
+mypy = "^1.10.1"
+poetry-types = "^0.5.1"
+
+[tool.poetry.group.types.dependencies]
+types-pyyaml = "^6.0.12.20240311"
+types-jsonschema = "^4.23.0.20240712"
+types-requests = "^2.32.0.20240712"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+python_version = "3.8"
+files = ["src/**/*.py", "tests/**/*.py"]
+mypy_path = "src"
+show_column_numbers = true
+follow_imports = "normal"
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+strict_optional = true
+warn_return_any = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_unused_configs = true
+no_implicit_reexport = true
+strict_equality = true
