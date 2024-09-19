@@ -1,0 +1,1 @@
+INDEX_CHAR_LEN: int
