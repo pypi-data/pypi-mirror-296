@@ -1,0 +1,2 @@
+[plover.extension]
+plover_clippy_2 = plover_clippy_2.builtin:Clippy
