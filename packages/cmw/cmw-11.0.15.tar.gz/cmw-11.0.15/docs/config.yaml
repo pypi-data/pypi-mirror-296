@@ -1,0 +1,11 @@
+---
+Title: CommonMark Website
+Heading: CommonMark Website
+Tagline: Website creation simplified.
+Navigation:
+  - URL: /
+    Text: Documentation
+  - URL: /feedback.html
+    Text: Feedback
+  - URL: https://github.com/mizuki-hikaru/cmw
+    Text: GitHub Repository
