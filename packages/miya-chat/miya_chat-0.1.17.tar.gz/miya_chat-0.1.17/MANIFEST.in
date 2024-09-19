@@ -1,0 +1,4 @@
+include miya_chat/templates/*
+include miya_chat/static/*
+include README.md
+include requirements.txt
