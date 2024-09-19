@@ -1,0 +1,8 @@
+README.md
+setup.py
+pandas-dataframe-view/__init__.py
+pandas-dataframe-view/main.py
+pandas_dataframe_view.egg-info/PKG-INFO
+pandas_dataframe_view.egg-info/SOURCES.txt
+pandas_dataframe_view.egg-info/dependency_links.txt
+pandas_dataframe_view.egg-info/top_level.txt
