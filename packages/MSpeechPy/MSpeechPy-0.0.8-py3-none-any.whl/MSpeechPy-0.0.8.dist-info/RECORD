@@ -1,0 +1,14 @@
+MSpeechPy/CONSTANTS.py,sha256=3Nu1XfQEj_YH_Zvem3kznb08pjrF8DdVQS7sRDpiwvA,486
+MSpeechPy/__init__.py,sha256=gPFULzsEYNqSL6PAxqFCxb7NTCzpmLnzvYPzMTim-zo,96
+MSpeechPy/__version__.py,sha256=STEt48Q8QnyxziR_4QA3z4fNQGf5Y0mLtTd3Ev0gpeo,151
+MSpeechPy/client.py,sha256=lKEyCXtGxlLH-mIusexLbwHTbLUoxn9OefHfx3SH4D4,1145
+MSpeechPy/exeptions.py,sha256=Y7G_fNmhs17cqJ2fkkiH9hYyoR7g5nmu2TewokNQwkI,1984
+MSpeechPy/ssml_builder.py,sha256=JiOpdGLU3wm8gp1j0xc-rj2do1iuqY57e8g0-TU8Vsg,6333
+MSpeechPy/_builds/__init__.py,sha256=gecXIvVnJGCDGRHuCHGV5WvZqwBDAOREbeZ3yfgByX0,95
+MSpeechPy/_builds/api.py,sha256=QBqtfR7UNW-Tpqq6C8z3Q7G2vIZf2qk0oGIOP74iLgU,5004
+MSpeechPy/_builds/speech.py,sha256=cGEkMq7ZoDBXC1nU8WTSLpE2fD2orQzyfwy8jOVH_YA,4372
+MSpeechPy/_builds/voices.py,sha256=qGo3BPD2HFLofhKeN-PB2qRIq7w-_2Sa-x6MNSoXXL4,3768
+MSpeechPy-0.0.8.dist-info/METADATA,sha256=aL7CebIzSQRfb4ChM16iwh8UpNpWCadX7dMBO0gGY_Q,4780
+MSpeechPy-0.0.8.dist-info/WHEEL,sha256=pL8R0wFFS65tNSRnaOVrsw9EOkOqxLrlUPenUYnJKNo,91
+MSpeechPy-0.0.8.dist-info/top_level.txt,sha256=GUDhfAJVRo6BX16NChe7NlEI8jIm0h3hiPqr94b-L-k,10
+MSpeechPy-0.0.8.dist-info/RECORD,,
