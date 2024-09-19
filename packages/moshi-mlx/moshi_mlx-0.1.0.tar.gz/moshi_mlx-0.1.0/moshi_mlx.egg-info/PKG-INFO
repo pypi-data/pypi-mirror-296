@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: moshi_mlx
+Version: 0.1.0
+Summary: Moshi is moshi, but running on macOS
+Author-email: Laurent Mazaré <laurent@kyutai.org>
+Maintainer-email: Laurent Mazaré <laurent@kyutai.org>
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy<2.2,>=2.1.0
+Requires-Dist: safetensors<0.5,>=0.4.0
+Requires-Dist: huggingface-hub<0.25,>=0.24
+Requires-Dist: rustymimi==0.1.1
+Requires-Dist: sentencepiece==0.2
+Requires-Dist: sounddevice==0.5
+Requires-Dist: sphn>=0.1.4
+Requires-Dist: mlx<0.18,>=0.17.2
+Requires-Dist: aiohttp<3.11,>=3.10.5
+Provides-Extra: dev
+Requires-Dist: pyright; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
