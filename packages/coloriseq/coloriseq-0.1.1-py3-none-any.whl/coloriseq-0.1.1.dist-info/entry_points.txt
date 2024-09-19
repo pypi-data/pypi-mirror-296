@@ -1,0 +1,3 @@
+[console_scripts]
+colorise=coloriseq.__main__:main
+
