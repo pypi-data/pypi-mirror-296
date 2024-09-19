@@ -1,0 +1,18 @@
+[project]
+name = "ironcalc"
+version = "0.1.1"
+description = "Create, edit and evaluate Excel spreadsheets"
+requires-python = ">=3.10"
+keywords = [
+  "xlsx",
+  "spreadsheet",
+]
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[tool]
+
+[tool.maturin]
+manifest-path = "bindings/python/Cargo.toml"
