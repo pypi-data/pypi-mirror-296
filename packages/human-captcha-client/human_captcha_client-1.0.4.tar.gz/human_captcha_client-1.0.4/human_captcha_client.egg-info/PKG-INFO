@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: human-captcha-client
+Version: 1.0.4
+Author-email: Pradish Bijukchhe <pradish@sandbox.com.np>
+Project-URL: Homepage, https://github.com/sandbox-pokhara/human-captcha-client
+Project-URL: Issues, https://github.com/sandbox-pokhara/human-captcha-client/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: chime
+Requires-Dist: httpx
+Requires-Dist: pillow
+Requires-Dist: ValLib
+
+# human-captcha-client
+
+## Requirements
+
+- Python 3.11+
+
+## Installation
+
+- Install python with version>=3.11 from https://www.python.org/downloads/.
+- Install human-captcha-client using this command in your terminal.
+  ```
+  pip install human-captcha-client
+  ```
+
+## Usage
+
+```
+human-catpcha-client <TOKEN>
+```
+
+Replace `<TOKEN>` with your token.

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=70.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "human-captcha-client"
+requires-python = ">=3"
+authors = [{ name = "Pradish Bijukchhe", email = "pradish@sandbox.com.np" }]
+readme = "README.md"
+keywords = []
+classifiers = ["Programming Language :: Python :: 3"]
+dynamic = ["version", "dependencies"]
+
+[project.urls]
+Homepage = "https://github.com/sandbox-pokhara/human-captcha-client"
+Issues = "https://github.com/sandbox-pokhara/human-captcha-client/issues"
+
+[project.scripts]
+human-captcha-client = "human_captcha_client.__main__:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-dir]
+"human_captcha_client" = "human_captcha_client"
+
+[tool.setuptools.dynamic]
+version = { attr = "human_captcha_client.__version__" }
+dependencies = { file = "requirements.txt" }
+
+[tool.isort]
+line_length = 79
+force_single_line = true
+
+[tool.black]
+line-length = 79
+preview = true
+
+[tool.pyright]
+include = ["human_captcha_client", "test.py"]
+typeCheckingMode = "strict"
