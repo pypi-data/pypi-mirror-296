@@ -1,0 +1,11 @@
+cdd/__init__.cp312-win_amd64.pyd,sha256=snxRy5aXGqQ_EkTnd-UwYI9rZMYEpisPAefnIT6Zci4,248320
+cdd/__init__.pyi,sha256=bRDeDik5h5lGAvta4c3Rf9ca_sDpQcvQPdANWrsmM2w,4456
+cdd/gmp.cp312-win_amd64.pyd,sha256=JeSdco1FbuSSgww_RjFRaSzuI5Kk2ZI0_KQ2L5f7Pew,433664
+cdd/gmp.pyi,sha256=qbohn32AKmgSlvvQ_hXcUQBUq7Hg9O_yteu_nK5tadE,3286
+cdd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycddlib-3.0.0b4.dist-info/AUTHORS,sha256=2TE_63XbSVRgjDZ3ZVIHdeT3uDss9Qq0ezu6YZC9Hhw,55
+pycddlib-3.0.0b4.dist-info/LICENSE.md,sha256=deuy2BXYSZxkF2FpL1SYYTkiAv1wBLnMJnFJlx0fLmg,18247
+pycddlib-3.0.0b4.dist-info/METADATA,sha256=tltQOw8nGzidhjVnxfb_BcWMy1Xakdg_WS04sY3itjM,2539
+pycddlib-3.0.0b4.dist-info/WHEEL,sha256=3vidnDuZ-QSnHIxLhNbI1gIM-KgyEcMHuZuv1mWPd_Q,101
+pycddlib-3.0.0b4.dist-info/top_level.txt,sha256=Eru2GGB5odr5yEwXdKlhjz1qZfi_71DG0CrT3-3Sjn8,4
+pycddlib-3.0.0b4.dist-info/RECORD,,
