@@ -1,0 +1,59 @@
+# Orator: Facilitating Academic Exchange and Enlightenment with AI
+
+## How to run
+#### Step 1: Installation
+安装orator
+```
+pip install redcoast-orator
+```
+#### Step 2: Create an .env file
+切换到合适的路径，创建项目文件夹，并创建环境配置文件：
+```
+cd ~
+mkdir orator-demo
+cd orator-demo 
+```
+请按照如下方式配置.env文件：
+```
+# OratorAgent的名字
+ORATOR_AGENT_NAME=(name_of_your_agent)
+
+# WebUI页面的标题/作者信息/其他信息
+ORATOR_TITLE=(title_of_your_work)
+ORATOR_AUTHOR=(authors_of_your_work)
+ORATOR_DETAILED_INFO=(additional_infomation_of_your_work)
+
+# OratorAgent开场白问候语
+ORATOR_GREETING=你好，我是{name}，一个旨在增强你对论文《{title}》理解的智能助手。我的目标是为你提供更深入的理解和分析论文的帮助。你可以使用任何你熟悉的语言来了解这篇论文。
+
+# OratorAgent的host和port
+ORATOR_SERVER_HOST=0.0.0.0
+ORATOR_SERVER_PORT=11224
+
+# OratorAgent要讲解的论文（可以是文件夹路径或pdf文件路径）
+ORATOR_PATH_PAPER=(pdf_paper_of_your_work)
+
+# OratorAgent要讲解的论文对应的代码路径（非必选）
+# ORATOR_PATH_CODE=(code_path_of_your_work)
+
+# 论文代码分享链接（如有）
+# ORATOR_SHARELINK_CODE=
+
+# 论文PDF分享链接（如有）
+# ORATOR_SHARELINK_PAPER=
+
+# 论文数据集分享链接（如有）
+# ORATOR_SHARELINK_DATASET=https://github.com/Dr-Corgi/OpenOrator-Private
+
+# Embedding/语言模型API key
+OPENAI_API_BASE=https://api.siliconflow.cn/v1
+OPENAI_API_KEY=（你的API_KEY）
+EMBEDDING_MODEL=BAAI/bge-m3
+LANGUAGE_MODEL=Qwen/Qwen2-7B-Instruct
+```
+
+#### Step 3: Launch Orator
+在.env文件所在的路径下运行命令：
+```
+python -m orator.launch
+```
