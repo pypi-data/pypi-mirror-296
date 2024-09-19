@@ -1,0 +1,5 @@
+httpbin
+
+[test]
+requests
+pytest
