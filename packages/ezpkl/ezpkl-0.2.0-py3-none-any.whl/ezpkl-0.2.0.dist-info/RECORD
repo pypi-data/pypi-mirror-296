@@ -1,0 +1,12 @@
+ezpkl/__init__.py,sha256=H7-myLcsIm6Ew0QnzZw9G8BRUxDCObC20i-2WN6ND24,166
+ezpkl/pickling.py,sha256=L4ShH1_n6CW9by-gWD6HKSlh42aqOm-Ng85FJRfElVU,1872
+ezpkl/refrigerator.py,sha256=z_mTs3NBR5L1QFzdCtNd8FVg3RjffhlaJnSmeX0aR-s,426
+ezpkl/texting.py,sha256=SgRlc11CV41Q3D7LYQt_maWIh251YERDc1LpHZvke4Q,2545
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ezpkl.py,sha256=Fwtd8fcgQ-VejaE_rU1PamSf2tJm6wfQtWRr9Sa-VVw,312
+tests/test_texting.py,sha256=oBQC5F6ZsCSkXbu9b9VgqkvChcXBTBFHL-z4ALAuycw,963
+ezpkl-0.2.0.dist-info/LICENSE,sha256=2svitrb8-qUbVK-7fS97Sjeu1-Wblz6wEtw5qpoUpdQ,1065
+ezpkl-0.2.0.dist-info/METADATA,sha256=3SRhZddhe__ndBLraAnHQFDTMYpIHGpvskdkJ08-IB8,2472
+ezpkl-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ezpkl-0.2.0.dist-info/top_level.txt,sha256=BbRiUWyyvyARPK0iO0moU_GNhyxk_GM6FAkVhHJFAvk,12
+ezpkl-0.2.0.dist-info/RECORD,,
