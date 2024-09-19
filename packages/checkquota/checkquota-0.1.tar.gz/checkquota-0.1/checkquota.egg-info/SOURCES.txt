@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+checkquota.egg-info/PKG-INFO
+checkquota.egg-info/SOURCES.txt
+checkquota.egg-info/dependency_links.txt
+checkquota.egg-info/entry_points.txt
+checkquota.egg-info/top_level.txt
