@@ -1,0 +1,83 @@
+.cursorrules
+Comprehensive_Library_Guide.md
+LICENSE
+README.md
+STYLE_GUIDE.md
+future_dev_roadmap.ipynb
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+.github/workflows/publish-to-pypi.yml
+.gitignore/.gitignore
+ai_tools/README.md
+ai_tools/llmsummarize 1. full repo.py
+ai_tools/llmsummarize 2. docs and code only.py
+ai_tools/llmsummarize 3. documentation and docstrings.py
+ai_tools/rascommander_code_assistant.ipynb
+ai_tools/llm_summary/ras-commander.txt
+examples/01_project_initialization.py
+examples/02_plan_operations.py
+examples/03_geometry_operations.py
+examples/04_unsteady_flow_operations.py
+examples/05_utility_functions.py
+examples/06_single_plan_execution.py
+examples/07_sequential_plan_execution.py
+examples/08_parallel_execution.py
+examples/09_specifying_plans.py
+examples/10_arguments_for_compute.py
+examples/11_Using_RasExamples.ipynb
+examples/12_plan_set_execution.py
+examples/13_multiple_project_operations.py
+examples/14_Core_Sensitivity.ipynb
+examples/example_projects.ipynb
+examples/xx_edge_cases.py
+examples/example_projects/Balde Eagle Creek/BaldEagle.c01
+examples/example_projects/Balde Eagle Creek/BaldEagle.dss
+examples/example_projects/Balde Eagle Creek/BaldEagle.f01
+examples/example_projects/Balde Eagle Creek/BaldEagle.f02
+examples/example_projects/Balde Eagle Creek/BaldEagle.g01
+examples/example_projects/Balde Eagle Creek/BaldEagle.g01.gmz
+examples/example_projects/Balde Eagle Creek/BaldEagle.g01.hdf
+examples/example_projects/Balde Eagle Creek/BaldEagle.gis
+examples/example_projects/Balde Eagle Creek/BaldEagle.p01
+examples/example_projects/Balde Eagle Creek/BaldEagle.p01.comp_msgs.txt
+examples/example_projects/Balde Eagle Creek/BaldEagle.p01.computeMsgs.txt
+examples/example_projects/Balde Eagle Creek/BaldEagle.p02
+examples/example_projects/Balde Eagle Creek/BaldEagle.p02.computeMsgs.txt
+examples/example_projects/Balde Eagle Creek/BaldEagle.prj
+examples/example_projects/Balde Eagle Creek/BaldEagle.rasmap
+examples/example_projects/Balde Eagle Creek/BaldEagle.u02
+examples/example_projects/Balde Eagle Creek/BaldEagle.u02.hdf
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.b01
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.c01
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.dss
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.f01
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.f02
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.g01
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.g01.gmz
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.g01.hdf
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.gis
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.p01
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.p01.comp_msgs.txt
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.p01.tmp.hdf
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.p02
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.p02.computeMsgs.txt
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.prj
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.rasmap
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.u02
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.u02.hdf
+examples/example_projects/Balde Eagle Creek [SpecificSequential]/BaldEagle.x01
+ras_commander/RasCmdr.py
+ras_commander/RasExamples.py
+ras_commander/RasGeo.py
+ras_commander/RasPlan.py
+ras_commander/RasPrj.py
+ras_commander/RasUnsteady.py
+ras_commander/RasUtils.py
+ras_commander/__init__.py
+ras_commander/_version.py
+ras_commander.egg-info/PKG-INFO
+ras_commander.egg-info/SOURCES.txt
+ras_commander.egg-info/dependency_links.txt
+ras_commander.egg-info/top_level.txt
