@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Techbitforge_AI
+Version: 0.1
+Requires-Dist: groq
+Requires-Dist: requests
+Requires-Dist: re
+Requires-Dist: typing
+Requires-Dist: shutil
+Requires-Dist: gradio-client
+Requires-Dist: random
+Requires-Dist: os
+
