@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PythonYGraph
+Version: 1.1
+Summary: A freely available, lightweight and easy to use visualization client for viewing 1D data files.
+Home-page: https://bitbucket.org/dradice/pygraph
+Author: David Radice
+Author-email: david.radice@psu.edu
+License: GPLv3
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: pyqt5
+Requires-Dist: pythonqwt
+Requires-Dist: numpy
+Requires-Dist: h5py
+
