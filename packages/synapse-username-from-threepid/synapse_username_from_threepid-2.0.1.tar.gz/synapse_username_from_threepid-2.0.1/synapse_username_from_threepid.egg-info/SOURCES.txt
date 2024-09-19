@@ -1,0 +1,6 @@
+README.md
+setup.py
+synapse_username_from_threepid.egg-info/PKG-INFO
+synapse_username_from_threepid.egg-info/SOURCES.txt
+synapse_username_from_threepid.egg-info/dependency_links.txt
+synapse_username_from_threepid.egg-info/top_level.txt
