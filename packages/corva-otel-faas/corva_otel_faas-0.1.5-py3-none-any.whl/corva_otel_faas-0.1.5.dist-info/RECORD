@@ -1,0 +1,5 @@
+corva_otel/faas/__init__.py,sha256=YSQOQeFtwdbHcPAJssqMBPSkygZyZF7xElwET12ukPw,49
+corva_otel/faas/otel_faas_wrap.py,sha256=n9u8zTIHAo0H53ztExScJ3Uoxb1Og-za8lTeS7AT6O8,17241
+corva_otel_faas-0.1.5.dist-info/METADATA,sha256=pAfKm96BU09idufhZI3hPVK_JVmZTLJ_eaIRaSSMOHI,546
+corva_otel_faas-0.1.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+corva_otel_faas-0.1.5.dist-info/RECORD,,
