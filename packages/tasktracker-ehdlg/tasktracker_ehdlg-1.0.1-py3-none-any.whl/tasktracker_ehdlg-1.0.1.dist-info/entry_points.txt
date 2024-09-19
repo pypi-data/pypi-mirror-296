@@ -1,0 +1,2 @@
+[console_scripts]
+task-tracker-ehdlg = tasktracker_ehdlg.__main__:main
