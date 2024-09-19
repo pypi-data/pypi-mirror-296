@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: corva-otel-semconv
+Version: 0.1.2
+Summary: OpenTelemetry semantic conventions for Python at corva.ai
+Project-URL: Homepage, https://github.com/corva-ai/otel/tree/main/python/semconv
+Author-email: Radoslav Kirilov <radoslav.kirilov@corva.ai>, Ivaylo Papratilov <ivaylo.papratilov@corva.ai>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
