@@ -1,0 +1,8 @@
+[console_scripts]
+jiav=jiav:cli.jiav
+
+[jiav.backend]
+jira_issue=jiav_jira_issue.JiraIssueBackend
+lineinfile=jiav_lineinfile.LineInFileBackend
+regexinfile=jiav_regexinfile.RegexInFileBackend
+
