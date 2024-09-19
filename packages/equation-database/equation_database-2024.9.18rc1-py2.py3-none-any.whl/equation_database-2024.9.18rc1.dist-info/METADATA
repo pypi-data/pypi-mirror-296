@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: equation-database
+Version: 2024.9.18rc1
+Summary: A collection of equations
+Author-email: Alexander Puck Neuwirth <alexander@neuwirth-informatik.de>
+Maintainer-email: Alexander Puck Neuwirth <alexander@neuwirth-informatik.de>
+Requires-Dist: sympy
+Provides-Extra: dev
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: jupyter; extra == 'dev'
+Requires-Dist: jupyterlab; extra == 'dev'
+Requires-Dist: pre-commit>=2.20; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: bibtexparser; extra == 'docs'
+Requires-Dist: jupyter-sphinx; extra == 'docs'
+Requires-Dist: myst-parser; extra == 'docs'
+Requires-Dist: nbsphinx; extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-autoapi; extra == 'docs'
+Requires-Dist: sphinx-autobuild; extra == 'docs'
+Requires-Dist: sphinx-math-dollar; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme; extra == 'docs'
+Requires-Dist: toml; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-line-profiler-apn; extra == 'test'
+Requires-Dist: pytest-profiling; extra == 'test'
+Description-Content-Type: text/markdown
+
+# equations-database
