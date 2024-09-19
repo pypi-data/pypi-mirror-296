@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tasktracker-ehdlg"
+version = "1.0.0"
+description = "Simple task tracker CLI program to manage your tasks"
+readme = "README.md"
+authors = [{ name = "Enrique Hidalgo" }]
+keywords = ["tasks", "cli"]
+dependencies = [
+    "tabulate", 
+    "colorama"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/ehdlg/task-tracker"
+
+
