@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/test_timespent/__init__.py
+src/test_timespent/test_timespent.py
+src/timespent/__init__.py
+src/timespent/timespent.py
+src/timespent.egg-info/PKG-INFO
+src/timespent.egg-info/SOURCES.txt
+src/timespent.egg-info/dependency_links.txt
+src/timespent.egg-info/requires.txt
+src/timespent.egg-info/top_level.txt
