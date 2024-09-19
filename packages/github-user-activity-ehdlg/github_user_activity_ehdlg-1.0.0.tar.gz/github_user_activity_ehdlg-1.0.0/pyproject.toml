@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-user-activity-ehdlg"
+version = "1.0.0"
+description = "CLI application that fetches an ddisplays the recent activity of a specified GitHub user"
+readme = "README.md"
+authors = [{ name = "Enrique Hidalgo" }]
+keywords = ["github", "cli"]
+dependencies = [
+    "requests", 
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/ehdlg/github-user-activity"
+
+[project.scripts]
+github-activity-ehdlg = "github_user_activity_ehdlg.__main__:main"
+

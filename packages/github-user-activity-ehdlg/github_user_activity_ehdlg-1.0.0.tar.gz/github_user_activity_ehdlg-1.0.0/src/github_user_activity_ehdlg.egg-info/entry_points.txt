@@ -1,0 +1,2 @@
+[console_scripts]
+github-activity-ehdlg = github_user_activity_ehdlg.__main__:main
