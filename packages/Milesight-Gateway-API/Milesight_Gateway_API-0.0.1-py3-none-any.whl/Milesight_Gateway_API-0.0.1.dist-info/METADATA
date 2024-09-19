@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: Milesight-Gateway-API
+Version: 0.0.1
+Summary: A python client for interacting with Milesight gateway REST API
+Home-page: https://github.com/corgan2222/Milesight-Gateway-API
+Author: Stefan Knaak
+Author-email: stefan.knaak@e-shelter.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: pycryptodome
+Requires-Dist: urllib3
+
+# Milesight Gateway REST API Client
+
+This is a Python client for interacting with the Milesight gateway API.
+
+## Installation
+
+You can install this package via pip:
+
+```
+pip install Milesight-Gateway-API
+```
+
+## Usage
+
+```python
+from milesight_gateway_api import MilesightGatewayClient
+client = MilesightGatewayClient(...)
+```
+
+
