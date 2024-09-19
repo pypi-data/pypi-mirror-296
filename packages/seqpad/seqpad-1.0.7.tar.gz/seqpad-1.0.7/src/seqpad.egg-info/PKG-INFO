@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: seqpad
+Version: 1.0.7
+Summary: Pad nucleotide sequence.
+Author-email: Johannes <johannes-programming@mailfence.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2023 Johannes Programming
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Documentation, https://pypi.org/project/seqpad
+Project-URL: Download, https://pypi.org/project/seqpad/#files
+Project-URL: Source, https://github.com/johannes-programming/seqpad
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: click>=8.1.7
+Requires-Dist: getoptify>=1.0.1
+
+======
+seqpad
+======
+
+Overview
+--------
+
+Pad nucleotide sequence.
+
+Installation
+------------
+
+To install ``seqpad``, you can use ``pip``. Open your terminal and run:
+
+.. code-block:: bash
+
+    pip install seqpad
+
+Features
+--------
+
+The core function of this project is implemented as follows:
+
+.. code-block:: python
+
+    def seqpad(seq):
+        while len(seq) % 3 != 0:
+            seq += "N"
+        return seq
+
+The project also provides a CLI that can also be accessed from within python. For more information read the help message that can be accessed through one of the two following ways.
+
+.. code-block:: bash
+
+    # bash
+    python3 -m seqpad -h
+
+.. code-block:: python
+
+    # python
+    import seqpad
+    seqpad.main(['-h'])
+
+License
+-------
+
+This project is licensed under the MIT License.
+
+Links
+-----
+
+* `Documentation <https://pypi.org/project/seqpad>`_
+* `Download <https://pypi.org/project/seqpad/#files>`_
+* `Source <https://github.com/johannes-programming/seqpad>`_
+
+Credits
+-------
+
+* Author: Johannes
+* Email: `johannes-programming@mailfence.com <mailto:johannes-programming@mailfence.com>`_
+
+Thank you for using ``seqpad``!
