@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: palmletRPA
+Version: 1.0.4
+Summary: 这是个rpa工具
+Author: yangsheng
+Author-email: 
+Keywords: rpa,palmletRPA,palmlet,palm
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32==227
+Requires-Dist: pyscreeze
+Requires-Dist: pytweening
+
+
+## palmletRPA
+
+这是“小掌RPA”

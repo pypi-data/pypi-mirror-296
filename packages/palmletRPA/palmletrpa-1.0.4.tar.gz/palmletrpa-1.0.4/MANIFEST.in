@@ -1,0 +1,8 @@
+# 包含所有文件
+recursive-include . *.pyd
+
+# 排除目录
+prune ./.idea
+prune ./.mypy_cache
+
+
