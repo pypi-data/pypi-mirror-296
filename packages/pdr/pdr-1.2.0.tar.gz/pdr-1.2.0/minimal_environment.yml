@@ -1,0 +1,15 @@
+name: pdr
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - cytoolz
+  - numpy<2.0.0
+  - pandas>=2.0.0
+  - git
+  - pip
+  - python-Levenshtein
+  - multidict
+  - more-itertools
+  - dustgoggles
+  - pds4_tools
