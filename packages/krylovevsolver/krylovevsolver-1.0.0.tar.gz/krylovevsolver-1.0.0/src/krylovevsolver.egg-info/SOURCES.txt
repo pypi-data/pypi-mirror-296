@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/krylovevsolver/__init__.py
+src/krylovevsolver/dff.py
+src/krylovevsolver/krylov_solver.py
+src/krylovevsolver/wave_equation.py
+src/krylovevsolver.egg-info/PKG-INFO
+src/krylovevsolver.egg-info/SOURCES.txt
+src/krylovevsolver.egg-info/dependency_links.txt
+src/krylovevsolver.egg-info/requires.txt
+src/krylovevsolver.egg-info/top_level.txt
