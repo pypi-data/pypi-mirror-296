@@ -1,0 +1,11 @@
+whr_core.cpython-36m-i386-linux-gnu.so,sha256=l1XpYBL3a0LBNxHZ_HYGkQnywEQPNfM915d8ttIgJ-Q,423061
+whr-2.0.4.dist-info/LICENSE,sha256=Ov2akQO7a3UXl89wi5fkuYdU6veHJC_WQ0aVNfImZsE,1086
+whr-2.0.4.dist-info/METADATA,sha256=27PDYF0tmVNAcahRon_LC4WWj6yex5dO8avejnUg2aw,5492
+whr-2.0.4.dist-info/RECORD,,
+whr-2.0.4.dist-info/WHEEL,sha256=xBtAATNH5s_E-5rxgScVqWgA3Zkxk9RhQQ0cD8gmai0,110
+whr-2.0.4.dist-info/top_level.txt,sha256=jPksrpE002D5NAM3-xdeJpNMBZ_FTfEOLSNOX4GSJVU,13
+whr.libs/libstdc++-d2a021ba.so.6.0.32,sha256=1zr_iwGwEBe95gyKdgiw7C4Y1RR9ijV40j66rk4elzg,3537349
+whr.libs/libgcc_s-f3fb5a36.so.1,sha256=SrjjCCuY7RHj-T9JLrY9XFMgCCpYD9Qmezr4uoJGVEQ,168321
+whr/evaluate.py,sha256=UZpDy1pD9uaFO35smcDQdgvn0WbS3ABZGSGbJwcqm6I,2253
+whr/base.py,sha256=RO8LDzulBF14uAvCyxEUw-CwqFN2pmk2GhCDiVM1pVM,6779
+whr/__init__.py,sha256=iQK3lKJReVqKh3xppSdQtpSnzJHtdWCGkNPqxLv4jJU,87
