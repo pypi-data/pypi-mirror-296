@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: joinvoice
+Version: 1.0.0
+Summary: Join few voice messages into one with this script
+Author-email: Elchin Sarkarov <elchin751@gmail.com>
+Project-URL: Homepage, https://github.com/elchinchel/joinvoice
+Project-URL: Bug Tracker, https://github.com/elchinchel/joinvoice/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: librosa<1.0,>=0.10.0
+Requires-Dist: soundfile>0.12
+
+This script joins multiple audio files into one.
+
+Install:
+```shell
+pipx install joinvoice
+```
+
+And make one nice package of all the dear voice messages:
+```shell
+joinvoice path_to_folder_with_sources output_filename.ogg
+```
