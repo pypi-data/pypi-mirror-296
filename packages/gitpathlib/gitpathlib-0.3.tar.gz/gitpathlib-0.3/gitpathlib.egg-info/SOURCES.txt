@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README
+README.rst
+pyproject.toml
+gitpathlib/__init__.py
+gitpathlib/gp_base.py
+gitpathlib/gp_pygit.py
+gitpathlib/gp_subprocess.py
+gitpathlib/testutil.py
+gitpathlib/util.py
+gitpathlib.egg-info/PKG-INFO
+gitpathlib.egg-info/SOURCES.txt
+gitpathlib.egg-info/dependency_links.txt
+gitpathlib.egg-info/requires.txt
+gitpathlib.egg-info/top_level.txt
