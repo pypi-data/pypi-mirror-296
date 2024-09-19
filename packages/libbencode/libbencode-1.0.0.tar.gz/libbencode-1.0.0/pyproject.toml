@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "libbencode"
+version = "1.0.0"
+
+description = "Bencode encoder and decoder."
+
+readme = "README.md"
+readme-content-type = "text/markdown"
+
+authors = [
+    {name = "Zrekryu", email = "zrekryu@gmail.com"}
+]
+
+keywords = [
+    "bencode",
+    "bittorrent", "torrent"
+]
+
+requires-python = ">=3.11"
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+Repository = "https://github.com/zrekryu/libbencode"
+Issues = "https://github.com/zrekryu/libbencode/issues"

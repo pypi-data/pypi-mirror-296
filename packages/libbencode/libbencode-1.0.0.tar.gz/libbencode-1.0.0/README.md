@@ -1,0 +1,182 @@
+# libbencode
+
+A Python library for Bencode encoding and decoding.
+
+# Installation
+
+Installing through pip:
+```bash
+pip install libbencode
+```
+
+Installing through source:
+```bash
+git clone https://github.com/zrekryu/libbencode.git
+cd libbencode
+pip install .
+```
+
+# Usage
+
+## Decoding
+```py
+import libbencode
+
+data: bytes = b'i42e'  # bencode data.
+print(libbencode.decode(data))  # 42
+```
+## Encoding
+```py
+import libbencode
+
+data: bytes = 42  # python object.
+print(libbencode.encode(data))  # 'i42e'
+```
+
+## Version Information
+
+Print the version:
+```py
+import libbencode
+
+print(libbencode.__version__)
+```
+
+# Bencode API
+
+## Decoding API
+
+All `decode_*` methods return a tuple of the decoded data and the position of the end byte in the data.
+
+### Decoding an Integer
+
+Decodes an integer from bencode format:
+```py
+import libbencode
+
+data: bytes = b"i42e"
+print(bencode.decode_int(data))  # (42, 3)
+```
+
+### Decoding a String
+
+Decodes a string from bencode format:
+```py
+import libbencode
+
+data: bytes = b"4:spam"
+print(bencode.decode_str(data))  # (b'spam', 5)
+```
+
+Decoding with a specific encoding:
+```py
+bencode.decode_str(data, encoding="utf-8")  # ('spam', 5)
+```
+
+### Decoding a List
+
+Decodes a list from bencode format:
+```py
+import libbencode
+
+data: bytes = b"l4:spami42ee"
+print(bencode.decode_list(data))  # ([b'spam', 42], 11)
+```
+
+Decoding with a specific encoding:
+```py
+bencode.decode_list(data, encoding="utf-8")  # (['spam', 42], 21)
+```
+
+### Decoding a Dictionary
+
+Decodes a dictionary from bencode format:
+```py
+import libbencode
+
+data: bytes = b"d3:bar4:spam3:fooi42ee"
+print(bencode.decode_dict(data))  # {b'bar': b'spam', b'foo': 42}
+```
+
+Decoding with a specific encoding:
+```py
+bencode.decode_dict(data, encoding="utf-8")  # {'bar': 'spam', 'foo': 42}
+```
+
+## Encoding API
+
+### Encoding an Integer
+```py
+import libbencode
+
+data: int = 42
+print(bencode.encode_int(data))  # b'i42e'
+```
+
+### Encoding Bytes
+
+Encodes bytes into bencode format:
+```py
+import libbencode
+
+data: str = b"spam"
+print(bencode.encode_bytes(data))  # b'4:spam'
+```
+
+### Encoding a String
+
+Encodes a string into bencode format:
+```py
+import libbencode
+
+data: str = "spam"
+print(bencode.encode_str(data))  # b'4:spam'
+```
+
+### Encoding a List
+
+Encodes a list into bencode format:
+```py
+import libbencode
+
+data: list[str, int] = ["spam", 42]
+print(bencode.encode_list(data))  # b'l4:spami42ee'
+```
+
+### Encoding a Dictionary
+
+Encodes a dictionary into bencode format:
+```py
+import libbencode
+
+data: dict[str, str | int] = {"bar": "spam", "foo": 42}
+print(bencode.encode_dict(data))  # b'd3:bar4:spam3:fooi42ee'
+```
+
+### Encoding a Boolean
+
+The Bencode format does not natively support boolean values. Therefore, booleans are encoded as integers:
+
+- True is encoded as `b'i1e'`
+- False is encoded as `b'i0e'`
+
+Encodes a boolean into bencode format:
+```py
+import libbencode
+
+data: bool = True
+print(bencode.encode_bool(data))  # b'i1e'
+```
+
+# Tests
+
+Tests are included in `tests` directory.
+
+Run tests:
+```bash
+python -m unittest discover -s tests
+```
+
+# License
+
+© 2024 Zrekryu. Licensed under MIT License. See the LICENSE file for details.
