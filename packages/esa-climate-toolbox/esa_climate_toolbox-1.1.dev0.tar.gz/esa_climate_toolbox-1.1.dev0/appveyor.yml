@@ -1,0 +1,54 @@
+version: '{build}'
+
+image:
+  - macOS
+  - Ubuntu2004
+
+configuration: Release
+
+platform:
+  - x64
+
+environment:
+  # For the unit-tests, disable Numba JIT, otherwise Coverage wont reach the actual Python code
+  NUMBA_DISABLE_JIT: 1
+
+for:
+-
+  matrix:
+    only:
+      - image: macos
+  install:
+    - curl -L https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-MacOSX-x86_64.sh > miniconda.sh
+    - bash miniconda.sh -b -p $HOME/miniconda
+-
+  matrix:
+    only:
+      - image: Ubuntu2004
+  install:
+    - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+    - bash miniconda.sh -b -p $HOME/miniconda
+
+build_script:
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  # - conda update -q conda # makes travis build fail
+  # Useful for debugging any issues with conda
+  - conda info -a
+  - conda init bash
+  - export CONDA_BASE=$(conda info --base)
+  - source $CONDA_BASE/etc/profile.d/conda.sh
+
+  # Install mamba as a dramatically faster conda replacement. Specifying a
+  # fixed version makes the installation of mamba itself much faster, and
+  # avoids potential breakage due to changes in mamba behaviour.
+  - conda install -c conda-forge mamba
+
+  - mamba env create
+  - conda activate ect
+  - pip install --no-deps .
+  - conda list
+
+  # Run the test suite.
+  - pytest -v --cov=esa-climate-toolbox test

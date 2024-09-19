@@ -1,0 +1,25 @@
+name: rtd-ect
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python >=3.8
+  # Required
+  - xcube >= 1.3.0
+  - xcube-cci >= 0.9.9
+  # For Jupyterlab
+  - jupyterlab
+  - jupyterlab-geojson
+  # Test libs
+  - pytest
+  - pytest-cov
+  # RTD specials
+  - pip:
+      - sphinx
+      - sphinx_rtd_theme
+      - sphinx-argparse
+      - sphinx-autodoc-annotation
+      - recommonmark
+      - mock
+      - nbsphinx
