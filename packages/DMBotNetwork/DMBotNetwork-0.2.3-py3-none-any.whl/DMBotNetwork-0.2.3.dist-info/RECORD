@@ -1,0 +1,15 @@
+DMBotNetwork/__init__.py,sha256=s_t8gzKzkDP4JmaNRAhG9c9_YFinBNd26oluFqHU58U,222
+DMBotNetwork/main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DMBotNetwork/main/client.py,sha256=vRI_dz0RQhz29yysG14cj9VMWnMT_yr7e8eht5sW4Ak,12417
+DMBotNetwork/main/server.py,sha256=W2O740mArANCwQKVlfndgI7q8uCKCd6znNEbFHbAKgI,9917
+DMBotNetwork/main/utils/__init__.py,sha256=asmVneuf_S8D2GGUPnQF8lT7cT5M_BWZLaHSZ4khHIw,150
+DMBotNetwork/main/utils/cl_unit.py,sha256=CTspjluUfqPDL9vCpNdsP7LhaXnGDRLvUwtEjgSOunk,7585
+DMBotNetwork/main/utils/response_code.py,sha256=WKiacna3qGk22P0-heKiNYm2upISfKNiRHwleLqf4Jc,1934
+DMBotNetwork/main/utils/server_db.py,sha256=1UTKlmfWdjXk5JMVZQLxOq7XX6yoO2GAV4gvj_gGQ_g,9116
+Tests/ServerDB.py,sha256=47YIews99lrgxvRuGzbmdjDwf2stsv4CeicCoXaKMCQ,1950
+Tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DMBotNetwork-0.2.3.dist-info/LICENSE.md,sha256=PbMtT1Syki2OqY94U1Pd0TewFu9C42FVv7o9R0lhAgc,34491
+DMBotNetwork-0.2.3.dist-info/METADATA,sha256=oNW1G3tBxO0oK86G18zr9ASuKnFan-6HaHz4HnyzA5g,950
+DMBotNetwork-0.2.3.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+DMBotNetwork-0.2.3.dist-info/top_level.txt,sha256=2o3HkeIT2bNbQEX2RU1JgH5jnvGF_eHvQeMi2VjxuQE,19
+DMBotNetwork-0.2.3.dist-info/RECORD,,
