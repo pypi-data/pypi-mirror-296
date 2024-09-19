@@ -1,0 +1,9 @@
+loguru
+tqdm
+requests
+inputimeout
+pywebio
+pywebview
+qtpy
+PyQtWebEngine
+PyYAML
