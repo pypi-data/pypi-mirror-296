@@ -1,0 +1,6 @@
+setup.py
+Techbitforge_AI.egg-info/PKG-INFO
+Techbitforge_AI.egg-info/SOURCES.txt
+Techbitforge_AI.egg-info/dependency_links.txt
+Techbitforge_AI.egg-info/requires.txt
+Techbitforge_AI.egg-info/top_level.txt
