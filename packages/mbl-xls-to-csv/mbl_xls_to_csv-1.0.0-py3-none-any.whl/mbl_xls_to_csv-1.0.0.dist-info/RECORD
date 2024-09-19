@@ -1,0 +1,11 @@
+mbl_xls_to_csv/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+mbl_xls_to_csv/__main__.py,sha256=7YqY8lbxnDQIaav9RlxNhB_1Sr3_k-aC8nSZiJbc-Eg,2140
+mbl_xls_to_csv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mbl_xls_to_csv/utils.py,sha256=b1jU0HbbfViG6N7J0SpYQJ28YkLfWnPGrH03vLBurxk,439
+mbl_xls_to_csv/xls.py,sha256=IocKqIR0PNTTotn_E0CmX_qBNIOs5MJ29IM4MMQWfl4,1228
+mbl_xls_to_csv-1.0.0.dist-info/LICENSE,sha256=P3CnzORjenBdD1DNJFVkbtTpEupOMl4epeWqwgB7ut8,1061
+mbl_xls_to_csv-1.0.0.dist-info/METADATA,sha256=7DJca-65yse6iTO19s8zkjZotcREdlcdCgKTXLqueOs,2603
+mbl_xls_to_csv-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mbl_xls_to_csv-1.0.0.dist-info/entry_points.txt,sha256=rEjk7AX6A4iFAY0HzsRZouQWx2V0YZ1vlULEoGdADn0,64
+mbl_xls_to_csv-1.0.0.dist-info/top_level.txt,sha256=2J_lHmtQdcjG42Vg5ecG85-8bUXuXabHaePiLH1HdGg,15
+mbl_xls_to_csv-1.0.0.dist-info/RECORD,,
