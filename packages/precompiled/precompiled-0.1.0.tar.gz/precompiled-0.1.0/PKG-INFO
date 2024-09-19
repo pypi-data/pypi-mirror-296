@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: precompiled
+Version: 0.1.0
+Summary: leetcode precompiled package
+Author-Email: zonewave <ybzhang17@163.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# precompiled
