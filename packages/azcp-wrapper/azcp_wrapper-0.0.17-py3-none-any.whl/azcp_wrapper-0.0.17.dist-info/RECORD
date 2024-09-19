@@ -1,0 +1,15 @@
+azcp_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azcp_wrapper/azcp_client.py,sha256=K-SlIltG7ljJADYJGjJM4Sq-1nsNBY8rcejNVBuJtkA,13084
+azcp_wrapper/azcp_summary.py,sha256=ziFLAAZ8vlCKgaTd_wnto5mpnIyfYHZyP4nfVXgMVog,5351
+azcp_wrapper/azcp_utils.py,sha256=ZhnirXfWOiVSZLem7KV6LzjH1EWo07yqiFgLvHp5FQ8,14575
+azcp_wrapper/logging_config.py,sha256=vaMNqAte_cAqmHx9JUS_4yPWQ-MBsRcCjGpwA9iMybA,6229
+azcp_wrapper/setup.py,sha256=5T4RY8IMUpv_bxZoKJ8KIPKn2OwERnnNz88597IHWI0,2588
+azcp_wrapper/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azcp_wrapper/utils/constants.py,sha256=hVfnQD7OvS9yF3rzYbx8EGOXD7Hs_NVN4S955RwjhlA,77
+azcp_wrapper/utils/execute_command.py,sha256=VgcTW2taWb8fsY0a-zW9jsullvOgNj4uMlG_O7RpACQ,857
+azcp_wrapper-0.0.17.dist-info/LICENSE,sha256=xyuj49SpyeUIqTnnODlAtSGkA8_fQNelvbqpx1uexNc,1064
+azcp_wrapper-0.0.17.dist-info/METADATA,sha256=_RMANpAPTA4RZjfcMldymXsaFUYISUUjELAAA4Xb-A4,1066
+azcp_wrapper-0.0.17.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+azcp_wrapper-0.0.17.dist-info/entry_points.txt,sha256=VgYDaphbNhk_uWbAhUCG0QVcO13vDHNErSItliEq64k,54
+azcp_wrapper-0.0.17.dist-info/top_level.txt,sha256=be7wLWMHdjydbPt0x6ULahl1ehiKj7RJz9bOVGqIXwU,13
+azcp_wrapper-0.0.17.dist-info/RECORD,,
