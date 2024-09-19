@@ -1,0 +1,6 @@
+pyproject.toml
+src/mktab/__init__.py
+src/mktab.egg-info/PKG-INFO
+src/mktab.egg-info/SOURCES.txt
+src/mktab.egg-info/dependency_links.txt
+src/mktab.egg-info/top_level.txt
