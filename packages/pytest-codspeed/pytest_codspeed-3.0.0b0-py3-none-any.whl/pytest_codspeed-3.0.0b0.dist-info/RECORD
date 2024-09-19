@@ -1,0 +1,16 @@
+pytest_codspeed/__init__.py,sha256=ZQt5MBuso6Fp3fUuLOr_1RdnYrzX5PooQ1ykbe7BKm4,109
+pytest_codspeed/plugin.py,sha256=8JaD9pw0FsVORrvqxZyppD__iG-M4kctkTC1mi4g7fQ,10844
+pytest_codspeed/utils.py,sha256=jjIj7sCzFvXtsAodt7weSCBauY5Rlne03wVnjNCH3ho,2039
+pytest_codspeed/instruments/__init__.py,sha256=pr3sbVsm3EL0wG8sC8GY3xB8mkr_bUM3XnP58gwo4QA,1397
+pytest_codspeed/instruments/walltime.py,sha256=WXxCNb_wRA-swejTjoT6mBXbtZ-Pv3QfW78G69n_oog,6732
+pytest_codspeed/instruments/valgrind/__init__.py,sha256=WWDNMxvseosVZyw0UlfXzIIwn-YnSroNfVd5THwXTLc,3068
+pytest_codspeed/instruments/valgrind/_wrapper/.gitignore,sha256=Y0weJUb79bGZpTBHAMBpXnQ3eVLzYF6Kze_m1Sj-fBQ,36
+pytest_codspeed/instruments/valgrind/_wrapper/__init__.py,sha256=Z5HfbZeraiXaUwmUNKavbjRQsLrZyTl-Ft5Hn_hYL-c,962
+pytest_codspeed/instruments/valgrind/_wrapper/wrapper.c,sha256=LPgxq9fZMIOCTlZvobyjjBCGg-IqBTTMnxe62Y-QL6Y,392
+pytest_codspeed/instruments/valgrind/_wrapper/wrapper.h,sha256=BFwKN8rtilya4iSG_n_hRoFuyvbA4Y5A0wjBas79p9A,149
+pytest_codspeed/instruments/valgrind/_wrapper/wrapper.pyi,sha256=4BT5H6Ar1ncXcd9I3fqzPN_dVoIVMETynFwjjxW-ITs,365
+pytest_codspeed-3.0.0b0.dist-info/METADATA,sha256=HmbgHqZL-Q5IXLFacBRk87QVUWQ1IhdMg4sU4-NWj3k,6414
+pytest_codspeed-3.0.0b0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pytest_codspeed-3.0.0b0.dist-info/entry_points.txt,sha256=6uCy7WyaiRyhwx2MtbVrRAeoIym7og6QTq1-UYReNtU,45
+pytest_codspeed-3.0.0b0.dist-info/licenses/LICENSE,sha256=i984mYEVjtPoLsABRhAjwUqRuALpZMqro-H16C8wl_w,1092
+pytest_codspeed-3.0.0b0.dist-info/RECORD,,
