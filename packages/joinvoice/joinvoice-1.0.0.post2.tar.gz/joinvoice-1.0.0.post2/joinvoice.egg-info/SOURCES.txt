@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+joinvoice/__init__.py
+joinvoice/__main__.py
+joinvoice/joinvoice.py
+joinvoice.egg-info/PKG-INFO
+joinvoice.egg-info/SOURCES.txt
+joinvoice.egg-info/dependency_links.txt
+joinvoice.egg-info/entry_points.txt
+joinvoice.egg-info/requires.txt
+joinvoice.egg-info/top_level.txt

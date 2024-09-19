@@ -1,0 +1,50 @@
+[project]
+name = "joinvoice"
+version = "1.0.0.post2"
+authors = [
+  { name="Elchin Sarkarov", email="elchin751@gmail.com" },
+]
+description = "Join few voice messages into one with this script"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX",
+  "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+  "librosa>=0.10.0,<1.0",
+  "soundfile>0.12"
+]
+scripts = { joinvoice="joinvoice:main" }
+
+[project.urls]
+"Homepage" = "https://github.com/elchinchel/joinvoice"
+"Bug Tracker" = "https://github.com/elchinchel/joinvoice/issues"
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["joinvoice*"]
+namespaces=false
+
+[tool.pyright]
+typeCheckingMode = "basic"
+reportIncompatibleMethodOverride = "warning"
+reportUnnecessaryTypeIgnoreComments = "warning"
+exclude = ["./build/", "./.venv/*"]
+
+[tool.ruff]
+line-length = 85
+
+[tool.ruff.lint.isort]
+length-sort = true
+lines-after-imports = 2
+known-third-party = []
+
+[tool.ruff.format]
+quote-style = "single"
