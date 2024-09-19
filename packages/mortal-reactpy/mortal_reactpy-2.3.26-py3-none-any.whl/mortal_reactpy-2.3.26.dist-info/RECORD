@@ -1,0 +1,13 @@
+mortal_reactpy/__init__.py,sha256=9go1w1tFU70if-WWVgmWbpkSMgUnPIX4sPQmKmvTQ0Q,1204
+mortal_reactpy/reactpy_flask.pyd,sha256=a9bjBDUbl3jq4SYTpFVOSrEVMwvglmIzN0uMecWgiLw,177664
+mortal_reactpy/reactpy_flask.so,sha256=aoSBP6l-itBvigMju5gELFVedZG6L_6TUwJsqey6njs,260104
+mortal_reactpy/reactpy_main.pyd,sha256=0bhfWEtOGo7gT6VAkqohanp94aQ5n6Cr455yzZ1eoek,167936
+mortal_reactpy/reactpy_main.so,sha256=jXPPT2zHZF5Lmj8K8bFOeqf77lzazlsDV2PfsujDcwo,247128
+mortal_reactpy/reactpy_parse.pyd,sha256=eGntQ36Du3VCpiNLEFb7f5bIkXXn4CLuXSn2fdstato,36864
+mortal_reactpy/reactpy_parse.so,sha256=F_UMtLws6irJcJDzVfmCA3sCUId4yJOLHh3TPPShnQM,54664
+mortal_reactpy/static/assets/index.html,sha256=VDo2ym-PSGQb8sd2fGR0GsUL18wCTyg_JgkwZhpIX6o,148
+mortal_reactpy/static/assets/mortal-reactpy-logo.ico,sha256=-6h2cTe0hkDZSNc3rdwTtVD9q6OZ4f0b_1Nq1A878Nw,28657
+mortal_reactpy-2.3.26.dist-info/METADATA,sha256=KLXWHzYdBrN3w6JzfHzhB42Z_hs3vRwozq6jnR8x-vc,439
+mortal_reactpy-2.3.26.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+mortal_reactpy-2.3.26.dist-info/top_level.txt,sha256=nwNI0dVwt7xdfGgYHAuyjkPD_PM296wb3ro4pXvRM5w,15
+mortal_reactpy-2.3.26.dist-info/RECORD,,
