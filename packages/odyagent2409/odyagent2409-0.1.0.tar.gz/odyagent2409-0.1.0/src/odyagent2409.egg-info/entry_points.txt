@@ -1,0 +1,2 @@
+[console_scripts]
+cli_jgmarxiv = cli_jgmarxiv:main

@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/agents/__init__.py
+src/agents/arxiv_agent.py
+src/agents/shell_agent.py
+src/odyagent2409.egg-info/PKG-INFO
+src/odyagent2409.egg-info/SOURCES.txt
+src/odyagent2409.egg-info/dependency_links.txt
+src/odyagent2409.egg-info/entry_points.txt
+src/odyagent2409.egg-info/requires.txt
+src/odyagent2409.egg-info/top_level.txt
+tests/test_cli_jgmarxiv.py
+tests/test_shell_agent.py
