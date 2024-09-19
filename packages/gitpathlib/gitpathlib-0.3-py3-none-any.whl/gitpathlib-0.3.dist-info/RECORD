@@ -1,0 +1,11 @@
+gitpathlib/__init__.py,sha256=VI5gP0Vya5XhocJ3ZJU0N20akUyz-kC5dH3fgKkcgyY,533
+gitpathlib/gp_base.py,sha256=zAcyJrQbqYPaXp0Kq14YE3bmo_cz5GGdZkUKQraNZo8,29478
+gitpathlib/gp_pygit.py,sha256=kLt52qO9RI7dSk1CHjhHtbf01wAlK1RacF8eUZX8pms,1830
+gitpathlib/gp_subprocess.py,sha256=mkyOY13CzTLFptR71UC0MWzUDCjOjCRf0GpdjT-nGp4,5815
+gitpathlib/testutil.py,sha256=ygijIS4aarpyMZfkRLzptJtk5WSIdLi6HhbfbeqPJ24,3006
+gitpathlib/util.py,sha256=iJQYbedwuUvE46hOAwCDjDpfPmd3RVvuz7FgN1uSfJc,363
+gitpathlib-0.3.dist-info/LICENSE,sha256=beSpLVSaYxw8RPNMlLFCf9uCfs-R90f5CJoclQysZ24,1056
+gitpathlib-0.3.dist-info/METADATA,sha256=kuq4x-jqeTjnXYMK5hZEVF2dcmJ--NLWzICu5rtnFLA,2637
+gitpathlib-0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+gitpathlib-0.3.dist-info/top_level.txt,sha256=HsVpAeKZyeIPCCwc18fba5nQUMop3paQK_b1zOVzdVI,11
+gitpathlib-0.3.dist-info/RECORD,,
