@@ -1,0 +1,69 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "equation-database"
+description = "A collection of equations"
+readme = { file = "README.md" , content-type = "text/markdown" }
+authors = [ { name = "Alexander Puck Neuwirth", email = "alexander@neuwirth-informatik.de" } ]
+maintainers = [{ name = "Alexander Puck Neuwirth", email = "alexander@neuwirth-informatik.de" }]
+# TODO classifiers and keywords
+
+requires = { python = ">=3.8" }
+dependencies = [
+    "sympy"
+    ]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+    "pytest-profiling",
+    "pytest-line-profiler-apn"
+]
+
+docs = [
+    "bibtexparser",
+    "sphinx",
+    "sphinx-rtd-theme",
+    #"sphinx-napoleon",
+    #"sphinxcontrib-napoleon",
+    "nbsphinx",
+    "jupyter-sphinx",
+    "sphinx_autobuild",
+    "sphinx-autoapi",
+    "sphinx_math_dollar",
+    "myst-parser",
+    "toml"
+]
+
+dev = [
+    "pre-commit >=2.20",
+    "ipython",
+    "jupyterlab",
+    "jupyter"
+]
+
+[tool.hatch.envs.full]
+features = [
+  "dev",
+  "docs",
+  "test",
+]
+
+[tool.hatch]
+version.source = "vcs"
+#build.hooks.vcs.version-file = "src/equation_database/version.py"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = ["tests"]
+addopts = [
+    "-Werror","-v","--doctest-modules","--ignore=docs/source/conf.py"
+]
+filterwarnings = [
+    'error',
+    'ignore: pkg_resources is deprecated as an API:DeprecationWarning'
+]
