@@ -1,0 +1,4 @@
+[console_scripts]
+middleware-apm-dev = middleware.installer:main
+middleware-bootstrap-dev = opentelemetry.instrumentation.bootstrap:run
+middleware-instrument-dev = opentelemetry.instrumentation.auto_instrumentation:run
