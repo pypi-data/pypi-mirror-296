@@ -1,0 +1,8 @@
+LICENCE
+setup.py
+geography_toolkit/__init__.py
+geography_toolkit/core.py
+geography_toolkit.egg-info/PKG-INFO
+geography_toolkit.egg-info/SOURCES.txt
+geography_toolkit.egg-info/dependency_links.txt
+geography_toolkit.egg-info/top_level.txt
