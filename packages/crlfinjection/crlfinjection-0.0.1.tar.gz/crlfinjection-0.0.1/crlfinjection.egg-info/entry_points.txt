@@ -1,0 +1,2 @@
+[console_scripts]
+crlfinjection = Crlfi.main:main
