@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: authorizenet
+Version: 1.1.5
+Summary: Authorize.Net Python SDK
+Home-page: https://github.com/AuthorizeNet/sdk-python
+Author: Authorize.Net Developer
+Author-email: developer@authorize.net
+License: proprietary
+Keywords: authorizenet,authorize.net,payment,ecommerce
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE.txt
+Requires-Dist: PyXB-X
+Requires-Dist: lxml==4.*
+Requires-Dist: requests==2.*
