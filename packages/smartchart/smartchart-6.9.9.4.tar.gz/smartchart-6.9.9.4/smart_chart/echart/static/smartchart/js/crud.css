@@ -1,0 +1,19 @@
+body {background-color: #f1f1f1;}
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf {text-align: center;}
+.el-table--border th.el-table__cell, .el-table__fixed-right-patch {background-color: #475254;color: #fff; border: none !important;text-align: center;}
+.search_base_div{display:flex;justify-content:center;}
+.search_div{background-color: #fff;padding:0.5rem;width:95%;margin-top:0.5rem;border-radius:1rem;}
+.body_base_div{display:flex;justify-content:center;}
+.body_div{background-color: #fff;padding:0.5rem;width:95%;margin-top:0.5rem;border-radius:1rem;}
+.filter_base_div{display:flex;justify-content: center;align-items:center;}
+.filter_div{width:99%;display:flex;justify-content: space-between;align-items:center}
+.table_base_div{display:flex;justify-content:center;align-items:center;margin-top:1rem;}
+.table_div{width:99%;display:flex;flex-direction: column;}
+.el-descriptions__header{margin-bottom: 0;}
+@media screen and (max-width: 767px) {
+  .el-date-picker, .el-date-range-picker {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+  }
+}
