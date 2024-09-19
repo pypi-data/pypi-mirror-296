@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: krylovevsolver
+Version: 1.0.0
+Summary: A Krylov eigenvalue solver for linear partial differential operators.
+Author: Trojanowski M.
+License: MIT License
+        
+        Copyright (c) 2024 Trojanowski M.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Michozord/Kylov_ev_solver
+Project-URL: Documentation, https://kylov-ev-solver.readthedocs.io
+Keywords: FEM,PDE,Krylov
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: ngsolve
+Requires-Dist: netgen
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# A Krylov eigenvalue solver in Python
+
+This Python package is designed for numerically solving eigenvalue problems of linear partial differential operators, such as the Laplace operator. It utilizes the finite element method, specifically employing the ``netgen`` and ``ngsolve`` packages (see [here](https://ngsolve.org)), to define domains, boundaries, and discretize the problem.
+
+By applying special filter functions and Krylov iteration to the generated discretization matrices, the package computes the eigenvalues of the operator within a specified region of interest (an interval set by the user), along with the corresponding eigenvectors (eigenfunctions). This approach significantly reduces the size of the matrix eigenvalue problem after discretization, thereby lowering computational costs. Krylov iteration is particularly suitable for large-scale problems with a high number of degrees of freedom.
+
+[![RTD](https://readthedocs.org/projects/kylov-ev-solver/badge/?version=latest)](https://kylov-ev-solver.readthedocs.io/en/latest/index.html)
