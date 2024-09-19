@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dp_periodic_table
+Version: 0.0.5
+Summary: Streamlit component that allows you to do X
+Home-page: UNKNOWN
+Author: xuh@dp.tech
+Author-email: xuh@dp.tech
+License: UNKNOWN
+Description: # streamlit-custom-component
+        
+        Streamlit component that allows you to do X
+        
+        ## Installation instructions
+        
+        ```sh
+        pip install streamlit-custom-component
+        ```
+        
+        ## Usage instructions
+        
+        ```python
+        import streamlit as st
+        
+        from sequence_editor import sequence_editor
+        
+        value = sequence_editor()
+        
+        st.write(value)
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: devel
