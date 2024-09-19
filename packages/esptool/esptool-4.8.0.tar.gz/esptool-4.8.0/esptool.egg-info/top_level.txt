@@ -1,0 +1,7 @@
+dist
+docs
+esp_rfc2217_server
+espefuse
+espsecure
+esptool
+test
