@@ -1,0 +1,7 @@
+README.md
+setup.py
+blockscipy.egg-info/PKG-INFO
+blockscipy.egg-info/SOURCES.txt
+blockscipy.egg-info/dependency_links.txt
+blockscipy.egg-info/not-zip-safe
+blockscipy.egg-info/top_level.txt
