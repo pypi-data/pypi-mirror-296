@@ -1,0 +1,13 @@
+JAAT/JAAT.py,sha256=3lG7NOku5kPwT9GEZOYou9iL22lyEeb544jrEK0fF58,19253
+JAAT/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+JAAT/data/Task_DWA.csv,sha256=hiPS6agSzSI8soY7wbt0Kw7ceK0J_p7QIGQjaLWq1pA,5820515
+JAAT/data/alternate_titles.csv,sha256=ZsHznUKXInZhjsTYd661LN9sD_VAgr0y1yk6zqjprvc,4786992
+JAAT/data/keywords.json,sha256=81QXeFS34V9XkED25vgdsK0T1Zi9IJ788jTf-8Xcte8,633
+JAAT/data/lexicon_parse.py,sha256=-eVe0hwOpwwxeZQfdC18cCDPokFFBTBncOBdj76VoKU,1263
+JAAT/data/lexiconwex2023.csv,sha256=I5fWpEpcb6PS_mfsRlbsgGhicTcuz141xyQOjQGKCm0,161354
+JAAT/data/sub_dict.json,sha256=kMqsDdlwACn10uZqm47Oh7onoZojSECQspVmiAHTKD8,6473
+JAAT-0.0.16.dist-info/LICENSE,sha256=4Vza17Kd4QoOnbYWJH0Iyyf_39CjdcG1IpjSxhRb_JM,1101
+JAAT-0.0.16.dist-info/METADATA,sha256=pO4OacQNazYjStU7PDtcF1KSXTV90EXNKCRN5w5skk8,9631
+JAAT-0.0.16.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+JAAT-0.0.16.dist-info/top_level.txt,sha256=EvSZCNyBEPgnTBj5m1U4CBIpwPs3bihxIsMYQN4e5hY,5
+JAAT-0.0.16.dist-info/RECORD,,
