@@ -1,0 +1,8 @@
+*.egg-info
+__pycache__
+paper
+temp_style.mplstyle
+.gitignore
+figures
+*.mplstyle
+*PLOTTING*
