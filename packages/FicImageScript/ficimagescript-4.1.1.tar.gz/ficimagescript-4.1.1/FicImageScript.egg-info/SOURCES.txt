@@ -1,0 +1,14 @@
+LICENSE
+PYPI_README.rst
+README.md
+pyproject.toml
+FicImageScript/__init__.py
+FicImageScript/image.py
+FicImageScript/main.py
+FicImageScript/utils.py
+FicImageScript.egg-info/PKG-INFO
+FicImageScript.egg-info/SOURCES.txt
+FicImageScript.egg-info/dependency_links.txt
+FicImageScript.egg-info/entry_points.txt
+FicImageScript.egg-info/requires.txt
+FicImageScript.egg-info/top_level.txt
