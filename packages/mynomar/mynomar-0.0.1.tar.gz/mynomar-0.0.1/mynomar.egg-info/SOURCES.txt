@@ -1,0 +1,11 @@
+README.md
+setup.py
+mynomar/__init__.py
+mynomar.egg-info/PKG-INFO
+mynomar.egg-info/SOURCES.txt
+mynomar.egg-info/dependency_links.txt
+mynomar.egg-info/top_level.txt
+mynomar/modificar/__init__.py
+mynomar/modificar/texto.py
+mynomar/normalizar/__init__.py
+mynomar/normalizar/nome.py
