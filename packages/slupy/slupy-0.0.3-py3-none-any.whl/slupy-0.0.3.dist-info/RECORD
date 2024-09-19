@@ -1,0 +1,17 @@
+slupy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slupy/basics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slupy/basics/basics.py,sha256=A4xFWBdXce0HQI-nmOQuEVUA34-47O7PWjJFzEimCs0,952
+slupy/dates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slupy/dates/constants.py,sha256=ip0JJEL6bzDvv-qpZK3P83QPXnCIdKg2tKjN2cn6o7Q,242
+slupy/dates/functions.py,sha256=KDAGENsOzTn0bNVP4ihm3ToHtSrU2vVvYEJEXrzXiVE,3626
+slupy/dates/time_conversions.py,sha256=W7lvAKh8nn1P1KcWQfCc7Y8t4qP2yBjajbo4qAHF8KA,1523
+slupy/dates/time_travel.py,sha256=k7HtaSGbl6-5VMz2qgK6OWEniaYwrmOX9zwDeuqdjro,11489
+slupy/dates/utils.py,sha256=v-0KO_Q-yEJ2ttBZS-LYuGe3ub5WW-rad-7GiLgo_yo,6708
+slupy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slupy/tests/test_date_utils.py,sha256=_qg4zMSKYZ0XvG-N3Xnzc91ViePjG4i-ec2pl_QBYww,7536
+slupy/tests/test_time_travel.py,sha256=6aF0smys17XCqKv5go491HebuQFSGND7rSmqWY0gxO8,10813
+slupy-0.0.3.dist-info/LICENSE,sha256=_mA_LhJW4rXaf61LY7Q_SBrMV381VyfB74E0C0IKZMw,1089
+slupy-0.0.3.dist-info/METADATA,sha256=hyc7FuswI463IQxWBantD-bSRKgv52SzZhu09YGpQKM,859
+slupy-0.0.3.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+slupy-0.0.3.dist-info/top_level.txt,sha256=XDyub8u06VybZ8ZnWzYp5wXvKIubWi2HYUBsiOU3ip0,6
+slupy-0.0.3.dist-info/RECORD,,
