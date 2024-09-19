@@ -1,0 +1,2 @@
+[console_scripts]
+gitlab-cq = gitlab_cq.__main__:main
