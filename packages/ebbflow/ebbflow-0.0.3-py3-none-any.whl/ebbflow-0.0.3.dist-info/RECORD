@@ -1,0 +1,5 @@
+ebbflow/__init__.py,sha256=D1iHK0klJ_shfup8gpLfCAvi3mIHZGSFAzuqVXgF5QM,63
+ebbflow/base_mechanistic_model.py,sha256=wOhScG51A6h2Nn5vkwBzuo-4h39HjlEQCGbn-2sAI4s,15305
+ebbflow-0.0.3.dist-info/METADATA,sha256=Z2SW7VFJx6vXIV7Bf8furst9hEcjGhVWuET_1LJu7kI,5985
+ebbflow-0.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ebbflow-0.0.3.dist-info/RECORD,,
