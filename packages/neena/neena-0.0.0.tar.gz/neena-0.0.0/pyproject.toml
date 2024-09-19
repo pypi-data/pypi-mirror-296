@@ -1,0 +1,7 @@
+[project]
+name = "neena"
+authors = [
+    {name = "Lennert Jansen", email = "lennert@neena.io"},
+]
+version = "0.0.0"
+description = "Neena Python Package Project Placeholder"
