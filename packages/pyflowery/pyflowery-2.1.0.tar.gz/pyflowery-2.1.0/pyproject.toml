@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "pyflowery"
+version = "2.1.0"
+description = "A Python API wrapper for the Flowery API"
+authors = ["cswimr <seaswimmerthefsh@gmail.com>"]
+readme = "README.md"
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.5"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.7"
+ruff = "^0.6.5"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "1.6.1"
+mkdocstrings = {extras = ["python"], version = "0.26.1"}
+mkdocs-git-authors-plugin = "0.9.0"
+mkdocs-git-revision-date-localized-plugin = "1.2.9"
+mkdocs-material = {extras = ["imaging"], version = "9.5.35"}
+mkdocs-redirects = "1.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
