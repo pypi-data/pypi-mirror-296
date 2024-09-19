@@ -1,0 +1,2 @@
+[console_scripts]
+calisum = calisum.__main__:main

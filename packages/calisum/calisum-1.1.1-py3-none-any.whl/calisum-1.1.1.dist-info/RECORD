@@ -1,0 +1,13 @@
+calisum/__init__.py,sha256=FFwItdLuDIBTYowgsQNeHonzPkf0eAMbItYQ9YxtR-s,393
+calisum/__main__.py,sha256=xU_wumXKAmpqFcEHVRzl-ISE-kraEOaNE3S-PsO4Va4,174
+calisum/cli.py,sha256=SSaBSWM84p7lk_tCHlchNWo8vpuuKX-6WOuW5Qq4GQ8,8090
+calisum/scraper.py,sha256=75s3E8LzaDOMAedVDc8iIfwpcdcRC9L0JIFVXv97mlU,8504
+calisum/util.py,sha256=FURIdnGzVwLhf1p0RNS9d93DqbTr9imdy3GS3LTXn84,1253
+calisum/summarizer/__init__.py,sha256=JywGHdK6yBHflGhIqq5fMgff1TMSnOtto7oYwo859RY,52
+calisum/summarizer/models.py,sha256=DEh6OPTIlwCyxX4Ejmer298ieGI8l6Xnzgwt1SRFZJk,127
+calisum/summarizer/summarizer.py,sha256=NsckiOmrzVqv0-s7JI_ukdV5MiiitDqtJ0i7JMBW5Uc,6387
+calisum-1.1.1.dist-info/METADATA,sha256=eCSrUIc9dUxO_rmEZU9nR1IUES3gW4luEAXR1r_qJ9A,2453
+calisum-1.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+calisum-1.1.1.dist-info/entry_points.txt,sha256=sxulE_UE6fQnU5Kf-1NMA_K73whVhG0FdWm6ggUuN5M,50
+calisum-1.1.1.dist-info/licenses/LICENSE.md,sha256=oClvFS_aYSwHj_7djQOr09MVHGt7Se0ocBGg-hS_qrM,34739
+calisum-1.1.1.dist-info/RECORD,,
