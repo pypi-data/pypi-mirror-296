@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+djnacos/__init__.py
+djnacos/nacos.py
+djnacos.egg-info/PKG-INFO
+djnacos.egg-info/SOURCES.txt
+djnacos.egg-info/dependency_links.txt
+djnacos.egg-info/requires.txt
+djnacos.egg-info/top_level.txt
