@@ -1,0 +1,9 @@
+whr_core.cpython-312-darwin.so,sha256=DFvrKNPAnESqaPjQpxFQEpbh3FVNNgLwbmEeSxX34E4,800640
+whr/__init__.py,sha256=iQK3lKJReVqKh3xppSdQtpSnzJHtdWCGkNPqxLv4jJU,87
+whr/evaluate.py,sha256=UZpDy1pD9uaFO35smcDQdgvn0WbS3ABZGSGbJwcqm6I,2253
+whr/base.py,sha256=RO8LDzulBF14uAvCyxEUw-CwqFN2pmk2GhCDiVM1pVM,6779
+whr-2.0.4.dist-info/RECORD,,
+whr-2.0.4.dist-info/LICENSE,sha256=Ov2akQO7a3UXl89wi5fkuYdU6veHJC_WQ0aVNfImZsE,1086
+whr-2.0.4.dist-info/WHEEL,sha256=JjfPN3tuNVktXeVx2CdYSsvuQYIjI_7f2R0S3yE0Gks,115
+whr-2.0.4.dist-info/top_level.txt,sha256=jPksrpE002D5NAM3-xdeJpNMBZ_FTfEOLSNOX4GSJVU,13
+whr-2.0.4.dist-info/METADATA,sha256=OnfjMrtCEE56ntjWkHvnunrL_srdosPljnzd5eSx3kk,5472
