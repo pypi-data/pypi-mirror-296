@@ -1,0 +1,14 @@
+ezoff/__init__.py,sha256=09-lZitltWcBDliokXLLpP4-phQvlpPHMaZ4J-T8iSQ,21
+ezoff/assets.py,sha256=mJ-bZJa04zpVsRPzzPN2S3GdaJKdQH3LnXtHB5AMCb8,23013
+ezoff/auth.py,sha256=fxcgRn98_tJg7KaBRBU3fxI_Ibl-IBtxPG5xSh8s0YI,785
+ezoff/ezoff.py,sha256=FFRJzw-CO1jwd08YbhkRSw-8KsewAI9ilHAU7f5KNhM,207
+ezoff/groups.py,sha256=vlupOcH8e-pVG2hcq-981hgevxiUPpBrm1D5OF-esGk,1824
+ezoff/inventory.py,sha256=WPsf6Uf9rNeWMvujIfZ5kgS7qiHS2BnTe88SFYrJRBQ,6126
+ezoff/locations.py,sha256=yDy69dUgDU61VSy4BVr1yBlGx_d6S7TMPivQ7Bf1vrI,10995
+ezoff/members.py,sha256=VKZ9Yzh0J86QHtahWSAo79PkGfGn2KL6x6P58srH7ig,13032
+ezoff/workorders.py,sha256=9ynEQxmUIfqqibNiLfUxBJExFHJbb9WotfMOAq-YFbM,14562
+ezoff-0.1.7.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+ezoff-0.1.7.dist-info/METADATA,sha256=x9KpTj_8WO0pt5tfE9Cgj-ZB9YheTNNcEHSxLrw4mYw,3121
+ezoff-0.1.7.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ezoff-0.1.7.dist-info/top_level.txt,sha256=oQr6xAOnDtgVP7u7k1GY6y0yZDGHshU97RG20r_1TD4,6
+ezoff-0.1.7.dist-info/RECORD,,
