@@ -1,0 +1,18 @@
+[project]
+name = "clientwrapper"
+version = "1.0.1"
+authors = [
+    { name="Joseph Gonzalez Diaz", email="jgonzalezdiaz@ebay.com" },
+]
+description = "Python Util Package for inheriting Argparse behavior"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ebay/clientwrapper"
+Issues = "https://github.com/ebay/clientwrapper/issues"
