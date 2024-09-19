@@ -1,0 +1,1 @@
+"""OpenFigi client test suite."""

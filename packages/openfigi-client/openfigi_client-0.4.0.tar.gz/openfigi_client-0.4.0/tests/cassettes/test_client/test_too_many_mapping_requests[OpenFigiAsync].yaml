@@ -1,0 +1,76 @@
+interactions:
+- request:
+    body: '[{"idType":"TICKER","idValue":"IBM","exchCode":"US"}]'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '53'
+      content-type:
+      - application/json
+      host:
+      - api.openfigi.com
+      user-agent:
+      - python-httpx/0.27.2
+    method: POST
+    uri: https://api.openfigi.com/v3/mapping
+  response:
+    content: Too many requests, please try again later.
+    headers:
+      content-length:
+      - '42'
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';font-src ''self'' https: data:;form-action
+        ''self'';frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - text/html; charset=utf-8
+      cross-origin-opener-policy:
+      - same-origin
+      cross-origin-resource-policy:
+      - same-origin
+      date:
+      - Wed, 18 Sep 2024 09:07:02 GMT
+      origin-agent-cluster:
+      - ?1
+      ratelimit-limit:
+      - '25'
+      ratelimit-policy:
+      - 25;w=60
+      ratelimit-remaining:
+      - '0'
+      ratelimit-reset:
+      - '49'
+      referrer-policy:
+      - no-referrer
+      retry-after:
+      - '49'
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '2'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 22a17140-d502-4f23-9095-b43fb2b5819d
+      x-xss-protection:
+      - '0'
+    http_version: HTTP/1.1
+    status_code: 429
+version: 1

@@ -1,0 +1,361 @@
+interactions:
+- request:
+    body: '{"query":"IBM"}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '15'
+      content-type:
+      - application/json
+      host:
+      - api.openfigi.com
+      user-agent:
+      - python-httpx/0.27.2
+    method: POST
+    uri: https://api.openfigi.com/v3/filter
+  response:
+    content: '{"data":[{"figi":"BBG000001D08","name":"CORTS-V-IBM","ticker":"CORTS
+      6.4 12/01/96 V","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"CORTS 6.4 12/01/2096"},{"figi":"BBG000001P29","name":"CORTS
+      VI IBM DEBS","ticker":"CORTS 6.375 12/01/96 VI","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"CORTS 6 3/8 12/01/2096"},{"figi":"BBG0000050C9","name":"TRUST
+      CERTS 2001-2","ticker":"TRUCS 7.1 12/01/96 IBM","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"TRUCS 7.1 12/01/2096"},{"figi":"BBG0000084H3","name":"STRATS-IBM","ticker":"STRATS
+      F 11/29/12 IBM","exchCode":"TRACE","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"STRATS 3 11/29/12"},{"figi":"BBG00000JCX5","name":"IBM
+      CORP","ticker":"IBM 2.4 09/28/10 +3RG","exchCode":null,"compositeFIGI":null,"securityType":"SAMURAI","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      2.4 09/28/10"},{"figi":"BBG00000T4W3","name":"IBM CORP","ticker":"IBM 2.4 09/28/10
+      +3BR","exchCode":null,"compositeFIGI":null,"securityType":"SAMURAI","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      2.4 09/28/10"},{"figi":"BBG00000YL95","name":"IBM CORP","ticker":"IBM 8.375
+      11/01/19","exchCode":"FRANKFURT","compositeFIGI":null,"securityType":"US DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      8 3/8 11/01/19"},{"figi":"BBG00001HBL0","name":"IBM CORP","ticker":"IBM 5.875
+      11/29/32","exchCode":"NEW YORK","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      5 7/8 11/29/32"},{"figi":"BBG00001P8D7","name":"IBM CORP","ticker":"IBM 4.75
+      11/29/12","exchCode":"LUXEMBOURG","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      4 3/4 11/29/12"},{"figi":"BBG00001V9M8","name":"IBM CORP","ticker":"IBM 7.5
+      06/15/13 A","exchCode":"FRANKFURT","compositeFIGI":null,"securityType":"US DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      7 1/2 06/15/13"},{"figi":"BBG000022FJ8","name":"CORTS VI IBM DEBS","ticker":"CORTS
+      0.75 12/01/96 144A","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PRIV
+      PLACEMENT","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"CORTS
+      0 3/4 12/01/2096"},{"figi":"BBG0000362Y4","name":"IBM CORP","ticker":"IBM 7
+      10/30/25","exchCode":"NEW YORK","compositeFIGI":null,"securityType":"US DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      7 10/30/25"},{"figi":"BBG0000362Z3","name":"IBM CORP","ticker":"IBM 7 10/30/45","exchCode":"NEW
+      YORK","compositeFIGI":null,"securityType":"US DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      7 10/30/45"},{"figi":"BBG00003PFM7","name":"IBM CORP","ticker":"IBM 7.125 12/01/96","exchCode":"NEW
+      YORK","compositeFIGI":null,"securityType":"US DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      7 1/8 12/01/2096"},{"figi":"BBG000046M87","name":"CORP BOND BACKED CTF-IBM","ticker":"TIERS
+      7.125 12/01/96","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"US
+      DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"TIERS
+      7 1/8 12/01/2096"},{"figi":"BBG00004FK63","name":"CORP BOND BACKED CTF-IBM","ticker":"TIERS
+      7.35 06/01/17","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"US
+      DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"TIERS
+      7.35 06/01/17"},{"figi":"BBG00004MXL0","name":"IBM CORP","ticker":"IBM 6.22
+      08/01/27","exchCode":"NEW YORK","compositeFIGI":null,"securityType":"US DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      6.22 08/01/27"},{"figi":"BBG00004ZV85","name":"IBM CREDIT LLC","ticker":"IBM
+      V0 11/01/09 MTN","exchCode":null,"compositeFIGI":null,"securityType":"DOMESTIC
+      MTN","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      Float 11/01/09"},{"figi":"BBG000058NM4","name":"IBM CORP","ticker":"IBM 6.5
+      01/15/28","exchCode":"NEW YORK","compositeFIGI":null,"securityType":"US DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      6 1/2 01/15/28"},{"figi":"BBG00005HF05","name":"STEER-IBM-Z2","ticker":"STEER
+      6.415 06/01/18 Z2-A","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"US
+      DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"STEER
+      6.415 06/01/18"},{"figi":"BBG00005HF50","name":"STEER-IBM-Z2","ticker":"STEER
+      7.125 12/01/96 Z2-B","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"US
+      DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"STEER
+      7 1/8 12/01/2096"},{"figi":"BBG00005V4Q6","name":"IBM CORP","ticker":"IBM 4.2
+      02/15/13 NOTE","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"DOMESTIC
+      MTN","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      4.2 02/15/13"},{"figi":"BBG000080NW5","name":"CORTS V IBM DEBS","ticker":"CORTS
+      0.725 12/01/96 144A","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PRIV
+      PLACEMENT","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"CORTS
+      0.725 12/01/2096"},{"figi":"BBG000090LW7","name":"IBM CORP","ticker":"IBM 4.95
+      03/22/11","exchCode":"FRANKFURT","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      4.95 03/22/11"},{"figi":"BBG0000F7Z64","name":"IBM CORP","ticker":"IBM 4 11/11/11","exchCode":"SIX","compositeFIGI":null,"securityType":"EURO
+      NON-DOLLAR","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      4 11/11/11"},{"figi":"BBG0000KDSK6","name":"IBM CORP","ticker":"IBM 5.7 09/14/17","exchCode":"FRANKFURT","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      5.7 09/14/17"},{"figi":"BBG0000KRBD6","name":"IBM INTL GROUP CAPITAL","ticker":"IBM
+      5.05 10/22/12","exchCode":"FRANKFURT","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      5.05 10/22/12"},{"figi":"BBG0000L5Z27","name":"IBM CORP","ticker":"IBM 5.6 11/30/39","exchCode":"NEW
+      YORK","compositeFIGI":null,"securityType":"US DOMESTIC","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      5.6 11/30/39"},{"figi":"BBG0000P7NX9","name":"IBM CORP","ticker":"IBM F 11/04/11
+      FRN","exchCode":"FRANKFURT","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      Float 11/04/11"},{"figi":"BBG0000P7P91","name":"IBM CORP","ticker":"IBM 2.1
+      05/06/13","exchCode":"FRANKFURT","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      2.1 05/06/13"},{"figi":"BBG0000P8V60","name":"IBM CORP","ticker":"IBM 3.25 05/27/11","exchCode":"SIX","compositeFIGI":null,"securityType":"EURO
+      NON-DOLLAR","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      3 1/4 05/27/11"},{"figi":"BBG0000P8VB4","name":"IBM CORP","ticker":"IBM 3.625
+      05/27/15 EMTN","exchCode":"SIX","compositeFIGI":null,"securityType":"EURO MTN","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      3 5/8 05/27/15"},{"figi":"BBG0000PPBK9","name":"IBM INTL GROUP CAPITAL","ticker":"IBM
+      F 06/26/14 144A","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PRIV
+      PLACEMENT","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      Float 06/26/14"},{"figi":"BBG0000R4344","name":"IBM CORP","ticker":"IBM F 07/28/11","exchCode":"FRANKFURT","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      Float 07/28/11"},{"figi":"BBG0000TYWN2","name":"IBM CORP","ticker":"IBM 6.5
+      10/15/13","exchCode":"FRANKFURT","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      6 1/2 10/15/13"},{"figi":"BBG0000TYX87","name":"IBM CORP","ticker":"IBM 7.625
+      10/15/18","exchCode":"TRACE","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      7 5/8 10/15/18"},{"figi":"BBG0000TYXL2","name":"IBM CORP","ticker":"IBM 8 10/15/38","exchCode":"NEW
+      YORK","compositeFIGI":null,"securityType":"GLOBAL","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      8 10/15/38"},{"figi":"BBG0000W6HW9","name":"IBM CORP","ticker":"IBM 6.625 01/30/14
+      EMTN","exchCode":"STUTTGART","compositeFIGI":null,"securityType":"EURO MTN","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      6 5/8 01/30/14"},{"figi":"BBG0000WHJR9","name":"IBM 1990-A 1","ticker":"IBM
+      1990-A 1","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBM
+      1990-A 1"},{"figi":"BBG0000WHJV4","name":"IBM 1990-B 1","ticker":"IBM 1990-B
+      1","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBM
+      1990-B 1"},{"figi":"BBG0000WHJY1","name":"IBM 1990-C 1","ticker":"IBM 1990-C
+      1","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBM
+      1990-C 1"},{"figi":"BBG0000WHK50","name":"IBM 1990-D 1","ticker":"IBM 1990-D
+      1","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBM
+      1990-D 1"},{"figi":"BBG0000YLB06","name":"IBM 1991-A A","ticker":"IBM 1991-A
+      A","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBM
+      1991-A A"},{"figi":"BBG0000YLB60","name":"IBM 1991-B 1","ticker":"IBM 1991-B
+      1","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBM
+      1991-B 1"},{"figi":"BBG0000YLBB4","name":"IBM 1991-C 1","ticker":"IBM 1991-C
+      1","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBM
+      1991-C 1"},{"figi":"BBG0000YTCB4","name":"RYMS 1991-18 3D","ticker":"RYMS 1991-18
+      3D","exchCode":null,"compositeFIGI":null,"securityType":"Prvt CMO Z","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"Whole
+      Loan","securityDescription":"RYMS 1991-18 3D"},{"figi":"BBG000108D19","name":"INTL
+      BUSINESS MACHINES CORP","ticker":"IBM L 12/22/98","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV USD"},{"figi":"BBG00010L6F4","name":"IBM MASTER TRUST","ticker":"IBM L 12/02/99","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV USD"},{"figi":"BBG00010L6G3","name":"INTL BUS MACH CREDIT CORP","ticker":"IBM
+      L 12/02/99 Y1","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV Y1 USD"},{"figi":"BBG00010ZLC9","name":"SPSS INC","ticker":"IBM L 05/31/03
+      A","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV A 1L USD"},{"figi":"BBG000110HV3","name":"TSI INTL SOFTWARE LTD","ticker":"IBM
+      L 02/28/03","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV USD"},{"figi":"BBG000116ZZ3","name":"INTL BUSINESS MACHINES CORP","ticker":"IBM
+      L 05/29/03","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV USD"},{"figi":"BBG000117007","name":"INTL BUSINESS MACHINES CORP","ticker":"IBM
+      L 05/31/06","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV USD"},{"figi":"BBG00011FGS3","name":"INTL BUSINESS MACHINES CORP","ticker":"IBM
+      L 05/31/06 FA","exchCode":null,"compositeFIGI":null,"securityType":null,"marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      USD"},{"figi":"BBG000122B15","name":"SPSS INC","ticker":"IBM L 04/30/01 B","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV B 1L USD"},{"figi":"BBG000122B24","name":"SPSS INC","ticker":"IBM L 05/31/03","exchCode":null,"compositeFIGI":null,"securityType":null,"marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      USD"},{"figi":"BBG000124963","name":"SPSS INC","ticker":"IBM L 03/31/07 A","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV A 1L USD"},{"figi":"BBG000124972","name":"SPSS INC","ticker":"IBM L 03/31/07
+      B","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV B 1L USD"},{"figi":"BBG000124990","name":"SPSS INC","ticker":"IBM L 03/31/07
+      T1","exchCode":null,"compositeFIGI":null,"securityType":"TERM","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      TL T1 1L USD"},{"figi":"BBG0001249B7","name":"SPSS INC","ticker":"IBM L 03/31/07","exchCode":null,"compositeFIGI":null,"securityType":null,"marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      USD"},{"figi":"BBG000126L91","name":"INTL BUSINESS MACHINES CORP","ticker":"IBM
+      L 05/27/04","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV USD"},{"figi":"BBG00012GTY5","name":"CANDLE CORP","ticker":"IBM L 01/04/05","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV USD"},{"figi":"BBG00012MS61","name":"INTL BUSINESS MACHINES CORP","ticker":"IBM
+      L 05/27/09","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV USD"},{"figi":"BBG000135K29","name":"IBM 1992-A 1","ticker":"IBM 1992-A
+      1","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBM
+      1992-A 1"},{"figi":"BBG000135KC8","name":"IBM 1992-B 1","ticker":"IBM 1992-B
+      1","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBM
+      1992-B 1"},{"figi":"BBG00013XQ25","name":"INTL BUSINESS MACHINES CORP","ticker":"IBM
+      L 06/28/12","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV GUAR USD"},{"figi":"BBG000146DD0","name":"KENEXA TECHNOLOGY INC","ticker":"IBM
+      L 10/01/12","exchCode":null,"compositeFIGI":null,"securityType":null,"marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      USD"},{"figi":"BBG000146DF8","name":"KENEXA TECHNOLOGY INC","ticker":"IBM L
+      11/12/11","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV GUAR USD"},{"figi":"BBG000146DG7","name":"KENEXA TECHNOLOGY INC","ticker":"IBM
+      L 10/01/12 T1","exchCode":null,"compositeFIGI":null,"securityType":"TERM","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      TL T1 GUAR USD"},{"figi":"BBG00014MT74","name":"IBM INTERNATIONAL GROUP BV","ticker":"IBM
+      L 05/23/08","exchCode":null,"compositeFIGI":null,"securityType":"TERM","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      TL GUAR USD"},{"figi":"BBG00014XLN1","name":"COGNOS INC","ticker":"IBM L 09/28/12","exchCode":null,"compositeFIGI":null,"securityType":null,"marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      USD"},{"figi":"BBG00014XLP9","name":"COGNOS INC","ticker":"IBM L 09/28/12 US","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV US GUAR USD"},{"figi":"BBG00014XLQ8","name":"COGNOS INC","ticker":"IBM L
+      09/28/12 CR","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV CR GUAR USD"},{"figi":"BBG000156T24","name":"SPSS INC","ticker":"IBM L 03/27/11","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV GUAR USD"},{"figi":"BBG000156T33","name":"SPSS INC","ticker":"IBM L 03/27/11
+      FA","exchCode":null,"compositeFIGI":null,"securityType":null,"marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      USD"},{"figi":"BBG00015QRH0","name":"DEMANDTEC INC","ticker":"IBM L 05/07/12","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV 1L USD"},{"figi":"BBG00015QRJ8","name":"DEMANDTEC INC","ticker":"IBM L 05/07/12
+      FA","exchCode":null,"compositeFIGI":null,"securityType":null,"marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      SEC USD"},{"figi":"BBG00015SW96","name":"INTL BUSINESS MACHINES CORP","ticker":"IBM
+      L 06/28/12 FA","exchCode":null,"compositeFIGI":null,"securityType":null,"marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      UNSEC USD"},{"figi":"BBG00016XGF6","name":"SALARY.COM INC","ticker":"IBM L 10/08/10
+      FA","exchCode":null,"compositeFIGI":null,"securityType":null,"marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      USD"},{"figi":"BBG00016XGG5","name":"SALARY.COM INC","ticker":"IBM L 10/08/10","exchCode":null,"compositeFIGI":null,"securityType":"REV","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      REV 1L USD"},{"figi":"BBG00016XGH4","name":"SALARY.COM INC","ticker":"IBM L
+      08/09/08 T1","exchCode":null,"compositeFIGI":null,"securityType":"TERM","marketSector":"Corp","shareClassFIGI":null,"securityType2":"Corp","securityDescription":"IBM
+      TL T1 1L USD"},{"figi":"BBG00019DJT1","name":"IBMMT 1993-1 A","ticker":"IBMMT
+      1993-1 A","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBMMT
+      1993-1 A"},{"figi":"BBG00019DJX6","name":"IBMMT 1993-1 B","ticker":"IBMMT 1993-1
+      B","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBMMT
+      1993-1 B"},{"figi":"BBG0001BNZR1","name":"CMSI 1994-10 B2","ticker":"CMSI 1994-10
+      B2","exchCode":null,"compositeFIGI":null,"securityType":"Prvt CMO Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"Whole
+      Loan","securityDescription":"CMSI 1994-10 B2"},{"figi":"BBG0001BRT28","name":"IBMMT
+      1994-1 A1","ticker":"IBMMT 1994-1 A1","exchCode":null,"compositeFIGI":null,"securityType":"ABS
+      Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBMMT
+      1994-1 A1"},{"figi":"BBG0001BRT82","name":"IBMMT 1994-1 A2","ticker":"IBMMT
+      1994-1 A2","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBMMT
+      1994-1 A2"},{"figi":"BBG0001BRTK8","name":"IBMMT 1994-1 B","ticker":"IBMMT 1994-1
+      B","exchCode":null,"compositeFIGI":null,"securityType":"ABS Other","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"ABS","securityDescription":"IBMMT
+      1994-1 B"},{"figi":"BBG0001J9MD4","name":"INTL BUS MACHINE","ticker":"IBM 1.875
+      PERP A","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"IBM 1 7/8 PERP"},{"figi":"BBG0001JDS73","name":"CORTS-IBM","ticker":"CORTS
+      7.125 12/01/96","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"CORTS 7 1/8 12/01/2096"},{"figi":"BBG0001JDSW5","name":"CORTS-IBM","ticker":"CORTS
+      7.125 12/01/96 II","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"CORTS 7 1/8 12/01/2096"},{"figi":"BBG0001JDTD4","name":"SATURNS-IBM
+      2001-1","ticker":"SATURN 7.125 12/01/96 IBM","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"SATURN 7 1/8 12/01/2096"},{"figi":"BBG0001JDTN3","name":"CORTS
+      TRUST III FOR IBM","ticker":"CORTS 7.2 12/01/96 III","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"CORTS 7.2 12/01/2096"},{"figi":"BBG0001JF3T2","name":"GOLDMAN
+      SACHS GROUP INC","ticker":"GS 8 07/15/04 IBM","exchCode":null,"compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"GS 8 07/15/04"},{"figi":"BBG0001JFDH3","name":"MORGAN
+      STANLEY","ticker":"MS 5.58 08/17/05 IBM","exchCode":null,"compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"MS 5.58 08/17/05"},{"figi":"BBG0001JFH20","name":"GOLDMAN
+      SACHS GROUP INC","ticker":"GS 4.1 02/01/06 IBM","exchCode":null,"compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"GS 4.1 02/01/06"},{"figi":"BBG0001JGK04","name":"ALLEGRO
+      INVEST CORP SA","ticker":"ALLINV 4.4 03/06/07 IBM","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PRIVATE","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"ALLINV 4.4 03/06/07"},{"figi":"BBG0001JLNX6","name":"CORTS
+      IBM CORP","ticker":"CORTS 5.625 11/29/32","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"CORTS 5 5/8 11/29/32"},{"figi":"BBG0001JLP07","name":"CORTS-IBM","ticker":"CORTS
+      7 12/01/96","exchCode":"NOT LISTED","compositeFIGI":null,"securityType":"PUBLIC","marketSector":"Pfd","shareClassFIGI":null,"securityType2":"Preferred
+      Stock","securityDescription":"CORTS 7 12/01/2096"},{"figi":"BBG0001KS8T4","name":"GECMS
+      1998-13 A10","ticker":"GECMS 1998-13 A10","exchCode":null,"compositeFIGI":null,"securityType":"Prvt
+      CMO FLT","marketSector":"Mtge","shareClassFIGI":null,"securityType2":"Whole
+      Loan","securityDescription":"GECMS 1998-13 A10"},{"figi":"BBG0002LH0C8","name":"January
+      09 Calls on TSBX","ticker":"TSB 01/17/09 C110","exchCode":"US","compositeFIGI":"BBG0002LH0C8","securityType":"Index
+      Option","marketSector":"Index","shareClassFIGI":null,"securityType2":"Option","securityDescription":"TSB
+      US 01/17/09 C110"}],"next":"QW9Fc1FrSkhNREF3TWt4SU1FTTQgMQ==.O11R/TQv0ivcX7UBnxI78hSmQjCHr72HZVK4epVfMSc=","total":1035071}'
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';font-src ''self'' https: data:;form-action
+        ''self'';frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      cross-origin-opener-policy:
+      - same-origin
+      cross-origin-resource-policy:
+      - same-origin
+      date:
+      - Wed, 18 Sep 2024 09:11:51 GMT
+      expires:
+      - '0'
+      origin-agent-cluster:
+      - ?1
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '5'
+      ratelimit-policy:
+      - 5;w=60
+      ratelimit-remaining:
+      - '4'
+      ratelimit-reset:
+      - '60'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '8'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 05a66ef1-198b-4847-903a-e89368c71a0b
+      x-xss-protection:
+      - '0'
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query":"UNKNOWN_TICKER"}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '26'
+      content-type:
+      - application/json
+      host:
+      - api.openfigi.com
+      user-agent:
+      - python-httpx/0.27.2
+    method: POST
+    uri: https://api.openfigi.com/v3/filter
+  response:
+    content: '{"data":[],"total":0}'
+    headers:
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';font-src ''self'' https: data:;form-action
+        ''self'';frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      content-type:
+      - application/json; charset=utf-8
+      cross-origin-opener-policy:
+      - same-origin
+      cross-origin-resource-policy:
+      - same-origin
+      date:
+      - Wed, 18 Sep 2024 09:11:51 GMT
+      expires:
+      - '0'
+      origin-agent-cluster:
+      - ?1
+      pragma:
+      - no-cache
+      ratelimit-limit:
+      - '5'
+      ratelimit-policy:
+      - 5;w=60
+      ratelimit-remaining:
+      - '3'
+      ratelimit-reset:
+      - '60'
+      referrer-policy:
+      - no-referrer
+      server:
+      - istio-envoy
+      strict-transport-security:
+      - max-age=63244800; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-envoy-upstream-service-time:
+      - '6'
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 6797ccc7-d37b-4932-8a37-ed51f80d22f7
+      x-xss-protection:
+      - '0'
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1
