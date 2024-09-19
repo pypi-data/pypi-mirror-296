@@ -1,0 +1,11 @@
+Django>=4.2
+Wagtail>=5.2
+django-storages[boto3]<2
+
+[testing]
+coverage==7.5.2
+factory_boy==3.3.0
+moto[s3]<6,>=5
+black==24.4.2
+isort
+flake8
