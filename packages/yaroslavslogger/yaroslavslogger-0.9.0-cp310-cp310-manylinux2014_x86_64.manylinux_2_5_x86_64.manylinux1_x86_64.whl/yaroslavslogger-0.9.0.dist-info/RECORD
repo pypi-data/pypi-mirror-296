@@ -1,0 +1,11 @@
+yaroslavslogger-0.9.0.dist-info/RECORD,,
+yaroslavslogger-0.9.0.dist-info/METADATA,sha256=NzC3BAHWGD-o-EEj7JZlz0Db5wifF1xVU3J5r3aahQo,634
+yaroslavslogger-0.9.0.dist-info/top_level.txt,sha256=Wl0wmahcc-C505F32kPPTz_gUrEh0VUwKmIveT8s3mI,16
+yaroslavslogger-0.9.0.dist-info/WHEEL,sha256=EP7peF0ovz65NOREuCwOrWJQ-kcV_vZG6Ykeje-8ME8,186
+yaroslavslogger-0.9.0.dist-info/LICENSE,sha256=opQJTyucXp4aJ5-SWHje9UuM6n2HjyqcytFtv1G1BHY,1067
+yaroslavslogger/__init__.py,sha256=_wkIHSOFLv9uXrCOpDHkwFOAjanJaTve51K-MRdfhLw,70
+yaroslavslogger/mlog.py,sha256=WJe1b2FvYON4hUJ-A9N2TByTp0w8LFvn7XKMyMxgC7s,798
+yaroslavslogger/utilmodule.c,sha256=6Ft1T9mg0KX6ogCRQOXFpswI5fs8kID9CYpnRfHWmss,2628
+yaroslavslogger/utilmodule.cpython-310-x86_64-linux-gnu.so,sha256=TtpJ4--cbP6tz0ouxDMB_PEClxYEYlBMmAR1_UwMyGw,26288
+yaroslavslogger/greetings.py,sha256=1ThtgGaLOTnrVwmop7GNsjpp2lwlYHqi-Bd9Hdgn2z8,1396
+yaroslavslogger/compiled_libraries/libstring_length.so,sha256=FvyVIM71pNBZPEps7oSW-711V2yqhGmjMN-4ZKSBNCA,15512
