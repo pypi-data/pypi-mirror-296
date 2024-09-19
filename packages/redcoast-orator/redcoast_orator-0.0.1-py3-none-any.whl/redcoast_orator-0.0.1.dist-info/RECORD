@@ -1,0 +1,16 @@
+orator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orator/launch.py,sha256=QyVUSkh6CA77nKX6CP3CNSK86kBzANaSTOs9Xv5LqUU,4935
+orator/agents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orator/agents/lite.py,sha256=3_fJBcETPD5IA914KUYWXMGTM2YUHfZcdOmFCBz57tU,7621
+orator/chains/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orator/chains/chitchat.py,sha256=tmlCWQojNCyme0JpDsm2BT5bt5d_xlJYBf1IWTAmQTc,2010
+orator/chains/code.py,sha256=VpZl8GsGxlOBUz26qzQRXxugrruk5X-xi6Qr1Jjfz2o,5714
+orator/chains/docs.py,sha256=GWoKeozBdoahsA1rwxZSu2WlXQ_PPUMPGvU5j9GyVgg,7989
+orator/chains/query_router.py,sha256=AdML-LqYVKQ4HRklWxr8YjZNrdvMg2CLFGTroeWnrG4,1923
+orator/vectorstores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orator/vectorstores/chroma.py,sha256=86BcGNHhGxQHY8cASCKEStySEXQ08GJ4BEKQ7wSSRqY,3645
+redcoast_orator-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+redcoast_orator-0.0.1.dist-info/METADATA,sha256=o9TSBQOks-2hiZsrL26rsLAGMRqvew6ENIt_VSaOuCU,2334
+redcoast_orator-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+redcoast_orator-0.0.1.dist-info/top_level.txt,sha256=l3sr53QR4DWTbfqvuvsi0pyDu0QCALODwyb4i-20wiI,7
+redcoast_orator-0.0.1.dist-info/RECORD,,
