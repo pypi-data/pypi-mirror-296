@@ -1,0 +1,10 @@
+j2gpt/__init__.py,sha256=VLd8Coept7g-30Vrygq40vkQ_vQcXDi9A8mgfM3Xyzk,29
+j2gpt/template.py,sha256=tVunzg-AmfUOrA9vCTze94WmO9iX3QF3yav31eXIrhY,1858
+j2gpt/tcp/__init__.py,sha256=NxtMF2AqchJJRHL4Y1TLCSxI8yl8fHJVQyVse7WJgXs,36
+j2gpt/tcp/client.py,sha256=9D_Ceb3X-zI3NMVPXee7hxJSP512J4w6lbXRZMjyguI,1185
+j2gpt/tcp/manager.py,sha256=nHQjWoEDxvsXxegZY7zOCEK7YUUdjkxGMMYX21Ga4mQ,730
+j2gpt_template-0.1.0.dist-info/LICENSE.txt,sha256=xW5Iy2kIPRiKg_TTpHyJkJbYZ7--5-3KE5Ja5xNmgpo,1091
+j2gpt_template-0.1.0.dist-info/METADATA,sha256=WoAXuwCIA2kZ6vdWHA8sA0sbQg75Vj_2ypFuz-eY3i4,788
+j2gpt_template-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+j2gpt_template-0.1.0.dist-info/top_level.txt,sha256=samdb-oOMvdUCBIdlle8uZ-iz4MdI9YfEQWPF_goXDk,6
+j2gpt_template-0.1.0.dist-info/RECORD,,
