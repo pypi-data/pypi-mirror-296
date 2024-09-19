@@ -1,0 +1,24 @@
+[project]
+name = "pyshover"
+version = "0.0.1"
+description = "Quickly send Pushover messages"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["pushover", "notifications"]
+authors = [
+  {email = "scott@invisiblethreat.ca"},
+  {name = "Scott Walsh"}
+]
+maintainers = [
+  {email = "scott@invisiblethreat.ca"},
+  {name = "Scott Walsh"}
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+homepage = "https://github.com/invisiblethreat/pyshover"
+documentation = "https://github.com/invisiblethreat/pyshover/blob/main/README.md"
+repository = "https://github.com/invisiblethreat/pyshover"
