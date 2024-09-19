@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: coloriseq
+Version: 0.1.0
+Summary: Colorises fasta files with given patterns and/or polyA with revcomp
+License: MIT
+Author: Dmitry Solovey
+Author-email: dsolovey@ist.ac.at
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: biopython (>=1.84,<2.0)
+Description-Content-Type: text/markdown
+
+# colorize-fasta
+Colorize fasta files with given patterns and annotate polyA/polyT
+
