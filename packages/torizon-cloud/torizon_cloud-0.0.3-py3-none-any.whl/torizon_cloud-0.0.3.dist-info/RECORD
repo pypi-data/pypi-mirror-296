@@ -1,0 +1,8 @@
+torizon_cloud/__init__.py,sha256=GW8c99cJj8e8AhrTgHVRPas5msSHNaaGlI_HZlplBkY,40
+torizon_cloud/torizon-openapi.yaml,sha256=ZBoMh9KB2NLgCxGyJUlwXPU14DQcZh-uuXk1orDkgMA,80000
+torizon_cloud/torizon_api.py,sha256=Zdz7bKuLWqC-0SwNFfY76fa0uBEE9VgziRkRmumG6tc,3484
+torizon_cloud/torizon_cloud.py,sha256=sVPay5GfwxaAsaeAKsBfww1ZqAusRacKEqxBNEH3w5s,11031
+torizon_cloud-0.0.3.dist-info/METADATA,sha256=c_35O9zMbeG62LUSUVQvPwL5CvQ9HR83XGRSTaTF0ek,4776
+torizon_cloud-0.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+torizon_cloud-0.0.3.dist-info/licenses/LICENSE,sha256=_OdLQ2u5qdOYjf2W1yeHRHyUTOVmME0F0A5USFZLvb0,1070
+torizon_cloud-0.0.3.dist-info/RECORD,,
