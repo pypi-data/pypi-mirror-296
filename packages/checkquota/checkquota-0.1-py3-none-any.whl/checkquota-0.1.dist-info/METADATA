@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: checkquota
+Version: 0.1
+Summary: A python script that allows users to check current storage and storage limits
+Author: Halle Derry
+Author-email: Halle.Derry@noaa.gov
+License: MIT
+License-File: LICENSE
+
+A python script that allows user to check current storage and storage limits on gaea system. Provides output which includes home quota, gpfs quota, and total data usage
