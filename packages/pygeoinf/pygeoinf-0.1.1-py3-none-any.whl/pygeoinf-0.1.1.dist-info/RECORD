@@ -1,0 +1,12 @@
+pygeoinf/Rn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygeoinf/Rn/sobolev.py,sha256=L3dUDFsC4mz_zmHF9qU4tvKJEacyeSTY9-9TkrB7pYA,35
+pygeoinf/S2/__init__.py,sha256=TaPEzVt5cHbS2mmW83B7lfaVKDqToJHyrBK8I_y6nbA,156
+pygeoinf/S2/l2.py,sha256=lOcxnI7-K4ECOvxVH4421wbIgPoDeve9eSHQVwcHvSs,774
+pygeoinf/S2/sobolev.py,sha256=CwoA2FcULO1IACSLws98qzPykc8-xG0BCqE2RS2FMYU,12107
+pygeoinf/S2/spherical_harmonic_space.py,sha256=YXr25w1eT5V1-KTI2xWbR2IC1LsDw_4_MVXcGkI0Uhk,5389
+pygeoinf/__init__.py,sha256=VFw4sJIt4Zc0-__eYnksN8Ku9qMhbPpHJEkXMWUiD30,4
+pygeoinf/linalg.py,sha256=6g20bIrP6obToXTQOU6x4OqZwumwyUkZltGSAjwVsFE,36829
+pygeoinf/sphere.py,sha256=wJk9k02VgjDp59eYGKh13uBvrRDyGyh9oXla9qI9EWQ,7702
+pygeoinf-0.1.1.dist-info/METADATA,sha256=wAGhbuWm6ERq6bWUVUQ-D6hzMx5l6jsazenyEMkUUto,815
+pygeoinf-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pygeoinf-0.1.1.dist-info/RECORD,,
