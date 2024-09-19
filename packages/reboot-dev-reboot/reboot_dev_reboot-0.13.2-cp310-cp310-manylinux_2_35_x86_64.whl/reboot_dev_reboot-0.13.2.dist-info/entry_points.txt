@@ -1,0 +1,9 @@
+[console_scripts]
+protoc-gen-es_with_deps = rbt.protoc_gen_es_with_deps:main
+protoc-gen-mypy = rbt.protoc_gen_mypy_wrapper:main
+protoc-gen-reboot_nodejs = rbt.protoc_gen_reboot_nodejs:main
+protoc-gen-reboot_nodejs_boilerplate = rbt.protoc_gen_reboot_nodejs_boilerplate:main
+protoc-gen-reboot_python = rbt.protoc_gen_reboot_python:main
+protoc-gen-reboot_python_boilerplate = rbt.protoc_gen_reboot_python_boilerplate:main
+protoc-gen-reboot_react = rbt.protoc_gen_reboot_react:main
+rsm = rbt.cli.rsm_main:main
