@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fgmkr
+Version: 0.3.0
+Summary: Custom Figure Auto Formatter
+Author: Chickenfysh
+Author-email: iamchicken_3401@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+FIGURE GENERATOR
