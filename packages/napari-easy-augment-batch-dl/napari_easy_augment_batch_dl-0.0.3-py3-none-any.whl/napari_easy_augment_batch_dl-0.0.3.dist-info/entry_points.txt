@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-easy-augment-batch-dl = napari_easy_augment_batch_dl:napari.yaml
