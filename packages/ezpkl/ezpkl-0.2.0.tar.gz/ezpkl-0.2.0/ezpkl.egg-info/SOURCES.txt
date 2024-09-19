@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+ezpkl/__init__.py
+ezpkl/pickling.py
+ezpkl/refrigerator.py
+ezpkl/texting.py
+ezpkl.egg-info/PKG-INFO
+ezpkl.egg-info/SOURCES.txt
+ezpkl.egg-info/dependency_links.txt
+ezpkl.egg-info/top_level.txt
+tests/__init__.py
+tests/test_ezpkl.py
+tests/test_texting.py
