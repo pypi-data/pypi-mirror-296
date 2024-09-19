@@ -1,0 +1,5 @@
+ngsolve==6.2.2403
+netgen
+scipy
+numpy
+matplotlib
