@@ -1,0 +1,6 @@
+pyproject.toml
+src/mkdstk/__init__.py
+src/mkdstk.egg-info/PKG-INFO
+src/mkdstk.egg-info/SOURCES.txt
+src/mkdstk.egg-info/dependency_links.txt
+src/mkdstk.egg-info/top_level.txt
