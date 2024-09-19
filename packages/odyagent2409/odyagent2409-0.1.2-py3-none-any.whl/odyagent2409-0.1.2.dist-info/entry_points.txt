@@ -1,0 +1,2 @@
+[console_scripts]
+orx = cli_jgmarxiv:main
