@@ -1,0 +1,11 @@
+gravy/__init__.py,sha256=eobv4WQCQUrBiGo_Mj9YWRwscrXOsE3uG7W-o76U8_o,1307
+gravy/__main__.py,sha256=ZLrc9MoL8J0Zr9Q_lCTRYe71b2J4RUVsKcUQ_9JyXWw,62
+gravy/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gravy/test/test_gravy.py,sha256=YN43XW9TQWgJGY9lYuXAstzf52HMpBLmRCVvm56oqds,2958
+gravy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gravy/tests/test_1984.py,sha256=GPfy8FPaGbj-w9uGHkJYSjmlSReVAXwiHS8JydJaERw,187
+gravy-1.0.10.dist-info/LICENSE.txt,sha256=4_wW1qomV3dbE2RahXvz_BOPr_JNzdKxC90VCXXc74o,1086
+gravy-1.0.10.dist-info/METADATA,sha256=GqBrvDFqcWGDnuBkY-hEe8CLnoqNMT6mSC1XqSInmgY,3043
+gravy-1.0.10.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+gravy-1.0.10.dist-info/top_level.txt,sha256=kKMkCsCHCr1rgKE7pFGO1w6kwZNZhFBfhhZjmf0XCj8,6
+gravy-1.0.10.dist-info/RECORD,,
