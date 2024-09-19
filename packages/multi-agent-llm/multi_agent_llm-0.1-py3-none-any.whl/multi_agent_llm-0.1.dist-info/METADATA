@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: multi_agent_llm
+Version: 0.1
+Summary: LLM Multi-Agent implementation.
+Author: Agnostiq Inc
+Author-email: contact@agnostiq.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: openai >=1.46.0
+Requires-Dist: pydantic
+
